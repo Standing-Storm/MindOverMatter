@@ -1,13 +1,13 @@
 # Mind Over Matter
 A WIP Psionics mod for Cataclysm: Darker Days Ahead
 
-This mod adds (currently) five separate psionic power paths to Cataclysm, including:
+This mod adds (currently) six separate psionic power paths to Cataclysm, including:
 
-1) Biokinesis - Control of autonomic processes 
-2) Clairisentience
-3) Telekinesis
-4) Telepathy
-5) Teleportation
+1) Biokinesis - Control of the body. Biokinetics can become stronger and faster than an ordinary human, and even  
+2) Clairisentience - Extending the senses beyond the body. 
+3) Telekinesis - Moving objects at a distance. 
+4) Telepathy - Control of the mind. 
+5) Teleportation - Moving without crossing the intervening distance. 
 6) Vitakinesis - Control of health and 
 
 The goal is for each path to be upgraded through usage, since sitting and studying a book for hours doesn't really fit the fiction of improving psychic powers. Powers are gained progressively, with increasing mastery of lower-tier powers unlocking new ones. 
@@ -25,4 +25,4 @@ DISADVANTAGES
 
 LORE
 
-While XEDRA was the main government organization investigating the Nethereum, 
+When the government began noticing that some XEDRA explorers of alternate dimensions returned with anomalous capabilities, Project PHAVIAN was founded to study these in full. Within the year, this led to the discover of latent psychic powers in a portion of humanity. On Earth these were minor, almost trivial--the ability to always find your lost keys or know the next sentence someone is going to say moments before they do are useful powers but not lifechanging--but exposure to extra-dimensional energy seemed to increase psionic power. A PHAVIAN test subject who on Earth could manipulate a quarter to make sure it always landed heads up could 
