@@ -12,7 +12,14 @@
     "warmth": 0,
     "material_thickness": 3,
     "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "ALLOWS_NATURAL_ATTACKS", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ "BONUS_BLOCK": 1] } ] },
+    "relic_data": { "passive_effects": [
+     { "has": "WORN", "condition": "ALWAYS", "values": [
+      { "value": "BONUS_BLOCK", "add": 1},
+          { "value": "ARMOR_CUT", "add": -5 },
+          { "value": "ARMOR_BASH", "add": -10 },
+          { "value": "ARMOR_STAB", "add": -5 },
+          { "value": "ARMOR_BULLET", "add": -10 }                                   
+      ] } ] },
     "armor": [
       {
         "encumbrance": 0,
