@@ -4,7 +4,7 @@ A WIP Psionics mod for Cataclysm: Darker Days Ahead (current status: adding powe
 This mod adds (currently) seven separate psionic power paths to Cataclysm, including:
 
 1) Biokinesis - Control of the body. Biokinetics can become stronger and faster than an ordinary human, and even  
-2) Clairisentience - Extending the senses beyond the body. 
+2) Clairsentience - Extending the senses beyond the body. 
 3) Pyrokinesis - Manipulating fire and heat. 
 4) Telekinesis - Moving objects at a distance. 
 5) Telepathy - Control of the mind. 
