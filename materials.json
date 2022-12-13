@@ -1,0 +1,24 @@
+[
+  {
+    "type": "material",
+    "id": "telekinetic_force",
+    "name": "Telekinetic Force",
+    "density": 1.5,
+    "specific_heat_liquid": 0.82,
+    "specific_heat_solid": 0.45,
+    "latent_heat": 273,
+    "soft": true,
+    "reinforces": true,
+    "bash_resist": 14,
+    "cut_resist": 18,
+    "bullet_resist": 14,
+    "acid_resist": 4,
+    "fire_resist": 0,
+    "elec_resist": 2,
+    "chip_resist": 15,
+    "breathability": "SECOND_SKIN",
+    "dmg_adj": [ "damaged", "strained", "assaulted", "eradicated"  ],
+    "bash_dmg_verb": "rippled",
+    "cut_dmg_verb": "pierced"
+  }
+]

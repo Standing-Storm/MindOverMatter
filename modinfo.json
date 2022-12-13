@@ -1,0 +1,19 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "mindovermatter",
+    "name": "Mind Over Matter",
+    "authors": [ "StandingStorm" ],
+    "maintainers": [ "StandingStorm" ],
+    "description": "Psionic powers for Cataclysm",
+    "category": "content",
+    "dependencies": [ "dda" ]
+  },
+  {
+    "type": "skill",
+    "id": "psionic_skill",
+    "name": "psionics",
+    "display_category": "display_ranged",
+    "description": "Your skill in psionics. With this skill you can read minds, move objects without touching them, cross distances in the blink of an eye, and more."
+  }
+]
