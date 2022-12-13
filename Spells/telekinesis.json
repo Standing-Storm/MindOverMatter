@@ -159,7 +159,7 @@
     "base_casting_time": 200,
     "final_casting_time": 75,
     "casting_time_increment": -6.25,
-    "extra_effects": [ { "id": "tele_explosion_damage", "hit_self": false, "max_level": 20 } ]
+    "extra_effects": [ { "id": "tele_explosion_damage", "hit_self": false, "max_level": 20 } ],
     "sound_type": "combat",
     "sound_description": "a crash",
   },
