@@ -22,8 +22,8 @@
     ]
   },
  {
-    "id": "telepathic_learning bonus",
-    "type": "ARMOR",
+    "id": "telepathic_learning_bonus",
+    "type": "ITEM",
     "name": "Trance state",
     "description": "You are in a focused mental state, increasing the ease of learning.",
     "weight": "1g",
@@ -34,7 +34,33 @@
     "warmth": 0,
     "material_thickness": 3,
     "flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ "LEARNING_FOCUS": 50 ] } ] },
+    "relic_data": { "passive_effects": [ { "has": "HELD", "condition": "ALWAYS", "values": [ { "value": "LEARNING_FOCUS", "add": 50 } ] } ] },
+    "armor": [
+      {
+        "encumbrance": 0,
+        "coverage": 0,
+        "covers": [ "head" ]
+      }
+    ]
+  },
+  {
+    "id": "telepathic_jedi_trick",
+    "type": "ITEM",
+    "name": "Telepathic suggestions",
+    "description": "You are extremely convincing.",
+    "weight": "1g",
+    "volume": "1ml",
+    "price": 70000,
+    "symbol": "O",
+    "color": "light_gray",
+    "warmth": 0,
+    "material_thickness": 3,
+    "flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
+    "relic_data": { "passive_effects": [ { "has": "HELD", "condition": "ALWAYS", "values": [ 
+        { "value": "SOCIAL_INTIMIDATE", "add": 25 },
+        { "value": "SOCIAL_LIE", "add": 25 },
+        { "value": "SOCIAL_PERSUADE", "add": 25 },] 
+                                         } ] },
     "armor": [
       {
         "encumbrance": 0,
