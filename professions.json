@@ -4,19 +4,51 @@
     "id": "telekinetic_testsubject",
     "name": "Test Subject, Project GOTTERDAMMERUNG",
     "description": "Before the Cataclysm, you were 'volunteered' for a top-secret military project. They never told you what all the injections and EEGs and hours of staring at a quarter on the table were supposed to accomplish, but now that you can move things with your mind you have a pretty good idea what they were aiming at.",
-    "points": 1,
-    "skills": [ { "level": 2, "name": "psionic_skill" } ],
+    "points": 3,
+    "skills": [ 
+      { "level": 2, "name": "psionic_skill" },
+      { "level": 2, "name": "gun" },
+      { "level": 2, "name": "pistol" }
+      
+    ],
     "spells": [ 
-                { "id": "telekinetic_shove", "level": 5 }, 
-                { "id": "telekinetic_pull", "level": 3 }, 
-                { "id": "telekinetic_wave", "level": 1 } 
+      { "id": "telekinetic_shove", "level": 5 },
+      { "id": "telekinetic_pull", "level": 3 },
+      { "id": "telekinetic_wave", "level": 1 } 
       ],
     "items": {
       "both": {
-        "items": [ "pants_army", "gloves_light", "army_top", "boots_combat", "socks" ],
-        "entries": [ { "item": "water_clean", "container-item": "canteen" } ]
+        "items": [ "pants_army", "gloves_tactical", "army_top", "boots_combat", "socks" ],
+        "entries": [ { "item": "water_clean", "container-item": "canteen" },
+                    { "item": "knife_combat", "container-item": "sheath" ]
       },
       "male": [ "boxer_briefs" ],
+      "female": [ "bra", "panties" ]
+    }
+  },
+    {
+    "type": "profession",
+    "id": "psi_pyrokinetic",
+    "name": "Firestarter",
+    "description": "Fire always fascinated you. The fires you set almost got you arrested a few times, but the urge was just too powerful. It was like they were calling to you, urging you to create them. And ever since the sky broke, you can create fire with merely a thought. .",
+    "points": 2,
+    "skills": [ 
+      { "level": 1, "name": "psionic_skill" }, 
+      { "level": 2, "name": "cooking" } ],
+    "spells": [ 
+      { "id": "pyrokinetic_firestarting", "level": 4 },
+      { "id": "pyrokinetic_eruption", "level": 3 }                 
+      ],
+    "items": {
+      "both": {
+        "items": [ "socks", "jeans", "sneakers" ],
+        "entries": [ 
+          { "item": "tshirt", "variant": "generic_tshirt" },
+          { "item": "lighter", "charges": 100 },
+          { "item": "lighter", "charges": 100 },
+          { "group": "charged_matches" } ]
+      },
+      "male": [ "boxer_shorts" ],
       "female": [ "bra", "panties" ]
     }
   }
