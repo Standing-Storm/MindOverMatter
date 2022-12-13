@@ -17,7 +17,7 @@
     "elec_resist": 2,
     "chip_resist": 15,
     "breathability": "SECOND_SKIN",
-    "dmg_adj": [ "damaged", "strained", "assaulted", "eradicated"  ],
+    "dmg_adj": [ "damaged", "strained", "fractured", "eradicated"  ],
     "bash_dmg_verb": "rippled",
     "cut_dmg_verb": "pierced"
   }
