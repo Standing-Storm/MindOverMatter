@@ -30,7 +30,7 @@
   },
  {
     "id": "telepathic_learning_bonus",
-    "type": "ITEM",
+    "type": "ARMOR",
     "name": "Trance state",
     "description": "You are in a focused mental state, increasing the ease of learning.",
     "weight": "1g",
@@ -52,7 +52,7 @@
   },
   {
     "id": "telepathic_jedi_trick",
-    "type": "ITEM",
+    "type": "ARMOR",
     "name": "Telepathic suggestions",
     "description": "You are extremely convincing.",
     "weight": "1g",
@@ -78,9 +78,10 @@
   },
  {
     "id": "pyrokinetic_glow",
-    "type": "ITEM",
-    "name": "Trance state",
-    "description": "The air around you is glowing softly.",
+    "type": "ARMOR",
+    "category": "tools",
+    "name": "Glowing Aura",
+    "description": "The air around you is glowing softly. With but a thought you can suppress it or restore it.",
     "weight": "1g",
     "volume": "1ml",
     "price": 70000,
@@ -88,19 +89,11 @@
     "color": "red",
     "warmth": 0,
     "material_thickness": 3,
-    "flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
-    "relic_data": { "passive_effects": [ { "has": "HELD", "condition": "ALWAYS", "values": [ { "value": "LUMINANCE", "add": 4 } ] } ] },
+    "flags": [ "PERSONAL", "SEMITANGIBLE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "LIGHT_200" ],
     "armor": [
       {
-        "encumbrance": 0,
-        "coverage": 0,
-        "covers": [ "l_arm" ]
+        "covers": [ "arm_l" ]
       }
     ]
-  },
- 
- 
- 
- 
- 
+  }
 ]
