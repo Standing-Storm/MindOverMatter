@@ -36,8 +36,8 @@
     "weight": "1g",
     "volume": "1ml",
     "price": 70000,
-    "symbol": "O",
-    "color": "light_gray",
+    "symbol": "M",
+    "color": "blue",
     "warmth": 0,
     "material_thickness": 3,
     "flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
@@ -58,8 +58,8 @@
     "weight": "1g",
     "volume": "1ml",
     "price": 70000,
-    "symbol": "O",
-    "color": "light_gray",
+    "symbol": "C",
+    "color": "white",
     "warmth": 0,
     "material_thickness": 3,
     "flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
@@ -75,7 +75,29 @@
         "covers": [ "head" ]
       }
     ]
-  }
+  },
+ {
+    "id": "pyrokinetic_glow",
+    "type": "ITEM",
+    "name": "Trance state",
+    "description": "The air around you is glowing softly.",
+    "weight": "1g",
+    "volume": "1ml",
+    "price": 70000,
+    "symbol": "l",
+    "color": "red",
+    "warmth": 0,
+    "material_thickness": 3,
+    "flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
+    "relic_data": { "passive_effects": [ { "has": "HELD", "condition": "ALWAYS", "values": [ { "value": "LUMINANCE", "add": 4 } ] } ] },
+    "armor": [
+      {
+        "encumbrance": 0,
+        "coverage": 0,
+        "covers": [ "l_arm" ]
+      }
+    ]
+  },
  
  
  
