@@ -62,7 +62,7 @@
     "type": "SPELL",
     "name": "Psionic Glow",
     "description": "Excite the air around you, shedding a soft light.",
-    "valid_targets": [ "NONE" ],
+    "valid_targets": [ "self" ],
     "spell_class": "NONE",
     "flags": [ "CONCENTRATE" ],
     "effect": "spawn_item",
