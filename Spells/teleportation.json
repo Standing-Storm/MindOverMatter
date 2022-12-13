@@ -1,0 +1,25 @@
+[
+  {
+    "id": "teleport_blink",
+    "type": "SPELL",
+    "name": "Blink",
+    "description": "Step briefly into the void between dimensions and emerge at a random nearby location.",
+    "valid_targets": [ "none" ],
+    "spell_class": "NONE",  
+    "flags": [ "CONCENTRATION", "SILENT" ],
+    "effect": "short_range_teleport",
+    "shape": "blast",
+    "difficulty": 1,
+    "max_level": 20,
+    "min_aoe": 5,
+    "max_aoe": 10,
+    "aoe_increment": 0.25,
+    "min_range": 25,
+    "max_range": 35,
+    "range_increment": 0.5,
+    "energy_source": "STAMINA",
+    "base_energy_cost": 2500,
+    "final_energy_cost": 300,
+    "energy_increment": -110
+  }
+]
