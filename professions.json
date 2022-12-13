@@ -1,7 +1,7 @@
 [
   {
     "type": "profession",
-    "id": "telekinetic_testsubject",
+    "id": "psi_telekinetic_testsubject",
     "name": "Test Subject, Project GOTTERDAMMERUNG",
     "description": "Before the Cataclysm, you were 'volunteered' for a top-secret military project. They never told you what all the injections and EEGs and hours of staring at a quarter on the table were supposed to accomplish, but now that you can move things with your mind you have a pretty good idea what they were aiming at.",
     "points": 3,
