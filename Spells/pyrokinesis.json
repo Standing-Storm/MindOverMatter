@@ -51,10 +51,30 @@
     "base_energy_cost": 4000,
     "final_energy_cost": 500,
     "energy_increment": -175,
-    "base_casting_time": 200,
-    "final_casting_time": 75,
-    "casting_time_increment": -6.25,
+    "base_casting_time": 100,
+    "final_casting_time": 35,
+    "casting_time_increment": -3.25,
     "sound_type": "combat",
     "sound_description": "a crackle"
+  },
+  {
+    "id": "pyrokinetic_light",
+    "type": "SPELL",
+    "name": "Psionic Glow",
+    "description": "Excite the air around you, shedding a soft light.",
+    "valid_targets": [ "NONE" ],
+    "spell_class": "NONE",
+    "flags": [ "CONCENTRATE" ],
+    "effect": "spawn_item",
+    "shape": "blast",
+    "difficulty": 1,
+    "max_level": 20,
+    "energy_source": "STAMINA",
+    "base_energy_cost": 1000,
+    "final_energy_cost": 50,
+    "energy_increment": -47.5,
+    "base_casting_time": 150,
+    "final_casting_time": 50,
+    "casting_time_increment": -5
   }
 ]
