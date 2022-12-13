@@ -66,6 +66,7 @@
     "spell_class": "NONE",
     "flags": [ "CONCENTRATE" ],
     "effect": "spawn_item",
+    "effect_str": "pyrokinetic_glow",
     "shape": "blast",
     "difficulty": 1,
     "max_level": 20,
