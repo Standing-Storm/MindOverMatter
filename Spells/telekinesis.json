@@ -163,6 +163,7 @@
     "sound_type": "combat",
     "sound_description": "a crash",
   },
+  {
   "id": "tele_explosion_damage",
     "type": "SPELL",
     "name": "Telekinesis Crush Enemy damage",
@@ -177,5 +178,5 @@
     "min_aoe": 3,
     "max_aoe": 6,
     "aoe_increment": 0.15
-}
- ]
+  }
+]
