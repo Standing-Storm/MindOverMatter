@@ -66,8 +66,8 @@
     "relic_data": { "passive_effects": [ { "has": "HELD", "condition": "ALWAYS", "values": [ 
         { "value": "SOCIAL_INTIMIDATE", "add": 25 },
         { "value": "SOCIAL_LIE", "add": 25 },
-        { "value": "SOCIAL_PERSUADE", "add": 25 },] 
-                                         } ] },
+        { "value": "SOCIAL_PERSUADE", "add": 25 }
+    ] } ] },
     "armor": [
       {
         "encumbrance": 0,
