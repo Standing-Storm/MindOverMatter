@@ -1,14 +1,15 @@
 # Mind Over Matter
 A WIP Psionics mod for Cataclysm: Darker Days Ahead (current status: adding powers) 
 
-This mod adds (currently) six separate psionic power paths to Cataclysm, including:
+This mod adds (currently) seven separate psionic power paths to Cataclysm, including:
 
 1) Biokinesis - Control of the body. Biokinetics can become stronger and faster than an ordinary human, and even  
 2) Clairisentience - Extending the senses beyond the body. 
-3) Telekinesis - Moving objects at a distance. 
-4) Telepathy - Control of the mind. 
-5) Teleportation - Moving without crossing the intervening distance. 
-6) Vitakinesis - Control of health and 
+3) Pyrokinesis - Manipulating fire and heat. 
+4) Telekinesis - Moving objects at a distance. 
+5) Telepathy - Control of the mind. 
+6) Teleportation - Moving without crossing the intervening distance. 
+7) Vitakinesis - Control of health and 
 
 The goal is for each path to be upgraded through usage, since sitting and studying a book for hours doesn't really fit the fiction of improving psychic powers. Powers are gained progressively, with increasing mastery of lower-tier powers unlocking new ones. 
 
