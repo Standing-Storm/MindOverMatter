@@ -30,7 +30,7 @@
     "type": "profession",
     "id": "psi_pyrokinetic",
     "name": "Firestarter",
-    "description": "Fire always fascinated you. The fires you set almost got you arrested a few times, but the urge was just too powerful. It was like they were calling to you, urging you to create them. And ever since the sky broke, you can create fire with merely a thought. .",
+    "description": "Fire always fascinated you. The fires you set almost got you arrested a few times, but the urge was just too powerful. It was like they were calling to you, urging you to create them. And ever since the sky broke, you can create fire with merely a thought.",
     "points": 2,
     "skills": [ 
       { "level": 1, "name": "psionic_skill" }, 
