@@ -12,7 +12,6 @@
     "min_damage": -1,
     "max_damage": -20,
     "damage_increment": -0.95,
-    "duration_increment": 1,
     "effect": "directed_push",
     "shape": "blast",
     "min_range": 1,
@@ -25,7 +24,7 @@
     "base_casting_time": 50,
     "final_casting_time": 10,
     "casting_time_increment": -2,
-    "learn_spells": { "telekinetic_shield": 3, "tele_pyrokinesis": 8 }
+    "learn_spells": { "telekinetic_shield": 3 }
   }, 
   {
     "id": "telekinetic_shove",
@@ -40,7 +39,6 @@
     "min_damage": 1,
     "max_damage": 20,
     "damage_increment": 0.95,
-    "duration_increment": 1,
     "effect": "directed_push",
     "shape": "blast",
     "min_range": 1,
@@ -53,7 +51,7 @@
     "base_casting_time": 50,
     "final_casting_time": 10,
     "casting_time_increment": -2,
-    "learn_spells": { "telekinetic_wave": 4, "tele_pyrokinesis": 8 }
+    "learn_spells": { "telekinetic_wave": 3 }
   },
   {
     "id": "telekinetic_wave",
@@ -62,17 +60,14 @@
     "description": "Unleash a telekinetic wave around you that indiscriminately knocks everything back.",
     "valid_targets": [ "hostile", "ground", "item" ],
     "spell_class": "NONE",
-    "flags": [ "CONCENTRATE" ],
+    "flags": [ "CONCENTRATE", "RANDOM_AOE" ],
     "difficulty": 1,
     "max_level": 20,
     "min_damage": 2,
     "max_damage": 10,
     "damage_increment": 0.4,
-    "duration_increment": 1,
     "effect": "directed_push",
     "shape": "blast",
-    "min_range": 0,
-    "max_range": 0,
     "energy_source": "STAMINA",
     "base_energy_cost": 2000,
     "final_energy_cost": 200,
@@ -80,7 +75,7 @@
     "base_casting_time": 50,
     "final_casting_time": 10,
     "casting_time_increment": -2,
-    "learn_spells": { "telekinetic_hammer": 5 }
+    "learn_spells": { "telekinetic_hammer": 3, "tele_explosion": 5 }
   },
   {
     "id": "telekinetic_hammer",
@@ -98,10 +93,9 @@
     "max_damage": 50,
     "damage_type": "bash",
     "damage_increment": 2,
-    "duration_increment": 1,
-    "min_range": 1,
+    "min_range": 3,
     "max_range": 10,
-    "range_increment": 0.45,
+    "range_increment": 0.35,
     "energy_source": "STAMINA",
     "base_energy_cost": 3000,
     "final_energy_cost": 100,
@@ -110,7 +104,8 @@
     "final_casting_time": 25,
     "casting_time_increment": -1.25,
     "sound_type": "combat",
-    "sound_description": "a thud"
+    "sound_description": "a thud",
+    "learn_spells": { "tele_explosion": 3 }
   }, 
   {
     "id": "telekinetic_shield",
@@ -125,8 +120,6 @@
     "shape": "blast",
     "difficulty": 1,
     "max_level": 20,
-    "min_damage": 1,
-    "max_damage": 1,
     "min_duration": 24000,
     "max_duration": 360000,
     "duration_increment": 16800,
@@ -139,30 +132,50 @@
     "casting_time_increment": -3.75
   },
   {
-    "id": "tele_pyrokinesis",
+    "id": "tele_explosion",
     "type": "SPELL",
-    "name": "Pyrokinesis",
-    "description": "Use a minute application of telekinesis to create flames at the target location.",
+    "name": "Telekinesis Crush",
+    "description": "A burst of telekinetic force indiscriminately shatters the terrain at the target location.",
     "valid_targets": [ "hostile", "ground" ],
     "spell_class": "NONE",
-    "flags": [ "CONCENTRATE", "LOUD", "NO_PROJECTILE", "IGNITE_FLAMMABLE" ],
-    "effect": "attack",
+    "flags": [ "CONCENTRATE", "LOUD", "NO_PROJECTILE", "EXTRA_EFFECTS_FIRST" ],
+    "effect": "bash",
     "shape": "blast",
-    "damage_type": "heat",
     "difficulty": 1,
     "max_level": 20,
     "min_damage": 30,
     "max_damage": 90,
     "damage_increment": 3,
-    "min_range": 1,
+    "min_range": 4,
     "max_range": 15,
     "range_increment": 1.4,
+    "min_aoe": 3,
+    "max_aoe": 6,
+    "aoe_increment": 0.15,
     "energy_source": "STAMINA",
     "base_energy_cost": 4000,
     "final_energy_cost": 500,
     "energy_increment": -175,
     "base_casting_time": 200,
     "final_casting_time": 75,
-    "casting_time_increment": -6.25
-  }
+    "casting_time_increment": -6.25,
+    "extra_effects": [ { "id": "tele_explosion_damage", "hit_self": false, "max_level": 20 } ]
+    "sound_type": "combat",
+    "sound_description": "a crash",
+  },
+  "id": "tele_explosion_damage",
+    "type": "SPELL",
+    "name": "Telekinesis Crush Enemy damage",
+    "description": "Damages enemies when you use Telekinetic Crush on the ground. If you have this you debugged it in.",
+    "valid_targets": [ "hostile", "ground" ],
+    "effect": "attack",
+    "shape": "blast",
+    "max_level": 20,
+    "min_damage": 50,
+    "max_damage": 100,
+    "damage_increment": 2.5,
+    "min_aoe": 3,
+    "max_aoe": 6,
+    "aoe_increment": 0.15
+}
  ]
