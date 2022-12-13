@@ -145,7 +145,7 @@
     "description": "Use a minute application of telekinesis to create flames at the target location.",
     "valid_targets": [ "hostile", "ground" ],
     "spell_class": "NONE",
-    "flags": [ "CONCENTRATE", "LOUD", "NO_PROJECTILE" ],
+    "flags": [ "CONCENTRATE", "LOUD", "NO_PROJECTILE", "IGNITE_FLAMMABLE" ],
     "effect": "attack",
     "shape": "blast",
     "damage_type": "heat",
