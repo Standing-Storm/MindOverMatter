@@ -1,0 +1,9 @@
+[
+  {
+    "type": "skill",
+    "id": "psionic_skill",
+    "name": { "str": "psionics" },
+    "display_category": "display_ranged",
+    "description": "Your skill in the practical application of psionics. With this skill you can read minds, move objects without touching them, cross distances in the blink of an eye, and more."
+  }
+]
