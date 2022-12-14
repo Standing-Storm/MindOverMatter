@@ -18,8 +18,11 @@
     "max_range": 35,
     "range_increment": 0.5,
     "energy_source": "STAMINA",
-    "base_energy_cost": 2500,
-    "final_energy_cost": 300,
-    "energy_increment": -110
+    "base_energy_cost": 1500,
+    "final_energy_cost": 100,
+    "energy_increment": -70,
+    "base_casting_time": 50,
+    "final_casting_time": 20,
+    "casting_time_increment": -1.5,
   }
 ]
