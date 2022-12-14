@@ -1,0 +1,10 @@
+[
+   {
+    "type": "mutation",
+    "id": "psy_jedi_convince",
+    "name": { "str": "Telepathic Suggestion" },
+    "points": 0,
+    "description": "You are subtly influencing the minds of the people you speak to.",
+    "social_modifiers": { "lie": 25, "persuade": 25, "intimidate": 25 }
+  }
+]
