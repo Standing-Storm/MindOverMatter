@@ -64,9 +64,9 @@
     "material_thickness": 3,
     "flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
     "relic_data": { "passive_effects": [ { "has": "HELD", "condition": "ALWAYS", "values": [ 
-        { "value": "SOCIAL_INTIMIDATE", "add": 25 },
-        { "value": "SOCIAL_LIE", "add": 25 },
-        { "value": "SOCIAL_PERSUADE", "add": 25 }
+        { "value": "SOCIAL_INTIMIDATE", "add": 2500 },
+        { "value": "SOCIAL_LIE", "add": 2500 },
+        { "value": "SOCIAL_PERSUADE", "add": 2500 }
     ] } ] },
     "armor": [
       {
@@ -89,7 +89,7 @@
     "color": "red",
     "warmth": 0,
     "material_thickness": 3,
-    "flags": [ "PERSONAL", "SEMITANGIBLE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "LIGHT_100" ],
+    "flags": [ "PERSONAL", "SEMITANGIBLE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "LIGHT_50" ],
     "armor": [
       {
         "covers": [ "arm_l" ]
