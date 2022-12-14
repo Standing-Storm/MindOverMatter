@@ -89,7 +89,7 @@
     "color": "red",
     "warmth": 0,
     "material_thickness": 3,
-    "flags": [ "PERSONAL", "SEMITANGIBLE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "LIGHT_200" ],
+    "flags": [ "PERSONAL", "SEMITANGIBLE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "LIGHT_100" ],
     "armor": [
       {
         "covers": [ "arm_l" ]
