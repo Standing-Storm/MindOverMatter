@@ -24,7 +24,7 @@
     "base_casting_time": 300,
     "final_casting_time": 150,
     "casting_time_increment": -7.5,
-    "learn_spells": { "telepathic_shield": 3 }
+    "learn_spells": { "telepathic_shield": 3, "telepathic_blast": 6 }
   },
    {
     "id": "telepathic_suggestion",
@@ -140,7 +140,8 @@
     "energy_increment": -130,
     "base_casting_time": 120,
     "final_casting_time": 75,
-    "casting_time_increment": -2.25
+    "casting_time_increment": -2.25,
+     "learn_spells": { "telepathic_suggestion": 3 }
   },
   {
     "id": "telepathic_shield",
@@ -166,6 +167,7 @@
     "energy_increment": -42.5,
     "base_casting_time": 100,
     "final_casting_time": 25,
-    "casting_time_increment": -3.75
+    "casting_time_increment": -3.75,
+    "learn_spells": { "telepathic_confusion": 6 }
   }
 ]
