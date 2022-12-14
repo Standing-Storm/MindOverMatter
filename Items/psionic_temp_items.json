@@ -77,7 +77,7 @@
     ]
   },
  {
-    "id": "pyrokinetic_glow",
+    "id": "pyrokinetic_glow_item",
     "type": "ARMOR",
     "category": "tools",
     "name": "Glowing Aura",
@@ -93,6 +93,31 @@
     "armor": [
       {
         "covers": [ "arm_l" ]
+      }
+    ]
+  },
+  {
+    "id": "pyrokinetic_cloak_item",
+    "type": "ARMOR",
+    "category": "tools",
+    "name": "Cloak of Flames",
+    "description": "The air around you has its temperature controlled.",
+    "weight": "1g",
+    "volume": "1ml",
+    "price": 70000,
+    "symbol": "{",
+    "color": "red",
+    "warmth": 0,
+    "material_thickness": 3,
+    "flags": [ "PERSONAL", "SEMITANGIBLE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "LIGHT_50" ],
+    "relic_data": { "passive_effects": [ { "has": "HELD", "condition": "ALWAYS", "values": [ 
+        { "value": "CLIMATE_CONTROL_HEAT", "add": 80 },
+        { "value": "ARMOR_HEAT", "add": 20 },
+        { "value": "ARMOR_COLD", "add": 40 }
+    ] } ] },
+    "armor": [
+      {
+        "covers": [ "torso" ]
       }
     ]
   }
