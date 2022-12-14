@@ -3,13 +3,13 @@ A WIP Psionics mod for Cataclysm: Darker Days Ahead (current status: adding powe
 
 This mod adds (currently) seven separate psionic power paths to Cataclysm, including:
 
-1) Biokinesis - Control of the body. Biokinetics can become stronger and faster than an ordinary human, and even  
-2) Clairsentience - Extending the senses beyond the body. 
-3) Pyrokinesis - Manipulating fire and heat. 
-4) Telekinesis - Moving objects at a distance. 
-5) Telepathy - Control of the mind. 
-6) Teleportation - Moving without crossing the intervening distance. 
-7) Vitakinesis - Control of health and 
+1) Biokinesis - Control of the body. Biokinetics can become stronger and faster than an ordinary human, and even change their form in limited ways.
+2) Clairsentience - Extending the senses beyond the body. Clairsentients can see in the dark and through walls, and eventually gain a bird's eye view of their surroundings.
+3) Pyrokinesis - Manipulating fire and heat. Pyrokinetics can start fires and protect themselves from heat, and even cover their whole body in raging flames to discourage attack
+4) Telekinesis - Moving objects at a distance. Telekinetics can pull objects to them and hurl their enemies away, and even collapse buildings or shield themselves with a barrier of telekinetic force. 
+5) Telepathy - Control of the mind. Telepaths can become more persuasive and shield their thoughts, and a powerful one can seize control of their enemies' minds.
+6) Teleportation - Moving without crossing the intervening distance. Teleporters can escape danger and move quickly, and at higher levels they can travel long distances across the ravaged earth. 
+7) Vitakinesis - Control of health and injury. Vitakinetics can bind their own wounds and speed healing, eventually recovering from even near-crippling injuries in moments. 
 
 The goal is for each path to be upgraded through usage, since sitting and studying a book for hours doesn't really fit the fiction of improving psychic powers. Powers are gained progressively, with increasing mastery of lower-tier powers unlocking new ones. 
 
@@ -17,7 +17,7 @@ ADVANTAGES
 
 1) Psionic powers are fast. Many powers take less than 100 moves to use, with high-level powers sometimes taking much less (a level 10 Telekinetic Hand takes only 10 moves!), reflecting that they are as fast as thought
 2) Powers use Stamina as their power source, meaning that a fully-charged psychic is only a five-minute breather away. 
-3) Powers are generally very quiet.
+3) Powers are generally very quiet (generally. Pyrokinesis is very loud)
 
 DISADVANTAGES
 
