@@ -144,7 +144,7 @@
     "id": "pyrokinetic_aura",
     "type": "SPELL",
     "name": "Pyrokinetic Aura",
-    "description": "Surround yourself with a cloud of flames, damaging anyone in melee combat with you.",
+    "description": "Surround yourself with a cloud of flames, damaging anyone in melee combat with you. The flames also produce light.",
     "valid_targets": [ "self" ],
     "spell_class": "NONE",
     "flags": [ "CONCENTRATE" ],
