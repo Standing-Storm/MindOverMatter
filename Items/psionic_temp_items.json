@@ -85,7 +85,7 @@
     "weight": "1g",
     "volume": "1ml",
     "price": 70000,
-    "symbol": "l",
+    "symbol": ",",
     "color": "red",
     "warmth": 0,
     "material_thickness": 3,
@@ -100,7 +100,7 @@
     "id": "pyrokinetic_cloak_item",
     "type": "ARMOR",
     "category": "tools",
-    "name": "Cloak of Flames",
+    "name": "Cloak of Warmth",
     "description": "The air around you has its temperature controlled.",
     "weight": "1g",
     "volume": "1ml",
@@ -115,6 +115,27 @@
         { "value": "ARMOR_HEAT", "add": 20 },
         { "value": "ARMOR_COLD", "add": 40 }
     ] } ] },
+    "armor": [
+      {
+        "covers": [ "torso" ]
+      }
+    ]
+  },
+   {
+    "id": "pyrokinetic_aura_item",
+    "type": "ARMOR",
+    "category": "tools",
+    "name": "Flaming Aura",
+    "description": "You are surrounded by flames.",
+    "weight": "1g",
+    "volume": "1ml",
+    "price": 70000,
+    "symbol": "O",
+    "color": "red",
+    "warmth": 0,
+    "material_thickness": 3,
+    "flags": [ "AURA", "SEMITANGIBLE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "LIGHT_50" ],
+    "relic_data": { "passive_effects": [ { "id": "enchant_pyrokinetic_aura" } ] },
     "armor": [
       {
         "covers": [ "torso" ]
