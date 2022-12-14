@@ -63,7 +63,7 @@
     "warmth": 0,
     "material_thickness": 3,
     "flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
-    "relic_data": { "passive_effects": [ { "has": "HELD", "condition": "ALWAYS", "mutation": "psy_jedi_convince" } ] },
+    "relic_data": { "passive_effects": [ { "has": "HELD", "condition": "ALWAYS", "mutation": "psi_jedi_convince" } ] },
     "armor": [
       {
         "encumbrance": 0,
