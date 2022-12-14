@@ -6,7 +6,7 @@
     "description": "Step briefly into the void between dimensions and emerge at a random nearby location.",
     "valid_targets": [ "none" ],
     "spell_class": "NONE",  
-    "flags": [ "CONCENTRATION", "SILENT" ],
+    "flags": [ "CONCENTRATE", "SILENT" ],
     "effect": "short_range_teleport",
     "shape": "blast",
     "difficulty": 1,
