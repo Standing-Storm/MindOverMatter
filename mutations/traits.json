@@ -1,0 +1,87 @@
+[
+    {
+    "type": "mutation",
+    "id": "BIOKINETIC",
+    "name": "Awakened Biokinetic",
+    "points": 0,
+    "description": "Control over bodily processes, biokinetics move just a little too smothly and gracefully.",
+    "starting_trait": false,
+    "purifiable": false,
+    "valid": false,
+    "cancels": [ "TELEPATH", "CLAIRSENTIENT" ],
+    "spells_learned": [ [ "pyrokinetic_firestarting", 1 ], [ "pyrokinetic_glow", 1] ]
+  },
+  {
+    "type": "mutation",
+    "id": "CLAIRSENTIENT",
+    "name": "Awakened Clairsentient",
+    "points": 0,
+    "description": "Extending the senses beyond the body, clairsentients always seem to be looking at something no one else can see.",
+    "starting_trait": false,
+    "purifiable": false,
+    "valid": false,
+    "cancels": [ "TELEPORTER", "TELEKINETIC" ],
+    "spells_learned": [ [ "pyrokinetic_firestarting", 1 ], [ "pyrokinetic_glow", 1] ]
+  },
+  {
+    "type": "mutation",
+    "id": "PYROKINETIC",
+    "name": "Awakened Pyrokinetic",
+    "points": 0,
+    "description": "The direct control of heat and fire, pyrokinetics tend to volatile and sometimes unstable.",
+    "starting_trait": false,
+    "purifiable": false,
+    "valid": false,
+    "cancels": [ "VITAKINETIC", "CLAIRSENTIENT" ],
+    "spells_learned": [ [ "pyrokinetic_firestarting", 1 ], [ "pyrokinetic_glow", 1] ]
+  },
+  {
+    "type": "mutation",
+    "id": "TELEPATH",
+    "name": "Awakened Telepath",
+    "points": 0,
+    "description": "The reading of other's minds, telepaths seem to struggle not to finish others' sentences.",
+    "starting_trait": false,
+    "purifiable": false,
+    "valid": false,
+    "cancels": [ "TELEPORTER", "TELEKINETIC" ],
+    "spells_learned": [ [ "telepathic_concentration", 1 ], [ "telepathic_shield", 1] ]
+  },
+  {
+    "type": "mutation",
+    "id": "TELEKINETIC",
+    "name": "Awakened Telekinetic",
+    "points": 0,
+    "description": "Moving objects and people at a distance, telekinetics are always fidgeting.",
+    "starting_trait": false,
+    "purifiable": false,
+    "valid": false,
+    "cancels": [ "BIOKINETIC", "PYROKINETIC" ],
+    "spells_learned": [ [ "telekinetic_pull", 1 ], [ "telekinetic_shove", 1] ]
+  },
+  {
+    "type": "mutation",
+    "id": "TELEPORTER",
+    "name": "Awakened Teleporter",
+    "points": 0,
+    "description": "Moving without crossing the intervening space, teleporters can never be in the same place for long.",
+    "starting_trait": false,
+    "purifiable": false,
+    "valid": false,
+    "cancels": [ "BIOKINETIC", "TELEPATH" ],
+    "spells_learned": [ [ "pyrokinetic_firestarting", 1 ], [ "pyrokinetic_glow", 1] ]
+  },
+    {
+    "type": "mutation",
+    "id": "VITAKINETIC",
+    "name": "Awakened Vitakinetic",
+    "points": 0,
+    "description": "Control of health and vitality, vitakinetics make everyone else look sickly.",
+    "starting_trait": false,
+    "purifiable": false,
+    "valid": false,
+    "cancels": [ "PYROKINETIC", "TELEKINETIC" ],
+    "spells_learned": [ [ "pyrokinetic_firestarting", 1 ], [ "pyrokinetic_glow", 1] ]
+  }
+]
+  
