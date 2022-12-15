@@ -44,7 +44,7 @@
     "starting_trait": false,
     "purifiable": false,
     "valid": false,
-    "cancels": [ "TELEPORTER", "TELEKINETIC" ],
+    "cancels": [ "BIOKINETIC", "TELEKINETIC" ],
     "spells_learned": [ [ "telepathic_concentration", 1 ], [ "telepathic_shield", 1] ]
   },
   {
@@ -56,7 +56,7 @@
     "starting_trait": false,
     "purifiable": false,
     "valid": false,
-    "cancels": [ "BIOKINETIC", "PYROKINETIC" ],
+    "cancels": [ "TELEPORTER", "PYROKINETIC" ],
     "spells_learned": [ [ "telekinetic_pull", 1 ], [ "telekinetic_shove", 1] ]
   },
   {
