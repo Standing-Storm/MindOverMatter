@@ -9,8 +9,8 @@
       { "level": 2, "name": "psionic_skill" },
       { "level": 2, "name": "gun" },
       { "level": 2, "name": "pistol" }
-      
     ],
+    "traits": [ "TELEKINETIC" ],
     "spells": [ 
       { "id": "telekinetic_shove", "level": 5 },
       { "id": "telekinetic_pull", "level": 3 },
@@ -31,10 +31,11 @@
     "id": "psi_pyrokinetic",
     "name": "Firestarter",
     "description": "Fire always fascinated you. The fires you set almost got you arrested a few times, but the urge was just too powerful. It was like they were calling to you, urging you to create them. And ever since the sky broke, you can create fire with merely a thought.",
-    "points": 2,
+    "points": 1,
     "skills": [ 
       { "level": 1, "name": "psionic_skill" }, 
       { "level": 2, "name": "cooking" } ],
+    "traits": [ "PYROMANIA", "PYROKINETIC" ],
     "spells": [ 
       { "id": "pyrokinetic_firestarting", "level": 4 },
       { "id": "pyrokinetic_eruption", "level": 3 }                 
