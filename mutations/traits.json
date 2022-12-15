@@ -20,7 +20,7 @@
     "starting_trait": false,
     "purifiable": false,
     "valid": false,
-    "cancels": [ "TELEPORTER", "TELEKINETIC" ],
+    "cancels": [ "TELEPORTER", "VITAKINETIC" ],
     "spells_learned": [ [ "pyrokinetic_firestarting", 1 ], [ "pyrokinetic_glow", 1] ]
   },
   {
