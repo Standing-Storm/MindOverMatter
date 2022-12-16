@@ -34,7 +34,7 @@
     "valid_targets": [ "self" ],
     "spell_class": "TELEPATH",
     "flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS" ],
-    "effect": "spawn_item",
+    "effect": "attack",
     "effect_str": "telepathic_psi_armor_effect",
     "shape": "blast",
     "difficulty": 1,
