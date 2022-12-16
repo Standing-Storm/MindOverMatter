@@ -50,7 +50,7 @@
     "final_casting_time": 70,
     "casting_time_increment": -13.333,
     "learn_spells": { "teleport_slow": 3 }
-	  }
+  },
   {
     "id": "teleport_farstep",
     "type": "SPELL",
