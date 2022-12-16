@@ -64,7 +64,7 @@
     "warmth": 0,
     "material_thickness": 3,
     "flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
-    "relic_data": { "passive_effects": [ { "has": "HELD", "condition": "ALWAYS", "mutation": "psi_jedi_convince" } ] },
+    "relic_data": { "passive_effects": [ { "has": "HELD", "condition": "ALWAYS", "mutation": "PSYJEDITRICK" } ] },
     "armor": [
       {
         "encumbrance": 0,
@@ -73,27 +73,6 @@
       }
     ]
   },
-	{
-	    "id": "telepathic_psi_armor",
-	    "type": "ARMOR",
-	    "name": "Telepathic suggestions",
-	    "description": "You are extremely convincing.",
-	    "weight": "1g",
-	    "volume": "1ml",
-	    "price": 70000,
-	    "symbol": "C",
-	    "color": "white",
-	    "material_thickness": 3,
-	    "flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
-	    "relic_data": { "passive_effects": [ { "has": "HELD", "condition": "ALWAYS", "mutation": "PSYJEDITRICK" } ] },
-	    "armor": [
-	      {
-	        "encumbrance": 0,
-	        "coverage": 0,
-	        "covers": [ "head" ]
-	      }
-	    ]
-	  },
  {
     "id": "pyrokinetic_glow_item",
     "type": "ARMOR",
