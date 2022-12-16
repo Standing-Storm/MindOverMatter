@@ -1,0 +1,12 @@
+[
+  {
+    "type": "effect_type",
+    "id": "night_eyes",
+    "name": [ "Night Eyes" ],
+    "desc": [ "You can sense your surroundings in the dark." ],
+    "apply_message": "Despite the darkness, you know what's out there.",
+    "remove_message": "The darkness hides your surroundings again.",
+    "rating": "good",
+    "flags": [ "NIGHT_VISION", "INFRARED" ]
+  }
+]
