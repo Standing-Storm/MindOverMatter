@@ -1,0 +1,24 @@
+[
+  {
+    "id": "clair_night_vision",
+    "type": "SPELL",
+    "name": "Night Eyes",
+    "description": "This power is less night vision and more simply knowing what's out there in the darkness.",
+    "valid_targets": [ "self" ],
+    "effect": "attack",
+    "effect_str": "night_eyes",
+    "shape": "blast",
+    "difficulty": 1,
+    "max_level": 20,
+    "energy_source": "STAMINA",
+    "base_energy_cost": 1000,
+    "final_energy_cost": 100,
+    "energy_increment": -150,
+    "min_duration": 30000,
+    "max_duration": 720000,
+    "duration_increment": 120000,
+    "base_casting_time": 50,
+    "final_casting_time": 20,
+    "casting_time_increment": -5,
+	  }
+  ]
