@@ -5,7 +5,7 @@
     "name": "Blink",
     "description": "Step briefly into the void between dimensions and emerge at a random nearby location.",
     "valid_targets": [ "none" ],
-    "spell_class": "NONE",  
+    "spell_class": "TELEPORTER",  
     "flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS" ],
     "effect": "short_range_teleport",
     "shape": "blast",
@@ -24,13 +24,39 @@
     "base_casting_time": 50,
     "final_casting_time": 20,
     "casting_time_increment": -5,
-    "learn_spells": { "teleport_longjump": 3 }
+    "learn_spells": { "teleport_farstep": 3, "teleport_slow": 6 }
   },
-    {
-    "id": "teleport_longjump",
+  {
+    "id": "teleport_dodge_power",
     "type": "SPELL",
-    "name": "Long Jump",
+    "name": "Flickerflash",
+    "description": "Through minute application of teleporting, you vanish as blows are about to strike you and reappear just out of range.",
+    "valid_targets": [ "self" ],
+    "spell_class": "TELEPORTER",
+    "flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS" ],
+    "effect": "spawn_item",
+    "effect_str": "teleport_dodge_item",
+    "shape": "blast",
+    "energy_source": "STAMINA",
+    "difficulty": 1,
+    "max_level": 20,
+    "min_damage": 1,
+    "max_damage": 1,
+    "base_energy_cost": 600,
+    "min_duration": 30000,
+    "max_duration": 360000,
+    "duration_increment": 55000,
+    "base_casting_time": 150,
+    "final_casting_time": 70,
+    "casting_time_increment": -13.333,
+    "learn_spells": { "teleport_slow": 3 }
+	  }
+  {
+    "id": "teleport_farstep",
+    "type": "SPELL",
+    "name": "Farstep",
     "description": "Skating along the void between dimensions, move to a specific place within line of sight.",
+    "message": "There is a moment of darkness and terrible cold, and you are somewhere else."
     "valid_targets": [ "ground" ],
     "spell_class": "NONE",  
     "flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS", "TARGET_TELEPORT" ],
@@ -50,5 +76,7 @@
     "base_casting_time": 75,
     "final_casting_time": 30,
     "casting_time_increment": -5.625,
+    "learn_spells": { "teleport_gateway": 3 }
   }
+  
 ]
