@@ -27,7 +27,7 @@
     "learn_spells": { "telekinetic_shield": 3, "telekinetic_explosion": 8 }
   }, 
   {
-    "id": "telekinetic_shove",
+    "id": "telekinetic_push",
     "type": "SPELL",
     "name": "Force Shove",
     "description": "Shove something away with a burst of psionic force.",
@@ -75,7 +75,7 @@
     "base_casting_time": 50,
     "final_casting_time": 10,
     "casting_time_increment": -5,
-    "learn_spells": { "telekinetic_hammer": 3, "tele_explosion": 5 }
+    "learn_spells": { "telekinetic_hammer": 3, "telekinetic_explosion": 5 }
   },
   {
     "id": "telekinetic_hammer",
