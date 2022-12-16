@@ -31,7 +31,7 @@
   {
     "id": "pyrokinetic_glow",
     "type": "SPELL",
-    "name": "Pyrokinetic Glow",
+    "name": "Radiance",
     "description": "Excite the air around you, shedding a soft light.",
     "valid_targets": [ "self" ],
     "spell_class": "NONE",
@@ -56,7 +56,7 @@
   {
     "id": "pyrokinetic_eruption",
     "type": "SPELL",
-    "name": "Pyrokinetic Eruption",
+    "name": "Fountain of Flames",
     "description": "Cause a burst of flames at the target location.",
     "valid_targets": [ "hostile", "ground" ],
     "spell_class": "NONE",
@@ -86,7 +86,7 @@
   {
     "id": "pyrokinetic_cloak",
     "type": "SPELL",
-    "name": "Pyrokinetic Cloak",
+    "name": "Cloak of Warmth",
     "description": "Control the temperature of the nearby air, warming you and protecting you against flames.",
     "valid_targets": [ "self" ],
     "spell_class": "NONE",
@@ -111,7 +111,7 @@
   {
     "id": "pyrokinetic_blast",
     "type": "SPELL",
-    "name": "Pyrokinetic Blast",
+    "name": "Conflagration",
     "description": "Create an expanding fireball that catches multiple targets in its wake.",
     "valid_targets": [ "hostile", "ground" ],
     "spell_class": "NONE",
@@ -143,7 +143,7 @@
   {
     "id": "pyrokinetic_aura",
     "type": "SPELL",
-    "name": "Pyrokinetic Aura",
+    "name": "Blazing Aura",
     "description": "Surround yourself with a cloud of flames, damaging anyone in melee combat with you. The flames also produce light.",
     "valid_targets": [ "self" ],
     "spell_class": "NONE",
