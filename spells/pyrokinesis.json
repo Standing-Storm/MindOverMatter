@@ -37,7 +37,7 @@
     "spell_class": "PYROKINETIC",
     "flags": [ "CONCENTRATE", "NO_HANDS", "NO_LEGS" ],
     "effect": "spawn_item",
-    "effect_str": "pyrokinetic_glow_item",
+    "effect_str": "pyrokinetic_glow_item", 
     "shape": "blast",
     "difficulty": 1,
     "max_level": 20,
