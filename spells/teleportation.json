@@ -58,7 +58,7 @@
     "description": "Skating along the void between dimensions, move to a specific place within line of sight.",
     "message": "There is a moment of darkness and terrible cold, and you are somewhere else."
     "valid_targets": [ "ground" ],
-    "spell_class": "NONE",  
+    "spell_class": "TELEPORTER",  
     "flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS", "TARGET_TELEPORT" ],
     "effect": "short_range_teleport",
     "shape": "blast",
