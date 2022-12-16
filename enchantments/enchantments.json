@@ -4,8 +4,8 @@
     "id": "enchant_pyrokinetic_aura",
     "condition": "ALWAYS",
     "has": "HELD",
-    "hit_you_effect": [ { "id": "pyro_aura_attack" }, "hit_self": false ],
-    "hit_me_effect": [ { "id": "pyro_aura_attacked" }, "hit_self": false ]
+    "hit_you_effect": [ { "id": "pyro_aura_attack" }, { "hit_self": false }  ],
+    "hit_me_effect": [ { "id": "pyro_aura_attacked" }, { "hit_self": false } ]
   },
   {
     "id": "pyro_aura_attack",
