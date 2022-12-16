@@ -2,7 +2,7 @@
   {
     "id": "telekinetic_pull",
     "type": "SPELL",
-    "name": "Telekinetic Hand",
+    "name": "Far Hand",
     "description": "Pull a target or set of items to you.",
     "valid_targets": [ "ally", "hostile", "item" ],
     "spell_class": "NONE",
@@ -29,7 +29,7 @@
   {
     "id": "telekinetic_shove",
     "type": "SPELL",
-    "name": "Telekinetic Shove",
+    "name": "Force Shove",
     "description": "Shove something away with a burst of psionic force.",
     "valid_targets": [ "ally", "hostile", "item" ],
     "spell_class": "NONE",
@@ -56,7 +56,7 @@
   {
     "id": "telekinetic_wave",
     "type": "SPELL",
-    "name": "Telekinetic Wave",
+    "name": "Wave of Force",
     "description": "Unleash a telekinetic wave around you that indiscriminately knocks everything back.",
     "valid_targets": [ "hostile", "ground", "item" ],
     "spell_class": "NONE",
@@ -80,7 +80,7 @@
   {
     "id": "telekinetic_hammer",
     "type": "SPELL",
-    "name": "Telekinetic Hammer",
+    "name": "Mindhammer",
     "description": "Smash a single target with a fist of telekinetic force.",
     "valid_targets": [ "hostile" ],
     "spell_class": "NONE",
@@ -110,7 +110,7 @@
   {
     "id": "telekinetic_shield",
     "type": "SPELL",
-    "name": "Telekinetic Shield",
+    "name": "Inertial Barrier",
     "description": "Create a telekinetic barrier around yourself to protect you from damage.",
     "valid_targets": [ "self" ],
     "spell_class": "NONE",
@@ -135,7 +135,7 @@
   {
     "id": "telekinetic_explosion",
     "type": "SPELL",
-    "name": "Telekinesis Crush",
+    "name": "Wrecking Ball",
     "description": "A burst of telekinetic force indiscriminately shatters the terrain at the target location.",
     "valid_targets": [ "hostile", "ground" ],
     "spell_class": "NONE",
@@ -167,7 +167,7 @@
   {
   "id": "tele_explosion_damage",
     "type": "SPELL",
-    "name": "Telekinesis Crush Enemy damage",
+    "name": "Telekinetic Crush Enemy damage",
     "description": "Damages enemies when you use Telekinetic Crush on the ground. If you have this you debugged it in.",
     "valid_targets": [ "hostile", "ground" ],
     "spell_class": "NONE",
