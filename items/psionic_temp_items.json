@@ -1,6 +1,6 @@
 [
- {
-    "id": "telekinetic_psi_armor",
+	{
+	 "id": "telekinetic_psi_armor",
     "type": "ARMOR",
     "name": "Telekinetic Barrier",
     "description": "You are protected by a thin shell of telekinetic force.",
@@ -29,7 +29,7 @@
       }
     ]
   },
- {
+	{
     "id": "telepathic_learning_bonus",
     "type": "ARMOR",
     "name": "Trance state",
@@ -118,7 +118,7 @@
       }
     ]
   },
-   {
+	{
     "id": "pyrokinetic_aura_item",
     "type": "ARMOR",
     "category": "tools",
@@ -139,28 +139,25 @@
       }
     ]
   },
-   {
-	    "id": "teleport_dodge_item",
-	    "type": "ARMOR",
-	    "name": "Flickerflashing",
-	    "description": "When you're about to be hit, you simply aren't there.",
-	    "weight": "1g",
-	    "volume": "1ml",
-	    "price": 7000,
-	    "symbol": "P",
-	    "color": "gray",
-	    "material": [ "telekinetic_force" ],
-	    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
-	    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "BONUS_DODGE", "add": 3 } ] } ] },
-	    "armor": [
-	      {
-	        "encumbrance": 0,
-	        "coverage": 100,
-	        "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r", "mouth", "eyes" ]
+	{
+		"id": "teleport_dodge_item",
+		"type": "ARMOR",
+		"name": "Flickerflashing",
+		"description": "When you're about to be hit, you simply aren't there.",
+		"weight": "1g",
+		"volume": "1ml",
+		"price": 7000,
+		"symbol": "P",
+		"color": "gray",
+		"material": [ "telekinetic_force" ],
+		"flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
+		"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "BONUS_DODGE", "add": 3 } ] } ] },
+		"armor": [
+			{
+				"encumbrance": 0,
+				"coverage": 100,
+				"covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r", "mouth", "eyes" ]
 	      }
 	    ]
 	  }
- 
- 
- 
 ]
