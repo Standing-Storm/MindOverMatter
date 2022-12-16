@@ -8,5 +8,6 @@
     "remove_message": "The darkness hides your surroundings again.",
     "rating": "good",
     "flags": [ "NIGHT_VISION", "INFRARED" ]
-  }
+  },
+  telepathic_psi_armor
 ]
