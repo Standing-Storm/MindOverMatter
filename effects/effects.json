@@ -9,5 +9,15 @@
     "rating": "good",
     "flags": [ "NIGHT_VISION", "INFRARED" ]
   },
-  telepathic_psi_armor
+  {
+    "type": "effect_type",
+    "id": "telepathic_psi_armor",
+    "name": [ "Psychic Shield" ],
+    "desc": [ "Your mind is warded against psychic attack." ],
+    "apply_message": "You begin to shield your thoughts.",
+    "remove_message": "Your thoughts are once again unguarded.",
+    "rating": "good",
+    "flags": [ "PSYSHIELD_PARTIAL" ]
+  }
+ 
 ]
