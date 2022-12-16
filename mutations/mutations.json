@@ -1,11 +1,32 @@
 [
    {
     "type": "mutation",
-    "id": "psy_jedi_convince",
+    "id": "PSYJEDITRICK",
     "name": { "str": "Telepathic Suggestion" },
     "points": 0,
     "description": "You are subtly influencing the minds of the people you speak to.",
     "social_modifiers": { "lie": 25, "persuade": 25, "intimidate": 25 },
     "player_display": false
-  }
-]
+  },
+  {
+    "type": "mutation",
+    "id": "PYROGLOW",
+	    "name": { "str": "Soft Radiance" },
+	    "points": 0,
+	    "description": "You can make the air around you emit light.",
+	    "active": true,
+	    "cost": 9,
+	    "time": "112 h 30 m",
+	    "transform": { "target": "PYROGLOW_active", "msg_transform": "The air around you starts glowing softly.", "active": true, "moves": 10 }
+	  },
+	  {
+	    "type": "mutation",
+	    "id": "BIOLUM2_active",
+	    "name": { "str": "Soft Radiance (on)" },
+	    "description": "The air around you is emitting light.",
+	    "copy-from": "PYROGLOW",
+	    "valid": false,
+	    "transform": { "target": "PYROGLOW", "msg_transform": "The air around you loses its radiance.", "active": false, "moves": 10 },
+	    "lumination": [ [ "arm_l", 30 ] ]
+    }
+  ]
