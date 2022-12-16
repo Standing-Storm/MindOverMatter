@@ -11,7 +11,7 @@
   },
   {
     "type": "effect_type",
-    "id": "telepathic_psi_armor",
+    "id": "telepathic_psi_armor_effect",
     "name": [ "Psychic Shield" ],
     "desc": [ "Your mind is warded against psychic attack." ],
     "apply_message": "You begin to shield your thoughts.",
