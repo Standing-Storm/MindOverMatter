@@ -53,7 +53,7 @@
   },
   {
     "id": "telepathic_jedi_trick",
-    "type": "ARMOR",
+    "type": "TOOL",
     "name": "Telepathic suggestions",
     "description": "You are extremely convincing.",
     "weight": "1g",
@@ -75,7 +75,7 @@
   },
  {
     "id": "pyrokinetic_glow_item",
-    "type": "ARMOR",
+    "type": "TOOL",
     "category": "tools",
     "name": "Glowing Aura",
     "description": "The air around you is glowing softly. With but a thought you can suppress it or restore it.",
