@@ -1,0 +1,47 @@
+[
+  {
+	    "id": "pyrokinetic_glow_test",
+	    "type": "SPELL",
+	    "name": "Radiance Test",
+	    "description": "Excite the air around you, shedding a soft light.",
+	    "valid_targets": [ "self" ],
+	    "spell_class": "PYROKINETIC",
+	    "flags": [ "CONCENTRATE", "NO_HANDS", "NO_LEGS" ],
+	    "effect": "spawn_item",
+	    "effect_str": "pyrokinetic_glow_item_test", 
+	    "shape": "blast",
+	    "difficulty": 1,
+	    "max_level": 20,
+	    "min_duration": 6000,
+	    "max_duration": 90000,
+	    "duration_increment": 14000,
+	    "energy_source": "STAMINA",
+	    "base_energy_cost": 500,
+	    "final_energy_cost": 25,
+	    "energy_increment": -80,
+	    "base_casting_time": 150,
+	    "final_casting_time": 50,
+	    "casting_time_increment": -17,
+	    "learn_spells": { "pyrokinetic_cloak": 3 }
+	  },
+   	 {
+	    "id": "pyrokinetic_glow_item_test",
+	    "type": "ARMOR",
+	    "category": "tools",
+	    "name": "Glowing Aura",
+	    "description": "The air around you is glowing softly. With but a thought you can suppress it or restore it.",
+	    "weight": "1g",
+	    "volume": "1ml",
+	    "price": 70000,
+	    "symbol": ",",
+	    "color": "red",
+	    "warmth": 0,
+	    "material_thickness": 3,
+	    "flags": [ "PERSONAL", "SEMITANGIBLE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF" ],
+		  "relic_data": { "passive_effects": [ { "has": "HELD", "condition": "ALWAYS", "mutation": "BIOLUM2" } ] },
+	    "armor": [
+	      {
+	        "covers": [ "arm_l" ]
+	      }
+	    ]
+	  }
