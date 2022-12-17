@@ -31,7 +31,7 @@
   },
 	{
     "id": "telepathic_learning_bonus",
-    "type": "ARMOR",
+    "type": "TOOL",
     "name": "Trance state",
     "description": "You are in a focused mental state, increasing the ease of learning.",
     "weight": "1g",
