@@ -15,11 +15,11 @@
     "valid_targets": [ "hostile" ],
     "flags": [ "RANDOM_DAMAGE", "IGNITE_FLAMMABLE" ],
     "shape": "blast",
-    "effect": "mod_moves",
+    "effect": "attack",
     "damage_type": "heat",
     "min_damage": 10,
     "max_damage": 40,
-    "min_range": 1,
+    "min_range": 1,  
     "max_range": 1
   },
   {
@@ -30,7 +30,7 @@
     "valid_targets": [ "hostile" ],
     "flags": [ "RANDOM_DAMAGE", "IGNITE_FLAMMABLE" ],
     "shape": "blast",
-    "effect": "mod_moves",
+    "effect": "attack",
     "damage_type": "heat",
     "min_damage": 10,
     "max_damage": 80,
