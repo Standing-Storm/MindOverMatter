@@ -16,10 +16,10 @@
     "relic_data": { "passive_effects": [
      { "has": "WORN", "condition": "ALWAYS", "values": [
       { "value": "BONUS_BLOCK", "add": 1},
-          { "value": "ARMOR_CUT", "add": -5 },
-          { "value": "ARMOR_BASH", "add": -10 },
-          { "value": "ARMOR_STAB", "add": -5 },
-          { "value": "ARMOR_BULLET", "add": -10 }                                   
+          { "value": "ARMOR_CUT", "add": 5 },
+          { "value": "ARMOR_BASH", "add": 10 },
+          { "value": "ARMOR_STAB", "add": 5 },
+          { "value": "ARMOR_BULLET", "add": 10 }                                   
       ] } ] },
     "armor": [
       {
