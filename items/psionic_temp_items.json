@@ -10,7 +10,7 @@
     "symbol": "O",
     "color": "light_gray",
     "warmth": 0,
-    "material_thickness": 3,
+    "material_thickness": 2,
     "material": [ "telekinetic_force" ],
     "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "ALLOWS_NATURAL_ATTACKS", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
     "relic_data": { "passive_effects": [
