@@ -20,5 +20,31 @@
     "base_casting_time": 50,
     "final_casting_time": 20,
 		"casting_time_increment": -5	
-	}
+	},
+	{
+    "id": "clair_dodge_power",
+    "type": "SPELL",
+    "name": "Flickerflash",
+    "description": "By gazing just a few moments into the future, you can be wherever your enemies are not attacking.",
+    "valid_targets": [ "self" ],
+    "spell_class": "TELEPORTER",
+    "flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS" ],
+    "effect": "spawn_item",
+    "effect_str": "clairsentient_dodge_item",
+    "shape": "blast",
+    "energy_source": "STAMINA",
+    "difficulty": 1,
+    "max_level": 20,
+    "min_damage": 1,
+    "max_damage": 1,
+    "base_energy_cost": 1500,
+		"final_energy_cost": 200,
+		"energy_increment": -217,
+    "min_duration": 30000,
+    "max_duration": 360000,
+    "duration_increment": 55000,
+    "base_casting_time": 150,
+    "final_casting_time": 70,
+    "casting_time_increment": -13.333
+  }
 ]
