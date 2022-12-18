@@ -145,7 +145,7 @@
     "base_casting_time": 75,
     "final_casting_time": 30,
     "casting_time_increment": -4.5
-    "targeted_monster_species": [ "MAMMAL", "AMPHIBIAN", "BIRD", "REPTILE", "FISH", "KRAKEN", "MUTANT", "MIGO", "MOLLUSK", "WORM", "HUMAN" ],
+    "targeted_monster_species": [ "MAMMAL", "AMPHIBIAN", "BIRD", "REPTILE", "FISH", "KRAKEN", "MUTANT", "MIGO", "MOLLUSK", "WORM", "HUMAN" ]
   }, 
   {
     "id": "telepathic_mind_control",
