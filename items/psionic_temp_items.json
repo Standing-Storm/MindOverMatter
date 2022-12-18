@@ -65,7 +65,7 @@
     "material_thickness": 3,
     "flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
     "relic_data": { "passive_effects": [ 
-	    { "has": "WORN", "condition": "ALWAYS", "values":
+	    { "has": "WORN", "condition": "ALWAYS", "values": [
 			 { "value": "SOCIAL_PERSUADE", "add": 25},
 			 { "value": "SOCIAL_INTIMIDATE", "add": 25 },
 			{ "value": "SOCIAL_LIE", "add": 25 }
