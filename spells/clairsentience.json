@@ -24,7 +24,7 @@
 	{
     "id": "clair_dodge_power",
     "type": "SPELL",
-    "name": "Flickerflash",
+    "name": "Combat Sense",
     "description": "By gazing just a few moments into the future, you can be wherever your enemies are not attacking.",
     "valid_targets": [ "self" ],
     "spell_class": "TELEPORTER",
