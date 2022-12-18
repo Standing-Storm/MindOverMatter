@@ -16,10 +16,10 @@
     "relic_data": { "passive_effects": [
      { "has": "WORN", "condition": "ALWAYS", "values": [
       { "value": "BONUS_BLOCK", "add": 1},
-          { "value": "ARMOR_CUT", "add": 5 },
-          { "value": "ARMOR_BASH", "add": 10 },
-          { "value": "ARMOR_STAB", "add": 5 },
-          { "value": "ARMOR_BULLET", "add": 10 }                                   
+			{ "value": "ARMOR_CUT", "add": 5 },
+			{ "value": "ARMOR_BASH", "add": 10 },
+			{ "value": "ARMOR_STAB", "add": 5 },
+			{ "value": "ARMOR_BULLET", "add": 10 }                                   
       ] } ] },
     "armor": [
       {
@@ -64,7 +64,12 @@
     "warmth": 0,
     "material_thickness": 3,
     "flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "PSYJEDITRICK" ] } ] },
+    "relic_data": { "passive_effects": [ 
+	    { "has": "WORN", "condition": "ALWAYS", "values":
+			 { "value": "SOCIAL_PERSUADE", "add": 25},
+			 { "value": "SOCIAL_INTIMIDATE", "add": 25 },
+			{ "value": "SOCIAL_LIE", "add": 25 }
+			] } ] },
     "armor": [
       {
         "encumbrance": 0,
