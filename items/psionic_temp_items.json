@@ -64,7 +64,7 @@
     "warmth": 0,
     "material_thickness": 3,
     "flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutation": "PSYJEDITRICK" } ] },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "PSYJEDITRICK" ] } ] },
     "armor": [
       {
         "encumbrance": 0,
@@ -87,7 +87,7 @@
     "warmth": 0,
     "material_thickness": 3,
     "flags": [ "PERSONAL", "SEMITANGIBLE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF" ],
-	  "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutation": "PYROGLOW" } ] },
+	  "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "PYROGLOW" ] } ] },
     "armor": [
       {
         "covers": [ "arm_l" ]
