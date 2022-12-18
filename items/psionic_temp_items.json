@@ -42,7 +42,7 @@
     "warmth": 0,
     "material_thickness": 3,
     "flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
-    "relic_data": { "passive_effects": [ { "has": "HELD", "condition": "ALWAYS", "values": [ { "value": "LEARNING_FOCUS", "add": 50 } ] } ] },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "LEARNING_FOCUS", "add": 50 } ] } ] },
     "armor": [
       {
         "encumbrance": 0,
@@ -64,7 +64,7 @@
     "warmth": 0,
     "material_thickness": 3,
     "flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
-    "relic_data": { "passive_effects": [ { "has": "HELD", "condition": "ALWAYS", "mutation": "PSYJEDITRICK" } ] },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutation": "PSYJEDITRICK" } ] },
     "armor": [
       {
         "encumbrance": 0,
@@ -87,7 +87,7 @@
     "warmth": 0,
     "material_thickness": 3,
     "flags": [ "PERSONAL", "SEMITANGIBLE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF" ],
-	  "relic_data": { "passive_effects": [ { "has": "HELD", "condition": "ALWAYS", "mutation": "PYROGLOW" } ] },
+	  "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutation": "PYROGLOW" } ] },
     "armor": [
       {
         "covers": [ "arm_l" ]
@@ -108,7 +108,7 @@
     "warmth": 0,
     "material_thickness": 3,
     "flags": [ "PERSONAL", "SEMITANGIBLE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "LIGHT_50" ],
-    "relic_data": { "passive_effects": [ { "has": "HELD", "condition": "ALWAYS", "values": [ 
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ 
         { "value": "CLIMATE_CONTROL_HEAT", "add": 80 },
         { "value": "ARMOR_HEAT", "add": 20 },
         { "value": "ARMOR_COLD", "add": 40 }
@@ -141,9 +141,9 @@
     ]
   },
 	{
-		"id": "teleport_dodge_item",
+		"id": "clairsentient_dodge_item",
 		"type": "ARMOR",
-		"name": "Flickerflashing",
+		"name": "Sensing Combat",
 		"description": "When you're about to be hit, you simply aren't there.",
 		"weight": "1g",
 		"volume": "1ml",
