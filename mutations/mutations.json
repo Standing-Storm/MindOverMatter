@@ -15,8 +15,7 @@
 		"points": 0,
 		"description": "You can make the air around you emit light.",
 		"active": true,
-		"cost": 9,
-		"time": "112 h 30 m",
+		"cost": 0,
 		"transform": { "target": "PYROGLOW_active", "msg_transform": "The air around you starts glowing softly.", "active": true, "moves": 10 }
 	},
 	{
