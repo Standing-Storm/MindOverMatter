@@ -109,6 +109,7 @@
     "base_casting_time": 90,
     "final_casting_time": 40,
     "casting_time_increment": -6.25,
+    "targeted_monster_species": [ "MAMMAL", "AMPHIBIAN", "BIRD", "REPTILE", "FISH", "KRAKEN", "MUTANT", "MIGO", "MOLLUSK", "WORM", "HUMAN" ],
     "learn_spells": { "telepathic_blast": 4, "telepathic_mind_control": 6 }
   }, 
   {
@@ -139,6 +140,7 @@
     "base_casting_time": 75,
     "final_casting_time": 30,
     "casting_time_increment": -4.5
+    "targeted_monster_species": [ "MAMMAL", "AMPHIBIAN", "BIRD", "REPTILE", "FISH", "KRAKEN", "MUTANT", "MIGO", "MOLLUSK", "WORM", "HUMAN" ],
   }, 
   {
     "id": "telepathic_mind_control",
@@ -168,6 +170,7 @@
     "base_casting_time": 120,
     "final_casting_time": 75,
     "casting_time_increment": -4.5,
-     "learn_spells": { "telepathic_suggestion": 3 }
+    "targeted_monster_species": [ "MAMMAL", "AMPHIBIAN", "BIRD", "REPTILE", "FISH", "KRAKEN", "MUTANT", "MIGO", "MOLLUSK", "WORM", "HUMAN" ],
+    "learn_spells": { "telepathic_suggestion": 3 }
   }
 ]
