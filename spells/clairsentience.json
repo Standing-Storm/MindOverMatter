@@ -5,6 +5,8 @@
     "name": "Night Eyes",
     "description": "This power is less night vision and more simply knowing what's out there in the darkness.",
     "valid_targets": [ "self" ],
+	  "spell_class": "CLAIRSENTIENT",
+		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS" ],
     "effect": "attack",
     "effect_str": "night_eyes",
     "shape": "blast",
@@ -27,7 +29,7 @@
     "name": "Combat Sense",
     "description": "By gazing just a few moments into the future, you can be wherever your enemies are not attacking.",
     "valid_targets": [ "self" ],
-    "spell_class": "TELEPORTER",
+    "spell_class": "CLAIRSENTIENT",
     "flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS" ],
     "effect": "spawn_item",
     "effect_str": "clairsentient_dodge_item",
@@ -46,5 +48,14 @@
     "base_casting_time": 150,
     "final_casting_time": 70,
     "casting_time_increment": -13.333
-  }
+  },
+	{
+		"id": "clair_voyance",
+		"type": "SPELL",
+    "name": "Clairvoyance",
+    "description": "The classic example of a clairsentient's powers, Clairvoyance can see through walls and reveal everything nearby.",
+    "valid_targets": [ "self" ],
+    "spell_class": "CLAIRSENTIENT",
+    "flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS" ],
+		
 ]
