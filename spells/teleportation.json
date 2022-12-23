@@ -55,7 +55,8 @@
     "energy_increment": -166.67,
     "base_casting_time": 80,
     "final_casting_time": 35,
-    "casting_time_increment": -7.5
+    "casting_time_increment": -7.5,
+		  "learn_spells": { "teleport_swap": 3, "teleport_banish": 6 }
 	  },
   {
     "id": "teleport_farstep",
@@ -78,11 +79,38 @@
     "energy_source": "STAMINA",
     "base_energy_cost": 1500,
     "final_energy_cost": 250,
-    "energy_increment": 156.25,
+    "energy_increment": -156.25,
     "base_casting_time": 75,
     "final_casting_time": 30,
     "casting_time_increment": -5.625,
     "learn_spells": { "teleport_gateway": 3 }
-  }
+  },
+	{
+		 "id": "teleport_swap",
+    "type": "SPELL",
+    "name": "Farstep",
+    "description": "Rather than moving to a specific place, choose a creature and exchange places with it.",
+    "message": "There is a moment of darkness and terrible cold, and you are somewhere else, while your target has taken your place.",
+    "valid_targets": [ "ground" ],
+    "spell_class": "TELEPORTER",  
+    "flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS", "SWAP_POS", "IGNORE_WALLS ],
+    "effect": "attack",
+    "shape": "blast",
+    "difficulty": 1,
+    "max_level": 20,
+    "min_range": 5,
+    "max_range": 40,
+    "range_increment": 4.375,
+    "energy_source": "STAMINA",
+    "base_energy_cost": 2500,
+    "final_energy_cost": 300,
+    "energy_increment": -440,
+    "base_casting_time": 100,
+    "final_casting_time": 55,
+    "casting_time_increment": -5.625,
+    "learn_spells": { "teleport_gateway": 3 }
+  },
+	
+
   
 ]
