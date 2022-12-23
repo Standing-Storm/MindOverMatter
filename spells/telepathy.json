@@ -37,7 +37,7 @@
     "spell_class": "TELEPATH",
     "flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS" ],
     "effect": "attack",
-    "effect_str": "telepathic_psi_armor_effect",
+    "effect_str": "telepathic_invisibility_effect",
     "shape": "blast",
     "difficulty": 1,
     "max_level": 20,
