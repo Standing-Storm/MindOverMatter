@@ -176,8 +176,8 @@
   {
   "id": "tele_explosion_damage",
     "type": "SPELL",
-    "name": "Telekinetic Crush Enemy damage",
-    "description": "Damages enemies when you use Telekinetic Crush on the ground. If you have this you debugged it in.",
+    "name": "Wrecking Ball Enemy damage",
+    "description": "Damages enemies when you use Wrecking Ball on the ground. If you have this you debugged it in.",
     "valid_targets": [ "hostile", "ground" ],
     "spell_class": "NONE",
     "flags": [ "LOUD", "RANDOM_DAMAGE", "IGNORE_WALLS", "RANDOM_AOE" ],
