@@ -110,7 +110,27 @@
     "casting_time_increment": -5.625,
     "learn_spells": { "teleport_banish": 3 }
   },
-	
+	{  
+    "id": "teleport_gateway",
+    "type": "SPELL",
+    "name": "Gateway",
+    "description": "Teleport to an attuned location.",
+	"message": "There is a moment of darkness and terrible cold, and you are somewhere else.",
+    "valid_targets": [ "self" ],
+    "effect": "translocate",
+    "shape": "blast",
+    "difficulty": 1,
+    "max_level": 20,
+"energy_source": "STAMINA",
+    "base_energy_cost": 6000,
+    "final_energy_cost": 3000,
+    "energy_increment": -300,
+    "base_casting_time": 200,
+    "final_casting_time": 75,
+    "casting_time_increment": -12.5
+}
+
+
 
   
 ]
