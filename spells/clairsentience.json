@@ -83,7 +83,7 @@
     "name": "Satellite View",
     "description": "You can extend your senses over a large radius, becoming aware of every hill and valley within a large area.",
     "valid_targets": [ "none" ],
-     "flags": [ "NO_HANDS", "CONCENTRATE", "SILENT",  "NO_LEGS", "RANDOM_AOE",  ],
+     "flags": [ "NO_HANDS", "CONCENTRATE", "SILENT",  "NO_LEGS", "RANDOM_AOE" ],
     "effect": "map",
     "shape": "blast",
 "difficulty": 1,
@@ -97,5 +97,6 @@
 "base_casting_time": 6000,
     "final_casting_time": 2000,
     "casting_time_increment": -400
+}
 
 ]
