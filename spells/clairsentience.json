@@ -21,7 +21,8 @@
     "duration_increment": 120000,
     "base_casting_time": 50,
     "final_casting_time": 20,
-		"casting_time_increment": -5	
+		"casting_time_increment": -5,
+		"learn_spells": { "clair_voyance": 3, "clair_dodge_power": 4 }
 	},
 	{
     "id": "clair_dodge_power",
@@ -74,4 +75,5 @@
 		"base_casting_time": 500,
     "final_casting_time": 200,
     "casting_time_increment": -37.5
+		"learn_spells": { "clair_see_map": 3 }
 ]
