@@ -108,7 +108,7 @@
     "base_casting_time": 100,
     "final_casting_time": 55,
     "casting_time_increment": -5.625,
-    "learn_spells": { "teleport_gateway": 3 }
+    "learn_spells": { "teleport_banish": 3 }
   },
 	
 
