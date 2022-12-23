@@ -51,6 +51,28 @@
       }
     ]
   },
+	  {
+    "id": "telepathic_invisibility_effect",
+    "type": "ARMOR",
+    "name": "Telepathic Cloaking",
+    "description": "You are hiding your presence.",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "symbol": "o",
+    "color": "brown",
+    "looks_like": "cloak",
+    "material": [ "magical_material" ],
+    "flags": [ "AURA", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE", "OVERSIZE" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "ench_effects": [ { "effect": "invisibility", "intensity": 1 } ]
+        }
+      ]
+    }
+  },
   {
     "id": "telepathic_jedi_trick",
     "type": "ARMOR",
