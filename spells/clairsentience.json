@@ -22,7 +22,7 @@
     "base_casting_time": 50,
     "final_casting_time": 20,
 		"casting_time_increment": -5,
-		"learn_spells": { "clair_voyance": 3, "clair_dodge_power": 4 }
+		"learn_spells": { "clair_voyance": 3, "clair_dodge_power": 4, "clair_see_map": 8 }
 	},
 	{
     "id": "clair_dodge_power",
@@ -57,7 +57,7 @@
     "description": "The classic example of a clairsentient's powers, Clairvoyance can see through walls and reveal everything nearby.",
     "valid_targets": [ "self" ],
     "spell_class": "CLAIRSENTIENT",
-    "flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS", "RANDOM_AOE", "IGNORE_WALLS" ],
+    "flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS", "RANDOM_AOE", "IGNORE_WALLS", "NO_EXPLOSION_SFX" ],
 		 "effect": "attack",
     "shape": "blast",
 		 "energy_source": "STAMINA",
@@ -76,4 +76,15 @@
     "final_casting_time": 200,
     "casting_time_increment": -37.5
 		"learn_spells": { "clair_see_map": 3 }
+	},
+	{  
+    "id": "clair_see_map",
+    "type": "SPELL",
+    "name": "Satellite View",
+    "description": "You can extend your senses over a large radius, becoming aware of every hill and valley within a large area.",
+    "valid_targets": [ "none" ],
+     "flags": [ "NO_HANDS", "CONCENTRATE", "SILENT" ],
+    "effect": "map",
+    "shape": "blast",
+
 ]
