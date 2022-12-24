@@ -115,7 +115,7 @@
     "type": "SPELL",
     "name": "Gateway",
     "description": "Teleport to an attuned location.",
-	"message": "There is a moment of darkness and terrible cold, and you are somewhere else.",
+	"message": "There is a long moment of darkness and terrible cold that seems like it will freeze your heart, and then you are somewhere else.",
     "valid_targets": [ "self" ],
 "spell_class": "TELEPORTER",  
 "flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS" ],
