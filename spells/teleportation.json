@@ -117,6 +117,8 @@
     "description": "Teleport to an attuned location.",
 	"message": "There is a moment of darkness and terrible cold, and you are somewhere else.",
     "valid_targets": [ "self" ],
+"spell_class": "TELEPORTER",  
+"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS" ],
     "effect": "translocate",
     "shape": "blast",
     "difficulty": 1,
@@ -128,7 +130,8 @@
     "base_casting_time": 200,
     "final_casting_time": 75,
     "casting_time_increment": -12.5
-}
+},
+
 
 
 
