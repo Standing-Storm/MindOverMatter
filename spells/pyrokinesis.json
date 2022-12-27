@@ -62,7 +62,7 @@
     "base_casting_time": 150,
     "final_casting_time": 50,
     "casting_time_increment": -17,
-    "learn_spells": { "pyrokinetic_cloak": 3 }
+    "learn_spells": { "pyrokinetic_cloak": 3, "pyrokinetic_blast": 10 }
   },
   {
     "id": "pyrokinetic_eruption",
