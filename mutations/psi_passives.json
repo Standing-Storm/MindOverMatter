@@ -16,7 +16,7 @@
 		"description": "You can make the air around you emit light.",
 		"active": true,
 		"cost": 0,
-		"transform": { "target": "PYROGLOW__WEAK_A", "msg_transform": "The air around you starts glowing softly.", "active": true, "moves": 10 }
+		"transform": { "target": "PYROGLOW_WEAK_A", "msg_transform": "The air around you starts glowing softly.", "active": true, "moves": 10 }
 	},
 	{
 		"type": "mutation",
@@ -25,8 +25,28 @@
 		"description": "The air around you is emitting light.",
 		"copy-from": "PYROGLOW_WEAK",
 		"valid": false,
-		"transform": { "target": "PYROGLOW", "msg_transform": "The air around you loses its radiance.", "active": false, "moves": 10 },
+		"transform": { "target": "PYROGLOW_WEAK", "msg_transform": "The air around you loses its radiance.", "active": false, "moves": 10 },
 		"lumination": [ [ "arm_l", 30 ] ]
 	},
+	 {
+    "type": "mutation",
+    "id": "PYROGLOW_STRONG",	  	  
+		"name": { "str": "Pyrokinetic Radiance [bright]" },
+		"points": 0,
+		"description": "You can make the air around you emit a strong light.",
+		"active": true,
+		"cost": 0,
+		"transform": { "target": "PYROGLOW_STRONG_A", "msg_transform": "The air around you starts glowing softly.", "active": true, "moves": 10 }
+	},
+	{
+		"type": "mutation",
+		"id": "PYROGLOW__STRONG_A",
+		"name": { "str": "Pyrokinetic Radiance [bright] (on)" },
+		"description": "The air around you is emitting a bright light.",
+		"copy-from": "PYROGLOW_WEAK",
+		"valid": false,
+		"transform": { "target": "PYROGLOW_WEAK", "msg_transform": "The air around you loses its radiance.", "active": false, "moves": 10 },
+		"lumination": [ [ "arm_l", 100 ] ]
+	}
 	
 ]
