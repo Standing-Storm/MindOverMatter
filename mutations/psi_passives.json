@@ -20,7 +20,7 @@
 	},
 	{
 		"type": "mutation",
-		"id": "PYROGLOW__WEAK_A",
+		"id": "PYROGLOW_WEAK_A",
 		"name": { "str": "Pyrokinetic Radiance [soft] (on)" },
 		"description": "The air around you is emitting light.",
 		"copy-from": "PYROGLOW_WEAK",
@@ -40,7 +40,7 @@
 	},
 	{
 		"type": "mutation",
-		"id": "PYROGLOW__STRONG_A",
+		"id": "PYROGLOW_STRONG_A",
 		"name": { "str": "Pyrokinetic Radiance [bright] (on)" },
 		"description": "The air around you is emitting a bright light.",
 		"copy-from": "PYROGLOW_WEAK",
