@@ -1,4 +1,14 @@
 [
+	{
+		"type": "mutation",
+		"id": "NO_PSIONICS",
+		"name": { "str": "Headblind" },
+		"description": "You have a normal human (lack of) capacity for psionic powers.",
+		"player_display": false,
+		"dummy": true,
+		"category": [ "HUMAN" ],
+		"cancels": [ "PYROGLOW_WEAK", "PYROGLOW_STRONG" ]
+	},
    {
     "type": "mutation",
     "id": "PSYJEDITRICK",
@@ -15,6 +25,7 @@
 		"points": 0,
 		"description": "You can make the air around you emit light.",
 		"active": true,
+		"player_display": true,
 		"cost": 0,
 		"transform": { "target": "PYROGLOW_WEAK_A", "msg_transform": "The air around you starts glowing softly.", "active": true, "moves": 10 }
 	},
@@ -35,6 +46,7 @@
 		"points": 0,
 		"description": "You can make the air around you emit a strong light.",
 		"active": true,
+		"player_display": true
 		"cost": 0,
 		"transform": { "target": "PYROGLOW_STRONG_A", "msg_transform": "The air around you starts glowing softly.", "active": true, "moves": 10 }
 	},
@@ -43,10 +55,18 @@
 		"id": "PYROGLOW_STRONG_A",
 		"name": { "str": "Pyrokinetic Radiance [bright] (on)" },
 		"description": "The air around you is emitting a bright light.",
-		"copy-from": "PYROGLOW_WEAK",
+		"copy-from": "PYROGLOW_STRONG",
 		"valid": false,
 		"transform": { "target": "PYROGLOW_WEAK", "msg_transform": "The air around you loses its radiance.", "active": false, "moves": 10 },
 		"lumination": [ [ "arm_l", 300 ] ]
+	},
+	{
+		"type": "mutation",
+		"id": "TELEKINETIC_CARRY",
+		"name": { "str": "Passive Telekinesis" },
+		"points": 0,
+		"description": "You are using your powers to ease your carry burden.",
+		"weight_capacity_modifier": 1.1
+		"valid": false,
 	}
-	
 ]
