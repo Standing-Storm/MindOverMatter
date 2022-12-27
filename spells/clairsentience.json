@@ -76,28 +76,28 @@
 		"energy_increment": -325,
 		"base_casting_time": 500,
     "final_casting_time": 200,
-    "casting_time_increment": -37.5
+    "casting_time_increment": -37.5,
 		"learn_spells": { "clair_see_map": 3 }
-	},
+	},	
 	{  
-    "id": "clair_see_map",
-    "type": "SPELL",
-    "name": "Satellite View",
-    "description": "You can extend your senses over a large radius, becoming aware of every hill and valley within a large area.",
-    "valid_targets": [ "none" ],
-     "flags": [ "NO_HANDS", "CONCENTRATE", "SILENT",  "NO_LEGS", "RANDOM_AOE" ],
-    "effect": "map",
-    "shape": "blast",
-"difficulty": 1,
+		"id": "clair_see_map",
+		"type": "SPELL",
+		"name": "Satellite View",
+		"description": "You can extend your senses over a large radius, becoming aware of every hill and valley within a large area.",
+		"valid_targets": [ "none" ],
+		"flags": [ "NO_HANDS", "CONCENTRATE", "SILENT",  "NO_LEGS", "RANDOM_AOE" ],
+		"effect": "map",
+		"shape": "blast",
+		"difficulty": 1,
 		"max_level": 20,
-    "min_aoe": 10,
+		"min_aoe": 10,
     "max_aoe": 40,
-		"aoe_increment": 1, 
-"base_energy_cost": 6000,
+		"aoe_increment": 1,  
+		"base_energy_cost": 6000,
 		"final_energy_cost": 1000,
 		"energy_increment": -500,
-"base_casting_time": 6000,
-    "final_casting_time": 2000,
-    "casting_time_increment": -400
-}
+		"base_casting_time": 6000,
+		"final_casting_time": 2000,
+		"casting_time_increment": -400
+	}
 ]
