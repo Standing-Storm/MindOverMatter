@@ -28,7 +28,7 @@
     "learn_spells": { "telepathic_shield": 3, "telepathic_blast": 6 }
   },
   {
-    "id": "telepathic_shield",
+    "id": "telepathic_invisibility",
     "type": "SPELL",
     "name": "Obscurity",
     "description": "Use a light touch to hide your presence. This power only lasts a few moments.",
