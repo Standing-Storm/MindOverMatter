@@ -10,22 +10,23 @@
   },
   {
     "type": "mutation",
-    "id": "PYROGLOW",	  	  
-		"name": { "str": "Soft Radiance" },
+    "id": "PYROGLOW_WEAK",	  	  
+		"name": { "str": "Pyrokinetic Radiance [soft]" },
 		"points": 0,
 		"description": "You can make the air around you emit light.",
 		"active": true,
 		"cost": 0,
-		"transform": { "target": "PYROGLOW_active", "msg_transform": "The air around you starts glowing softly.", "active": true, "moves": 10 }
+		"transform": { "target": "PYROGLOW__WEAK_A", "msg_transform": "The air around you starts glowing softly.", "active": true, "moves": 10 }
 	},
 	{
 		"type": "mutation",
-		"id": "PYROGLOW_active",
-		"name": { "str": "Soft Radiance (on)" },
+		"id": "PYROGLOW__WEAK_A",
+		"name": { "str": "Pyrokinetic Radiance [soft] (on)" },
 		"description": "The air around you is emitting light.",
-		"copy-from": "PYROGLOW",
+		"copy-from": "PYROGLOW_WEAK",
 		"valid": false,
 		"transform": { "target": "PYROGLOW", "msg_transform": "The air around you loses its radiance.", "active": false, "moves": 10 },
 		"lumination": [ [ "arm_l", 30 ] ]
-	}  
+	},
+	
 ]
