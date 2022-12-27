@@ -61,7 +61,7 @@
     "symbol": "o",
     "color": "brown",
     "looks_like": "cloak",
-    "material": [ "magical_material" ],
+    "material": [ "telekinetic_force" ],
     "flags": [ "AURA", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE", "OVERSIZE" ],
     "relic_data": {
       "passive_effects": [
@@ -84,7 +84,6 @@
     "symbol": "C",
     "color": "white",
     "warmth": 0,
-    "material_thickness": 3,
     "flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
     "relic_data": { "passive_effects": [ 
 	    { "has": "WORN", "condition": "ALWAYS", "values": [
@@ -97,27 +96,6 @@
         "encumbrance": 0,
         "coverage": 0,
         "covers": [ "head" ]
-      }
-    ]
-  },
- {
-    "id": "pyrokinetic_glow_item",
-    "type": "ARMOR",
-    "category": "tools",
-    "name": "Glowing Aura",
-    "description": "The air around you is glowing softly. With but a thought you can suppress it or restore it.",
-    "weight": "1g",
-    "volume": "1ml",
-    "price": 70000,
-    "symbol": ",",
-    "color": "red",
-    "warmth": 0,
-    "material_thickness": 3,
-    "flags": [ "PERSONAL", "SEMITANGIBLE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF" ],
-	  "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "PYROGLOW" ] } ] },
-    "armor": [
-      {
-        "covers": [ "arm_l" ]
       }
     ]
   },
