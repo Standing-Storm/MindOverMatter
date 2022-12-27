@@ -38,7 +38,7 @@
 		"copy-from": "PYROGLOW_WEAK",
 		"valid": false,
 		"transform": { "target": "PYROGLOW_WEAK", "msg_transform": "The air around you loses its radiance.", "active": false, "moves": 10 },
-		"lumination": [ [ "arm_l", 100 ] ]
+		"lumination": [ [ "arm_l", 50 ] ]
 	},
 	 {
     "type": "mutation",
@@ -58,8 +58,8 @@
 		"description": "The air around you is emitting a bright light.",
 		"copy-from": "PYROGLOW_STRONG",
 		"valid": false,
-		"transform": { "target": "PYROGLOW_WEAK", "msg_transform": "The air around you loses its radiance.", "active": false, "moves": 10 },
-		"lumination": [ [ "arm_l", 300 ] ]
+		"transform": { "target": "PYROGLOW_STRONG", "msg_transform": "The air around you loses its radiance.", "active": false, "moves": 10 },
+		"lumination": [ [ "arm_l", 200 ] ]
 	},
 	{
 		"type": "mutation",
