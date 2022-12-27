@@ -115,7 +115,7 @@
     "flags": [ "PERSONAL", "SEMITANGIBLE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "LIGHT_50" ],
     "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ 
         { "value": "CLIMATE_CONTROL_HEAT", "add": 80 },
-        { "value": "ARMOR_HEAT", "add": 20 },
+        { "value": "ARMOR_HEAT", "add": 40 },
         { "value": "ARMOR_COLD", "add": 40 }
     ] } ] },
     "armor": [
