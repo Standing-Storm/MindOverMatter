@@ -21,7 +21,7 @@
     "purifiable": false,
     "valid": false,
     "cancels": [ "TELEPORTER", "VITAKINETIC" ],
-    "spells_learned": [ [ "pyrokinetic_firestarting", 1 ], [ "pyrokinetic_glow", 1] ]
+    "spells_learned": [ [ "clair_night_vision", 1 ], [ "clair_dodge_power", 1] ]
   },
   {
     "type": "mutation",
@@ -69,7 +69,7 @@
     "purifiable": false,
     "valid": false,
     "cancels": [ "BIOKINETIC", "TELEPATH" ],
-    "spells_learned": [ [ "pyrokinetic_firestarting", 1 ], [ "pyrokinetic_glow", 1] ]
+    "spells_learned": [ [ "teleport_blink", 1 ], [ "teleport_slow", 1] ]
   },
     {
     "type": "mutation",
