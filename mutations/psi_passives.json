@@ -46,9 +46,9 @@
 		"points": 0,
 		"description": "You can make the air around you emit a strong light.",
 		"active": true,
-		"player_display": true
+		"player_display": true,
 		"cost": 0,
-		"transform": { "target": "PYROGLOW_STRONG_A", "msg_transform": "The air around you starts glowing softly.", "active": true, "moves": 10 }
+		"transform": { "target": "PYROGLOW_STRONG_A", "msg_transform": "The air around you starts glowing brightly.", "active": true, "moves": 10 }
 	},
 	{
 		"type": "mutation",
