@@ -35,7 +35,7 @@
     "skills": [ 
       { "level": 1, "name": "psionic_skill" }, 
       { "level": 2, "name": "cooking" } ],
-    "traits": [ "PYROMANIA", "PYROKINETIC" ],
+    "traits": [ "PYROMANIA", "PYROKINETIC", "PYROGLOW_WEAK", "PYROGLOW_STRONG" ],
     "spells": [ 
       { "id": "pyrokinetic_firestarting", "level": 4 },
       { "id": "pyrokinetic_eruption", "level": 3 }                 
