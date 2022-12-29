@@ -8,7 +8,12 @@
 		 "points": 0,
 		"dummy": true,
 		"category": [ "HUMAN" ],
-		"cancels": [ "PYROGLOW_WEAK", "PYROGLOW_STRONG", "TELEKINETIC_CARRY" ]
+		"cancels": [ 
+			"PYROGLOW_WEAK", 
+			"PYROGLOW_STRONG", 
+			"TELEKINETIC_CARRY", 
+			"TELEPATHIC_SHIELD"
+		]
 	},
    {
     "type": "mutation",
@@ -69,5 +74,13 @@
 		"description": "You are using your powers to ease your carry burden.",
 		"weight_capacity_modifier": 1.1,
 		"valid": false
+	},
+	{
+		"type": "mutation",
+		"id": "TELEPATHIC_SHIELD",
+		"name": { "str": "Telepathic Shield" },
+		"points": 0,
+		"description": "You are protecting your mind.",
 	}
+	
 ]
