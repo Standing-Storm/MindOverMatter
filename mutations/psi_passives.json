@@ -69,7 +69,7 @@
 	{
 		"type": "mutation",
 		"id": "TELEKINETIC_CARRY",
-		"name": { "str": "Passive Telekinesis" },
+		"name": { "str": "Weight Counteraction" },
 		"points": 0,
 		"description": "You are using your powers to ease your carry burden.",
 		"weight_capacity_modifier": 1.1,
@@ -81,6 +81,16 @@
 		"name": { "str": "Telepathic Shield" },
 		"points": 0,
 		"description": "You are protecting your mind.",
-	}
+	},
+	  {
+    "type": "mutation",
+    "id": "VITAKINETIC_HEALTH",
+    "name": { "str": "Stem Cell Overproduction" },
+    "points": 0,
+    "description": "Your powers speed your healing slightly.",
+    "healing_awake": 0.1,
+    "healing_resting": 0.25,
+    "mending_modifier": 1.5
+  }
 	
 ]
