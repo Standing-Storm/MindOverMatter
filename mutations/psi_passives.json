@@ -24,6 +24,15 @@
     "social_modifiers": { "lie": 25, "persuade": 25, "intimidate": 25 },
     "player_display": true
   },
+	   {
+    "type": "mutation",
+    "id": "CLAIR_SENSES",
+    "name": { "str": "Psionic Senses" },
+    "points": 0,
+    "description": "Your powers enhance your mundane eyesight and hearing.",
+    "hearing_modifier": 1.2,
+    "player_display": true
+  },
   {
     "type": "mutation",
     "id": "PYROGLOW_WEAK",	  	  
