@@ -57,7 +57,7 @@
 		"type": "SPELL",
     "name": "Clairvoyance",
     "description": "The classic example of a clairsentient's powers, Clairvoyance can see through walls and reveal everything nearby.",
-    "valid_targets": [ "self" ],
+    "valid_targets": [ "ally", "hostile", "ground" ],
     "spell_class": "CLAIRSENTIENT",
     "flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS", "RANDOM_AOE", "IGNORE_WALLS", "NO_EXPLOSION_SFX" ],
 		 "effect": "attack",
