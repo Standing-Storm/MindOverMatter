@@ -9,6 +9,7 @@
 		"dummy": true,
 		"category": [ "HUMAN" ],
 		"cancels": [ 
+			"BIOKIN_NEEDS",
 			"CLAIR_SENSES",
 			"PYROGLOW_WEAK", 
 			"PYROGLOW_STRONG", 
