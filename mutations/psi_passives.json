@@ -29,6 +29,17 @@
   },
 	{
 		"type": "mutation",
+		"id": "BIOKIN_NEEDS",
+		"name": { "str": "Efficient System" },
+		"points": 0,
+		"description": "Thanks to your powers you need slightly less food and drink than the average person.",
+		"metabolism_modifier": -0.1, 
+		"thirst_modifier": -0.1,  
+	  "player_display": true,
+    "purifiable": false
+	},
+	{
+		"type": "mutation",
     "id": "CLAIR_SENSES",
     "name": { "str": "Psionic Senses" },
     "points": 0,
