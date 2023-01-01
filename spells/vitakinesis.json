@@ -1,6 +1,6 @@
 [
 {
-    "id": vita_stop_bleeding",
+    "id": "vita_stop_bleeding",
     "type": "SPELL",
     "name": "Staunch Wound",
     "description": "With a moment's thought, your wounds close and the blood stops [(a)ctivate to bandage].",
