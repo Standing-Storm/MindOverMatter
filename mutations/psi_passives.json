@@ -31,7 +31,7 @@
     "points": 0,
     "description": "Your powers enhance your mundane eyesight and hearing.",
     "hearing_modifier": 1.2,
-		"flags": ( "ENHANCED_VISION" },
+		"flags": { "ENHANCED_VISION" },
     "player_display": true
   },
   {
