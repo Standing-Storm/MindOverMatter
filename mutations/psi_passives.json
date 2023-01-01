@@ -104,7 +104,7 @@
 		 "id": "TELEPORTER_PROTECT",
 		"name": { "str": "Strongly Located" },
 		"points": 0,
-		"description": "You are always exactly where you want to be.",
+		"description": "You are always exactly where you want to be, and can teleport very short distances to climb walls or avoid a fall.",
 		"flags": { "DIMENSIONAL_ANCHOR", "CLIMB_NO_LADDER", "FEATHER_FALL" },
 		"valid": false,
 		"purifiable": false
