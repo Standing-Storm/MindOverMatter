@@ -9,10 +9,12 @@
 		"dummy": true,
 		"category": [ "HUMAN" ],
 		"cancels": [ 
+			"CLAIR_SENSES",
 			"PYROGLOW_WEAK", 
 			"PYROGLOW_STRONG", 
 			"TELEKINETIC_CARRY", 
-			"TELEPATHIC_SHIELD"
+			"TELEPATHIC_SHIELD",
+			"VITAKINETIC_HEALTH"
 		]
 	},
    {
