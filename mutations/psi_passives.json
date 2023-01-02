@@ -33,9 +33,9 @@
 		"id": "BIOKIN_NEEDS",
 		"name": { "str": "Efficient System" },
 		"points": 0,
-		"description": "Thanks to your powers you need slightly less food and drink than the average person.",
-		"metabolism_modifier": -0.1, 
-		"thirst_modifier": -0.1,  
+		"description": "Thanks to your powers, you need slightly less food and drink than the average person.",
+		"metabolism_modifier": -0.15, 
+		"thirst_modifier": -0.15,  
 	  "player_display": true,
     "purifiable": false
 	},
@@ -130,6 +130,7 @@
     "healing_awake": 0.1,
     "healing_resting": 0.25,
     "mending_modifier": 1.5,
+		"flags": { "MEND_ALL" },
 	  "valid": false,
     "purifiable": false
   }
