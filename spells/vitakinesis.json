@@ -44,10 +44,34 @@
 		"final_casting_time": 75,
 		"casting_time_increment": -20.8,
 		"learn_spells": { }
+	},
+	{
+    "id": "vita_blood_purge",
+    "type": "SPELL",
+    "name": "Blood Purge",
+    "description": "With a moment's thought, your wounds close and the blood stops [(a)ctivate to cleanse wound or poison].",
+	  "message": "You power flows through your veins, cleansing your blood.",
+    "valid_targets": [ "self" ],
+	  "spell_class": "VITAKINETIC",
+		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS" ],
+    "effect": "spawn_item",
+    "effect_str": "vita_antibiotic",
+    "shape": "blast",
+    "difficulty": 1,
+    "max_level": 20,
+    "energy_source": "STAMINA",
+    "base_energy_cost": 3000,
+    "final_energy_cost": 300,
+    "energy_increment": -337.5,
+    "min_duration": 500,
+    "base_casting_time": 50,
+    "final_casting_time": 20,
+		"casting_time_increment": -5,
+		"learn_spells": { }
 	}
 ]
 
 
 
 
-pain_split
+
