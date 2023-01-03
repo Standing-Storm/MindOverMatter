@@ -51,7 +51,7 @@
     "id": "matrix_crystal_teleportation",
     "name": { "str_sp": "matrix crystal" },
     "copy-from": "matrix_crystal_biokinesis",
-    "description": "A strange-loooking crystal with a faintly-glowing blue light in its depths. Holding it, you feel more mobile.",
+    "description": "A strange-looking crystal with a faintly-glowing blue light in its depths. Holding it, you feel more mobile.",
     "color": "blue",
     "use_action": {}
   },
@@ -60,7 +60,7 @@
     "id": "matrix_crystal_vitakinesis",
     "name": { "str_sp": "matrix crystal" },
     "copy-from": "matrix_crystal_biokinesis",
-    "description": "A strange-loooking crystal with a faintly-glowing green light in its depths. Holding it, you feel healthier.",
+    "description": "A strange-looking crystal with a faintly-glowing green light in its depths. Holding it, you feel healthier.",
     "color": "green",
     "use_action": {}
   }
