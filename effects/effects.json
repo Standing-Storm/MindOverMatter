@@ -12,11 +12,11 @@
   },
   {   
     "type": "effect_type",
-    "id": "effect_biokin_sensory",
-    "name": [ "Enhanced Intuition" ],
+    "id": "effect_biokin_reflex",
+    "name": [ "Enhanced Reflexes" ],
     "desc": [ "You are enhancing your speed and senses." ],
     "apply_message": "You notice even the smallest details.",
-    "remove_message": "The vision seems blurry in comparison.",
+    "remove_message": "Your vision seems blurry in comparison.",
     "rating": "good",
     "removes_effects": [ "effect_biokin_physical" ],
     "base_mods": { "per_mod": [ 3 ], "speed_mod": [20] }
