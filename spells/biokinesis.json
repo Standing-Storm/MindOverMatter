@@ -25,7 +25,7 @@
 		"casting_time_increment": -7.5,
 		"learn_spells": { "effect_biokin_sensory": 3 }
 	},
-	 {
+	{
     "id": "biokin_sensory_enhance",
     "type": "SPELL",
     "name": "Perceptual Enhancement",
