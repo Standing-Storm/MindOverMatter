@@ -35,7 +35,7 @@
     "copy-from": "matrix_crystal_biokinesis",
     "description": "A strange-looking crystal with a faintly-glowing yellow light in its depths. Holding it, you feel lighter.",
     "color": "yellow",
-    "use_action": {}
+    "use_action": { "type": "cast_spell", "spell_id": "matcrys_telekin_mutate", "no_fail": true, "level": 0 }
   },
    {
     "type": "TOOL",
