@@ -18,16 +18,41 @@
     "final_energy_cost": 150,
     "energy_increment": -308,
     "min_duration": 30000,
-    "max_duration": 720000,
-    "duration_increment": 120000,
+    "max_duration": 180000,
+    "duration_increment": 25000,
     "base_casting_time": 120,
     "final_casting_time": 75,
 		"casting_time_increment": -7.5,
+		"learn_spells": { "effect_biokin_sensory": 3 }
+	},
+	 {
+    "id": "biokin_sensory_enhance",
+    "type": "SPELL",
+    "name": "Perceptual Enhancement",
+    "description": "You can improve your sensory acuity and the speed at which your brain processes sensory inputs.",
+	  "message": "You enhance your sensory prowess.",
+    "valid_targets": [ "self" ],
+	  "spell_class": "BIOKINESIS",
+		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS" ],
+    "effect": "attack",
+    "effect_str": "effect_biokin_sensory",
+    "shape": "blast",
+    "difficulty": 1,
+    "max_level": 20,
+    "energy_source": "STAMINA",
+    "base_energy_cost": 2500,
+    "final_energy_cost": 250,
+    "energy_increment": -281.25,
+    "min_duration": 30000,
+    "max_duration": 180000,
+    "duration_increment": 18750,
+    "base_casting_time": 175,
+    "final_casting_time": 100,
+		"casting_time_increment": -9.375,
 		"learn_spells": { }
 	},
   
   
   
-  
-  
+
 ]
