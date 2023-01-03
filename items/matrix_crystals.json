@@ -8,7 +8,7 @@
     "symbol": "+",
     "volume": "200 ml",
     "weight": "40 g",
-    "use_action": {}
+    "use_action": { "type": "cast_spell", "spell_id": "matcrys_biokin_mutate", "no_fail": true, "level": 1 }
   },
   {
     "type": "TOOL",
@@ -17,7 +17,7 @@
     "copy-from": "matrix_crystal_biokinesis",
     "description": "A strange-looking crystal with a faintly-glowing gray light in its depths. Holding it, you feel more perceptive.",
     "color": "dark_gray",
-    "use_action": {}
+    "use_action": { "type": "cast_spell", "spell_id": "matcrys_clair_mutate", "no_fail": true, "level": 1 }
   },
   {
     "type": "TOOL",
@@ -26,7 +26,7 @@
     "copy-from": "matrix_crystal_biokinesis",
     "description": "A strange-looking crystal with a faintly-glowing red light in its depths. Holding it, you feel hot.",
     "color": "red",
-    "use_action": {}
+    "use_action": { "type": "cast_spell", "spell_id": "matcrys_pyrokin_mutate", "no_fail": true, "level": 1 }
   },
    {
     "type": "TOOL",
@@ -44,7 +44,7 @@
     "copy-from": "matrix_crystal_biokinesis",
     "description": "A strange-looking crystal with a faintly-glowing white light in its depths. Holding it, you feel pensive.",
     "color": "white",
-    "use_action": {}
+    "use_action": { "type": "cast_spell", "spell_id": "matcrys_telepath_mutate", "no_fail": true, "level": 1 }
   },
    {
     "type": "TOOL",
@@ -53,7 +53,7 @@
     "copy-from": "matrix_crystal_biokinesis",
     "description": "A strange-looking crystal with a faintly-glowing blue light in its depths. Holding it, you feel more mobile.",
     "color": "blue",
-    "use_action": {}
+    "use_action": { "type": "cast_spell", "spell_id": "matcrys_teleport_mutate", "no_fail": true, "level": 1 }
   },
    {
     "type": "TOOL",
@@ -62,7 +62,7 @@
     "copy-from": "matrix_crystal_biokinesis",
     "description": "A strange-looking crystal with a faintly-glowing green light in its depths. Holding it, you feel healthier.",
     "color": "green",
-    "use_action": {}
+    "use_action": { "type": "cast_spell", "spell_id": "matcrys_vitakin_mutate", "no_fail": true, "level": 1 }
   }
   
 ]
