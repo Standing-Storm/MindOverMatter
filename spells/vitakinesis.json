@@ -21,7 +21,7 @@
     "base_casting_time": 50,
     "final_casting_time": 20,
 		"casting_time_increment": -5,
-		"learn_spells": { }
+		"learn_spells": { "vita_pain_split": 3, "vita_overcome_pain": 6, "vita_blood_purge": 8 }
 	},
 	{
 		"id": "vita_overcome_pain",
@@ -47,7 +47,7 @@
 		"base_casting_time": 125,
 		"final_casting_time": 45,
 		"casting_time_increment": -13.33,
-		"learn_spells": { }
+		"learn_spells": { "vita_sleeping_trance": 3, "vita_pain_split": 4, "vita_healing_trance": 6 }
 		
 	},
 	{
@@ -70,7 +70,7 @@
 		"base_casting_time": 200,
 		"final_casting_time": 75,
 		"casting_time_increment": -20.8,
-		"learn_spells": { }
+		"learn_spells": { "vita_blood_purge": 3, "vita_healing_trance": 5, "vita_sleeping_trance": 8 }
 	},
 	{
 		"id": "vita_sleeping_trance",
@@ -92,7 +92,7 @@
 		"energy_source": "STAMINA",
 		"base_energy_cost": 1000,
 		"base_casting_time": 720000,
-		"learn_spells": { }
+		"learn_spells": { "vita_healing_trance", 3 }
 	},
 	{
 		"id": "vita_healing_trance",
@@ -113,7 +113,7 @@
 		"energy_source": "STAMINA",
 		"base_energy_cost": 6000,
 		"base_casting_time": 360000,
-		"learn_spells": { }
+		"learn_spells": { "vita_sleeping_trance": 3, "vita_blood_purge": 4 }
 	},
 	{
     "id": "vita_blood_purge",
