@@ -85,14 +85,47 @@
 	},
 	{
 		"id": "vita_healing_trance",
-		"type": 'SPELLS",
-		"NAME": "Healing Trance",
+		"type": "SPELLS",
+		"NAME": "Revitalizing Meditation",
 		"description": "Enter a trance state and heal your injuries",
+		"message": "You exit your trance and your wounds feel less painful.",
 		"valid_targets": [ "self" ],
-"spell_class": "VITAKINETIC",
-"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS" ],
-		
-		360000
+		"spell_class": "VITAKINETIC",
+		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS", "RANDOM_DAMAGE" ],
+		"effect": "attack",
+		"shape": "blast",
+		"difficulty": 1,
+		"max_level": 20,
+		"min_damage": -5,
+		"max_damage": -20,
+		"damage_increment": -0.5, 
+		"energy_source": "STAMINA",
+		"base_energy_cost": 6000,
+		"base_casting_time": 360000,
+		"learn_spells": { }
+	},
+	{
+		"id": "vita_sleeping_trance",
+		"type": "SPELLS",
+		"NAME": "Healing Trance",
+		"description": "In liu of sleep, you can meditate to rest.",
+		"message": "You meditate for a while and feel refreshed.",
+		"valid_targets": [ "self" ],
+		"spell_class": "VITAKINETIC",
+		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS", "RANDOM_DAMAGE" ],
+		"effect": "recover_energy", 	
+		"effect_str": "FATIGUE",
+		"shape": "blast",
+		"difficulty": 1,
+		"max_level": 20,
+		"min_damage": 100,
+		"max_damage": 400,
+		"damage_increment": 10.0,
+		"energy_source": "STAMINA",
+		"base_energy_cost": 1000,
+		"base_casting_time": 720000,
+		"learn_spells": { }
+	}
 ]
 
 
