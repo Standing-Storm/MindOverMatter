@@ -23,19 +23,19 @@
     "base_casting_time": 120,
     "final_casting_time": 75,
 		"casting_time_increment": -7.5,
-		"learn_spells": { "effect_biokin_sensory": 3 }
+		"learn_spells": { "biokin_reflex_enhance": 3 }
 	},
 	{
-    "id": "biokin_sensory_enhance",
+    "id": "biokin_reflex_enhance",
     "type": "SPELL",
-    "name": "Perceptual Enhancement",
+    "name": "Heightened Reflexes",
     "description": "You can improve your sensory acuity and the speed at which your brain processes sensory inputs.",
 	  "message": "You enhance your sensory prowess.",
     "valid_targets": [ "self" ],
 	  "spell_class": "BIOKINESIS",
 		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS" ],
     "effect": "attack",
-    "effect_str": "effect_biokin_sensory",
+    "effect_str": "effect_biokin_reflex",
     "shape": "blast",
     "difficulty": 1,
     "max_level": 20,
