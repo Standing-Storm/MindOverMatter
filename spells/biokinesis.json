@@ -1,0 +1,33 @@
+[
+   {
+    "id": "biokin_physical_enhance",
+    "type": "SPELL",
+    "name": "Physical Enhancement",
+    "description": "You can improve your strength and agility with your powers.",
+	  "message": "You enhance your physical prowess.",
+    "valid_targets": [ "self" ],
+	  "spell_class": "BIOKINESIS",
+		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS" ],
+    "effect": "attack",
+    "effect_str": "effect_biokin_physical",
+    "shape": "blast",
+    "difficulty": 1,
+    "max_level": 20,
+    "energy_source": "STAMINA",
+    "base_energy_cost": 2000,
+    "final_energy_cost": 150,
+    "energy_increment": -308,
+    "min_duration": 30000,
+    "max_duration": 720000,
+    "duration_increment": 120000,
+    "base_casting_time": 120,
+    "final_casting_time": 75,
+		"casting_time_increment": -7.5,
+		"learn_spells": { }
+	},
+  
+  
+  
+  
+  
+]
