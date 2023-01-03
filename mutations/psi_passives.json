@@ -126,7 +126,7 @@
     "id": "VITAKINETIC_HEALTH",
     "name": { "str": "Healthy Glow" },
     "points": 0,
-    "description": "Your psionic powers speed your healing slightly.",
+    "description": "Your psionic powers speed your healing slightly, and any broken limbs you have mend strait and true.",
     "healing_awake": 0.1,
     "healing_resting": 0.25,
     "mending_modifier": 1.5,
