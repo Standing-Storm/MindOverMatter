@@ -19,14 +19,15 @@
     "rating": "good",
     "flags": [ "PSYSHIELD_PARTIAL" ]
   },
-   {
+  {
     "type": "effect_type",
-    "id": "effect_teleport_slow"
+    "id": "effect_teleport_slow",
     "name": [ "Stutterstepping" ],
     "desc": [ "You steps aren't talking you as far as your eyes tell you they should." ],
     "apply_message": "The air ripples and you stumble",
     "remove_message": "Your eyes and your legs agree with each other again.",
-    "base_mods": { "speed_mod": [ -40 ] }
+    "base_mods": { "speed_mod": [ -40 ] },
+    "immunity_flags": [ "DIMENSIONAL_ANCHOR" ]
   }
  
 ]
