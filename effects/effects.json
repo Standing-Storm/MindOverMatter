@@ -7,9 +7,10 @@
     "apply_message": "You feel a surge of power.",
     "remove_message": "The power fades away.",
     "rating": "good",
+    "removes_effects": [ "effect_biokin_sensory" ],
     "base_mods": { "str_mod": [ 3 ], "dex_mod": [3] }
   },
-   {
+  {   
     "type": "effect_type",
     "id": "effect_biokin_sensory",
     "name": [ "Enhanced Intuition" ],
@@ -17,6 +18,7 @@
     "apply_message": "You notice even the smallest details.",
     "remove_message": "The vision seems blurry in comparison.",
     "rating": "good",
+    "removes_effects": [ "effect_biokin_physical" ],
     "base_mods": { "per_mod": [ 3 ], "speed_mod": [20] }
   },
   {
