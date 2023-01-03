@@ -116,7 +116,10 @@
 		"points": 0,
 		"description": "You are protecting your mind.",
 	  "flags": { "PORTAL_PROOF" },
-		
+		"enchantments": { "id": "enchant_telepathic_psyshield" },
+		"valid": false,
+		"purifiable": false,
+		"profession": true
 	},
 	{
 		"type": "mutation",
@@ -127,7 +130,7 @@
 		"flags": { "DIMENSIONAL_ANCHOR", "CLIMB_NO_LADDER", "FEATHER_FALL" },
 		"valid": false,
 		"purifiable": false,
-"profession": true
+		"profession": true
 	},
 	{
     "type": "mutation",
