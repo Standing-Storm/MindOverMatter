@@ -82,7 +82,17 @@
 		"effect_str": "vita_antivenin",
 		"shape": "blast",
 		"min_duration": 500
-	}
+	},
+	{
+		"id": "vita_healing_trance",
+		"type": 'SPELLS",
+		"NAME": "Healing Trance",
+		"description": "Enter a trance state and heal your injuries",
+		"valid_targets": [ "self" ],
+"spell_class": "VITAKINETIC",
+"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS" ],
+		
+		360000
 ]
 
 
