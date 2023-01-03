@@ -4,7 +4,7 @@
     "type": "SPELL",
     "name": "Staunch Wound",
     "description": "You concentrate on your injuries, and they close and the blood flow stops [(a)ctivate to bandage].",
-	  "message": "You summon up the energy to close your wounds",
+	  "message": "You summon up the energy to close your wounds! [(a)ctivate to bandage]",
     "valid_targets": [ "self" ],
 	  "spell_class": "VITAKINETIC",
 		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS" ],
@@ -49,8 +49,8 @@
     "id": "vita_blood_purge",
     "type": "SPELL",
     "name": "Blood Purge",
-    "description": "You submerge your mind into  [(a)ctivate to cleanse wound or poison].",
-	  "message": "You power flows through your veins, cleansing your blood.",
+    "description": "You submerge your mind into your bloodstream and remove the impurities you find there. [(a)ctivate to cleanse wound or poison].",
+	  "message": "You power flows through your veins, cleansing your blood. [(a)ctivate to cleanse wound or poison]",
     "valid_targets": [ "self" ],
 	  "spell_class": "VITAKINETIC",
 		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS" ],
@@ -81,6 +81,8 @@
 		"effect": "spawn_item",
 		"effect_str": "vita_antivenin",
 		"shape": "blast",
+		"min_duration": 500
+	}
 ]
 
 
