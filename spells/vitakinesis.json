@@ -136,6 +136,6 @@
     "base_casting_time": 250,
     "final_casting_time": 100,
 		"casting_time_increment": -15,
-		"learn_spells": { }
+		"learn_spells": { "vita_stop_bleeding": 2 }
 	}
 ]
