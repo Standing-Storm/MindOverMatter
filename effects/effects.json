@@ -1,7 +1,7 @@
 [
   {
     "type": "effect_type",
-    "id": "night_eyes",
+    "id": "effect_night_eyes",
     "name": [ "Night Eyes" ],
     "desc": [ "You can sense your surroundings in the dark." ],
     "apply_message": "Despite the darkness, you know what's out there.",
@@ -11,13 +11,25 @@
   },
   {
     "type": "effect_type",
-    "id": "telepathic_psi_armor_effect",
+    "id": "effect_telepathic_psi_armor",
     "name": [ "Psychic Shield" ],
     "desc": [ "Your mind is warded against psychic attack." ],
     "apply_message": "You begin to shield your thoughts.",
     "remove_message": "Your thoughts are once again unguarded.",
     "rating": "good",
     "flags": [ "PSYSHIELD_PARTIAL" ]
+  },
+   {
+    "type": "effect_type",
+    "id": "effect_teleport_slow"
+    "name": [ "Stutterstepping" ],
+    "desc": [ "You steps aren't talking you as far as your eyes tell you they should." ],
+    "max_intensity": 3,
+    "int_add_val": 1,
+    "apply_message": "The air ripples and you stumble",
+    "remove_message": "Your eyes and your legs agree with each other again.",
+    "base_mods": { "speed_mod": [ -20 ] },
+    "scaling_mods": { "speed_mod": [ -15 ] }
   }
  
 ]
