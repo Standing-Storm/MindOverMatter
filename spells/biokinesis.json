@@ -51,6 +51,32 @@
 		"casting_time_increment": -9.375,
 		"learn_spells": { }
 	},
+	{
+    "id": "biokin_sealed_system",
+    "type": "SPELL",
+    "name": "Sealed System",
+    "description": "With a deep breath, you lock your body off from the outside world--nothing gets in, nothing gets out.",
+	  "message": "You enhance your sensory prowess.",
+    "valid_targets": [ "self" ],
+	  "spell_class": "BIOKINESIS",
+		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS" ],
+    "effect": "attack",
+    "effect_str": "effect_biokin_sealed",
+    "shape": "blast",
+    "difficulty": 1,
+    "max_level": 20,
+    "energy_source": "STAMINA",
+    "base_energy_cost": 5000,
+    "final_energy_cost": 750,
+    "energy_increment": -425,
+    "min_duration": 18000,
+    "max_duration": 90000,
+    "duration_increment": 7200,
+    "base_casting_time": 200,
+    "final_casting_time": 100,
+		"casting_time_increment": -10,
+		"learn_spells": { }
+	}
   
   
   
