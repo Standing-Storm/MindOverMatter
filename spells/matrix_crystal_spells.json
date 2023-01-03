@@ -1,0 +1,29 @@
+[
+    {
+      "id": "matcrys_telekin_mutate",
+      "type": "SPELL",
+      "name": "Telekinetic Mutation",
+      "description": "Makes you a telekinetic",
+      "valid_targets": [ "self" ],
+      "shape": "blast",
+      "effect": "mutate",
+      "effect_str": "TELEKINETIC",
+      "extra_effects": [ { "id": "matcrys_telekin_mutate2", "hit_self": true, "max_level": 1 } ],
+      "flags": [ "MUTATE_TRAIT" ],
+      "difficulty": 1,
+      "max_level": 1
+    },
+  {
+      "id": "matcrys_telekin_mutate2",
+      "type": "SPELL",
+      "name": "Telekinetic Mutation 2",
+      "description": "Makes you a telekinetic",
+      "valid_targets": [ "self" ],
+      "shape": "blast",
+      "effect": "mutate",
+      "effect_str": "TELEKINETIC_CARRY",
+      "flags": [ "MUTATE_TRAIT" ],
+      "difficulty": 1,
+      "max_level": 1
+  }
+]
