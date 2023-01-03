@@ -1,6 +1,13 @@
 [
   {
     "type": "enchantment",
+    "id": "enchant_biokin_sealed",
+    "condition": "ALWAYS",
+    "has": "HELD",
+    "flags": { "NO_SCENT", "ELECTRIC_IMMUNE" }
+  },
+  {
+    "type": "enchantment",
     "id": "enchant_pyrokinetic_aura",
     "condition": "ALWAYS",
     "has": "HELD",
