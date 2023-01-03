@@ -1,7 +1,27 @@
 [
   {
     "type": "effect_type",
-    "id": "effect_night_eyes",
+    "id": "effect_biokin_physical",
+    "name": [ "Enhanced Prowess" ],
+    "desc": [ "You are enhancing your physical prowess." ],
+    "apply_message": "You feel a surge of power.",
+    "remove_message": "The power fades away.",
+    "rating": "good",
+    "base_mods": { "str_mod": [ 3 ], "dex_mod": [3] }
+  },
+   {
+    "type": "effect_type",
+    "id": "effect_biokin_sensory",
+    "name": [ "Enhanced Intuition" ],
+    "desc": [ "You are enhancing your speed and senses." ],
+    "apply_message": "You notice even the smallest details.",
+    "remove_message": "The vision seems blurry in comparison.",
+    "rating": "good",
+    "base_mods": { "per_mod": [ 3 ], "speed_mod": [20] }
+  },
+  {
+    "type": "effect_type",
+    "id": "effect_clair_night_eyes",
     "name": [ "Night Eyes" ],
     "desc": [ "You can sense your surroundings in the dark." ],
     "apply_message": "Despite the darkness, you know what's out there.",
