@@ -81,7 +81,7 @@
     "purifiable": false,
     "valid": false,
     "cancels": [ "PYROKINETIC", "TELEKINETIC" ],
-    "spells_learned": [ [ "pyrokinetic_firestarting", 1 ], [ "pyrokinetic_glow", 1] ]
+    "spells_learned": [ [ "vita_stop_bleeding", 1 ], [ "vita_overcome_pain", 1] ]
   }
 ]
   
