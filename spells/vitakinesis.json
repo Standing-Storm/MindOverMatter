@@ -56,6 +56,7 @@
 		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS" ],
     "effect": "spawn_item",
     "effect_str": "vita_antibiotic",
+		"extra_effects": [ { "id": "vita_summon_antivenin", "hit_self": false, "max_level": 20 } ],	
     "shape": "blast",
     "difficulty": 1,
     "max_level": 20,
@@ -68,7 +69,18 @@
     "final_casting_time": 20,
 		"casting_time_increment": -5,
 		"learn_spells": { }
-	}
+	},
+	{
+		"id": "vita_summon_antivenin",
+		"type": "SPELL",
+		"name": "Vitakinetic Antivenin",
+		"description": "The other part of Blood Purge. If you have this separate, it's a bug.",
+		"valid_targets": [ "self" ],
+		"spell_class": "VITAKINETIC",
+		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS" ],
+		"effect": "spawn_item",
+		"effect_str": "vita_antivenin",
+		"shape": "blast",
 ]
 
 
