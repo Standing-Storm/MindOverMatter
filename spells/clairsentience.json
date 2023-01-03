@@ -9,7 +9,7 @@
 	  "spell_class": "CLAIRSENTIENT",
 		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS" ],
     "effect": "attack",
-    "effect_str": "effect_night_eyes",
+    "effect_str": "effect_clair_night_eyes",
     "shape": "blast",
     "difficulty": 1,
     "max_level": 20,
