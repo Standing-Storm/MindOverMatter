@@ -47,7 +47,7 @@
     "points": 0,
     "description": "Your powers enhance your mundane senses.",
     "hearing_modifier": 1.2,
-		"flags": { "ENHANCED_VISION", "EYE_MEMBRANE", "WATCH" },
+		"flags": [ "ENHANCED_VISION", "EYE_MEMBRANE", "WATCH" ],
     "player_display": true,
 		"purifiable": false,
 		"profession": true
@@ -115,8 +115,8 @@
 		"name": { "str": "Telepathic Shield" },
 		"points": 0,
 		"description": "You are protecting your mind.",
-	  "flags": { "PORTAL_PROOF" },
-		"enchantments": { "id": "enchant_telepathic_psyshield" },
+	  "flags": [ "PORTAL_PROOF" ],
+		"enchantments": [ { "id": "enchant_telepathic_psyshield" } ],
 		"valid": false,
 		"purifiable": false,
 		"profession": true
@@ -127,7 +127,7 @@
 		"name": { "str": "Strongly Located" },
 		"points": 0,
 		"description": "You are always exactly where you want to be, and can teleport very short distances to climb walls or avoid a fall.",
-		"flags": { "DIMENSIONAL_ANCHOR", "CLIMB_NO_LADDER", "FEATHER_FALL" },
+		"flags": [ "DIMENSIONAL_ANCHOR", "CLIMB_NO_LADDER", "FEATHER_FALL" ],
 		"valid": false,
 		"purifiable": false,
 		"profession": true
@@ -141,7 +141,7 @@
     "healing_awake": 0.2,
     "healing_resting": 0.25,
     "mending_modifier": 1.5,
-		"flags": { "MEND_ALL" },
+		"flags": [ "MEND_ALL" ],
 	  "valid": false,
     "purifiable": false,
 		"profession": true, 
