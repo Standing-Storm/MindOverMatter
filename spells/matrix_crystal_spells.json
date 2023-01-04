@@ -18,7 +18,7 @@
   {
       "id": "matcrys_biokin_mutate2",
       "type": "SPELL",
-      "name": "Biokinetic Mutation 2",
+      "name": { "str": "Biokinetic Mutation 2" },
       "description": "Makes you a biokinetic",
       "valid_targets": [ "self" ],
       "shape": "blast",
@@ -26,12 +26,14 @@
       "effect_str": "BIOKIN_NEEDS",
       "flags": [ "MUTATE_TRAIT" ],
       "difficulty": 1,
-      "max_level": 1
+      "max_level": 1,
+      "min_damage": 10000,
+      "max_damage": 10000
   },
      {
       "id": "matcrys_clair_mutate",
       "type": "SPELL",
-      "name": "Clairsentient Mutation",
+      "name": { "str": "Clairsentient Mutation" },
       "description": "Makes you a clairsentient",
       "valid_targets": [ "self" ],
       "shape": "blast",
@@ -40,12 +42,14 @@
       "extra_effects": [ { "id": "matcrys_clair_mutate2", "hit_self": true, "max_level": 1 } ],
       "flags": [ "MUTATE_TRAIT" ],
       "difficulty": 1,
-      "max_level": 1
+      "max_level": 1,
+      "min_damage": 10000,
+      "max_damage": 10000
     },
   {
       "id": "matcrys_clair_mutate2",
       "type": "SPELL",
-      "name": "Clairsentient Mutation 2",
+      "name": { "str": "Clairsentient Mutation 2" },
       "description": "Makes you a clairsentient",
       "valid_targets": [ "self" ],
       "shape": "blast",
@@ -53,12 +57,14 @@
       "effect_str": "CLAIR_SENSES",
       "flags": [ "MUTATE_TRAIT" ],
       "difficulty": 1,
-      "max_level": 1
+      "max_level": 1,
+      "min_damage": 10000,
+      "max_damage": 10000
   },
      {
       "id": "matcrys_pyro_mutate",
       "type": "SPELL",
-      "name": "Pyrokinetic Mutation",
+      "name": { "str": "Pyrokinetic Mutation }",
       "description": "Makes you a pyrokinetic",
       "valid_targets": [ "self" ],
       "shape": "blast",
@@ -67,12 +73,14 @@
       "extra_effects": [ { "id": "matcrys_pyro_mutate2", "hit_self": true, "max_level": 1 }, { "id": "matcrys_pyro_mutate3", "hit_self": true, "max_level": 1 } ],
       "flags": [ "MUTATE_TRAIT" ],
       "difficulty": 1,
-      "max_level": 1
+      "max_level": 1,
+      "min_damage": 10000,
+      "max_damage": 10000
     },
   {
       "id": "matcrys_pyro_mutate2",
       "type": "SPELL",
-      "name": "Pyrokinetic Mutation 2",
+      "name": { "str": "Pyrokinetic Mutation 2" },
       "description": "Makes you a pyrokinetic",
       "valid_targets": [ "self" ],
       "shape": "blast",
@@ -80,12 +88,14 @@
       "effect_str": "PYROGLOW_WEAK",
       "flags": [ "MUTATE_TRAIT" ],
       "difficulty": 1,
-      "max_level": 1
+      "max_level": 1,
+      "min_damage": 10000,
+      "max_damage": 10000
   },
      {
       "id": "matcrys_pyro_mutate3",
       "type": "SPELL",
-      "name": "Pyrokinetic Mutation 3",
+      "name": { "str": "Pyrokinetic Mutation 3" },
       "description": "Makes you a pyrokinetic",
       "valid_targets": [ "self" ],
       "shape": "blast",
@@ -93,12 +103,14 @@
       "effect_str": "PYROGLOW_STRONG",
       "flags": [ "MUTATE_TRAIT" ],
       "difficulty": 1,
-      "max_level": 1
+      "max_level": 1,
+      "min_damage": 10000,
+      "max_damage": 10000
   },
     {
       "id": "matcrys_telekin_mutate",
       "type": "SPELL",
-      "name": "Telekinetic Mutation",
+      "name": { "str": "Telekinetic Mutation" },
       "description": "Makes you a telekinetic",
       "valid_targets": [ "self" ],
       "shape": "blast",
@@ -107,12 +119,14 @@
       "extra_effects": [ { "id": "matcrys_telekin_mutate2", "hit_self": true, "max_level": 1 } ],
       "flags": [ "MUTATE_TRAIT" ],
       "difficulty": 1,
-      "max_level": 1
+      "max_level": 1,
+      "min_damage": 10000,
+      "max_damage": 10000
     },
   {
       "id": "matcrys_telekin_mutate2",
       "type": "SPELL",
-      "name": "Telekinetic Mutation 2",
+      "name": { "str": "Telekinetic Mutation 2" },
       "description": "Makes you a telekinetic",
       "valid_targets": [ "self" ],
       "shape": "blast",
@@ -120,12 +134,14 @@
       "effect_str": "TELEKINETIC_CARRY",
       "flags": [ "MUTATE_TRAIT" ],
       "difficulty": 1,
-      "max_level": 1
+      "max_level": 1,
+      "min_damage": 10000,
+      "max_damage": 10000
   },
      {
       "id": "matcrys_telepath_mutate",
       "type": "SPELL",
-      "name": "Telepathic Mutation",
+      "name": { "str": "Telepathic Mutation" },
       "description": "Makes you a telepath",
       "valid_targets": [ "self" ],
       "shape": "blast",
@@ -134,12 +150,14 @@
       "extra_effects": [ { "id": "matcrys_telepath_mutate2", "hit_self": true, "max_level": 1 } ],
       "flags": [ "MUTATE_TRAIT" ],
       "difficulty": 1,
-      "max_level": 1
+      "max_level": 1,
+      "min_damage": 10000,
+      "max_damage": 10000
     },
   {
       "id": "matcrys_telepath_mutate2",
       "type": "SPELL",
-      "name": "Telepathic Mutation 2",
+      "name": { "str": "Telepathic Mutation 2" },
       "description": "Makes you a telepath",
       "valid_targets": [ "self" ],
       "shape": "blast",
@@ -147,12 +165,14 @@
       "effect_str": "TELEPATHIC_SHIELD",
       "flags": [ "MUTATE_TRAIT" ],
       "difficulty": 1,
-      "max_level": 1
+      "max_level": 1,
+      "min_damage": 10000,
+      "max_damage": 10000
   },
       {
       "id": "matcrys_teleport_mutate",
       "type": "SPELL",
-      "name": "Teleporter Mutation",
+      "name": { "str": "Teleporter Mutation" },
       "description": "Makes you a teleporter",
       "valid_targets": [ "self" ],
       "shape": "blast",
@@ -161,12 +181,14 @@
       "extra_effects": [ { "id": "matcrys_teleport_mutate2", "hit_self": true, "max_level": 1 } ],
       "flags": [ "MUTATE_TRAIT" ],
       "difficulty": 1,
-      "max_level": 1
+      "max_level": 1,
+      "min_damage": 10000,
+      "max_damage": 10000
     },
   {
       "id": "matcrys_teleport_mutate2",
       "type": "SPELL",
-      "name": "Teleporter Mutation 2",
+      "name": { "str": "Teleporter Mutation 2" },
       "description": "Makes you a teleporter",
       "valid_targets": [ "self" ],
       "shape": "blast",
@@ -174,12 +196,14 @@
       "effect_str": "TELEPORTER_PROTECT",
       "flags": [ "MUTATE_TRAIT" ],
       "difficulty": 1,
-      "max_level": 1
+      "max_level": 1,
+      "min_damage": 10000,
+      "max_damage": 10000
   },
      {
       "id": "matcrys_vitakin_mutate",
       "type": "SPELL",
-      "name": "Vitakinetic Mutation",
+      "name": { "str": "Vitakinetic Mutation" },
       "description": "Makes you a vitakinetic",
       "valid_targets": [ "self" ],
       "shape": "blast",
@@ -188,12 +212,14 @@
       "extra_effects": [ { "id": "matcrys_vitakin_mutate2", "hit_self": true, "max_level": 1 } ],
       "flags": [ "MUTATE_TRAIT" ],
       "difficulty": 1,
-      "max_level": 1
+      "max_level": 1,
+      "min_damage": 10000,
+      "max_damage": 10000
     },
   {
       "id": "matcrys_vitakin_mutate2",
       "type": "SPELL",
-      "name": "Vitakinetic Mutation 2",
+      "name": { "str": "Vitakinetic Mutation 2" },
       "description": "Makes you a vitakinetic",
       "valid_targets": [ "self" ],
       "shape": "blast",
@@ -201,6 +227,8 @@
       "effect_str": "VITAKINETIC_HEALTH",
       "flags": [ "MUTATE_TRAIT" ],
       "difficulty": 1,
-      "max_level": 1
+      "max_level": 1,
+      "min_damage": 10000,
+      "max_damage": 10000
   }
 ]
