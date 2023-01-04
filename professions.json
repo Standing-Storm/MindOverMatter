@@ -6,7 +6,7 @@
     "description": "You knew the world was going to end, but they never listened. They never listened! They couldn't see the things that walked among them! They didn't know what you had seen, what you knew was coming, and where are they now? In a zombie's stomach or walking with those corpses themselves, but you're still alive.",
     "points": 0,
     "skills": [ 
-      { "level": 1, "name": "speech" } ],
+      { "level": 2, "name": "speech" } ],
     "traits": [ 
       "CLAIRSENTIENT", 
       "CLAIR_SENSES", 
@@ -32,7 +32,8 @@
     "description": "Fire always fascinated you. The fires you set almost got you arrested a few times, but the urge was just too powerful. It was like they were calling to you, urging you to create them. And ever since the sky broke, you can create fire with merely a thought.",
     "points": 2,
     "skills": [ 
-      { "level": 2, "name": "cooking" } ],
+      { "level": 2, "name": "cooking" },
+      { "level": 1, "name": "driving" }],
     "traits": [ 
       "PYROMANIA", 
       "PYROKINETIC", 
@@ -66,7 +67,8 @@
     "skills": [ 
       { "level": 2, "name": "gun" },
       { "level": 2, "name": "pistol" },
-      { "level": 1, "name": "dodge" }
+      { "level": 1, "name": "dodge" },
+      { "level": 1, "name": "driving" }
     ],
     "traits": [ "TELEKINETIC", "TELEKINETIC_CARRY" ],
     "spells": [ 
@@ -81,6 +83,30 @@
                     { "item": "knife_combat", "container-item": "sheath" } ]
       },
       "male": [ "boxer_briefs" ],
+      "female": [ "bra", "panties" ]
+    }
+  },
+   {
+    "type": "profession",
+    "id": "psi_vitakinetic_healer",
+    "name": "Faith Healer",
+    "description": "People came to you for things that modern medicine couldn't heal, and you made them well. At least, they seemed well, and that was what mattered. Now the dead walk and are not receptive to your exhortations, but your healing works better on yourself than it ever has on anyone else.",
+    "points": 1,
+    "skills": [ 
+      { "level": 2, "name": "speech" }, 
+      { "level": 1, "name": "driving" } ],
+     "traits": [ "VITAKINETIC", "VITAKINETIC_HEALTH" ],
+    "spells": [ 
+      { "id": "vita_stop_bleeding", "level": 2 },
+      { "id": "vita_health_power", "level": 5 },
+      { "id": "vita_sleeping_trance", "level": 1 } 
+      ],
+    "items": {
+      "both": {
+        "items": [ "dress_shirt", "pants", "socks", "dress_shoes", "wristwatch", "flyer", "flyer", "flyer", "holy_symbol" ],
+        "entries": [ { "group": "charged_smart_phone" } ]
+      },
+      "male": [ "briefs" ],
       "female": [ "bra", "panties" ]
     }
   }
