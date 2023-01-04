@@ -1,5 +1,38 @@
 [
-{
-"mom_fusion_pistol"
-}
+  {
+    "id": "mom_fusion_pistol",
+    "copy-from": "v29",
+    "name": { "str": "ITN B47 Fusion Pistol" },
+    "description": "The standard-issue officer's sidearm for the Imperial Terran Navy, the B47 replaced the earlier B41 and is widely reknowned for its accuracy and ease of maintenance. Hopefully it'll make a good melee weapon as well.",
+    "to_hit": -1,
+    "color": "red",
+    "material": [ "superalloy", "steel" ],
+    "ranged_damage": { "damage_type": "heat", "amount": 50, "armor_penetration": 30 },
+    "ammo_effects": [ "PLASMA", "PLASMA_BUBBLE", "INCENDIARY" ],
+    "delete": {  "ups_charges": 40 },
+    "ammo": [ "mom_fusion_ammo" ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "magazine_well": "120 ml",
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "mom_fusion_ammo" ]
+      }
+    ]
+  },
+  {
+    "id": "mom_fusion_ammo",
+    "type": "AMMO",
+    "name": { "str_sp": "B47 Fusion Pack" },
+    "description": "Power cartridges for the B47. You had better make every shot count, because there's no way you're finding any more of these.",
+    "weight": "5 g",
+    "volume": "10 ml",
+    "price": 100000000,
+    "price_postapoc": 100,
+    "symbol": "=",
+    "color": "red",
+    "ammo_type": "mom_fusion_ammo"
+  }
 ]
