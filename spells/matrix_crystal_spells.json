@@ -1,8 +1,8 @@
 [
-    {
+   {
       "id": "matcrys_biokin_mutate",
       "type": "SPELL",
-      "name": "Biokinetic Mutation",
+      "name": { "str": "Biokinetic Mutation" },
       "description": "Makes you a biokinetic",
       "valid_targets": [ "self" ],
       "shape": "blast",
@@ -11,7 +11,9 @@
       "extra_effects": [ { "id": "matcrys_biokin_mutate2", "hit_self": true, "max_level": 1 } ],
       "flags": [ "MUTATE_TRAIT" ],
       "difficulty": 1,
-      "max_level": 1
+      "max_level": 1,
+      "min_damage": 10000,
+      "max_damage": 10000
     },
   {
       "id": "matcrys_biokin_mutate2",
