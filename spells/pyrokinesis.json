@@ -2,7 +2,7 @@
   {
     "id": "pyrokinetic_eruption",
     "type": "SPELL",
-    "name": "Fountain of Flames",
+    "name": "[Ψ]Fountain of Flames",
     "description": "Cause a burst of flames at the target location.",
     "message": "You summon flames!",
     "valid_targets": [ "hostile", "ground" ],
@@ -33,7 +33,7 @@
   {
     "id": "pyrokinetic_flash",
     "type": "SPELL",
-    "name": "Brilliant Flash",
+    "name": "[Ψ]Brilliant Flash",
     "description": "By strongly exciting the air at a particular point, you produce a burst of light.",
      "message": "The air erupts into an eye-searing flash!.",
     "valid_targets": [ "hostile", "ground" ],
@@ -68,7 +68,7 @@
   {
     "id": "pyrokinetic_flamethrower",
     "type": "SPELL",
-    "name": "Flamethrower",
+    "name": "[Ψ]Flamethrower",
     "description": "Spray fire in a cone in front of you.",
     "message": "You sepw a blast of flames.",
     "valid_targets": [ "hostile", "ground" ],
@@ -102,7 +102,7 @@
   {
     "id": "pyrokinetic_cloak",
     "type": "SPELL",
-    "name": "Cloak of Warmth",
+    "name": "[Ψ]Cloak of Warmth",
     "description": "Control the temperature of the nearby air, warming you and protecting you against flames.",
     "message": "You heat the nearby air to a comfortable temperature.",
     "valid_targets": [ "self" ],
@@ -128,7 +128,7 @@
   {
     "id": "pyrokinetic_blast",
     "type": "SPELL",
-    "name": "Conflagration",
+    "name": "[Ψ]Conflagration",
     "description": "Create an expanding fireball that catches multiple targets in its wake.",
     "message": "You call forth a raging inferno!",
     "valid_targets": [ "hostile", "ground" ],
@@ -161,7 +161,7 @@
   {
     "id": "pyrokinetic_aura",
     "type": "SPELL",
-    "name": "Blazing Aura",
+    "name": "[Ψ]Blazing Aura",
     "description": "Surround yourself with a cloud of flames, damaging anyone in melee combat with you. The flames also produce light.",
     "message": "You set the air around you ablaze.",
     "valid_targets": [ "self" ],
