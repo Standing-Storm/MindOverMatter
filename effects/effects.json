@@ -5,7 +5,7 @@
     "name": [ "Enhanced Prowess" ],
     "desc": [ "You are enhancing your physical prowess." ],
     "apply_message": "You feel a surge of power.",
-    "remove_message": "The power fades away.",
+    "remove_message": "The surge of power fades away.",
     "rating": "good",
     "removes_effects": [ "effect_biokin_sensory" ],
     "base_mods": { "str_mod": [ 3 ], "dex_mod": [3] }
@@ -16,7 +16,7 @@
     "name": [ "Enhanced Reflexes" ],
     "desc": [ "You are enhancing your speed and senses." ],
     "apply_message": "You notice even the smallest details.",
-    "remove_message": "Your vision seems blurry in comparison.",
+    "remove_message": "Your vision seems blurry in comparison to before.",
     "rating": "good",
     "removes_effects": [ "effect_biokin_physical" ],
     "base_mods": { "per_mod": [ 3 ], "speed_mod": [20] }
@@ -45,11 +45,21 @@
     "type": "effect_type",
     "id": "effect_teleport_slow",
     "name": [ "Stutterstepping" ],
-    "desc": [ "You steps aren't taking you as far as your eyes tell you they should." ],
+    "desc": [ "Your steps aren't taking you as far as your eyes tell you they should." ],
     "apply_message": "The air ripples and you stumble",
     "remove_message": "Your eyes and your legs agree with each other again.",
+    "rating": "bad",
     "base_mods": { "speed_mod": [ -40 ] },
     "immunity_flags": [ "DIMENSIONAL_ANCHOR" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "effect_vita_health",
+    "name": [ "Healthy Glow" ],
+    "desc": [ "You feel amazing." ],
+    "apply_message": "Your skin prickles and you feel like you've awakened from a great night's sleep",
+    "remove_message": "All of your fatigue seems to catch up with you.",
+    "rating": "good",
+    "base_mods": { "health_min": [ 1 ], "health_chance": [ 50 ], "h_mod_min": [ 2 ], "h_mod_chance": [ 50 ], "h_mod_tick": [ "5 m" ], "healing_rate": [ 10 ] }
   }
- 
 ]
