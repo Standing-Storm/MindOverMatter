@@ -4,7 +4,7 @@
     "id": "enchant_biokin_sealed",
     "condition": "ALWAYS",
     "has": "HELD",
-    "flags": { "NO_SCENT", "ELECTRIC_IMMUNE" }
+    "flags": [ "NO_SCENT", "ELECTRIC_IMMUNE" ]
   },
   {
     "type": "enchantment",
@@ -49,6 +49,6 @@
     "id": "enchant_telepathic_psyshield",
     "condition": "ALWAYS",
     "has": "HELD",
-    "flags": { "PSYSHIELD_PARTIAL" }
+    "flags": [ "PSYSHIELD_PARTIAL" ]
   }
 ]
