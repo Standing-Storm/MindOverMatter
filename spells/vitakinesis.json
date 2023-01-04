@@ -26,7 +26,7 @@
 	{
 		"id": "vita_health_power",
 		"type": "SPELL",
-		"name": "Healthy Glow",
+		"name": "[Ψ]Healthy Glow",
 		"description": "Your powers can keep you in the bloom of health.",
 		"message": "You feel like you could take on the world.",
 		"valid_targets": [ "self" ],
