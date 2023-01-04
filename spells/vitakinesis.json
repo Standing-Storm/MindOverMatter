@@ -92,7 +92,7 @@
 		"energy_source": "STAMINA",
 		"base_energy_cost": 1000,
 		"base_casting_time": 720000,
-		"learn_spells": { "vita_healing_trance", 3 }
+		"learn_spells": { "vita_healing_trance": 3 }
 	},
 	{
 		"id": "vita_healing_trance",
