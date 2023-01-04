@@ -43,12 +43,5 @@
     "max_damage": 60,
     "min_range": 1,
     "max_range": 1
-  },
-  {
-    "type": "enchantment",
-    "id": "enchant_telepathic_psyshield",
-    "condition": "ALWAYS",
-    "has": "HELD",
-    "flags": [ "PSYSHIELD_PARTIAL" ]
   }
 ]
