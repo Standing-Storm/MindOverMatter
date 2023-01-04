@@ -2,7 +2,7 @@
    {
       "id": "matcrys_biokin_mutate",
       "type": "SPELL",
-      "name": { "str": "Biokinetic Mutation" },
+      "name": { "str": "Liminal Awakening" },
       "description": "Makes you a biokinetic",
       "valid_targets": [ "self" ],
       "shape": "blast",
@@ -33,7 +33,7 @@
      {
       "id": "matcrys_clair_mutate",
       "type": "SPELL",
-      "name": { "str": "Clairsentient Mutation" },
+      "name": { "str": "Liminal Awakening" },
       "description": "Makes you a clairsentient",
       "valid_targets": [ "self" ],
       "shape": "blast",
@@ -64,7 +64,7 @@
      {
       "id": "matcrys_pyro_mutate",
       "type": "SPELL",
-      "name": { "str": "Pyrokinetic Mutation }",
+      "name": { "str": "Liminal Awakening" }",
       "description": "Makes you a pyrokinetic",
       "valid_targets": [ "self" ],
       "shape": "blast",
@@ -110,7 +110,7 @@
     {
       "id": "matcrys_telekin_mutate",
       "type": "SPELL",
-      "name": { "str": "Telekinetic Mutation" },
+      "name": { "str": "Liminal Awakening" },
       "description": "Makes you a telekinetic",
       "valid_targets": [ "self" ],
       "shape": "blast",
@@ -141,7 +141,7 @@
      {
       "id": "matcrys_telepath_mutate",
       "type": "SPELL",
-      "name": { "str": "Telepathic Mutation" },
+      "name": { "str": "Liminal Awakening" },
       "description": "Makes you a telepath",
       "valid_targets": [ "self" ],
       "shape": "blast",
@@ -172,7 +172,7 @@
       {
       "id": "matcrys_teleport_mutate",
       "type": "SPELL",
-      "name": { "str": "Teleporter Mutation" },
+      "name": { "str": "Liminal Awakening" },
       "description": "Makes you a teleporter",
       "valid_targets": [ "self" ],
       "shape": "blast",
@@ -203,7 +203,7 @@
      {
       "id": "matcrys_vitakin_mutate",
       "type": "SPELL",
-      "name": { "str": "Vitakinetic Mutation" },
+      "name": { "str": "Liminal Awakening" },
       "description": "Makes you a vitakinetic",
       "valid_targets": [ "self" ],
       "shape": "blast",
