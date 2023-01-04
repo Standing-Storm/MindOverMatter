@@ -2,7 +2,7 @@
   {
     "id": "telepathic_concentration",
     "type": "SPELL",
-    "name": "Concentration Trance",
+    "name": "[Ψ]Concentration Trance",
     "description": "Focus your own mind into a trance state, increasing learning speed.",
     "message": "You focus on your studies.",
     "valid_targets": [ "self" ],
@@ -30,7 +30,7 @@
   {
     "id": "telepathic_invisibility",
     "type": "SPELL",
-    "name": "Obscurity",
+    "name": "[Ψ]Obscurity",
     "description": "Use a light touch to hide your presence. This power only lasts a few moments.",
     "message": "You hide your presence from your enemies.",
     "valid_targets": [ "self" ],
@@ -58,7 +58,7 @@
   {
     "id": "telepathic_suggestion",
     "type": "SPELL",
-    "name": "Telepathic Suggestion",
+    "name": "[Ψ]Telepathic Suggestion",
     "description": "Using minor prodding, you convince people that your way really is the best way.",
     "message": "You begin influencing those around you.",
     "valid_targets": [ "self" ],
@@ -86,7 +86,7 @@
   {
     "id": "telepathic_confusion",
     "type": "SPELL",
-    "name": "Sensory Deprivation",
+    "name": "[Ψ]Sensory Deprivation",
     "description": "Disconnect a target's brain from its senses, leaving it blinded and confused.",
     "message": "You lock your target's mind away!",
     "valid_targets": [ "hostile" ],
@@ -119,7 +119,7 @@
   {
     "id": "telepathic_blast",
     "type": "SPELL",
-    "name": "Synaptic Overload",
+    "name": "[Ψ]Synaptic Overload",
     "description": "Short-circuit and overwhelm a target's brain, causing extreme damage or death. Does not affect targets without working brains.",
     "message": "You unleash a psionic scream at your target!",
     "valid_targets": [ "hostile" ],
@@ -150,7 +150,7 @@
   {
     "id": "telepathic_mind_control",
     "type": "SPELL",
-    "name": "Mind Control",
+    "name": "[Ψ]Mind Control",
     "description": "Seize control of the target's mind, forcing them to do your bidding.",
     "message": "You take control of your target's mind!",
     "valid_targets": [ "hostile" ],
