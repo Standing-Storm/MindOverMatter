@@ -144,7 +144,7 @@
 		"flags": [ "MEND_ALL" ],
 	  "valid": false,
     "purifiable": false,
-		"profession": true, 
+		"profession": true
   }
 	
 ]
