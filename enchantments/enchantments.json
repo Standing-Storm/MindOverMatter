@@ -4,7 +4,7 @@
     "id": "enchant_biokin_sealed",
     "condition": "ALWAYS",
     "has": "HELD",
-    "flags": [ "NO_SCENT", "ELECTRIC_IMMUNE", "BLEED_IMMUNE" ]
+    "flags": [ "NO_SCENT", "ELECTRIC_IMMUNE", "BLEED_IMMUNE", "BIO_IMMUNE" ]
   },
   {
     "type": "enchantment",
