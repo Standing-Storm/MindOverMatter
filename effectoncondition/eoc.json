@@ -9,5 +9,5 @@
         "target_var": { "global_val": "item_type" }
       },
       { "u_spawn_item": { "global_val": "item_type" } }
-    
+  }
 ]
