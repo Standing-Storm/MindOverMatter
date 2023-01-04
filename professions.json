@@ -42,8 +42,9 @@
       "PYROGLOW_STRONG" 
     ],
     "spells": [ 
-      { "id": "pyrokinetic_firestarting", "level": 4 },
-      { "id": "pyrokinetic_eruption", "level": 3 }                 
+      { "id": "pyrokinetic_eruption", "level": 4 },
+      { "id": "pyrokinetic_flamethrower", "level": 3 },
+      { "id": "pyrokinetic_flash", "level": 1 }
       ],
     "items": {
       "both": {
