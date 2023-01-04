@@ -38,7 +38,7 @@
 		"thirst_modifier": -0.15,  
 	  "player_display": true,
     "purifiable": false,
-		"profession": true, 
+		"profession": true
 	},
 	{
 		"type": "mutation",
@@ -50,7 +50,7 @@
 		"flags": { "ENHANCED_VISION", "EYE_MEMBRANE", "WATCH" },
     "player_display": true,
 		"purifiable": false,
-		"profession": true, 
+		"profession": true
   },
   {
     "type": "mutation",
