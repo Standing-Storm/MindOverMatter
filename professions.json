@@ -123,10 +123,10 @@
          "items": [ "wristwatch", "pants", "dress_shirt", "socks", "dress_shoes", "officer_uniform", "beret" ],
          "entries": [
            { "item": "mom_fusion_pistol", "ammo-item": "mom_fusion_ammo", "charges": 25, "contents-item": [ "holster" ] }
-         ],
+         ]
+       },
          "male": [ "briefs" ],
          "female": [ "bra", "panties" ]
-       }
      }
    },
    {
