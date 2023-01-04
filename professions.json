@@ -103,6 +103,38 @@
   },
    {
     "type": "profession",
+    "id": "psi_teleporter_slider",
+    "name": "Terran Exploratory Corps Liaison",
+    "description": "You don't understand what happened. You were readying for a routine jump at the Far Nyumba transfer point when there was a power cascade in the drive and now you're here. You need to find your way home, but first you need to find a way to survive.",
+    "points": 3,
+    "skills": [ 
+      { "level": 2, "name": "computer" }
+      ],
+     "traits": [ "TELEPORTER", "TELEPORTER_PROTECT" ],
+      "spells": [ 
+      { "id": "teleport_blink", "level": 5 },
+      { "id": "teleport_slow", "level": 1 },
+      { "id": "teleport_farstep", "level": 3 } 
+      ],
+     "items": {
+       "both": {
+         "items": [
+           "wristwatch",
+           "pants",
+           "dress_shirt",
+           "socks",
+           "dress_shoes",
+           "officer_uniform",
+           "beret"
+         ],
+         "entries": [
+           { "item": "mom_fusion_pistol", "ammo-item": "mom_fusion_ammo", "charges": 25, "contents-item": [ "holster" ] }
+         ],
+         "male": [ "briefs" ],
+         "female": [ "bra", "panties" ]
+    },
+   {
+    "type": "profession",
     "id": "psi_vitakinetic_healer",
     "name": "Faith Healer",
     "description": "People came to you for things that modern medicine couldn't heal, and you made them well. At least, they seemed well, and that was what mattered. Now the dead walk and are not receptive to your exhortations, but your healing works better on yourself than it ever has on anyone else.",
