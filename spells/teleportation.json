@@ -89,7 +89,7 @@
 	{
 		"id": "teleport_collapse",
     "type": "SPELL",
-    "name": "[Ψ]Spacial Collapse",
+    "name": "[Ψ]Spacial Vortex",
     "description": "Affect the fabric of space, changing relative distance around a point.",
     "message": "The air around your enemies shimmers as their movements inevitably draw them toward a central point.",
     "valid_targets": [ "ground" ],
