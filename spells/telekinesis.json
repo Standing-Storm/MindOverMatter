@@ -2,7 +2,7 @@
   {
     "id": "telekinetic_pull",
     "type": "SPELL",
-    "name": "Far Hand",
+    "name": "[Ψ]Far Hand",
     "description": "Pull a target or set of items to you.",
     "message": "You reach out and pull your target to you.",
     "valid_targets": [ "ally", "hostile", "item" ],
@@ -30,7 +30,7 @@
   {
     "id": "telekinetic_push",
     "type": "SPELL",
-    "name": "Force Shove",
+    "name": "[Ψ]Force Shove",
     "description": "Shove something away with a burst of psionic force.",
     "message": "You hurl your target away.",
     "valid_targets": [ "ally", "hostile", "item" ],
@@ -58,7 +58,7 @@
   {
     "id": "telekinetic_wave",
     "type": "SPELL",
-    "name": "Wave of Force",
+    "name": "[Ψ]Wave of Force",
     "description": "Unleash a telekinetic wave around you that indiscriminately knocks everything back.",
     "message": "You knock everything nearby backwards!",
     "valid_targets": [ "hostile", "ground", "item" ],
@@ -86,7 +86,7 @@
   {
     "id": "telekinetic_hammer",
     "type": "SPELL",
-    "name": "Mindhammer",
+    "name": "[Ψ]Mindhammer",
     "description": "Smash a single target with a fist of telekinetic force.",
     "message": "You smash your target with a fist of force.",
     "valid_targets": [ "hostile" ],
@@ -117,7 +117,7 @@
   {
     "id": "telekinetic_shield",
     "type": "SPELL",
-    "name": "Inertial Barrier",
+    "name": "[Ψ]Inertial Barrier",
     "description": "Create a telekinetic barrier around yourself to protect you from damage.",
     "message": "The air around you shimmers slightly.",
     "valid_targets": [ "self" ],
@@ -143,7 +143,7 @@
   {
     "id": "telekinetic_explosion",
     "type": "SPELL",
-    "name": "Wrecking Ball",
+    "name": "[Ψ]Wrecking Ball",
     "description": "A burst of telekinetic force indiscriminately shatters the terrain at the target location.",
     "message": "You indiscriminately blast your targets!",
     "valid_targets": [ "hostile", "ground" ],
