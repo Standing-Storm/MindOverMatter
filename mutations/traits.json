@@ -9,7 +9,7 @@
     "purifiable": false,
     "valid": false,
     "cancels": [ "TELEPATH", "CLAIRSENTIENT" ],
-    "spells_learned": [ [ "biokin_physical_enhance", 1 ], [ "biokin_health_power", 1] ]
+    "spells_learned": [ [ "biokin_physical_enhance", 1 ], [ "biokin_overcome_pain", 1] ]
   },
   {
     "type": "mutation",
