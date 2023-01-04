@@ -124,7 +124,7 @@
     "spell_class": "TELEKINETIC",
     "flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS"],
     "effect": "spawn_item",
-    "effect_str": "telekinetic_psi_armor",
+    "effect_str": "telekinetic_armor",
     "shape": "blast",
     "difficulty": 1,
     "max_level": 20,
