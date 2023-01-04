@@ -2,7 +2,7 @@
   {
     "id": "teleport_blink",
     "type": "SPELL",
-    "name": "Blink",
+    "name": "[Ψ]Blink",
     "description": "Step briefly into the void between dimensions and emerge at a random nearby location.",
     "message": "You vanish and reappear nearby.",
     "valid_targets": [ "none" ],
@@ -30,7 +30,7 @@
   {
     "id": "teleport_slow",
     "type": "SPELL",
-    "name": "Stutterstep",
+    "name": "[Ψ]Stutterstep",
     "description": "Manipulate space to increase relative distance around the target, reducing their speed.",
     "message": "You warp the space around your enemies!",
     "valid_targets": [ "ground", "hostile" ],
@@ -62,7 +62,7 @@
   {
     "id": "teleport_farstep",
     "type": "SPELL",
-    "name": "Farstep",
+    "name": "[Ψ]Farstep",
     "description": "Skating along the void between dimensions, move to a specific place within line of sight.",
     "message": "There is a moment of darkness and terrible cold, and you are somewhere else.",
     "valid_targets": [ "ground" ],
@@ -89,7 +89,7 @@
 	{
 		"id": "teleport_collapse",
     "type": "SPELL",
-    "name": "Spacial Collapse",
+    "name": "[Ψ]Spacial Collapse",
     "description": "Affect the fabric of space, changing relative distance around a point.",
     "message": "The air around your enemies shimmers as their movements inevitably draw them toward a central point.",
     "valid_targets": [ "ground" ],
@@ -120,7 +120,7 @@
 	{  
 		"id": "teleport_gateway",
 		"type": "SPELL",
-		"name": "Gateway",
+		"name": "[Ψ]Gateway",
 		"description": "Teleport to an attuned location.",
 		"message": "There is a long moment of darkness and terrible cold that seems like it will freeze your heart, and then you are somewhere else.",
     "valid_targets": [ "self" ],
@@ -142,7 +142,7 @@
 	  {
     "id": "teleport_banish",
     "type": "SPELL",
-    "name": "Oubliette",
+    "name": "[Ψ]Oubliette",
     "description": "Teleport the target through the nether to some other dimension. They are technically not dead, but they are no longer your concern./nOubliette will occasionally fail when used against very poweful enemies, or cause damage to the teleporter.",
     "message": "You warp the space around your enemies!",
     "valid_targets": [ "hostile" ],
