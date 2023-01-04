@@ -1,31 +1,5 @@
 [
-  {
-    "type": "profession",
-    "id": "telekinetic_testsubject",
-    "name": "Test Subject, Project GOTTERDAMMERUNG",
-    "description": "Before the Cataclysm, you were 'volunteered' for a top-secret military project. They never told you what all the injections and EEGs and hours of staring at a quarter on the table were supposed to accomplish, but now that you can move things with your mind you have a pretty good idea what they were aiming at.",
-    "points": 3,
-    "skills": [ 
-      { "level": 2, "name": "psionic_skill" },
-      { "level": 2, "name": "gun" },
-      { "level": 2, "name": "pistol" }
-    ],
-    "traits": [ "TELEKINETIC", "TELEKINETIC_CARRY" ],
-    "spells": [ 
-      { "id": "telekinetic_push", "level": 5 },
-      { "id": "telekinetic_pull", "level": 3 },
-      { "id": "telekinetic_wave", "level": 1 } 
-      ],
-    "items": {
-      "both": {
-        "items": [ "pants_army", "gloves_tactical", "army_top", "boots_combat", "socks" ],
-        "entries": [ { "item": "water_clean", "container-item": "canteen" },
-                    { "item": "knife_combat", "container-item": "sheath" } ]
-      },
-      "male": [ "boxer_briefs" ],
-      "female": [ "bra", "panties" ]
-    }
-  },
+ 
     {
     "type": "profession",
     "id": "psi_pyrokinetic",
@@ -56,6 +30,33 @@
           { "group": "charged_matches" } ]
       },
       "male": [ "boxer_shorts" ],
+      "female": [ "bra", "panties" ]
+    }
+  },
+   {
+    "type": "profession",
+    "id": "telekinetic_testsubject",
+    "name": "Test Subject, Project GOTTERDAMMERUNG",
+    "description": "Before the Cataclysm, you were 'volunteered' for a top-secret military project. They never told you what all the injections and EEGs and hours of staring at a quarter on the table were supposed to accomplish, but now that you can move things with your mind you have a pretty good idea what they were aiming at.",
+    "points": 3,
+    "skills": [ 
+      { "level": 2, "name": "psionic_skill" },
+      { "level": 2, "name": "gun" },
+      { "level": 2, "name": "pistol" }
+    ],
+    "traits": [ "TELEKINETIC", "TELEKINETIC_CARRY" ],
+    "spells": [ 
+      { "id": "telekinetic_push", "level": 5 },
+      { "id": "telekinetic_pull", "level": 3 },
+      { "id": "telekinetic_wave", "level": 1 } 
+      ],
+    "items": {
+      "both": {
+        "items": [ "pants_army", "gloves_tactical", "army_top", "boots_combat", "socks" ],
+        "entries": [ { "item": "water_clean", "container-item": "canteen" },
+                    { "item": "knife_combat", "container-item": "sheath" } ]
+      },
+      "male": [ "boxer_briefs" ],
       "female": [ "bra", "panties" ]
     }
   }
