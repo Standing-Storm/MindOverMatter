@@ -1,13 +1,37 @@
 [
- 
-    {
+  {
     "type": "profession",
-    "id": "psi_pyrokinetic",
+    "id": "psi_clairsentient_doomseer",
+    "name": "Doomseer",
+    "description": "You knew the world was going to end, but they never listened. They never listened! They couldn't see the things that walked among them! They didn't know what you had seen, what you knew was coming, and where are they now? In a zombie's stomach or walking with those corpses themselves, but you're still alive.",
+    "points": 0,
+    "skills": [ 
+      { "level": 1, "name": "speech" } ],
+    "traits": [ 
+      "CLAIRSENTIENT", 
+      "CLAIR_SENSES", 
+      "SCHIZOPHRENIC" 
+    ],
+     "spells": [ 
+      { "id": "clair_night_vision", "level": 3 },
+      { "id": "clair_voyance", "level": 2 }
+      ],
+    "items": {
+      "both": {
+        "items": [ "jeans", "socks", "robe", "lowtops", "newest_newspaper", "weeks_old_newspaper", "months_old_newspaper" ],
+        "entries": [ { "group": "charged_smart_phone" }, { "item": "tshirt", "variant": "generic_tshirt" } ]
+      },
+      "male": [ "briefs" ],
+      "female": [ "bra", "panties" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "psi_pyrokinetic_firestarter",
     "name": "Firestarter",
     "description": "Fire always fascinated you. The fires you set almost got you arrested a few times, but the urge was just too powerful. It was like they were calling to you, urging you to create them. And ever since the sky broke, you can create fire with merely a thought.",
-    "points": 1,
+    "points": 2,
     "skills": [ 
-      { "level": 1, "name": "psionic_skill" }, 
       { "level": 2, "name": "cooking" } ],
     "traits": [ 
       "PYROMANIA", 
@@ -35,14 +59,14 @@
   },
    {
     "type": "profession",
-    "id": "telekinetic_testsubject",
+    "id": "psi_telekinetic_testsubject",
     "name": "Test Subject, Project GOTTERDAMMERUNG",
     "description": "Before the Cataclysm, you were 'volunteered' for a top-secret military project. They never told you what all the injections and EEGs and hours of staring at a quarter on the table were supposed to accomplish, but now that you can move things with your mind you have a pretty good idea what they were aiming at.",
-    "points": 3,
+    "points": 4,
     "skills": [ 
-      { "level": 2, "name": "psionic_skill" },
       { "level": 2, "name": "gun" },
-      { "level": 2, "name": "pistol" }
+      { "level": 2, "name": "pistol" },
+      { "level": 1, "name": "dodge" }
     ],
     "traits": [ "TELEKINETIC", "TELEKINETIC_CARRY" ],
     "spells": [ 
