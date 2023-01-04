@@ -1,6 +1,21 @@
 [
   {
     "type": "profession",
+    "id": "psi_new_psychic",
+    "name": "Awakening Psion",
+    "description": "You survived a portal storm and hid inside while reality broke around you, and when you left to examine the damage you found a strange crystal the storm had left behind. It was captivating, and you took it with you. Sometimes, at night, you look into it before you sleep, and you almost feel like something in you is responding to the glow within the crystal.",
+    "points": 1,
+    "items": {
+      "both": {
+        "items": [ "jeans", "longshirt", "socks", "sneakers", "mbag", "water_clean", "wristwatch" ],
+        "entries": [ { "group": "charged_smart_phone" }, { "group": "charged_matches" }, { "group": "dist_matrix_crystal" } ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "panties" ]
+    }
+  },
+  {
+    "type": "profession",
     "id": "psi_clairsentient_doomseer",
     "name": "Doomseer",
     "description": "You knew the world was going to end, but they never listened. They never listened! They couldn't see the things that walked among them! They didn't know what you had seen, what you knew was coming, and where are they now? In a zombie's stomach or walking with those corpses themselves, but you're still alive.",
