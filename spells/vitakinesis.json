@@ -74,7 +74,7 @@
 	},
 	{
 		"id": "vita_sleeping_trance",
-		"type": "SPELLS",
+		"type": "SPELL",
 		"NAME": "[Ψ]Wakeful Rest",
 		"description": "In liu of sleep, you can meditate.",
 		"message": "You meditate for a while and feel refreshed.",
@@ -96,7 +96,7 @@
 	},
 	{
 		"id": "vita_healing_trance",
-		"type": "SPELLS",
+		"type": "SPELL",
 		"NAME": "[Ψ]Revitalizing Meditation",
 		"description": "Enter a trance state and heal your injuries",
 		"message": "You exit your trance and your wounds feel less painful.",
