@@ -110,9 +110,8 @@
     "skills": [ 
       { "level": 2, "name": "computer" },
       { "level": 2, "name": "gun" },
-      { "level": 2, "name": "pistol" },
-      
-      ],
+      { "level": 2, "name": "pistol" }
+    ],
      "traits": [ "TELEPORTER", "TELEPORTER_PROTECT" ],
       "spells": [ 
       { "id": "teleport_blink", "level": 5 },
@@ -121,21 +120,15 @@
       ],
      "items": {
        "both": {
-         "items": [
-           "wristwatch",
-           "pants",
-           "dress_shirt",
-           "socks",
-           "dress_shoes",
-           "officer_uniform",
-           "beret"
-         ],
+         "items": [ "wristwatch", "pants", "dress_shirt", "socks", "dress_shoes", "officer_uniform", "beret" ],
          "entries": [
            { "item": "mom_fusion_pistol", "ammo-item": "mom_fusion_ammo", "charges": 25, "contents-item": [ "holster" ] }
          ],
          "male": [ "briefs" ],
          "female": [ "bra", "panties" ]
-    },
+       }
+     }
+   },
    {
     "type": "profession",
     "id": "psi_vitakinetic_healer",
