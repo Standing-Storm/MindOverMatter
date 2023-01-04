@@ -1,0 +1,16 @@
+[
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "dist_matrix_crystals",
+    "items": [
+      [ "matrix_crystal_biokinesis", 14.28 ],
+      [ "matrix_crystal_clairsentience", 14.28 ],
+      [ "matrix_crystal_pyrokinesis", 14.28 ],
+      [ "matrix_crystal_telekinesis", 14.28 ],
+      [ "matrix_crystal_telepathy", 14.28 ],
+      [ "matrix_crystal_teleportation", 14.28 ],
+      [ "matrix_crystal_vitakinesis", 14.28 ]
+    ]
+  }
+]
