@@ -106,9 +106,12 @@
     "id": "psi_teleporter_slider",
     "name": "Terran Exploratory Corps Liaison",
     "description": "You don't understand what happened. You were readying for a routine jump at the Far Nyumba transfer point when there was a power cascade in the drive and now you're here. You need to find your way home, but first you need to find a way to survive.",
-    "points": 3,
+    "points": 4,
     "skills": [ 
-      { "level": 2, "name": "computer" }
+      { "level": 2, "name": "computer" },
+      { "level": 2, "name": "gun" },
+      { "level": 2, "name": "pistol" },
+      
       ],
      "traits": [ "TELEPORTER", "TELEPORTER_PROTECT" ],
       "spells": [ 
