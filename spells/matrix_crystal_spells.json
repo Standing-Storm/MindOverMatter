@@ -64,7 +64,7 @@
      {
       "id": "matcrys_pyro_mutate",
       "type": "SPELL",
-      "name": { "str": "Liminal Awakening" }",
+      "name": { "str": "Liminal Awakening" },
       "description": "Makes you a pyrokinetic",
       "valid_targets": [ "self" ],
       "shape": "blast",
