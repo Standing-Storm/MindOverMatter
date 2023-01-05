@@ -8,7 +8,7 @@
     "items": {
       "both": {
         "items": [ "jeans", "longshirt", "socks", "sneakers", "mbag", "water_clean", "wristwatch" ],
-        "entries": [ { "group": "charged_smart_phone" }, { "group": "charged_matches" }, { "group": "dist_matrix_crystal" } ]
+        "entries": [ { "group": "charged_smart_phone" }, { "group": "charged_matches" }, { "group": "dist_matrix_crystals" } ]
       },
       "male": [ "boxer_shorts" ],
       "female": [ "bra", "panties" ]
