@@ -171,7 +171,7 @@
     "casting_time_increment": -12.5,
     "extra_effects": [ { "id": "tele_explosion_damage", "hit_self": false, "max_level": 20 } ],
     "sound_type": "combat",
-    "sound_description": "a crash"
+    "sound_description": "a crash",
     "learn_spells": { "telekinetic_push": 4, "telekinetic_pull": 4 }
   },
   {
