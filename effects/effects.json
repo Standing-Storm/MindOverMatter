@@ -57,8 +57,8 @@
     "id": "effect_vita_health",
     "name": [ "Healthy Glow" ],
     "desc": [ "You feel amazing." ],
-    "apply_message": "Your skin prickles and you feel like you've awakened from a great night's sleep",
-    "remove_message": "All of your fatigue seems to catch up with you.",
+    "apply_message": "Your skin prickles and you feel like you're bursting with energy.",
+    "remove_message": "All of the day's hardships seem to catch up with you.",
     "rating": "good",
     "base_mods": { "health_min": [ 1 ], "health_chance": [ 50 ], "h_mod_min": [ 2 ], "h_mod_chance": [ 50 ], "healing_rate": [ 10 ] }
   }
