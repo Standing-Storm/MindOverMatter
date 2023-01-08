@@ -49,7 +49,7 @@
 		"base_casting_time": 125,
 		"final_casting_time": 45,
 		"casting_time_increment": -13.33,
-		"learn_spells": { "biokin_sealed_system": 8 }	
+		"learn_spells": { "biokin_skin_armor": 4, "biokin_sealed_system": 8 }	
 	},
 	{
     "id": "biokin_reflex_enhance",
@@ -78,11 +78,36 @@
 		"learn_spells": { "biokin_sealed_system": 4 }
 	},
 	{
+		"id": "biokin_armor_skin",
+		"type": "SPELL",
+		"name": "[Ψ]Hardened Skin",
+		"description": "You can increase the strength of your skin, making it almost like armor while still allowing you to move freely.",
+		"message": "Your skin itches slightly and takes on a waxy appearance.",
+		"valid_targets": [ "self" ],
+		"spell_class": "BIOKINETIC",
+		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS" ],
+		"effect": "summon_item",
+		"effect_str": "biokin_armor_skin_item",
+		"difficulty": 1,
+		"max_level": 20,
+		"energy_source": "STAMINA",
+		"base_energy_cost": 4000,
+		"final_energy_cost": 500,
+		"energy_increment": -437.5,
+		"min_duration": 30000,
+		"max_duration": 180000,
+		"duration_increment": 18750,
+		"base_casting_time": 150,
+		"final_casting_time": 50,
+		"casting_time_increment": -12.5,
+		"learn_spells": { "biokin_sealed_system": 4 }
+	},
+	{
     "id": "biokin_sealed_system",
     "type": "SPELL",
     "name": "[Ψ]Sealed System",
     "description": "With a deep breath, you lock your body off from the outside world--nothing gets in, nothing gets out.",
-	  "message": "You enhance your sensory prowess.",
+	  "message": "You take a deep breath and seal your lips.",
     "valid_targets": [ "self" ],
 	  "spell_class": "BIOKINETIC",
 		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS" ],
