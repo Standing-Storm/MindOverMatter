@@ -8,7 +8,7 @@
 		"volume": "0ml"
 		"symbol": "O",
 		"color": "pink",
-		"flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "ALLOWS_NATURAL_ATTACKS", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
+		"flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "ALLOWS_NATURAL_ATTACKS", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE", "ZERO_WEIGHT" ],
     "relic_data": { "passive_effects": [
 			{ "has": "WORN", "condition": "ALWAYS", "values": [
 				{ "value": "ARMOR_CUT", "add": 5 },
