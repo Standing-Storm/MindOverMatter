@@ -1,5 +1,22 @@
 [
 	{
+		"id": "biokin_armor_skin_item",
+		"type": "ARMOR",
+		"name": "Hardened Skin",
+		"description": "Your skin is psionically hardened against damage.",
+		"weight": "0g",
+		"volume": "0ml"
+		"symbol": "O",
+		"color": "pink",
+		"flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "ALLOWS_NATURAL_ATTACKS", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
+    "relic_data": { "passive_effects": [
+			{ "has": "WORN", "condition": "ALWAYS", "values": [
+				{ "value": "ARMOR_CUT", "add": 5 },
+				{ "value": "ARMOR_BASH", "add": 10 },
+				{ "value": "ARMOR_STAB", "add": 5 }                            
+      ] } ] },
+	},
+	{
 	 "id": "telekinetic_armor",
     "type": "ARMOR",
     "name": "Telekinetic Barrier",
@@ -8,7 +25,7 @@
     "volume": "1ml",
     "price": 70000,
     "symbol": "O",
-    "color": "light_gray",
+    "color": "yellow",
     "warmth": 0,
     "material_thickness": 2,
     "material": [ "telekinetic_force" ],
@@ -38,7 +55,7 @@
     "volume": "1ml",
     "price": 70000,
     "symbol": "M",
-    "color": "blue",
+    "color": "white",
     "warmth": 0,
     "material_thickness": 3,
     "flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
@@ -59,9 +76,8 @@
     "weight": "1 g",
     "volume": "1 ml",
     "symbol": "o",
-    "color": "brown",
+    "color": "white",
     "looks_like": "cloak",
-    "material": [ "telekinetic_force" ],
     "flags": [ "AURA", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE", "OVERSIZE" ],
     "relic_data": {
       "passive_effects": [
@@ -154,7 +170,7 @@
 		"volume": "1ml",
 		"price": 7000,
 		"symbol": "P",
-		"color": "light_gray",
+		"color": "dark_gray",
 		"material": [ "telekinetic_force" ],
 		"flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
 		"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "BONUS_DODGE", "add": 3 } ] } ] },
