@@ -5,7 +5,7 @@
     "immune_flags": "TEEPSHIELD"
   },
   {
-    "id": "tindrift"
+    "id": "tindrift",
     "copy-from": "tindrift",
     "immune_flags": "TEEPSHIELD"
   }
