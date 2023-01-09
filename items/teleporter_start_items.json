@@ -4,11 +4,11 @@
     "copy-from": "v29",
     "type": "GUN",
     "name": { "str": "ITN B47 Fusion Pistol" },
-    "description": "The standard-issue officer's sidearm for the Imperial Terran Navy, the B47 replaced the earlier B41 and is widely reknowned for its accuracy and ease of maintenance. Hopefully it'll make a good melee weapon as well.",
+    "description": "The standard-issue officer's sidearm for the Imperial Terran Navy, the B47 replaced the earlier B41 and is widely renowned for its accuracy and ease of maintenance. Hopefully it'll make a good melee weapon as well.",
     "to_hit": -1,
     "color": "red",
     "material": [ "superalloy", "steel" ],
-    "ranged_damage": { "damage_type": "heat", "amount": 50, "armor_penetration": 30 },
+    "ranged_damage": { "damage_type": "heat", "amount": 5, "armor_penetration": 5 },
     "ammo_effects": [ "PLASMA", "PLASMA_BUBBLE", "INCENDIARY" ],
     "delete": {  "ups_charges": 40 },
     "ammo": [ "mom_fusion_ammo" ],
@@ -19,7 +19,7 @@
         "magazine_well": "120 ml",
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
-        "item_restriction": [ "mom_fusion_ammo" ]
+        "ammo_restriction": { "mom_fusion_ammo": 30 }
       }
     ]
   },
@@ -32,8 +32,13 @@
     "volume": "10 ml",
     "price": 100000000,
     "price_postapoc": 100,
+    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
     "symbol": "=",
     "color": "red",
-    "ammo_type": "mom_fusion_ammo"
+    "range": 40,
+    "stack_size": 100,
+    "damage": { "damage_type": "heat", "amount": 60, "armor_penetration": 30 },
+    "ammo_type": "mom_fusion_ammo",
+    "effects": [ "NEVER_MISFIRES" ]
   }
 ]
