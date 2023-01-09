@@ -103,6 +103,26 @@
 			} 
 		] 
 	},
+	{
+		"type": "effect_type",
+		"id": "effect_clair_clear_sight",
+		"name": [ "Truesight" ],
+		"apply_message": "You can perceive everything as it truly is.",
+		"remove_message": "The world seems wrapped in gauze in comparison to before.",
+		"rating": "good",
+		"removes_effects": [
+			"dazed",
+			"stunned",
+			"darkness",
+			"visuals",
+			"hallu",
+			"blind",
+			"taint"
+			"deaf",
+			"weed_high",
+			"High"
+			]
+	},
   {
     "type": "effect_type",
     "id": "effect_telepathic_psi_armor",
