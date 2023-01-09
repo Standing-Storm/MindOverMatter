@@ -121,7 +121,7 @@
 		"id": "teleport_gateway",
 		"type": "SPELL",
 		"name": "[Ψ]Gateway",
-		"description": "Teleport to an attuned location.",
+		"description": "Teleport to an attuned location [use the Construct menu to attune].",
 		"message": "There is a long moment of darkness and terrible cold that seems like it will freeze your heart, and then you are somewhere else.",
     "valid_targets": [ "self" ],
 		"spell_class": "TELEPORTER",  
