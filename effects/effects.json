@@ -45,20 +45,20 @@
     "remove_message": "Your movements return to normal.",
     "rating": "good",
     "show_intensity": false,
-	"enchantments": [
-    {
-      "values": [
-        { "value": "ATTACK_SPEED", "multiply": -0.4 },
-        { "value": "MOVE_COST", "multiply": -0.3 },
-        { "value": "RECOIL_MODIFIER", "add": -30 },
-				{ "value": "MELEE_DAMAGE", "multiply": 0.25},
-				{ "value": "FATIGUE", "add": 10},
-			  { "value": "HUNGER", "multiply": 3},
-			  { "value": "THIRST", "multiply": 3}
-      ] 
-    } 
-  ]
-},
+		"enchantments": [
+			{
+				"values": [
+					{ "value": "ATTACK_SPEED", "multiply": -0.4 },
+					{ "value": "MOVE_COST", "multiply": -0.3 },
+					{ "value": "RECOIL_MODIFIER", "add": -30 },
+					{ "value": "MELEE_DAMAGE", "multiply": 0.25},
+					{ "value": "FATIGUE", "add": 10},
+					{ "value": "HUNGER", "multiply": 3},
+					{ "value": "THIRST", "multiply": 3}
+				]
+			}
+		]
+	},
   {
     "type": "effect_type",
     "id": "effect_clair_night_eyes",
@@ -69,6 +69,40 @@
     "rating": "good",
     "flags": [ "NIGHT_VISION", "INFRARED" ]
   },
+	{
+    "type": "effect_type",
+		"id": "effect_clair_path",
+		"name": [ "Following the Path" ],
+		"desc": [ "You know exactly where to go." ],
+		"apply_message": "A shimmering line appears, visible only to you.",
+		"remove_message": "The line fades away.",
+		"rating": "good",
+		"enchantments": [
+			{
+				"values": [
+					{ "value": "FOOTSTEP_NOISE", "multiply": -0.67 },
+					{ "value": "MOVE_COST", "multiply": -0.67 } 
+				] 
+			} 
+		] 
+	},
+	{
+		"type": "effect_type",
+		"id": "effect_clair_dodge",
+		"name": [ "Anticipating Attack" ],
+		"desc": [ "You can see your enemies' attacks in advance." ],
+		"apply_message": "A ghostly image of your enemies precedes their movements.",
+		"remove_message": "The images fade away.",
+		"rating": "good",
+		"enchantments": [
+			{
+				"values": [
+					{ "value": "BONUS_DODGE", "add": 3 },
+					{ "value": "BONUS_BLOCK", "add": 2 } 
+				] 
+			} 
+		] 
+	},
   {
     "type": "effect_type",
     "id": "effect_telepathic_psi_armor",
