@@ -30,6 +30,7 @@
     "remove_message": "The tingling fades away.",
     "rating": "good",
     "show_intensity": false,
+		"blocks_effects": [ "bleed" ],
     "enchantments": [
       {
         "values": [ { "value": "ARMOR_CUT", "add": -5 }, { "value": "ARMOR_BASH", "add": -10 }, { "value": "ARMOR_STAB", "add": -5 } ]
@@ -45,6 +46,7 @@
     "remove_message": "Your movements return to normal.",
     "rating": "good",
     "show_intensity": false,
+		"removes_effects": [ "stunned", "dazed" ],
 		"enchantments": [
 			{
 				"values": [
@@ -94,6 +96,7 @@
 		"apply_message": "A ghostly image of your enemies precedes their movements.",
 		"remove_message": "The images fade away.",
 		"rating": "good",
+		"blocks_effects": [ "grabbed" ],
 		"enchantments": [
 			{
 				"values": [
@@ -120,7 +123,8 @@
 			"taint"
 			"deaf",
 			"weed_high",
-			"High"
+			"High",
+			"drunk"
 			]
 	},
   {
@@ -131,7 +135,14 @@
     "apply_message": "You begin to shield your thoughts.",
     "remove_message": "Your thoughts are once again unguarded.",
     "rating": "good",
-		"removes_effects": ["taint", "tindrift", "hallu", "visuals"]
+		"removes_effects": [
+			"taint", 
+			"tindrift", 
+			"hallu", 
+			"visuals",
+			"fearparalyze",
+			"amigara"
+		]
     "flags": [ "PORTAL_PROOF", "TEEPSHIELD" ]
   },
   {
