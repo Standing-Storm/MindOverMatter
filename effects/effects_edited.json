@@ -3,13 +3,13 @@
     "id": "taint",
     "type": "effect_type",
     "copy-from": "taint",
-    "immune_flags": "TEEPSHIELD"
+    "immune_flags": [ "TEEPSHIELD" ]
   },
   {
     "id": "tindrift",
     "type": "effect_type",
     "copy-from": "tindrift",
-    "immune_flags": "TEEPSHIELD"
+    "immune_flags": [ "TEEPSHIELD" ]
   }
 ]
 
