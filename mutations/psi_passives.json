@@ -14,20 +14,11 @@
 			"PYROGLOW_WEAK", 
 			"PYROGLOW_STRONG", 
 			"TELEKINETIC_CARRY", 
-			"TELEPATHIC_SHIELD",
+			"TELEPATHIC_SUGGESTION",
 			"TELEPORTER_PROTECT",
 			"VITAKINETIC_HEALTH"
 		]
 	},
-   {
-    "type": "mutation",
-    "id": "PSYJEDITRICK",
-    "name": { "str": "Telepathic Suggestion" },
-    "points": 0,
-    "description": "You are subtly influencing the minds of the people you speak to.",
-    "social_modifiers": { "lie": 25, "persuade": 25, "intimidate": 25 },
-    "player_display": true
-  },
 	{
 		"type": "mutation",
 		"id": "BIOKIN_NEEDS",
@@ -37,8 +28,7 @@
 		"metabolism_modifier": -0.15, 
 		"thirst_modifier": -0.15,  
 	  "player_display": true,
-    "purifiable": false,
-		"profession": true
+    "purifiable": false
 	},
 	{
 		"type": "mutation",
@@ -49,8 +39,7 @@
     "hearing_modifier": 1.2,
 		"flags": [ "ENHANCED_VISION", "EYE_MEMBRANE", "WATCH" ],
     "player_display": true,
-		"purifiable": false,
-		"profession": true
+		"purifiable": false
   },
   {
     "type": "mutation",
@@ -106,21 +95,18 @@
 		"description": "You are using your psionic powers to ease your carry burden.",
 		"weight_capacity_modifier": 1.1,
 		"valid": false,
-		"purifiable": false,
-		"profession": true
+		"purifiable": false
 	},
 	{
-		"type": "mutation",
-		"id": "TELEPATHIC_SHIELD",
-		"name": { "str": "Telepathic Shield" },
-		"points": 0,
-		"description": "You are protecting your mind.",
-	  "flags": [ "PORTAL_PROOF" ],
-		"enchantments": [ { "id": "enchant_telepathic_psyshield" } ],
-		"valid": false,
-		"purifiable": false,
-		"profession": true
-	},
+    "type": "mutation",
+    "id": "TELEPATHIC_SUGGESTION,
+    "name": { "str": "Telepathic Suggestion" },
+    "points": 0,
+    "description": "You are subtly influencing the minds of the people you speak to.",
+    "social_modifiers": { "lie": 25, "persuade": 25, "intimidate": 25 },
+    "valid": false,
+		"purifiable": false
+  },
 	{
 		"type": "mutation",
 		"id": "TELEPORTER_PROTECT",
@@ -129,8 +115,7 @@
 		"description": "You are always exactly where you want to be, and can teleport very short distances to climb walls or avoid a fall.",
 		"flags": [ "DIMENSIONAL_ANCHOR", "CLIMB_NO_LADDER", "FEATHER_FALL" ],
 		"valid": false,
-		"purifiable": false,
-		"profession": true
+		"purifiable": false
 	},
 	{
     "type": "mutation",
@@ -143,8 +128,7 @@
     "mending_modifier": 1.5,
 		"flags": [ "MEND_ALL" ],
 	  "valid": false,
-    "purifiable": false,
-		"profession": true
+    "purifiable": false
   }
 	
 ]
