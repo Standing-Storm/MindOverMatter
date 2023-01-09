@@ -34,7 +34,7 @@
     "valid_targets": [ "self" ],
     "spell_class": "CLAIRSENTIENT",
     "flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS", "RANDOM_DURATION" ],
-    "effect": "spawn_item",
+    "effect": "attack",
     "effect_str": "effect_clair_path",
     "shape": "blast",
     "energy_source": "STAMINA",
@@ -68,7 +68,7 @@
 		"max_level": 20,
 		"min_range": 5,
 		"max_range": 40
-		"range_increment":
+		"range_increment": 1,
     "min_aoe": 5,
     "max_aoe": 30,
 		"aoe_increment": 1,
@@ -84,9 +84,9 @@
 		"learn_spells": { "clair_see_map": 4, "clair_dodge_power": 6 }
 	},
 	{
-	    "id": "clair_dodge_power",
-	    "type": "SPELL",
-	    "name": "[Ψ]Combat Sense",
+	"id": "clair_dodge_power",
+	"type": "SPELL",
+	"name": "[Ψ]Combat Sense",
 	    "description": "By gazing just a few moments into the future, you can be wherever your enemies are not attacking.",
 			"message": "You can see a premonition of your enemies' attacks.",
 	    "valid_targets": [ "self" ],
@@ -110,8 +110,8 @@
 	    "final_casting_time": 70,
 	    "casting_time_increment": -13.333
 	  },
-	{  
-		"id": "clair_see_map",
+{  
+	"id": "clair_see_map",
 		"type": "SPELL",
 		"name": "[Ψ]Satellite View",
 		"description": "You can extend your senses over the landscape, becoming aware of every hill and valley within a large area.",
