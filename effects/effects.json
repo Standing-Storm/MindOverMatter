@@ -22,10 +22,10 @@
     "base_mods": { "per_mod": [ 3 ], "speed_mod": [20] }
   },
    {
-    "id": "effect_endurance",
-    "type": "effect_biokin_armor_skin",
+     "type": "effect_type",
+    "id": "effect_biokin_armor_skin",
     "name": [ "Hardened Skin" ],
-    "desc": [ "Your skin is more resilient thanks to psionic energy" ],
+    "desc": [ "Your skin is more resilient thanks to psionic energy." ],
     "apply_message": "You feel a strange tingle over your skin.",
     "remove_message": "The tingling fades away.",
     "rating": "good",
@@ -36,6 +36,29 @@
       }
     ]
   },
+  {
+     "type": "effect_type",
+    "id": "effect_biokin_combat_dance",
+     "name": [ "Combat Dance" ],
+     "desc": [ "You are a dynamo of death." ],
+    "apply_message": "You begin moving with terrible purpose.",
+    "remove_message": "Your movements return to normal.",
+    "rating": "good",
+    "show_intensity": false,
+	"enchantments": [
+    {
+      "values": [
+        { "value": "ATTACK_SPEED", "multiply": -0.4 },
+        { "value": "MOVE_COST", "multiply": -0.3 },
+        { "value": "RECOIL_MODIFIER", "add": -30 },
+				{ "value": "MELEE_DAMAGE", "multiply": 0.25},
+				{ "value": "FATIGUE", "add": 10},
+			  { "value": "HUNGER", "multiply": 3},
+			  { "value": "THIRST", "multiply": 3}
+      ] 
+    } 
+  ]
+},
   {
     "type": "effect_type",
     "id": "effect_clair_night_eyes",
