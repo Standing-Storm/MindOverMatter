@@ -37,11 +37,23 @@
       }
     ]
   },
+	{
+		"type": "effect_type",
+		"id": "effect_biokin_sealed",
+		"name": [ "Sealed System" ],
+		"desc": [ "You are protected from the dangers of the world." ],
+		"apply_message": "You take a deep breath and shut yourself off.",
+		"remove_message": "You let out your breath in a rush.",
+		"rating": "good",
+		"show_intensity": false,
+		"blocks_effects": [ "smoke", "teargas", "boomered" ]
+		"removes_effects": [ "bleed"]
+		"flags": [ "NO_SCENT", "ELECTRIC_IMMUNE" ]
   {
-     "type": "effect_type",
+		"type": "effect_type",
     "id": "effect_biokin_combat_dance",
-     "name": [ "Combat Dance" ],
-     "desc": [ "You are a dynamo of death." ],
+		"name": [ "Combat Dance" ],
+		"desc": [ "You are a dynamo of death." ],
     "apply_message": "You begin moving with terrible purpose.",
     "remove_message": "Your movements return to normal.",
     "rating": "good",
