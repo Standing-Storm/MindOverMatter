@@ -36,27 +36,6 @@
   "relic_data": { "passive_effects": [  { "id": "enchant_biokin_sealed" } ] },
   },
 {
-	"id": "biokin_combat_dance_item",
-	"type": "ARMOR",
-	"name": "Combat Dance",
-	"description": "You are a dynamo of death.",
-	"weight": "0g",
-	"volume": "0ml",
-	"symbol": "/",
-	"color": "pink",
-	"flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "ALLOWS_NATURAL_ATTACKS", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE", "ZERO_WEIGHT" ],
-	    "relic_data": { "passive_effects": [
-      { "has": "WORN", "condition": "ALWAYS", "values": [
-        { "value": "ATTACK_SPEED", "add": -40 },
-        { "value": "MOVE_COST", "add": -20 },
-        { "value": "RECOIL_MODIFIER", "add": -30 },
-				{ "value": "MELEE_DAMAGE", "multiply": 0.25},
-				{ "value": "FATIGUE", "add": 10},
-			  { "value": "HUNGER", "multiply": 3},
-			  { "value": "THIRST", "multiply": 3}
-      ] } ] },
-},
-{
 	"id": "clairsentient_path_item",
 	"type": "ARMOR",
 	"name": "Know the Path",
