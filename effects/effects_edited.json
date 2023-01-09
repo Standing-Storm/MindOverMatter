@@ -1,0 +1,13 @@
+[
+  {
+    "id": "taint",
+    "copy-from": "taint",
+    "immune_flags": "TEEPSHIELD"
+  },
+  {
+    "id": "tindrift"
+    "copy-from": "tindrift",
+    "immune_flags": "TEEPSHIELD"
+  }
+]
+
