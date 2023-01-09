@@ -131,7 +131,7 @@
     "apply_message": "You begin to shield your thoughts.",
     "remove_message": "Your thoughts are once again unguarded.",
     "rating": "good",
-    "flags": [ "PORTAL_PROOF" ]
+    "flags": [ "PORTAL_PROOF", "TEEPSHIELD" ]
   },
   {
     "type": "effect_type",
