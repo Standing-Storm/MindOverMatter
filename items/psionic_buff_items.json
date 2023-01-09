@@ -156,32 +156,6 @@
     }
   },
   {
-    "id": "telepathic_jedi_trick",
-    "type": "ARMOR",
-    "name": "Telepathic suggestions",
-    "description": "You are extremely convincing.",
-    "weight": "1g",
-    "volume": "1ml",
-    "price": 70000,
-    "symbol": "C",
-    "color": "white",
-    "warmth": 0,
-    "flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
-    "relic_data": { "passive_effects": [ 
-	    { "has": "WORN", "condition": "ALWAYS", "values": [
-			 { "value": "SOCIAL_PERSUADE", "add": 25},
-			 { "value": "SOCIAL_INTIMIDATE", "add": 25 },
-			{ "value": "SOCIAL_LIE", "add": 25 }
-			] } ] },
-    "armor": [
-      {
-        "encumbrance": 0,
-        "coverage": 0,
-        "covers": [ "head" ]
-      }
-    ]
-  },
-  {
     "id": "pyrokinetic_cloak_item",
     "type": "ARMOR",
     "category": "tools",
