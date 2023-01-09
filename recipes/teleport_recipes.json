@@ -3,10 +3,11 @@
     "type": "construction",
     "id": "teleporter_attuned_ground",
     "group": "teleporter_attune",
-    "category": "APPLIANCE",
+    "category": "OTHER",
     "required_skills": [ [ "psionic_skill", 1 ] ],
     "time": "120 m",
     "components": [ ],
+	  "autolearn": true,
     "pre_special": "check_empty",
     "post_terrain": "teleporter_attuned_ground",
     "activity_level": "NO_EXERCISE"
@@ -17,14 +18,14 @@
     "name": "[Ψ]Attune to area"
   },
   {
-	    "type": "furniture",
-	    "id": "teleporter_attuned_ground",
-	    "name": "[Ψ]Attuned ground",
-	    "symbol": "+",
-	    "description": "There is nothing obvious to the eye about this area of ground, but you can see it with your eyes closed. You know it like the back of your hand, and with but a thought, you could teleport to it.",
-	    "color": "light_gray",
-	    "required_str": -1,
-		"move_cost_mod": 1,
-	    "flags": [ "TRANSLOCATOR", "MOUNTABLE", "TRANSPARENT" ]
-	  }
-  ]
+		"type": "furniture",
+		"id": "teleporter_attuned_ground",
+		"name": "[Ψ]Attuned ground",
+		"symbol": "+",
+		"description": "There is nothing obvious to the eye about this area of ground, but you can see it with your eyes closed. You know it like the back of your hand, and with but a thought, you could teleport to it.",
+		"color": "light_gray",
+		"required_str": -1,
+		"move_cost_mod": 0,
+		"flags": [ "TRANSLOCATOR", "MOUNTABLE", "TRANSPARENT", "ALLOW_FIELD_EFFECT" ]
+	}
+]
