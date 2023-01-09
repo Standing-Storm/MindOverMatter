@@ -112,7 +112,7 @@
       { "level": 2, "name": "computer" },
       { "level": 2, "name": "gun" },
       { "level": 2, "name": "pistol" },
-      P "level": 3, "name" "psionic_skill" }
+      { "level": 3, "name" "psionic_skill" }
     ],
      "traits": [ "TELEPORTER", "TELEPORTER_PROTECT" ],
       "spells": [ 
