@@ -139,7 +139,7 @@
 		"description": "Thanks to your powers, nothing can stop you from seeing the world as it is.",
 		"valid_targets": [ "self" ],
 		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS", "RANDOM_DURATION" ],
-		"effect": "spawn_item",
+		"effect": "attack",
 		"effect_str": "effect_clair_clear_sight",
 		"shape": "blast",
 		"difficulty": 1,
