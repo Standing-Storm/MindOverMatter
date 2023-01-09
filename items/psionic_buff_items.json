@@ -111,7 +111,7 @@
     "warmth": 0,
     "material_thickness": 3,
     "flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ALLOWS_NATURAL_ATTACKS", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE", "ZERO_WEIGHT" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "LEARNING_FOCUS", "add": 25 } ] } ] },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "LEARNING_FOCUS", "add": 25 } ] } ] }
   },
 	  {
     "id": "telepathic_invisibility_effect",
