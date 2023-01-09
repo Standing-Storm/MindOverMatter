@@ -44,7 +44,8 @@
         { "value": "MOVE_COST", "add": -20 },
         { "value": "RECOIL_MODIFIER", "add": -30 },
 				{ "value": "MELEE_DAMAGE", "add": 10},
-				{ "value": "METABOLISM", "multiply": 5}
+				{ "value": "METABOLISM", "multiply": 5},
+				{ "value": "FOOTSTEP_NOISE", "multiply": -0.5 }
       ] } ] },
 },
 	{
