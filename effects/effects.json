@@ -49,6 +49,7 @@
 		"blocks_effects": [ "smoke", "teargas", "boomered" ],
 		"removes_effects": [ "bleed"],
 		"flags": [ "NO_SCENT", "ELECTRIC_IMMUNE" ]
+	},
   {
 		"type": "effect_type",
     "id": "effect_biokin_combat_dance",
