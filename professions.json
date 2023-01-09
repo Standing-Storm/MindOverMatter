@@ -83,7 +83,8 @@
       { "level": 2, "name": "gun" },
       { "level": 2, "name": "pistol" },
       { "level": 1, "name": "dodge" },
-      { "level": 1, "name": "driving" }
+      { "level": 1, "name": "driving" },
+      { "level": 1, "name": "psionic_skill" }
     ],
     "traits": [ "TELEKINETIC", "TELEKINETIC_CARRY" ],
     "spells": [ 
@@ -110,7 +111,8 @@
     "skills": [ 
       { "level": 2, "name": "computer" },
       { "level": 2, "name": "gun" },
-      { "level": 2, "name": "pistol" }
+      { "level": 2, "name": "pistol" },
+      P "level": 3, "name" "psionic_skill" }
     ],
      "traits": [ "TELEPORTER", "TELEPORTER_PROTECT" ],
       "spells": [ 
@@ -137,7 +139,9 @@
     "points": 1,
     "skills": [ 
       { "level": 2, "name": "speech" }, 
-      { "level": 1, "name": "driving" } ],
+      { "level": 1, "name": "driving" },
+      { "level": 1, "name": "psionic_skill" }
+    ],
      "traits": [ "VITAKINETIC", "VITAKINETIC_HEALTH" ],
     "spells": [ 
       { "id": "vita_stop_bleeding", "level": 2 },
