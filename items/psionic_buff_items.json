@@ -5,7 +5,7 @@
 		"name": "Hardened Skin",
 		"description": "Your skin is psionically hardened against damage.",
 		"weight": "0g",
-		"volume": "0ml"
+		"volume": "0ml",
 		"symbol": "O",
 		"color": "pink",
 		"flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "ALLOWS_NATURAL_ATTACKS", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE", "ZERO_WEIGHT" ],
@@ -29,7 +29,7 @@
 	"name": "Sealed System",
 	"description": "You are sealed off from the outside world's dangers.",
 	"weight": "0g",
-	"volume": "0ml"
+	"volume": "0ml",
 	"symbol": "+",
 	"color": "pink",
 	"flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "ALLOWS_NATURAL_ATTACKS", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE", "ZERO_WEIGHT" ],
