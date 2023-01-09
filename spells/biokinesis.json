@@ -87,7 +87,7 @@
 		"spell_class": "BIOKINETIC",
 		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS", "RANDOM_DURATION" ],
 		"effect": "summon_item",
-		"effect_str": "biokin_armor_skin_item",
+		"effect_str": "effect_biokin_armor_skin",
 		"difficulty": 1,
 		"max_level": 20,
 		"energy_source": "STAMINA",
