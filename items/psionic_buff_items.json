@@ -50,11 +50,10 @@
         { "value": "ATTACK_SPEED", "add": -40 },
         { "value": "MOVE_COST", "add": -20 },
         { "value": "RECOIL_MODIFIER", "add": -30 },
-				{ "value": "MELEE_DAMAGE", "add": 10},
+				{ "value": "MELEE_DAMAGE", "multiply": 0.25},
 				{ "value": "FATIGUE", "add": 10},
 			  { "value": "HUNGER", "multiply": 3},
-			  { "value": "THIRST", "multiply": 3},
-				{ "value": "FOOTSTEP_NOISE", "multiply": -0.5 }
+			  { "value": "THIRST", "multiply": 3}
       ] } ] },
 },
 {
