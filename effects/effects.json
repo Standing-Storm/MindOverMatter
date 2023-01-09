@@ -131,6 +131,7 @@
     "apply_message": "You begin to shield your thoughts.",
     "remove_message": "Your thoughts are once again unguarded.",
     "rating": "good",
+		"removes_effects": ["taint", "tindrift", "hallu", "visuals"]
     "flags": [ "PORTAL_PROOF", "TEEPSHIELD" ]
   },
   {
