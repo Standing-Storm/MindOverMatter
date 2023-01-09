@@ -15,6 +15,13 @@
 				{ "value": "ARMOR_BASH", "add": -10 },
 				{ "value": "ARMOR_STAB", "add": -5 }                            
       ] } ] },
+    "armor": [
+			{  
+				"encumbrance": 0,
+				"coverage": 100,
+				"covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r", "mouth", "eyes" ]
+			}
+		]
 	},
 {
 	"id": "biokin_sealed_system_item",
@@ -50,8 +57,42 @@
 				{ "value": "FOOTSTEP_NOISE", "multiply": -0.5 }
       ] } ] },
 },
-	{
-	 "id": "telekinetic_armor",
+{
+	"id": "clairsentient_path_item",
+	"type": "ARMOR",
+	"name": "Know the Path",
+	"description": "You know exactly where to move to get to where you're going.",
+	"weight": "0g",
+	"volume": "0ml",
+	"price": 7000,
+	"symbol": "]",
+	"color": "dark_gray",
+	"flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ALLOWS_NATURAL_ATTACKS", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE", "ZERO_WEIGHT" ],
+	"relic_data": { "passive_effects": [ 
+		{ "has": "WORN", "condition": "ALWAYS", "values": [ 
+			{ "value": "FOOTSTEP_NOISE", "multiply": -0.67 },
+			{ "value": "MOVE_COST", "multiply": -0.67 },
+		] } ] },
+},
+{
+	"id": "clairsentient_dodge_item",
+	"type": "ARMOR",
+	"name": "Sensing Combat",
+	"description": "When you're about to be hit, you simply aren't there.",
+	"weight": "0g",
+	"volume": "0ml",
+	"price": 7000,
+	"symbol": "P",
+	"color": "dark_gray",
+	"flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ALLOWS_NATURAL_ATTACKS", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE", "ZERO_WEIGHT" ],
+	"relic_data": { "passive_effects": [ 
+		{ "has": "WORN", "condition": "ALWAYS", "values": [ 
+			{ "value": "BONUS_DODGE", "add": 3 },
+			{ "value": "BONUS_BLOCK", "add": 2 }  
+		] } ] },
+},
+{
+	"id": "telekinetic_armor",
     "type": "ARMOR",
     "name": "Telekinetic Barrier",
     "description": "You are protected by a thin shell of telekinetic force.",
@@ -66,7 +107,6 @@
     "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "ALLOWS_NATURAL_ATTACKS", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE", "ZERO_WEIGHT" ],
     "relic_data": { "passive_effects": [
      { "has": "WORN", "condition": "ALWAYS", "values": [
-      { "value": "BONUS_BLOCK", "add": 1},
 			{ "value": "ARMOR_CUT", "add": -5 },
 			{ "value": "ARMOR_BASH", "add": -10 },
 			{ "value": "ARMOR_STAB", "add": -5 },
@@ -92,15 +132,8 @@
     "color": "white",
     "warmth": 0,
     "material_thickness": 3,
-    "flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
+    "flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ALLOWS_NATURAL_ATTACKS", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE", "ZERO_WEIGHT" ],
     "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "LEARNING_FOCUS", "add": 25 } ] } ] },
-    "armor": [
-      {
-        "encumbrance": 0,
-        "coverage": 0,
-        "covers": [ "head" ]
-      }
-    ]
   },
 	  {
     "id": "telepathic_invisibility_effect",
@@ -112,7 +145,7 @@
     "symbol": "o",
     "color": "white",
     "looks_like": "cloak",
-    "flags": [ "AURA", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE", "OVERSIZE" ],
+    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ALLOWS_NATURAL_ATTACKS", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE", "ZERO_WEIGHT" ],
     "relic_data": {
       "passive_effects": [
         {
@@ -155,24 +188,19 @@
     "category": "tools",
     "name": "Cloak of Warmth",
     "description": "The air around you has its temperature controlled.",
-    "weight": "1g",
-    "volume": "1ml",
+    "weight": "0g",
+    "volume": "0ml",
     "price": 70000,
     "symbol": "{",
     "color": "red",
     "warmth": 0,
     "material_thickness": 3,
-    "flags": [ "PERSONAL", "SEMITANGIBLE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "LIGHT_50" ],
+    "flags": [ "AURA", "SEMITANGIBLE", "ONLY_ONE", "TRADER_AVOID", "ALLOWS_NATURAL_ATTACKS", "NO_TAKEOFF", "LIGHT_50", "ZERO_WEIGHT" ],
     "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ 
         { "value": "CLIMATE_CONTROL_HEAT", "add": 80 },
         { "value": "ARMOR_HEAT", "add": 40 },
         { "value": "ARMOR_COLD", "add": 40 }
-    ] } ] },
-    "armor": [
-      {
-        "covers": [ "torso" ]
-      }
-    ] 
+    ] } ] }
   },
 	{
     "id": "pyrokinetic_aura_item",
@@ -180,40 +208,14 @@
     "category": "tools",
     "name": "Flaming Aura",
     "description": "You are surrounded by flames.",
-    "weight": "1g",
-    "volume": "1ml",
+    "weight": "0g",
+    "volume": "0ml",
     "price": 70000,
     "symbol": "O",
     "color": "red",
     "warmth": 0,
     "material_thickness": 3,
-    "flags": [ "AURA", "SEMITANGIBLE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "LIGHT_50" ],
-    "relic_data": { "passive_effects": [ { "id": "enchant_pyrokinetic_aura" } ] },
-    "armor": [
-      {
-        "covers": [ "torso" ]
-      }
-    ]
-  },
-	{
-		"id": "clairsentient_dodge_item",
-		"type": "ARMOR",
-		"name": "Sensing Combat",
-		"description": "When you're about to be hit, you simply aren't there.",
-		"weight": "1g",
-		"volume": "1ml",
-		"price": 7000,
-		"symbol": "P",
-		"color": "dark_gray",
-		"material": [ "telekinetic_force" ],
-		"flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
-		"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "BONUS_DODGE", "add": 3 } ] } ] },
-		"armor": [
-			{
-				"encumbrance": 0,
-				"coverage": 100,
-				"covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r", "mouth", "eyes" ]
-	      }
-	    ]
-	  }
+    "flags": [ "AURA", "SEMITANGIBLE", "ONLY_ONE", "TRADER_AVOID", "ALLOWS_NATURAL_ATTACKS", "NO_TAKEOFF", "LIGHT_50", "ZERO_WEIGHT" ],
+    "relic_data": { "passive_effects": [ { "id": "enchant_pyrokinetic_aura" } ] }
+  }
 ]
