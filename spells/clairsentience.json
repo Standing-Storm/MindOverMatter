@@ -54,10 +54,37 @@
 		"learn_spells": { "clair_dodge_power": 4, "clair_night_vision": 6 }
   },
 	{
+		"id": "clair_dodge_power",
+		"type": "SPELL",
+		"name": "[Ψ]Combat Sense",
+		"description": "By gazing just a few moments into the future, you can be wherever your enemies are not attacking.",
+		"message": "You can see a premonition of your enemies' attacks.",
+		"valid_targets": [ "self" ],
+		"spell_class": "CLAIRSENTIENT",
+		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS", "RANDOM_DURATION" ],
+		"effect": "attack",
+		"effect_str": "effect_clair_dodge",
+		"shape": "blast",
+		"energy_source": "STAMINA",
+		"difficulty": 1,
+		"max_level": 20,
+		"min_damage": 0,
+		"max_damage": 0,
+		"base_energy_cost": 1500,
+		"final_energy_cost": 200,
+		"energy_increment": -162.5,
+		"min_duration": 30000,
+		"max_duration": 360000,
+		"duration_increment": 13750,
+		"base_casting_time": 150,
+		"final_casting_time": 70,
+		"casting_time_increment": -13.333
+	},
+	{
 		"id": "clair_voyance",
 		"type": "SPELL",
-    "name": "[Ψ]Clairvoyance",
-    "description": "The classic example of a clairsentient's powers, you can see through walls and reveal everything nearby.",
+		"name": "[Ψ]Clairvoyance",
+		"description": "The classic example of a clairsentient's powers, you can see through walls and reveal everything nearby.",
     "valid_targets": [ "ally", "hostile", "ground" ],
     "spell_class": "CLAIRSENTIENT",
     "flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS", "RANDOM_AOE", "IGNORE_WALLS", "NO_EXPLOSION_SFX" ],
@@ -83,34 +110,7 @@
     "casting_time_increment": -37.5,
 		"learn_spells": { "clair_see_map": 4, "clair_dodge_power": 6 }
 	},
-	{
-	"id": "clair_dodge_power",
-	"type": "SPELL",
-	"name": "[Ψ]Combat Sense",
-	    "description": "By gazing just a few moments into the future, you can be wherever your enemies are not attacking.",
-			"message": "You can see a premonition of your enemies' attacks.",
-	    "valid_targets": [ "self" ],
-	    "spell_class": "CLAIRSENTIENT",
-	    "flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS", "RANDOM_DURATION" ],
-	    "effect": "spawn_item",
-	    "effect_str": "effect_clair_dodge",
-	    "shape": "blast",
-	    "energy_source": "STAMINA",
-	    "difficulty": 1,
-	    "max_level": 20,
-	    "min_damage": 1,
-	    "max_damage": 1,
-	    "base_energy_cost": 1500,
-			"final_energy_cost": 200,
-			"energy_increment": -162.5,
-	    "min_duration": 30000,
-	    "max_duration": 360000,
-	    "duration_increment": 13750,
-	    "base_casting_time": 150,
-	    "final_casting_time": 70,
-	    "casting_time_increment": -13.333
-	  },
-{  
+	{  
 	"id": "clair_see_map",
 		"type": "SPELL",
 		"name": "[Ψ]Satellite View",
@@ -130,5 +130,6 @@
 		"base_casting_time": 6000,
 		"final_casting_time": 2000,
 		"casting_time_increment": -400
-	}
+	},
+{
 ]
