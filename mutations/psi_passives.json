@@ -99,7 +99,7 @@
 	},
 	{
     "type": "mutation",
-    "id": "TELEPATHIC_SUGGESTION,
+    "id": "TELEPATHIC_SUGGESTION",
     "name": { "str": "Telepathic Suggestion" },
     "points": 0,
     "description": "You are subtly influencing the minds of the people you speak to.",
