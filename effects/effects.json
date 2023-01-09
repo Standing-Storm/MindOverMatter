@@ -21,6 +21,21 @@
     "removes_effects": [ "effect_biokin_physical" ],
     "base_mods": { "per_mod": [ 3 ], "speed_mod": [20] }
   },
+   {
+    "id": "effect_endurance",
+    "type": "effect_biokin_armor_skin",
+    "name": [ "Hardened Skin" ],
+    "desc": [ "Your skin is more resilient thanks to psionic energy" ],
+    "apply_message": "You feel a strange tingle over your skin.",
+    "remove_message": "The tingling fades away.",
+    "rating": "good",
+    "show_intensity": false,
+    "enchantments": [
+      {
+        "values": [ { "value": "ARMOR_CUT", "add": -5 }, { "value": "ARMOR_BASH", "add": -10 }, { "value": "ARMOR_STAB", "add": -5 } ]
+      }
+    ]
+  },
   {
     "type": "effect_type",
     "id": "effect_clair_night_eyes",
@@ -39,7 +54,7 @@
     "apply_message": "You begin to shield your thoughts.",
     "remove_message": "Your thoughts are once again unguarded.",
     "rating": "good",
-    "flags": [ "PSYSHIELD_PARTIAL" ]
+    "flags": [ "PORTAL_PROOF" ]
   },
   {
     "type": "effect_type",
