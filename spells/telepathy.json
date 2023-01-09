@@ -37,7 +37,7 @@
     "spell_class": "TELEPATH",
     "flags": [ "CONCENTRATE","SILENT", "NO_HANDS", "NO_LEGS", "RANDOM_DURATION" ],
     "effect": "spawn_item",
-    "effect_str": "telepathic_shield_item",
+    "effect_str": "effect_telepathic_psi_armor",
     "shape": "blast",
     "difficulty": 1,
     "max_level": 20,
