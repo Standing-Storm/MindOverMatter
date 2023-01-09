@@ -49,7 +49,7 @@
 	"relic_data": { "passive_effects": [ 
 		{ "has": "WORN", "condition": "ALWAYS", "values": [ 
 			{ "value": "FOOTSTEP_NOISE", "multiply": -0.67 },
-			{ "value": "MOVE_COST", "multiply": -0.67 },
+			{ "value": "MOVE_COST", "multiply": -0.67 }
 		] } ] },
 },
 {
