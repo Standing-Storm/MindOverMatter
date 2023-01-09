@@ -1,28 +1,4 @@
 [
-	{
-		"id": "biokin_armor_skin_item",
-		"type": "ARMOR",
-		"name": "Hardened Skin",
-		"description": "Your skin is psionically hardened against damage.",
-		"weight": "0g",
-		"volume": "0ml",
-		"symbol": "O",
-		"color": "pink",
-		"flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "ALLOWS_NATURAL_ATTACKS", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE", "ZERO_WEIGHT" ],
-    "relic_data": { "passive_effects": [
-			{ "has": "WORN", "condition": "ALWAYS", "values": [
-				{ "value": "ARMOR_CUT", "add": -5 },
-				{ "value": "ARMOR_BASH", "add": -10 },
-				{ "value": "ARMOR_STAB", "add": -5 }                            
-      ] } ] },
-    "armor": [
-			{  
-				"encumbrance": 0,
-				"coverage": 100,
-				"covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r", "mouth", "eyes" ]
-			}
-		]
-	},
 {
 	"id": "biokin_sealed_system_item",
 	"type": "ARMOR",
@@ -35,40 +11,6 @@
 	"flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "ALLOWS_NATURAL_ATTACKS", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE", "ZERO_WEIGHT" ],
   "relic_data": { "passive_effects": [  { "id": "enchant_biokin_sealed" } ] }
   },
-{
-	"id": "clairsentient_path_item",
-	"type": "ARMOR",
-	"name": "Know the Path",
-	"description": "You know exactly where to move to get to where you're going.",
-	"weight": "0g",
-	"volume": "0ml",
-	"price": 7000,
-	"symbol": "]",
-	"color": "dark_gray",
-	"flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ALLOWS_NATURAL_ATTACKS", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE", "ZERO_WEIGHT" ],
-	"relic_data": { "passive_effects": [ 
-		{ "has": "WORN", "condition": "ALWAYS", "values": [ 
-			{ "value": "FOOTSTEP_NOISE", "multiply": -0.67 },
-			{ "value": "MOVE_COST", "multiply": -0.67 }
-		] } ] }
-},
-{
-	"id": "clairsentient_dodge_item",
-	"type": "ARMOR",
-	"name": "Sensing Combat",
-	"description": "When you're about to be hit, you simply aren't there.",
-	"weight": "0g",
-	"volume": "0ml",
-	"price": 7000,
-	"symbol": "P",
-	"color": "dark_gray",
-	"flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ALLOWS_NATURAL_ATTACKS", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE", "ZERO_WEIGHT" ],
-	"relic_data": { "passive_effects": [ 
-		{ "has": "WORN", "condition": "ALWAYS", "values": [ 
-			{ "value": "BONUS_DODGE", "add": 3 },
-			{ "value": "BONUS_BLOCK", "add": 2 }  
-		] } ] }
-},
 {
 	"id": "telekinetic_armor",
     "type": "ARMOR",
