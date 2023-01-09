@@ -4,7 +4,7 @@ A WIP Psionics mod for Cataclysm: Darker Days Ahead (current status: debugging a
 This mod adds (currently) seven separate psionic power paths to Cataclysm, including:
 
 1) Biokinesis - Control of the body. Biokinetics can become stronger and faster than an ordinary human, and even change their form in limited ways.
-2) Clairsentience - Extending the senses beyond the body. Clairsentients can see in the dark and through walls, and eventually gain a bird's eye view of their surroundings.
+2) Clairsentience - Extending the senses beyond the body. Clairsentients can see in the dark and through walls, and eventually gain a bird's eye view of their surroundings, as well as perform in combat by anticipating their enemies' movements.
 3) Pyrokinesis - Manipulating fire and heat. Pyrokinetics can start fires and protect themselves from heat, and even cover their whole body in raging flames to discourage attack
 4) Telekinesis - Moving objects at a distance. Telekinetics can pull objects to them and hurl their enemies away, and even collapse buildings or shield themselves with a barrier of telekinetic force. 
 5) Telepathy - Control of the mind. Telepaths can become more persuasive and shield their presence from their enemies, and a powerful one can seize control of their enemies' minds.
