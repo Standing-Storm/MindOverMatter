@@ -46,8 +46,8 @@
 		"remove_message": "You let out your breath in a rush.",
 		"rating": "good",
 		"show_intensity": false,
-		"blocks_effects": [ "smoke", "teargas", "boomered" ]
-		"removes_effects": [ "bleed"]
+		"blocks_effects": [ "smoke", "teargas", "boomered" ],
+		"removes_effects": [ "bleed"],
 		"flags": [ "NO_SCENT", "ELECTRIC_IMMUNE" ]
   {
 		"type": "effect_type",
