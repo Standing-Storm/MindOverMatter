@@ -7,7 +7,7 @@
 	  "message": "You enhance your physical prowess.",
     "valid_targets": [ "self" ],
 	  "spell_class": "BIOKINETIC",
-		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS" ],
+		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS", "RANDOM_DURATION" ],
     "effect": "attack",
     "effect_str": "effect_biokin_physical",
     "shape": "blast",
@@ -19,11 +19,11 @@
     "energy_increment": -308,
     "min_duration": 30000,
     "max_duration": 180000,
-    "duration_increment": 25000,
+    "duration_increment": 8000,
     "base_casting_time": 120,
     "final_casting_time": 75,
 		"casting_time_increment": -7.5,
-		"learn_spells": { "biokin_reflex_enhance": 4 }
+		"learn_spells": { "biokin_reflex_enhance": 4, "biokin_combat_trance": 8 }
 	},
 {
 		"id": "biokin_overcome_pain",
@@ -59,7 +59,7 @@
 	  "message": "You enhance your sensory prowess.",
     "valid_targets": [ "self" ],
 	  "spell_class": "BIOKINETIC",
-		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS" ],
+		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS", "RANDOM_DURATION" ],
     "effect": "attack",
     "effect_str": "effect_biokin_reflex",
     "shape": "blast",
@@ -71,11 +71,11 @@
     "energy_increment": -281.25,
     "min_duration": 30000,
     "max_duration": 180000,
-    "duration_increment": 18750,
+    "duration_increment": 6000,
     "base_casting_time": 175,
     "final_casting_time": 100,
 		"casting_time_increment": -9.375,
-		"learn_spells": { "biokin_sealed_system": 4 }
+		"learn_spells": { "biokin_combat_dance": 4, "biokin_overcome_pain": 6 }
 	},
 	{
 		"id": "biokin_armor_skin",
@@ -85,7 +85,7 @@
 		"message": "Your skin itches slightly and takes on a waxy appearance.",
 		"valid_targets": [ "self" ],
 		"spell_class": "BIOKINETIC",
-		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS" ],
+		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS", "RANDOM_DURATION" ],
 		"effect": "summon_item",
 		"effect_str": "biokin_armor_skin_item",
 		"difficulty": 1,
@@ -96,7 +96,7 @@
 		"energy_increment": -437.5,
 		"min_duration": 30000,
 		"max_duration": 180000,
-		"duration_increment": 18750,
+		"duration_increment": 4050,
 		"base_casting_time": 150,
 		"final_casting_time": 50,
 		"casting_time_increment": -12.5,
@@ -110,9 +110,9 @@
 	  "message": "You take a deep breath and seal your lips.",
     "valid_targets": [ "self" ],
 	  "spell_class": "BIOKINETIC",
-		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS" ],
-    "effect": "attack",
-    "effect_str": "effect_biokin_sealed",
+		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS", "RANDOM_DURATION" ],
+    "effect": "summon_item",
+    "effect_str": "biokin_sealed_system_item",
     "shape": "blast",
     "difficulty": 1,
     "max_level": 20,
@@ -121,15 +121,36 @@
     "final_energy_cost": 750,
     "energy_increment": -425,
     "min_duration": 18000,
-    "max_duration": 90000,
-    "duration_increment": 7200,
+    "max_duration": 180000,
+    "duration_increment": 4200,
     "base_casting_time": 200,
     "final_casting_time": 100,
 		"casting_time_increment": -10,
-		"learn_spells": { }
+		"learn_spells": { "biokin_overcome_pain": 3 }
+	},
+	{
+		"id": "biokin_combat_dance",
+		"type": "SPELL",
+		"name": "[Ψ]Combat Dance",
+		"description": "You can flood your body with psionic power to enhance your combat prowess, though the effect leaves you drained.",
+		"message": "A surge of power fills your body!",
+		"valid_targets": [ "self" ],
+		"spell_class": "BIOKINETIC",
+		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS", "RANDOM_DURATION" ],
+		"effect": "summon_item",
+		"effect_str": "biokin_combat_dance_item",
+		"shape": "blast",
+		"difficulty": 1,
+		"max_level": 20,
+		"base_energy_cost": 3000,
+		"final_energy_cost": 450,
+		"energy_increment": -255,
+		"min_duration": 18000,
+		"max_duration": 60000,
+		"duration_increment": 600,
+		"base_casting_time": 100,
+		"final_casting_time": 40,
+		"casting_time_increment": -6,
+		"learn_spells": { "biokin_physical_enhance": 3 }
 	}
-  
-  
-  
-
 ]
