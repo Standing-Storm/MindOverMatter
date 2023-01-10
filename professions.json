@@ -22,7 +22,7 @@
     "points": 0,
     "skills": [ 
       { "level": 2, "name": "speech" },
-       { "level": 1, "name": "spellcraft" } ]
+       { "level": 1, "name": "spellcraft" } 
     ],
     "traits": [ 
       "CLAIRSENTIENT", 
