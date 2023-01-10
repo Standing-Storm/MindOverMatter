@@ -138,7 +138,7 @@
     "type": "profession",
     "id": "psi_vitakinetic_healer",
     "name": "Faith Healer",
-    "description": "People came to you for things that modern medicine couldn't heal, and you made them well. At least, they seemed well, and that was what mattered. Now the dead walk and are not receptive to your exhortations, but your healing works better on yourself than it ever has on anyone else.",
+    "description": "People came to you for diseases that modern medicine told them were incurable, and you made them well. At least, they seemed well, and that was what mattered. Now the dead walk and are not receptive to your exhortations, but your healing works better on yourself than it ever has on anyone else.",
     "points": 1,
     "skills": [ 
       { "level": 2, "name": "speech" }, 
