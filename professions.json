@@ -21,7 +21,9 @@
     "description": "You knew the world was going to end, but they never listened. They never listened! They couldn't see the things that walked among them! They didn't know what you had seen, what you knew was coming, and where are they now? In a zombie's stomach or walking with those corpses themselves, but you're still alive.",
     "points": 0,
     "skills": [ 
-      { "level": 2, "name": "speech" } ],
+      { "level": 2, "name": "speech" }.
+       { "level": 1, "name": "spellcraft" } ]
+    ],
     "traits": [ 
       "CLAIRSENTIENT", 
       "CLAIR_SENSES", 
