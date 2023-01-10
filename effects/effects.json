@@ -7,7 +7,6 @@
     "apply_message": "You feel a surge of power.",
     "remove_message": "The surge of power fades away.",
     "rating": "good",
-    "removes_effects": [ "effect_biokin_sensory" ],
     "base_mods": { "str_mod": [ 3 ], "dex_mod": [3] }
   },
   {   
@@ -18,25 +17,24 @@
     "apply_message": "You notice even the smallest details.",
     "remove_message": "Your vision seems blurry in comparison to before.",
     "rating": "good",
-    "removes_effects": [ "effect_biokin_physical" ],
     "base_mods": { "per_mod": [ 3 ], "speed_mod": [20] }
   },
    {
-     "type": "effect_type",
-    "id": "effect_biokin_armor_skin",
-    "name": [ "Hardened Skin" ],
-    "desc": [ "Your skin is more resilient thanks to psionic energy." ],
-    "apply_message": "You feel a strange tingle over your skin.",
-    "remove_message": "The tingling fades away.",
-    "rating": "good",
-    "show_intensity": false,
-		"blocks_effects": [ "bleed" ],
-    "enchantments": [
-      {
-        "values": [ { "value": "ARMOR_CUT", "add": -5 }, { "value": "ARMOR_BASH", "add": -10 }, { "value": "ARMOR_STAB", "add": -5 } ]
-      }
-    ]
-  },
+	   "type": "effect_type",
+		 "id": "effect_biokin_armor_skin",
+		 "name": [ "Hardened Skin" ],
+		 "desc": [ "Your skin is more resilient thanks to psionic energy." ],
+		 "apply_message": "You feel a strange tingle over your skin.",
+		 "remove_message": "The tingling fades away.",
+		 "rating": "good",
+		 "show_intensity": false,
+		 "blocks_effects": [ "bleed" ],
+		 "enchantments": [
+			 {
+				 "values": [ { "value": "ARMOR_CUT", "add": -5 }, { "value": "ARMOR_BASH", "add": -10 }, { "value": "ARMOR_STAB", "add": -5 } ]
+			 }
+		 ]
+	 },
 	{
 		"type": "effect_type",
 		"id": "effect_biokin_sealed",
@@ -134,6 +132,7 @@
 			"hallu",
 			"blind",
 			"taint",
+			"hallucination_attacks",
 			"deaf",
 			"weed_high",
 			"High",
@@ -152,6 +151,7 @@
 			"taint", 
 			"tindrift", 
 			"hallu", 
+			"hallucination_attacks",
 			"visuals",
 			"fearparalyze",
 			"amigara"
@@ -177,7 +177,7 @@
     "apply_message": "Your skin prickles and you feel like you're bursting with energy.",
     "remove_message": "All of the day's hardships seem to catch up with you.",
     "rating": "good",
-		"blocks_effects": [ "scurvy", "redcells_anemia", "anemia", "toxin_buildup" ],
+		"blocks_effects": [ "scurvy", "redcells_anemia", "anemia", "toxin_buildup", "common_cold", "flu" ],
     "base_mods": { "health_min": [ 1 ], "health_chance": [ 50 ], "h_mod_min": [ 2 ], "h_mod_chance": [ 50 ], "healing_rate": [ 10 ] }
   }
 ]
