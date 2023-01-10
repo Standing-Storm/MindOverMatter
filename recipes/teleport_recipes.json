@@ -8,7 +8,7 @@
     "time": "120 m",
     "components": [ ],
 	  "autolearn": true,
-    "pre_special": "check_empty",
+    "pre_terrain": "check_empty",
     "post_terrain": "teleporter_attuned_ground",
     "activity_level": "NO_EXERCISE"
   },
