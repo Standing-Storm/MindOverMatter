@@ -30,8 +30,9 @@
       "SCHIZOPHRENIC" 
     ],
      "spells": [ 
-      { "id": "clair_night_vision", "level": 3 },
-      { "id": "clair_voyance", "level": 2 }
+       { "id": "clair_night_vision", "level": 3 },
+       { "id": "clair_perfect_path", "level": 2 },
+       { "id": "clair_voyance", "level": 2 }
       ],
     "items": {
       "both": {
