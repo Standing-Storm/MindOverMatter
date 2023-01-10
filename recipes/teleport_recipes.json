@@ -9,7 +9,7 @@
     "components": [ ],
 	  "autolearn": true,
     "pre_terrain": "check_empty",
-    "post_terrain": "teleporter_attuned_ground",
+    "post_terrain": "f_teleporter_attuned_ground",
     "activity_level": "NO_EXERCISE"
   },
   {
@@ -19,7 +19,7 @@
   },
   {
 		"type": "furniture",
-		"id": "teleporter_attuned_ground",
+		"id": "f_teleporter_attuned_ground",
 		"name": "[Ψ]Attuned ground",
 		"symbol": "+",
 		"description": "There is nothing obvious to the eye about this area of ground, but you can see it with your eyes closed. You know it like the back of your hand, and with but a thought, you could teleport to it.",
