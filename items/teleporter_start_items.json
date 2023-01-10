@@ -62,5 +62,11 @@
 		"stack_size": 40,
 		"ammo_type": "mom_fusion_ammo",
 		"damage": { "damage_type": "heat", "amount": 60, "armor_penetration": 30 }
-	}
+	},
+	 {
+	    "type": "ammunition_type",
+	    "id": "mom_fusion_ammo",
+	    "name": "B47 fusion shot",
+	    "default": "mom_fusion_ammo"
+	  }
 ]
