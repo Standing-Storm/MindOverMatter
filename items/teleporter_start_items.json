@@ -27,7 +27,7 @@
         "pocket_type": "MAGAZINE_WELL",
         "item_restriction": [ "mom_fusion_mag" ]
       }
-    ]
+    ],
     "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ]
   },
   {
