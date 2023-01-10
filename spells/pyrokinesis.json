@@ -70,7 +70,7 @@
     "type": "SPELL",
     "name": "[Ψ]Flamethrower",
     "description": "Spray fire in a cone in front of you.",
-    "message": "You sepw a blast of flames.",
+    "message": "You hurl a spray of flames.",
     "valid_targets": [ "hostile", "ground" ],
     "spell_class": "PYROKINETIC",
     "flags": [ "CONCENTRATE", "LOUD", "NO_PROJECTILE", "IGNITE_FLAMMABLE", "RANDOM_DAMAGE", "RANDOM_AOE", "NO_HANDS", "NO_LEGS" ],
