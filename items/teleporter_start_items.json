@@ -46,7 +46,7 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "mom_fusion_ammo": 40 } } ]
   },
 	{
-		"id": "mom_fusion_ammo_item",
+		"id": "mom_fusion_ammo",
 		"type": "AMMO",
 		"name": { "str_sp": "mom_fusion_ammo" },
 		"description": "Power cartridges for the B47. You had better make every shot count, because there's no way you're finding any more of these.",
