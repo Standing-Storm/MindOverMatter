@@ -18,6 +18,7 @@
     "apply_message": "The world seems to be moving slower.",
     "remove_message": "The world speeds up again.",
     "rating": "good",
+	  "removes_effects": [ "blind", "deaf" ],
     "base_mods": { "per_mod": [ 3 ], "speed_mod": [20] }
   },
    {
