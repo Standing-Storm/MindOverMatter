@@ -13,7 +13,6 @@
     "longest_side": "250 mm",
     "color": "red",
     "skill": "pistol",
-    "range": 35,
     "material": [ "superalloy", "steel" ],
     "ranged_damage": { "damage_type": "heat", "amount": 5, "armor_penetration": 5 },
     "dispersion": 150,
