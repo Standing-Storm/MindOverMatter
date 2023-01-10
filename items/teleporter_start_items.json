@@ -62,7 +62,7 @@
     "stack_size": 100,
     "range": 35,
     "damage": { "damage_type": "heat", "amount": 60, "armor_penetration": 30 },
-    "ammo_type": "mom_fusion_ammo",
+    "ammo_type": "mom_fusion_mag",
     "effects": [ "NEVER_MISFIRES" ]
   }
 ]
