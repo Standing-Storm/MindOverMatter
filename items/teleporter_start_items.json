@@ -61,6 +61,6 @@
 		"count": 40,
 		"stack_size": 40,
 		"ammo_type": "mom_fusion_ammo",
-		"damage": { "damage_type": "heat", "amount": 60, "armor_penetration": 30 },
+		"damage": { "damage_type": "heat", "amount": 60, "armor_penetration": 30 }
 	}
 ]
