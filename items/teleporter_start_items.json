@@ -31,7 +31,7 @@
     "price_postapoc": 1,
     "symbol": "#",
     "color": "red",
-    "ammo_type": [ "mom_fusion_ammo" ]
+    "ammo_type": [ "mom_fusion_ammo" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "mom_fusion_ammo": 40 } } ]
   },
   {
