@@ -11,6 +11,7 @@
     "weight": "800 g",
     "volume": "1 L",
     "longest_side": "250 mm",
+		"symbol": "(",
     "color": "red",
     "skill": "pistol",
     "material": [ "superalloy", "steel" ],
