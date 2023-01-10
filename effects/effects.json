@@ -7,6 +7,7 @@
     "apply_message": "You feel a surge of power.",
     "remove_message": "The surge of power fades away.",
     "rating": "good",
+		"removes_effects": [ "venom_weaken" ],
     "base_mods": { "str_mod": [ 3 ], "dex_mod": [3] }
   },
   {   
@@ -14,8 +15,8 @@
     "id": "effect_biokin_reflex",
     "name": [ "Enhanced Reflexes" ],
     "desc": [ "You are enhancing your speed and senses." ],
-    "apply_message": "You notice even the smallest details.",
-    "remove_message": "Your vision seems blurry in comparison to before.",
+    "apply_message": "The world seems to be moving slower.",
+    "remove_message": "The world speeds up again.",
     "rating": "good",
     "base_mods": { "per_mod": [ 3 ], "speed_mod": [20] }
   },
@@ -28,7 +29,7 @@
 		 "remove_message": "The tingling fades away.",
 		 "rating": "good",
 		 "show_intensity": false,
-		 "blocks_effects": [ "bleed" ],
+		 "blocks_effects": [ "bleed", "hypovolemia", "dermatik" ],
 		 "enchantments": [
 			 {
 				 "values": [ { "value": "ARMOR_CUT", "add": -5 }, { "value": "ARMOR_BASH", "add": -10 }, { "value": "ARMOR_STAB", "add": -5 } ]
@@ -40,11 +41,11 @@
 		"id": "effect_biokin_sealed",
 		"name": [ "Sealed System" ],
 		"desc": [ "You are protected from the dangers of the world." ],
-		"apply_message": "You take a deep breath and shut yourself off.",
+		"apply_message": "You take a deep breath.",
 		"remove_message": "You let out your breath in a rush.",
 		"rating": "good",
 		"show_intensity": false,
-		"blocks_effects": [ "smoke", "teargas", "boomered" ],
+		"blocks_effects": [ "smoke", "teargas", "boomered", "migo_atmosphere", "fetid_goop", "relax_gas", "spores", "dermatik", "tpollen" ],
 		"removes_effects": [ "bleed"],
 		"flags": [ "NO_SCENT", "ELECTRIC_IMMUNE" ]
 	},
@@ -122,7 +123,7 @@
 		"id": "effect_clair_clear_sight",
 		"name": [ "Truesight" ],
 		"apply_message": "You can perceive everything as it truly is.",
-		"remove_message": "The world seems wrapped in gauze in comparison to before.",
+		"remove_message": "The world seems wrapped in gauze compared to before.",
 		"rating": "good",
 		"removes_effects": [
 			"dazed",
@@ -131,12 +132,15 @@
 			"visuals",
 			"hallu",
 			"blind",
-			"taint",
 			"hallucination_attacks",
 			"deaf",
 			"weed_high",
 			"High",
-			"drunk"
+			"drunk",
+			"no_sight",
+			"glare",
+			"snow_glare",
+			"venom_blind"
 			]
 	},
   {
