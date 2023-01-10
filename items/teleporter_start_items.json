@@ -48,7 +48,7 @@
 	{
 		"id": "mom_fusion_ammo",
 		"type": "AMMO",
-		"name": { "str_sp": "mom_fusion_ammo" },
+		"name": { "str_sp": "B47 power cartridges" },
 		"description": "Power cartridges for the B47. You had better make every shot count, because there's no way you're finding any more of these.",
 		"weight": "20 g",
 		"volume": "192 ml",
