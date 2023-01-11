@@ -49,8 +49,7 @@
 		"description": "You can make the air around you emit light.",
 		"active": true,
 		"player_display": true,
-		"purifiable": false,
-		 "profession": true, 
+		"purifiable": false, 
 		"cost": 0,
 		"transform": { "target": "PYROGLOW_WEAK_A", "msg_transform": "The air around you starts glowing softly.", "active": true, "moves": 10 }
 	},
@@ -73,7 +72,6 @@
 		"active": true,
 		"player_display": true,
 		"purifiable": false,
-		"profession": true, 
 		"cost": 0,
 		"transform": { "target": "PYROGLOW_STRONG_A", "msg_transform": "The air around you starts glowing brightly.", "active": true, "moves": 10 }
 	},
@@ -95,6 +93,7 @@
 		"description": "You are using your psionic powers to ease your carry burden.",
 		"weight_capacity_modifier": 1.1,
 		"valid": false,
+		"player_display": true,
 		"purifiable": false
 	},
 	{
@@ -103,18 +102,20 @@
     "name": { "str": "Telepathic Suggestion" },
     "points": 0,
     "description": "You are subtly influencing the minds of the people you speak to.",
-    "social_modifiers": { "lie": 25, "persuade": 25, "intimidate": 25 },
+    "social_modifiers": { "lie": 15, "persuade": 15, "intimidate": 15 },
     "valid": false,
+		"player_display": true,
 		"purifiable": false
   },
 	{
 		"type": "mutation",
 		"id": "TELEPORTER_PROTECT",
-		"name": { "str": "Jumper" },
+		"name": { "str": "Spacial Recalibration" },
 		"points": 0,
 		"description": "You can keep otherworldly eyes off you to some extent, and can teleport very short distances to climb walls or avoid a fall.",
 		"flags": [ "TELESTOP", "CLIMB_NO_LADDER", "FEATHER_FALL" ],
 		"valid": false,
+		"player_display": true,
 		"purifiable": false
 	},
 	{
@@ -122,12 +123,13 @@
     "id": "VITAKINETIC_HEALTH",
     "name": { "str": "Healthy Glow" },
     "points": 0,
-    "description": "Your psionic powers speed your healing slightly, and any broken limbs you have mend strait and true.",
+    "description": "Your psionic powers speed your healing slightly, and any broken limbs you have mend straight and true.",
     "healing_awake": 0.2,
     "healing_resting": 0.25,
     "mending_modifier": 1.5,
 		"flags": [ "MEND_ALL" ],
 	  "valid": false,
+		"player_display": true,
     "purifiable": false
   }
 	
