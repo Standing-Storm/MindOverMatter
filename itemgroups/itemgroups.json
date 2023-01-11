@@ -24,6 +24,7 @@
     "type": "item_group",
     "copy-from": "SUS_book_nonf_pulp_newage",
     "extend": { "items": [ { "item": "manual_meditation", "prob": 1 }, { "item": "manual_meditation_int", "prob": 1 } ] }
+  },
   {
     "type": "item_group",
     "id": "lab_bookshelves",
@@ -36,5 +37,16 @@
     "copy-from": "mansion_books",
     "extend": { "items": [ { "item": "manual_meditation", "prob": 8 }, { "item": "manual_meditation_int", "prob": 2 } ] }
   },
-  
-    ]
+  {
+    "type": "item_group",
+    "id": "science",
+    "copy-from": "science",
+    "extend": { "items": [ { "item": "prac_psionics_advan", "prob": 1 } ] }
+  },
+  {
+     "type": "item_group",
+    "id": "chem_lab",
+    "copy-from": "chem_lab",
+    "extend": { "items": [ { "item": "prac_psionics_advan", "prob": 2 } ] }
+  }
+]
