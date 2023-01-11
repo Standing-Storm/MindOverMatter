@@ -168,7 +168,7 @@
     "spell_class": "PYROKINETIC",
     "flags": [ "CONCENTRATE", "NO_HANDS", "NO_LEGS", "RANDOM_DURATION" ],
     "effect": "attack",
-    "effect_str": "effect_pyro_aura",
+    "effect_str": "effect_pyrokinetic_aura",
     "shape": "blast",
     "difficulty": 1,
     "max_level": 20,
