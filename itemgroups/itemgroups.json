@@ -48,5 +48,11 @@
     "id": "chem_lab",
     "copy-from": "chem_lab",
     "extend": { "items": [ { "item": "prac_psionics_advan", "prob": 2 } ] }
+  },
+  {
+     "type": "item_group",
+    "id": "textbooks_school",
+    "copy-from": "textbooks_school",
+    "extend": { "items": [ { "item": "manual_meditation", "prob": 4 } ] }
   }
 ]
