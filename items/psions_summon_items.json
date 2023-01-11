@@ -19,9 +19,9 @@
         "max_contains_volume": "80 L",
         "max_contains_weight": "100 kg",
         "max_item_length": "200 cm",
-        "moves": 1
+        "moves": 100,
         "weight_multiplier": 0,
-        "volume_multiplier": 0,
+        "volume_multiplier": 0
       }
     ]
   },
