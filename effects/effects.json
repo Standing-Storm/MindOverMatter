@@ -163,12 +163,57 @@
 		],
     "flags": [ "PORTAL_PROOF", "TEEPSHIELD" ]
   },
+	{
+		"type": "effect_type",
+		"id": "effect_pyro_cloak",
+		"name": [ "Cloak of Warmth" ],
+		"desc": [ "The air around you has its temperature controlled." ],
+		"apply_message": "The air around you warms up.",
+    "remove_message": "A cool breeze hits your skin.",
+		"rating": "good",
+		"enchantments": [ 
+			{ "values": [
+				{ "value": "CLIMATE_CONTROL_HEAT", "add": { "arithmetic": [ { "spell_level", "spell": "pyrokinetic_cloak" }, "*", { "const": 5 } ] } },
+				{ "value": "ARMOR_HEAT", "add": { "arithmetic": [ { "spell_level", "spell": "pyrokinetic_cloak" }, "*", { "const": 5 } ] } },
+				{ "value": "ARMOR_COLD", "add": { "arithmetic": [ { "spell_level", "spell": "pyrokinetic_cloak" }, "*", { "const": 5 } ] } }
+			]
+			}
+		]
+	},
+	{
+		"type": "effect_type",
+		"id": "effect_pyrokinetic_aura",
+		"name": [ "Blazing Aura" ],
+		"desc": [ "You are surrounded by flames."],
+		"apply_message": "The air around kindles into flames!",
+		"remove_message": "The flames surrounding you gutter out.",
+		"rating": "good",
+		"enchantments": [ 
+			{ "id": "enchant_pyrokinetic_aura" } 
+			]
+	},
+	{
+		"type": "effect_type",
+		"id": "effect_telepathic_learning_bonus",
+		"name": [ "Trance State" ],
+		"desc": [ "You are in a focused mental state, increasing the ease of learning." ],
+		"apply_message": "Your vision narrows to what is directly in front of you.",
+		"remove_message": "You shake your head as you become aware of the outside world again.",
+		"rating": "good",
+		"enchantments": [ 
+			{ "values": [
+				{ "value": "LEARNING_FOCUS", "add": { "arithmetic": [ { "spell_level", "spell": "telepathic_concentration" }, "*", { "const": 2.5 } ] } } 
+			]
+			}
+		],
+		"flags": [ "MYOPIC" ]
+	},
   {
     "type": "effect_type",
     "id": "effect_teleport_slow",
     "name": [ "Stutterstepping" ],
     "desc": [ "Your steps aren't taking you as far as your eyes tell you they should." ],
-    "apply_message": "The air ripples and you stumble",
+    "apply_message": "The air ripples and you stumble.",
     "remove_message": "Your eyes and your legs agree with each other again.",
     "rating": "bad",
     "base_mods": { "speed_mod": [ -40 ] },
