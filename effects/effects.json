@@ -166,11 +166,12 @@
 		"id": "effect_pyrokinetic_aura",
 		"name": [ "Blazing Aura" ],
 		"desc": [ "You are surrounded by flames."],
-		"apply_message": "The air around kindles into flames!",
+		"apply_message": "The air around you kindles into flame!",
 		"remove_message": "The flames surrounding you gutter out.",
 		"rating": "good",
 		"enchantments": [ 
-			{ "id": "enchant_pyrokinetic_aura" } 
+			{ "id": "enchant_pyrokinetic_aura" },
+			{ "value": "LUMINATION", "add": 50 }
 			]
 	},
 	{
