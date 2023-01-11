@@ -27,21 +27,5 @@
         "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r", "mouth", "eyes" ]
       }
     ]
-  },
-	{
-    "id": "pyrokinetic_aura_item",
-    "type": "ARMOR",
-    "category": "tools",
-    "name": "Flaming Aura",
-    "description": "You are surrounded by flames.",
-    "weight": "0g",
-    "volume": "0ml",
-    "price": 70000,
-    "symbol": "O",
-    "color": "red",
-    "warmth": 0,
-    "material_thickness": 3,
-    "flags": [ "AURA", "SEMITANGIBLE", "ONLY_ONE", "TRADER_AVOID", "ALLOWS_NATURAL_ATTACKS", "NO_TAKEOFF", "LIGHT_50", "ZERO_WEIGHT" ],
-    "relic_data": { "passive_effects": [ { "id": "enchant_pyrokinetic_aura" } ] }
   }
 ]
