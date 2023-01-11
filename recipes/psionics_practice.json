@@ -1,0 +1,35 @@
+[
+  {
+    "id": "prac_psionics_begin",
+    "type": "practice",
+    "activity_level": "NO_EXERCISE",
+    "category": "CC_PRACTICE",
+    "subcategory": "CSC_PRACTICE_SPELLCRAFT",
+    "name": "Meditation (beginner)",
+    "description": "Practice calming and emptying your mind, thinking thoughts as they come and then allowing them to flow through you and onward.",
+    "skill_used": "spellcraft",
+    "time": "1 h",
+    "practice_data": { "min_difficulty": 0, "max_difficulty": 2, "skill_limit": 3 },
+    "book_learn": [ [ "manual_meditation", 0 ] ],
+    "tools": [ 
+      [ 
+        [ "candle_lit", 1 ], [ "blindfold", 1] , [ "blindfold_duct", 1 ], [ "makeshift_blindfold", 1 ]
+      ] 
+    ],
+    "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "id": "prac_psionics_inter",
+    "type": "practice",
+    "activity_level": "NO_EXERCISE",
+    "category": "CC_PRACTICE",
+    "subcategory": "CSC_PRACTICE_SPELLCRAFT",
+    "name": "Meditation (intermediate)",
+    "description": "Clear your mind even in the midst of discomfort, maintaining your calm and poise.",
+    "skill_used": "spellcraft",
+    "time": "1 h",
+    "practice_data": { "min_difficulty": 3, "max_difficulty": 5, "skill_limit": 6 },
+     "flags": [ "BLIND_EASY" ]
+    
+  
+]
