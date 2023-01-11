@@ -179,7 +179,7 @@
 		"id": "effect_telepathic_learning_bonus",
 		"name": [ "Trance State" ],
 		"desc": [ "You are in a focused mental state, increasing the ease of learning." ],
-		"apply_message": "Your vision narrows to what is directly in front of you.",
+		"apply_message": "Your vision narrows to what is directly in front of you as you concentrate.",
 		"remove_message": "You shake your head as you become aware of the outside world again.",
 		"rating": "good",
 		"enchantments": [ 
