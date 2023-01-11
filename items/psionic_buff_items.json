@@ -15,10 +15,10 @@
     "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "ALLOWS_NATURAL_ATTACKS", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE", "ZERO_WEIGHT" ],
     "relic_data": { "passive_effects": [
      { "has": "WORN", "condition": "ALWAYS", "values": [
-			{ "value": "ARMOR_CUT", "add": -5 },
-			{ "value": "ARMOR_BASH", "add": -10 },
-			{ "value": "ARMOR_STAB", "add": -5 },
-			{ "value": "ARMOR_BULLET", "add": -20 }                                   
+			{ "value": "ARMOR_CUT", "add": {"arithmetic": [ { "spell_level", "spell": "telekinetic_shield" }, "*", { "const": -2 } ] } },
+			{ "value": "ARMOR_BASH", "add": {"arithmetic": [ { "spell_level", "spell": "telekinetic_shield" }, "*", { "const": -1 } ] } },
+			{ "value": "ARMOR_STAB", "add": {"arithmetic": [ { "spell_level", "spell": "telekinetic_shield" }, "*", { "const": -3 } ] } },
+			{ "value": "ARMOR_BULLET", "add": {"arithmetic": [ { "spell_level", "spell": "telekinetic_shield" }, "*", { "const": -4 } ] } }                                   
       ] } ] },
     "armor": [
       {
@@ -41,7 +41,12 @@
     "warmth": 0,
     "material_thickness": 3,
     "flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ALLOWS_NATURAL_ATTACKS", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE", "ZERO_WEIGHT" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "LEARNING_FOCUS", "add": 25 } ] } ] }
+    "relic_data": { 
+			"passive_effects": [ 
+			{ "has": "WORN", "condition": "ALWAYS", "values": [ 
+				{ "value": "LEARNING_FOCUS", "add": { "arithmetic": [ { "spell_level", "spell": "telepathic_concentration" }, "*", { "const": 2.5 } ] } } ] } 
+			] 
+		}
   },
 	  {
     "id": "telepathic_invisibility_effect",
@@ -79,9 +84,9 @@
     "material_thickness": 3,
     "flags": [ "AURA", "SEMITANGIBLE", "ONLY_ONE", "TRADER_AVOID", "ALLOWS_NATURAL_ATTACKS", "NO_TAKEOFF", "LIGHT_50", "ZERO_WEIGHT" ],
     "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ 
-        { "value": "CLIMATE_CONTROL_HEAT", "add": 80 },
-        { "value": "ARMOR_HEAT", "add": 40 },
-        { "value": "ARMOR_COLD", "add": 40 }
+        { "value": "CLIMATE_CONTROL_HEAT", "add": { "arithmetic": [ { "spell_level", "spell": "pyrokinetic_cloak" }, "*", { "const": 5 } ] } },
+        { "value": "ARMOR_HEAT", "add": { "arithmetic": [ { "spell_level", "spell": "pyrokinetic_cloak" }, "*", { "const": 5 } ] } },
+        { "value": "ARMOR_COLD", { "arithmetic": [ { "spell_level", "spell": "pyrokinetic_cloak" }, "*", { "const": 5 } ] } }
     ] } ] }
   },
 	{
