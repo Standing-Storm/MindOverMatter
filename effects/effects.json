@@ -184,7 +184,8 @@
 		"rating": "good",
 		"enchantments": [ 
 			{ "values": [
-				{ "value": "LEARNING_FOCUS", "add": { "arithmetic": [ { "spell_level", "spell": "telepathic_concentration" }, "*", { "const": 2.5 } ] } } 
+				{ "value": "LEARNING_FOCUS", "add": { "arithmetic": [ { "spell_level", "spell": "telepathic_concentration" }, "*", { "const": 2.5 } ] } },
+				{ "value": "MOVE_COST", "multiply": 3 }
 			]
 			}
 		],
