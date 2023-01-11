@@ -12,5 +12,29 @@
       [ "matrix_crystal_teleportation", 14.28 ],
       [ "matrix_crystal_vitakinesis", 14.28 ]
     ]
-  }
-]
+  },
+  {
+    "type": "item_group",
+    "id": "homebooks",
+    "copy-from": "homebooks",
+    "extend": { "items": [ { "item": "manual_meditation", "prob": 3 } ] }
+  },
+  {
+     "id": "SUS_book_nonf_pulp_newage",
+    "type": "item_group",
+    "copy-from": "SUS_book_nonf_pulp_newage",
+    "extend": { "items": [ { "item": "manual_meditation", "prob": 5 }, { "item": "manual_meditation_int", "prob": 1 } ] }
+  {
+    "type": "item_group",
+    "id": "lab_bookshelves",
+    "copy-from": "lab_bookshelves",
+    "extend": { "items": [ { "item": "manual_meditation_int", "prob": 3 } ] }
+  },
+  {
+    "type": "item_group",
+    "id": "mansion_books",
+    "copy-from": "mansion_books",
+    "extend": { "items": [ { "item": "manual_meditation", "prob": 8 }, { "item": "manual_meditation_int", "prob": 2 } ] }
+  },
+  
+    ]
