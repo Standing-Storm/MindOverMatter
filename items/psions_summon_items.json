@@ -1,5 +1,30 @@
 [
   {
+    "id": "telekinetic_carry",
+    "type": "CONTAINER",
+    "name": { "str": "Telekinetic field" },
+    "description": "You can lift one thing with your powers, removing its effect on your encumbrance.",
+    "weight": "0 g",
+    "volume": "0 L",
+    "price": 1,
+    "price_postapoc": 1,
+    "material": [ "telekinetic_force" ],
+    "symbol": "[",
+    "looks_like": "ragpouch",
+    "color": "yellow",
+    "flags": ["TRADER_AVOID", "TARDIS", "ZERO_WEIGHT" ],
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "80 L",
+        "max_contains_weight": "100 kg",
+        "max_item_length": "200 cm",
+        "moves": 1
+        "weight_multiplier": 0,
+        "volume_multiplier": 0,
+      }
+  },
+  {
     "id": "vita_bandages",
     "type": "COMESTIBLE",
     "comestible_type": "MED",
