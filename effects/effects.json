@@ -144,25 +144,6 @@
 			"venom_blind"
 			]
 	},
-  {
-    "type": "effect_type",
-    "id": "effect_telepathic_psi_armor",
-    "name": [ "Psychic Shield" ],
-    "desc": [ "Your mind is warded against psychic attack." ],
-    "apply_message": "You begin to shield your thoughts.",
-    "remove_message": "Your thoughts are once again unguarded.",
-    "rating": "good",
-		"removes_effects": [
-			"taint", 
-			"tindrift", 
-			"hallu", 
-			"hallucination_attacks",
-			"visuals",
-			"fearparalyze",
-			"amigara"
-		],
-    "flags": [ "PORTAL_PROOF", "TEEPSHIELD" ]
-  },
 	{
 		"type": "effect_type",
 		"id": "effect_pyro_cloak",
@@ -208,6 +189,25 @@
 		],
 		"flags": [ "MYOPIC" ]
 	},
+	 {
+    "type": "effect_type",
+    "id": "effect_telepathic_psi_armor",
+    "name": [ "Psychic Shield" ],
+    "desc": [ "Your mind is warded against psychic attack." ],
+    "apply_message": "You begin to shield your thoughts.",
+    "remove_message": "Your thoughts are once again unguarded.",
+    "rating": "good",
+		"removes_effects": [
+			"taint", 
+			"tindrift", 
+			"hallu", 
+			"hallucination_attacks",
+			"visuals",
+			"fearparalyze",
+			"amigara"
+		],
+    "flags": [ "PORTAL_PROOF", "TEEPSHIELD" ]
+  },
   {
     "type": "effect_type",
     "id": "effect_teleport_slow",
