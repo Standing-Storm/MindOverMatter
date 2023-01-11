@@ -29,67 +29,6 @@
     ]
   },
 	{
-    "id": "telepathic_learning_bonus",
-    "type": "ARMOR",
-    "name": "Trance state",
-    "description": "You are in a focused mental state, increasing the ease of learning.",
-    "weight": "1g",
-    "volume": "1ml",
-    "price": 70000,
-    "symbol": "M",
-    "color": "white",
-    "warmth": 0,
-    "material_thickness": 3,
-    "flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ALLOWS_NATURAL_ATTACKS", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE", "ZERO_WEIGHT" ],
-    "relic_data": { 
-			"passive_effects": [ 
-			{ "has": "WORN", "condition": "ALWAYS", "values": [ 
-				{ "value": "LEARNING_FOCUS", "add": { "arithmetic": [ { "spell_level", "spell": "telepathic_concentration" }, "*", { "const": 2.5 } ] } } ] } 
-			] 
-		}
-  },
-	  {
-    "id": "telepathic_invisibility_effect",
-    "type": "ARMOR",
-    "name": "Telepathic Cloaking",
-    "description": "You are hiding your presence.",
-    "weight": "1 g",
-    "volume": "1 ml",
-    "symbol": "o",
-    "color": "white",
-    "looks_like": "cloak",
-    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ALLOWS_NATURAL_ATTACKS", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE", "ZERO_WEIGHT" ],
-    "relic_data": {
-      "passive_effects": [
-        {
-          "has": "WORN",
-          "condition": "ALWAYS",
-          "ench_effects": [ { "effect": "invisibility", "intensity": 1 } ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "pyrokinetic_cloak_item",
-    "type": "ARMOR",
-    "category": "tools",
-    "name": "Cloak of Warmth",
-    "description": "The air around you has its temperature controlled.",
-    "weight": "0g",
-    "volume": "0ml",
-    "price": 70000,
-    "symbol": "{",
-    "color": "red",
-    "warmth": 0,
-    "material_thickness": 3,
-    "flags": [ "AURA", "SEMITANGIBLE", "ONLY_ONE", "TRADER_AVOID", "ALLOWS_NATURAL_ATTACKS", "NO_TAKEOFF", "LIGHT_50", "ZERO_WEIGHT" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ 
-        { "value": "CLIMATE_CONTROL_HEAT", "add": { "arithmetic": [ { "spell_level", "spell": "pyrokinetic_cloak" }, "*", { "const": 5 } ] } },
-        { "value": "ARMOR_HEAT", "add": { "arithmetic": [ { "spell_level", "spell": "pyrokinetic_cloak" }, "*", { "const": 5 } ] } },
-        { "value": "ARMOR_COLD", { "arithmetic": [ { "spell_level", "spell": "pyrokinetic_cloak" }, "*", { "const": 5 } ] } }
-    ] } ] }
-  },
-	{
     "id": "pyrokinetic_aura_item",
     "type": "ARMOR",
     "category": "tools",
