@@ -4,7 +4,7 @@
     "id": "teleporter_attuned_ground",
     "group": "teleporter_attune",
     "category": "OTHER",
-    "required_skills": [ [ "psionic_skill", 1 ] ],
+    "required_skills": [ [ "spellcraft", 2 ] ],
     "time": "120 m",
     "components": [ ],
 	  "autolearn": true,
