@@ -23,7 +23,7 @@
      "id": "SUS_book_nonf_pulp_newage",
     "type": "item_group",
     "copy-from": "SUS_book_nonf_pulp_newage",
-    "extend": { "items": [ { "item": "manual_meditation", "prob": 5 }, { "item": "manual_meditation_int", "prob": 1 } ] }
+    "extend": { "items": [ { "item": "manual_meditation", "prob": 1 }, { "item": "manual_meditation_int", "prob": 1 } ] }
   {
     "type": "item_group",
     "id": "lab_bookshelves",
