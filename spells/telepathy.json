@@ -59,13 +59,13 @@
     "id": "telepathic_invisibility",
     "type": "SPELL",
     "name": "[Ψ]Obscurity",
-    "description": "Use a light touch to hide your presence. This power only lasts a few moments.",
+    "description": "Use a light touch on others' minds to hide your presence.  This power only lasts a few moments.",
     "message": "You hide your presence from your enemies.",
     "valid_targets": [ "self" ],
     "spell_class": "TELEPATH",
     "flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS", "RANDOM_DURATION" ],
     "effect": "attack",
-    "effect_str": "effect_telepathic_invisibility",
+    "effect_str": "invisibility",
     "shape": "blast",
     "difficulty": 1,
     "max_level": 20,
@@ -113,7 +113,7 @@
     "base_casting_time": 90,
     "final_casting_time": 40,
     "casting_time_increment": -6.25,
-    "targeted_monster_species": [ "MAMMAL", "AMPHIBIAN", "BIRD", "REPTILE", "FISH", "KRAKEN", "MUTANT", "MIGO", "MOLLUSK", "WORM", "HUMAN", "NETHER" ],
+    "targeted_monster_species": [ "MAMMAL", "AMPHIBIAN", "BIRD", "CYBORG", "REPTILE", "FISH", "KRAKEN", "MUTANT", "MIGO", "INSECT", "CENTIPEDE", "INSECT_FLYING", "SPIDER", "MOLLUSK", "WORM", "HUMAN", "NETHER" ]
     "learn_spells": { "telepathic_blast": 4, "telepathic_mind_control": 6 }
   }, 
   {
@@ -145,7 +145,7 @@
     "base_casting_time": 75,
     "final_casting_time": 30,
     "casting_time_increment": -4.5,
-    "targeted_monster_species": [ "MAMMAL", "AMPHIBIAN", "BIRD", "REPTILE", "FISH", "KRAKEN", "MUTANT", "MIGO", "MOLLUSK", "WORM", "HUMAN", "NETHER" ]
+    "targeted_monster_species": [ "MAMMAL", "AMPHIBIAN", "BIRD", "CYBORG", "REPTILE", "FISH", "KRAKEN", "MUTANT", "MIGO", "INSECT", "CENTIPEDE", "INSECT_FLYING", "SPIDER", "MOLLUSK", "WORM", "HUMAN", "NETHER" ]
   }, 
   {
     "id": "telepathic_mind_control",
@@ -176,7 +176,7 @@
     "base_casting_time": 120,
     "final_casting_time": 75,
     "casting_time_increment": -4.5,
-    "targeted_monster_species": [ "MAMMAL", "AMPHIBIAN", "BIRD", "REPTILE", "FISH", "KRAKEN", "MUTANT", "MIGO", "MOLLUSK", "WORM", "HUMAN" ],
+    "targeted_monster_species": [ "MAMMAL", "AMPHIBIAN", "BIRD", "CYBORG", "REPTILE", "FISH", "KRAKEN", "MUTANT", "MIGO", "MOLLUSK", "HUMAN" ],
     "learn_spells": { "telepathic_suggestion": 3 }
   }
 ]
