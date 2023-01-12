@@ -79,10 +79,10 @@
 		"enchantments": [
 			{
 				"values": [
-					{ "value": "ATTACK_SPEED", "multiply": -0.4 },
-					{ "value": "MOVE_COST", "multiply": -0.3 },
+					{ "value": "ATTACK_SPEED", "multiply": -0.3 },
+					{ "value": "MOVE_COST", "multiply": -0.2 },
 					{ "value": "RECOIL_MODIFIER", "add": -30 },
-					{ "value": "MELEE_DAMAGE", "multiply": 0.25},
+					{ "value": "MELEE_DAMAGE", "multiply": 0.20},
 					{ "value": "FATIGUE", "add": 10},
 					{ "value": "HUNGER", "multiply": 3},
 					{ "value": "THIRST", "multiply": 3}
@@ -112,7 +112,7 @@
 			{
 				"values": [
 					{ "value": "FOOTSTEP_NOISE", "multiply": -0.67 },
-					{ "value": "MOVE_COST", "multiply": -0.67 } 
+					{ "value": "MOVE_COST", "multiply": -0.33 } 
 				] 
 			} 
 		] 
