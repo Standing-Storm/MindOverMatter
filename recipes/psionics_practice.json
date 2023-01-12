@@ -54,7 +54,7 @@
     "skill_used": "spellcraft",
     "time": "1 h",
     "practice_data": { "min_difficulty": 5, "max_difficulty": 8, "skill_limit": 9 },
-    "book_learn": [ [ "manual_meditation_adv", 5 ] ],
+    "book_learn": [ [ "manual_psionics_adv", 5 ] ],
     "tools": [ 
       [ 
         [ "candle_lit", 1 ], [ "blindfold", 1] , [ "blindfold_duct", 1 ], [ "makeshift_blindfold", 1 ]
