@@ -41,13 +41,13 @@
     "type": "item_group",
     "id": "science",
     "copy-from": "science",
-    "extend": { "items": [ { "item": "prac_psionics_advan", "prob": 1 } ] }
+    "extend": { "items": [ { "item": "manual_psionics_advan", "prob": 1 } ] }
   },
   {
      "type": "item_group",
     "id": "chem_lab",
     "copy-from": "chem_lab",
-    "extend": { "items": [ { "item": "prac_psionics_advan", "prob": 2 } ] }
+    "extend": { "items": [ { "item": "manual_psionics_advan", "prob": 2 } ] }
   },
   {
      "type": "item_group",
