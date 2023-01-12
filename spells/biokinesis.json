@@ -23,7 +23,7 @@
     "base_casting_time": 120,
     "final_casting_time": 75,
 		"casting_time_increment": -7.5,
-		"learn_spells": { "biokin_reflex_enhance": 4, "biokin_combat_trance": 8 }
+		"learn_spells": { "biokin_reflex_enhance": 4, "biokin_combat_dance": 8 }
 	},
 {
 		"id": "biokin_overcome_pain",
