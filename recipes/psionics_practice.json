@@ -1,16 +1,9 @@
 [
   {
-    "type": "recipe_category",
-    "id": "CC_PRACTICE",
-    "copy-from": "CC_PRACTICE",
-    "extend": { "recipe_subcategories": [ "CSC_PRACTICE_SPELLCRAFT" ] }
-  },
-  {
     "id": "prac_psionics_begin",
     "type": "practice",
     "activity_level": "NO_EXERCISE",
     "category": "CC_PRACTICE",
-    "subcategory": "CSC_PRACTICE_SPELLCRAFT",
     "name": "Meditation (beginner)",
     "description": "Practice calming and emptying your mind, thinking thoughts as they come and then allowing them to flow through you and onward.",
     "skill_used": "spellcraft",
@@ -29,7 +22,6 @@
     "type": "practice",
     "activity_level": "NO_EXERCISE",
     "category": "CC_PRACTICE",
-    "subcategory": "CSC_PRACTICE_SPELLCRAFT",
     "name": "Meditation (intermediate)",
     "description": "Clear your mind even in the midst of discomfort, maintaining your calm and poise.",
     "skill_used": "spellcraft",
@@ -48,7 +40,6 @@
     "type": "practice",
     "activity_level": "NO_EXERCISE",
     "category": "CC_PRACTICE",
-    "subcategory": "CSC_PRACTICE_SPELLCRAFT",
     "name": "Psionic Cultivation",
     "description": "Focus on your inner metal strength, making it easy to call forth your psionic gifts.",
     "skill_used": "spellcraft",
