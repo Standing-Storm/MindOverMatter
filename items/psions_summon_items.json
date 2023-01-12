@@ -1,7 +1,7 @@
 [
   {
     "id": "telekinetic_container",
-    "type": "CONTAINER",
+    "type": "TOOL",
     "name": { "str": "Telekinetic field" },
     "description": "You can lift one thing with your powers, removing its effect on your encumbrance.",
     "weight": "0 g",
