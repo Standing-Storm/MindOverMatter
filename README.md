@@ -36,4 +36,11 @@ At the moment, the only way to gain psionics is to pick a profession that starts
 
 WAIT, STAMINA?
 
-I realize it's a bit counterintuitive that taking Indefatiguable or mutating mouse will make you a better psychic, but this was the best solution I could think of for compatibility. There's no way to implement cooldowns for individual powers and I don't want to use mana and make it regenerate very fast for psychics because that breaks compatibility with every single magic mod out there. Fatigue would also fit but it's not currently possible to use it as a spell power source without adding a custom extra effect for every single power, so until that's an option or there's a way to make a custom power pool, Stamina it is. 
+I realize it's a bit counterintuitive that taking Indefatiguable or mutating mouse will make you a better psychic, but this was the best solution I could think of for compatibility. There's no way to implement cooldowns for individual powers and I don't want to use mana and make it regenerate very fast for psychics because that breaks compatibility with every single magic mod out there. Fatigue or Weariness would also fit but it's not currently possible to use Fatigue as a spell power source without adding a custom extra effect for every single power, and not possible to interact with Weariness at all, so until that's an option or there's a way to make a custom power pool, Stamina it is. 
+
+FUTURE PLANS
+
+1) Add chance of randomly becoming psychic if you stand out in a portal storm. Unprotected. We have such sights to show you.
+2) Appropriately distribute matrix crystals in labs. 
+3) Add feral psychics
+4) Add electrokinesis if they ever let spells interact with battery charge.
