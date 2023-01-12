@@ -81,7 +81,7 @@
     "base_casting_time": 100,
     "final_casting_time": 25,
     "casting_time_increment": -12.5,
-    "learn_spells": { "telepathic__mind_control": 4, "telepathic_confusion": 6 }
+    "learn_spells": { "telepathic_mind_control": 4, "telepathic_confusion": 6 }
   },
   {
     "id": "telepathic_confusion",
