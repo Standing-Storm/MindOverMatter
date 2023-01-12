@@ -155,8 +155,8 @@
 		"enchantments": [ 
 			{ "values": [
 				{ "value": "CLIMATE_CONTROL_HEAT", "add": { "arithmetic": [ { "spell_level", "spell": "pyrokinetic_cloak" }, "*", { "const": 5 } ] } },
-				{ "value": "ARMOR_HEAT", "add": { "arithmetic": [ { "spell_level", "spell": "pyrokinetic_cloak" }, "*", { "const": 5 } ] } },
-				{ "value": "ARMOR_COLD", "add": { "arithmetic": [ { "spell_level", "spell": "pyrokinetic_cloak" }, "*", { "const": 5 } ] } }
+				{ "value": "ARMOR_HEAT", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "pyrokinetic_cloak" }, "*", { "const": 5 } ] } },
+				{ "value": "ARMOR_COLD", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "pyrokinetic_cloak" }, "*", { "const": 5 } ] } }
 			]
 			}
 		]
@@ -184,7 +184,7 @@
 		"rating": "good",
 		"enchantments": [ 
 			{ "values": [
-				{ "value": "LEARNING_FOCUS", "add": { "arithmetic": [ { "spell_level", "spell": "telepathic_concentration" }, "*", { "const": 2.5 } ] } },
+				{ "value": "LEARNING_FOCUS", "add": { "arithmetic": [ { { "u_val": "spell_level", "spell": "telepathic_concentration" }, "*", { "const": 2.5 } ] } },
 				{ "value": "MOVE_COST", "multiply": 3 }
 			]
 			}
