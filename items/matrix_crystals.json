@@ -26,7 +26,7 @@
     "copy-from": "matrix_crystal_biokinesis",
     "description": "A strange-looking crystal with a faintly-glowing red light in its depths. Holding it, you feel hot.",
     "color": "red",
-    "use_action": { "type": "cast_spell", "spell_id": "matcrys_pyrokin_mutate", "no_fail": true, "level": 1 }
+    "use_action": { "type": "cast_spell", "spell_id": "matcrys_pyro_mutate", "no_fail": true, "level": 1 }
   },
    {
     "type": "TOOL",
