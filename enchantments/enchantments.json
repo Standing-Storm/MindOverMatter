@@ -5,7 +5,8 @@
     "condition": "ALWAYS",
     "has": "HELD",
     "hit_you_effect": [ { "id": "pyro_aura_attack" ,  "hit_self": false }  ],
-    "hit_me_effect": [ { "id": "pyro_aura_attacked" ,  "hit_self": false } ]
+    "hit_me_effect": [ { "id": "pyro_aura_attacked" ,  "hit_self": false } ],
+    "value": [ { "value": "LUMINATION", "add": 50 } ]
   },
   {
     "id": "pyro_aura_attack",
