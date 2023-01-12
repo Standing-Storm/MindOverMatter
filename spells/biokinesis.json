@@ -143,6 +143,7 @@
 		"shape": "blast",
 		"difficulty": 1,
 		"max_level": 20,
+		"energy_source": "STAMINA",
 		"base_energy_cost": 3000,
 		"final_energy_cost": 450,
 		"energy_increment": -255,
