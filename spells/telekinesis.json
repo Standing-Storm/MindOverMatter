@@ -144,7 +144,7 @@
     "id": "telekinetic_explosion",
     "type": "SPELL",
     "name": "[Ψ]Wrecking Ball",
-    "description": "A burst of telekinetic force indiscriminately shatters the terrain at the target location.",
+    "description": "A burst of telekinetic force shatters the terrain at the target location.",
     "message": "You indiscriminately blast your targets!",
     "valid_targets": [ "hostile", "ground" ],
     "spell_class": "TELEKINETIC",
