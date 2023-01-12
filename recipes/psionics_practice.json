@@ -3,7 +3,7 @@
     "type": "recipe_category",
     "id": "CC_PRACTICE",
     "copy-from": "CC_PRACTICE",
-    "extend": { "recipe_subcategories": [ "CSC_PRACTICE_SPELLCRAFT ] }
+    "extend": { "recipe_subcategories": [ "CSC_PRACTICE_SPELLCRAFT" ] }
   },
   {
     "id": "prac_psionics_begin",
