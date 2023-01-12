@@ -1,6 +1,6 @@
 [
-  {
-    "type": "effect_type",
+	{
+		"type": "effect_type",
     "id": "effect_biokin_physical",
     "name": [ "Enhanced Prowess" ],
     "desc": [ "You are enhancing your physical prowess." ],
@@ -8,10 +8,18 @@
     "remove_message": "The surge of power fades away.",
     "rating": "good",
 		"removes_effects": [ "venom_weaken" ],
-    "base_mods": { "str_mod": [ 3 ], "dex_mod": [3] }
-  },
-  {   
-    "type": "effect_type",
+		"base_mods" { "str_mod": [ 1 ], "dex_mod": [ 1 ] },
+		"enchantments": [
+			{  
+				"values": [ 
+					{ "value": "STRENGTH", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "biokin_physical_enhance" }, "/", { "const": 5 } ] } },
+					{ "value": "DEXTERITY", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "biokin_physical_enhance" }, "/", { "const": 5 } ] } }
+				]
+			}
+		]
+},
+{   
+	"type": "effect_type",
     "id": "effect_biokin_reflex",
     "name": [ "Enhanced Reflexes" ],
     "desc": [ "You are enhancing your speed and senses." ],
@@ -19,9 +27,17 @@
     "remove_message": "The world speeds up again.",
     "rating": "good",
 	  "removes_effects": [ "blind", "deaf" ],
-    "base_mods": { "per_mod": [ 3 ], "speed_mod": [20] }
-  },
-   {
+    "base_mods": { "per_mod": [ 1 ], "speed_mod": [5] },
+		"enchantments": [
+			{  
+				"values": [ 
+					{ "value": "PERCEPTION", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "biokin_reflex_enhance" }, "/", { "const": 5 } ] } },
+					{ "value": "SPEED", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "biokin_reflex_enhance" } ] } }
+				]
+			}
+		]
+},
+			{
 	   "type": "effect_type",
 		 "id": "effect_biokin_armor_skin",
 		 "name": [ "Hardened Skin" ],
