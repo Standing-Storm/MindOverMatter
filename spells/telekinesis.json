@@ -25,7 +25,7 @@
     "base_casting_time": 50,
     "final_casting_time": 10,
     "casting_time_increment": -6.666666666666667,
-    "learn_spells": { "telekinetic_shield": 4, "telekinetic_explosion": 8 }
+    "learn_spells": { "telekinetic_hammer": 4, "telekinetic_shield": 8 }
   }, 
   {
     "id": "telekinetic_push",
@@ -53,7 +53,7 @@
     "base_casting_time": 50,
     "final_casting_time": 10,
     "casting_time_increment": -6.666666666666667,
-    "learn_spells": { "telekinetic_wave": 4, "telekinetic_hammer": 6, "telekinetic_barrier": 8 }
+    "learn_spells": { "telekinetic_wave": 4, "telekinetic_hammer": 6, "telekinetic_explosion": 8 }
   },
   {
     "id": "telekinetic_wave",
@@ -81,7 +81,7 @@
     "base_casting_time": 50,
     "final_casting_time": 10,
     "casting_time_increment": -5,
-    "learn_spells": { "telekinetic_hammer": 4, "telekinetic_barrier": 6, "telekinetic_explosion": 8 }
+    "learn_spells": { "telekinetic_shield": 4, "telekinetic_hammer": 6, "telekinetic_explosion": 8 }
   },
   {
     "id": "telekinetic_hammer",
