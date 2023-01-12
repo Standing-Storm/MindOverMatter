@@ -112,7 +112,7 @@
 			{
 				"values": [
 					{ "value": "FOOTSTEP_NOISE", "multiply": -0.67 },
-					{ "value": "MOVE_COST", "multiply": -0.33 } 
+					{ "value": "MOVE_COST", "multiply": -0.2 } 
 				] 
 			} 
 		] 
