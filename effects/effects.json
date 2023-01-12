@@ -8,7 +8,7 @@
     "remove_message": "The surge of power fades away.",
     "rating": "good",
 		"removes_effects": [ "venom_weaken" ],
-		"base_mods" { "str_mod": [ 1 ], "dex_mod": [ 1 ] },
+		"base_mods": { "str_mod": [ 1 ], "dex_mod": [ 1 ] },
 		"enchantments": [
 			{  
 				"values": [ 
@@ -17,9 +17,9 @@
 				]
 			}
 		]
-},
-{   
-	"type": "effect_type",
+	},
+	{   
+		"type": "effect_type",
     "id": "effect_biokin_reflex",
     "name": [ "Enhanced Reflexes" ],
     "desc": [ "You are enhancing your speed and senses." ],
@@ -36,23 +36,23 @@
 				]
 			}
 		]
-},
+	},
+	{
+		"type": "effect_type",
+		"id": "effect_biokin_armor_skin",
+		"name": [ "Hardened Skin" ],
+		"desc": [ "Your skin is more resilient thanks to psionic energy." ],
+		"apply_message": "You feel a strange tingle over your skin.",
+		"remove_message": "The tingling fades away.",
+		"rating": "good",
+		"show_intensity": false,
+		"blocks_effects": [ "bleed", "hypovolemia", "dermatik" ],
+		"enchantments": [
 			{
-	   "type": "effect_type",
-		 "id": "effect_biokin_armor_skin",
-		 "name": [ "Hardened Skin" ],
-		 "desc": [ "Your skin is more resilient thanks to psionic energy." ],
-		 "apply_message": "You feel a strange tingle over your skin.",
-		 "remove_message": "The tingling fades away.",
-		 "rating": "good",
-		 "show_intensity": false,
-		 "blocks_effects": [ "bleed", "hypovolemia", "dermatik" ],
-		 "enchantments": [
-			 {
-				 "values": [ { "value": "ARMOR_CUT", "add": -4 }, { "value": "ARMOR_BASH", "add": -6 }, { "value": "ARMOR_STAB", "add": -3 } ]
-			 }
-		 ]
-	 },
+				"values": [ { "value": "ARMOR_CUT", "add": -4 }, { "value": "ARMOR_BASH", "add": -6 }, { "value": "ARMOR_STAB", "add": -3 } ]
+			}
+		]
+	},
 	{
 		"type": "effect_type",
 		"id": "effect_biokin_sealed",
