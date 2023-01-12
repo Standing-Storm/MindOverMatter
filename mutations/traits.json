@@ -33,7 +33,7 @@
     "purifiable": false,
     "valid": false,
     "cancels": [ "VITAKINETIC", "CLAIRSENTIENT" ],
-    "spells_learned": [ [ "pyrokinetic_firestarting", 1 ], [ "pyrokinetic_flash", 1] ]
+    "spells_learned": [ [ "pyrokinetic_eruption", 1 ], [ "pyrokinetic_flash", 1] ]
   },
   {
     "type": "mutation",
