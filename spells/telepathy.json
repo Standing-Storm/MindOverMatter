@@ -113,7 +113,7 @@
     "base_casting_time": 90,
     "final_casting_time": 40,
     "casting_time_increment": -6.25,
-    "targeted_monster_species": [ "MAMMAL", "AMPHIBIAN", "BIRD", "CYBORG", "REPTILE", "FISH", "KRAKEN", "MUTANT", "MIGO", "INSECT", "CENTIPEDE", "INSECT_FLYING", "SPIDER", "MOLLUSK", "WORM", "HUMAN", "NETHER" ]
+    "targeted_monster_species": [ "MAMMAL", "AMPHIBIAN", "BIRD", "CYBORG", "REPTILE", "FISH", "KRAKEN", "MUTANT", "MIGO", "INSECT", "CENTIPEDE", "INSECT_FLYING", "SPIDER", "MOLLUSK", "WORM", "HUMAN", "NETHER" ],
     "learn_spells": { "telepathic_blast": 4, "telepathic_mind_control": 6 }
   }, 
   {
