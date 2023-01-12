@@ -33,7 +33,7 @@
 		 "blocks_effects": [ "bleed", "hypovolemia", "dermatik" ],
 		 "enchantments": [
 			 {
-				 "values": [ { "value": "ARMOR_CUT", "add": -5 }, { "value": "ARMOR_BASH", "add": -10 }, { "value": "ARMOR_STAB", "add": -5 } ]
+				 "values": [ { "value": "ARMOR_CUT", "add": -4 }, { "value": "ARMOR_BASH", "add": -6 }, { "value": "ARMOR_STAB", "add": -3 } ]
 			 }
 		 ]
 	 },
