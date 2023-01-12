@@ -64,7 +64,7 @@
 		"show_intensity": false,
 		"blocks_effects": [ "smoke", "teargas", "boomered", "migo_atmosphere", "fetid_goop", "relax_gas", "spores", "dermatik", "tpollen" ],
 		"removes_effects": [ "bleed"],
-		"flags": [ "NO_SCENT", "ELECTRIC_IMMUNE" ]
+		"flags": [ "NO_SCENT", "ELECTRIC_IMMUNE", "RAD_RESIST" ]
 	},
   {
 		"type": "effect_type",
