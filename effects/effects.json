@@ -169,10 +169,7 @@
 		"apply_message": "The air around you kindles into flame!",
 		"remove_message": "The flames surrounding you gutter out.",
 		"rating": "good",
-		"enchantments": [ 
-			{ "id": "enchant_pyrokinetic_aura" },
-			{ "value": "LUMINATION", "add": 50 }
-			]
+		"enchantments": [ "id": "enchant_pyrokinetic_aura" ]
 	},
 	{
 		"type": "effect_type",
