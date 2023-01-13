@@ -129,7 +129,6 @@
     "max_level": 20,
     "effect": "attack",
     "shape": "blast",
-    "affected_body_parts": [ "head" ],
     "damage_type": "biological",
     "min_damage": 25,
     "max_damage": 120,
