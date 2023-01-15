@@ -251,7 +251,7 @@
                 "monster_message": "The feral jumper glances at you and the world lurches."
                 
             },
-            { "type": "leap", "cooldown": 8, "max_range": 8 }
+            { "type": "leap", "cooldown": 8, "allow_no_target": true, "max_range": 8, "message": "The feral jumper vanishes and reappears elsewhere!" }
         ]
     },
     {
@@ -273,7 +273,7 @@
                 "monster_message": "The feral slider glances at you and the world lurches."
                 
             },
-            { "type": "leap", "cooldown": 2, "max_range": 8 }
+            { "type": "leap", "cooldown": 2, "move_cost": 50, "allow_no_target": true, "max_range": 12, "message": "The feral slider vanishes and reappears elsewhere!" }
         ]
     },
     {
