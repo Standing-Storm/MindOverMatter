@@ -9,7 +9,7 @@
     "purifiable": false,
     "valid": false,
     "cancels": [ "TELEPATH", "CLAIRSENTIENT" ],
-    "spells_learned": [ [ "biokin_physical_enhance", 1 ], [ "biokin_overcome_pain", 1] ]
+    "spells_learned": [ [ "biokin_physical_enhance", 2 ], [ "biokin_overcome_pain", 2 ] ]
   },
   {
     "type": "mutation",
@@ -21,7 +21,7 @@
     "purifiable": false,
     "valid": false,
     "cancels": [ "TELEPORTER", "VITAKINETIC" ],
-    "spells_learned": [ [ "clair_night_vision", 1 ], [ "clair_dodge_power", 1] ]
+    "spells_learned": [ [ "clair_night_vision", 2 ], [ "clair_dodge_power", 2 ] ]
   },
   {
     "type": "mutation",
@@ -33,7 +33,7 @@
     "purifiable": false,
     "valid": false,
     "cancels": [ "VITAKINETIC", "CLAIRSENTIENT" ],
-    "spells_learned": [ [ "pyrokinetic_eruption", 1 ], [ "pyrokinetic_flash", 1] ]
+    "spells_learned": [ [ "pyrokinetic_eruption", 2 ], [ "pyrokinetic_flash", 2 ] ]
   },
   {
     "type": "mutation",
@@ -45,7 +45,7 @@
     "purifiable": false,
     "valid": false,
     "cancels": [ "BIOKINETIC", "TELEKINETIC" ],
-    "spells_learned": [ [ "telepathic_concentration", 1 ], [ "telepathic_shield", 1] ]
+    "spells_learned": [ [ "telepathic_concentration", 2 ], [ "telepathic_shield", 2 ] ]
   },
   {
     "type": "mutation",
@@ -57,7 +57,7 @@
     "purifiable": false,
     "valid": false,
     "cancels": [ "TELEPORTER", "PYROKINETIC" ],
-    "spells_learned": [ [ "telekinetic_pull", 1 ], [ "telekinetic_push", 1] ]
+    "spells_learned": [ [ "telekinetic_pull", 2 ], [ "telekinetic_push", 2 ] ]
   },
   {
     "type": "mutation",
@@ -69,7 +69,7 @@
     "purifiable": false,
     "valid": false,
     "cancels": [ "BIOKINETIC", "TELEPATH" ],
-    "spells_learned": [ [ "teleport_blink", 1 ], [ "teleport_slow", 1] ]
+    "spells_learned": [ [ "teleport_blink", 2 ], [ "teleport_slow", 2 ] ]
   },
     {
     "type": "mutation",
@@ -81,7 +81,7 @@
     "purifiable": false,
     "valid": false,
     "cancels": [ "PYROKINETIC", "TELEKINETIC" ],
-    "spells_learned": [ [ "vita_stop_bleeding", 1 ], [ "vita_health_power", 1] ]
+    "spells_learned": [ [ "vita_stop_bleeding", 2 ], [ "vita_health_power", 2 ] ]
   }
 ]
   
