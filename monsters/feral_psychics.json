@@ -1,0 +1,294 @@
+[
+    {
+        "id": "mon_feral_human_bio",
+        "type": "MONSTER",
+        "name": "feral adept",
+        "description": "This feral human moves with a disturbing fluid grace.  Despite their movements, they bear the same crazed expression as all the others.",
+        "copy-from": "mon_feral_human_pipe",
+        "color": "pink",
+        "speed": 110,
+        "melee_skill": 4,
+        "melee_dice": 2,
+        "melee_dice_sides": 3,
+        "armor_bash": 5,
+        "armor_cut": 3,
+        "armor_stab": 3,
+        "armor_bullet": 3,
+        "death_drops": "feral_humans_death_drops_bio",
+        "upgrades": { "half_life": 100, "into": "mon_feral_human_bio2" },
+        "special_attacks": [ [ "BIO_OP_DISARM", 10 ] ],
+        "dodge": 3
+    },
+    {
+        "id": "mon_feral_human_bio2",
+        "type": "MONSTER",
+        "name": "feral dervish",
+        "description": "Despite their bloodshot eyes and fixed stare, this creature moves too quickly and smoothly to be human.",
+        "copy-from": "mon_feral_human_pipe",
+        "color": "pink",
+        "speed": 125,
+        "melee_skill": 6,
+        "melee_dice": 3,
+        "melee_dice_sides": 4,
+        "attack_cost": 80,
+        "armor_bash": 8,
+        "armor_cut": 6,
+        "armor_stab": 6,
+        "armor_bullet": 10,
+        "death_drops": "feral_humans_death_drops_bio",
+        "extend": { "flags": [ "STUN_IMMUNE" ] },
+        "special_attacks": [ { "id": "smash", "attack_upper": true, "throw_strength": 48, "cooldown": 20 }, [ "BIO_OP_DISARM", 10 ], [ "BIO_OP_TAKEDOWN", 15 ] ],
+        "dodge": 5
+    },
+    {
+        "id": "mon_feral_human_clair",
+        "type": "MONSTER",
+        "name": "feral seer",
+        "description": "This feral human completely lacks the crazed look most of their compatriots have.  Instead, they fix their bloodshot eyes straight at you, seeming to gaze right into your soul.",
+        "copy-from": "mon_feral_human_pipe",
+        "color": "dark_gray",
+        "vision_day": 35,
+        "vision_night": 35,
+        "death_drops": "feral_humans_death_drops_clair",
+        "extend": { "flags": [ "GOODHEARING", "HARDTOSHOOT" ] },
+        "upgrades": { "half_life": 100, "into": "mon_feral_human_clair2" },
+        "special_attacks": [ ],
+        "dodge": 5
+    },
+    {
+        "id": "mon_feral_human_clair2",
+        "type": "MONSTER",
+        "name": "feral visionary",
+        "description": "By the time you see this feral, they have already noticed you.  They stare straight at you, regardless of obstruction or any obstacle in between.",
+        "copy-from": "mon_feral_human_pipe",
+        "color": "dark_gray",
+        "vision_day": 40,
+        "vision_night": 40,
+        "death_drops": "feral_humans_death_drops_clair",
+        "extend": { "flags": [ "GOODHEARING", "HARDTOSHOOT", "ALL_SEEING" ] },
+        "special_attacks": [ ],
+        "dodge": 8
+    },
+    {
+        "id": "mon_feral_human_pyrokin",
+        "type": "MONSTER",
+        "name": "feral burner",
+        "description": "This feral human looks a little more composed than most, but only a little.  Their clothes are singed and the air around them shimmers like a summer heat haze.",
+        "copy-from": "mon_feral_human_pipe",
+        "color": "red",
+        "death_drops": "feral_humans_death_drops_pyro",
+        "extend": { "flags": [ "FIREBALL", "FIREPROOF" ] },
+        "upgrades": { "half_life": 100, "into": "mon_feral_human_pyrokin2" },
+        "special_attacks": [
+            {
+              "type": "spell",
+              "spell-id": "pyrokinetic_eruption_monster",
+              "cooldown": 10,
+              "min_level": 3,
+              "monster_message": "The feral burner summons a blast of flame!"
+            },
+            {
+                "type": "spell",
+                "spell-id": "pyrokinetic_flash",
+                "cooldown": 15,
+                "min_level": 1,
+                "monster_message": "The air erupts into an eye-searing flash!"
+            }
+        ]
+
+    },
+    {
+        "id": "mon_feral_human_pyrokin2",
+        "type": "MONSTER",
+        "name": "feral inferno",
+        "description": "Through a cloud of smoke and fire, you can see a human form.  Their body is barely visible through the flames.",
+        "copy-from": "mon_feral_human_pipe",
+        "color": "red",
+        "death_drops": "feral_humans_death_drops_pyro",
+        "extend": { "flags": [ "FLAME_EXPLOSION", "FIREY" ] },
+        "luminance": 50,
+        "special_attacks": [
+            {
+              "type": "spell",
+              "spell-id": "pyrokinetic_eruption_monster",
+              "cooldown": 10,
+              "min_level": 6,
+              "monster_message": "The feral inferno summons a blast of flame!"
+            },
+            {
+                "type": "spell",
+                "spell-id": "pyrokinetic_flash",
+                "cooldown": 15,
+                "min_level": 3,
+                "monster_message": "The air erupts into an eye-searing flash!"
+            },
+            {
+                "type": "spell",
+                "spell-id": "pyrokinetic_blast_monster",
+                "cooldown": 25,
+                "min-level": 2,
+                "monster_message": "The feral inferno gestures and you are bathed in flames!"
+            }
+        ]
+    },
+    {
+        "id": "mon_feral_human_telekin",
+        "type": "MONSTER",
+        "name": "feral psychokinetic",
+        "description": "Though they still have a maniacal expression, this feral human is distinguished by the rocks floating in the around near it.",
+        "copy-from": "mon_feral_human_pipe",
+        "color": "yellow",
+        "armor_bullet": 15,
+        "death_drops": "feral_humans_death_drops_telekin",
+        "extend": { "flags": [ "PUSH_MON" ] },
+        "upgrades": { "half_life": 100, "into": "mon_feral_human_telekin2" },
+        "starting_ammo": { "rock": 6 },
+        "special_attacks": [
+            {
+                "type": "gun",
+                "cooldown": 5,
+                "move_cost": 50,
+                "gun_type": "feral_human_thrown_rock",
+                "ammo_type": "rock",
+                "no_ammo_sound": "",
+                "fake_skills": [ [ "throw", 6 ] ],
+                "fake_str": 11,
+                "require_targeting_player": false,
+                "ranges": [ [ 2, 10, "DEFAULT" ] ],
+                "description": "The feral psychokinetic psionically hurls a rock!"
+              },
+              { "id": "smash", "attack_upper": true, "throw_strength": 50, "cooldown": 15 },
+              [ "RANGED_PULL", 8 ],
+              [ "PULL_METAL_WEAPON", 15 ]
+        ]
+    },
+    {
+        "id": "mon_feral_human_telekin2",
+        "type": "MONSTER",
+        "name": "feral psychokinetic",
+        "description": "Hovering half a meter off the ground, this feral human is surrounded by a whirling cloud of rock, dust, splintered wood, and various household objects.",
+        "copy-from": "mon_feral_human_pipe",
+        "color": "yellow",
+        "armor_bash": 15,
+        "armor_bullet": 35,
+        "death_drops": "feral_humans_death_drops_telekin",
+        "extend": { "flags": [ "FLIES", "PUSH_VEH", "PUSH_MON" ] },
+        "special_attacks": [
+            {
+                "type": "spell",
+                "spell-id": "telekinetic_hammer_monster",
+                "cooldown": 10,
+                "min_level": 4,
+                "monster_message": "The feral inferno hammers you with psionic force!"
+            },
+            { "id": "smash", "attack_upper": true, "throw_strength": 70, "cooldown": 12 },
+            [ "RANGED_PULL", 5 ],
+            [ "PULL_METAL_WEAPON", 10 ]
+        ]
+    },
+    {
+        "id": "mon_feral_human_teep",
+        "type": "MONSTER",
+        "name": "feral esper",
+        "description": "This feral human lacks the crazed look most of their kind have.  Instead, their gaze is unfocused, as though listening to voices only they can hear.",
+        "copy-from": "mon_feral_human_pipe",
+        "color": "white",
+        "death_drops": "feral_humans_death_drops_teep",
+        "upgrades": { "half_life": 100, "into": "mon_feral_human_teep2" },
+        "special_attacks": [ 
+            {
+                "type": "spell",
+                "spell-id": "telepathic_confusion_monster",
+                "cooldown": 10,
+                "min_level": 3,
+                "monster_message": "A roar fills your mind and you stumble!"
+            },
+            [ "FEAR_PARALYZE", 15] ]
+    },
+    {
+        "id": "mon_feral_human_teep2",
+        "type": "MONSTER",
+        "name": "feral brainburner",
+        "description": "Before you see them, you can feel it--a sensation like spiders crawling along your brain.  As you shudder, this feral human looks at you and smiles slightly.",
+        "copy-from": "mon_feral_human_pipe",
+        "color": "white",
+        "death_drops": "feral_humans_death_drops_teep",
+        "special_attacks": [
+            {
+                "type": "spell",
+                "spell-id": "telepathic_confusion_monster",
+                "cooldown": 10,
+                "min_level": 3,
+                "monster_message": "A roar fills your mind and you stumble!"
+            },
+            {
+                "type": "spell",
+                "spell-id": "telepathic_blast_monster",
+                "cooldown": 15,
+                "min_level": 2,
+                "monster_message": "A searing pain fills your head!"
+            },
+            [ "FEAR_PARALYZE", 15]
+        ]
+    },
+    {
+        "id": "mon_feral_human_porter",
+        "type": "MONSTER",
+        "name": "feral jumper",
+        "description": "What was once empty air suddenly contains this feral human.  They have the same crazed expression as their fellows, but their gaze is focused on more distant locations.",
+        "copy-from": "mon_feral_human_pipe",
+        "color": "blue",
+        "morale": 25,
+        "death_drops": "feral_humans_death_drops_porter",
+        "extend": { "flags": [ "CLIMBS", "HARDTOSHOOT" ] },
+        "upgrades": { "half_life": 100, "into": "mon_feral_human_porter2" },
+        "special_attacks": [
+            {
+                "type": "spell",
+                "spell-id": "teleport_slow_monster",
+                "cooldown": 15,
+                "min_level": 2,
+                "monster_message": "The feral jumper glances at you and the world lurches."
+                
+            },
+            { "type": "leap", "cooldown": 8, "max_range": 8 }
+        ]
+    },
+    {
+        "id": "mon_feral_human_porter2",
+        "type": "MONSTER",
+        "name": "feral slider",
+        "description": "Every time you blink, this feral human is in a different place.  They are always in motion without actually crossing the intervening space.",
+        "copy-from": "mon_feral_human_pipe",
+        "color": "blue",
+        "morale": 25,
+        "death_drops": "feral_humans_death_drops_porter",
+        "extend": { "flags": [ "CLIMBS", "HARDTOSHOOT" ] },
+        "special_attacks": [
+            {
+                "type": "spell",
+                "spell-id": "teleport_slow_monster",
+                "cooldown": 10,
+                "min_level": 2,
+                "monster_message": "The feral slider glances at you and the world lurches."
+                
+            },
+            { "type": "leap", "cooldown": 2, "max_range": 8 }
+        ]
+    },
+    {
+        "id": "mon_feral_human_vita",
+        "type": "MONSTER",
+        "name": "feral mender",
+        "description": ".",
+        "copy-from": "mon_feral_human_pipe",
+        "color": "green",
+        "morale": 45,
+        "regen_morale": true,
+        "regenerates": 10,
+        "bleed_rate": 0,
+        "death_drops": "feral_humans_death_drops_vita"
+    }
+
+
+]

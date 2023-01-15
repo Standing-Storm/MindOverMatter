@@ -204,7 +204,7 @@
 		],
 		"flags": [ "MYOPIC" ]
 	},
-	 {
+	{
     "type": "effect_type",
     "id": "effect_telepathic_psi_armor",
     "name": [ "Psychic Shield" ],
