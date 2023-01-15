@@ -133,7 +133,8 @@
 					{ "value": "BONUS_BLOCK", "add": 2 } 
 				] 
 			} 
-		] 
+		],
+		"flags": [ "UNCANNY_DODGE" ]
 	},
 	{
 		"type": "effect_type",

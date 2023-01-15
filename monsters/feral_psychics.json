@@ -269,7 +269,7 @@
                 "type": "spell",
                 "spell-id": "teleport_slow_monster",
                 "cooldown": 10,
-                "min_level": 2,
+                "min_level": 4,
                 "monster_message": "The feral slider glances at you and the world lurches."
                 
             },
@@ -280,14 +280,37 @@
         "id": "mon_feral_human_vita",
         "type": "MONSTER",
         "name": "feral mender",
-        "description": ".",
+        "description": "Other than the intense expression, this feral human looks to be the picture of health.  They could have starred in a healthcare advertisement before the Cataclysm.",
         "copy-from": "mon_feral_human_pipe",
         "color": "green",
         "morale": 45,
         "regen_morale": true,
+        "armor_bash": 5,
+        "armor_cut": 3,
+        "armor_stab": 3,
+        "armor_ballistic": 5,
         "regenerates": 10,
         "bleed_rate": 0,
-        "death_drops": "feral_humans_death_drops_vita"
+        "death_drops": "feral_humans_death_drops_vita",
+        "upgrades": { "half_life": 100, "into": "mon_feral_human_vita2" },
+    },
+    {
+        "id": "mon_feral_human_vita2",
+        "type": "MONSTER",
+        "name": "feral mender",
+        "description": "This feral human doesn't even have bloodshot eyes.  Their skin positively glows, and as you watch them brush past a jagged chunk of wood to get to you, the wound they receive immediately stops bleeding and rapidly begins to close.",
+        "copy-from": "mon_feral_human_pipe",
+        "color": "green",
+        "morale": 45,
+        "regen_morale": true,
+        "armor_bash": 5,
+        "armor_cut": 3,
+        "armor_stab": 3,
+        "armor_ballistic": 5,
+        "regenerates": 25,
+        "bleed_rate": 0,
+        "death_drops": "feral_humans_death_drops_vita",
+        
     }
 
 
