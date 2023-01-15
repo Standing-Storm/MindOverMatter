@@ -56,6 +56,66 @@
         "id": "feral_humans_death_drops_porter",
         "copy-from": "feral_humans_death_drops_psychic",
         "extend": { "entries": [ { "item": "matrix_crystal_teleportation", "prob": 0.5 } ] }
+    }
+]
+[
+    {
+        "type":"item_group",
+        "subtype": "collection",
+        "id": "feral_humans_death_drops_psychic",
+        "//": "Generic listing of clothes, wallets, etc. for feral psychics.",
+        "entries": [
+            { "group": "default_zombie_clothes", "prob": 100 },
+            { "item": "two_way_radio", "prob": 2, "charges": [ 0, 100 ], "damage": [ 1, 4 ] },
+            { "item": "knee_pads", "damage": [ 0, 4 ], "prob": 3 },
+            { "group": "homebooks", "prob": 5 },
+            { "item": "thermos", "prob": 15 },
+            { "group": "default_zombie_items_bags_small", "prob": 100 },
+            { "group": "tools_common_small", "count": [ 1, 2 ], "prob": 10 },
+            { "group": "default_zombie_items_pockets", "count": [ 1, 2 ], "prob": 50 }
+        ]
+    },
+    {
+        "type": "item_group",
+        "subtype": "collection",
+        "id": "feral_humans_death_drops_bio",
+        "copy-from": "feral_humans_death_drops_psychic",
+        "extend": { "entries": [ { "item": "matrix_crystal_biokinesis", "prob": 0.5 } ] }
+    },
+    {
+        "type": "item_group",
+        "subtype": "collection",
+        "id": "feral_humans_death_drops_clair",
+        "copy-from": "feral_humans_death_drops_psychic",
+        "extend": { "entries": [ { "item": "matrix_crystal_clairsentience", "prob": 0.5 } ] }
+    },
+    {
+        "type": "item_group",
+        "subtype": "collection",
+        "id": "feral_humans_death_drops_pyro",
+        "copy-from": "feral_humans_death_drops_psychic",
+        "extend": { "entries": [ { "item": "matrix_crystal_pyrokinesis", "prob": 0.5 } ] }
+    },
+    {
+        "type": "item_group",
+        "subtype": "collection",
+        "id": "feral_humans_death_drops_telekin",
+        "copy-from": "feral_humans_death_drops_psychic",
+        "extend": { "entries": [ { "item": "matrix_crystal_telekinesis", "prob": 0.5 } ] }
+    },
+    {
+        "type": "item_group",
+        "subtype": "collection",
+        "id": "feral_humans_death_drops_teep",
+        "copy-from": "feral_humans_death_drops_psychic",
+        "extend": { "entries": [ { "item": "matrix_crystal_telepathy", "prob": 0.5 } ] }
+    },
+    {
+        "type": "item_group",
+        "subtype": "collection",
+        "id": "feral_humans_death_drops_porter",
+        "copy-from": "feral_humans_death_drops_psychic",
+        "extend": { "entries": [ { "item": "matrix_crystal_teleportation", "prob": 0.5 } ] }
     },
     {
         "type": "item_group",

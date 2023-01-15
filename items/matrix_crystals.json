@@ -9,6 +9,7 @@
     "volume": "200 ml",
     "weight": "40 g",
     "looks-like": "art_crystal",
+    "looks-like": "art_crystal",
     "use_action": { "type": "cast_spell", "spell_id": "matcrys_biokin_mutate", "no_fail": true, "level": 1 }
   },
   {
