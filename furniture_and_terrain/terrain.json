@@ -1,0 +1,13 @@
+[
+    {
+	    "type": "terrain",
+	    "id": "t_nether_crystal_structure",
+	    "name": "glowing crystal",
+	    "description": "An irregular chunk of glowing crystal. The fitful glow sheds no illumination on the nearby terrain.",
+	    "symbol": "#",
+	    "color": "black",
+	    "move_cost": 0,
+		"looks-like": "f_boulder_large",
+	    "flags": [ "ALLOW_ON_OPEN_AIR", "PERMEABLE", "SHARP" ]
+    }
+]

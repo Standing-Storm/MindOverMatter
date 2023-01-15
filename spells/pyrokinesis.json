@@ -35,7 +35,7 @@
     "type": "SPELL",
     "name": "[Ψ]Brilliant Flash",
     "description": "By strongly exciting the air at a particular point, you produce a burst of light.",
-     "message": "The air erupts into an eye-searing flash!.",
+     "message": "The air erupts into an eye-searing flash!",
     "valid_targets": [ "hostile", "ground" ],
     "spell_class": "PYROKINETIC",
     "flags": [ "CONCENTRATE", "NO_HANDS", "NO_PROJECTILE", "NO_LEGS", "RANDOM_DURATION", "RANDOM_AOE" ],
