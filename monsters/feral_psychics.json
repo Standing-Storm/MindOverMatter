@@ -134,8 +134,8 @@
     {
         "id": "mon_feral_human_telekin",
         "type": "MONSTER",
-        "name": "feral psychokinetic",
-        "description": "Though they still have a maniacal expression, this feral human is distinguished by the rocks floating in the around near it.",
+        "name": "feral PKer",
+        "description": "Though they still have a maniacal expression, this feral human is distinguished by the rocks floating in the around around them.",
         "copy-from": "mon_feral_human_pipe",
         "color": "yellow",
         "armor_bullet": 15,
@@ -155,7 +155,7 @@
                 "fake_str": 11,
                 "require_targeting_player": false,
                 "ranges": [ [ 2, 10, "DEFAULT" ] ],
-                "description": "The feral psychokinetic psionically hurls a rock!"
+                "description": "The feral PKer hurls a rock!"
               },
               { "id": "smash", "attack_upper": true, "throw_strength": 50, "cooldown": 15 },
               [ "RANGED_PULL", 8 ],
@@ -165,7 +165,7 @@
     {
         "id": "mon_feral_human_telekin2",
         "type": "MONSTER",
-        "name": "feral psychokinetic",
+        "name": "feral mindhand",
         "description": "Hovering half a meter off the ground, this feral human is surrounded by a whirling cloud of rock, dust, splintered wood, and various household objects.",
         "copy-from": "mon_feral_human_pipe",
         "color": "yellow",
@@ -179,7 +179,7 @@
                 "spell-id": "telekinetic_hammer_monster",
                 "cooldown": 10,
                 "min_level": 4,
-                "monster_message": "The feral inferno hammers you with psionic force!"
+                "monster_message": "The feral PKer hammers you with psionic force!"
             },
             { "id": "smash", "attack_upper": true, "throw_strength": 70, "cooldown": 12 },
             [ "RANGED_PULL", 5 ],

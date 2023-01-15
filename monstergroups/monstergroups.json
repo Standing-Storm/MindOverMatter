@@ -1,0 +1,97 @@
+[
+    {
+        "name": "GROUP_FERAL_PSYCHIC",
+	    "type": "monstergroup",
+        "monsters": [
+            { "monster": "mon_null", "weight": 2 },
+            { "monster": "mon_feral_human_bio", "weight": 1 },
+            { "monster": "mon_feral_human_clair", "weight": 1 },
+            { "monster": "mon_feral_human_pyrokin", "weight": 1, "cost_multiplier": 3 },
+            { "monster": "mon_feral_human_telekin", "weight": 1, "cost_multiplier": 2 },
+            { "monster": "mon_feral_human_teep", "weight": 1 },
+            { "monster": "mon_feral_human_porter", "weight": 1 },
+            { "monster": "mon_feral_human_vita", "weight": 1 }
+          ]
+    },
+    {
+        "name": "GROUP_PARK_SCENIC",
+	    "type": "monstergroup",
+	    "monsters": [
+            { "monster": "mon_feral_human_bio", "weight": 3 },
+            { "monster": "mon_feral_human_clair", "weight": 3 },
+            { "monster": "mon_feral_human_pyrokin", "weight": 1, "cost_multiplier": 3 },
+            { "monster": "mon_feral_human_telekin", "weight": 2, "cost_multiplier": 2 },
+            { "monster": "mon_feral_human_teep", "weight": 3 },
+            { "monster": "mon_feral_human_porter", "weight": 1 },
+            { "monster": "mon_feral_human_vita", "weight": 2 }
+        ]
+    },
+    {
+        "name": "GROUP_PARK_DOG",
+	    "type": "monstergroup",
+	    "monsters": [
+            { "monster": "mon_feral_human_bio", "weight": 3 },
+            { "monster": "mon_feral_human_clair", "weight": 3 },
+            { "monster": "mon_feral_human_pyrokin", "weight": 1, "cost_multiplier": 3 },
+            { "monster": "mon_feral_human_telekin", "weight": 2, "cost_multiplier": 2 },
+            { "monster": "mon_feral_human_teep", "weight": 3 },
+            { "monster": "mon_feral_human_porter", "weight": 1 },
+            { "monster": "mon_feral_human_vita", "weight": 2 }
+        ]
+    },
+    {
+	    "type": "monstergroup",
+	    "name": "GROUP_ZOMBIE",
+        "monsters": [
+            { "monster": "mon_feral_human_bio", "weight": 1, "cost_multiplier": 3 },
+            { "monster": "mon_feral_human_clair", "weight": 1, "cost_multiplier": 3 },
+            { "monster": "mon_feral_human_pyrokin", "weight": 1, "cost_multiplier": 5 },
+            { "monster": "mon_feral_human_telekin", "weight": 1, "cost_multiplier": 4 },
+            { "monster": "mon_feral_human_teep", "weight": 1, "cost_multiplier": 3 },
+            { "monster": "mon_feral_human_porter", "weight": 1, "cost_multiplier": 3 },
+            { "monster": "mon_feral_human_vita", "weight": 1, "cost_multiplier": 3 }
+        ]
+    },
+    {
+        "type": "monstergroup",
+        "name": "GROUP_PREPPER_HOUSE",
+        "monsters":  [
+            { "monster": "mon_feral_human_bio", "weight": 10 },
+            { "monster": "mon_feral_human_clair", "weight": 15 },
+            { "monster": "mon_feral_human_pyrokin", "weight": 5, "cost_multiplier": 3 },
+            { "monster": "mon_feral_human_telekin", "weight": 10, "cost_multiplier": 2 },
+            { "monster": "mon_feral_human_teep", "weight": 15 },
+            { "monster": "mon_feral_human_porter", "weight": 5 },
+            { "monster": "mon_feral_human_vita", "weight": 15 }
+        ],
+    },
+    {
+        "type": "monstergroup",
+	    "name": "GROUP_CHURCH_ZOMBIE",
+	    "monsters": [
+            { "monster": "mon_feral_human_clair", "weight": 15, "cost_multiplier": 2 },
+            { "monster": "mon_feral_human_vita", "weight": 15 }
+
+    },
+    {
+        "name": "GROUP_MANSION",
+	    "type": "monstergroup",
+	    "monsters": [
+            { "monster": "mon_feral_human_clair", "weight": 2, "cost_multiplier": 10 },
+            { "monster": "mon_feral_human_teep", "weight": 1, "cost_multiplier": 10 }
+        ]
+    },
+    {
+        "name": "FERAL_HUMANS",
+	    "type": "monstergroup",
+	    "monsters": [
+            { "monster": "mon_feral_human_bio", "weight": 1, "cost_multiplier": 4 },
+            { "monster": "mon_feral_human_clair", "weight": 1, "cost_multiplier": 3 },
+            { "monster": "mon_feral_human_pyrokin", "weight": 1, "cost_multiplier": 6 },
+            { "monster": "mon_feral_human_telekin", "weight": 1, "cost_multiplier": 5 },
+            { "monster": "mon_feral_human_teep", "weight": 1, "cost_multiplier": 4 },
+            { "monster": "mon_feral_human_porter", "weight": 1, "cost_multiplier": 3 },
+            { "monster": "mon_feral_human_vita", "weight": 1, "cost_multiplier": 3 }
+        ]
+    }
+]
