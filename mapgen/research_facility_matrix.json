@@ -33,59 +33,7 @@
         "l": { "item": "lab_torso", "chance": 40, "repeat": [ 1, 8 ] },
         "E": [ {"item": "matrix_crystal_drained", "chance": 55 }, { "item": "dist_matrix_crystals", "chance": 10 } ] 
       },
-      "palettes": [ "lab_workspace_matrix_palette" ]
-    }
-  },
-   {
-    "type": "palette",
-    "id": "lab_workspace_matrix_palette",
-    "terrain": {
-      ".": "t_floor",
-      "#": "t_brick_wall",
-      "|": "t_strconc_wall",
-      " ": "t_strconc_floor",
-      "%": "t_linoleum_white",
-      "+": "t_door_c",
-      "-": "t_door_glass_frosted_c",
-      "=": "t_door_glass_frosted_lab_c",
-      ":": "t_reinforced_glass",
-      "m": "t_door_metal_c"
-    },
-    "furniture": {
-      "&": "f_trashcan",
-      "1": [ "f_indoor_plant", "f_indoor_plant_y" ],
-      "5": "f_server",
-      "8": "f_sample_freezer",
-      "a": "f_autoclave",
-      "A": "f_air_filter",
-      "b": "f_lab_bench",
-      "B": "f_bookcase",
-      "C": "f_counter",
-      "c": "f_chair",
-      "d": "f_desk",
-      "D": "f_dishwasher",
-      "e": "f_eyewash",
-      "E": "f_electron_microscope",
-      "F": "f_fume_hood",
-      "f": "f_fridge",
-      "G": "f_GC",
-      "h": "f_shaker",
-      "H": "f_HPLC",
-      "i": "f_filing_cabinet",
-      "I": "f_scan_bed",
-      "l": "f_locker",
-      "M": "f_MS",
-      "N": "f_NMR",
-      "O": "f_MRI",
-      "0": "f_CTscan",
-      "r": "f_rack",
-      "s": "f_stool",
-      "S": "f_sink",
-      "t": "f_table",
-      "U": "f_utility_shelf",
-      "v": "f_ventilator",
-      "o": "f_centrifuge",
-      "x": "f_console_broken"
+      "palettes": [ "lab_workspace_palette" ]
     }
   }
 ]
