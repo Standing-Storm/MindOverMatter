@@ -12,5 +12,3 @@
     "effect": [ { "u_add_trait": "BIOKINETIC" }, { "u_add_trait": "BIOKIN_NEEDS" }, { "message": "A roar fills your mind, louder even than the screaming madness of the portal storm!" } ]
   }
 ]
-
-"condition": { "and": [ "u_can_see", "u_is_outside", { "not": { "u_has_effect": "sleep" } } ] },
