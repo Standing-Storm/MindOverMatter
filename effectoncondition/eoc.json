@@ -3,7 +3,7 @@
     "type": "effect_on_condition",
     "id": "EOC_PORTAL_STORM_BIOKIN_AWAKENING",
     "global": true,
-    "condition": { "and": [ { "u_is_outside" },  { "is_weather": "portal_storm" }, { "compare_int": [ { "global_val": "var", "var_name": "ps_str" }, ">", { "const": 2 } ] }  
+    "condition": { "and": [ { "u_is_outside" },  { "is_weather": "portal_storm" }, { "compare_int": [ { "global_val": "var", "var_name": "ps_str" }, ">", { "const": 3 } ] }  
         { "not": { "u_has_worn_with_flag": "PORTAL_PROOF" } },
         { "not": { "u_has_effect": "sleep" } },
         { "x_in_y_chance": { "x": 1, "y": 200 } }
