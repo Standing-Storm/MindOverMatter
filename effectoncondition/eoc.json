@@ -1,7 +1,7 @@
 [
   {
     "type": "effect_on_condition",
-    "id": "EOC_PORTAL_STORM_BIOKIN_AWAKENING",
+    "id": "EOC_PORTAL_STORM_PSION_AWAKENING",
     "global": true,
     "condition": { "and": [ { "u_is_outside" },  { "is_weather": "portal_storm" }, { "compare_int": [ { "global_val": "var", "var_name": "ps_str" }, ">", { "const": 3 } ] }  
         { "not": { "u_has_worn_with_flag": "PORTAL_PROOF" } },
@@ -10,6 +10,24 @@
       ]
     },
     "deactivate_condition": { "not": { "is_weather": "portal_storm" } },
-    "effect": [ { "u_add_trait": "BIOKINETIC" }, { "u_add_trait": "BIOKIN_NEEDS" }, { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm!" } ]
+    "effect": [ 
+      [ "EOC_PORTAL_BIOKIN_AWAKENING", { "const": 3 } ],
+        [ "EOC_PORTAL_CLAIR_AWAKENING", { "const": 1 } ],
+        [ "EOC_PORTAL_PYRO_AWAKENING", { "const": 1 } ],
+        [ "EOC_PORTAL_TELEKIN_AWAKENING", { "const": 1 } ],
+        [ "EOC_PORTAL_TEEP_AWAKENING", { "const": 1 } ],
+        [ "EOC_PORTAL_PORTER_AWAKENING", { "const": 1 } ],
+        [ "EOC_PORTAL_VITA_AWAKENING", { "const": 2 } ]
+    ]
+}
+]
+      
+      
+      
+      
+      
+      
+      
+      { "u_add_trait": "BIOKINETIC" }, { "u_add_trait": "BIOKIN_NEEDS" }, { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm!" } ]
   }
 ]
