@@ -7,7 +7,7 @@
       "u_is_outside",  
       { "is_weather": "portal_storm" }, 
       { "compare_int": [ { "global_val": "var", "var_name": "ps_str" }, ">", { "const": 3 } ] },  
-      { "x_in_y_chance": { "x": 1, "y": 30 } },
+      { "one_in_chance": 30 },
       { "not": { "u_has_worn_with_flag": "PORTAL_PROOF" } },
       { "not": { "u_has_effect": "sleep" } }
     ] },
