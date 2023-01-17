@@ -6,8 +6,10 @@
     "description": "A strange-looking, surprisingly-heavy crystal with a faintly-glowing pink light in its depths.  Holding it, you feel more capable.",
     "color": "pink",
     "symbol": "+",
-    "volume": "2 ml",
-    "weight": "40 g",
+    "volume": "10 ml",
+    "weight": "150 g",
+    "longest_side": "21 mm",
+     "material": [ "diamond" ],
     "looks-like": "art_crystal",
     "use_action": { "type": "cast_spell", "spell_id": "matcrys_biokin_mutate", "no_fail": true, "level": 1 }
   },
@@ -72,8 +74,10 @@
     "description": "A strange-looking, surprisingly-heavy crystal.  In total darkness, there is a faint light visible in its depths.",
     "color": "black",
     "symbol": "+",
-    "volume": "2 ml",
-    "weight": "40 g",
+    "volume": "10 ml",
+    "weight": "150 g",
+    "longest_side": "21 mm",
+    "material": [ "diamond" ],
     "looks-like": "art_crystal"
   }
 ]
