@@ -138,7 +138,7 @@
     "base_casting_time": 150,
     "final_casting_time": 75,
     "casting_time_increment": -7.5,
-    "learn_spells": { "telekinetic_push": 4 }
+    "learn_spells": { "telekinetic_push": 4, "telekinetic_wave": 6 }
   },
   {
     "id": "telekinetic_explosion",
