@@ -1,0 +1,37 @@
+[
+  {
+    "type": "snippet",
+    "category": "shelter_graffiti_snippets",
+    "text": [
+      { "id": "shelter_graffiti_psi_1", "text": "I can see now.  This place isn't safe.  Leave." },
+      { "id": "shelter_graffiti_psi_2", "text": "<given_name> come find me.  What you told me about, it's real.  I can do it too." }
+      ]
+  },
+  {
+     "type": "snippet",
+    "category": "general_graffiti_snippets",
+     "text": [
+       { "id": "general_graffiti_psi_1", "text": " }
+    
+  },
+  {
+    "type": "snippet",
+    "category": "newest_news",
+    "text": [
+      { "id": "newest_news_psi_1", "text": "BURNING MAN!  Eyewitnesses at the recent Bank Rhode Island fire in Cranston stated that they saw a man standing in the burning building, waving his arms as though directing the flames.  The fire raged out of control for nearly four hours before local firefighters were able to extinguish it, but never spread beyond the bank building.  No human remains were found in the debris; investigation is ongoing." },
+      { "id": "newest_news_psi_2", "text": "THE END. I have written the horoscopes column for almost a decade now but this is the first true prediction of the future I have written.  The end of the world is at hand, in weeks if not in days.  Take your loved ones, leave the cities, head for the hills.  The government will not save you.  This will be my last column." },
+      { "id": "newest_news_psi_3", "text": "LOCAL MAN DISAPPEARS.  Jackson Townsend of Bangor was reported missing this morning.  According to his wife Julie, he was eating breakfast with his family before work when he suddenly looked up and then disappeared.  No foul play is suspected at this time." },
+      { "id": "newest_news_psi_4", "text": " } 
+      ]
+   },
+   {
+     "type": "snippet",
+     "category": "note",
+     "text": [
+       { "id": "note_psi_1", "text": "\"Amazing I lived through whatever the fuck happened to the sky but I should be glad.  Ever since then I've been in the best health of my life.  I got caught by a Z while foraging--fucking stupid of me I know--and it bit me.  I put it down and by the time I was done beating it to hell the wound had already stopped bleeding.  It's almost gone now and I won't even have a scar.  No infection, no fever, nothing.  Not sure what's going on but maybe I should go outside again.\"" },
+       { "id": "note_psi_2", "text": "\"I call the fire and it comes.  I send the fire and they burn.  Glorious.\"" },
+       { "id": "note_psi_3", "text": "\"I put that crystal I found under my pillow and all I got was nightmares.  Burning cities, the dead walking, horrible monsters, thing kidnapping people.  I threw it away but it didn't help.  Now I have nightmares when I'm awake too.\"" },
+       { "id": "note_psi_4", "text": "\"
+      ]
+   }
+ ]
