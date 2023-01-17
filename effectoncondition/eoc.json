@@ -11,6 +11,6 @@
         { "x_in_y_chance": { "x": 1, "y": 200 } }
       ]
     },
-    "effect": [ { "u_add_trait": "BIOKINETIC" }, { "u_add_trait": "BIOKIN_NEEDS" }, { "message": "A roar fills your mind, louder even than the screaming madness of the portal storm!" }
+    "effect": [ { "u_add_trait": "BIOKINETIC" }, { "u_add_trait": "BIOKIN_NEEDS" }, { "message": "A roar fills your mind, louder even than the screaming madness of the portal storm!" } ]
   }
 ]
