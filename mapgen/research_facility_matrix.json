@@ -1,7 +1,7 @@
 [
   {
     "//": "11x11 large lab workspace, doors right side bottom",
-    "//2": "psionic resarch lab, with possible matrix crystal",
+    "//2": "psionic research lab, with possible matrix crystal",
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "lab_surface_workspace_Edoor_11x11",
