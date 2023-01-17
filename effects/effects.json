@@ -83,7 +83,7 @@
 					{ "value": "MOVE_COST", "multiply": -0.2 },
 					{ "value": "RECOIL_MODIFIER", "add": -30 },
 					{ "value": "MELEE_DAMAGE", "multiply": 0.20},
-					{ "value": "FATIGUE", "add": 10},
+					{ "value": "FATIGUE", "add": 5},
 					{ "value": "HUNGER", "multiply": 3},
 					{ "value": "THIRST", "multiply": 3}
 				]
@@ -171,9 +171,10 @@
 		"rating": "good",
 		"enchantments": [ 
 			{ "values": [
-				{ "value": "CLIMATE_CONTROL_HEAT", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "pyrokinetic_cloak" }, "*", { "const": 5 } ] } },
-				{ "value": "ARMOR_HEAT", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "pyrokinetic_cloak" }, "*", { "const": 5 } ] } },
-				{ "value": "ARMOR_COLD", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "pyrokinetic_cloak" }, "*", { "const": 5 } ] } }
+				{ "value": "CLIMATE_CONTROL_CHILL", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "pyrokinetic_cloak" }, "*", { "const": 3 } ] } },
+				{ "value": "CLIMATE_CONTROL_HEAT", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "pyrokinetic_cloak" }, "*", { "const": 10 } ] } },
+				{ "value": "ARMOR_HEAT", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "pyrokinetic_cloak" }, "*", { "const": -10 } ] } },
+				{ "value": "ARMOR_COLD", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "pyrokinetic_cloak" }, "*", { "const": -3 } ] } }
 			]
 			}
 		]
