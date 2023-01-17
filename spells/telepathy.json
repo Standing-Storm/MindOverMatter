@@ -145,6 +145,7 @@
     "final_casting_time": 30,
     "casting_time_increment": -4.5,
     "targeted_monster_species": [ "MAMMAL", "AMPHIBIAN", "BIRD", "CYBORG", "REPTILE", "FISH", "KRAKEN", "MUTANT", "MIGO", "INSECT", "CENTIPEDE", "INSECT_FLYING", "SPIDER", "MOLLUSK", "WORM", "HUMAN", "NETHER" ]
+    
   }, 
   {
     "id": "telepathic_mind_control",
@@ -176,6 +177,6 @@
     "final_casting_time": 75,
     "casting_time_increment": -4.5,
     "targeted_monster_species": [ "MAMMAL", "AMPHIBIAN", "BIRD", "CYBORG", "REPTILE", "FISH", "KRAKEN", "MUTANT", "MIGO", "MOLLUSK", "HUMAN" ],
-    "learn_spells": { "telepathic_invisibility": 3 }
+    "learn_spells": { "telepathic_invisibility": 3, "telepathic_confusion": 5 }
   }
 ]
