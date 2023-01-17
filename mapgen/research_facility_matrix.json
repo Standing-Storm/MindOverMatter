@@ -14,7 +14,7 @@
         ":A:A:-:A:A:",
         "           ",
         "f    E    &",
-        "bx   bs  xb",
+        "bx  sbs  xb",
         "bs  sb   sb",
         "    xbx   b",
         "F        Ul",
@@ -30,14 +30,15 @@
         "F": { "item": "electronics", "chance": 70, "repeat": [ 2, 5 ] },
         "C": { "item": "cleaning", "chance": 30, "repeat": [ 1, 2 ] },
         "U": { "item": "lab_shoes", "chance": 40, "repeat": [ 1, 8 ] },
-        "l": { "item": "lab_torso", "chance": 40, "repeat": [ 1, 8 ] }
+        "l": { "item": "lab_torso", "chance": 40, "repeat": [ 1, 8 ] },
+        "E": { "item": "dist_matrix_crystals", "chance": 10 }
       },
-      "palettes": [ "lab_workspace_palette" ]
+      "palettes": [ "lab_workspace_matrix_palette" ]
     }
   },
    {
     "type": "palette",
-    "id": "lab_workspace_palette",
+    "id": "lab_workspace_matrix_palette",
     "terrain": {
       ".": "t_floor",
       "#": "t_brick_wall",
