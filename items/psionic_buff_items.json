@@ -2,7 +2,7 @@
   {
 		"id": "telekinetic_armor",
     "type": "ARMOR",
-    "name": "Telekinetic Barrier",
+    "name": "Inertial Barrier",
     "description": "You are protected by a thin shell of telekinetic force.",
     "weight": "0g",
     "volume": "0ml",
