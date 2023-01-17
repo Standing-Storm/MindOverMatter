@@ -42,5 +42,5 @@ FUTURE PLANS
 
 1) Add chance of randomly becoming psychic if you stand out in a portal storm. Unprotected. We have such sights to show you.
 2) Appropriately distribute matrix crystals in labs. 
-3) Add feral psychics
+3) Add feral psychics (Accomplished!!)
 4) Add electrokinesis if they ever let spells interact with battery charge.
