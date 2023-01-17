@@ -4,11 +4,10 @@
     "id": "BIOKINETIC",
     "name": "Awakened Biokinetic",
     "points": 0,
-    "description": "Control over bodily processes, biokinetics move just a little too smothly and gracefully.",
+    "description": "Mental control over bodily processes.,
     "starting_trait": false,
     "purifiable": false,
     "valid": false,
-    "cancels": [ "TELEPATH", "CLAIRSENTIENT" ],
     "spells_learned": [ [ "biokin_physical_enhance", 2 ], [ "biokin_overcome_pain", 2 ] ]
   },
   {
@@ -16,11 +15,10 @@
     "id": "CLAIRSENTIENT",
     "name": "Awakened Clairsentient",
     "points": 0,
-    "description": "Extending the senses beyond the body, clairsentients always seem to be looking at something no one else can see.",
+    "description": "The ability to extend the senses beyond the body.",
     "starting_trait": false,
     "purifiable": false,
     "valid": false,
-    "cancels": [ "TELEPORTER", "VITAKINETIC" ],
     "spells_learned": [ [ "clair_night_vision", 2 ], [ "clair_dodge_power", 2 ] ]
   },
   {
@@ -28,11 +26,10 @@
     "id": "PYROKINETIC",
     "name": "Awakened Pyrokinetic",
     "points": 0,
-    "description": "The direct control of heat and fire, pyrokinetics tend to volatile and sometimes unstable.",
+    "description": "Direct control of heat and fire.",
     "starting_trait": false,
     "purifiable": false,
     "valid": false,
-    "cancels": [ "VITAKINETIC", "CLAIRSENTIENT" ],
     "spells_learned": [ [ "pyrokinetic_eruption", 2 ], [ "pyrokinetic_flash", 2 ] ]
   },
   {
@@ -40,11 +37,10 @@
     "id": "TELEPATH",
     "name": "Awakened Telepath",
     "points": 0,
-    "description": "The reading of other's minds, telepaths seem to struggle not to finish others' sentences.",
+    "description": "The ability to read thoughts and influence others' minds.",
     "starting_trait": false,
     "purifiable": false,
     "valid": false,
-    "cancels": [ "BIOKINETIC", "TELEKINETIC" ],
     "spells_learned": [ [ "telepathic_concentration", 2 ], [ "telepathic_shield", 2 ] ]
   },
   {
@@ -52,11 +48,10 @@
     "id": "TELEKINETIC",
     "name": "Awakened Telekinetic",
     "points": 0,
-    "description": "Moving objects and people at a distance, telekinetics are always fidgeting.",
+    "description": "Mental control over the motion of bjects and people at a distance.",
     "starting_trait": false,
     "purifiable": false,
     "valid": false,
-    "cancels": [ "TELEPORTER", "PYROKINETIC" ],
     "spells_learned": [ [ "telekinetic_pull", 2 ], [ "telekinetic_push", 2 ] ]
   },
   {
@@ -64,11 +59,10 @@
     "id": "TELEPORTER",
     "name": "Awakened Teleporter",
     "points": 0,
-    "description": "Moving without crossing the intervening space, teleporters can never be in the same place for long.",
+    "description": "The ability to move without crossing the intervening space, as well as some control over space itself.",
     "starting_trait": false,
     "purifiable": false,
     "valid": false,
-    "cancels": [ "BIOKINETIC", "TELEPATH" ],
     "spells_learned": [ [ "teleport_blink", 2 ], [ "teleport_slow", 2 ] ]
   },
     {
@@ -76,11 +70,10 @@
     "id": "VITAKINETIC",
     "name": "Awakened Vitakinetic",
     "points": 0,
-    "description": "Control of health and vitality, vitakinetics make everyone else look sickly.",
+    "description": "Mental control over health and vitality.",
     "starting_trait": false,
     "purifiable": false,
     "valid": false,
-    "cancels": [ "PYROKINETIC", "TELEKINETIC" ],
     "spells_learned": [ [ "vita_stop_bleeding", 2 ], [ "vita_health_power", 2 ] ]
   }
 ]
