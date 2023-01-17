@@ -1,15 +1,16 @@
 [
-
   {
-    "id": "EOC_PORTAL_DUNGEON_REWARD_ITEM",
     "type": "effect_on_condition",
-    "copy-from": "EOC_PORTAL_DUNGEON_REWARD_ITEM",
-"effect": [ { "u_message": "A strange item comes back with you.", "popup": true },
-      {
-        "set_string_var": [ "unstable_rift", "calming_stone", "escape_stone", "dist_matrix_crystals" ],
-        "target_var": { "global_val": "item_type" }
-      },
-      { "u_spawn_item": { "global_val": "item_type" } }
-]
+    "id": "EOC_PORTAL_STORM_BIOKIN_AWAKENING",
+    "global": true,
+    "condition": {
+    "and": [
+        { "u_is_outside" },
+        { "not": { "u_has_worn_with_flag": "PORTAL_PROOF" } },
+        { "not": { "u_has_effect": "sleep" } },
+        { "x_in_y_chance": { "x": 1, "y": 200 } }
+      ]
+    },
+    "effect": [ { "u_add_trait": "BIOKINETIC" }, { "u_add_trait": "BIOKIN_NEEDS" }, { "message": "A roar fills your mind, louder even than the screaming madness of the portal storm!" }
   }
 ]
