@@ -106,6 +106,35 @@
       "female": [ "bra", "panties" ]
     }
   },
+  {
+    "type": "profession",
+    "id": "psi_telepath_interrogater",
+    "name": "Government Interrogater (deceased)",
+    "description": "You did not die in the Cataclysm because on paper, you are already dead.  You assumed a new identity as part of an experimental program designed to produce psychic interrogators.  They told you that you were serving your country, that your gifts would be the key to winning the new Cold War that was surely developing, but they didn't consider the ramifications of having a telepath on the base.  You knew right away that things were much worse than the brass was telling you, and your gifts let you \"persuade\" the guards to let you out even in the face of the lockdown. You had thought to go somewhere else, to get away from New England, but the end came much faster than even you thought it would.",
+    "points": 3,
+     "skills": [ 
+      { "level": 3, "name": "social" },
+      { "level": 3, "name": "spellcraft" }
+    ],
+    "traits": [ "TELEPATH", "TELEPATHIC_SUGGESTION" ],
+    "spells": [ 
+      { "id": "telepathic_concentration", "level": 4 },
+      { "id": "telepathic_shield", "level": 2 },
+      { "id": "telepathic_confusion", "level": 1 } 
+      ],
+    "items": {
+       "both": {
+         "items": [ "pants", "dress_shirt", "socks", "dress_shoes" ],
+         "entries": [
+           { "item": "water_clean", "container-item": "canteen" },
+           { "group": "charged_smart_phone" },
+           { "item": "lighter", "charges": 100 }
+         ]
+       },
+         "male": [ "briefs" ],
+         "female": [ "bra", "panties" ]
+     }
+   },
    {
     "type": "profession",
     "id": "psi_teleporter_slider",
