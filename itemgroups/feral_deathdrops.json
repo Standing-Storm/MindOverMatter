@@ -6,7 +6,7 @@
         "//": "Generic listing of clothes, wallets, etc. for feral psychics.",
         "entries": [
             { "group": "default_zombie_clothes", "prob": 100 },
-            { "item": "two_way_radio", "prob": 2, "charges": [ 0, 100 ], "damage": [ 1, 4 ] },
+            { "item": "matrix_crystal_drained", "prob": 5 },
             { "item": "knee_pads", "damage": [ 0, 4 ], "prob": 3 },
             { "group": "homebooks", "prob": 5 },
             { "item": "thermos", "prob": 15 },
