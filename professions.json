@@ -51,7 +51,8 @@
     "points": 2,
     "skills": [ 
       { "level": 2, "name": "cooking" },
-      { "level": 1, "name": "driving" }],
+      { "level": 1, "name": "driving" },
+      { "level": 2, "name": "spellcraft" }],
     "traits": [ 
       "PYROMANIA", 
       "PYROKINETIC", 
