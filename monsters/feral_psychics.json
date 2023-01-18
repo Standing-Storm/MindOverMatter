@@ -77,25 +77,21 @@
         "copy-from": "mon_feral_human_pipe",
         "color": "red",
         "death_drops": "feral_humans_death_drops_pyro",
-        "extend": { "flags": [ "FIREBALL", "FIREPROOF" ] },
+        "extend": { "flags": [ "FIREPROOF" ] },
+        "death_function": { "effect": { "id": "fireball" } },
         "upgrades": { "half_life": 100, "into": "mon_feral_human_pyrokin2" },
-        "special_attacks": [
+        "special_attacks": [ 
             {
-              "type": "spell",
-              "spell-id": "pyrokinetic_eruption_monster",
-              "cooldown": 10,
-              "min_level": 3,
-              "monster_message": "The feral burner summons a blast of flame!"
+                "type": "spell", "spell_data": { "id": "pyrokinetic_eruption_monster", "min_level": 3 },
+                "cooldown": 10,   
+                "monster_message": "The feral burner summons a blast of flame!" 
             },
             {
-                "type": "spell",
-                "spell-id": "pyrokinetic_flash",
+                "type": "spell", "spell_data": { "id": "pyrokinetic_flash", "min_level": 1 },
                 "cooldown": 15,
-                "min_level": 1,
                 "monster_message": "The air erupts into an eye-searing flash!"
             }
         ]
-
     },
     {
         "id": "mon_feral_human_pyrokin2",
@@ -105,29 +101,24 @@
         "copy-from": "mon_feral_human_pipe",
         "color": "red",
         "death_drops": "feral_humans_death_drops_pyro",
-        "extend": { "flags": [ "FLAME_EXPLOSION", "FIREY" ] },
+        "extend": { "flags": [ "FIREY" ] },
+        "death_function": { "effect": { "id": "flame_explosion" } },
         "luminance": 50,
-        "special_attacks": [
+        "special_attacks": [ 
             {
-              "type": "spell",
-              "spell-id": "pyrokinetic_eruption_monster",
-              "cooldown": 10,
-              "min_level": 6,
-              "monster_message": "The feral inferno summons a blast of flame!"
+                "type": "spell", "spell_data": { "id": "pyrokinetic_eruption_monster", "min_level": 6 },
+                "cooldown": 10,   
+                "monster_message": "The feral burner summons a blast of flame!" 
             },
             {
-                "type": "spell",
-                "spell-id": "pyrokinetic_flash",
+                "type": "spell", "spell_data": { "id": "pyrokinetic_flash", "min_level": 3 },
                 "cooldown": 15,
-                "min_level": 3,
                 "monster_message": "The air erupts into an eye-searing flash!"
             },
             {
-                "type": "spell",
-                "spell-id": "pyrokinetic_blast_monster",
-                "cooldown": 25,
-                "min-level": 2,
-                "monster_message": "The feral inferno gestures and you are bathed in flames!"
+                "type": "spell", "spell_data": { "id": "pyrokinetic_blast_monster", "min_level": 2 },
+                "cooldown": 15,
+                "monster_message": "The feral inferno gestures and summons a conflagration!"
             }
         ]
     },

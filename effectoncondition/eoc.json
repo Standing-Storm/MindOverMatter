@@ -13,7 +13,8 @@
       { "not": { "u_has_effect": "sleep" } }
     ] },
     "deactivate_condition": { "not": { "is_weather": "portal_storm" } },
-    "effect": [ 
+    "effect": {
+      "weighted_list_eocs": [
       [ "EOC_PORTAL_BIOKIN_AWAKENING", { "const": 1 } ],
       [ "EOC_PORTAL_CLAIR_AWAKENING", { "const": 1 } ],
       [ "EOC_PORTAL_PYRO_AWAKENING", { "const": 1 } ],
@@ -21,7 +22,8 @@
       [ "EOC_PORTAL_TEEP_AWAKENING", { "const": 1 } ],
       [ "EOC_PORTAL_PORTER_AWAKENING", { "const": 1 } ],
       [ "EOC_PORTAL_VITA_AWAKENING", { "const": 1 } ]
-    ]
+       ]
+      }
   },
   {
     "type": "effect_on_condition",

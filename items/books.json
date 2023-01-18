@@ -20,14 +20,6 @@
     "intelligence": 8,
     "time": "15 m",
     "fun": 1
-    "variant_type": "manuals",
-    "variants": [
-     {
-        "id": "manual_meditation_1",
-        "name": { "str": "The Three Pillars of Zen", "str_pl": "copies of The Three Pillars of Zen" },
-        "description": "A Buddhist meditation teacher's account of his own personal practice, with steps for the reader."
-      }
-    ]
   },
   {
     "id": "manual_meditation_int",
