@@ -16,6 +16,38 @@
   },
   {
     "type": "profession",
+    "id": "psi_biokinetic_athlete",
+    "name": "Star Athlete",
+    "description": "You were always good at athletics.  People praised your effort and hard work, but the truth was you barely needed to practice.  It all just came naturally to you, as naturally as breathing.  That kept you safe during the Cataclysm--you outran the dead and worse things that chased you and made it out of the cities, and they're certainly the thing that will keep you going, especially since now, you're stronger and faster than you've ever been.",
+    "points": 4,
+    "skills": [
+      { "level": 2, "name": "throw" },
+      { "level": 3, "name": "swimming" },
+      { "level": 1, "name": "unarmed" }
+    ],
+    "traits": [ 
+      "BIOKINETIC", 
+      "BIOKIN_NEEDS"
+    ],
+     "spells": [ 
+       { "id": "biokin_physical_enhance", "level": 4 },
+       { "id": "biokin_overcome_pain", "level": 2 },
+       { "id": "biokin_reflex_enhance", "level": 1 }
+      ],
+    "items": {
+      "both": {
+        "items": [ "jacket_light", "jeans", "socks", "cleats", "sports_drink" ],
+        "entries": [
+          { "group": "charged_smart_phone" },
+          { "item": "tshirt", "variant": "generic_tshirt" }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "panties" ]
+    }
+  },
+  {
+    "type": "profession",
     "id": "psi_clairsentient_doomseer",
     "name": "Doomseer",
     "description": "You knew the world was going to end, but they never listened.  They never listened!  They couldn't see the things that walked among them!  They didn't know what you had seen, what you knew was coming, and where are they now?  In a zombie's stomach or walking with those corpses themselves, but you're still alive.",
@@ -110,7 +142,7 @@
     "type": "profession",
     "id": "psi_telepath_interrogater",
     "name": "Government Interrogater (deceased)",
-    "description": "You did not die in the Cataclysm because on paper, you are already dead.  You assumed a new identity as part of an experimental program designed to produce psychic interrogators.  They told you that you were serving your country, that your gifts would be the key to winning the new Cold War that was surely developing, but they didn't consider the ramifications of having a telepath on the base.  You knew right away that things were much worse than the brass was telling you, and your gifts let you \"persuade\" the guards to let you out even in the face of the lockdown. You had thought to go somewhere else, to get away from New England, but the end came much faster than even you thought it would.",
+    "description": "You did not die in the Cataclysm because on paper, you are already dead.  You assumed a new identity as part of an experimental program designed to produce psychic interrogators.  They told you that you were serving your country, that your gifts would be the key to winning the new Cold War that was surely developing, but they didn't consider the ramifications of having a telepath on the base.  You knew right away that things were much worse than the brass was telling you, and your gifts let you \"persuade\" the guards to let you out even in the face of the lockdown.  You had thought to go somewhere else, to get away from New England, but the end came much faster than even you thought it would.",
     "points": 3,
      "skills": [ 
       { "level": 3, "name": "social" },
