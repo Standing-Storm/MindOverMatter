@@ -22,9 +22,9 @@
       { "id": "newest_news_psi_1", "text": "BURNING MAN!  Eyewitnesses at the recent Bank Rhode Island fire in Cranston stated that they saw a man standing in the burning building, waving his arms as though directing the flames.  The fire raged out of control for nearly four hours before local firefighters were able to extinguish it, but never spread beyond the bank building.  No human remains were found in the debris; investigation is ongoing." },
       { "id": "newest_news_psi_2", "text": "THE END. I have written the horoscopes column for almost a decade now but this is the first true prediction of the future I have written.  The end of the world is at hand, in weeks if not in days.  Take your loved ones, leave the cities, head for the hills.  The government will not save you.  This will be my last column." },
       { "id": "newest_news_psi_3", "text": "LOCAL MAN DISAPPEARS.  Jackson Townsend of Bangor was reported missing this morning.  According to his wife Julie, he was eating breakfast with his family before work when he suddenly looked up and then disappeared.  No foul play is suspected at this time." } 
-      ]
-   },
-   {
+    ]
+  },
+  {
      "type": "snippet",
      "category": "note",
      "text": [
@@ -32,7 +32,14 @@
        { "id": "note_psi_2", "text": "\"I call the fire and it comes.  I send the fire and they burn.  Glorious.\"" },
        { "id": "note_psi_3", "text": "\"I put that crystal I found under my pillow and all I got was nightmares.  Burning cities, the dead walking, horrible monsters, thing kidnapping people.  I threw it away but it didn't help.  Now I have nightmares when I'm awake too.\"" },
        { "id": "note_psi_4", "text": "\"Jumping is definitely the reason I'm still alive.  Feels awful but only for a moment.  When that thing grabbed me I bet it thought its dinner was made.  I kind of wish I could have seen the look on its face when I just disappeared.\"" },
-       { "id": "note_psi_5", "text": "\"Telekinesis is way easier than going into the houses.  Stand out in a storm.  You'll thank me later, if you survive.\"" },
-      ]
-   }
- ]
+       { "id": "note_psi_5", "text": "\"Telekinesis is way easier than going into the houses.  Stand out in a storm.  You'll thank me later, if you survive.\"" }
+     ]
+  },
+  {
+    "type": "snippet",
+    "category": "lab_file_psych",
+    "text": [
+      { "id": "lab_file_psych_psi_1", "text": "Preliminary approval is given to use successful candidates from Project FEVER DREAM who also have therapeutic training to provide counseling for staff.  Candidates must be paired with a non-candidate member of Counseling staff, who will review all of candidates' notes and session records; members of Counseling staff and candidate counselors are forbidden to be in the same room at any time." }
+    ]
+  }
+]
