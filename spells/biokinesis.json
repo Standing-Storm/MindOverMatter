@@ -101,7 +101,7 @@
 		"base_casting_time": 150,
 		"final_casting_time": 50,
 		"casting_time_increment": -12.5,
-		"learn_spells": { "biokin_sealed_system": 4 }
+		"learn_spells": { "biokin_sealed_system": 4, "biokin_physical_enhance": 6 }
 	},
 	{
     "id": "biokin_sealed_system",
