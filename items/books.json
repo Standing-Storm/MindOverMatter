@@ -31,6 +31,11 @@
         "id": "manual_meditation_2",
         "name": { "str": "How to Meditate: A Practical Guide to Making Friends with Your Mind", "str_pl": "copies of How to Meditate: A Practical Guide to Making Friends with Your Mind" },
         "description": "A book on meditation written for a general audience, containing simple techniques on breathing and mindfulness."
+      },
+      {
+        "id": "manual_meditation_3",
+        "name": { "str": "The Wandering Mind: What Medieval Monks Tell Us about Distraction", "str_pl": "copies of  The Wandering Mind: What Medieval Monks Tell Us about Distraction" },
+        "description": "A history of monastic attempts at finding calm and peace in the midst of a profane world.  There are far fewer daily distractions now than pre-Cataclysm but there's still some useful techniques you could gain here."
       }
     ]
   },
