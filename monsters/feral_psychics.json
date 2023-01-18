@@ -146,7 +146,7 @@
                 "fake_str": 11,
                 "require_targeting_player": false,
                 "ranges": [ [ 2, 10, "DEFAULT" ] ],
-                "description": "The feral PKer hurls a rock!"
+                "description": "The feral PKer stares at you and a rock hurtles toward you!"
               },
               { "id": "smash", "attack_upper": true, "throw_strength": 50, "cooldown": 15 },
               [ "RANGED_PULL", 8 ],
@@ -166,11 +166,9 @@
         "extend": { "flags": [ "FLIES", "PUSH_VEH", "PUSH_MON" ] },
         "special_attacks": [
             {
-                "type": "spell",
-                "spell-id": "telekinetic_hammer_monster",
+                "type": "spell", "spell_data": { "id": "telekinetic_hammer_monster", "min_level": 4 },
                 "cooldown": 10,
-                "min_level": 4,
-                "monster_message": "The feral PKer hammers you with psionic force!"
+                "monster_message": "The feral mindhand hammers you with psionic force!"
             },
             { "id": "smash", "attack_upper": true, "throw_strength": 70, "cooldown": 12 },
             [ "RANGED_PULL", 5 ],
@@ -188,10 +186,8 @@
         "upgrades": { "half_life": 100, "into": "mon_feral_human_teep2" },
         "special_attacks": [ 
             {
-                "type": "spell",
-                "spell-id": "telepathic_confusion_monster",
+                "type": "spell", "spell_data": { "id": "telepathic_confusion_monster", "min_level": 3 },
                 "cooldown": 10,
-                "min_level": 3,
                 "monster_message": "A roar fills your mind and you stumble!"
             },
             [ "FEAR_PARALYZE", 15] ]
@@ -206,17 +202,13 @@
         "death_drops": "feral_humans_death_drops_teep",
         "special_attacks": [
             {
-                "type": "spell",
-                "spell-id": "telepathic_confusion_monster",
+                "type": "spell", "spell_data": { "id": "telepathic_confusion_monster", "min_level": 3 },
                 "cooldown": 10,
-                "min_level": 3,
                 "monster_message": "A roar fills your mind and you stumble!"
             },
             {
-                "type": "spell",
-                "spell-id": "telepathic_blast_monster",
+                "type": "spell", "spell_data": { "id": "telepathic_blast_monster", "min_level": 2 },
                 "cooldown": 15,
-                "min_level": 2,
                 "monster_message": "A searing pain fills your head!"
             },
             [ "FEAR_PARALYZE", 15]
@@ -235,10 +227,8 @@
         "upgrades": { "half_life": 100, "into": "mon_feral_human_porter2" },
         "special_attacks": [
             {
-                "type": "spell",
-                "spell-id": "teleport_slow_monster",
+                "type": "spell", "spell_data": { "id": "teleport_slow_monster",  "min_level": 2 },
                 "cooldown": 15,
-                "min_level": 2,
                 "monster_message": "The feral jumper glances at you and the world lurches."
                 
             },
@@ -257,10 +247,8 @@
         "extend": { "flags": [ "CLIMBS", "HARDTOSHOOT" ] },
         "special_attacks": [
             {
-                "type": "spell",
-                "spell-id": "teleport_slow_monster",
+                "type": "spell", "spell_data": { "id": "teleport_slow_monster",  "min_level": 4 },
                 "cooldown": 10,
-                "min_level": 4,
                 "monster_message": "The feral slider glances at you and the world lurches."
                 
             },
