@@ -31,7 +31,7 @@
     "effect": [
       { "u_add_trait": "BIOKINETIC" }, 
       { "u_add_trait": "BIOKIN_NEEDS" }, 
-      { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm!" } ]
+      { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm.  New strength and vigor suddenly fills you.  You stand up straight and tall, heedless of the wind and the kaleidoscoping sky, and clench your fist.  You feel like you could take on the world, like you could sprint for an hour without stopping, like you could wrestle one of those giant insects to the ground and pin it, like you could dodge bullets.  You unclench your fist and shake your head, but the sense of strength remains." } ]
   },
   {
     "type": "effect_on_condition",
@@ -39,7 +39,7 @@
     "effect": [
       { "u_add_trait": "CLAIRSENTIENT" }, 
       { "u_add_trait": "CLAIR_SENSES" }, 
-      { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm!" } ]
+      { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm.  You close your eyes but you can still see--at first just a light against your eyelids, then like the end of a tunnel light expands and reveals your surroundings.  You can see in all directions.  You can see behind and beneath every blade of grass around you, illuminated in the storm's witchlight, for a just a moment until your awareness snaps back into your body and you reel with the shock of it.  When you open your eyes again, the colors around you are brighter and the sounds are clearer than before." } ]
   },
   {
     "type": "effect_on_condition",
@@ -48,7 +48,7 @@
       { "u_add_trait": "PYROKINETIC" }, 
       { "u_add_trait": "PYROGLOW_WEAK" },
       { "u_add_trait": "PYROGLOW_STRONG" },
-      { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm!" } ]
+      { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm.  You stretch out your hand toward the shattering sky and a glow gathers around you hand as the air itself begins to shine.  The glow brightens and then flames arise, dancing on the open area above your open palm.  You move your hand and the flames move with it, swirling around you, and with a wave of your hand they scatter into the air.  The glow fades, but the sensation of heat remains." } ]
   },
   {
     "type": "effect_on_condition",
@@ -56,7 +56,7 @@
     "effect": [
       { "u_add_trait": "TELEKINETIC" }, 
       { "u_add_trait": "TELEKINETIC_CARRY" }, 
-      { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm!" } ]
+      { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm.  You look around for shelter, but you're out in the open.  You reach down toward the ground but ground starts rising--bits of grass and rock and dirt lift up and start swirling around you.  The roar in your head grows louder as you slowly rise off the ground, the debris around you whirling faster and faster, until the roar suddenly silences and you collapse back to the earth with a thump.  The pebbles around you fall--but one catches your eye, and as you look at it, it stops and hovers in the air for a moment." } ]
   },
   {
     "type": "effect_on_condition",
@@ -64,7 +64,7 @@
     "effect": [
       { "u_add_trait": "TELEPATH" }, 
       { "u_add_trait": "TELEPATHIC_SUGGESTION" }, 
-      { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm!" } ]
+      { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm." } ]
   },
   {
     "type": "effect_on_condition",
@@ -72,7 +72,7 @@
     "effect": [
       { "u_add_trait": "TELEPORTER" }, 
       { "u_add_trait": "TELEPORTER_PROTECT" }, 
-      { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm!" } ]
+      { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm.  Reality grows thin--you can see the spaces between molecules, larger by far than the distances at a larger scale.  You see the paths you could take to slip between them, to traverse space in an instant without any obstacles in between.  As the distances collapse and reality grows solid once again, that knowledge remains with you." } ]
   },
   {
     "type": "effect_on_condition",
@@ -80,6 +80,6 @@
     "effect": [
       { "u_add_trait": "VITAKINETIC" }, 
       { "u_add_trait": "VITAKINETIC_HEALTH" }, 
-      { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm!" } ]
+      { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm.  For a moment, you can feel the blood flowing in your veins, every blood cell traveling through your body on its way to your cells.  You can feel the oxygen in your lungs cross through into your blood.  The howling of the portal storm pulses in time with your heartbeat for a moment before your awareness fades, but a lingering trace of it remains in the back of your mind." } ]
   }  
 ]
