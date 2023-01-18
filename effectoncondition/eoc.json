@@ -64,7 +64,7 @@
     "effect": [
       { "u_add_trait": "TELEPATH" }, 
       { "u_add_trait": "TELEPATHIC_SUGGESTION" }, 
-      { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm." } ]
+      { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm.  A babble of voices, male, female, neither, both, and some not human at all, speaking to you.  The world is rapidly dying.  The dead and the fungus and the plants will fight over what remains and there will be nothing left for humanity.  Stay out here, where realities converge and walk into a better tomorrow.  As the voices blend together, you reach inside your own mind somehow and twist--and are greeted with blessed silence.  Though the portal storm still rages, internally you are calm." } ]
   },
   {
     "type": "effect_on_condition",
