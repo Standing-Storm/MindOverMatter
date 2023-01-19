@@ -151,7 +151,7 @@
     "id": "feral_humans_crystal_drops_porter",
     "entries": [
       { "item": "matrix_crystal_drained", "prob": 98 },
-      { "item": "matrix_crystal_teleporter", "prob": 2 }
+      { "item": "matrix_crystal_teleportation", "prob": 2 }
     ]
   },
    {
