@@ -32,7 +32,7 @@
         "U": { "item": "lab_shoes", "chance": 40, "repeat": [ 1, 8 ] },
         "l": { "item": "lab_torso", "chance": 40, "repeat": [ 1, 8 ] },
         "E": [ 
-          { "group": "matrix_crystal_drained", "chance": 55 }, 
+          { "item": "matrix_crystal_drained_group", "chance": 55 }, 
           { "item": "dist_matrix_crystals", "chance": 10 } 
         ] 
       },
