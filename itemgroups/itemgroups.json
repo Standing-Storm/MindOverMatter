@@ -15,6 +15,15 @@
   },
   {
     "type": "item_group",
+    "subtype": "distribution",
+    "id": "dist_matrix_crystal_drained",
+    "items": [
+      [ "matrix_crystal_drained", 50 ],
+      [ "null", 50 ]
+    ]
+  },
+  {
+    "type": "item_group",
     "id": "homebooks",
     "copy-from": "homebooks",
     "extend": { "items": [ { "item": "manual_meditation", "prob": 3 } ] }
