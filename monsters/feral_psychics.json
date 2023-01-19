@@ -102,7 +102,7 @@
         "color": "red",
         "death_drops": "feral_humans_death_drops_pyro",
         "extend": { "flags": [ "FIREY" ] },
-        "death_function": { "effect": { "id": "flame_explosion" } },
+        "death_function": {  "message": "The %s's body explodes!", "effect": { "id": "flame_explosion" } },
         "luminance": 50,
         "special_attacks": [ 
             {
