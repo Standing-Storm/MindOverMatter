@@ -31,7 +31,10 @@
         "C": { "item": "cleaning", "chance": 30, "repeat": [ 1, 2 ] },
         "U": { "item": "lab_shoes", "chance": 40, "repeat": [ 1, 8 ] },
         "l": { "item": "lab_torso", "chance": 40, "repeat": [ 1, 8 ] },
-        "E": [ {"item": "matrix_crystal_drained", "chance": 55 }, { "item": "dist_matrix_crystals", "chance": 10 } ] 
+        "E": [ 
+          { "group": "matrix_crystal_drained", "chance": 55 }, 
+          { "item": "dist_matrix_crystals", "chance": 10 } 
+        ] 
       },
       "palettes": [ "lab_workspace_palette" ]
     }
