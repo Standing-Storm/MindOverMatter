@@ -25,7 +25,7 @@
     "base_casting_time": 50,
     "final_casting_time": 10,
     "casting_time_increment": -6.666666666666667,
-    "learn_spells": { "telekinetic_hammer": 4, "telekinetic_shield": 8 }
+    "learn_spells": { "telekinetic_hammer": 5, "telekinetic_shield": 10 }
   }, 
   {
     "id": "telekinetic_push",
@@ -53,7 +53,7 @@
     "base_casting_time": 50,
     "final_casting_time": 10,
     "casting_time_increment": -6.666666666666667,
-    "learn_spells": { "telekinetic_wave": 4, "telekinetic_hammer": 6, "telekinetic_explosion": 8 }
+    "learn_spells": { "telekinetic_wave": 5, "telekinetic_hammer": 8, "telekinetic_explosion": 10 }
   },
   {
     "id": "telekinetic_wave",
@@ -81,7 +81,7 @@
     "base_casting_time": 50,
     "final_casting_time": 10,
     "casting_time_increment": -5,
-    "learn_spells": { "telekinetic_shield": 4, "telekinetic_hammer": 6, "telekinetic_explosion": 8 }
+    "learn_spells": { "telekinetic_shield": 5, "telekinetic_hammer": 8, "telekinetic_explosion": 10 }
   },
   {
     "id": "telekinetic_hammer",
@@ -112,7 +112,7 @@
     "casting_time_increment": -3.125,
     "sound_type": "combat",
     "sound_description": "a thud",
-    "learn_spells": { "telekinetic_explosion": 4 }
+    "learn_spells": { "telekinetic_explosion": 5 }
   }, 
   {
     "id": "telekinetic_shield",
