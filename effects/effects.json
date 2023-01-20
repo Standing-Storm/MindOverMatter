@@ -167,7 +167,7 @@
 		"name": [ "Cloak of Warmth" ],
 		"desc": [ "The air around you has its temperature controlled." ],
 		"apply_message": "The air around you warms up.",
-    "remove_message": "A cool breeze hits your skin.",
+		"remove_message": "A cool breeze hits your skin.",
 		"rating": "good",
 		"enchantments": [ 
 			{ "values": [
@@ -188,6 +188,27 @@
 		"remove_message": "The flames surrounding you gutter out.",
 		"rating": "good",
 		"enchantments": [ "enchant_pyrokinetic_aura" ]
+	},
+	{
+		"type": "effect_type",
+		"id": "effect_telekinetic_armor",
+		"name": [ "Inertial Barrier" ],
+		"desc": [ "A barrier of telekinetic force is protecting you." ],
+		"apply_message": "The .",
+		"remove_message": "A sudden gust of wind hits your face.",
+		"rating": "good",
+		"enchantments": [ 
+			{ "values": [
+				{ "value": "ARMOR_CUT", "add": {"arithmetic": [ { "u_val": "spell_level", "spell": "telekinetic_shield" }, "*", { "const": -2 } ] } },
+				{ "value": "ARMOR_CUT", "add": -2 },
+				{ "value": "ARMOR_BASH", "add": {"arithmetic": [ { "u_val": "spell_level", "spell": "telekinetic_shield" }, "*", { "const": -1 } ] } },
+				{ "value": "ARMOR_STAB", "add": {"arithmetic": [ { "u_val": "spell_level", "spell": "telekinetic_shield" }, "*", { "const": -3 } ] } },
+				{ "value": "ARMOR_BULLET", "add": {"arithmetic": [ { "u_val": "spell_level", "spell": "telekinetic_shield" }, "*", { "const": -4 } ] } }  
+			]
+		}
+		]
+		
+
 	},
 	{
 		"type": "effect_type",
