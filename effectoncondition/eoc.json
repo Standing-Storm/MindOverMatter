@@ -3,7 +3,7 @@
     "type": "effect_on_condition",
     "id": "EOC_PORTAL_STORM_PSION_AWAKENING",
     "global": true,
-    "recurrence": [ "2 minutes", "5 minutes" ],
+    "recurrence": [ "60 seconds", "2 minutes" ],
     "condition": { "and": [ 
       "u_is_outside",  
       { "is_weather": "portal_storm" }, 
@@ -23,7 +23,10 @@
       [ "EOC_PORTAL_PORTER_AWAKENING", { "const": 1 } ],
       [ "EOC_PORTAL_VITA_AWAKENING", { "const": 1 } ]
        ]
-      }
+      },
+      "false_effect": [
+        { "u_message": "A roar fills your mind, for a moment louder even than the screaming madness of the portal storm." }
+      ]
   },
   {
     "type": "effect_on_condition",
