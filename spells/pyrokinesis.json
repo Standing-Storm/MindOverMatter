@@ -45,8 +45,6 @@
 	  "affected_body_parts": [ "eyes" ],
     "difficulty": 1,
     "max_level": 20,
-    "min_damage": 1,
-	  "max_damage": 1,
     "min_range": 4,
     "max_range": 15,
     "range_increment": 1.83,
