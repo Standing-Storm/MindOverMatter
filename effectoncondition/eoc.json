@@ -23,10 +23,7 @@
       [ "EOC_PORTAL_PORTER_AWAKENING", { "const": 1 } ],
       [ "EOC_PORTAL_VITA_AWAKENING", { "const": 1 } ]
        ]
-      },
-      "false_effect": [
-        { "u_message": "A roar fills your mind, for a moment louder even than the screaming madness of the portal storm." }
-      ]
+      }
   },
   {
     "type": "effect_on_condition",
