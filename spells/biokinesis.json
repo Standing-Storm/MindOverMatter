@@ -25,7 +25,7 @@
 		"casting_time_increment": -7.5,
 		"learn_spells": { "biokin_reflex_enhance": 4, "biokin_combat_dance": 8 }
 	},
-{
+	{
 		"id": "biokin_overcome_pain",
 		"type": "SPELL",
 		"name": "[Ψ]Overcome Pain",
@@ -122,8 +122,8 @@
 		"final_energy_cost": 750,
 		"energy_increment": -425,
 		"min_duration": 18000,
-		"max_duration": 180000,
-		"duration_increment": 4200,
+		"max_duration": 45000,
+		"duration_increment": 800,
 		"base_casting_time": 200,
 		"final_casting_time": 100,
 		"casting_time_increment": -10,
