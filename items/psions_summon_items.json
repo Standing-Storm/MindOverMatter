@@ -20,8 +20,8 @@
         "max_contains_weight": "100 kg",
         "max_item_length": "200 cm",
         "moves": 100,
-        "weight_multiplier": 0,
-        "volume_multiplier": 0
+        "weight_multiplier": 0.01,
+        "volume_multiplier": 0.01
       }
     ]
   },
