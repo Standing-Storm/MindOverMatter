@@ -1,19 +1,5 @@
 [
     {
-        "id": "feral_telekin_rock",
-        "type": "gun",
-        "cooldown": 5,
-        "move_cost": 50,
-        "gun_type": "feral_human_thrown_rock",
-        "ammo_type": "rock",
-        "no_ammo_sound": "",
-        "fake_skills": [ [ "throw", 6 ] ],
-        "fake_str": 11,
-        "require_targeting_player": false,
-        "ranges": [ [ 2, 10, "DEFAULT" ] ],
-        "description": "%1$s stares at you and a rock hurtles toward you!"
-    },
-    {
         "type": "monster_attack",
         "attack_type": "melee",
         "id": "tk_smash",
