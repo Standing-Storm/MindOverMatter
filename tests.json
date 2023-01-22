@@ -23,7 +23,7 @@
 		"energy_increment": -150,
 		"base_casting_time": 50,
 		"final_casting_time": 10,
-		"casting_time_increment": -5,
+		"casting_time_increment": -5
 	  },
 	  {
 		"id": "telekinetic_wavepush",
