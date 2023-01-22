@@ -370,7 +370,6 @@
         "starting_ammo": { "rock": 6 },
         "special_attacks": [
             {
-                "id": "feral_telekin_rock",
                 "type": "gun",
                 "cooldown": 5,
                 "move_cost": 50,
