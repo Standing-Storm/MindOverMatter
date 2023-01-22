@@ -370,7 +370,6 @@
         "starting_ammo": { "rock": 6 },
         "special_attacks": [
             {
-                "id": "feral_telekin_rock",
                 "type": "gun",
                 "cooldown": 5,
                 "move_cost": 50,
@@ -383,7 +382,21 @@
                 "ranges": [ [ 2, 10, "DEFAULT" ] ],
                 "description": "%1$s stares at you and a rock hurtles toward you!"
             },
-            { "id": "tk_smash" },
+            { 
+                "id": "smash",
+                "move_cost": 80,
+                "cooldown": 10,
+                "damage_max_instance": [ { "damage_type": "bash", "amount": 25, "armor_penetration": 10 } ],
+                "hitsize_min": 12,
+                "range": 6,
+                "throw_strength": 60,
+                "blockable": false,
+                "effects_require_dmg": false,
+                "hit_dmg_u": "%1$s stares at you and a powerful force hurls you through the air!",
+                "hit_dmg_npc": "%1$s stares at <npcname> and a powerful force hurls them through the air!",
+                "miss_msg_u": "%s stares at you, and you feel a crushing pressure for a moment before the feeling vanishes!",
+                "miss_msg_npc": "%s stares at <npcname> but nothing happens!"
+            },
             [ "RANGED_PULL", 8 ],
             [ "PULL_METAL_WEAPON", 15 ]
         ],
@@ -444,7 +457,21 @@
                 "cooldown": 10,
                 "monster_message": "%1$s hammers you with psionic force!"
             },
-            { "id": "tk_smash", "throw_strength": 100, "cooldown": 8 },
+            { 
+                "id": "smash",
+                "move_cost": 80,
+                "cooldown": 8,
+                "damage_max_instance": [ { "damage_type": "bash", "amount": 25, "armor_penetration": 10 } ],
+                "hitsize_min": 12,
+                "range": 8,
+                "throw_strength": 100,
+                "blockable": false,
+                "effects_require_dmg": false,
+                "hit_dmg_u": "%1$s stares at you and a powerful force hurls you through the air!",
+                "hit_dmg_npc": "%1$s stares at <npcname> and a powerful force hurls them through the air!",
+                "miss_msg_u": "%s stares at you, and you feel a crushing pressure for a moment before the feeling vanishes!",
+                "miss_msg_npc": "%s stares at <npcname> but nothing happens!"
+                },
             [ "RANGED_PULL", 5 ],
             [ "PULL_METAL_WEAPON", 10 ]
         ],
