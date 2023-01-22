@@ -16,7 +16,10 @@
 		"damage_type": "biological",
 		"min_damage": 8,
 		"max_damage": 8,
+<<<<<<< HEAD
 		"damage_increment": 0.2,
+=======
+>>>>>>> 71631c989cec384bf1989f6f7fc83ebc397da1e2
 		"min_range": 1,
 		"energy_source": "STAMINA",
 		"base_energy_cost": 1500,
