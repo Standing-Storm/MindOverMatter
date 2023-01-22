@@ -5,16 +5,9 @@
 		"name": "[Ψ]Concentration Trance",
 		"description": "Focus your own mind into a trance state, increasing learning speed.",
 		"message": "You focus on your studies.",
-		"valid_targets": [
-			"self"
-		],
+		"valid_targets": [ "self" ],
 		"spell_class": "TELEPATH",
-		"flags": [
-			"CONCENTRATE",
-			"SILENT",
-			"NO_HANDS",
-			"NO_LEGS"
-		],
+		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS" ],
 		"effect": "attack",
 		"effect_str": "effect_telepathic_learning_bonus",
 		"shape": "blast",
@@ -103,10 +96,8 @@
 		"max_level": 20,
 		"effect": "attack",
 		"effect_str": "stunned",
+		"extra_effects": [ { "id": "pyrokinetic_flash", "hit_self": false, "max_level": 3 } ],	
 		"shape": "blast",
-		"damage_type": "biological",
-		"min_damage": 1,
-		"max_damage": 1,
 		"min_duration": 500,
 		"max_duration": 4000,
 		"duration_increment": 100,
