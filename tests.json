@@ -17,14 +17,14 @@
 		"min_damage": 8,
 		"max_damage": 8,
 		"damage_increment": 0.2,
-		"min_aoe": 1,
+		"min_range": 1,
 		"energy_source": "STAMINA",
 		"base_energy_cost": 1500,
 		"final_energy_cost": 300,
 		"energy_increment": -150,
 		"base_casting_time": 50,
 		"final_casting_time": 10,
-		"casting_time_increment": -5,
+		"casting_time_increment": -5
 	  },
 	  {
 		"id": "telekinetic_wavepush",

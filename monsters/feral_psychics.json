@@ -110,7 +110,7 @@
         "type": "MONSTER",
         "name": "feral seer",
         "description": "This feral human completely lacks the crazed look most of their compatriots have.  Instead, they fix their bloodshot eyes straight at you, seeming to gaze right into your soul.",
-0        "//": "Speed bonus here, like HARDTOSHOOT below, does not represent faster physical movement but rather foreseeing the player's actions",
+        "//": "Speed bonus here, like HARDTOSHOOT below, does not represent faster physical movement but rather foreseeing the player's actions",
         "default_faction": "zombie",
         "looks_like": "chud",
         "bodytype": "human",
@@ -369,7 +369,20 @@
         "upgrades": { "half_life": 100, "into": "mon_feral_human_telekin2" },
         "starting_ammo": { "rock": 6 },
         "special_attacks": [
-            { "id": "feral_telekin_rock" },
+            {
+                "id": "feral_telekin_rock",
+                "type": "gun",
+                "cooldown": 5,
+                "move_cost": 50,
+                "gun_type": "feral_human_thrown_rock",
+                "ammo_type": "rock",
+                "no_ammo_sound": "",
+                "fake_skills": [ [ "throw", 6 ] ],
+                "fake_str": 11,
+                "require_targeting_player": false,
+                "ranges": [ [ 2, 10, "DEFAULT" ] ],
+                "description": "%1$s stares at you and a rock hurtles toward you!"
+            },
             { "id": "tk_smash" },
             [ "RANGED_PULL", 8 ],
             [ "PULL_METAL_WEAPON", 15 ]
