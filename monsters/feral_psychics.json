@@ -110,7 +110,7 @@
         "type": "MONSTER",
         "name": "feral seer",
         "description": "This feral human completely lacks the crazed look most of their compatriots have.  Instead, they fix their bloodshot eyes straight at you, seeming to gaze right into your soul.",
-0        "//": "Speed bonus here, like HARDTOSHOOT below, does not represent faster physical movement but rather foreseeing the player's actions",
+        "//": "Speed bonus here, like HARDTOSHOOT below, does not represent faster physical movement but rather foreseeing the player's actions",
         "default_faction": "zombie",
         "looks_like": "chud",
         "bodytype": "human",
