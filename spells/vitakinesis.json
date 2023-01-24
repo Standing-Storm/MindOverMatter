@@ -28,7 +28,7 @@
 		"type": "SPELL",
 		"name": "[Ψ]Healthy Glow",
 		"description": "Your powers can keep you in the bloom of health.",
-		"message": "You feel like you could take on the world.",
+		"message": "Your skin prickles and you feel like you're bursting with energy.",
 		"valid_targets": [ "self" ],
 		"spell_class": "VITAKINETIC",
 		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS" ],
