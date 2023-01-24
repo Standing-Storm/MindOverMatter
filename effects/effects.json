@@ -4,7 +4,7 @@
     "id": "effect_biokin_physical",
     "name": [ "Enhanced Prowess" ],
     "desc": [ "You are enhancing your physical prowess." ],
-    "apply_message": "You feel a surge of power.",
+    "apply_message": "",
     "remove_message": "The surge of power fades away.",
     "rating": "good",
 		"removes_effects": [ "venom_weaken" ],
@@ -23,7 +23,7 @@
     "id": "effect_biokin_reflex",
     "name": [ "Enhanced Reflexes" ],
     "desc": [ "You are enhancing your speed and senses." ],
-    "apply_message": "The world seems to be moving slower.",
+    "apply_message": "",
     "remove_message": "The world speeds up again.",
     "rating": "good",
 	  "removes_effects": [ "blind", "deaf" ],
@@ -42,7 +42,7 @@
 		"id": "effect_biokin_armor_skin",
 		"name": [ "Hardened Skin" ],
 		"desc": [ "Your skin is more resilient thanks to psionic energy." ],
-		"apply_message": "You feel a strange tingle over your skin.",
+		"apply_message": "",
 		"remove_message": "The tingling fades away.",
 		"rating": "good",
 		"show_intensity": false,
@@ -58,7 +58,7 @@
 		"id": "effect_biokin_sealed",
 		"name": [ "Sealed System" ],
 		"desc": [ "You are protected from the dangers of the world." ],
-		"apply_message": "You take a deep breath.",
+		"apply_message": "",
 		"remove_message": "You let out your breath in a rush.",
 		"rating": "good",
 		"show_intensity": false,
@@ -71,7 +71,7 @@
     "id": "effect_biokin_combat_dance",
 		"name": [ "Combat Dance" ],
 		"desc": [ "You are a dynamo of death." ],
-    "apply_message": "You begin moving with terrible purpose.",
+    "apply_message": "",
     "remove_message": "Your movements return to normal.",
     "rating": "good",
     "show_intensity": false,
@@ -95,7 +95,7 @@
     "id": "effect_clair_night_eyes",
     "name": [ "Night Eyes" ],
     "desc": [ "You can sense your surroundings in the dark." ],
-    "apply_message": "Despite the darkness, you know what's out there.",
+    "apply_message": "",
     "remove_message": "The darkness hides your surroundings again.",
     "rating": "good",
     "flags": [ "NIGHT_VISION", "INFRARED" ]
@@ -105,7 +105,7 @@
 		"id": "effect_clair_path",
 		"name": [ "Following the Path" ],
 		"desc": [ "You know exactly where to go." ],
-		"apply_message": "A shimmering line appears, visible only to you.",
+		"apply_message": "",
 		"remove_message": "The line fades away.",
 		"rating": "good",
 		"enchantments": [
@@ -122,7 +122,7 @@
 		"id": "effect_clair_dodge",
 		"name": [ "Anticipating Attack" ],
 		"desc": [ "You can see your enemies' attacks in advance." ],
-		"apply_message": "A ghostly image of your enemies precedes their movements.",
+		"apply_message": "",
 		"remove_message": "The images fade away.",
 		"rating": "good",
 		"blocks_effects": [ "grabbed" ],
@@ -140,7 +140,7 @@
 		"type": "effect_type",
 		"id": "effect_clair_clear_sight",
 		"name": [ "Truesight" ],
-		"apply_message": "You can perceive everything as it truly is.",
+		"apply_message": "",
 		"remove_message": "The world seems wrapped in gauze compared to before.",
 		"rating": "good",
 		"removes_effects": [
@@ -166,7 +166,7 @@
 		"id": "effect_pyro_cloak",
 		"name": [ "Cloak of Warmth" ],
 		"desc": [ "The air around you has its temperature controlled." ],
-		"apply_message": "The air around you warms up.",
+		"apply_message": "",
 		"remove_message": "A cool breeze hits your skin.",
 		"rating": "good",
 		"enchantments": [ 
@@ -184,7 +184,7 @@
 		"id": "effect_pyrokinetic_aura",
 		"name": [ "Blazing Aura" ],
 		"desc": [ "You are surrounded by flames."],
-		"apply_message": "The air around you kindles into flame!",
+		"apply_message": "",
 		"remove_message": "The flames surrounding you gutter out.",
 		"rating": "good",
 		"enchantments": [ "enchant_pyrokinetic_aura" ]
@@ -194,28 +194,30 @@
 		"id": "effect_telekinetic_armor",
 		"name": [ "Inertial Barrier" ],
 		"desc": [ "A barrier of telekinetic force is protecting you." ],
-		"apply_message": "The .",
+		"//": "The logic is that this works the reverse of the way mundane physics does--the wider the area of the force applied against it, the weaker it is.",
+		"apply_message": "",
 		"remove_message": "A sudden gust of wind hits your face.",
 		"rating": "good",
 		"enchantments": [ 
 			{ "values": [
-				{ "value": "ARMOR_CUT", "add": {"arithmetic": [ { "u_val": "spell_level", "spell": "telekinetic_shield" }, "*", { "const": -2 } ] } },
-				{ "value": "ARMOR_CUT", "add": -2 },
-				{ "value": "ARMOR_BASH", "add": {"arithmetic": [ { "u_val": "spell_level", "spell": "telekinetic_shield" }, "*", { "const": -1 } ] } },
-				{ "value": "ARMOR_STAB", "add": {"arithmetic": [ { "u_val": "spell_level", "spell": "telekinetic_shield" }, "*", { "const": -3 } ] } },
-				{ "value": "ARMOR_BULLET", "add": {"arithmetic": [ { "u_val": "spell_level", "spell": "telekinetic_shield" }, "*", { "const": -4 } ] } }  
+				{ "value": "ARMOR_CUT", "add": {"arithmetic": [ { "u_val": "spell_level", "spell": "telekinetic_shield" }, "*", { "const": -1 } ] } },
+				{ "value": "ARMOR_CUT", "add": -5 },
+				{ "value": "ARMOR_BASH", "add": {"arithmetic": [ { "u_val": "spell_level", "spell": "telekinetic_shield" }, "*", { "const": -0.5 } ] } },
+				{ "value": "ARMOR_BASH", "add": -2 },
+				{ "value": "ARMOR_STAB", "add": {"arithmetic": [ { "u_val": "spell_level", "spell": "telekinetic_shield" }, "*", { "const": -1.5 } ] } },
+				{ "value": "ARMOR_STAB", "add": -3 },
+				{ "value": "ARMOR_BULLET", "add": {"arithmetic": [ { "u_val": "spell_level", "spell": "telekinetic_shield" }, "*", { "const": -2.5 } ] } }  
+				{ "value": "ARMOR_BULLET", "add": -8 },
 			]
 		}
 		]
-		
-
 	},
 	{
 		"type": "effect_type",
 		"id": "effect_telepathic_learning_bonus",
 		"name": [ "Trance State" ],
 		"desc": [ "You are in a focused mental state, increasing the ease of learning." ],
-		"apply_message": "Your vision narrows to what is directly in front of you as you concentrate.",
+		"apply_message": "",
 		"remove_message": "You shake your head as you become aware of the outside world again.",
 		"rating": "good",
 		"enchantments": [ 
@@ -232,7 +234,7 @@
     "id": "effect_telepathic_psi_armor",
     "name": [ "Psychic Shield" ],
     "desc": [ "Your mind is warded against psychic attack." ],
-    "apply_message": "You begin to shield your thoughts.",
+    "apply_message": "",
     "remove_message": "Your thoughts are once again unguarded.",
     "rating": "good",
 		"removes_effects": [
@@ -262,7 +264,7 @@
     "id": "effect_vita_health",
     "name": [ "Healthy Glow" ],
     "desc": [ "You feel amazing." ],
-    "apply_message": "Your skin prickles and you feel like you're bursting with energy.",
+    "apply_message": "",
     "remove_message": "All of the day's hardships seem to catch up with you.",
     "rating": "good",
 		"blocks_effects": [ "scurvy", "redcells_anemia", "anemia", "toxin_buildup", "common_cold", "flu" ],
