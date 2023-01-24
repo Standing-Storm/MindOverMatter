@@ -134,7 +134,7 @@
 		"type": "SPELL",
 		"name": "[Ψ]Combat Dance",
 		"description": "You can flood your body with psionic power to enhance your combat prowess, though the effect leaves you drained.",
-		"message": "A surge of power fills your body!",
+		"message": "A surge of power fills your body and you begin moving with terrible purpose!",
 		"valid_targets": [ "self" ],
 		"spell_class": "BIOKINETIC",
 		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS", "RANDOM_DURATION" ],
