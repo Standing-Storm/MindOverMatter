@@ -4,7 +4,7 @@
     "looks_like": "glock_17",
     "type": "GUN",
     "name": { "str": "B47 Fusion Pistol" },
-    "description": "The standard-issue officer's sidearm for the Imperial Navy, guaranteed manufactured on the throneworld of Anáhuac itself, the B47 replaced the earlier B41 and is widely renowned for its accuracy and ease of maintenance. Hopefully it'll make a good melee weapon as well.",
+    "description": "The standard-issue officer's sidearm for the Imperial Navy, guaranteed manufactured on Tlalticpactli itself by scions of the Old Calpulli, the B47 replaced the earlier B41 and is widely renowned for its accuracy and ease of maintenance. Hopefully it'll make a good melee weapon as well.",
     "to_hit": -2,
     "bashing": 5,
     "reload_noise_volume": 5,
@@ -20,7 +20,7 @@
     "durability": 10,
     "loudness": 20,
     "reload": 200,
-    "range": 40,
+    "range": 45,
     "ammo_effects": [ "PLASMA", "PLASMA_BUBBLE", "INCENDIARY" ],
     "ammo": [ "mom_fusion_ammo" ],
     "pocket_data": [
