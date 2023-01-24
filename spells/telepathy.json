@@ -4,7 +4,7 @@
 		"type": "SPELL",
 		"name": "[Ψ]Concentration Trance",
 		"description": "Focus your own mind into a trance state, increasing learning speed.",
-		"message": "You focus on your studies.",
+		"message": "Your vision narrows to what is directly in front of you as you concentrate.",
 		"valid_targets": [ "self" ],
 		"spell_class": "TELEPATH",
 		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS" ],
@@ -137,7 +137,7 @@
 		"id": "telepathic_blast",
 		"type": "SPELL",
 		"name": "[Ψ]Synaptic Overload",
-		"description": "Short-circuit and overwhelm a target's brain, causing extreme damage or death. Does not affect targets without working brains.",
+		"description": "Short-circuit and overwhelm a target's brain, causing extreme damage or death.",
 		"message": "You unleash a psionic scream at your target!",
 		"valid_targets": [ "hostile" ],
 		"spell_class": "TELEPATH",
@@ -175,8 +175,6 @@
 			"CENTIPEDE",
 			"INSECT_FLYING",
 			"SPIDER",
-			"MOLLUSK",
-			"WORM",
 			"HUMAN",
 			"NETHER"
 		]
