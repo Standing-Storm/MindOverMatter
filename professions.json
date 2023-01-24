@@ -92,9 +92,9 @@
       "PYROGLOW_STRONG" 
     ],
     "spells": [ 
-      { "id": "pyrokinetic_eruption", "level": 4 },
-      { "id": "pyrokinetic_flamethrower", "level": 3 },
-      { "id": "pyrokinetic_flash", "level": 1 }
+      { "id": "pyrokinetic_eruption", "level": 3 },
+      { "id": "pyrokinetic_flamethrower", "level": 2 },
+      { "id": "pyrokinetic_flash", "level": 3 }
       ],
     "items": {
       "both": {
@@ -124,9 +124,9 @@
     ],
     "traits": [ "TELEKINETIC", "TELEKINETIC_CARRY" ],
     "spells": [ 
-      { "id": "telekinetic_push", "level": 5 },
+      { "id": "telekinetic_push", "level": 4 },
       { "id": "telekinetic_pull", "level": 3 },
-      { "id": "telekinetic_wave", "level": 1 } 
+      { "id": "telekinetic_wave", "level": 2 } 
       ],
     "items": {
       "both": {
@@ -152,7 +152,7 @@
     "spells": [ 
       { "id": "telepathic_concentration", "level": 4 },
       { "id": "telepathic_shield", "level": 2 },
-      { "id": "telepathic_confusion", "level": 1 } 
+      { "id": "telepathic_confusion", "level": 2 } 
       ],
     "items": {
        "both": {
