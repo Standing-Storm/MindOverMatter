@@ -37,7 +37,7 @@
         "death_drops": "feral_humans_death_drops_bio",
         "zombify_into": "mon_zombie_survivor",
         "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
-        "upgrades": { "half_life": 30, "into": "mon_feral_human_bio2" },
+        "upgrades": { "half_life": 45, "into": "mon_feral_human_bio2" },
         "special_attacks": [ { "id": "smash", "attack_upper": true, "throw_strength": 30, "cooldown": 15 }, [ "BIO_OP_DISARM", 10 ] ],
         "flags": [
             "SEES",
@@ -138,7 +138,7 @@
         "death_drops": "feral_humans_death_drops_clair",
         "zombify_into": "mon_zombie_survivor",
         "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
-        "upgrades": { "half_life": 30, "into": "mon_feral_human_clair2" },
+        "upgrades": { "half_life": 45, "into": "mon_feral_human_clair2" },
         "flags": [
             "SEES",
             "HEARS",
@@ -236,7 +236,7 @@
         "zombify_into": "mon_zombie_survivor",
         "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
         "death_function": { "effect": { "id": "death_explosion_oneinfour", "hit_self": true } },
-        "upgrades": { "half_life": 30, "into": "mon_feral_human_pyrokin2" },
+        "upgrades": { "half_life": 45, "into": "mon_feral_human_pyrokin2" },
         "special_attacks": [ 
             {
                 "type": "spell", "spell_data": { "id": "pyrokinetic_eruption_monster", "min_level": 3 },
@@ -366,7 +366,7 @@
         "death_drops": "feral_humans_death_drops_telekin",
         "zombify_into": "mon_zombie_survivor",
         "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
-        "upgrades": { "half_life": 30, "into": "mon_feral_human_telekin2" },
+        "upgrades": { "half_life": 45, "into": "mon_feral_human_telekin2" },
         "starting_ammo": { "rock": 6 },
         "special_attacks": [
             {
@@ -391,7 +391,7 @@
                 "id": "smash",
                 "move_cost": 80,
                 "cooldown": 10,
-                "damage_max_instance": [ { "damage_type": "bash", "amount": 25, "armor_penetration": 10 } ],
+                "damage_max_instance": [ { "damage_type": "bash", "amount": 15, "armor_penetration": 10 } ],
                 "hitsize_min": 12,
                 "range": 6,
                 "throw_strength": 60,
@@ -533,7 +533,7 @@
         "zombify_into": "mon_zombie_survivor",
         "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
         "death_function": { "effect": { "id": "death_psychic_scream", "hit_self": false }, "message": "As the %1$s dies, a scream fills your mind!" },
-        "upgrades": { "half_life": 30, "into": "mon_feral_human_teep2" },
+        "upgrades": { "half_life": 45, "into": "mon_feral_human_teep2" },
         "special_attacks": [ 
             {
                 "type": "spell", "spell_data": { "id": "telepathic_confusion_monster", "min_level": 3 },
@@ -646,7 +646,7 @@
         "death_drops": "feral_humans_death_drops_porter",
         "zombify_into": "mon_zombie_survivor",
         "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
-        "upgrades": { "half_life": 40, "into": "mon_feral_human_porter2" },
+        "upgrades": { "half_life": 45, "into": "mon_feral_human_porter2" },
         "special_attacks": [
             {
                 "type": "spell", "spell_data": { "id": "teleport_slow_monster",  "min_level": 2 },
@@ -767,7 +767,7 @@
         "death_drops": "feral_humans_death_drops_vita",
         "zombify_into": "mon_zombie_survivor",
         "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
-        "upgrades": { "half_life": 30, "into": "mon_feral_human_vita2" },
+        "upgrades": { "half_life": 45, "into": "mon_feral_human_vita2" },
         "flags": [
             "SEES",
             "HEARS",
