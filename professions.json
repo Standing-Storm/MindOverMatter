@@ -170,8 +170,8 @@
    {
     "type": "profession",
     "id": "psi_teleporter_slider",
-    "name": "Terran Exploratory Corps Liaison",
-    "description": "You don't understand what happened.  You were readying for a routine jump at the Far Hebrides transfer point when there was a power cascade in the drive and now you're here.  You need to find your way home, but first you need to find a way to survive.",
+    "name": "Imperial Exploratory Corps Liaison",
+    "description": "You don't understand what happened.  You were readying for a routine jump at the Far Hebrides transfer point when there was a power cascade in the drive and now you're here, on some other version of Tlalticpactli.  You need to find your way back home, but first you need to find a way to survive.",
     "points": 4,
     "skills": [ 
       { "level": 2, "name": "computer" },
