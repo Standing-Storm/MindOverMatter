@@ -26,8 +26,8 @@
 		"learn_spells": { "clair_voyance": 5, "clair_perfect_path": 7, "clair_see_map": 10 }
   },
   {
-	    "id": "clair_perfect_path",
-	    "type": "SPELL",
+		"id": "clair_perfect_path",
+		"type": "SPELL",
 		"name": "[Ψ]The Perfect Path",
 		"description": "You know exactly where to move to take you where you are going.",
 		"message": "The path to your destination opens itself before you.",
