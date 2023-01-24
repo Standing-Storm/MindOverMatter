@@ -370,6 +370,11 @@
         "starting_ammo": { "rock": 6 },
         "special_attacks": [
             {
+                "type": "spell", "spell_data": { "id": "telekinetic_pull", "min_level": 2 },
+                "cooldown": 15,
+                "monster_message": "%1$s stares at you and you are lifted off your feet and pulled towards them!"
+            },
+            {
                 "type": "gun",
                 "cooldown": 5,
                 "move_cost": 50,
@@ -397,7 +402,6 @@
                 "miss_msg_u": "%s stares at you, and you feel a crushing pressure for a moment before the feeling vanishes!",
                 "miss_msg_npc": "%s stares at <npcname> but nothing happens!"
             },
-            [ "RANGED_PULL", 8 ],
             [ "PULL_METAL_WEAPON", 15 ]
         ],
         "flags": [
@@ -452,6 +456,11 @@
         "zombify_into": "mon_zombie_survivor",
         "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
         "special_attacks": [
+               {
+                "type": "spell", "spell_data": { "id": "telekinetic_pull", "min_level": 3 },
+                "cooldown": 10,
+                "monster_message": "%1$s stares at you and you are lifted off your feet and pulled towards them!"
+            },
             {
                 "type": "spell", "spell_data": { "id": "telekinetic_hammer_monster", "min_level": 4 },
                 "cooldown": 10,
@@ -472,7 +481,6 @@
                 "miss_msg_u": "%s stares at you, and you feel a crushing pressure for a moment before the feeling vanishes!",
                 "miss_msg_npc": "%s stares at <npcname> but nothing happens!"
                 },
-            [ "RANGED_PULL", 5 ],
             [ "PULL_METAL_WEAPON", 10 ]
         ],
         "flags": [
