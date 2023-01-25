@@ -15,7 +15,6 @@
     "color": "red",
     "skill": "pistol",
     "material": [ "superalloy", "steel" ],
-    "ranged_damage": { "damage_type": "heat", "amount": 5, "armor_penetration": 5 },
     "dispersion": 150,
     "durability": 10,
     "loudness": 20,
