@@ -49,7 +49,9 @@
 		"blocks_effects": [ "bleed", "hypovolemia", "dermatik" ],
 		"enchantments": [
 			{
-				"values": [ { "value": "ARMOR_CUT", "add": -4 }, { "value": "ARMOR_BASH", "add": -6 }, { "value": "ARMOR_STAB", "add": -3 } ]
+				"values": [ 
+					{ "value": "ARMOR_CUT", "add": -4 }, { "value": "ARMOR_BASH", "add": -6 }, { "value": "ARMOR_STAB", "add": -3 },
+					{ "value": "PAIN", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "biokin_armor_skin" }, "*", { "const": -1 } ] } }
 			}
 		]
 	},
