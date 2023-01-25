@@ -79,7 +79,7 @@
 		"base_casting_time": 100,
 		"final_casting_time": 25,
 		"casting_time_increment": -7.5,
-		"learn_spells": { "telepathic_mind_control": 6, "telepathic_confusion": 7 }
+		"learn_spells": { "telepathic_mind_control": 7, "telepathic_confusion": 9 }
 	},
 	{
 		"id": "telepathic_confusion",
@@ -128,7 +128,7 @@
 			"HUMAN",
 			"NETHER"
 		],
-		"learn_spells": { "telepathic_blast": 6, "telepathic_mind_control": 8
+		"learn_spells": { "telepathic_blast": 7, "telepathic_mind_control": 10
 		}
 	},
 	{
