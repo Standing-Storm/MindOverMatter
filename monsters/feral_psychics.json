@@ -370,7 +370,7 @@
         "starting_ammo": { "rock": 6 },
         "special_attacks": [
             {
-                "type": "spell", "spell_data": { "id": "telekinetic_pull", "min_level": 2 },
+                "type": "spell", "spell_data": { "id": "telekinetic_pull_monster", "min_level": 2 },
                 "cooldown": 15,
                 "monster_message": "%1$s stares at you and you are lifted off your feet and pulled towards them!"
             },
@@ -457,7 +457,7 @@
         "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
         "special_attacks": [
                {
-                "type": "spell", "spell_data": { "id": "telekinetic_pull", "min_level": 3 },
+                "type": "spell", "spell_data": { "id": "telekinetic_pull_monster", "min_level": 3 },
                 "cooldown": 10,
                 "monster_message": "%1$s stares at you and you are lifted off your feet and pulled towards them!"
             },
