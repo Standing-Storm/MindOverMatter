@@ -28,7 +28,7 @@
     "casting_time_increment": -4,
     "sound_type": "combat",
     "sound_description": "a crackle",
-    "learn_spells": { "pyrokinetic_flamethrower": 5, "pyrokinetic_flash": 7, "pyrokinetic_blast": 10, "pyrokinetic_cloak": 10  }
+    "learn_spells": { "pyrokinetic_flamethrower": 5, "pyrokinetic_flash": 7, "pyrokinetic_blast": 12, "pyrokinetic_cloak": 14  }
   }, 
   {
     "id": "pyrokinetic_flash",
@@ -61,7 +61,7 @@
     "base_casting_time": 150,
     "final_casting_time": 50,
     "casting_time_increment": -8,
-    "learn_spells": { "pyrokinetic_cloak": 5, "pyrokinetic_blast": 10 }
+    "learn_spells": { "pyrokinetic_cloak": 5, "pyrokinetic_blast": 12 }
   },
   {
     "id": "pyrokinetic_flamethrower",
@@ -95,7 +95,7 @@
     "casting_time_increment": -6,
     "sound_type": "combat",
     "sound_description": "a crackle",
-    "learn_spells": { "pyrokinetic_blast": 5, "pyrokinetic_aura": 10 }
+    "learn_spells": { "pyrokinetic_blast": 7, "pyrokinetic_aura": 11 }
   },
   {
     "id": "pyrokinetic_cloak",
@@ -121,7 +121,7 @@
     "base_casting_time": 200,
     "final_casting_time": 75,
     "casting_time_increment": -11,
-    "learn_spells": { "pyrokinetic_aura": 5, "pyrokinetic_eruption": 8 }
+    "learn_spells": { "pyrokinetic_aura": 7, "pyrokinetic_eruption": 8 }
   },
   {
     "id": "pyrokinetic_blast",
