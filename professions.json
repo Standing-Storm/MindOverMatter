@@ -80,7 +80,7 @@
     "id": "psi_pyrokinetic_firestarter",
     "name": "Firestarter",
     "description": "Fire always fascinated you.  The fires you set almost got you arrested a few times, but the urge was just too powerful.  It was like they were calling to you, urging you to create them.  And ever since the sky broke, you can create fire with merely a thought.",
-    "points": 2,
+    "points": 4,
     "skills": [ 
       { "level": 2, "name": "cooking" },
       { "level": 1, "name": "driving" },
@@ -112,9 +112,9 @@
    {
     "type": "profession",
     "id": "psi_telekinetic_testsubject",
-    "name": "Test Subject, Project GOTTERDAMMERUNG",
+    "name": "Test Subject, Project ONYX LIGHTNING",
     "description": "Before the Cataclysm, you were 'volunteered' for a top-secret military project.  They never told you what all the injections and EEGs and hours of staring at a quarter on the table were supposed to accomplish, but now that you can move things with your mind you have a pretty good idea what they were aiming at.",
-    "points": 4,
+    "points": 5,
     "skills": [ 
       { "level": 2, "name": "gun" },
       { "level": 2, "name": "pistol" },
@@ -172,7 +172,7 @@
     "id": "psi_teleporter_slider",
     "name": "Imperial Exploratory Corps Liaison",
     "description": "You don't understand what happened.  You were readying for a routine jump at the Far Hebrides transfer point when there was a power cascade in the drive and now you're here, on some other version of Tlalticpactli.  You need to find your way back home, but first you need to find a way to survive.",
-    "points": 4,
+    "points": 6,
     "skills": [ 
       { "level": 2, "name": "computer" },
       { "level": 2, "name": "gun" },
@@ -202,7 +202,7 @@
     "id": "psi_vitakinetic_healer",
     "name": "Faith Healer",
     "description": "People came to you for diseases that modern medicine told them were incurable, and you made them well.  At least, they felt well, and that was what mattered.  Now the dead walk and do not respond to your exhortations, but your healing works better on yourself than it ever has on anyone else.",
-    "points": 1,
+    "points": 3,
     "skills": [ 
       { "level": 2, "name": "speech" }, 
       { "level": 1, "name": "driving" },
