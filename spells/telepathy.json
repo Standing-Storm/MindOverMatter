@@ -25,7 +25,7 @@
 		"base_casting_time": 300,
 		"final_casting_time": 150,
 		"casting_time_increment": -15,
-		"learn_spells": { "telepathic_confusion": 5, "telepathic_blast": 10	}
+		"learn_spells": { "telepathic_confusion": 5, "telepathic_blast": 12	}
 	},
 	{
 		"id": "telepathic_shield",
@@ -52,7 +52,7 @@
 		"base_casting_time": 100,
 		"final_casting_time": 10,
 		"casting_time_increment": -7.5,
-		"learn_spells": { "telepathic_invisibility": 5,	"telepathic_mind_control": 10 }
+		"learn_spells": { "telepathic_invisibility": 5,	"telepathic_mind_control": 12 }
 	},
 	{
 		"id": "telepathic_invisibility",
@@ -79,7 +79,7 @@
 		"base_casting_time": 100,
 		"final_casting_time": 25,
 		"casting_time_increment": -7.5,
-		"learn_spells": { "telepathic_mind_control": 5, "telepathic_confusion": 7 }
+		"learn_spells": { "telepathic_mind_control": 6, "telepathic_confusion": 7 }
 	},
 	{
 		"id": "telepathic_confusion",
@@ -128,7 +128,7 @@
 			"HUMAN",
 			"NETHER"
 		],
-		"learn_spells": { "telepathic_blast": 5, "telepathic_mind_control": 8
+		"learn_spells": { "telepathic_blast": 6, "telepathic_mind_control": 8
 		}
 	},
 	{
