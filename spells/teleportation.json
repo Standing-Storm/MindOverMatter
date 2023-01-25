@@ -19,13 +19,13 @@
     "max_range": 15,
     "range_increment": 1,
     "energy_source": "STAMINA",
-    "base_energy_cost": 800,
-    "final_energy_cost": 100,
+    "base_energy_cost": 500,
+    "final_energy_cost": 50,
     "energy_increment": -75,
     "base_casting_time": 50,
     "final_casting_time": 20,
     "casting_time_increment": -2,
-    "learn_spells": { "teleport_farstep": 5, "teleport_slow": 7 } 
+    "learn_spells": { "teleport_farstep": 5, "teleport_slow": 7, "teleport_gateway": 12  } 
   },
   {
     "id": "teleport_slow",
@@ -57,7 +57,7 @@
     "base_casting_time": 80,
     "final_casting_time": 35,
     "casting_time_increment": -4.5,
-	  "learn_spells": { "teleport_collapse": 5, "teleport_banish": 10 }
+	  "learn_spells": { "teleport_collapse": 5, "teleport_banish": 12 }
 	  },
   {
     "id": "teleport_farstep",
@@ -78,9 +78,9 @@
     "max_range": 40,
     "range_increment": 2.5,
     "energy_source": "STAMINA",
-    "base_energy_cost": 1500,
-    "final_energy_cost": 250,
-    "energy_increment": -75,
+    "base_energy_cost": 2500,
+    "final_energy_cost": 750,
+    "energy_increment": -125,
     "base_casting_time": 75,
     "final_casting_time": 30,
     "casting_time_increment": -2.75,
