@@ -66,13 +66,13 @@
 		"removes_effects": [ "bleed"],
 		"flags": [ "NO_SCENT", "ELECTRIC_IMMUNE", "RAD_RESIST" ]
 	},
-  {
+	{
 		"type": "effect_type",
-    "id": "effect_biokin_combat_dance",
+		"id": "effect_biokin_combat_dance",
 		"name": [ "Combat Dance" ],
 		"desc": [ "You are a dynamo of death." ],
-    "apply_message": "",
-    "remove_message": "Your movements return to normal.",
+		"apply_message": "",
+		"remove_message": "Your movements return to normal.",
     "rating": "good",
     "show_intensity": false,
 		"removes_effects": [ "stunned", "dazed" ],
@@ -207,7 +207,7 @@
 				{ "value": "ARMOR_STAB", "add": {"arithmetic": [ { "u_val": "spell_level", "spell": "telekinetic_shield" }, "*", { "const": -1.5 } ] } },
 				{ "value": "ARMOR_STAB", "add": -3 },
 				{ "value": "ARMOR_BULLET", "add": {"arithmetic": [ { "u_val": "spell_level", "spell": "telekinetic_shield" }, "*", { "const": -2.5 } ] } }  
-				{ "value": "ARMOR_BULLET", "add": -8 },
+				{ "value": "ARMOR_BULLET", "add": -8 }
 			]
 		}
 		]
