@@ -128,7 +128,7 @@
 		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS" ],
 		"effect": "translocate",
 		"shape": "blast",
-		"difficulty": 7,
+		"difficulty": 6,
 		"max_level": 20,
 		"energy_source": "STAMINA",
 		"base_energy_cost": 6000,
