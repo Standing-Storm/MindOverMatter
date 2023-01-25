@@ -137,7 +137,7 @@
     "base_casting_time": 200,
     "final_casting_time": 75,
     "casting_time_increment": -5.5,
-		"learn_spells": { "teleport_farstep": 4, "teleport_banish": 6 }
+		"learn_spells": { "teleport_banish": 6 }
 	},
 	  {
     "id": "teleport_banish",
