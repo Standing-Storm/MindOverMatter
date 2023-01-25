@@ -23,7 +23,7 @@
 		"base_casting_time": 50,
 		"final_casting_time": 20,
 		"casting_time_increment": -2,
-		"learn_spells": { "clair_voyance": 5, "clair_perfect_path": 7, "clair_see_map": 10 }
+		"learn_spells": { "clair_voyance": 5, "clair_perfect_path": 7, "clair_see_map": 12 }
   },
   {
 		"id": "clair_perfect_path",
@@ -77,7 +77,7 @@
 		"base_casting_time": 150,
 		"final_casting_time": 70,
 		"casting_time_increment": -9,
-		"learn_spells": { "clair_clear_sight": 5, "clair_voyance": 8 }
+		"learn_spells": { "clair_clear_sight": 7, "clair_voyance": 8 }
   },
   {
 		"id": "clair_voyance",
@@ -111,7 +111,7 @@
 		"base_casting_time": 500,
 		"final_casting_time": 200,
 		"casting_time_increment": -17.5,
-		"learn_spells": { "clair_see_map": 5, "clair_dodge_power": 8 }
+		"learn_spells": { "clair_see_map": 7, "clair_dodge_power": 8 }
   },
   {  
 		"id": "clair_see_map",
@@ -140,7 +140,7 @@
 	{
 		"id": "clair_clear_sight",
 		"type": "SPELL",
-		"name": "[Ψ]Eyes Unclouded",
+		"name": "[Ψ]Clarity",
 		"description": "Thanks to your powers, nothing can stop you from seeing the world as it is.",
 		"message": "Your senses sharpen and all distractions vanish.",
 		"valid_targets": [ "self" ],
