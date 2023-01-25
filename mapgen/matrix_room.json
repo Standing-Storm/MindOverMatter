@@ -8,15 +8,15 @@
       "rows": [
         "| .....  ||.",
         "|.....   ...",
-        "  |.C... ...",
-        "   ....,....",
-        "   ..| .... ",
+        "  |.C...C...",
+        "   ....,cC..",
+        "   ..| ..C. ",
         "   Cc....|  ",
         "  .CC.. .  |",
         "  |  ,  .C..",
-        ".  ,,    ..|",
+        ".  ,,    c.|",
         "..   ..   . ",
-        ",.  .. C    ",
+        ",.  .. CC   ",
         "|           "
       ],
       "flags": [ "ALLOW_TERRAIN_UNDER_OTHER_DATA" ],
@@ -41,6 +41,7 @@
     },
     "terrain": {
       ".": [ "t_strconc_floor", "t_nether_glass_floor" ],
+      "c": [ "t_strconc_floor", "t_nether_glass_floor" ],
       ",": [ "t_nether_glass_floor", "t_strconc_floor_glimmer" ],
       "!": "t_door_locked_interior",
       "-": "t_wall_metal",
@@ -56,7 +57,7 @@
       "R": "t_railing"
     },
     "items": {
-        "c": { "item": "dist_matrix_crystals", "chance": 100 }
+        "c": { "item": "dist_matrix_crystals", "chance": 50 }
     }
 }
 ]
