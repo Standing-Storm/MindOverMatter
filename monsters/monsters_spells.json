@@ -107,7 +107,7 @@
     "energy_increment": -80,
     "base_casting_time": 50,
     "final_casting_time": 10,
-    "casting_time_increment": -4,
+    "casting_time_increment": -4
  },
  {
    "id": "telekinetic_hammer_monster",
