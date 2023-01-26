@@ -98,13 +98,13 @@
 	{
 		"id": "vita_no_sleep_dep",
     "type": "SPELL",
-		"name": "[Ψ]Wakeful Rest Rmove Sleep Deprivation",
+		"name": "[Ψ]Wakeful Rest Remove Sleep Deprivation",
 		"description": "The second part of the power, to remove sleep deprivation.",
 		"valid_targets": [ "self" ],
 		"flags": [ "SILENT", "NO_HANDS", "NO_LEGS" ],
-		"effect": "remove_effect",
-		"effect_str": "sleep_deprived",
-		"shape": "blast"
+		"effect": "effect_vita_no_sleep_dep",
+		"shape": "blast",
+		"min_duration": 8640000
 	},
 	{
 		"id": "vita_healing_trance",
