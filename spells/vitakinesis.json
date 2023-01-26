@@ -102,7 +102,8 @@
 		"description": "The second part of the power, to remove sleep deprivation.",
 		"valid_targets": [ "self" ],
 		"flags": [ "SILENT", "NO_HANDS", "NO_LEGS" ],
-		"effect": "effect_vita_no_sleep_dep",
+		"effect": "attack",
+		"effect_str": "effect_vita_no_sleep_dep",
 		"shape": "blast",
 		"min_duration": 8640000
 	},
