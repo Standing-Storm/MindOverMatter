@@ -76,7 +76,7 @@
 		"id": "vita_sleeping_trance",
 		"type": "SPELL",
 		"name": "[Ψ]Wakeful Rest",
-		"description": "In liu of sleep, you can meditate.",
+		"description": "In lieu of sleep, you can meditate. As long as you maintain your meditations, you will not have to sleep.",
 		"message": "You meditate for a while and feel refreshed.",
 		"valid_targets": [ "self" ],
 		"spell_class": "VITAKINETIC",
