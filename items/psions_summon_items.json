@@ -40,7 +40,7 @@
     "symbol": "!",
     "color": "magenta",
     "flags": [ "NO_INGEST", "EDIBLE_FROZEN", "ZERO_WEIGHT", "TRADER_AVOID", "SINGLE_USE" ],
-    "use_action": { "type": "heal", "bandages_power": 8, "bleed": 20, "move_cost": 1 },
+    "use_action": { "type": "heal", "bandages_power": 8, "bleed": 20, "move_cost": 100 },
     "relic_data": { "passive_effects": [ { "has": "HELD", "condition": "ALWAYS", "values": [ { "value": "MAX_MANA", "add": 0 } ] } ] }
   }
 ]
