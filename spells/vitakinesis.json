@@ -87,7 +87,7 @@
 		"shape": "blast",
 		"difficulty": 4,
 		"max_level": 20,
-		"min_damage": 50,
+		"min_damage": 150,
 		"max_damage": 300,
 		"damage_increment": 5.0,
 		"energy_source": "STAMINA",
