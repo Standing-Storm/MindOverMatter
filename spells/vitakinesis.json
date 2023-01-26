@@ -17,7 +17,6 @@
 		"base_energy_cost": 2000,
 		"final_energy_cost": 150,
 		"energy_increment": -125,
-		"min_duration": 500,
 		"base_casting_time": 50,
 		"final_casting_time": 20,
 		"casting_time_increment": -3,
