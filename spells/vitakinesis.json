@@ -92,7 +92,9 @@
 		"damage_increment": 5.0,
 		"energy_source": "STAMINA",
 		"base_energy_cost": 1000,
-		"base_casting_time": 900000,
+		"base_casting_time": 1440000,
+		"final_casting_time": 360000,
+		"casting_time_increment": -54000,
 		"learn_spells": { "vita_healing_trance": 7 }
 	},
 	{
