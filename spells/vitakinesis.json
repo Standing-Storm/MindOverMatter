@@ -88,7 +88,7 @@
 		"difficulty": 4,
 		"max_level": 20,
 		"min_damage": 50,
-		"max_damage": 100,
+		"max_damage": 300,
 		"damage_increment": 5.0,
 		"energy_source": "STAMINA",
 		"base_energy_cost": 1000,
