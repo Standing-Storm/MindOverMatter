@@ -82,6 +82,7 @@
 		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS", "RANDOM_DAMAGE" ],
 		"effect": "recover_energy", 	
 		"effect_str": "FATIGUE",
+		"extra_effects": [ { "id": "vita_no_sleep_dep", "hit_self": true, "max_level": 1 } ],	
 		"shape": "blast",
 		"difficulty": 4,
 		"max_level": 20,
@@ -90,8 +91,18 @@
 		"damage_increment": 5.0,
 		"energy_source": "STAMINA",
 		"base_energy_cost": 1000,
-		"base_casting_time": 360000,
+		"base_casting_time": 720000,
 		"learn_spells": { "vita_healing_trance": 7 }
+	},
+	{
+		"id": "vita_sleeping_trance",
+    "type": "SPELL",
+		"name": "[Ψ]Wakeful Rest Rmove Sleep Deprivation",
+		"description": "The second part of the power, to remove sleep deprivation.",
+		"valid_targets": [ "self" ],
+		"flags": [ "SILENT", "NO_HANDS", "NO_LEGS" ],
+		"effect": "remove_effect",
+		"effect_str": "sleep_deprived"
 	},
 	{
 		"id": "vita_healing_trance",
