@@ -76,7 +76,7 @@
 		"id": "vita_sleeping_trance",
 		"type": "SPELL",
 		"name": "[Ψ]Wakeful Rest",
-		"description": "In lieu of sleep, you can meditate. As long as you maintain your meditations, you will not have to sleep.",
+		"description": "In lieu of sleep, you can meditate. As long as you maintain your meditations, you will rarely need to spend a night sleeping.",
 		"message": "You meditate for a while and feel refreshed.",
 		"valid_targets": [ "self" ],
 		"spell_class": "VITAKINETIC",
@@ -87,8 +87,8 @@
 		"shape": "blast",
 		"difficulty": 4,
 		"max_level": 20,
-		"min_damage": 150,
-		"max_damage": 300,
+		"min_damage": 50,
+		"max_damage": 200,
 		"damage_increment": 5.0,
 		"energy_source": "STAMINA",
 		"base_energy_cost": 1000,
@@ -107,7 +107,7 @@
 		"effect": "attack",
 		"effect_str": "effect_vita_no_sleep_dep",
 		"shape": "blast",
-		"min_duration": 8640000
+		"min_duration": 17280000
 	},
 	{
 		"id": "vita_healing_trance",
