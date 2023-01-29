@@ -23,7 +23,7 @@
     "final_energy_cost": 50,
     "energy_increment": -75,
     "base_casting_time": 50,
-    "final_casting_time": 20,
+    "final_casting_time": 10,
     "casting_time_increment": -2,
     "learn_spells": { "teleport_farstep": 5, "teleport_slow": 7, "teleport_gateway": 12  } 
   },
