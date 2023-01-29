@@ -95,7 +95,7 @@
     "valid_targets": [ "ground", "hostile" ],
     "spell_class": "TELEPORTER",  
     "flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS", "RANDOM_DAMAGE", "IGNORE_WALLS", "NO_EXPLOSION_SFX" ],
-    "effect": "directed_push",
+    "effect": "area_pull",
 		"shape": "blast",
     "difficulty": 4,
     "max_level": 20,
