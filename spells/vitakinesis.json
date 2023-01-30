@@ -107,7 +107,7 @@
 		"effect": "attack",
 		"effect_str": "effect_vita_no_sleep_dep",
 		"shape": "blast",
-		"min_duration": 17280000
+		"min_duration": 19800000
 	},
 	{
 		"id": "vita_healing_trance",
