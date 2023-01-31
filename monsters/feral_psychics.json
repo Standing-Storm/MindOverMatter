@@ -148,7 +148,7 @@
             "GROUP_BASH",
             "HUMAN",
             "CAN_OPEN_DOORS",
-            "PATH_AVOID_DANGER_1",
+            "PATH_AVOID_DANGER_2",
             "PRIORITIZE_TARGETS",
             "GOODHEARING",
             "HARDTOSHOOT"
@@ -195,7 +195,7 @@
             "GROUP_BASH",
             "HUMAN",
             "CAN_OPEN_DOORS",
-            "PATH_AVOID_DANGER_1",
+            "PATH_AVOID_DANGER_2",
             "PRIORITIZE_TARGETS",
             "GOODHEARING",
             "HARDTOSHOOT",
@@ -551,7 +551,7 @@
             "GROUP_BASH",
             "HUMAN",
             "CAN_OPEN_DOORS",
-            "PATH_AVOID_DANGER_1",
+            "PATH_AVOID_DANGER_2",
             "PRIORITIZE_TARGETS"
         ]
     },
@@ -610,7 +610,7 @@
             "GROUP_BASH",
             "HUMAN",
             "CAN_OPEN_DOORS",
-            "PATH_AVOID_DANGER_1",
+            "PATH_AVOID_DANGER_2",
             "PRIORITIZE_TARGETS"
           ]
     },
@@ -665,7 +665,7 @@
             "GROUP_BASH",
             "HUMAN",
             "CAN_OPEN_DOORS",
-            "PATH_AVOID_DANGER_1",
+            "PATH_AVOID_DANGER_2",
             "PRIORITIZE_TARGETS",
             "CLIMBS",
             "HARDTOSHOOT"
@@ -721,7 +721,7 @@
             "GROUP_BASH",
             "HUMAN",
             "CAN_OPEN_DOORS",
-            "PATH_AVOID_DANGER_1",
+            "PATH_AVOID_DANGER_2",
             "PRIORITIZE_TARGETS",
             "CLIMBS",
             "HARDTOSHOOT"
