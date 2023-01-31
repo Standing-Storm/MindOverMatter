@@ -49,6 +49,7 @@
             "HUMAN",
             "CAN_OPEN_DOORS",
             "PATH_AVOID_DANGER_1",
+            "PATH_AVOID_FIRE",
             "PRIORITIZE_TARGETS"
         ]
     },
@@ -101,6 +102,7 @@
             "HUMAN",
             "CAN_OPEN_DOORS",
             "PATH_AVOID_DANGER_1",
+            "PATH_AVOID_FIRE",
             "PRIORITIZE_TARGETS",
             "STUN_IMMUNE"
         ]
@@ -149,6 +151,7 @@
             "HUMAN",
             "CAN_OPEN_DOORS",
             "PATH_AVOID_DANGER_2",
+            "PATH_AVOID_FIRE,"
             "PRIORITIZE_TARGETS",
             "GOODHEARING",
             "HARDTOSHOOT"
@@ -196,6 +199,7 @@
             "HUMAN",
             "CAN_OPEN_DOORS",
             "PATH_AVOID_DANGER_2",
+            "PATH_AVOID_FIRE",
             "PRIORITIZE_TARGETS",
             "GOODHEARING",
             "HARDTOSHOOT",
@@ -414,6 +418,7 @@
             "HUMAN",
             "CAN_OPEN_DOORS",
             "PATH_AVOID_DANGER_1",
+            "PATH_AVOID_FIRE",
             "PRIORITIZE_TARGETS",
             "PUSH_MON"
         ]
@@ -493,6 +498,7 @@
             "HUMAN",
             "CAN_OPEN_DOORS",
             "PATH_AVOID_DANGER_1",
+            "PATH_AVOID_FIRE",
             "PRIORITIZE_TARGETS",
             "FLIES",
             "PUSH_VEH",
@@ -552,6 +558,7 @@
             "HUMAN",
             "CAN_OPEN_DOORS",
             "PATH_AVOID_DANGER_2",
+            "PATH_AVOID_FIRE",
             "PRIORITIZE_TARGETS"
         ]
     },
@@ -611,6 +618,7 @@
             "HUMAN",
             "CAN_OPEN_DOORS",
             "PATH_AVOID_DANGER_2",
+            "PATH_AVOID_FIRE",
             "PRIORITIZE_TARGETS"
           ]
     },
@@ -666,6 +674,7 @@
             "HUMAN",
             "CAN_OPEN_DOORS",
             "PATH_AVOID_DANGER_2",
+            "PATH_AVOID_FIRE",
             "PRIORITIZE_TARGETS",
             "CLIMBS",
             "HARDTOSHOOT"
@@ -722,6 +731,7 @@
             "HUMAN",
             "CAN_OPEN_DOORS",
             "PATH_AVOID_DANGER_2",
+            "PATH_AVOID_FIRE",
             "PRIORITIZE_TARGETS",
             "CLIMBS",
             "HARDTOSHOOT"
@@ -778,6 +788,7 @@
             "HUMAN",
             "CAN_OPEN_DOORS",
             "PATH_AVOID_DANGER_1",
+            "PATH_AVOID_FIRE",
             "PRIORITIZE_TARGETS",
             "NO_FUNG_DMG"
           ]
@@ -831,6 +842,7 @@
             "HUMAN",
             "CAN_OPEN_DOORS",
             "PATH_AVOID_DANGER_1",
+            "PATH_AVOID_FIRE",
             "PRIORITIZE_TARGETS",
             "NO_FUNG_DMG"
           ]
