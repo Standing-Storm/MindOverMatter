@@ -23,7 +23,7 @@
 		"base_casting_time": 50,
 		"final_casting_time": 20,
 		"casting_time_increment": -2,
-		"learn_spells": { "clair_voyance": 5, "clair_perfect_path": 7, "clair_see_map": 12 }
+		"learn_spells": { "clair_voyance": 7, "clair_perfect_path": 9, "clair_see_map": 15 }
   },
   {
 		"id": "clair_perfect_path",
@@ -50,7 +50,7 @@
 		"base_casting_time": 85,
 		"final_casting_time": 25,
 		"casting_time_increment": -7,
-		"learn_spells": { "clair_dodge_power": 5, "clair_night_vision": 7 }
+		"learn_spells": { "clair_dodge_power": 7, "clair_night_vision": 9 }
   },
   {
 		"id": "clair_dodge_power",
@@ -77,7 +77,7 @@
 		"base_casting_time": 150,
 		"final_casting_time": 70,
 		"casting_time_increment": -9,
-		"learn_spells": { "clair_clear_sight": 7, "clair_voyance": 8 }
+		"learn_spells": { "clair_clear_sight": 9, "clair_voyance": 10 }
   },
   {
 		"id": "clair_voyance",
@@ -111,7 +111,7 @@
 		"base_casting_time": 500,
 		"final_casting_time": 200,
 		"casting_time_increment": -17.5,
-		"learn_spells": { "clair_see_map": 7, "clair_dodge_power": 8 }
+		"learn_spells": { "clair_see_map": 9, "clair_dodge_power": 10 }
   },
   {  
 		"id": "clair_see_map",
