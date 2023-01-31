@@ -23,7 +23,7 @@
 		"base_casting_time": 120,
 		"final_casting_time": 75,
 		"casting_time_increment": -5.5,
-		"learn_spells": { "biokin_reflex_enhance": 5, "biokin_combat_dance": 12 }
+		"learn_spells": { "biokin_reflex_enhance": 7, "biokin_combat_dance": 15 }
 	},
 	{
 		"id": "biokin_overcome_pain",
@@ -49,7 +49,7 @@
 		"base_casting_time": 125,
 		"final_casting_time": 45,
 		"casting_time_increment": -9,
-		"learn_spells": { "biokin_armor_skin": 5, "biokin_sealed_system": 12 }	
+		"learn_spells": { "biokin_armor_skin": 7, "biokin_sealed_system": 15 }	
 	},
 	{
 		"id": "biokin_reflex_enhance",
@@ -75,7 +75,7 @@
 		"base_casting_time": 175,
 		"final_casting_time": 100,
 		"casting_time_increment": -5.5,
-		"learn_spells": { "biokin_combat_dance": 7, "biokin_overcome_pain": 10 }
+		"learn_spells": { "biokin_combat_dance": 8, "biokin_overcome_pain": 10 }
 	},
 	{
 		"id": "biokin_armor_skin",
@@ -101,7 +101,7 @@
 		"base_casting_time": 150,
 		"final_casting_time": 50,
 		"casting_time_increment": -8.5,
-		"learn_spells": { "biokin_sealed_system": 7, "biokin_physical_enhance": 10 }
+		"learn_spells": { "biokin_sealed_system": 8, "biokin_physical_enhance": 10 }
 	},
 	{
 		"id": "biokin_sealed_system",
