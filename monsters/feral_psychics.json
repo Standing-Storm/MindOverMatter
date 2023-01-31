@@ -420,6 +420,7 @@
             "PATH_AVOID_DANGER_1",
             "PATH_AVOID_FIRE",
             "PRIORITIZE_TARGETS",
+            "PUSH_VEH",
             "PUSH_MON"
         ]
     },
