@@ -199,7 +199,7 @@
 		"desc": [ "A barrier of telekinetic force is protecting you." ],
 		"//": "The logic is that this works the reverse of the way mundane physics does--the wider the area of the force applied against it, the weaker it is.",
 		"apply_message": "",
-		"remove_message": "A sudden gust of wind hits your face.",
+		"remove_message": "The barrier of force around you falls apart.",
 		"rating": "good",
 		"enchantments": [ 
 			{ "values": [
