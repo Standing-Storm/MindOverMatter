@@ -159,5 +159,36 @@
       { "item": "matrix_crystal_drained", "prob": 98 },
       { "item": "matrix_crystal_vitakinesis", "prob": 2 }
     ]
+  },
+  {
+     "type":"item_group",
+    "subtype": "collection",
+    "id": "feral_scientists_death_drops_psychic",
+    "entries": [
+      { "item": "scalpel", "prob": 100, "damage": [ 1, 3 ] },
+      { "group": "lab_shoes", "damage": [ 1, 4 ] },
+      { "group": "lab_torso", "damage": [ 1, 4 ] },
+      { "group": "lab_pants", "damage": [ 1, 4 ] },
+      { "group": "underwear", "damage": [ 1, 4 ] },
+      {
+        "collection": [
+          { "group": "harddrugs", "prob": 25 },
+          { "group": "chem_lab", "prob": 60 },
+          { "group": "cloning_vat", "prob": 1 },
+          { "group": "dissection", "prob": 50 },
+          { "group": "electronics", "prob": 40 },
+          { "group": "radio", "prob": 15 },
+          { "group": "textbooks", "prob": 25 },
+          { "group": "autodoc_installation_programs", "prob": 5 },
+          { "group": "feral_humans_crystal_drops_bio", "prob": 5 },
+          { "group": "feral_humans_crystal_drops_clair", "prob": 5 },
+          { "group": "feral_humans_crystal_drops_pyro", "prob": 5 },
+          { "group": "feral_humans_crystal_drops_telekin", "prob": 5 },
+          { "group": "feral_humans_crystal_drops_teep", "prob": 5 },
+          { "group": "feral_humans_crystal_drops_porter", "prob": 5 },
+          { "group": "feral_humans_crystal_drops_vita", "prob": 5 }
+        ]
+      },
+      { "group": "wallets_science", "damage": [ 1, 4 ], "prob": 5 }
   }
 ]
