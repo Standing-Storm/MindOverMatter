@@ -98,42 +98,42 @@
 		"type": "monstergroup",
     "name": "GROUP_CENTRAL_LAB",
 		 "monsters": [
-			  { "monster": "mon_feral_scientist_psychic", "weight": 10, "cost_multiplier": 10 },
+			  { "monster": "mon_feral_scientist_psychic", "weight": 10, "cost_multiplier": 10 }
 			 ]
 	},
 	{
 		"type": "monstergroup",
     "name": "GROUP_LAB",
 		 "monsters": [
-			  { "monster": "mon_feral_scientist_psychic", "weight": 15, "cost_multiplier": 10 },
+			  { "monster": "mon_feral_scientist_psychic", "weight": 15, "cost_multiplier": 10 }
 			 ]
 	},
 	{
 		"type": "monstergroup",
     "name": "GROUP_LAB_SURFACE",
 		 "monsters": [
-			  { "monster": "mon_feral_scientist_psychic", "weight": 10, "cost_multiplier": 10 },
+			  { "monster": "mon_feral_scientist_psychic", "weight": 10, "cost_multiplier": 10 }
 			 ]
 	},
 	{
 		"type": "monstergroup",
     "name": "GROUP_MICROLAB",
 		 "monsters": [
-			  { "monster": "mon_feral_scientist_psychic", "weight": 1, "cost_multiplier": 10 },
+			  { "monster": "mon_feral_scientist_psychic", "weight": 1, "cost_multiplier": 10 }
 			 ]
 	},
 	{
 		"type": "monstergroup",
     "name": "GROUP_DISTORTED_MICROLAB",
 		 "monsters": [
-			  { "monster": "mon_feral_scientist_psychic", "freq": 20, "cost_multiplier": 1 },
+			  { "monster": "mon_feral_scientist_psychic", "freq": 20, "cost_multiplier": 1 }
 			 ]
 	},
 	{
 		"type": "monstergroup",
     "name": "GROUP_LAB_RESEARCHERS",
 		 "monsters": [
-			  { "monster": "mon_feral_scientist_psychic", "weight": 10, "cost_multiplier": 5 },
+			  { "monster": "mon_feral_scientist_psychic", "weight": 10, "cost_multiplier": 5 }
 			 ]
 	}
 ]
