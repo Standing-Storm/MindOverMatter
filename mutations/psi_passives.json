@@ -122,7 +122,7 @@
 	{
     "type": "mutation",
     "id": "VITAKINETIC_HEALTH",
-    "name": { "str": "Healthy Glow" },
+    "name": { "str": "Bloom of Vitality" },
     "points": 0,
     "description": "Your psionic powers speed your healing slightly, and any broken limbs you have mend straight and true.",
     "healing_awake": 0.2,
