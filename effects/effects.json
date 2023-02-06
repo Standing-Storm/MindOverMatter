@@ -18,6 +18,22 @@
 			}
 		]
 	},
+	{
+		"type": "effect_type",
+		"id": "effect_biokin_pain",
+		"name": [ "Numbing Exercises" ],
+		"desc": [ "Your psionic power reduces the effect of pain on your." ],
+		"apply_message": "",
+		"remove_message": "Your wounds itch, and then begin to ache.",
+		"rating": "good",
+		"enchantments": [
+			{  
+				"values": [ 
+					{ "value": "PAIN", "multiply": { "arithmetic": [ { "u_val": "spell_level", "spell": "biokin_overcome_pain" }, "*", { "const": -3 } ] } }
+					]
+			}
+		]
+	},
 	{   
 		"type": "effect_type",
     "id": "effect_biokin_reflex",
