@@ -32,7 +32,7 @@
      "id": "SUS_book_nonf_pulp_newage",
     "type": "item_group",
     "copy-from": "SUS_book_nonf_pulp_newage",
-    "extend": { "items": [ { "item": "manual_meditation", "prob": 2 }, { "item": "manual_meditation_int", "prob": 1 } ] }
+    "extend": { "items": [ { "item": "manual_meditation", "prob": 5 }, { "item": "manual_meditation_int", "prob": 3 } ] }
   },
   {
     "type": "item_group",
@@ -44,13 +44,13 @@
     "type": "item_group",
     "id": "mansion_books",
     "copy-from": "mansion_books",
-    "extend": { "items": [ { "item": "manual_meditation", "prob": 8 }, { "item": "manual_meditation_int", "prob": 2 } ] }
+    "extend": { "items": [ { "item": "manual_meditation", "prob": 8 }, { "item": "manual_meditation_int", "prob": 3 } ] }
   },
   {
     "type": "item_group",
     "id": "science",
     "copy-from": "science",
-    "extend": { "items": [ { "item": "manual_psionics_advan", "prob": 1 } ] }
+    "extend": { "items": [ { "item": "manual_psionics_advan", "prob": 2 } ] }
   },
   {
      "type": "item_group",
