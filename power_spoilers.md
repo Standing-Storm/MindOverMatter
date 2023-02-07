@@ -8,7 +8,7 @@ Relatively simple buff power. Adds +1 Strength/Dexterity and then +1 per 5 level
 
 ## Overcome Pain
 
-Reduces pain by 5-15 after a short channeling time. What I really wanted to do was reduce pain to a maximum--like, you can only reduce your pain by 1.5 * power level or something--but that's currently impossible since there's no way to limit recover_energy spells, so the channeling time was added as a compromise. Biokinetics have to worry about pain in the short term, but as soon as they get a breather they're good as new.
+Reduces pain by 5-15 after a short channeling time. What I really wanted to do was reduce pain up to a cap--like, you can only reduce your pain by 1.5 * power level or something--but that's currently impossible since there's no way to limit recover_energy spells, so the channeling time was added as a compromise. Biokinetics have to worry about pain in the short term, but as soon as they get a breather they're good as new.
 
 ## Heightened Reflexes
 
