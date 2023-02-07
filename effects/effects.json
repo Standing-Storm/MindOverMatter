@@ -50,8 +50,10 @@
 		"enchantments": [
 			{
 				"values": [ 
-					{ "value": "ARMOR_CUT", "add": -4 }, { "value": "ARMOR_BASH", "add": -6 }, { "value": "ARMOR_STAB", "add": -3 },
-					{ "value": "PAIN", "multiply": { "arithmetic": [ { "u_val": "spell_level", "spell": "biokin_armor_skin" }, "*", { "const": -0.5 } ] } } 
+					{ "value": "ARMOR_CUT", "add": -4 },
+					{ "value": "ARMOR_BASH", "add": -6 },
+					{ "value": "ARMOR_STAB", "add": -3 },
+					{ "value": "PAIN", "multiply": { "arithmetic": [ { "u_val": "spell_level", "spell": "biokin_armor_skin" }, "*", { "const": -0.02 } ] } } 
 				]
 			}
 		]
