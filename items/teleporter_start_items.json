@@ -55,7 +55,7 @@
 		"price": 160,
 		"price_postapoc": 800,
 		"flags": [ "IRREPLACEABLE_CONSUMABLE" ],
-		"material": [ "brass", "powder" ],
+		"material": [ "superalloy", "steel" ],
 		"symbol": "=",
 		"color": "red",
 		"count": 40,
