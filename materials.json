@@ -20,5 +20,23 @@
     "dmg_adj": [ "damaged", "strained", "fractured", "eradicated"  ],
     "bash_dmg_verb": "rippled",
     "cut_dmg_verb": "pierced"
+  },
+    {
+    "type": "material",
+    "id": "nether_crystal",
+    "name": "Netherium Crystal",
+    "density": 15,
+    "specific_heat_liquid": 0.52,
+    "specific_heat_solid": 0.52,
+    "latent_heat": 5200,
+    "bash_resist": 5,
+    "cut_resist": 5,
+    "bullet_resist": 2,
+    "acid_resist": 100,
+    "fire_resist": 10,
+    "chip_resist": 100,
+    "dmg_adj": [ "marked", "chipped", "cracked", "shattered" ],
+    "bash_dmg_verb": "chipped",
+    "cut_dmg_verb": "scratched"
   }
 ]
