@@ -3,7 +3,7 @@
 		"id": "clair_night_vision",
 		"type": "SPELL",
 		"name": "[Ψ]Night Eyes",
-		"description": "This power is less night vision and more simply knowing what's out there in the darkness.",
+		"description": "Your eyes are much more sensitive in low level, and you can even \"see\" in pitch darkness.",
 		"message": "You open your senses to the world.",
 		"valid_targets": [ "self" ],
 		"spell_class": "CLAIRSENTIENT",
@@ -71,9 +71,9 @@
 		"base_energy_cost": 3500,
 		"final_energy_cost": 850,
 		"energy_increment": -175,
-		"min_duration": 30000,
-		"max_duration": 360000,
-		"duration_increment": 13750,
+		"min_duration": 3000,
+		"max_duration": 90000,
+		"duration_increment": 1200,
 		"base_casting_time": 150,
 		"final_casting_time": 70,
 		"casting_time_increment": -9,
@@ -129,11 +129,9 @@
 		"min_aoe": 10,
 		"max_aoe": 40,
 		"aoe_increment": 1,  
-		"base_energy_cost": 8000,
+		"base_energy_cost": 9000,
 		"base_casting_time": 6000,
-		"final_casting_time": 2000,
-		"casting_time_increment": -250,
-		"learn_spells": { "clair_perfect_path": 3 }
+		"learn_spells": { "clair_perfect_path": 5 }
 	},
 	{
 		"id": "clair_clear_sight",
@@ -149,15 +147,15 @@
 		"shape": "blast",
 		"difficulty": 6,
 		"max_level": 20,
-		"min_duration": 18000,
-		"max_duration": 360000,
-		"duration_increment": 9000,
+		"min_duration": 9000,
+		"max_duration": 90000,
+		"duration_increment": 1000,
 		"base_energy_cost": 3000,
 		"final_energy_cost": 1250,
 		"energy_increment": -250,
 		"base_casting_time": 75,
 		"final_casting_time": 25,
 		"casting_time_increment": -3.5,
-		"learn_spells": { "clair_night_vision": 3, "clair_perfect_path": 5 }
+		"learn_spells": { "clair_night_vision": 7, "clair_perfect_path": 10 }
 	}
 ]
