@@ -2,9 +2,9 @@
   {
     "type": "skill",
     "id": "spellcraft",
-    "name": { "str": "psionics" },
+    "name": { "str": "metaphysics" },
     "//": "Spellcraft is hard-coded so I need to use it for now--will replace when spell skills become JSONified.",
     "display_category": "display_ranged",
-    "description": "Your skill in the practical application of psionics. With this skill you can read minds, move objects without touching them, cross distances in the blink of an eye, and more."
+    "description": "Your ability to manipulate forces of energy often considered supernatural."
   }
 ]
