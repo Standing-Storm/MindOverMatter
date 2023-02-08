@@ -70,7 +70,7 @@
 		"base_casting_time": 200,
 		"final_casting_time": 75,
 		"casting_time_increment": -12,
-		"learn_spells": { "vita_blood_purge": 9, "vita_healing_trance": 11, "vita_sleeping_trance": 13 }
+		"learn_spells": { "vita_blood_purge": 9, "vita_healing_trance": 12, "vita_sleeping_trance": 14 }
 	},
 	{
 		"id": "vita_sleeping_trance",
@@ -95,7 +95,7 @@
 		"base_casting_time": 1440000,
 		"final_casting_time": 360000,
 		"casting_time_increment": -54000,
-		"learn_spells": { "vita_healing_trance": 9 }
+		"learn_spells": { "vita_healing_trance": 9, "vita_blood_purge": 12 }
 	},
 	{
 		"id": "vita_no_sleep_dep",
