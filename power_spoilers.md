@@ -27,3 +27,29 @@ The idea here is that your skin becomes an impermiable barrier and you also hold
 This is just a straight buff across the board. Reduced move cost, faster attack speed and more melee damage, and less gun recoil, but it increases your fatiue, hunger, and thirst slightly when you use it. 
 
 # Clairvoyance
+
+## Night Vision
+
+Provides night vision and infrared vision. Relatively simple.
+
+## The Perfect Path
+
+Reduces movement costs, representing predicting enemies' paths and taking the exact route to get away (or toward) them. Also reduces footstep noise by 2/3rds.
+
+## Clairvoyance
+
+Seeing an area you can't physically see. Lasts a random number of seconds and then slowly fades.
+
+## Combat Sense
+
+Increases dodge and block attempts and provides the UNCANNY_DODGE flag. This is entirely a defensive buff, in keeping with Clairsentience's lack of offensive capabilities.
+
+## Satellite View
+
+Reveals the overmap around the player. Simple. 
+
+## Clarity
+
+This is a defensive buff against a number of different sensory conditions. Using it removes, and makes you immune to, blinding, deafening, stunning, intoxication, hallucinations, sunlight glare, and so on. 
+
+# Pyrokinesis
