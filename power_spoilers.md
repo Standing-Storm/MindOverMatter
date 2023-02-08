@@ -34,7 +34,7 @@ Provides night vision and infrared vision. Relatively simple.
 
 ## The Perfect Path
 
-Reduces movement costs, representing predicting enemies' paths and taking the exact route to get away (or toward) them. Also reduces footstep noise by 2/3rds.
+Reduces movement costs, representing predicting enemies' paths and taking the exact route to get away (or toward) them. Also reduces footstep noise by 2/3rds. For Clairsentience I partially went into prescience as well, so some of the powers involve gazing into the immediate future. 
 
 ## Clairvoyance
 
@@ -42,7 +42,7 @@ Seeing an area you can't physically see. Lasts a random number of seconds and th
 
 ## Combat Sense
 
-Increases dodge and block attempts and provides the UNCANNY_DODGE flag. This is entirely a defensive buff, in keeping with Clairsentience's lack of offensive capabilities.
+Increases dodge and block attempts and provides the UNCANNY_DODGE flag. This is entirely a defensive buff, in keeping with Clairsentience's lack of offensive capabilities. It represents the clairsentient seeing their enemies' attacks before they happen. 
 
 ## Satellite View
 
