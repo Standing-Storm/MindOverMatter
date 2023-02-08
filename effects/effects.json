@@ -145,6 +145,7 @@
 		"type": "effect_type",
 		"id": "effect_clair_clear_sight",
 		"name": [ "Truesight" ],
+		"desc": [ "Your powers allow you to see the true shape of reality." ],
 		"apply_message": "",
 		"remove_message": "The world seems wrapped in gauze compared to before.",
 		"rating": "good",
