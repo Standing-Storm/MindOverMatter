@@ -39,7 +39,43 @@
     "type": "snippet",
     "category": "lab_file_psych",
     "text": [
-      { "id": "lab_file_psych_psi_1", "text": "Preliminary approval is given to use successful candidates from Project GREY DREAM who also have therapeutic training to provide counseling for staff.  Candidates must be paired with a non-candidate member of Counseling staff, who will review all of candidates' notes and session records; members of Counseling staff and candidate counselors are forbidden to be in the same room at any time." }
+      { "id": "lab_file_psych_psi_1", "text": "Preliminary approval is given to use successful candidates from Project GREY DAWN who also have therapeutic training to provide counseling for staff.  Candidates must be paired with a non-candidate member of Counseling staff, who will review all of candidates' notes and session records; members of Counseling staff and candidate counselors are forbidden to be in the same room at any time." }
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "lab_file_portal",
+    "text": [
+      {
+        "id": "lab_file_portal_psi_1",
+        "text": "Manned immersion dives to sub-planes with the PHAVIAN designation are to be overseen by at least one mathematician from Project COLD BELOW.  Immersion personnel must obey all instructions given by the mathematician, including collection of anomalous samples or aborting an in-progress dive."
+      }
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "lab_postit_portal",
+    "text": [
+      {
+        "name": "purple postit 1",
+        "id": "lab_postit_portal_psi_1",
+        "text": "When you collect the crystals, use sampling tongs.  Do not touch!"
+      },
+      {
+        "name": "purple postit 2",
+        "id": "lab_postit_portal_psi_2",
+        "text": "Do not calibrate to sub-plane 305PG.  It knows"
+      },
+      {
+        "name": "purple postit 3",
+        "id": "lab_postit_portal_psi_3",
+        "text": "The \"mathematician\" from upstairs wants to watch the immersion today.  Ugh"
+      },
+      {
+        "name": "purple postit 4",
+        "id": "lab_postit_portal_psi_4",
+        "text": "Accidentally touched a sample, now my head's all fuzzy"
+      }
     ]
   }
 ]
