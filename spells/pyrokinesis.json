@@ -95,7 +95,7 @@
     "casting_time_increment": -6,
     "sound_type": "combat",
     "sound_description": "a crackle",
-    "learn_spells": { "pyrokinetic_blast": 9, "pyrokinetic_aura": 11 }
+    "learn_spells": { "pyrokinetic_blast": 9, "pyrokinetic_aura": 12 }
   },
   {
     "id": "pyrokinetic_cloak",
@@ -121,7 +121,7 @@
     "base_casting_time": 200,
     "final_casting_time": 75,
     "casting_time_increment": -11,
-    "learn_spells": { "pyrokinetic_aura": 9, "pyrokinetic_eruption": 11 }
+    "learn_spells": { "pyrokinetic_aura": 9, "pyrokinetic_eruption": 12 }
   },
   {
     "id": "pyrokinetic_blast",
