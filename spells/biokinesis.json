@@ -74,7 +74,7 @@
 		"base_casting_time": 175,
 		"final_casting_time": 100,
 		"casting_time_increment": -5.5,
-		"learn_spells": { "biokin_combat_dance": 9, "biokin_overcome_pain": 10 }
+		"learn_spells": { "biokin_combat_dance": 9, "biokin_overcome_pain": 12 }
 	},
 	{
 		"id": "biokin_armor_skin",
@@ -100,7 +100,7 @@
 		"base_casting_time": 150,
 		"final_casting_time": 50,
 		"casting_time_increment": -8.5,
-		"learn_spells": { "biokin_sealed_system": 9, "biokin_physical_enhance": 10 }
+		"learn_spells": { "biokin_sealed_system": 9, "biokin_physical_enhance": 12 }
 	},
 	{
 		"id": "biokin_sealed_system",
