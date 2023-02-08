@@ -32,7 +32,13 @@ Soon after that, the world ended. The weakening of dimensional barriers has made
 
 GAINING POWERS
 
-At the moment, the only way to gain psionics is to pick a profession that starts with them (or debug them in). Eventually I want to add ruined Project PHAVIAN test sites that contain matrix crystals which grant powers on exposure. 
+The easiest way to gain psionics is to pick a profession that starts with them (or debug them in). There are also some strange crystals you might find in places with a strong connection with the Nether, or which are carried by psychic ferals. Or you could walk out into a portal storm unprotected.
+
+Listen to the voices.
+
+Bathe in the energies of the Nether.
+
+We have such sights to show you. 
 
 WAIT, STAMINA?
 
