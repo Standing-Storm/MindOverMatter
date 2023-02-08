@@ -46,7 +46,4 @@ I realize it's a bit counterintuitive that taking Indefatiguable or mutating mou
 
 FUTURE PLANS
 
-1) Add chance of randomly becoming psychic if you stand out in a portal storm. Unprotected. We have such sights to show you. (Accomplished!!)
-2) Appropriately distribute matrix crystals in labs. (Accomplished!!)
-3) Add feral psychics (Accomplished!!)
-4) Add electrokinesis if they ever let spells interact with battery charge.
+1) Add electrokinesis if they ever let spells interact with battery charge.
