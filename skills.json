@@ -1,9 +1,8 @@
 [
   {
     "type": "skill",
-    "id": "spellcraft",
+    "id": "metaphysics",
     "name": { "str": "metaphysics" },
-    "//": "Spellcraft is hard-coded so I need to use it for now--will replace when spell skills become JSONified.",
     "display_category": "display_ranged",
     "description": "Your ability to manipulate forces of energy often considered supernatural."
   }
