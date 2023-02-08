@@ -168,7 +168,7 @@
 	},
 	{
 		"type": "effect_type",
-		"id": "effect_pyro_cloak",
+		"id": "effect_pyrokinetic_cloak",
 		"name": [ "Cloak of Warmth" ],
 		"desc": [ "The air around you has its temperature controlled." ],
 		"apply_message": "",
