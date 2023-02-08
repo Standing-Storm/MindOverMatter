@@ -32,7 +32,7 @@
      "id": "SUS_book_nonf_pulp_newage",
     "type": "item_group",
     "copy-from": "SUS_book_nonf_pulp_newage",
-    "extend": { "items": [ { "item": "manual_meditation", "prob": 5 }, { "item": "manual_meditation_int", "prob": 3 } ] }
+    "extend": { "items": [ { "item": "manual_meditation", "prob": 7 }, { "item": "manual_meditation_int", "prob": 4 } ] }
   },
   {
     "type": "item_group",
