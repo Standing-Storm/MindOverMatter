@@ -26,7 +26,7 @@ The idea here is that your skin becomes an impermiable barrier and you also hold
 
 This is just a straight buff across the board. Reduced move cost, faster attack speed and more melee damage, and less gun recoil, but it increases your fatiue, hunger, and thirst slightly when you use it. 
 
-# Clairvoyance
+# Clairsentience
 
 ## Night Vision
 
