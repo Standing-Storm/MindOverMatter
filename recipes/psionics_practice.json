@@ -68,8 +68,8 @@
     "description": "Focus on your inner metal strength, making it easy to call forth your psionic gifts.",
     "skill_used": "metaphysics",
     "time": "1 h",
-    "practice_data": { "min_difficulty": 5, "max_difficulty": 8, "skill_limit": 9 },
-    "book_learn": [ [ "manual_psionics_advan", 5 ] ],
+    "practice_data": { "min_difficulty": 6, "max_difficulty": 9, "skill_limit": 10 },
+    "book_learn": [ [ "manual_psionics_advan", 6 ] ],
     "tools": [ 
       [ 
         [ "candle_lit", 1 ], [ "blindfold", 1] , [ "blindfold_duct", 1 ], [ "makeshift_blindfold", 1 ], [ "cow_bell", 1 ]
