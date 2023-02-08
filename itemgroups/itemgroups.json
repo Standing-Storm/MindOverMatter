@@ -26,7 +26,7 @@
     "type": "item_group",
     "id": "homebooks",
     "copy-from": "homebooks",
-    "extend": { "items": [ { "item": "manual_meditation", "prob": 3 } ] }
+    "extend": { "items": [ { "item": "manual_meditation", "prob": 3 }, { "item": "manual_meditation_int", "prob": 1 } ] }
   },
   {
      "id": "SUS_book_nonf_pulp_newage",
