@@ -228,5 +228,17 @@
     "id": "paranormal_investigator",
     "copy-from": "paranormal_investigator",
     "extend": { "skills": [ { "level": 2, "name": "metaphysics" } ] }
-  }
+  },
+  {
+    "type": "profession",
+    "id": "guru",
+    "copy-from": "guru",
+    "extend": { "skills": [ { "level": 3, "name": "metaphysics" } ] }
+  },
+  {
+    "type": "profession",
+    "id": "naturalist",
+    "copy-from": "naturalist",
+    "extend": { "skills": [ { "level": 1, "name": "metaphysics" } ] }
+  }  
 ]
