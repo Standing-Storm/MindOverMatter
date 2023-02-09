@@ -222,5 +222,11 @@
       "male": [ "briefs" ],
       "female": [ "bra", "panties" ]
     }
+  },
+  {
+    "type": "profession",
+    "id": "paranormal_investigator",
+    "copy-from": "paranormal_investigator",
+    "extend": { "skills": [ { "level": 2, "name": "metaphysics" } ] }
   }
 ]
