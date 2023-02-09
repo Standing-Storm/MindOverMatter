@@ -1,0 +1,12 @@
+[
+  {
+    "type": "profession",
+    "subtype": "hobby",
+    "id": "meditator",
+    "name": "Meditation Enthusiast",
+    "description": "Before the Cataclysm you were a practiced meditator, making sure you spent time alone with your thoughts every single day. Now that that you're alone with your thoughts almost all the time, that pastime is really working out for you.",
+    "points": 2,
+    "skills": [ { "level": 3, "name": "metaphysics" } ],
+    "traits": [ "SPIRITUAL" ]
+  }
+]
