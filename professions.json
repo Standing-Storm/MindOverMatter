@@ -54,7 +54,7 @@
     "points": 0,
     "skills": [ 
       { "level": 2, "name": "speech" },
-       { "level": 1, "name": "spellcraft" } 
+       { "level": 1, "name": "metaphysics" } 
     ],
     "traits": [ 
       "CLAIRSENTIENT", 
@@ -84,7 +84,7 @@
     "skills": [ 
       { "level": 2, "name": "cooking" },
       { "level": 1, "name": "driving" },
-      { "level": 2, "name": "spellcraft" }],
+      { "level": 2, "name": "metaphysics" }],
     "traits": [ 
       "PYROMANIA", 
       "PYROKINETIC", 
@@ -120,7 +120,7 @@
       { "level": 2, "name": "pistol" },
       { "level": 1, "name": "dodge" },
       { "level": 1, "name": "driving" },
-      { "level": 1, "name": "spellcraft" }
+      { "level": 1, "name": "metaphysics" }
     ],
     "traits": [ "TELEKINETIC", "TELEKINETIC_CARRY" ],
     "spells": [ 
@@ -146,7 +146,7 @@
     "points": 3,
      "skills": [ 
       { "level": 3, "name": "speech" },
-      { "level": 3, "name": "spellcraft" }
+      { "level": 3, "name": "metaphysics" }
     ],
     "traits": [ "TELEPATH", "TELEPATHIC_SUGGESTION" ],
     "spells": [ 
@@ -177,7 +177,7 @@
       { "level": 2, "name": "computer" },
       { "level": 2, "name": "gun" },
       { "level": 2, "name": "pistol" },
-      { "level": 3, "name": "spellcraft" }
+      { "level": 3, "name": "metaphysics" }
     ],
      "traits": [ "TELEPORTER", "TELEPORTER_PROTECT" ],
       "spells": [ 
@@ -206,7 +206,7 @@
     "skills": [ 
       { "level": 2, "name": "speech" }, 
       { "level": 1, "name": "driving" },
-      { "level": 1, "name": "spellcraft" }
+      { "level": 1, "name": "metaphysics" }
     ],
      "traits": [ "VITAKINETIC", "VITAKINETIC_HEALTH" ],
     "spells": [ 
