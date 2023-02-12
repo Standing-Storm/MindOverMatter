@@ -3,8 +3,8 @@
     "id": "mom_fusion_pistol",
     "looks_like": "glock_17",
     "type": "GUN",
-    "name": { "str": "B47 Fusion Pistol" },
-    "description": "The standard-issue officer's sidearm for the Imperial Navy, guaranteed manufactured on Tlalticpactli itself by scions of the Huey Calpulli, the B47 replaced the earlier B41 and is widely renowned for its accuracy and ease of maintenance.  This particular B47 even bears an eagle and snake on the grip, indicating it was produced in a factory in Anáhuac.  Hopefully it'll make a good melee weapon as well.",
+    "name": { "str": "Ch47 Fusion Pistol" },
+    "description": "The standard-issue officer's sidearm for the Imperial Navy, guaranteed manufactured on Tlalticpactli itself by scions of the Huey Calpulli, the Ch47 replaced the earlier Ch41 and is widely renowned for its accuracy and ease of maintenance.  This particular Ch47 even bears an eagle and snake on the grip, indicating it was produced in a factory in Anáhuac.  Hopefully it'll make a good melee weapon as well.",
     "to_hit": -2,
     "bashing": 5,
     "reload_noise_volume": 5,
@@ -33,8 +33,8 @@
   {
     "id": "mom_fusion_mag",
     "type": "MAGAZINE",
-    "name": { "str": "B47 power pack" },
-    "description": "A power pack for the ITN B47.",
+    "name": { "str": "Ch47 power pack" },
+    "description": "A power pack for the Ch47.",
     "weight": "40 g",
     "volume": "20 ml",
     "material": [ "superalloy" ],
@@ -48,8 +48,8 @@
 	{
 		"id": "mom_fusion_ammo",
 		"type": "AMMO",
-		"name": { "str_sp": "B47 power cartridges" },
-		"description": "Power cartridges for the B47. You had better make every shot count, because there's no way you're finding any more of these.",
+		"name": { "str_sp": "Ch47 power cartridges" },
+		"description": "Power cartridges for the Ch47. You had better make every shot count, because there's no way you're finding any more of these.",
 		"weight": "20 g",
 		"volume": "192 ml",
 		"price": 160,
@@ -66,7 +66,7 @@
 	 {
 	    "type": "ammunition_type",
 	    "id": "mom_fusion_ammo",
-	    "name": "B47 fusion shot",
+	    "name": "Ch47 fusion shot",
 	    "default": "mom_fusion_ammo"
 	  }
 ]
