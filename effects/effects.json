@@ -1,12 +1,12 @@
 [
 	{
 		"type": "effect_type",
-    "id": "effect_biokin_physical",
-    "name": [ "Enhanced Prowess" ],
-    "desc": [ "You are enhancing your physical prowess." ],
-    "apply_message": "",
-    "remove_message": "The surge of power fades away.",
-    "rating": "good",
+		"id": "effect_biokin_physical",
+		"name": [ "Enhanced Prowess" ],
+		"desc": [ "You are enhancing your physical prowess." ],
+		"apply_message": "",
+		"remove_message": "The surge of power fades away.",
+		"rating": "good",
 		"removes_effects": [ "venom_weaken" ],
 		"base_mods": { "str_mod": [ 1 ], "dex_mod": [ 1 ] },
 		"enchantments": [
@@ -18,16 +18,28 @@
 			}
 		]
 	},
+	{
+		"type": "effect_type",
+		"id": "effect_biokin_pkill_1",
+		"name": [ "Overcoming Pain" ],
+		"desc": [ "Your powers are lessening the pain you feel." ],
+		"apply_message": "",
+		"remove_message": "Your wounds ache once again.",
+		"rating": "good",
+		"max_duration": "15 m",
+    "base_mods": { "pkill_tick": [ 12 ], "pkill_min": [ 1 ], "pkill_max_val": [ 15 ] }
+		
+	},
 	{   
 		"type": "effect_type",
-    "id": "effect_biokin_reflex",
-    "name": [ "Enhanced Reflexes" ],
-    "desc": [ "You are enhancing your speed and senses." ],
-    "apply_message": "",
-    "remove_message": "The world speeds up again.",
-    "rating": "good",
-	  "removes_effects": [ "blind", "deaf" ],
-    "base_mods": { "per_mod": [ 1 ], "speed_mod": [5] },
+		"id": "effect_biokin_reflex",
+		"name": [ "Enhanced Reflexes" ],
+		"desc": [ "You are enhancing your speed and senses." ],
+		"apply_message": "",
+		"remove_message": "The world speeds up again.",
+		"rating": "good",
+		"removes_effects": [ "blind", "deaf" ],
+		"base_mods": { "per_mod": [ 1 ], "speed_mod": [5] },
 		"enchantments": [
 			{  
 				"values": [ 
@@ -78,8 +90,8 @@
 		"desc": [ "You are a dynamo of death." ],
 		"apply_message": "",
 		"remove_message": "Your movements return to normal.",
-    "rating": "good",
-    "show_intensity": false,
+		"rating": "good",
+		"show_intensity": false,
 		"removes_effects": [ "stunned", "dazed" ],
 		"enchantments": [
 			{
@@ -95,18 +107,18 @@
 			}
 		]
 	},
-  {
-    "type": "effect_type",
-    "id": "effect_clair_night_eyes",
-    "name": [ "Night Eyes" ],
-    "desc": [ "You can sense your surroundings in the dark." ],
-    "apply_message": "",
-    "remove_message": "The darkness hides your surroundings again.",
-    "rating": "good",
-    "flags": [ "NIGHT_VISION", "INFRARED" ]
-  },
 	{
-    "type": "effect_type",
+		"type": "effect_type",
+		"id": "effect_clair_night_eyes",
+		"name": [ "Night Eyes" ],
+		"desc": [ "You can sense your surroundings in the dark." ],
+		"apply_message": "",
+		"remove_message": "The darkness hides your surroundings again.",
+		"rating": "good",
+		"flags": [ "NIGHT_VISION", "INFRARED" ]
+	},
+	{
+		"type": "effect_type",
 		"id": "effect_clair_path",
 		"name": [ "Following the Path" ],
 		"desc": [ "You know exactly where to go." ],
@@ -236,13 +248,13 @@
 		"flags": [ "MYOPIC" ]
 	},
 	{
-    "type": "effect_type",
-    "id": "effect_telepathic_psi_armor",
-    "name": [ "Psychic Shield" ],
-    "desc": [ "Your mind is warded against psychic attack." ],
-    "apply_message": "",
-    "remove_message": "Your thoughts are once again unguarded.",
-    "rating": "good",
+		"type": "effect_type",
+		"id": "effect_telepathic_psi_armor",
+		"name": [ "Psychic Shield" ],
+		"desc": [ "Your mind is warded against psychic attack." ],
+		"apply_message": "",
+		"remove_message": "Your thoughts are once again unguarded.",
+		"rating": "good",
 		"removes_effects": [
 			"taint", 
 			"tindrift", 
@@ -252,30 +264,30 @@
 			"fearparalyze",
 			"amigara"
 		],
-    "flags": [ "PORTAL_PROOF", "TEEPSHIELD" ]
-  },
-  {
-    "type": "effect_type",
-    "id": "effect_teleport_slow",
-    "name": [ "Stutterstepping" ],
-    "desc": [ "Your steps aren't taking you as far as your eyes tell you they should." ],
-    "apply_message": "The air ripples and you stumble.",
-    "remove_message": "Your eyes and your legs agree with each other again.",
-    "rating": "bad",
-    "base_mods": { "speed_mod": [ -40 ] },
-    "immunity_flags": [ "DIMENSIONAL_ANCHOR" ]
-  },
-  {
-    "type": "effect_type",
-    "id": "effect_vita_health",
-    "name": [ "Healthy Glow" ],
-    "desc": [ "You feel amazing." ],
-    "apply_message": "",
-    "remove_message": "All of the day's hardships seem to catch up with you.",
-    "rating": "good",
+		"flags": [ "PORTAL_PROOF", "TEEPSHIELD" ]
+	},
+	{
+		"type": "effect_type",
+		"id": "effect_teleport_slow",
+		"name": [ "Stutterstepping" ],
+		"desc": [ "Your steps aren't taking you as far as your eyes tell you they should." ],
+		"apply_message": "The air ripples and you stumble.",
+		"remove_message": "Your eyes and your legs agree with each other again.",
+		"rating": "bad",
+		"base_mods": { "speed_mod": [ -40 ] },
+		"immunity_flags": [ "DIMENSIONAL_ANCHOR", "TELESTOP" ]
+	},
+	{
+		"type": "effect_type",
+		"id": "effect_vita_health",
+		"name": [ "Healthy Glow" ],
+		"desc": [ "You feel amazing." ],
+		"apply_message": "",
+		"remove_message": "All of the day's hardships seem to catch up with you.",
+		"rating": "good",
 		"blocks_effects": [ "scurvy", "redcells_anemia", "anemia", "toxin_buildup", "common_cold", "flu" ],
-    "base_mods": { "health_min": [ 1 ], "health_chance": [ 50 ], "h_mod_min": [ 2 ], "h_mod_chance": [ 50 ], "healing_rate": [ 2 ] }
-  },
+		"base_mods": { "health_min": [ 1 ], "health_chance": [ 50 ], "h_mod_min": [ 2 ], "h_mod_chance": [ 50 ], "healing_rate": [ 2 ] }
+	},
 	{
 		"type": "effect_type",
 		"id": "effect_vita_no_sleep_dep",
