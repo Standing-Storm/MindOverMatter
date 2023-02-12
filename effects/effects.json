@@ -21,14 +21,57 @@
 	{
 		"type": "effect_type",
 		"id": "effect_biokin_pkill_1",
+		"name": [ "Overcoming Minor Pain" ],
+		"desc": [ "Your powers are slightly lessening the pain you feel." ],
+		"apply_message": "",
+		"remove_message": "Your wounds ache once again.",
+		"rating": "good",
+		"max_duration": "15 m",
+		"base_mods": { "pkill_tick": [ 12 ], "pkill_min": [ 1 ], "pkill_max_val": [ 15 ] }
+	},
+	{
+		"type": "effect_type",
+		"id": "effect_biokin_pkill_2",
 		"name": [ "Overcoming Pain" ],
 		"desc": [ "Your powers are lessening the pain you feel." ],
 		"apply_message": "",
 		"remove_message": "Your wounds ache once again.",
 		"rating": "good",
-		"max_duration": "15 m",
-    "base_mods": { "pkill_tick": [ 12 ], "pkill_min": [ 1 ], "pkill_max_val": [ 15 ] }
-		
+		"max_duration": "20 m",
+		"base_mods": { "pkill_tick": [ 10 ], "pkill_min": [ 1 ], "pkill_max_val": [ 30 ] }	
+	},
+	{
+		"type": "effect_type",
+		"id": "effect_biokin_pkill_3",
+		"name": [ "Overcoming Pain" ],
+		"desc": [ "Your powers are lessening the pain you feel." ],
+		"apply_message": "",
+		"remove_message": "Your wounds ache once again.",
+		"rating": "good",
+		"max_duration": "25 m",
+		"base_mods": { "pkill_tick": [ 10 ], "pkill_min": [ 2 ], "pkill_max_val": [ 45 ] }
+	},
+	{
+		"type": "effect_type",
+		"id": "effect_biokin_pkill_4",
+		"name": [ "Overcoming Major Pain" ],
+		"desc": [ "Your powers are greatly lessening the pain you feel." ],
+		"apply_message": "",
+		"remove_message": "Your wounds ache once again.",
+		"rating": "good",
+		"max_duration": "30 m",
+		"base_mods": { "pkill_tick": [ 8 ], "pkill_min": [ 2 ], "pkill_max_val": [ 60 ] }
+	},
+	{
+		"type": "effect_type",
+		"id": "effect_biokin_pkill_5",
+		"name": [ "Overcoming Major Pain" ],
+		"desc": [ "Your powers are greatly lessening the pain you feel." ],
+		"apply_message": "",
+		"remove_message": "Your wounds ache once again.",
+		"rating": "good",
+		"max_duration": "40 m",
+		"base_mods": { "pkill_tick": [ 8 ], "pkill_min": [ 3 ], "pkill_max_val": [ 75 ] }
 	},
 	{   
 		"type": "effect_type",
