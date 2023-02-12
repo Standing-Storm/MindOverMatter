@@ -84,7 +84,7 @@
 		"min_damage": 0,
 		"min_duration": 30000,
 		"max_duration": 270000,
-		"duration_increment": 2000,
+		"duration_increment": 2000
 	},
 	{
                 "id": "biokin_overcome_pain_2",
@@ -101,7 +101,7 @@
                 "min_damage": 0,
                 "min_duration": 60000,
                 "max_duration": 270000,
-                "duration_increment": 2000,
+                "duration_increment": 2000
         },
 	{
                 "id": "biokin_overcome_pain_3",
@@ -118,7 +118,7 @@
                 "min_damage": 0,
                 "min_duration": 90000,
                 "max_duration": 270000,
-                "duration_increment": 2000,
+                "duration_increment": 2000
         },
 	        {
                 "id": "biokin_overcome_pain_4",
@@ -135,7 +135,7 @@
                 "min_damage": 0,
                 "min_duration": 120000,
                 "max_duration": 270000,
-                "duration_increment": 2000,
+                "duration_increment": 2000
         },
 	{
                 "id": "biokin_overcome_pain_5",
@@ -152,7 +152,7 @@
                 "min_damage": 0,
                 "min_duration": 150000,
                 "max_duration": 270000,
-                "duration_increment": 2000,
+                "duration_increment": 2000
         },
 	{
                 "id": "biokin_overcome_pain_6",
@@ -169,7 +169,7 @@
                 "min_damage": 0,
                 "min_duration": 180000,
                 "max_duration": 270000,
-                "duration_increment": 2000,
+                "duration_increment": 2000
         },
 	{
 		"id": "biokin_reflex_enhance",
