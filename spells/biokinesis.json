@@ -58,7 +58,7 @@
 		"type": "effect_on_condition",
 		"id": "EOC_BIOKIN_PAIN",
 		"effect": {
-			"switch": { "u_val": "spell_level", "spell": "summon_undead" },
+			"switch": { "u_val": "spell_level", "spell": "biokin_overcome_pain"" },
 			"cases": [
 				{ "case": 0, "effect": { "u_cast_spell": { "id": "biokin_overcome_pain_1" } } },
 				{ "case": 4, "effect": { "u_cast_spell": { "id": "biokin_overcome_pain_2" } } },
