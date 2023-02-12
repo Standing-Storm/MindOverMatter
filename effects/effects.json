@@ -73,6 +73,17 @@
 		"max_duration": "40 m",
 		"base_mods": { "pkill_tick": [ 8 ], "pkill_min": [ 3 ], "pkill_max_val": [ 75 ] }
 	},
+	{
+		"type": "effect_type",
+		"id": "effect_biokin_pkill_6",
+		"name": [ "Overcoming Extreme Pain" ],
+		"desc": [ "Your powers are enormously lessening the pain you feel." ],
+		"apply_message": "",
+		"remove_message": "Your wounds ache once again.",
+		"rating": "good",
+		"max_duration": "45 m",
+		"base_mods": { "pkill_tick": [ 6 ], "pkill_min": [ 3 ], "pkill_max_val": [ 90 ] }
+	},
 	{   
 		"type": "effect_type",
 		"id": "effect_biokin_reflex",
