@@ -4,7 +4,7 @@
     "id": "teleporter_attuned_ground",
     "group": "teleporter_attune",
     "category": "OTHER",
-    "required_skills": [ [ "spellcraft", 4 ] ],
+    "required_skills": [ [ "metaphysics", 4 ] ],
     "time": "120 m",
     "components": [ ],
 	  "autolearn": true,
