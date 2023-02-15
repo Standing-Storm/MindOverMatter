@@ -219,5 +219,30 @@
    "base_casting_time": 80,
    "final_casting_time": 35,
    "casting_time_increment": -7.5
-    }
+ },
+ {
+   "id": "teleport_blink_attack_monster",
+   "type": "SPELL",
+   "name": "[Ψ]Blink Monster",
+   "description": "Teleport target.",
+		"valid_targets": [ "hostile" ],
+		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS", "RANDOM_AOE" ],
+		"effect": "short_range_teleport",
+		"shape": "blast",
+		"difficulty": 1,
+		"max_level": 20,
+		"min_aoe": 1,
+		"max_aoe": 5,
+		"aoe_increment": 0.25,
+		"min_range": 5,
+		"max_range": 15,
+		"range_increment": 1,
+		"energy_source": "STAMINA",
+		"base_energy_cost": 500,
+		"final_energy_cost": 50,
+		"energy_increment": -75,
+		"base_casting_time": 50,
+		"final_casting_time": 0,
+		"casting_time_increment": -4
+ }
 ]
