@@ -12,7 +12,6 @@
      "material": [ "nether_crystal" ],
     "looks-like": "art_crystal",
     "use_action": { "type": "effect_on_conditions", "description": "The pink glow calls to you.","effect_on_conditions": [ "EOC_BIOKIN_MATRIX_AWAKENING" ] }
-    },
   },
   {
     "type": "TOOL",
