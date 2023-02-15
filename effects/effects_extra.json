@@ -31,5 +31,35 @@
     "max_intensity": 10,  
     "base_mods": { "pain_chance": [ 100 ], "pain_min": [ 1 ], "pain_max": [ 3 ], "pain_max_val": [ 40 ], "vomit_chance": [ 25 ], "hurt_chance": [ -10 ], "hurt_amount": [ 0 ], "hurt_tick": [ 1000 ] },
     "scaling_mods": { "pain_min": [ 1, 0 ], "pain_max": [ 2 ], "pain_max_val": [ 5 ], "vomit_chance": [ -2 ], "hurt_chance": [ 6 ], "hurt_amount": [ 1, 0 ], "hurt_tick": [ -85 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "blind_clair_overload",
+    "//": "This effect and the one below exist so a clairsentient can't cure their powers going haywire using their own powers.",
+    "name": [ "Blind" ],
+    "desc": [ "Range of Sight: 0.  You cannot see anything." ],
+    "removes_effects": [ "glare", "snow_glare", "darkness" ],
+    "apply_message": "You're blinded!",
+    "remove_message": "Your sight returns!",
+    "rating": "bad",
+    "show_in_info": true,
+    "flags": [ "BLIND" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "deaf_clair_overload",
+    "name": [ "Impaired Hearing", "Ringing Ears", "Deaf" ],
+    "desc": [
+      "Your hearing is impaired.",
+      "You can barely hear anything and your ears hurt.",
+      "You can't hear anything and your head aches from all the noise.  You can't converse with NPCs."
+    ],
+    "apply_message": "Your ears ring!",
+    "remove_message": "You can hear again!",
+    "rating": "bad",
+    "max_intensity": 3,
+    "int_dur_factor": "100 s",
+    "base_mods": { "pain_min": [ 1 ], "pain_chance": [ -50 ], "pain_chance_bot": [ 1000 ] },
+    "scaling_mods": { "pain_max_val": [ 5 ], "pain_chance": [ 150 ] }
   }
 ]
