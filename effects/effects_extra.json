@@ -1,10 +1,35 @@
 [
-  {
-    "type": "effect_type",
-    "id": "psionic_overload",
-    "name": [ "Severe headache" ],
-    "desc": [ "Your head is is pounding and you feel unwell." ],
-    "rating": "bad",
-    "base_mods": { "pain_chance": [ 100 ], "pain_min": [ 2 ], "pain_max": [ 6 ], "pain_max_val": [ 40 ], "vomit_chance": [ 25 ], "hurt_chance": [ 2 ], "hurt_amount" [ 2 ], "hurt_tick": [ 150 ] },
-  }
+        {
+                "type": "effect_type",
+                "id": "psionic_overload",
+                "name": [ 
+                        "Headache",
+                        "Headache",
+                        "Headache",
+                        "Bad Headache",
+                        "Bad Headache",
+                        "Splitting Headache",
+                        "Splitting Headache",
+                        "Excuciating Headache",
+                        "Excuciating Headache",
+                        "Pure Agony"
+                ],
+                "desc": [ 
+                        "Your head is is pounding and you feel unwell.",
+                        "Your head is is pounding and you feel unwell.",
+                        "Your head is is pounding and you feel unwell.",
+                        "Your head throbs and its hard to see straight.",
+                        "Your head throbs and its hard to see straight.",
+                        "You can barely think through the pain in your head.",
+                        "You can barely think through the pain in your head.",
+                        "You skull feels like it's going to explode.",
+                        "You skull feels like it's going to explode.",
+                        "The only thing in the world that matters is the pain in your head."
+                ],
+                "rating": "bad",
+                "int_add_val": 1,
+                "max_intensity": 10,  
+                "base_mods": { "pain_chance": [ 100 ], "pain_min": [ 1 ], "pain_max": [ 3 ], "pain_max_val": [ 40 ], "vomit_chance": [ 25 ], "hurt_chance": [ -10 ], "hurt_amount": [ 0 ], "hurt_tick": [ 1000 ] },
+                "scaling_mods": { "pain_min": [ 1, 0 ], "pain_max": [ 2 ], "pain_max_val": [ 5 ], "vomit_chance": [ -2 ], "hurt_chance": [ 6 ], "hurt_amount": [ 1, 0 ], "hurt_tick": [ -85 ] }
+        }
 ]
