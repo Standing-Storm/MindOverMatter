@@ -363,6 +363,7 @@
         "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
         "death_function": { "effect": { "id": "death_conflagration", "hit_self": true }, "message": "%1$s screams and the flames around them burst outward!" },
         "luminance": 50,
+        "upgrades": { "half_life": 45, "into": "mon_feral_human_pyrokin2" },
         "special_attacks": [ 
             {
                 "type": "spell", "spell_data": { "id": "pyrokinetic_eruption_monster", "min_level": 6 },
@@ -376,6 +377,77 @@
             },
             {
                 "type": "spell", "spell_data": { "id": "pyrokinetic_blast_monster", "min_level": 4 },
+                "cooldown": 15,
+                "monster_message": "%1$s gestures and summons a conflagration!"
+            }
+        ],
+        "flags": [
+            "SEES",
+            "HEARS",
+            "SMELLS",
+            "WARM",
+            "BASHES",
+            "GROUP_BASH",
+            "HUMAN",
+            "CAN_OPEN_DOORS",
+            "PATH_AVOID_DANGER_1",
+            "PRIORITIZE_TARGETS",
+            "FIREY"
+        ]
+    },
+    {
+        "id": "mon_feral_human_pyrokin3",
+        "type": "MONSTER",
+        "name": "unending conflagration",
+        "description": "Occasionally through the fire and smoke, you can see a human form.  Their flesh blackens and withers in the heat, then the burns retreat and healthy skin replaces it, over and over again.",
+        "//": "No ballistic armor because the temperature to melt a bullet after being fired but before it hits you is apparently over 100 million degrees.",
+        "default_faction": "zombie",
+        "looks_like": "chud",
+        "bodytype": "human",
+        "species": [ "HUMAN" ],
+        "volume": "62500 ml",
+        "weight": "81500 g",
+        "hp": 105,
+        "speed": 100,
+        "material": [ "flesh" ],
+        "color": "red",
+        "symbol": "@",
+        "aggression": 30,
+        "morale": 100,
+        "melee_skill": 4,
+        "melee_dice": 2,
+        "melee_dice_sides": 3,
+        "melee_damage": [ { "damage_type": "heat", "amount": 10 } ],
+        "weakpoint_sets": [ "wps_humanoid_body" ],
+        "families": [ "prof_intro_biology", "prof_physiology" ],
+        "dodge": 3,
+        "armor_heat": 50,
+        "regenerates": 20,
+        "bleed_rate": 0,
+        "harvest": "human",
+        "emit_fields": [ { "emit_id": "emit_smoke_stream", "delay": "1 s" } ],
+        "dissect": "dissect_human_sample_single",
+        "vision_day": 30,
+        "vision_night": 3,
+        "path_settings": { "max_dist": 30, "allow_open_doors": true, "avoid_traps": true, "avoid_sharp": true },
+        "death_drops": "feral_humans_death_drops_pyro",
+        "zombify_into": "mon_zombie_survivor",
+        "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
+        "death_function": { "effect": { "id": "death_conflagration", "hit_self": true }, "message": "%1$s screams and the flames around them burst outward!" },
+        "luminance": 200,
+        "special_attacks": [ 
+            {
+                "type": "spell", "spell_data": { "id": "pyrokinetic_eruption_monster", "min_level": 7 },
+                "cooldown": 10,   
+                "monster_message": "%1$s summons a blast of flame!" 
+            },
+            {
+                "type": "spell", "spell_data": { "id": "pyrokinetic_flash_monster", "min_level": 5 },
+                "cooldown": 15,
+                "monster_message": "The air erupts into an eye-searing flash!"
+            },
+            {
+                "type": "spell", "spell_data": { "id": "pyrokinetic_blast_monster", "min_level": 6 },
                 "cooldown": 15,
                 "monster_message": "%1$s gestures and summons a conflagration!"
             }
