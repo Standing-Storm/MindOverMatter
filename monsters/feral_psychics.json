@@ -977,7 +977,7 @@
             {
                 "type": "spell", "spell_data": { "id": "teleport_blink_attack_monster",  "min_level": 4 },
                 "cooldown": 10,
-                "monster_message": "%1$s touches you and there is a long moment of darkness and cold before you find yourself somewhere else."
+                "monster_message": "%1$s touches you and there is a moment of darkness and terrible cold before you find yourself somewhere else."
             },
             { "type": "leap", "cooldown": 1, "move_cost": 50, "allow_no_target": true, "max_range": 16, "message": "%1$s vanishes and reappears elsewhere!" }
         ],
