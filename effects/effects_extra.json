@@ -5,6 +5,6 @@
     "name": [ "Severe headache" ],
     "desc": [ "Your head is is pounding." ],
     "rating": "bad",
-    "base_mods": { "pain_chance": [ 100 ], "pain_min": [ 2 ], "pain_max": [ 6 ], "pain_max_val" [ 40 ] },
+    "base_mods": { "pain_chance": [ 100 ], "pain_min": [ 2 ], "pain_max": [ 6 ], "pain_max_val" [ 40 ], "vomit_chance" [ 25 ] },
   }
 ]
