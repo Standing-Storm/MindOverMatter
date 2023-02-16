@@ -170,7 +170,7 @@
      ], 
     "false_effect": [
       { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm.  Your head pounds in time with the kaleidoscoping sky as your muscles begin cramping uncontrollably.  They suddenly seize up and you collapse to the ground, staring up at the sky, unable to move.", "popup": true },
-      { "u_add_effect": "psionic_overload", "duration": "1 hours" },
+      { "u_add_effect": "psionic_overload", "duration": "2 hours" },
       { "u_add_effect": "downed", "duration": "1 minutes" },
       { "u_add_effect": "seizure", "duration": "1 minutes" }
     ]
@@ -186,7 +186,7 @@
     ],
     "false_effect": [
       { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm.  Your head pounds in time with the kaleidoscoping sky as your vision wavers.  The sky grows bright, and then dark.  Sounds fade away before roaring in your ears, and then the entire world suddenly vanishes, leaving you in silent darkness." },
-      { "u_add_effect": "psionic_overload", "duration": "1 hours" },
+      { "u_add_effect": "psionic_overload", "duration": "2 hours" },
       { "u_add_effect": "hallu", "duration": "2 hours" },
       { "u_add_effect": "blind_clair_overload", "duration": "1 minutes" },
       { "u_add_effect": "deaf_clair_overload", "duration": "1 minutes" }
@@ -240,7 +240,7 @@
     ],
     "false_effect": [
       { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm.  Your head pounds in time with the kaleidoscoping sky as the beating of your heart thuds in your ears.  You can feel the blood rushing through your veins, warmth slowly spreading through your body, and a sensation of heat that gets stronger and stronger until it becomes an feverish itching across your entire body, driving you to your knees." },
-      { "u_add_effect": "psionic_overload", "duration": "1 hours" },
+      { "u_add_effect": "psionic_overload", "duration": "2 hours" },
       { "u_add_effect": "flu", "duration": "12 hours" },
       { "u_add_effect": "downed", "duration": "2" },
     ]
