@@ -937,7 +937,7 @@
     {
         "id": "mon_feral_human_porter3",
         "type": "MONSTER",
-        "name": "transient phantasm",
+        "name": "unstable riftwalker",
         "description": "This feral barely seems to exist in the real world. They constantly vanish and reappear, weird light and strange mist following in their wake.",
         "default_faction": "zombie",
         "looks_like": "chud",
@@ -976,8 +976,8 @@
             },
             {
                 "type": "spell", "spell_data": { "id": "teleport_blink_attack_monster",  "min_level": 4 },
-                "cooldown": 10,
-                "monster_message": "%1$s touches you and there is a moment of darkness and terrible cold before you find yourself somewhere else."
+                "cooldown": 20,
+                "monster_message": "%1$s touches you and the world around you wavers."
             },
             { "type": "leap", "cooldown": 1, "move_cost": 50, "allow_no_target": true, "max_range": 16, "message": "%1$s vanishes and reappears elsewhere!" }
         ],
