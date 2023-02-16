@@ -242,7 +242,7 @@
       { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm.  Your head pounds in time with the kaleidoscoping sky as the beating of your heart thuds in your ears.  You can feel the blood rushing through your veins, warmth slowly spreading through your body, and a sensation of heat that gets stronger and stronger until it becomes an feverish itching across your entire body, driving you to your knees." },
       { "u_add_effect": "psionic_overload", "duration": "2 hours" },
       { "u_add_effect": "flu", "duration": "12 hours" },
-      { "u_add_effect": "downed", "duration": "2" },
+      { "u_add_effect": "downed", "duration": "1 minutes" }
     ]
   }  
 ]
