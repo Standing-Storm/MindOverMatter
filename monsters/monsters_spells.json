@@ -243,14 +243,12 @@
 		"name": "[Ψ]Blink Monster",
 		"description": "Teleport target.",
 		"valid_targets": [ "hostile" ],
-		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS", "RANDOM_AOE", "TARGET_TELEPORT"],
-		"effect": "short_range_teleport",
+		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS" ],
+		"effect": "effect_on_condition",
+		"effect_str": "EOC_RIFTWALKER_TELEPORT",
 		"shape": "blast",
 		"difficulty": 1,
 		"max_level": 20,
-		"min_aoe": 5,
-		"max_aoe": 20,
-		"aoe_increment": 0.25,
 		"min_range": 1,
 		"energy_source": "STAMINA",
 		"base_energy_cost": 500,
@@ -259,5 +257,19 @@
 		"base_casting_time": 50,
 		"final_casting_time": 0,
 		"casting_time_increment": -4
+	},
+	{
+		"type": "effect_on_condition",
+		"id": "EOC_RIFTWALKER_TELEPORT",
+		"effect": [
+			{
+				"u_location_variable": { "global_val": "riftwalker_blink_dest" },
+				"target_params": { "min_radius": 5, "max_radius": 20 }
+			},
+			{
+				"u_teleport": { "global_val": "riftwalker_blink_dest" },
+				"fail_message": "You feel a wrenching sensation!"
+			}
+		]
 	}
 ]
