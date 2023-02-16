@@ -236,6 +236,13 @@
     "effect": [
       { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm.  For a moment, you can feel the blood flowing in your veins, every blood cell traveling through your body on its way to your cells.  You can feel the oxygen in your lungs cross through into your blood.  The howling of the portal storm pulses in time with your heartbeat for a moment before your awareness fades, but a lingering trace of it remains in the back of your mind.", "popup": true },
       { "u_add_trait": "VITAKINETIC" }, 
-      { "u_add_trait": "VITAKINETIC_HEALTH" } ]
+      { "u_add_trait": "VITAKINETIC_HEALTH" } 
+    ],
+    "false_effect": [
+      { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm.  Your head pounds in time with the kaleidoscoping sky as the beating of your heart thuds in your ears.  You can feel the blood rushing through your veins, warmth slowly spreading through your body, and a sensation of heat that gets stronger and stronger until it becomes an feverish itching across your entire body, driving you to your knees." },
+      { "u_add_effect": "psionic_overload", "duration": "1 hours" },
+      { "u_add_effect": "flu", "duration": "12 hours" },
+      { "u_add_effect": "downed", "duration": "2" },
+    ]
   }  
 ]
