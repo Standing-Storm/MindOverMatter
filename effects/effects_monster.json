@@ -1,0 +1,12 @@
+[
+  {
+			"type": "effect_type",
+			"id": "effect_riftwalker_teleport",
+			"name": [ "Dimensionally Unstable" ],
+			"desc": [ "You feel like you're barely part of the world." ],
+			"apply_message": "",
+			"remove_message": "With a jolt you feel more solid again.",
+			"rating": "bad",
+			"enchantments": [ "enchant_riftwalker_teleport" ]
+		}
+]
