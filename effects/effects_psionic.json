@@ -27,7 +27,7 @@
 		"remove_message": "Your wounds ache once again.",
 		"rating": "good",
 		"max_duration": "15 m",
-		"base_mods": { "pkill_tick": [ 12 ], "pkill_min": [ 1 ], "pkill_max_val": [ 15 ] }
+		"base_mods": { "pkill_tick": [ 12 ], "pkill_min": [ 1 ], "pkill_max_val": [ 30 ] }
 	},
 	{
 		"type": "effect_type",
@@ -38,7 +38,7 @@
 		"remove_message": "Your wounds ache once again.",
 		"rating": "good",
 		"max_duration": "20 m",
-		"base_mods": { "pkill_tick": [ 10 ], "pkill_min": [ 1 ], "pkill_max_val": [ 30 ] }	
+		"base_mods": { "pkill_tick": [ 10 ], "pkill_min": [ 1 ], "pkill_max_val": [ 65 ] }	
 	},
 	{
 		"type": "effect_type",
@@ -49,7 +49,7 @@
 		"remove_message": "Your wounds ache once again.",
 		"rating": "good",
 		"max_duration": "25 m",
-		"base_mods": { "pkill_tick": [ 10 ], "pkill_min": [ 2 ], "pkill_max_val": [ 45 ] }
+		"base_mods": { "pkill_tick": [ 10 ], "pkill_min": [ 2 ], "pkill_max_val": [ 100 ] }
 	},
 	{
 		"type": "effect_type",
@@ -60,7 +60,7 @@
 		"remove_message": "Your wounds ache once again.",
 		"rating": "good",
 		"max_duration": "30 m",
-		"base_mods": { "pkill_tick": [ 8 ], "pkill_min": [ 2 ], "pkill_max_val": [ 60 ] }
+		"base_mods": { "pkill_tick": [ 8 ], "pkill_min": [ 2 ], "pkill_max_val": [ 150 ] }
 	},
 	{
 		"type": "effect_type",
@@ -71,7 +71,7 @@
 		"remove_message": "Your wounds ache once again.",
 		"rating": "good",
 		"max_duration": "40 m",
-		"base_mods": { "pkill_tick": [ 8 ], "pkill_min": [ 3 ], "pkill_max_val": [ 75 ] }
+		"base_mods": { "pkill_tick": [ 8 ], "pkill_min": [ 3 ], "pkill_max_val": [ 200 ] }
 	},
 	{
 		"type": "effect_type",
@@ -82,7 +82,7 @@
 		"remove_message": "Your wounds ache once again.",
 		"rating": "good",
 		"max_duration": "45 m",
-		"base_mods": { "pkill_tick": [ 6 ], "pkill_min": [ 3 ], "pkill_max_val": [ 90 ] }
+		"base_mods": { "pkill_tick": [ 6 ], "pkill_min": [ 3 ], "pkill_max_val": [ 300 ] }
 	},
 	{   
 		"type": "effect_type",
