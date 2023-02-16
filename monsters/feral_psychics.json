@@ -149,7 +149,7 @@
         "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
         "special_attacks": [ 
             { "id": "smash", "attack_upper": true, "throw_strength": 50, "cooldown": 10 }, 
-            { "type": "leap", "cooldown": 5, "move_cost": 50, "allow_no_target": true, "max_range": 5, "message": "%1$s moves so fast your eyes can barely follow them!" }
+            { "type": "leap", "cooldown": 5, "move_cost": 50, "allow_no_target": true, "max_range": 5, "message": "%1$s moves so quickly your eyes can barely follow them!" },
             [ "BIO_OP_DISARM", 10 ], 
             [ "BIO_OP_TAKEDOWN", 15 ] 
         ],
