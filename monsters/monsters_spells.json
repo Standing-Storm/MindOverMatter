@@ -240,7 +240,7 @@
 	{
 		"id": "teleport_blink_attack_monster",
 		"type": "SPELL",
-		"name": "[Ψ]Blink Monster",
+		"name": "[Ψ]Force Blink Monster",
 		"description": "Teleport target.",
 		"valid_targets": [ "hostile" ],
 		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS" ],
@@ -256,17 +256,22 @@
 		"casting_time_increment": -4
 	},
 	{
-		"type": "effect_on_condition",
-		"id": "EOC_RIFTWALKER_TELEPORT",
-		"effect": [
-			{
-				"u_location_variable": { "global_val": "riftwalker_blink_dest" },
-				"target_params": { "min_radius": 5, "max_radius": 20 }
-			},
-			{
-				"u_teleport": { "global_val": "riftwalker_blink_dest" },
-				"fail_message": "You feel a wrenching sensation!"
-			}
-		]
-	}
+		"id": "teleport_blink_monster",
+			"type": "SPELL",
+			"name": "[Ψ]Blink Monster effect",
+			"description": "The blink you cast if a riftwalker hits you. It's a bug if you have it.",
+			"valid_targets": [ "none" ],
+			"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS", "RANDOM_AOE" ],
+			"effect": "short_range_teleport",
+			"shape": "blast",
+			"difficulty": 1,
+			"max_level": 20,
+			"min_aoe": 1,
+		"max_aoe": 5,
+			"aoe_increment": 0.25,
+			"min_range": 10,
+			"base_casting_time": 50,
+			"final_casting_time": 0,
+			"casting_time_increment": -4
+		}
 ]
