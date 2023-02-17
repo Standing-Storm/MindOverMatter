@@ -200,8 +200,7 @@
 		"enchantments": [
 			{
 				"values": [
-					{ "value": "BONUS_DODGE", "add": 3 },
-					{ "value": "BONUS_BLOCK", "add": 2 } 
+					{ "value": "BONUS_DODGE", "add": 3 }
 				] 
 			} 
 		],
