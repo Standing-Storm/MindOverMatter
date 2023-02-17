@@ -233,7 +233,7 @@
       { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm.  Your head pounds in time with the kaleidoscoping sky as your vision wavers.  The world seems to grow far away, then close, and you stumble as your legs can't seem to tell where the ground is.  As you recover and look up, you find yourself somewhere else." },
       { "u_add_effect": "psionic_overload", "duration": "2 hours" },
       { "u_add_effect": "effect_portal_storm_teleport": "duration": "1 minutes" },
-      { "u_add_effect": "downed", "duration": "5" }
+      { "u_add_effect": "downed", "duration": "5 seconds" }
     ]
   },
   {
@@ -249,7 +249,7 @@
       { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm.  Your head pounds in time with the kaleidoscoping sky as the beating of your heart thuds in your ears.  You can feel the blood rushing through your veins, warmth slowly spreading through your body, and a sensation of heat that gets stronger and stronger until it becomes an feverish itching across your entire body, driving you to your knees." },
       { "u_add_effect": "psionic_overload", "duration": "2 hours" },
       { "u_add_effect": "flu", "duration": "12 hours" },
-      { "u_add_effect": "downed", "duration": "20" }
+      { "u_add_effect": "downed", "duration": "20 seconds" }
     ]
   }  
 ]
