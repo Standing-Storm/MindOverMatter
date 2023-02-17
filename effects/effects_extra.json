@@ -61,5 +61,16 @@
     "int_dur_factor": "100 s",
     "base_mods": { "pain_min": [ 1 ], "pain_chance": [ -50 ], "pain_chance_bot": [ 1000 ] },
     "scaling_mods": { "pain_max_val": [ 5 ], "pain_chance": [ 150 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "effect_portal_storm_teleport",
+    "name": [ "Dimensionally Unstable" ],
+			"desc": [ "You feel like you're barely part of the world." ],
+    "//": "Duplicate so teleporters can get teleported during portal storms.",
+			"apply_message": "",
+			"remove_message": "With a jolt you feel more solid again.",
+			"rating": "bad",
+			"enchantments": [ "enchant_riftwalker_teleport" ]
   }
 ]
