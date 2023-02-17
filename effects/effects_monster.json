@@ -8,6 +8,6 @@
 		"remove_message": "With a jolt you feel more solid again.",
 		"rating": "bad",
 		"enchantments": [ "enchant_riftwalker_teleport" ],
-		"immune_flags": [ "TELESTOP" ]
+		"immune_flags": [ "TELESTOP", "DIMENSIONAL_ANCHOR" ]
 	}
 ]
