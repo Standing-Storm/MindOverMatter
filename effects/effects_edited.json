@@ -11,7 +11,13 @@
     "copy-from": "tindrift",
     "immune_flags": [ "TEEPSHIELD", "TELESTOP" ]
   },
-   {
+  {
+    "id": "attention",
+    "type": "effect_type",
+    "copy-from": "attention",
+    "immune_flags": [ "TEEPSHIELD", "TELESTOP" ]
+  },
+  {
     "id": "teleglow",
     "type": "effect_type",
     "copy-from": "teleglow",
