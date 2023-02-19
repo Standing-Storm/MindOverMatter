@@ -200,10 +200,19 @@
     "id": "EOC_PORTAL_PYRO_AWAKENING",
     "condition": { "not": { "u_has_trait": "PYROKINETIC" } }, 
     "effect": [
-      { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm.  You stretch out your hand toward the shattering sky and a glow gathers around it as the air itself begins to shine.  The glow brightens and then flames arise, dancing on the open area above your palm.  You move your hand and the flames move with it, swirling around you, and with a wave of your hand they scatter into the air.  The glow fades, but the sensation of heat remains.", "popup": true },
+      { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm.  You stretch out your hand toward the shattering sky and a glow gathers around it as the air itself begins to shine.  The glow brightens and then flames arise, dancing on the open area above your palm.  You move your hand and the flames move with it, swirling around you, and with with a final wave they scatter into the air.  The glow fades, but the sensation of heat remains.", "popup": true },
       { "u_add_trait": "PYROKINETIC" }, 
       { "u_add_trait": "PYROGLOW_WEAK" },
-      { "u_add_trait": "PYROGLOW_STRONG" } ]
+      { "u_add_trait": "PYROGLOW_STRONG" } 
+    ],
+    "false_effect": [
+      { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm.  Your head pounds in time with the kaleidoscoping sky as your skin prickles.  The air grows warm, then hot, and sweat springs from every pore. The air around you takes on a lambent glow as the heat continues to rise, until your muscles give out and you collapse to your knees." },
+      { "u_add_effect": "psionic_overload", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "1 hours" } ] } },
+      { "u_add_effect": "effect_pyrokin_overload", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "2 hours" } ] } },
+      { "u_add_effect": "downed", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "1 seconds" } ] } },
+      { "u_set_field": "fd_hot_air4", "outdoor_only": true },
+      { "arithmetic": [ { "u_val": "stamina" }, "-=", { "const": 4000 } ] }
+    ]
   },
   {
     "type": "effect_on_condition",
