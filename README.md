@@ -47,3 +47,4 @@ I realize it's a bit counterintuitive that taking Indefatiguable or mutating mou
 FUTURE PLANS
 
 1) Add electrokinesis if they ever let spells interact with battery charge.
+2) Add Project PHAVIAN test site.
