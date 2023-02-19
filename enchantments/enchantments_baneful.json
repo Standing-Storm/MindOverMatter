@@ -18,6 +18,7 @@
     "id": "enchant_pyrokin_fever",
     "condition": "ALWAYS",
     "has": "HELD",
-    "emitter": "emit_pyrokin_fever"
+    "emitter": "emit_pyrokin_fever",
+    "value": [ { "value": "LUMINATION", "add": 50 } ]
   }
 ]
