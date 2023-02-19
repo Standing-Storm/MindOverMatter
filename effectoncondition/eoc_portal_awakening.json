@@ -3,7 +3,7 @@
     "type": "effect_on_condition",
     "id": "EOC_PORTAL_STORM_PSION_AWAKENING",
     "global": true,
-    "recurrence": [ "60 seconds", "2 minutes" ],
+    "recurrence": [ "2 minutes", "5 minutes" ],
     "condition": { "and": [ 
       "u_is_outside",  
       { "is_weather": "portal_storm" }, 
