@@ -2,14 +2,14 @@
   {
     "id": "emit_pyrokin_cloak",
     "type": "emit",
-    "field": "fd_hot_air2",
+    "field": "fd_pyrokinetic_heat",
     "intensity": 3,
     "qty": 40
   },
   {
     "id": "emit_pyrokin_fever",
     "type": "emit",
-    "field": "fd_hot_air3",
+    "field": "fd_pyrokinetic_heat",
     "intensity": 3,
     "qty": 20
   }
