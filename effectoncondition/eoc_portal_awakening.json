@@ -171,8 +171,10 @@
     "false_effect": [
       { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm.  Your head pounds in time with the kaleidoscoping sky as your muscles begin cramping uncontrollably.  They suddenly seize up and you collapse to the ground, staring up at the sky, unable to move." },
       { "u_add_effect": "psionic_overload", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "1 hours" } ] } },
+      { "u_add_effect": "effect_biokin_overload", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "2 hours" } ] } },
       { "u_add_effect": "downed", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "5 seconds" } ] } },
-      { "u_add_effect": "seizure", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "5 seconds" } ] } }
+      { "u_add_effect": "seizure", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "5 seconds" } ] } },
+      { "arithmetic": [ { "u_val": "stamina" }, "-=", { "const": 4000 } ] }
     ]
   },
   {
@@ -187,9 +189,10 @@
     "false_effect": [
       { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm.  Your head pounds in time with the kaleidoscoping sky as your vision wavers.  The sky grows bright, and then dark.  Sounds fade away before roaring in your ears, and then the entire world suddenly vanishes, leaving you in silent darkness." },
       { "u_add_effect": "psionic_overload", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "1 hours" } ] } },
-      { "u_add_effect": "hallu", "duration": "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "3 hours" } ] } },
+      { "u_add_effect": "hallu", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "3 hours" } ] } },
       { "u_add_effect": "blind_clair_overload", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "15 seconds" } ] } },
-      { "u_add_effect": "deaf_clair_overload", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "15 seconds" } ] } }
+      { "u_add_effect": "deaf_clair_overload", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "15 seconds" } ] } },
+      { "arithmetic": [ { "u_val": "stamina" }, "-=", { "const": 4000 } ] }
     ]
   },
   {
@@ -218,7 +221,16 @@
     "effect": [
       { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm.  A babble of voices, male, female, neither, both, and some not human at all, speaking to you.  The world is rapidly dying.  The dead and the fungus and the plants will fight over what remains and there will be nothing left for humanity.  Stay out here, where realities converge and walk into a better tomorrow.  As the voices blend together, the volume rising, you reach inside your own mind somehow and twist--and are greeted with blessed silence.  Though the portal storm still rages, internally you are calm.", "popup": true },
       { "u_add_trait": "TELEPATH" }, 
-      { "u_add_trait": "TELEPATHIC_SUGGESTION" } ]
+      { "u_add_trait": "TELEPATHIC_SUGGESTION" } 
+    ],
+    "false_effect": [
+      { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm.  Your head pounds in time with the kaleidoscoping sky as whispers begin.  First only a murmur, steadily growing louder and louder until they grow into a cacophony of voices.  You hear pleas for mercy, screams of agony, cries of rage and sorrow, all mixed together in an avalache of sound that drives you to your knees as you clutch your ears to shut them out.  It doesn't help." },
+      { "u_add_effect": "psionic_overload", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "1 hours" } ] } },
+      { "u_add_effect": "nightmares", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "4 hours " } ] } },
+      { "u_add_effect": "disrupted_sleep", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "4 hours " } ] } },
+      { "u_add_effect": "downed", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "1 seconds" } ] } },
+      { "arithmetic": [ { "u_val": "stamina" }, "-=", { "const": 4000 } ] }
+    ]
   },
   {
     "type": "effect_on_condition",
@@ -233,7 +245,8 @@
       { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm.  Your head pounds in time with the kaleidoscoping sky as your vision wavers.  The world seems to grow far away, then close, and you stumble as your legs can't seem to tell where the ground is.  As you recover and look up, you find yourself somewhere else." },
       { "u_add_effect": "psionic_overload", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "1 hours" } ] } },
       { "u_add_effect": "effect_portal_storm_teleport", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "20 seconds" } ] } },
-      { "u_add_effect": "downed", "duration": "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "1 seconds" } ] } }
+      { "u_add_effect": "downed", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "1 seconds" } ] } },
+      { "arithmetic": [ { "u_val": "stamina" }, "-=", { "const": 4000 } ] }
     ]
   },
   {
@@ -248,8 +261,10 @@
     "false_effect": [
       { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm.  Your head pounds in time with the kaleidoscoping sky as the beating of your heart thuds in your ears.  You can feel the blood rushing through your veins, warmth slowly spreading through your body, and a sensation of heat that gets stronger and stronger until it becomes an feverish itching across your entire body, driving you to your knees." },
       { "u_add_effect": "psionic_overload", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "1 hours" } ] } },
-      { "u_add_effect": "flu", "duration": "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "4 hours" } ] } },
-      { "u_add_effect": "downed", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "3 seconds" } ] } }
+      { "u_add_effect": "flu", "duration":  { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "4 hours" } ] } },
+      { "u_add_effect": "effect_vitakin_overload", "duration":  { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "2 hours" } ] } },
+      { "u_add_effect": "downed", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "3 seconds" } ] } },
+      { "arithmetic": [ { "u_val": "stamina" }, "-=", { "const": 4000 } ] }
     ]
   }  
 ]
