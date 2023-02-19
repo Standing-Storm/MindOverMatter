@@ -60,19 +60,14 @@
   {
     "type": "effect_type",
     "id": "deaf_clair_overload",
-    "name": [ "Impaired Hearing", "Ringing Ears", "Deaf" ],
-    "desc": [
-      "Your hearing is impaired.",
-      "You can barely hear anything and your ears hurt.",
-      "You can't hear anything and your head aches from all the noise.  You can't converse with NPCs."
-    ],
-    "apply_message": [ "Your ears ring!" ],
+    "name": [ "Deaf" ],
+    "desc": [ "You can't hear anything." ],
+    "apply_message": [ "All sound is blotted out!" ],
     "remove_message": [ "You can hear again!" ],
     "rating": "bad",
     "max_intensity": 3,
     "int_dur_factor": "100 s",
-    "base_mods": { "pain_min": [ 1 ], "pain_chance": [ -50 ], "pain_chance_bot": [ 1000 ] },
-    "scaling_mods": { "pain_max_val": [ 5 ], "pain_chance": [ 150 ] }
+    "flags": [ "DEAF" ]
   },
 	{
 		"type": "effect_type",
