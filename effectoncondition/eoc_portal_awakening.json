@@ -232,7 +232,7 @@
     "false_effect": [
       { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm.  Your head pounds in time with the kaleidoscoping sky as your vision wavers.  The world seems to grow far away, then close, and you stumble as your legs can't seem to tell where the ground is.  As you recover and look up, you find yourself somewhere else." },
       { "u_add_effect": "psionic_overload", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "1 hours" } ] } },
-      { "u_add_effect": "effect_portal_storm_teleport": "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "20 seconds" } ] } },
+      { "u_add_effect": "effect_portal_storm_teleport", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "20 seconds" } ] } },
       { "u_add_effect": "downed", "duration": "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "1 seconds" } ] } }
     ]
   },
