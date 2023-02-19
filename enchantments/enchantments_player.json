@@ -1,11 +1,19 @@
 [
   {
     "type": "enchantment",
+    "id": "enchant_pyrokin_cloak",
+    "condition": "ALWAYS",
+    "has": "HELD",
+    "emitter": "emit_pyrokin_fever"
+  },
+  {
+    "type": "enchantment",
     "id": "enchant_pyrokinetic_aura",
     "condition": "ALWAYS",
     "has": "HELD",
     "hit_you_effect": [ { "id": "pyro_aura_attack" ,  "hit_self": false }  ],
     "hit_me_effect": [ { "id": "pyro_aura_attacked" ,  "hit_self": false } ],
+    "emitter": "emit_pyrokin_fever",
     "value": [ { "value": "LUMINATION", "add": 50 } ]
   },
   {
