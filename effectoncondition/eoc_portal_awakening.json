@@ -212,7 +212,15 @@
     "effect": [ 
       { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm.  You look around for shelter, but you're out in the open.  You reach down toward the ground but the ground starts rising--bits of grass and rock and dirt lifting up and swirling around you.  The roar in your head grows louder as you slowly rise off the ground, the debris around you whirling faster and faster, until the your mind suddenly stills and you collapse back to the earth with a thump.  The pebbles around start to fall--but one catches your eye, and as you look at it, it stops and hovers in the air for a moment.", "popup": true },
       { "u_add_trait": "TELEKINETIC" }, 
-      { "u_add_trait": "TELEKINETIC_CARRY" } ]
+      { "u_add_trait": "TELEKINETIC_CARRY" } 
+    ],
+    "false_effect": [
+      { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm.  Your head pounds in time with the kaleidoscoping sky as you stagger.  The very air seems to press down on you, its weight growing steadily more oppressive.  Every step takes more effort than a sprint.  You concentrate on putting one foot in front of the other but it takes almost all of your concentration to do so." },
+      { "u_add_effect": "psionic_overload", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "1 hours" } ] } },
+      { "u_add_effect": "effect_telekin_overload", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "30 minutes" } ] } },
+      { "u_add_effect": "downed", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "1 seconds" } ] } },
+      { "arithmetic": [ { "u_val": "stamina" }, "-=", { "const": 4000 } ] }
+    ]
   },
   {
     "type": "effect_on_condition",
