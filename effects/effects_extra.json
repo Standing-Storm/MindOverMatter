@@ -29,15 +29,27 @@
     "rating": "bad",
     "int_add_val": 1,
     "max_intensity": 10,  
-     "base_mods": { "per_mod": [ -2 ], "int_mod": [ -2 ], "pain_chance": [ 10 ], "pain_min": [ 2 ], "pain_max": [ 3 ], "pain_max_val": [ 750 ], "vomit_chance": [ 25 ], "hurt_chance": [ -10 ], "hurt_amount": [ 0 ], "hurt_tick": [ 200 ] },
-    "scaling_mods": { "per_mod": [ -1.2 ], "int_mod": [ -0.6 ], "pain_min": [ 1 ], "pain_max": [ 4 ], "vomit_chance": [ -2 ], "hurt_chance": [ 8 ], "hurt_amount": [ 2, 1 ], "hurt_tick": [ -15 ] }
+		"base_mods": { "per_mod": [ -2 ], "int_mod": [ -2 ], "pain_chance": [ 10 ], "pain_min": [ 2 ], "pain_max": [ 3 ], "pain_max_val": [ 75 ], "vomit_chance": [ 25 ], "hurt_chance": [ -10 ], "hurt_amount": [ 0 ], "hurt_tick": [ 200 ] },
+    "scaling_mods": { "per_mod": [ -1.2 ], "int_mod": [ -0.6 ], "pain_min": [ 1 ], "pain_max": [ 4 ], "pain_max_val": [ 100 ], "vomit_chance": [ -2 ], "hurt_chance": [ 8 ], "hurt_amount": [ 2, 1 ], "hurt_tick": [ -15 ] }
   },
+	{
+		"type": "effect_type",
+		"id": "effect_biokin_overload",
+		"name": [ "Weakened" ],
+		"desc": [ "Your muscles and coordination are impaired." ],
+		"apple_message": [ "Your muscles tremble with weakness!" ],
+		"remove_message": "New strength fills you!",
+		"rating": "bad",
+		"max_intensity": 10,  
+		"base_mods": { "str_mod": [ -2 ], "dex_mod": [ -2 ] },
+		"scaling_mods": { "str_mod": [ -1.2 ], "dex_mod": [ -1.2 ] }
+	},
   {
     "type": "effect_type",
     "id": "blind_clair_overload",
     "//": "This effect and the one below exist so a clairsentient can't cure their powers going haywire using their own powers.",
     "name": [ "Blind" ],
-    "desc": [ "Range of Sight: 0.  You cannot see anything." ],
+    "desc": [ "Darkness obscures your vision." ],
     "removes_effects": [ "glare", "snow_glare", "darkness" ],
     "apply_message": "You're blinded!",
     "remove_message": "Your sight returns!",
@@ -63,14 +75,26 @@
     "scaling_mods": { "pain_max_val": [ 5 ], "pain_chance": [ 150 ] }
   },
   {
-    "type": "effect_type",
-    "id": "effect_portal_storm_teleport",
-    "name": [ "Dimensionally Unstable" ],
-			"desc": [ "You feel like you're barely part of the world." ],
-    "//": "Duplicate so teleporters can get teleported during portal storms.",
-			"apply_message": "",
-			"remove_message": "With a jolt you feel more solid again.",
-			"rating": "bad",
-			"enchantments": [ "enchant_riftwalker_teleport" ]
+	  "type": "effect_type",
+		"id": "effect_portal_storm_teleport",
+		"name": [ "Dimensionally Unstable" ],
+		"desc": [ "You feel like you're barely part of the world." ],
+		"//": "Duplicate so teleporters can get teleported during portal storms.",
+		"apply_message": "",
+		"remove_message": "With a jolt, you feel more solid again.",
+		"rating": "bad",
+		"enchantments": [ "enchant_riftwalker_teleport" ]
+  },
+	{
+		"type": "effect_type",
+		"id": "effect_vitakin_overload",
+		"name": [ "Enervated" ],
+		"desc": [ "Your muscles and coordination are impaired." ],
+		"apply_message": [ "You feel awful!" ],
+		"remove_message": "You don't feel as bad anymore!",
+    "rating": "bad",
+    "max_intensity": 10,  
+    "base_mods": { "fatigue_tick": [ 300 ], "fatigue_min": [ 1 ], "health_min": [ -1 ], "health_tick": [ 400 ] },
+    "scaling_mods": { "fatigue_min": [ 1 ], "health_min": [ -1 ] }
   }
 ]
