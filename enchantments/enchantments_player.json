@@ -4,7 +4,7 @@
     "id": "enchant_pyrokin_cloak",
     "condition": "ALWAYS",
     "has": "HELD",
-    "emitter": "emit_pyrokin_fever"
+    "emitter": "emit_pyrokin_cloak"
   },
   {
     "type": "enchantment",
