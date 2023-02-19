@@ -4,7 +4,13 @@
     "id": "enchant_pyrokin_cloak",
     "condition": "ALWAYS",
     "has": "HELD",
-    "emitter": "emit_pyrokin_cloak"
+    "emitter": "emit_pyrokin_cloak",
+    "values": [
+      { "value": "CLIMATE_CONTROL_CHILL", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "pyrokinetic_cloak" }, "*", { "const": 3 } ] } },
+      { "value": "CLIMATE_CONTROL_HEAT", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "pyrokinetic_cloak" }, "*", { "const": 10 } ] } },
+      { "value": "ARMOR_HEAT", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "pyrokinetic_cloak" }, "*", { "const": -10 } ] } },
+      { "value": "ARMOR_COLD", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "pyrokinetic_cloak" }, "*", { "const": -3 } ] } }
+    ]
   },
   {
     "type": "enchantment",
@@ -14,7 +20,7 @@
     "hit_you_effect": [ { "id": "pyro_aura_attack" ,  "hit_self": false }  ],
     "hit_me_effect": [ { "id": "pyro_aura_attacked" ,  "hit_self": false } ],
     "emitter": "emit_pyrokin_fever",
-    "value": [ { "value": "LUMINATION", "add": 50 } ]
+    "values": [ { "value": "LUMINATION", "add": 50 } ]
   },
   {
     "id": "pyro_aura_attack",
