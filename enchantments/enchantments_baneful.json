@@ -12,5 +12,12 @@
         } 
       ] 
     }
+  },
+  {
+    "type": "enchantment",
+    "id": "enchant_pyrokin_fever",
+    "condition": "ALWAYS",
+    "has": "HELD",
+    "emitter": "emit_pyrokin_fever"
   }
 ]
