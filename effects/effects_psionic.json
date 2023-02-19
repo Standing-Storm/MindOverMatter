@@ -240,15 +240,7 @@
 		"apply_message": "",
 		"remove_message": "A cool breeze hits your skin.",
 		"rating": "good",
-		"enchantments": [ 
-			{ "values": [
-				{ "value": "CLIMATE_CONTROL_CHILL", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "pyrokinetic_cloak" }, "*", { "const": 3 } ] } },
-				{ "value": "CLIMATE_CONTROL_HEAT", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "pyrokinetic_cloak" }, "*", { "const": 10 } ] } },
-				{ "value": "ARMOR_HEAT", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "pyrokinetic_cloak" }, "*", { "const": -10 } ] } },
-				{ "value": "ARMOR_COLD", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "pyrokinetic_cloak" }, "*", { "const": -3 } ] } }
-			]
-			}
-		]
+		"enchantments": [ "enchant_pyrokin_cloak" ]
 	},
 	{
 		"type": "effect_type",
