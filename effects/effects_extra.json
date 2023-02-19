@@ -87,6 +87,24 @@
   },
 	{
 		"type": "effect_type",
+		"id": "effect_telekin_overload",
+		"name": [ "Oppressive Weight" ],
+		"desc": [ "" ],
+		"apple_message": [ "The air itself seems to press down on you!" ],
+		"remove_message": "The oppressive weight vanishes",
+		"rating": "bad",
+		"max_intensity": 10,  
+		"enchantments": [
+			{  
+				"values": [ 
+					{ "value": "CARRY_WEIGHT", "multiply": 0.75 },
+					{ "value": "MOVE_COST", "multiply": 1.5 }
+				]
+			}
+		]
+	},
+	{
+		"type": "effect_type",
 		"id": "effect_vitakin_overload",
 		"name": [ "Enervated" ],
 		"desc": [ "Your muscles and coordination are impaired." ],
