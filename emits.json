@@ -2,7 +2,7 @@
   {
     "id": "emit_pyrokin_fever",
     "type": "emit",
-    "field": "fd_hot_air4",
+    "field": "fd_hot_air3",
     "intensity": 3,
     "qty": 20
   }
