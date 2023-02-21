@@ -10,11 +10,12 @@
     "difficulty": 3,
     "time": "5 h",
     "qualities": [ { "id": "HAMMER_FINE", "level": 1 }, { "id": "FINE_GRIND", "level": 1 }, { "id": "VISE", "level": 1 } ],
+    "tools": [ [ [ "angle_grinder", 50 ] ] ],
     "proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_psionic_basic", "required": false }
     ],
-    "using": [ [ [ "soldering_standard", 15 ] ] ],
+    "using": [ [ [ "soldering_standard", 15 ] ], [ [ "steel_tiny", 2 ] ] ],
     "components": [ 
       [ [ "matrix_crystal_drained", 4 ] ] 
     ]
