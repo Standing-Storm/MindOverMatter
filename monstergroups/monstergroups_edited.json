@@ -1,18 +1,4 @@
 [
-    {
-			"name": "GROUP_FERAL_PSYCHIC",
-			"type": "monstergroup",
-			"monsters": [
-				{ "monster": "mon_null", "weight": 2 },
-				{ "monster": "mon_feral_human_bio", "weight": 1, "cost_multiplier": 2 },
-				{ "monster": "mon_feral_human_clair", "weight": 1 },
-				{ "monster": "mon_feral_human_pyrokin", "weight": 1, "cost_multiplier": 3 },
-				{ "monster": "mon_feral_human_telekin", "weight": 1, "cost_multiplier": 2 },
-				{ "monster": "mon_feral_human_teep", "weight": 1 },
-				{ "monster": "mon_feral_human_porter", "weight": 1 },
-				{ "monster": "mon_feral_human_vita", "weight": 1 }
-			]
-		},
 	{
 		"name": "GROUP_PARK_SCENIC",
 		"type": "monstergroup",
