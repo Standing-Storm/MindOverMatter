@@ -1,0 +1,19 @@
+[
+  {
+    "id": "matrix_channeling_tool",
+    "type": "TOOL",
+    "name": { "str": "matrix channeling array" },
+    "description": "A set of matrix crystals aligned together to direct Netherium energy.",
+    "weight": "2500 g",
+    "volume": "500 ml",
+    "longest_side": "15 cm",
+    "price": 2000,
+    "price_postapoc": 50,
+    "to_hit": -2,
+    "bashing": 2,
+    "material": [ "nether_crystal", "steel" ],
+    "symbol": "[",
+    "color": "white",
+    "qualities": [ [ "MANA_INFUSE", 1 ] ],
+  }
+]
