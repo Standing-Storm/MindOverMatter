@@ -16,7 +16,7 @@
       "sound_fail": "whack!",
       "sound_vol": 16,
       "sound_fail_vol": 10,
-      "ter_set": "t_dirt",
+      "ter_set": "t_grass_alien",
       "items": [ { "item": "matrix_shard", "count": [ 34, 50 ] } ]
     }
 	}
