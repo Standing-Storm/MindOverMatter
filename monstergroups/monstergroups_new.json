@@ -1,0 +1,35 @@
+[
+  {
+    "name": "GROUP_FERAL_PSYCHIC",
+    "type": "monstergroup",
+    "monsters": [
+      { "monster": "mon_null", "weight": 2 },
+      { "monster": "mon_feral_human_bio", "weight": 1, "cost_multiplier": 2 },
+      { "monster": "mon_feral_human_clair", "weight": 1 },
+      { "monster": "mon_feral_human_pyrokin", "weight": 1, "cost_multiplier": 3 },
+      { "monster": "mon_feral_human_telekin", "weight": 1, "cost_multiplier": 2 },
+      { "monster": "mon_feral_human_teep", "weight": 1 },
+      { "monster": "mon_feral_human_porter", "weight": 1 },
+      { "monster": "mon_feral_human_vita", "weight": 1 }
+    ]
+  },
+  {
+    "name": "GROUP_CRYSTAL_FIELD",
+    "type": "monstergroup",
+    "monsters": [
+      { "monster": "mon_null", "weight": 5 },
+      { "monster": "mon_feral_human_bio", "weight": 3, "cost_multiplier": 2 },
+      { "monster": "mon_feral_human_clair", "weight": 3 },
+      { "monster": "mon_feral_human_pyrokin", "weight": 3, "cost_multiplier": 3 },
+      { "monster": "mon_feral_human_telekin", "weight": 3, "cost_multiplier": 2 },
+      { "monster": "mon_feral_human_teep", "weight": 3 },
+      { "monster": "mon_feral_human_porter", "weight": 3 },
+      { "monster": "mon_feral_human_vita", "weight": 3 },
+      { "monster": "mon_gelatin", "weight": 2 },
+      { "monster": "mon_flaming_eye", "weight": 1, "cost_multiplier": 10 },
+      { "monster": "mon_kreck", "weight": 1, "cost_multiplier": 5 },
+      { "monster": "mon_gracke", "weight": 2 },
+      { "monster": "mon_mi_go", "weight": 2 },
+      { "monster": "mon_mi_go_slaver", "weight": 1, "cost_multiplier": 2, "starts": "210 hours" },
+  }
+]
