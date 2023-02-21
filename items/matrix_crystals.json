@@ -80,5 +80,27 @@
     "material": [ "nether_crystal" ],
     "looks-like": "art_crystal",
     "use_action": { "type": "effect_on_conditions", "description": "The faint light calls to you.", "effect_on_conditions": [ "EOC_DRAINED_MATRIX" ] }
+  },
+  {
+    "type": "TOOL",
+    "id": "matrix_shard",
+    "symbol": ",",
+    "color": "white",
+    "name": { "str": "strange crystal shard" },
+    "category": "other",
+    "description": "A very heavy chunk of a strange crystalline outcropping.  You could use it as a weapon, but you might want to wear gloves.",
+    "material": [ "nether_crystal" ],
+    "weight": "450 g",
+    "volume": "30 ml",
+    "cutting": 6,
+    "use_action": {
+      "type": "place_trap",
+      "trap": "tr_glass",
+      "moves": 150,
+      "practice": 2,
+      "done_message": "You carefully place the shards on the ground, ready to be cracked by something passing by."
+    },
+    "flags": [ "HURT_WHEN_WIELDED", "TRADER_AVOID" ],
+    "to_hit": -1
   }
 ]
