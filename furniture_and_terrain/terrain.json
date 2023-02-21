@@ -8,6 +8,16 @@
 		"color": "black",
 		"move_cost": 0,
 		"looks-like": "f_boulder_large",
-		"flags": [ "ALLOW_ON_OPEN_AIR", "PERMEABLE", "SHARP" ]
+		"flags": [ "ALLOW_ON_OPEN_AIR", "PERMEABLE", "SHARP" ],
+		"bash": {
+      "str_min": 20,
+      "str_max": 50,
+      "sound": "crystal shattering!",
+      "sound_fail": "whack!",
+      "sound_vol": 16,
+      "sound_fail_vol": 10,
+      "ter_set": "t_dirt",
+      "items": [ { "item": "matrix_shard", "count": [ 34, 50 ] } ]
+    }
 	}
 ]
