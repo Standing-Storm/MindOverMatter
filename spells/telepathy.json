@@ -69,7 +69,7 @@
 		"shape": "blast",
 		"difficulty": 4,
 		"max_level": 20,
-		"min_duration": 2000,
+		"min_duration": 1000,
 		"max_duration": 10000,
 		"duration_increment": 200,
 		"energy_source": "STAMINA",
