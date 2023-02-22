@@ -122,16 +122,38 @@
 	{
 		"type": "monstergroup",
     "name": "GROUP_DISTORTED_MICROLAB",
-		 "monsters": [
-			  { "monster": "mon_feral_scientist_psychic", "freq": 20, "cost_multiplier": 1 },
-			 { "monster": "mon_feral_human_porter3", "freq": 35, "cost_multiplier": 1 }
-			 ]
+		"monsters": [
+			{ "monster": "mon_feral_scientist_psychic", "freq": 20, "cost_multiplier": 1 },
+			{ "monster": "mon_feral_human_porter3", "freq": 35, "cost_multiplier": 1 },
+			{ "monster": "mon_nether_eater", "freq": 60, "cost_multiplier": 1 }
+		]
 	},
 	{
 		"type": "monstergroup",
     "name": "GROUP_LAB_RESEARCHERS",
-		 "monsters": [
-			  { "monster": "mon_feral_scientist_psychic", "weight": 10, "cost_multiplier": 5 }
-			 ]
+		"monsters": [
+			{ "monster": "mon_feral_scientist_psychic", "weight": 10, "cost_multiplier": 5 }
+		]
+	},
+	{
+		"type": "monstergroup",
+		"name": "GROUP_NETHER_FATIGUE_FIELD",
+		"monsters": [
+			{ "monster": "mon_nether_eater", "weight": 100, "cost_multiplier": 0 }
+		]
+	},
+	{
+		"type": "monstergroup",
+		"name": "GROUP_NETHER",
+		"monsters": [
+			{ "monster": "mon_nether_eater", "weight": 120, "cost_multiplier": 0 }
+		]
+	},
+	{
+		"type": "monstergroup",
+		"name": "GROUP_NETHER_PORTAL",
+		"monsters": [
+			{ "monster": "mon_nether_eater", "weight": 200, "cost_multiplier": 0 }
+		]
 	}
 ]
