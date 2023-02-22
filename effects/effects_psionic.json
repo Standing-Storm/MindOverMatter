@@ -7,6 +7,8 @@
 		"apply_message": "",
 		"remove_message": "The surge of power fades away.",
 		"rating": "good",
+		"max_duration": 180000, 
+		"dur_add_perc": 30,
 		"removes_effects": [ "venom_weaken" ],
 		"base_mods": { "str_mod": [ 1 ], "dex_mod": [ 1 ] },
 		"enchantments": [
@@ -27,7 +29,9 @@
 		"remove_message": "Your wounds ache once again.",
 		"rating": "good",
 		"max_duration": "15 m",
+		"dur_add_perc": 30,
 		"base_mods": { "pkill_tick": [ 12 ], "pkill_min": [ 1 ], "pkill_max_val": [ 30 ] }
+	
 	},
 	{
 		"type": "effect_type",
@@ -38,7 +42,9 @@
 		"remove_message": "Your wounds ache once again.",
 		"rating": "good",
 		"max_duration": "20 m",
-		"base_mods": { "pkill_tick": [ 10 ], "pkill_min": [ 1 ], "pkill_max_val": [ 65 ] }	
+		"dur_add_perc": 30,
+		"base_mods": { "pkill_tick": [ 10 ], "pkill_min": [ 1 ], "pkill_max_val": [ 65 ] }
+		
 	},
 	{
 		"type": "effect_type",
@@ -49,7 +55,9 @@
 		"remove_message": "Your wounds ache once again.",
 		"rating": "good",
 		"max_duration": "25 m",
-		"base_mods": { "pkill_tick": [ 10 ], "pkill_min": [ 2 ], "pkill_max_val": [ 100 ] }
+		"dur_add_perc": 30,
+		"base_mods": { "pkill_tick": [ 10 ], "pkill_min": [ 2 ], "pkill_max_val": [ 100 ] },
+		
 	},
 	{
 		"type": "effect_type",
@@ -60,7 +68,9 @@
 		"remove_message": "Your wounds ache once again.",
 		"rating": "good",
 		"max_duration": "30 m",
-		"base_mods": { "pkill_tick": [ 8 ], "pkill_min": [ 2 ], "pkill_max_val": [ 150 ] }
+		"dur_add_perc": 30,
+		"base_mods": { "pkill_tick": [ 8 ], "pkill_min": [ 2 ], "pkill_max_val": [ 150 ] },
+		
 	},
 	{
 		"type": "effect_type",
@@ -71,7 +81,9 @@
 		"remove_message": "Your wounds ache once again.",
 		"rating": "good",
 		"max_duration": "40 m",
-		"base_mods": { "pkill_tick": [ 8 ], "pkill_min": [ 3 ], "pkill_max_val": [ 200 ] }
+		"dur_add_perc": 30,
+		"base_mods": { "pkill_tick": [ 8 ], "pkill_min": [ 3 ], "pkill_max_val": [ 200 ] },	
+		
 	},
 	{
 		"type": "effect_type",
@@ -82,7 +94,8 @@
 		"remove_message": "Your wounds ache once again.",
 		"rating": "good",
 		"max_duration": "45 m",
-		"base_mods": { "pkill_tick": [ 6 ], "pkill_min": [ 3 ], "pkill_max_val": [ 300 ] }
+		"dur_add_perc": 30,
+		"base_mods": { "pkill_tick": [ 6 ], "pkill_min": [ 3 ], "pkill_max_val": [ 300 ] },	
 	},
 	{   
 		"type": "effect_type",
@@ -92,6 +105,8 @@
 		"apply_message": "",
 		"remove_message": "The world speeds up again.",
 		"rating": "good",
+		"max_duration": 180000, 
+		"dur_add_perc": 40,
 		"removes_effects": [ "blind", "deaf" ],
 		"base_mods": { "per_mod": [ 1 ], "speed_mod": [5] },
 		"enchantments": [
@@ -101,7 +116,8 @@
 					{ "value": "SPEED", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "biokin_reflex_enhance" } ] } }
 				]
 			}
-		]
+		],
+
 	},
 	{
 		"type": "effect_type",
@@ -110,8 +126,10 @@
 		"desc": [ "Your skin is more resilient thanks to psionic energy." ],
 		"apply_message": "",
 		"remove_message": "The tingling fades away.",
-		"rating": "good",
+		"rating": "good",		
 		"show_intensity": false,
+		"max_duration": 180000, 
+		"dur_add_perc": 30
 		"blocks_effects": [ "bleed", "hypovolemia", "dermatik" ],
 		"enchantments": [
 			{
@@ -122,7 +140,8 @@
 					{ "value": "PAIN", "multiply": { "arithmetic": [ { "u_val": "spell_level", "spell": "biokin_armor_skin" }, "*", { "const": -0.02 } ] } } 
 				]
 			}
-		]
+		],
+
 	},
 	{
 		"type": "effect_type",
@@ -133,6 +152,8 @@
 		"remove_message": "You let out your breath in a rush.",
 		"rating": "good",
 		"show_intensity": false,
+		"max_duration": 45000, 
+		"dur_add_perc": 50,
 		"blocks_effects": [ "smoke", "teargas", "boomered", "migo_atmosphere", "fetid_goop", "relax_gas", "spores", "dermatik", "tpollen" ],
 		"removes_effects": [ "bleed"],
 		"flags": [ "NO_SCENT", "ELECTRIC_IMMUNE", "RAD_RESIST" ]
@@ -146,6 +167,8 @@
 		"remove_message": "Your movements return to normal.",
 		"rating": "good",
 		"show_intensity": false,
+		"max_duration": 60000, 
+		"dur_add_perc": 40,
 		"removes_effects": [ "stunned", "dazed" ],
 		"enchantments": [
 			{
@@ -169,6 +192,8 @@
 		"apply_message": "",
 		"remove_message": "The darkness hides your surroundings again.",
 		"rating": "good",
+		"max_duration": 720000, 
+		"dur_add_perc": 30,
 		"flags": [ "NIGHT_VISION", "INFRARED" ]
 	},
 	{
@@ -179,6 +204,8 @@
 		"apply_message": "",
 		"remove_message": "The line fades away.",
 		"rating": "good",
+		"max_duration": 30000, 
+		"dur_add_perc": 50,
 		"enchantments": [
 			{
 				"values": [
@@ -196,6 +223,8 @@
 		"apply_message": "",
 		"remove_message": "The images fade away.",
 		"rating": "good",
+		"max_duration": 90000, 
+		"dur_add_perc": 50,
 		"blocks_effects": [ "grabbed" ],
 		"enchantments": [
 			{
@@ -214,6 +243,8 @@
 		"apply_message": "",
 		"remove_message": "The world seems wrapped in gauze compared to before.",
 		"rating": "good",
+		"max_duration": 90000, 
+		"dur_add_perc": 40,
 		"removes_effects": [
 			"dazed",
 			"stunned",
@@ -240,6 +271,8 @@
 		"apply_message": "",
 		"remove_message": "A cool breeze hits your skin.",
 		"rating": "good",
+		"max_duration": 360000, 
+		"dur_add_perc": 30,
 		"enchantments": [ "enchant_pyrokin_cloak" ]
 	},
 	{
@@ -250,6 +283,8 @@
 		"apply_message": "",
 		"remove_message": "The flames surrounding you gutter out.",
 		"rating": "good",
+		"max_duration": 90000, 
+		"dur_add_perc": 50,
 		"enchantments": [ "enchant_pyrokinetic_aura" ]
 	},
 	{
@@ -261,6 +296,8 @@
 		"apply_message": "",
 		"remove_message": "The barrier of force around you falls apart.",
 		"rating": "good",
+		"max_duration": 360000, 
+		"dur_add_perc": 30,
 		"enchantments": [ 
 			{ "values": [
 				{ "value": "ARMOR_CUT", "add": {"arithmetic": [ { "u_val": "spell_level", "spell": "telekinetic_shield" }, "*", { "const": -1 } ] } },
@@ -283,6 +320,8 @@
 		"apply_message": "",
 		"remove_message": "You shake your head as you become aware of the outside world again.",
 		"rating": "good",
+		"max_duration": 1080000, 
+		"dur_add_perc": 20,
 		"enchantments": [ 
 			{ "values": [
 				{ "value": "LEARNING_FOCUS", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "telepathic_concentration" }, "*", { "const": 2.5 } ] } },
@@ -300,6 +339,8 @@
 		"apply_message": "",
 		"remove_message": "Your thoughts are once again unguarded.",
 		"rating": "good",
+		"max_duration": 60000, 
+		"dur_add_perc": 40,
 		"removes_effects": [
 			"taint", 
 			"tindrift", 
@@ -319,6 +360,8 @@
 		"apply_message": "The air ripples and you stumble.",
 		"remove_message": "Your eyes and your legs agree with each other again.",
 		"rating": "bad",
+		"max_duration": 3000, 
+		"dur_add_perc": 5,
 		"base_mods": { "speed_mod": [ -40 ] },
 		"immunity_flags": [ "DIMENSIONAL_ANCHOR", "TELESTOP" ]
 	},
@@ -330,6 +373,8 @@
 		"apply_message": "",
 		"remove_message": "All of the day's hardships seem to catch up with you.",
 		"rating": "good",
+		"max_duration": 720000, 
+		"dur_add_perc": 30,
 		"blocks_effects": [ "scurvy", "redcells_anemia", "anemia", "toxin_buildup", "common_cold", "flu" ],
 		"base_mods": { "health_min": [ 1 ], "health_chance": [ 50 ], "h_mod_min": [ 2 ], "h_mod_chance": [ 50 ], "healing_rate": [ 2 ] }
 	},
