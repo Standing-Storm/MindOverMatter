@@ -1,0 +1,36 @@
+[
+  {
+    "id": "mon_nether_eater",
+    "type": "MONSTER",
+    "name": { "str": "eater" },
+    "description": "A thicket of opalescent diaphanous fronds, lazily waving in the air.  The central core, if it exists, is obscured by their constant motion.  There are no obvious sensory organs, but as you approach the motion of the fronds changes slightly.",
+    "default_faction": "nether",
+    "species": [ "NETHER" ],
+    "diff": 15,
+    "volume": "41500 ml",
+    "weight": "26500 g",
+    "hp": 150,
+    "speed": 100,
+    "material": [ "null" ],
+    "symbol": "E",
+    "color": "red",
+    "morale": 100,
+    "aggression": 100,
+    "melee_damage": [ { "damage_type": "cut", "amount": 0 } ],
+    "dodge": 8,
+    "armor_stab": 10,
+    "armor_bullet": 40,
+    "bleed_rate": 0,
+    "vision_day": 20,
+    "vision_night": 40,
+    "harvest": "exempt",
+    "special_attacks": [
+      {
+        "type": "spell", "spell_data": { "id": "eater_drain_monster", "min_level": 5 },
+        "cooldown": 3
+      }
+    ],
+    "death_function": { "corpse_type": "NO_CORPSE", "message": "The %s melts away." },
+    "flags": [ "SEES", "WARM", "FLIES", "NO_BREATHE", "NOHEAD", "ACIDPROOF", "HARDTOSHOOT", "PLASTIC", "NOGIB"  ]
+  }
+]
