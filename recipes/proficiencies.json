@@ -23,8 +23,8 @@
      "name": { "str": "Netherium Mathematics" },
      "description": "You know a bit about the physical(?) laws of the Netherium and can manipulate them to a certain extent.",
      "can_learn": true,
-     "default_time_multiplier": 1,
-     "default_fail_multiplier": 2,
-     "time_to_learn": "60 h"
+     "default_time_multiplier": 1.8,
+     "default_fail_multiplier": 1.2,
+     "time_to_learn": "20 h"
    }
  ]
