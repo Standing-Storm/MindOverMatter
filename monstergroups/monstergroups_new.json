@@ -30,6 +30,6 @@
       { "monster": "mon_kreck", "weight": 1, "cost_multiplier": 5 },
       { "monster": "mon_gracke", "weight": 2 },
       { "monster": "mon_mi_go", "weight": 2 },
-      { "monster": "mon_mi_go_slaver", "weight": 1, "cost_multiplier": 2, "starts": "210 hours" },
+      { "monster": "mon_mi_go_slaver", "weight": 1, "cost_multiplier": 2, "starts": "210 hours" }
   }
 ]
