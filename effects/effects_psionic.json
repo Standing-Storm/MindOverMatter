@@ -6,9 +6,11 @@
 		"desc": [ "You are enhancing your physical prowess." ],
 		"apply_message": "",
 		"remove_message": "The surge of power fades away.",
+		"decay_messages": [ [ "The power filling your body is starting to dissipate.", "bad" ] ],
 		"rating": "good",
 		"max_duration": 180000, 
 		"dur_add_perc": 30,
+		"int_dur_factor": "19 seconds",
 		"removes_effects": [ "venom_weaken" ],
 		"base_mods": { "str_mod": [ 1 ], "dex_mod": [ 1 ] },
 		"enchantments": [
@@ -26,10 +28,12 @@
 		"name": [ "Overcoming Minor Pain" ],
 		"desc": [ "Your powers are slightly lessening the pain you feel." ],
 		"apply_message": "",
-		"remove_message": "Your wounds ache once again.",
+		"remove_message": "Your wounds ache once again.",	
+		"decay_messages": [ [ "The pain you've been keeping away is starting to creep back in.", "bad" ] ],
 		"rating": "good",
 		"max_duration": "15 m",
 		"dur_add_perc": 30,
+		"int_dur_factor": "15 seconds",
 		"base_mods": { "pkill_tick": [ 12 ], "pkill_min": [ 1 ], "pkill_max_val": [ 30 ] }
 	
 	},
@@ -40,9 +44,11 @@
 		"desc": [ "Your powers are lessening the pain you feel." ],
 		"apply_message": "",
 		"remove_message": "Your wounds ache once again.",
+		"decay_messages": [ [ "The pain you've been keeping away is starting to creep back in.", "bad" ] ],
 		"rating": "good",
 		"max_duration": "20 m",
 		"dur_add_perc": 30,
+		"int_dur_factor": "20 seconds",
 		"base_mods": { "pkill_tick": [ 10 ], "pkill_min": [ 1 ], "pkill_max_val": [ 65 ] }
 		
 	},
@@ -53,9 +59,11 @@
 		"desc": [ "Your powers are lessening the pain you feel." ],
 		"apply_message": "",
 		"remove_message": "Your wounds ache once again.",
+		"decay_messages": [ [ "The pain you've been keeping away is starting to creep back in.", "bad" ] ],
 		"rating": "good",
 		"max_duration": "25 m",
 		"dur_add_perc": 30,
+		"int_dur_factor": "25 seconds",
 		"base_mods": { "pkill_tick": [ 10 ], "pkill_min": [ 2 ], "pkill_max_val": [ 100 ] },
 		
 	},
@@ -66,9 +74,11 @@
 		"desc": [ "Your powers are greatly lessening the pain you feel." ],
 		"apply_message": "",
 		"remove_message": "Your wounds ache once again.",
+		"decay_messages": [ [ "The pain you've been keeping away is starting to creep back in.", "bad" ] ],
 		"rating": "good",
 		"max_duration": "30 m",
 		"dur_add_perc": 30,
+		"int_dur_factor": "30 seconds",
 		"base_mods": { "pkill_tick": [ 8 ], "pkill_min": [ 2 ], "pkill_max_val": [ 150 ] },
 		
 	},
@@ -79,9 +89,11 @@
 		"desc": [ "Your powers are greatly lessening the pain you feel." ],
 		"apply_message": "",
 		"remove_message": "Your wounds ache once again.",
+		"decay_messages": [ [ "The pain you've been keeping away is starting to creep back in.", "bad" ] ],
 		"rating": "good",
 		"max_duration": "40 m",
 		"dur_add_perc": 30,
+		"int_dur_factor": "40 seconds",
 		"base_mods": { "pkill_tick": [ 8 ], "pkill_min": [ 3 ], "pkill_max_val": [ 200 ] },	
 		
 	},
@@ -92,9 +104,11 @@
 		"desc": [ "Your powers are enormously lessening the pain you feel." ],
 		"apply_message": "",
 		"remove_message": "Your wounds ache once again.",
+		"decay_messages": [ [ "The pain you've been keeping away is starting to creep back in.", "bad" ] ],
 		"rating": "good",
 		"max_duration": "45 m",
 		"dur_add_perc": 30,
+		"int_dur_factor": "45 seconds",
 		"base_mods": { "pkill_tick": [ 6 ], "pkill_min": [ 3 ], "pkill_max_val": [ 300 ] },	
 	},
 	{   
@@ -104,9 +118,11 @@
 		"desc": [ "You are enhancing your speed and senses." ],
 		"apply_message": "",
 		"remove_message": "The world speeds up again.",
+		"decay_messages": [ [ "You movements are gradually becoming slower.", "bad" ] ],
 		"rating": "good",
 		"max_duration": 180000, 
 		"dur_add_perc": 40,
+		"int_dur_factor": "17 seconds",
 		"removes_effects": [ "blind", "deaf" ],
 		"base_mods": { "per_mod": [ 1 ], "speed_mod": [5] },
 		"enchantments": [
@@ -126,10 +142,12 @@
 		"desc": [ "Your skin is more resilient thanks to psionic energy." ],
 		"apply_message": "",
 		"remove_message": "The tingling fades away.",
+		"decay_messages": [ [ "The tingle across your skin is starting to lessen.", "bad" ] ],
 		"rating": "good",		
 		"show_intensity": false,
 		"max_duration": 180000, 
-		"dur_add_perc": 30
+		"dur_add_perc": 30,
+		"int_dur_factor": "23 seconds",
 		"blocks_effects": [ "bleed", "hypovolemia", "dermatik" ],
 		"enchantments": [
 			{
@@ -150,10 +168,12 @@
 		"desc": [ "You are protected from the dangers of the world." ],
 		"apply_message": "",
 		"remove_message": "You let out your breath in a rush.",
+		"decay_messages": [ [ "You need to take a new breath, and soon.", "bad" ] ],
 		"rating": "good",
 		"show_intensity": false,
 		"max_duration": 45000, 
 		"dur_add_perc": 50,
+		"int_dur_factor": "9 seconds",
 		"blocks_effects": [ "smoke", "teargas", "boomered", "migo_atmosphere", "fetid_goop", "relax_gas", "spores", "dermatik", "tpollen" ],
 		"removes_effects": [ "bleed"],
 		"flags": [ "NO_SCENT", "ELECTRIC_IMMUNE", "RAD_RESIST" ]
@@ -165,10 +185,12 @@
 		"desc": [ "You are a dynamo of death." ],
 		"apply_message": "",
 		"remove_message": "Your movements return to normal.",
+		"decay_messages": [ [ "The rush of power filling you is beginning to ebb.", "bad" ] ],
 		"rating": "good",
 		"show_intensity": false,
 		"max_duration": 60000, 
 		"dur_add_perc": 40,
+		"int_dur_factor": "21 seconds",
 		"removes_effects": [ "stunned", "dazed" ],
 		"enchantments": [
 			{
@@ -191,9 +213,11 @@
 		"desc": [ "You can sense your surroundings in the dark." ],
 		"apply_message": "",
 		"remove_message": "The darkness hides your surroundings again.",
+		"decay_messages": [ [ "Darkness begins to creep across your vision.", "bad" ] ],
 		"rating": "good",
 		"max_duration": 720000, 
 		"dur_add_perc": 30,
+		"int_dur_factor": "34 seconds",
 		"flags": [ "NIGHT_VISION", "INFRARED" ]
 	},
 	{
@@ -203,9 +227,11 @@
 		"desc": [ "You know exactly where to go." ],
 		"apply_message": "",
 		"remove_message": "The line fades away.",
+		"decay_messages": [ [ "The line you've been following grows fainter and fainter.", "bad" ] ],
 		"rating": "good",
 		"max_duration": 30000, 
 		"dur_add_perc": 50,
+		"int_dur_factor": "8 seconds",
 		"enchantments": [
 			{
 				"values": [
@@ -222,9 +248,11 @@
 		"desc": [ "You can see your enemies' attacks in advance." ],
 		"apply_message": "",
 		"remove_message": "The images fade away.",
+		"decay_messages": [ [ "Your vision of your enemies' actions is becoming indistinct.", "bad" ] ],
 		"rating": "good",
 		"max_duration": 90000, 
 		"dur_add_perc": 50,
+		"int_dur_factor": "14 seconds",
 		"blocks_effects": [ "grabbed" ],
 		"enchantments": [
 			{
@@ -242,9 +270,11 @@
 		"desc": [ "Your powers allow you to see the true shape of reality." ],
 		"apply_message": "",
 		"remove_message": "The world seems wrapped in gauze compared to before.",
+		"decay_messages": [ [ "You are growing less sure about the true nature of the world.", "bad" ] ],
 		"rating": "good",
 		"max_duration": 90000, 
 		"dur_add_perc": 40,
+		"int_dur_factor": "21 seconds",
 		"removes_effects": [
 			"dazed",
 			"stunned",
@@ -270,9 +300,11 @@
 		"desc": [ "The air around you has its temperature controlled." ],
 		"apply_message": "",
 		"remove_message": "A cool breeze hits your skin.",
+		"decay_messages": [ [ "The air around you is slowing beginning to cool.", "bad" ] ],
 		"rating": "good",
 		"max_duration": 360000, 
 		"dur_add_perc": 30,
+		"int_dur_factor": "26 seconds",
 		"enchantments": [ "enchant_pyrokin_cloak" ]
 	},
 	{
@@ -282,9 +314,11 @@
 		"desc": [ "You are surrounded by flames."],
 		"apply_message": "",
 		"remove_message": "The flames surrounding you gutter out.",
+		"decay_messages": [ [ "Your aura of flames is beginning to fade.", "bad" ] ],
 		"rating": "good",
 		"max_duration": 90000, 
 		"dur_add_perc": 50,
+		"int_dur_factor": "19 seconds",
 		"enchantments": [ "enchant_pyrokinetic_aura" ]
 	},
 	{
@@ -295,9 +329,11 @@
 		"//": "The logic is that this works the reverse of the way mundane physics does--the wider the area of the force applied against it, the weaker it is.",
 		"apply_message": "",
 		"remove_message": "The barrier of force around you falls apart.",
+		"decay_messages": [ [ "You can feel the barrier around you losing its integrity.", "bad" ] ],
 		"rating": "good",
 		"max_duration": 360000, 
 		"dur_add_perc": 30,
+		"int_dur_factor": "32 seconds",
 		"enchantments": [ 
 			{ "values": [
 				{ "value": "ARMOR_CUT", "add": {"arithmetic": [ { "u_val": "spell_level", "spell": "telekinetic_shield" }, "*", { "const": -1 } ] } },
@@ -319,9 +355,11 @@
 		"desc": [ "You are in a focused mental state, increasing the ease of learning." ],
 		"apply_message": "",
 		"remove_message": "You shake your head as you become aware of the outside world again.",
+		"decay_messages": [ [ "The outside world is impinging itself on your awareness.", "bad" ] ],
 		"rating": "good",
 		"max_duration": 1080000, 
 		"dur_add_perc": 20,
+		"int_dur_factor": "95 seconds",
 		"enchantments": [ 
 			{ "values": [
 				{ "value": "LEARNING_FOCUS", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "telepathic_concentration" }, "*", { "const": 2.5 } ] } },
@@ -338,9 +376,11 @@
 		"desc": [ "Your mind is warded against psychic attack." ],
 		"apply_message": "",
 		"remove_message": "Your thoughts are once again unguarded.",
+		"decay_messages": [ [ "The shield guarding your mind is growing thinner.", "bad" ] ],
 		"rating": "good",
 		"max_duration": 60000, 
 		"dur_add_perc": 40,
+		"int_dur_factor": "25 seconds",
 		"removes_effects": [
 			"taint", 
 			"tindrift", 
@@ -372,9 +412,11 @@
 		"desc": [ "You feel amazing." ],
 		"apply_message": "",
 		"remove_message": "All of the day's hardships seem to catch up with you.",
+		"decay_messages": [ [ "The vitality your powers gave you is starting to fade.", "bad" ] ],
 		"rating": "good",
 		"max_duration": 720000, 
 		"dur_add_perc": 30,
+		"int_dur_factor": "33 seconds",
 		"blocks_effects": [ "scurvy", "redcells_anemia", "anemia", "toxin_buildup", "common_cold", "flu" ],
 		"base_mods": { "health_min": [ 1 ], "health_chance": [ 50 ], "h_mod_min": [ 2 ], "h_mod_chance": [ 50 ], "healing_rate": [ 2 ] }
 	},
