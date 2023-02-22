@@ -7,7 +7,7 @@
 		"apply_message": "",
 		"remove_message": "The surge of power fades away.",
 		"decay_messages": [ 
-			[ "You are growing weaker as your enchanced strength fades.", "bad" ]
+			[ "You are growing weaker as your enchanced strength fades.", "bad" ],
 			[ "The power filling your body is starting to dissipate.", "bad" ] 
 		],
 		"rating": "good",
@@ -149,7 +149,7 @@
 		"apply_message": "",
 		"remove_message": "The tingling fades away.",
 		"decay_messages": [ 
-			[ "The minor scratches you've gotten slowly start to ache a bit as your powers fade.", "bad" ],
+			[ "The minor scratches you've gotten slowly start to ache as your powers fade.", "bad" ],
 			[ "The tingle across your skin is starting to lessen.", "bad" ] 
 		],
 		"rating": "good",		
@@ -266,7 +266,10 @@
 		"desc": [ "You can see your enemies' attacks in advance." ],
 		"apply_message": "",
 		"remove_message": "The images fade away.",
-		"decay_messages": [ [ "Your vision of your enemies' actions is becoming indistinct.", "bad" ] ],
+		"decay_messages": [ 
+			[ "The images of your enemies' actions are almost invisible now.", "bad"],
+			[ "Your vision of your enemies' actions is becoming indistinct.", "bad" ] 
+		],
 		"rating": "good",
 		"max_duration": 90000, 
 		"dur_add_perc": 50,
