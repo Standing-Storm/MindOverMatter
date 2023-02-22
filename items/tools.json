@@ -14,6 +14,6 @@
     "material": [ "nether_crystal", "steel" ],
     "symbol": "[",
     "color": "white",
-    "qualities": [ [ "MANA_INFUSE", 1 ] ]
+    "qualities": [ [ "MATRIX_CHANNEL", 1 ] ]
   }
 ]
