@@ -26,42 +26,98 @@
     "type": "item_group",
     "id": "homebooks",
     "copy-from": "homebooks",
-    "extend": { "items": [ { "item": "manual_meditation", "prob": 3 }, { "item": "manual_meditation_int", "prob": 1 } ] }
+    "extend": { 
+      "items": [ 
+        { "item": "manual_meditation", "variant": "manual_meditation_1", "prob": 3 }, 
+        { "item": "manual_meditation", "variant": "manual_meditation_2", "prob": 3 },
+        { "item": "manual_meditation", "variant": "manual_meditation_3", "prob": 3 },
+        { "item": "manual_meditation", "variant": "manual_meditation_4", "prob": 3 },
+        { "item": "manual_meditation_int_1", "prob": 1 },
+        { "item": "manual_meditation_int_2", "prob": 1 },
+        { "item": "manual_meditation_int_3", "prob": 1 }
+      ] 
+    }
   },
   {
      "id": "SUS_book_nonf_pulp_newage",
     "type": "item_group",
     "copy-from": "SUS_book_nonf_pulp_newage",
-    "extend": { "items": [ { "item": "manual_meditation", "prob": 7 }, { "item": "manual_meditation_int", "prob": 4 } ] }
+    "extend": { 
+      "items": [ 
+        { "item": "manual_meditation", "variant": "manual_meditation_1", "prob": 8 }, 
+        { "item": "manual_meditation", "variant": "manual_meditation_2", "prob": 6 },
+        { "item": "manual_meditation", "variant": "manual_meditation_3", "prob": 5 },
+        { "item": "manual_meditation", "variant": "manual_meditation_4", "prob": 6 },
+        { "item": "manual_meditation_int_1", "prob": 3 },
+        { "item": "manual_meditation_int_2", "prob": 2 },
+        { "item": "manual_meditation_int_3", "prob": 3 }
+      ] 
+    }
   },
   {
     "type": "item_group",
     "id": "lab_bookshelves",
     "copy-from": "lab_bookshelves",
-    "extend": { "items": [ { "item": "manual_meditation", "prob": 5 }, { "item": "manual_meditation_int", "prob": 3 } ] }
+    "extend": { 
+      "items": [  
+        { "item": "manual_meditation", "variant": "manual_meditation_1", "prob": 5 }, 
+        { "item": "manual_meditation", "variant": "manual_meditation_2", "prob": 6 },
+        { "item": "manual_meditation", "variant": "manual_meditation_3", "prob": 8 },
+        { "item": "manual_meditation_int_1", "prob": 5 },
+        { "item": "manual_meditation_int_2", "prob": 4 },
+        { "item": "manual_meditation_int_3", "prob": 3 }
+      ] 
+    }
   },
   {
     "type": "item_group",
     "id": "mansion_books",
     "copy-from": "mansion_books",
-    "extend": { "items": [ { "item": "manual_meditation", "prob": 8 }, { "item": "manual_meditation_int", "prob": 3 } ] }
+    "extend": { 
+      "items": [ 
+        { "item": "manual_meditation", "variant": "manual_meditation_1", "prob": 8 }, 
+        { "item": "manual_meditation", "variant": "manual_meditation_2", "prob": 9 },
+        { "item": "manual_meditation", "variant": "manual_meditation_3", "prob": 9 },
+        { "item": "manual_meditation", "variant": "manual_meditation_4", "prob": 8 },
+        { "item": "manual_meditation_int_1", "prob": 5 },
+        { "item": "manual_meditation_int_2", "prob": 4 },
+        { "item": "manual_meditation_int_3", "prob": 5 } 
+      ] 
+    }
   },
   {
     "type": "item_group",
     "id": "science",
     "copy-from": "science",
-    "extend": { "items": [ { "item": "manual_psionics_advan", "prob": 2 } ] }
+    "extend": { 
+      "items": [ 
+        { "item": "manual_meditation_int_1", "prob": 6 },
+        { "item": "manual_meditation_int_3", "prob": 3 },
+        { "item": "manual_psionics_advan", "prob": 3 } 
+      ] 
+    }
   },
   {
      "type": "item_group",
     "id": "chem_lab",
     "copy-from": "chem_lab",
-    "extend": { "items": [ { "item": "manual_psionics_advan", "prob": 2 } ] }
+    "extend": { 
+      "items": [ 
+        { "item": "manual_meditation_int_1", "prob": 4 },
+        { "item": "manual_meditation_int_3", "prob": 2 },
+        { "item": "manual_psionics_advan", "prob": 3 } 
+      ] 
+    }
   },
   {
-     "type": "item_group",
+    "type": "item_group",
     "id": "textbooks_school",
     "copy-from": "textbooks_school",
-    "extend": { "items": [ { "item": "manual_meditation", "prob": 4 } ] }
+    "extend": { 
+      "items": [ 
+        { "item": "manual_meditation", "variant": "manual_meditation_1", "prob": 5 }, 
+        { "item": "manual_meditation", "variant": "manual_meditation_2", "prob": 3 }
+      ] 
+    }
   }
 ]
