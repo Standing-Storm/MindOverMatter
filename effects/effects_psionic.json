@@ -118,11 +118,11 @@
 		"desc": [ "You are enhancing your speed and senses." ],
 		"apply_message": "",
 		"remove_message": "The world speeds up again.",
-		"decay_messages": [ [ "You movements are gradually becoming slower.", "bad" ] ],
+		"decay_messages": [ [ "Your movements are gradually becoming slower.", "bad" ] ],
 		"rating": "good",
 		"max_duration": 180000, 
 		"dur_add_perc": 40,
-		"int_dur_factor": "17 seconds",
+		"int_dur_factor": "47 seconds",
 		"removes_effects": [ "blind", "deaf" ],
 		"base_mods": { "per_mod": [ 1 ], "speed_mod": [5] },
 		"enchantments": [
@@ -147,7 +147,7 @@
 		"show_intensity": false,
 		"max_duration": 180000, 
 		"dur_add_perc": 30,
-		"int_dur_factor": "23 seconds",
+		"int_dur_factor": "54 seconds",
 		"blocks_effects": [ "bleed", "hypovolemia", "dermatik" ],
 		"enchantments": [
 			{
@@ -168,7 +168,10 @@
 		"desc": [ "You are protected from the dangers of the world." ],
 		"apply_message": "",
 		"remove_message": "You let out your breath in a rush.",
-		"decay_messages": [ [ "You need to take a new breath, and soon.", "bad" ] ],
+		"decay_messages": [ 
+			[ "You need to take a new breath, and soon!", "bad" ], 
+			[ "Your lungs are straining with the effort of holding your breath.", "bad" ] 
+		],
 		"rating": "good",
 		"show_intensity": false,
 		"max_duration": 45000, 
@@ -190,7 +193,7 @@
 		"show_intensity": false,
 		"max_duration": 60000, 
 		"dur_add_perc": 40,
-		"int_dur_factor": "21 seconds",
+		"int_dur_factor": "24 seconds",
 		"removes_effects": [ "stunned", "dazed" ],
 		"enchantments": [
 			{
@@ -213,7 +216,10 @@
 		"desc": [ "You can sense your surroundings in the dark." ],
 		"apply_message": "",
 		"remove_message": "The darkness hides your surroundings again.",
-		"decay_messages": [ [ "Darkness begins to creep across your vision.", "bad" ] ],
+		"decay_messages": [ 
+			[ "The shadows are growing darker and darker to your sight.", "bad" ],
+			[ "Darkness begins to creep across your vision.", "bad" ] 
+		],
 		"rating": "good",
 		"max_duration": 720000, 
 		"dur_add_perc": 30,
@@ -231,7 +237,7 @@
 		"rating": "good",
 		"max_duration": 30000, 
 		"dur_add_perc": 50,
-		"int_dur_factor": "8 seconds",
+		"int_dur_factor": "18 seconds",
 		"enchantments": [
 			{
 				"values": [
@@ -252,7 +258,7 @@
 		"rating": "good",
 		"max_duration": 90000, 
 		"dur_add_perc": 50,
-		"int_dur_factor": "14 seconds",
+		"int_dur_factor": "24 seconds",
 		"blocks_effects": [ "grabbed" ],
 		"enchantments": [
 			{
@@ -304,7 +310,7 @@
 		"rating": "good",
 		"max_duration": 360000, 
 		"dur_add_perc": 30,
-		"int_dur_factor": "26 seconds",
+		"int_dur_factor": "46 seconds",
 		"enchantments": [ "enchant_pyrokin_cloak" ]
 	},
 	{
@@ -318,7 +324,7 @@
 		"rating": "good",
 		"max_duration": 90000, 
 		"dur_add_perc": 50,
-		"int_dur_factor": "19 seconds",
+		"int_dur_factor": "29 seconds",
 		"enchantments": [ "enchant_pyrokinetic_aura" ]
 	},
 	{
@@ -376,11 +382,14 @@
 		"desc": [ "Your mind is warded against psychic attack." ],
 		"apply_message": "",
 		"remove_message": "Your thoughts are once again unguarded.",
-		"decay_messages": [ [ "The shield guarding your mind is growing thinner.", "bad" ] ],
+		"decay_messages": [ 
+			[ "The barrier around your thoughts is nearly gone","bad" ],
+			[ "The shield guarding your mind is growing thinner.", "bad" ] 
+		],
 		"rating": "good",
 		"max_duration": 60000, 
 		"dur_add_perc": 40,
-		"int_dur_factor": "25 seconds",
+		"int_dur_factor": "35 seconds",
 		"removes_effects": [
 			"taint", 
 			"tindrift", 
@@ -411,12 +420,15 @@
 		"name": [ "Healthy Glow" ],
 		"desc": [ "You feel amazing." ],
 		"apply_message": "",
-		"remove_message": "All of the day's hardships seem to catch up with you.",
-		"decay_messages": [ [ "The vitality your powers gave you is starting to fade.", "bad" ] ],
+		"remove_message": "The surge of vitality leaves you in a rush.",
+		"decay_messages": [ 
+			[ "All of the day's hardships are seeming to catch up with you.", "bad" ],
+			[ "The vitality your powers gave you is starting to fade.", "bad" ] 
+		],
 		"rating": "good",
 		"max_duration": 720000, 
 		"dur_add_perc": 30,
-		"int_dur_factor": "33 seconds",
+		"int_dur_factor": "73 seconds",
 		"blocks_effects": [ "scurvy", "redcells_anemia", "anemia", "toxin_buildup", "common_cold", "flu" ],
 		"base_mods": { "health_min": [ 1 ], "health_chance": [ 50 ], "h_mod_min": [ 2 ], "h_mod_chance": [ 50 ], "healing_rate": [ 2 ] }
 	},
