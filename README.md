@@ -1,5 +1,5 @@
 # Mind Over Matter
-A WIP Psionics mod for Cataclysm: Dark Days Ahead (current status: debugging and balancing powers, adding new content. Mod is functional) 
+A WIP Psionics mod for Cataclysm: Dark Days Ahead (current status: debugging and balancing powers, adding new content. Mod is functional: current version, 0.4 Alpha) 
 
 This mod adds (currently) seven separate psionic power paths to Cataclysm, including:
 
