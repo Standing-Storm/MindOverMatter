@@ -27,6 +27,23 @@
 		"learn_spells": { "telepathic_confusion": 7, "telepathic_blast": 15	}
 	},
 	{
+		"id": "telepathic_concentration_end",
+		"type": "SPELL",
+		"name": "[Ψ]Concentration Trance (Remove)",
+		"description": "End your focused trance, returning to normal.",
+		"message": "You stop concentrating.",
+		"valid_targets": [ "self" ],
+		"spell_class": "TELEPATH",
+		"skill": "metaphysics",
+		"flags": [ "NO_FAIL", "SILENT", "NO_HANDS", "NO_LEGS" ],
+		"effect": "remove_effect",
+		"effect_str": "effect_telepathic_learning_bonus", 
+		"max_level": 1,
+		"energy_source": "STAMINA",
+		"base_energy_cost": 0,
+		"base_casting_time": 30
+	},
+	{
 		"id": "telepathic_shield",
 		"type": "SPELL",
 		"name": "[Ψ]Telepathic Shield",
