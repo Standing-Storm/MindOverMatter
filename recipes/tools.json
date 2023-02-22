@@ -17,8 +17,7 @@
     ],
     "using": [ [ "soldering_standard", 15 ], [ "steel_tiny", 2 ] ],
     "components": [ 
-      [ [ "matrix_crystal_drained", 4 ] ],
-      [ [ "matrix_shard", 10 ] ]
+      [ [ "matrix_crystal_drained", 4 ] ]
     ]
   }
 ]
