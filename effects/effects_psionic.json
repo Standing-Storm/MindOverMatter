@@ -38,7 +38,6 @@
 		"dur_add_perc": 30,
 		"int_dur_factor": "15 seconds",
 		"base_mods": { "pkill_tick": [ 12 ], "pkill_min": [ 1 ], "pkill_max_val": [ 30 ] }
-	
 	},
 	{
 		"type": "effect_type",
@@ -53,7 +52,6 @@
 		"dur_add_perc": 30,
 		"int_dur_factor": "20 seconds",
 		"base_mods": { "pkill_tick": [ 10 ], "pkill_min": [ 1 ], "pkill_max_val": [ 65 ] }
-		
 	},
 	{
 		"type": "effect_type",
@@ -67,8 +65,7 @@
 		"max_duration": "25 m",
 		"dur_add_perc": 30,
 		"int_dur_factor": "25 seconds",
-		"base_mods": { "pkill_tick": [ 10 ], "pkill_min": [ 2 ], "pkill_max_val": [ 100 ] },
-		
+		"base_mods": { "pkill_tick": [ 10 ], "pkill_min": [ 2 ], "pkill_max_val": [ 100 ] }
 	},
 	{
 		"type": "effect_type",
@@ -82,8 +79,7 @@
 		"max_duration": "30 m",
 		"dur_add_perc": 30,
 		"int_dur_factor": "30 seconds",
-		"base_mods": { "pkill_tick": [ 8 ], "pkill_min": [ 2 ], "pkill_max_val": [ 150 ] },
-		
+		"base_mods": { "pkill_tick": [ 8 ], "pkill_min": [ 2 ], "pkill_max_val": [ 150 ] }
 	},
 	{
 		"type": "effect_type",
@@ -97,7 +93,7 @@
 		"max_duration": "40 m",
 		"dur_add_perc": 30,
 		"int_dur_factor": "40 seconds",
-		"base_mods": { "pkill_tick": [ 8 ], "pkill_min": [ 3 ], "pkill_max_val": [ 200 ] },	
+		"base_mods": { "pkill_tick": [ 8 ], "pkill_min": [ 3 ], "pkill_max_val": [ 200 ] }
 		
 	},
 	{
@@ -112,7 +108,7 @@
 		"max_duration": "45 m",
 		"dur_add_perc": 30,
 		"int_dur_factor": "45 seconds",
-		"base_mods": { "pkill_tick": [ 6 ], "pkill_min": [ 3 ], "pkill_max_val": [ 300 ] },	
+		"base_mods": { "pkill_tick": [ 6 ], "pkill_min": [ 3 ], "pkill_max_val": [ 300 ] }
 	},
 	{   
 		"type": "effect_type",
