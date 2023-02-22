@@ -24,17 +24,20 @@
       {
         "id": "manual_meditation_1",
         "name": { "str": "Zen Mind, Beginner's Mind", "str_pl": "copies of Zen Mind, Beginner's Mind" },
-        "description": "This is a transcription of lectures given by Suzuki Shunryū, a Buddhist monk who founded the first Zen Buddhist monastery in the United States, containing discussion about Zen meditation and practice."
+        "description": "This is a transcription of lectures given by Suzuki Shunryū, a Buddhist monk who founded the first Zen Buddhist monastery in the United States, containing discussion about Zen meditation and practice.",
+        "append": true
       },
       {
         "id": "manual_meditation_2",
         "name": { "str": "How to Meditate: A Practical Guide to Making Friends with Your Mind", "str_pl": "copies of How to Meditate: A Practical Guide to Making Friends with Your Mind" },
-        "description": "A book on meditation written for a general audience, containing simple techniques on breathing and mindfulness."
+        "description": "A book on meditation written for a general audience, containing simple techniques on breathing and mindfulness.",
+        "append": true
       },
       {
         "id": "manual_meditation_3",
         "name": { "str": "The Wandering Mind: What Medieval Monks Tell Us about Distraction", "str_pl": "copies of  The Wandering Mind: What Medieval Monks Tell Us about Distraction" },
-        "description": "A history of monastic attempts at finding calm and peace in the midst of a profane world.  There are far fewer daily distractions now than pre-Cataclysm but there's still some useful techniques you could gain here."
+        "description": "A history of monastic attempts at finding calm and peace in the midst of a profane world.  There are far fewer daily distractions now than pre-Cataclysm but there's still some useful techniques you could gain here.",
+        "append": true
       }
     ]
   },
