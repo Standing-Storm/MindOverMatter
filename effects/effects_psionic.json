@@ -66,7 +66,7 @@
 		"decay_messages": [ [ "The pain you've been keeping away is starting to creep back in.", "bad" ] ],
 		"rating": "good",
 		"max_duration": "25 minutes",
-		"max_intensity": 60,
+		"max_intensity": 100,
 		"dur_add_perc": 10,
 		"int_dur_factor": "15 s",
 		"base_mods": { "pkill_tick": [ 10 ], "pkill_min": [ 2 ], "pkill_max_val": [ 100 ] }
