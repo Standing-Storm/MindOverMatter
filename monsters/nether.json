@@ -28,7 +28,8 @@
     "special_attacks": [
       {
         "type": "spell", "spell_data": { "id": "eater_drain_monster", "min_level": 5 },
-        "cooldown": 3
+        "cooldown": 3,
+        "monster_message": "The eater's fronds lazily drift in your direction."
       }
     ],
     "death_function": { "corpse_type": "NO_CORPSE", "message": "The %s melts away." },
