@@ -12,7 +12,7 @@
     "weight": "26500 g",
     "hp": 30,
     "speed": 100,
-    "material": [ "null" ],
+    "material": [ "wind" ],
     "symbol": "E",
     "color": "red",
     "morale": 100,
