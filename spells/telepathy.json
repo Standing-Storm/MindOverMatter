@@ -38,6 +38,7 @@
 		"flags": [ "NO_FAIL", "SILENT", "NO_HANDS", "NO_LEGS" ],
 		"effect": "remove_effect",
 		"effect_str": "effect_telepathic_learning_bonus", 
+		"shape": "blast",
 		"max_level": 1,
 		"energy_source": "STAMINA",
 		"base_energy_cost": 0,
