@@ -176,7 +176,7 @@
 		"type": "SPELL",
 		"name": "[Ψ]Heightened Reflexes",
 		"description": "You can improve your sensory acuity and the speed at which your brain processes sensory inputs.",
-		"message": "You enhance your sensory prowess.",
+		"message": "You enhance your speed and sensory prowess.",
 		"valid_targets": [ "self" ],
 		"spell_class": "BIOKINETIC",
 		"skill": "metaphysics",
