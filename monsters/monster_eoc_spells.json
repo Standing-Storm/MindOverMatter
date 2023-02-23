@@ -5,6 +5,7 @@
 		"name": "[Ψ]Essence Drain",
 		"description": "Eater's draining attack. It's a bug if you have it.",
 		"valid_targets": [ "hostile" ],
+	  "message": "",
 		"flags": [ "CONCENTRATE", "NO_PROJECTILE", "NO_EXPLOSION_SFX" ],
 		"difficulty": 1,
 		"max_level": 20,
