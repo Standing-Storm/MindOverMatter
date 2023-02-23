@@ -49,7 +49,7 @@
     "effect_str": "MANA",
     "shape": "blast",
     "max_level": 1,
-    "min_damage": 150,
+    "min_damage": -150,
     "min_range": 30
   },
   {
@@ -64,7 +64,7 @@
     "extra_effects": [ { "id": "eater_drain_fatigue", "hit_self": false, "max_level": 3 } ], 
     "shape": "blast",
     "max_level": 1,
-    "min_damage": 200,
+    "min_damage": -200,
     "min_range": 30
   },
   {
