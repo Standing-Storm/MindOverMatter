@@ -24,6 +24,7 @@
     "bleed_rate": 0,
     "vision_day": 30,
     "vision_night": 40,
+    "tracking_distance": 15,
     "harvest": "exempt",
     "special_attacks": [
       {
@@ -33,6 +34,6 @@
       }
     ],
     "death_function": { "corpse_type": "NO_CORPSE", "message": "The %s melts away." },
-    "flags": [ "SEES", "WARM", "FLIES", "NO_BREATHE", "NOHEAD", "ACIDPROOF", "HARDTOSHOOT", "PLASTIC", "NOGIB"  ]
+    "flags": [ "SEES", "WARM", "FLIES", "NO_BREATHE", "NOHEAD", "NO_FUNG_DMG", "KEEP_DISTANCE", "PATH_AVOID_DANGER_2", "ACIDPROOF", "HARDTOSHOOT", "PLASTIC", "NOGIB"  ]
   }
 ]
