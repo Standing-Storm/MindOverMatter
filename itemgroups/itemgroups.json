@@ -32,9 +32,9 @@
         { "item": "manual_meditation", "variant": "manual_meditation_2", "prob": 3 },
         { "item": "manual_meditation", "variant": "manual_meditation_3", "prob": 3 },
         { "item": "manual_meditation", "variant": "manual_meditation_4", "prob": 3 },
-        { "item": "manual_meditation_int_1", "prob": 1 },
-        { "item": "manual_meditation_int_2", "prob": 1 },
-        { "item": "manual_meditation_int_3", "prob": 1 }
+        { "item": "manual_meditation_int", "variant": "manual_meditation_int_1", "prob": 1 },
+        { "item": "manual_meditation_int", "variant": "manual_meditation_int_2", "prob": 1 },
+        { "item": "manual_meditation_int", "variant": "manual_meditation_int_3", "prob": 1 }
       ] 
     }
   },
@@ -48,9 +48,9 @@
         { "item": "manual_meditation", "variant": "manual_meditation_2", "prob": 6 },
         { "item": "manual_meditation", "variant": "manual_meditation_3", "prob": 5 },
         { "item": "manual_meditation", "variant": "manual_meditation_4", "prob": 6 },
-        { "item": "manual_meditation_int_1", "prob": 3 },
-        { "item": "manual_meditation_int_2", "prob": 2 },
-        { "item": "manual_meditation_int_3", "prob": 3 }
+        { "item": "manual_meditation_int", "variant": "manual_meditation_int_1", "prob": 3 },
+        { "item": "manual_meditation_int", "variant": "manual_meditation_int_2", "prob": 2 },
+        { "item": "manual_meditation_int", "variant": "manual_meditation_int_3", "prob": 3 }
       ] 
     }
   },
@@ -63,9 +63,9 @@
         { "item": "manual_meditation", "variant": "manual_meditation_1", "prob": 5 }, 
         { "item": "manual_meditation", "variant": "manual_meditation_2", "prob": 6 },
         { "item": "manual_meditation", "variant": "manual_meditation_3", "prob": 8 },
-        { "item": "manual_meditation_int_1", "prob": 5 },
-        { "item": "manual_meditation_int_2", "prob": 4 },
-        { "item": "manual_meditation_int_3", "prob": 3 }
+        { "item": "manual_meditation_int", "variant": "manual_meditation_int_1", "prob": 5 },
+        { "item": "manual_meditation_int", "variant": "manual_meditation_int_2", "prob": 4 },
+        { "item": "manual_meditation_int", "variant": "manual_meditation_int_3", "prob": 3 }
       ] 
     }
   },
@@ -79,9 +79,9 @@
         { "item": "manual_meditation", "variant": "manual_meditation_2", "prob": 9 },
         { "item": "manual_meditation", "variant": "manual_meditation_3", "prob": 9 },
         { "item": "manual_meditation", "variant": "manual_meditation_4", "prob": 8 },
-        { "item": "manual_meditation_int_1", "prob": 5 },
-        { "item": "manual_meditation_int_2", "prob": 4 },
-        { "item": "manual_meditation_int_3", "prob": 5 } 
+        { "item": "manual_meditation_int", "variant": "manual_meditation_int_1", "prob": 5 },
+        { "item": "manual_meditation_int", "variant": "manual_meditation_int_2", "prob": 4 },
+        { "item": "manual_meditation_int", "variant": "manual_meditation_int_3", "prob": 5 } 
       ] 
     }
   },
@@ -91,8 +91,8 @@
     "copy-from": "science",
     "extend": { 
       "items": [ 
-        { "item": "manual_meditation_int_1", "prob": 6 },
-        { "item": "manual_meditation_int_3", "prob": 3 },
+        { "item": "manual_meditation_int", "variant": "manual_meditation_int_1", "prob": 6 },
+        { "item": "manual_meditation_int", "variant": "manual_meditation_int_3", "prob": 3 },
         { "item": "manual_psionics_advan", "prob": 3 } 
       ] 
     }
@@ -103,8 +103,8 @@
     "copy-from": "chem_lab",
     "extend": { 
       "items": [ 
-        { "item": "manual_meditation_int_1", "prob": 4 },
-        { "item": "manual_meditation_int_3", "prob": 2 },
+        { "item": "manual_meditation_int", "variant": "manual_meditation_int_1", "prob": 4 },
+        { "item": "manual_meditation_int", "variant": "manual_meditation_int_3", "prob": 2 },
         { "item": "manual_psionics_advan", "prob": 3 } 
       ] 
     }
