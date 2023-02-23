@@ -61,7 +61,7 @@
     "flags": [ "NO_PROJECTILE", "NO_EXPLOSION_SFX" ],
     "effect": "recover_energy",
     "effect_str": "STAMINA",
-    "extra_effects": { "id": "eater_drain_fatigue", "hit_self": false, "max_level": 3 }, 
+    "extra_effects": [ { "id": "eater_drain_fatigue", "hit_self": false, "max_level": 3 } ], 
     "shape": "blast",
     "max_level": 1,
     "min_damage": 200,
