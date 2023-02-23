@@ -19,8 +19,8 @@
     "id": "EOC_EATER_DRAIN",
     "condition": { "compare_int": [ { "u_val": "mana" }, ">=", { "const": 150 } ] },
 		"effect": [
-      { "npc_cast_spell": { "id": "eater_drain_mana" } },
-      { "u_message": "You feel a sudden emptiness." }
+      { "u_cast_spell": { "id": "eater_drain_mana" } },
+      { "u_message": "You feel a sudden emptiness.", "type": "bad" }
     ],
     "false_effect": [
       { "run_eocs": "EOC_EATER_DRAIN_2" }
@@ -31,12 +31,12 @@
     "id": "EOC_EATER_DRAIN_2",
     "condition": { "compare_int": [ { "u_val": "stamina" }, ">=", { "const": 200 } ] },
 		"effect": [
-      { "npc_cast_spell": { "id": "eater_drain_stamina" } },
-      { "u_message": "For a moment, you feel exhausted." }
+      { "u_cast_spell": { "id": "eater_drain_stamina" } },
+      { "u_message": "For a moment, you feel exhausted.", "type": "bad" }
        ],
     "false_effect": [
-       { "npc_cast_spell": { "id": "eater_drain_health" } },
-      { "u_message": "You feel your life draining away!." }
+       { "u_cast_spell": { "id": "eater_drain_health" } },
+      { "u_message": "You feel your life draining away!.", "type": "bad" }
     ]
 	},
   {
@@ -44,7 +44,7 @@
     "type": "SPELL",
     "name": "[Ψ]Eater Drain Mana",
     "description": "Eater's spell to drain mana. It's a bug if you have it.",
-    "valid_targets": [ "hostile" ],
+    "valid_targets": [ "self" ],
     "flags": [ "NO_PROJECTILE", "NO_EXPLOSION_SFX" ],
     "effect": "recover_energy",
     "effect_str": "MANA",
@@ -58,7 +58,7 @@
     "type": "SPELL",
     "name": "[Ψ]Eater Drain Stamina",
     "description": "Eater's spell to drain stamina. It's a bug if you have it.",
-    "valid_targets": [ "hostile" ],
+    "valid_targets": [ "self" ],
     "flags": [ "NO_PROJECTILE", "NO_EXPLOSION_SFX" ],
     "effect": "recover_energy",
     "effect_str": "STAMINA",
@@ -73,7 +73,7 @@
     "type": "SPELL",
     "name": "[Ψ]Eater Drain Fatigue",
     "description": "Eater's spell to drain fatigue. It's a bug if you have it.",
-    "valid_targets": [ "hostile" ],
+    "valid_targets": [ "self" ],
     "flags": [ "NO_PROJECTILE", "NO_EXPLOSION_SFX" ],
     "effect": "recover_energy",
     "effect_str": "FATIGUE",
@@ -87,12 +87,14 @@
     "type": "SPELL",
     "name": "[Ψ]Eater Drain Stamina",
     "description": "Eater's spell to drain health. It's a bug if you have it.",
-    "valid_targets": [ "hostile" ],
+    "valid_targets": [ "self" ],
     "flags": [ "NO_PROJECTILE", "NO_EXPLOSION_SFX" ],
     "effect": "attack",
     "shape": "blast",
+		"damage_type": "pure",
     "max_level": 1,
     "min_damage": 10,
+		"max_damage": 10,
     "min_range": 30
   }
 ]
