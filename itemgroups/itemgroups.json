@@ -98,18 +98,6 @@
     }
   },
   {
-     "type": "item_group",
-    "id": "chem_lab",
-    "copy-from": "chem_lab",
-    "extend": { 
-      "items": [ 
-        { "item": "manual_meditation_int", "variant": "manual_meditation_int_1", "prob": 4 },
-        { "item": "manual_meditation_int", "variant": "manual_meditation_int_3", "prob": 2 },
-        { "item": "manual_psionics_advan", "prob": 3 } 
-      ] 
-    }
-  },
-  {
     "type": "item_group",
     "id": "textbooks_school",
     "copy-from": "textbooks_school",
