@@ -251,7 +251,10 @@
 		"desc": [ "You know exactly where to go." ],
 		"apply_message": "",
 		"remove_message": "The line fades away.",
-		"decay_messages": [ [ "The line you've been following grows fainter and fainter.", "bad" ] ],
+		"decay_messages": [ 
+			[ "You can barely see the proper path.", "bad"],
+			[ "The line you've been following grows fainter and fainter.", "bad" ] 
+		],
 		"rating": "good",
 		"max_duration": "30 seconds", 
 		"max_intensity": 16,
@@ -299,7 +302,10 @@
 		"desc": [ "Your powers allow you to see the true shape of reality." ],
 		"apply_message": "",
 		"remove_message": "The world seems wrapped in gauze compared to before.",
-		"decay_messages": [ [ "You are growing less sure about the true nature of the world.", "bad" ] ],
+		"decay_messages": [ 
+			[ "Your enhanced clarity is almost gone.", "bad" ],
+			[ "You are growing less sure about the true nature of the world.", "bad" ] 
+		],
 		"rating": "good",
 		"max_duration": "15 minutes", 
 		"max_intensity": 43,
@@ -330,7 +336,10 @@
 		"desc": [ "The air around you has its temperature controlled." ],
 		"apply_message": "",
 		"remove_message": "A cool breeze hits your skin.",
-		"decay_messages": [ [ "The air around you is slowing beginning to cool.", "bad" ] ],
+		"decay_messages": [ 
+			[ "The warm air you've surrounded yourself with is nearly spent.", "bad"],
+			[ "The air around you is slowing beginning to cool.", "bad" ] 
+		],
 		"rating": "good",
 		"max_duration": "60 minutes", 
 		"max_intensity": 77,
@@ -345,7 +354,10 @@
 		"desc": [ "You are surrounded by flames."],
 		"apply_message": "",
 		"remove_message": "The flames surrounding you gutter out.",
-		"decay_messages": [ [ "Your aura of flames is beginning to fade.", "bad" ] ],
+		"decay_messages": [ 
+			[ "The flames around you spark fitfully.", "bad"],
+			[ "Your aura of flames is beginning to fade.", "bad" ] 
+		],
 		"rating": "good",
 		"max_duration": "15 minutes", 
 		"max_intensity": 31,
@@ -391,7 +403,10 @@
 		"desc": [ "You are in a focused mental state, increasing the ease of learning." ],
 		"apply_message": "",
 		"remove_message": "You shake your head as you become aware of the outside world again.",
-		"decay_messages": [ [ "The outside world is impinging itself on your awareness.", "bad" ] ],
+		"decay_messages": [ 
+			[ "Your enhanced concentration is fading like a dream.", "bad"],
+			[ "The outside world is impinging itself on your awareness.", "bad" ]
+		],
 		"rating": "good",
 		"max_duration": "180 minutes", 
 		"max_intensity": 100,
