@@ -97,6 +97,16 @@
       ] 
     }
   },
+  { 		
+    "type": "item_group", 		
+    "id": "chem_lab", 		
+    "copy-from": "chem_lab", 		
+    "extend": { 		
+      "items": [ 			
+        { "item": "manual_psionics_advan", "prob": 2 } 		
+      ] 		
+    } 		
+  },
   {
     "type": "item_group",
     "id": "textbooks_school",
