@@ -12,6 +12,7 @@
 		],
 		"rating": "good",
 		"max_duration": 180000, 
+		"max_intensity": 1000,
 		"dur_add_perc": 30,
 		"int_dur_factor": "19 s",
 		"removes_effects": [ "venom_weaken" ],
@@ -35,6 +36,7 @@
 		"decay_messages": [ [ "The pain you've been keeping away is starting to creep back in.", "bad" ] ],
 		"rating": "good",
 		"max_duration": "15 m",
+		"max_intensity": 1000,
 		"dur_add_perc": 30,
 		"int_dur_factor": "15 s",
 		"base_mods": { "pkill_tick": [ 12 ], "pkill_min": [ 1 ], "pkill_max_val": [ 30 ] }
@@ -49,6 +51,7 @@
 		"decay_messages": [ [ "The pain you've been keeping away is starting to creep back in.", "bad" ] ],
 		"rating": "good",
 		"max_duration": "20 m",
+		"max_intensity": 1000,
 		"dur_add_perc": 30,
 		"int_dur_factor": "20 s",
 		"base_mods": { "pkill_tick": [ 10 ], "pkill_min": [ 1 ], "pkill_max_val": [ 65 ] }
@@ -63,6 +66,7 @@
 		"decay_messages": [ [ "The pain you've been keeping away is starting to creep back in.", "bad" ] ],
 		"rating": "good",
 		"max_duration": "25 m",
+		"max_intensity": 1000,
 		"dur_add_perc": 30,
 		"int_dur_factor": "25 s",
 		"base_mods": { "pkill_tick": [ 10 ], "pkill_min": [ 2 ], "pkill_max_val": [ 100 ] }
@@ -77,6 +81,7 @@
 		"decay_messages": [ [ "The pain you've been keeping away is starting to creep back in.", "bad" ] ],
 		"rating": "good",
 		"max_duration": "30 m",
+		"max_intensity": 1000,
 		"dur_add_perc": 30,
 		"int_dur_factor": "30 s",
 		"base_mods": { "pkill_tick": [ 8 ], "pkill_min": [ 2 ], "pkill_max_val": [ 150 ] }
@@ -91,6 +96,7 @@
 		"decay_messages": [ [ "The pain you've been keeping away is starting to creep back in.", "bad" ] ],
 		"rating": "good",
 		"max_duration": "40 m",
+		"max_intensity": 1000,
 		"dur_add_perc": 30,
 		"int_dur_factor": "40 s",
 		"base_mods": { "pkill_tick": [ 8 ], "pkill_min": [ 3 ], "pkill_max_val": [ 200 ] }
@@ -106,6 +112,7 @@
 		"decay_messages": [ [ "The pain you've been keeping away is starting to creep back in.", "bad" ] ],
 		"rating": "good",
 		"max_duration": "45 m",
+		"max_intensity": 1000,
 		"dur_add_perc": 30,
 		"int_dur_factor": "45 s",
 		"base_mods": { "pkill_tick": [ 6 ], "pkill_min": [ 3 ], "pkill_max_val": [ 300 ] }
@@ -123,6 +130,7 @@
 		],
 		"rating": "good",
 		"max_duration": 180000, 
+		"max_intensity": 1000,
 		"dur_add_perc": 40,
 		"int_dur_factor": "47 s",
 		"removes_effects": [ "blind", "deaf" ],
@@ -150,6 +158,7 @@
 		"rating": "good",		
 		"show_intensity": false,
 		"max_duration": 180000, 
+		"max_intensity": 1000,
 		"dur_add_perc": 30,
 		"int_dur_factor": "54 s",
 		"blocks_effects": [ "bleed", "hypovolemia", "dermatik" ],
@@ -178,6 +187,7 @@
 		"rating": "good",
 		"show_intensity": false,
 		"max_duration": 45000, 
+		"max_intensity": 1000,
 		"dur_add_perc": 50,
 		"int_dur_factor": "9 s",
 		"blocks_effects": [ "smoke", "teargas", "boomered", "migo_atmosphere", "fetid_goop", "relax_gas", "spores", "dermatik", "tpollen" ],
@@ -198,6 +208,7 @@
 		"rating": "good",
 		"show_intensity": false,
 		"max_duration": 60000, 
+		"max_intensity": 1000,
 		"dur_add_perc": 40,
 		"int_dur_factor": "24 s",
 		"removes_effects": [ "stunned", "dazed" ],
@@ -228,6 +239,7 @@
 		],
 		"rating": "good",
 		"max_duration": 720000, 
+		"max_intensity": 1000,
 		"dur_add_perc": 30,
 		"int_dur_factor": "34 s",
 		"flags": [ "NIGHT_VISION", "INFRARED" ]
@@ -266,6 +278,7 @@
 		],
 		"rating": "good",
 		"max_duration": 90000, 
+		"max_intensity": 1000,
 		"dur_add_perc": 50,
 		"int_dur_factor": "24 s",
 		"blocks_effects": [ "grabbed" ],
@@ -288,6 +301,7 @@
 		"decay_messages": [ [ "You are growing less sure about the true nature of the world.", "bad" ] ],
 		"rating": "good",
 		"max_duration": 90000, 
+		"max_intensity": 1000,
 		"dur_add_perc": 40,
 		"int_dur_factor": "21 s",
 		"removes_effects": [
@@ -318,6 +332,7 @@
 		"decay_messages": [ [ "The air around you is slowing beginning to cool.", "bad" ] ],
 		"rating": "good",
 		"max_duration": 360000, 
+		"max_intensity": 1000,
 		"dur_add_perc": 30,
 		"int_dur_factor": "46 s",
 		"enchantments": [ "enchant_pyrokin_cloak" ]
@@ -332,6 +347,7 @@
 		"decay_messages": [ [ "Your aura of flames is beginning to fade.", "bad" ] ],
 		"rating": "good",
 		"max_duration": 90000, 
+		"max_intensity": 1000,
 		"dur_add_perc": 50,
 		"int_dur_factor": "29 s",
 		"enchantments": [ "enchant_pyrokinetic_aura" ]
@@ -350,6 +366,7 @@
 		],
 		"rating": "good",
 		"max_duration": 360000, 
+		"max_intensity": 1000,
 		"dur_add_perc": 30,
 		"int_dur_factor": "32 s",
 		"enchantments": [ 
@@ -376,6 +393,7 @@
 		"decay_messages": [ [ "The outside world is impinging itself on your awareness.", "bad" ] ],
 		"rating": "good",
 		"max_duration": 1080000, 
+		"max_intensity": 1000,
 		"dur_add_perc": 20,
 		"int_dur_factor": "95 s",
 		"enchantments": [ 
@@ -400,6 +418,7 @@
 		],
 		"rating": "good",
 		"max_duration": 60000, 
+		"max_intensity": 1000,
 		"dur_add_perc": 40,
 		"int_dur_factor": "35 s",
 		"removes_effects": [
@@ -439,6 +458,7 @@
 		],
 		"rating": "good",
 		"max_duration": 720000, 
+		"max_intensity": 1000,
 		"dur_add_perc": 30,
 		"int_dur_factor": "73 s",
 		"blocks_effects": [ "scurvy", "redcells_anemia", "anemia", "toxin_buildup", "common_cold", "flu" ],
