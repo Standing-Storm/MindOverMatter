@@ -134,8 +134,7 @@
 					{ "value": "SPEED", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "biokin_reflex_enhance" } ] } }
 				]
 			}
-		],
-
+		]
 	},
 	{
 		"type": "effect_type",
@@ -163,8 +162,7 @@
 					{ "value": "PAIN", "multiply": { "arithmetic": [ { "u_val": "spell_level", "spell": "biokin_armor_skin" }, "*", { "const": -0.02 } ] } } 
 				]
 			}
-		],
-
+		]
 	},
 	{
 		"type": "effect_type",
