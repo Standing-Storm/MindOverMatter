@@ -13,7 +13,7 @@
 		"rating": "good",
 		"max_duration": 180000, 
 		"dur_add_perc": 30,
-		"int_dur_factor": "19 seconds",
+		"int_dur_factor": "19 s",
 		"removes_effects": [ "venom_weaken" ],
 		"base_mods": { "str_mod": [ 1 ], "dex_mod": [ 1 ] },
 		"enchantments": [
@@ -36,7 +36,7 @@
 		"rating": "good",
 		"max_duration": "15 m",
 		"dur_add_perc": 30,
-		"int_dur_factor": "15 seconds",
+		"int_dur_factor": "15 s",
 		"base_mods": { "pkill_tick": [ 12 ], "pkill_min": [ 1 ], "pkill_max_val": [ 30 ] }
 	},
 	{
@@ -50,7 +50,7 @@
 		"rating": "good",
 		"max_duration": "20 m",
 		"dur_add_perc": 30,
-		"int_dur_factor": "20 seconds",
+		"int_dur_factor": "20 s",
 		"base_mods": { "pkill_tick": [ 10 ], "pkill_min": [ 1 ], "pkill_max_val": [ 65 ] }
 	},
 	{
@@ -64,7 +64,7 @@
 		"rating": "good",
 		"max_duration": "25 m",
 		"dur_add_perc": 30,
-		"int_dur_factor": "25 seconds",
+		"int_dur_factor": "25 s",
 		"base_mods": { "pkill_tick": [ 10 ], "pkill_min": [ 2 ], "pkill_max_val": [ 100 ] }
 	},
 	{
@@ -78,7 +78,7 @@
 		"rating": "good",
 		"max_duration": "30 m",
 		"dur_add_perc": 30,
-		"int_dur_factor": "30 seconds",
+		"int_dur_factor": "30 s",
 		"base_mods": { "pkill_tick": [ 8 ], "pkill_min": [ 2 ], "pkill_max_val": [ 150 ] }
 	},
 	{
@@ -92,7 +92,7 @@
 		"rating": "good",
 		"max_duration": "40 m",
 		"dur_add_perc": 30,
-		"int_dur_factor": "40 seconds",
+		"int_dur_factor": "40 s",
 		"base_mods": { "pkill_tick": [ 8 ], "pkill_min": [ 3 ], "pkill_max_val": [ 200 ] }
 		
 	},
@@ -107,7 +107,7 @@
 		"rating": "good",
 		"max_duration": "45 m",
 		"dur_add_perc": 30,
-		"int_dur_factor": "45 seconds",
+		"int_dur_factor": "45 s",
 		"base_mods": { "pkill_tick": [ 6 ], "pkill_min": [ 3 ], "pkill_max_val": [ 300 ] }
 	},
 	{   
@@ -124,7 +124,7 @@
 		"rating": "good",
 		"max_duration": 180000, 
 		"dur_add_perc": 40,
-		"int_dur_factor": "47 seconds",
+		"int_dur_factor": "47 s",
 		"removes_effects": [ "blind", "deaf" ],
 		"base_mods": { "per_mod": [ 1 ], "speed_mod": [5] },
 		"enchantments": [
@@ -151,7 +151,7 @@
 		"show_intensity": false,
 		"max_duration": 180000, 
 		"dur_add_perc": 30,
-		"int_dur_factor": "54 seconds",
+		"int_dur_factor": "54 s",
 		"blocks_effects": [ "bleed", "hypovolemia", "dermatik" ],
 		"enchantments": [
 			{
@@ -179,7 +179,7 @@
 		"show_intensity": false,
 		"max_duration": 45000, 
 		"dur_add_perc": 50,
-		"int_dur_factor": "9 seconds",
+		"int_dur_factor": "9 s",
 		"blocks_effects": [ "smoke", "teargas", "boomered", "migo_atmosphere", "fetid_goop", "relax_gas", "spores", "dermatik", "tpollen" ],
 		"removes_effects": [ "bleed"],
 		"flags": [ "NO_SCENT", "ELECTRIC_IMMUNE", "RAD_RESIST" ]
@@ -199,7 +199,7 @@
 		"show_intensity": false,
 		"max_duration": 60000, 
 		"dur_add_perc": 40,
-		"int_dur_factor": "24 seconds",
+		"int_dur_factor": "24 s",
 		"removes_effects": [ "stunned", "dazed" ],
 		"enchantments": [
 			{
@@ -229,7 +229,7 @@
 		"rating": "good",
 		"max_duration": 720000, 
 		"dur_add_perc": 30,
-		"int_dur_factor": "34 seconds",
+		"int_dur_factor": "34 s",
 		"flags": [ "NIGHT_VISION", "INFRARED" ]
 	},
 	{
@@ -243,7 +243,7 @@
 		"rating": "good",
 		"max_duration": 30000, 
 		"dur_add_perc": 50,
-		"int_dur_factor": "18 seconds",
+		"int_dur_factor": "18 s",
 		"enchantments": [
 			{
 				"values": [
@@ -267,7 +267,7 @@
 		"rating": "good",
 		"max_duration": 90000, 
 		"dur_add_perc": 50,
-		"int_dur_factor": "24 seconds",
+		"int_dur_factor": "24 s",
 		"blocks_effects": [ "grabbed" ],
 		"enchantments": [
 			{
@@ -289,7 +289,7 @@
 		"rating": "good",
 		"max_duration": 90000, 
 		"dur_add_perc": 40,
-		"int_dur_factor": "21 seconds",
+		"int_dur_factor": "21 s",
 		"removes_effects": [
 			"dazed",
 			"stunned",
@@ -319,7 +319,7 @@
 		"rating": "good",
 		"max_duration": 360000, 
 		"dur_add_perc": 30,
-		"int_dur_factor": "46 seconds",
+		"int_dur_factor": "46 s",
 		"enchantments": [ "enchant_pyrokin_cloak" ]
 	},
 	{
@@ -333,7 +333,7 @@
 		"rating": "good",
 		"max_duration": 90000, 
 		"dur_add_perc": 50,
-		"int_dur_factor": "29 seconds",
+		"int_dur_factor": "29 s",
 		"enchantments": [ "enchant_pyrokinetic_aura" ]
 	},
 	{
@@ -351,7 +351,7 @@
 		"rating": "good",
 		"max_duration": 360000, 
 		"dur_add_perc": 30,
-		"int_dur_factor": "32 seconds",
+		"int_dur_factor": "32 s",
 		"enchantments": [ 
 			{ "values": [
 				{ "value": "ARMOR_CUT", "add": {"arithmetic": [ { "u_val": "spell_level", "spell": "telekinetic_shield" }, "*", { "const": -1 } ] } },
@@ -377,7 +377,7 @@
 		"rating": "good",
 		"max_duration": 1080000, 
 		"dur_add_perc": 20,
-		"int_dur_factor": "95 seconds",
+		"int_dur_factor": "95 s",
 		"enchantments": [ 
 			{ "values": [
 				{ "value": "LEARNING_FOCUS", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "telepathic_concentration" }, "*", { "const": 2.5 } ] } },
@@ -401,7 +401,7 @@
 		"rating": "good",
 		"max_duration": 60000, 
 		"dur_add_perc": 40,
-		"int_dur_factor": "35 seconds",
+		"int_dur_factor": "35 s",
 		"removes_effects": [
 			"taint", 
 			"tindrift", 
@@ -440,7 +440,7 @@
 		"rating": "good",
 		"max_duration": 720000, 
 		"dur_add_perc": 30,
-		"int_dur_factor": "73 seconds",
+		"int_dur_factor": "73 s",
 		"blocks_effects": [ "scurvy", "redcells_anemia", "anemia", "toxin_buildup", "common_cold", "flu" ],
 		"base_mods": { "health_min": [ 1 ], "health_chance": [ 50 ], "h_mod_min": [ 2 ], "h_mod_chance": [ 50 ], "healing_rate": [ 2 ] }
 	},
