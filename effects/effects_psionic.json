@@ -7,7 +7,7 @@
 		"apply_message": "",
 		"remove_message": "The surge of power fades away.",
 		"decay_messages": [ 
-			[ "You are growing weaker as your enchanced strength fades.", "bad" ],
+			[ "You are growing weaker as your enhanced strength fades.", "bad" ],
 			[ "The power filling your body is starting to dissipate.", "bad" ] 
 		],
 		"rating": "good",
