@@ -11,9 +11,9 @@
 			[ "The power filling your body is starting to dissipate.", "bad" ] 
 		],
 		"rating": "good",
-		"max_duration": 180000, 
-		"max_intensity": 1000,
-		"dur_add_perc": 30,
+		"max_duration": "30 minutes",
+		"max_intensity": 100,
+		"dur_add_perc": 10,
 		"int_dur_factor": "19 s",
 		"removes_effects": [ "venom_weaken" ],
 		"base_mods": { "str_mod": [ 1 ], "dex_mod": [ 1 ] },
@@ -35,10 +35,10 @@
 		"remove_message": "Your wounds ache once again.",	
 		"decay_messages": [ [ "The pain you've been keeping away is starting to creep back in.", "bad" ] ],
 		"rating": "good",
-		"max_duration": "15 m",
-		"max_intensity": 1000,
-		"dur_add_perc": 30,
-		"int_dur_factor": "15 s",
+		"max_duration": "15 minutes",
+		"max_intensity": 100,
+		"dur_add_perc": 10,
+		"int_dur_factor": "9 s",
 		"base_mods": { "pkill_tick": [ 12 ], "pkill_min": [ 1 ], "pkill_max_val": [ 30 ] }
 	},
 	{
@@ -50,10 +50,10 @@
 		"remove_message": "Your wounds ache once again.",
 		"decay_messages": [ [ "The pain you've been keeping away is starting to creep back in.", "bad" ] ],
 		"rating": "good",
-		"max_duration": "20 m",
-		"max_intensity": 1000,
-		"dur_add_perc": 30,
-		"int_dur_factor": "20 s",
+		"max_duration": "20 minutes",
+		"max_intensity": 100,
+		"dur_add_perc": 10,
+		"int_dur_factor": "12 s",
 		"base_mods": { "pkill_tick": [ 10 ], "pkill_min": [ 1 ], "pkill_max_val": [ 65 ] }
 	},
 	{
@@ -65,10 +65,10 @@
 		"remove_message": "Your wounds ache once again.",
 		"decay_messages": [ [ "The pain you've been keeping away is starting to creep back in.", "bad" ] ],
 		"rating": "good",
-		"max_duration": "25 m",
-		"max_intensity": 1000,
-		"dur_add_perc": 30,
-		"int_dur_factor": "25 s",
+		"max_duration": "25 minutes",
+		"max_intensity": 60,
+		"dur_add_perc": 10,
+		"int_dur_factor": "15 s",
 		"base_mods": { "pkill_tick": [ 10 ], "pkill_min": [ 2 ], "pkill_max_val": [ 100 ] }
 	},
 	{
@@ -80,10 +80,10 @@
 		"remove_message": "Your wounds ache once again.",
 		"decay_messages": [ [ "The pain you've been keeping away is starting to creep back in.", "bad" ] ],
 		"rating": "good",
-		"max_duration": "30 m",
-		"max_intensity": 1000,
-		"dur_add_perc": 30,
-		"int_dur_factor": "30 s",
+		"max_duration": "30 minutes",
+		"max_intensity": 100,
+		"dur_add_perc": 10,
+		"int_dur_factor": "18 s",
 		"base_mods": { "pkill_tick": [ 8 ], "pkill_min": [ 2 ], "pkill_max_val": [ 150 ] }
 	},
 	{
@@ -95,10 +95,10 @@
 		"remove_message": "Your wounds ache once again.",
 		"decay_messages": [ [ "The pain you've been keeping away is starting to creep back in.", "bad" ] ],
 		"rating": "good",
-		"max_duration": "40 m",
-		"max_intensity": 1000,
-		"dur_add_perc": 30,
-		"int_dur_factor": "40 s",
+		"max_duration": "40 minutes",
+		"max_intensity": 100,
+		"dur_add_perc": 10,
+		"int_dur_factor": "21 s",
 		"base_mods": { "pkill_tick": [ 8 ], "pkill_min": [ 3 ], "pkill_max_val": [ 200 ] }
 		
 	},
@@ -111,10 +111,10 @@
 		"remove_message": "Your wounds ache once again.",
 		"decay_messages": [ [ "The pain you've been keeping away is starting to creep back in.", "bad" ] ],
 		"rating": "good",
-		"max_duration": "45 m",
-		"max_intensity": 1000,
-		"dur_add_perc": 30,
-		"int_dur_factor": "45 s",
+		"max_duration": "45 minutes",
+		"max_intensity": 100,
+		"dur_add_perc": 10,
+		"int_dur_factor": "24 s",
 		"base_mods": { "pkill_tick": [ 6 ], "pkill_min": [ 3 ], "pkill_max_val": [ 300 ] }
 	},
 	{   
@@ -129,9 +129,9 @@
 			[ "Your movements are gradually becoming slower.", "bad" ] 
 		],
 		"rating": "good",
-		"max_duration": 180000, 
-		"max_intensity": 1000,
-		"dur_add_perc": 40,
+		"max_duration": "30 minutes", 
+		"max_intensity": 39,
+		"dur_add_perc": 10,
 		"int_dur_factor": "47 s",
 		"removes_effects": [ "blind", "deaf" ],
 		"base_mods": { "per_mod": [ 1 ], "speed_mod": [5] },
@@ -157,10 +157,10 @@
 		],
 		"rating": "good",		
 		"show_intensity": false,
-		"max_duration": 180000, 
-		"max_intensity": 1000,
-		"dur_add_perc": 30,
-		"int_dur_factor": "54 s",
+		"max_duration": "30 minutes", 
+		"max_intensity": 62,
+		"dur_add_perc": 10,
+		"int_dur_factor": "29 s",
 		"blocks_effects": [ "bleed", "hypovolemia", "dermatik" ],
 		"enchantments": [
 			{
@@ -186,9 +186,9 @@
 		],
 		"rating": "good",
 		"show_intensity": false,
-		"max_duration": 45000, 
-		"max_intensity": 1000,
-		"dur_add_perc": 50,
+		"max_duration": "8 minutes", 
+		"max_intensity": 50,
+		"dur_add_perc": 10,
 		"int_dur_factor": "9 s",
 		"blocks_effects": [ "smoke", "teargas", "boomered", "migo_atmosphere", "fetid_goop", "relax_gas", "spores", "dermatik", "tpollen" ],
 		"removes_effects": [ "bleed"],
@@ -207,9 +207,9 @@
 		],
 		"rating": "good",
 		"show_intensity": false,
-		"max_duration": 60000, 
-		"max_intensity": 1000,
-		"dur_add_perc": 40,
+		"max_duration": "10 minutes", 
+		"max_intensity": 25,
+		"dur_add_perc": 10,
 		"int_dur_factor": "24 s",
 		"removes_effects": [ "stunned", "dazed" ],
 		"enchantments": [
@@ -238,10 +238,10 @@
 			[ "Darkness begins to creep across your vision.", "bad" ] 
 		],
 		"rating": "good",
-		"max_duration": 720000, 
-		"max_intensity": 1000,
-		"dur_add_perc": 30,
-		"int_dur_factor": "34 s",
+		"max_duration": "120 minutes", 
+		"max_intensity": 106,
+		"dur_add_perc": 10,
+		"int_dur_factor": "68 s",
 		"flags": [ "NIGHT_VISION", "INFRARED" ]
 	},
 	{
@@ -253,8 +253,9 @@
 		"remove_message": "The line fades away.",
 		"decay_messages": [ [ "The line you've been following grows fainter and fainter.", "bad" ] ],
 		"rating": "good",
-		"max_duration": 30000, 
-		"dur_add_perc": 50,
+		"max_duration": "30 seconds", 
+		"max_intensity": 16,
+		"dur_add_perc": 10,
 		"int_dur_factor": "18 s",
 		"enchantments": [
 			{
@@ -277,9 +278,9 @@
 			[ "Your vision of your enemies' actions is becoming indistinct.", "bad" ] 
 		],
 		"rating": "good",
-		"max_duration": 90000, 
-		"max_intensity": 1000,
-		"dur_add_perc": 50,
+		"max_duration": "15 minutes", 
+		"max_intensity": 38,
+		"dur_add_perc": 10,
 		"int_dur_factor": "24 s",
 		"blocks_effects": [ "grabbed" ],
 		"enchantments": [
@@ -300,8 +301,8 @@
 		"remove_message": "The world seems wrapped in gauze compared to before.",
 		"decay_messages": [ [ "You are growing less sure about the true nature of the world.", "bad" ] ],
 		"rating": "good",
-		"max_duration": 90000, 
-		"max_intensity": 1000,
+		"max_duration": "15 minutes", 
+		"max_intensity": 43,
 		"dur_add_perc": 40,
 		"int_dur_factor": "21 s",
 		"removes_effects": [
@@ -331,9 +332,9 @@
 		"remove_message": "A cool breeze hits your skin.",
 		"decay_messages": [ [ "The air around you is slowing beginning to cool.", "bad" ] ],
 		"rating": "good",
-		"max_duration": 360000, 
-		"max_intensity": 1000,
-		"dur_add_perc": 30,
+		"max_duration": "60 minutes", 
+		"max_intensity": 77,
+		"dur_add_perc": 10,
 		"int_dur_factor": "46 s",
 		"enchantments": [ "enchant_pyrokin_cloak" ]
 	},
@@ -346,9 +347,9 @@
 		"remove_message": "The flames surrounding you gutter out.",
 		"decay_messages": [ [ "Your aura of flames is beginning to fade.", "bad" ] ],
 		"rating": "good",
-		"max_duration": 90000, 
-		"max_intensity": 1000,
-		"dur_add_perc": 50,
+		"max_duration": "15 minutes", 
+		"max_intensity": 31,
+		"dur_add_perc": 10,
 		"int_dur_factor": "29 s",
 		"enchantments": [ "enchant_pyrokinetic_aura" ]
 	},
@@ -365,9 +366,9 @@
 			[ "You can feel the barrier around you losing its integrity.", "bad" ] 
 		],
 		"rating": "good",
-		"max_duration": 360000, 
-		"max_intensity": 1000,
-		"dur_add_perc": 30,
+		"max_duration": "60 minutes", 
+		"max_intensity": 112,
+		"dur_add_perc": 10,
 		"int_dur_factor": "32 s",
 		"enchantments": [ 
 			{ "values": [
@@ -392,9 +393,9 @@
 		"remove_message": "You shake your head as you become aware of the outside world again.",
 		"decay_messages": [ [ "The outside world is impinging itself on your awareness.", "bad" ] ],
 		"rating": "good",
-		"max_duration": 1080000, 
-		"max_intensity": 1000,
-		"dur_add_perc": 20,
+		"max_duration": "180 minutes", 
+		"max_intensity": 100,
+		"dur_add_perc": 10,
 		"int_dur_factor": "95 s",
 		"enchantments": [ 
 			{ "values": [
@@ -417,9 +418,9 @@
 			[ "The shield guarding your mind is growing thinner.", "bad" ] 
 		],
 		"rating": "good",
-		"max_duration": 60000, 
-		"max_intensity": 1000,
-		"dur_add_perc": 40,
+		"max_duration": "10 minutes", 
+		"max_intensity": 17,
+		"dur_add_perc": 10,
 		"int_dur_factor": "35 s",
 		"removes_effects": [
 			"taint", 
@@ -457,9 +458,9 @@
 			[ "The vitality your powers gave you is starting to fade.", "bad" ] 
 		],
 		"rating": "good",
-		"max_duration": 720000, 
-		"max_intensity": 1000,
-		"dur_add_perc": 30,
+		"max_duration": "120 minutes", 
+		"max_intensity": 97,
+		"dur_add_perc": 10,
 		"int_dur_factor": "73 s",
 		"blocks_effects": [ "scurvy", "redcells_anemia", "anemia", "toxin_buildup", "common_cold", "flu" ],
 		"base_mods": { "health_min": [ 1 ], "health_chance": [ 50 ], "h_mod_min": [ 2 ], "h_mod_chance": [ 50 ], "healing_rate": [ 2 ] }
