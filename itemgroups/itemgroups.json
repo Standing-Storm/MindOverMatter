@@ -49,8 +49,8 @@
     "copy-from": "homebooks",
     "extend": { 
       "items": [ 
-        { "group": "dist_meditation_books_begin","prob": 5 }, 
-        { "group": "dist_meditation_books_int", "prob": 1 }
+        { "group": "dist_meditation_books_begin","prob": 8 }, 
+        { "group": "dist_meditation_books_int", "prob": 3 }
       ] 
     }
   },
@@ -60,8 +60,8 @@
     "copy-from": "SUS_book_nonf_pulp_newage",
     "extend": { 
       "items": [ 
-        { "group": "dist_meditation_books_begin", "prob": 10 }, 
-        { "group": "dist_meditation_books_int", "prob": 4 }
+        { "group": "dist_meditation_books_begin", "prob": 20 }, 
+        { "group": "dist_meditation_books_int", "prob": 8 }
       ] 
     }
   },
