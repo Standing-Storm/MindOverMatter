@@ -469,7 +469,7 @@
 		"apply_message": "",
 		"remove_message": "The surge of vitality leaves you in a rush.",
 		"decay_messages": [ 
-			[ "All of the day's hardships are seeming to catch up with you.", "bad" ],
+			[ "All of the day's hardships seem like they're catching up to you.", "bad" ],
 			[ "The vitality your powers gave you is starting to fade.", "bad" ] 
 		],
 		"rating": "good",
