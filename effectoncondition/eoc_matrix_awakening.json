@@ -6,7 +6,8 @@
     "effect": [
       { "u_message": "You gaze into the strange crystal and the light slowly grows brighter. Placeholder text, blah blah, anyway you're a biokinetic now.", "popup": true },
       { "u_add_trait": "BIOKINETIC" }, 
-      { "u_add_trait": "BIOKIN_NEEDS" }
+      { "u_add_trait": "BIOKIN_NEEDS" },
+      { "u_spawn_item": "matrix_crystal_drained" }
     ],
     "false_effect": [
       { "u_message": "You gaze into the strange crystal and the light slowly grows brighter.  It starts pulsing, first slowly and more rapidly, and your head starts pounding in time with the light.  You tear your gaze away but the pounding in your head remains." },
@@ -21,7 +22,8 @@
     "effect": [
       { "u_message": "You gaze into the strange crystal and the light slowly grows brighter. Placeholder text, blah blah, anyway you're a clairsentient now.", "popup": true },
       { "u_add_trait": "CLAIRSENTIENT" }, 
-      { "u_add_trait": "CLAIR_SENSES" } 
+      { "u_add_trait": "CLAIR_SENSES" },
+      { "u_spawn_item": "matrix_crystal_drained" }
     ],
     "false_effect": [
     { "u_message": "You gaze into the strange crystal and the light slowly grows brighter.  It starts pulsing, first slowly and more rapidly, and your head starts pounding in time with the light.  You tear your gaze away but the pounding in your head remains." },
@@ -37,7 +39,8 @@
       { "u_message": "You gaze into the strange crystal and the light slowly grows brighter. Placeholder text, blah blah, anyway you're a pyrokinetic now.", "popup": true },
       { "u_add_trait": "PYROKINETIC" }, 
       { "u_add_trait": "PYROGLOW_WEAK" },
-      { "u_add_trait": "PYROGLOW_STRONG" } 
+      { "u_add_trait": "PYROGLOW_STRONG" },
+      { "u_spawn_item": "matrix_crystal_drained" }
     ],
     "false_effect": [
       { "u_message": "You gaze into the strange crystal and the light slowly grows brighter.  It starts pulsing, first slowly and more rapidly, and your head starts pounding in time with the light.  You tear your gaze away but the pounding in your head remains." },
@@ -52,7 +55,8 @@
     "effect": [ 
        { "u_message": "You gaze into the strange crystal and the light slowly grows brighter. Placeholder text, blah blah, anyway you're a telekinetic now.", "popup": true },
       { "u_add_trait": "TELEKINETIC" }, 
-      { "u_add_trait": "TELEKINETIC_CARRY" } 
+      { "u_add_trait": "TELEKINETIC_CARRY" },
+      { "u_spawn_item": "matrix_crystal_drained" }
     ],
     "false_effect": [
       { "u_message": "You gaze into the strange crystal and the light slowly grows brighter.  It starts pulsing, first slowly and more rapidly, and your head starts pounding in time with the light.  You tear your gaze away but the pounding in your head remains." },
@@ -67,7 +71,8 @@
     "effect": [
       { "u_message": "You gaze into the strange crystal and the light slowly grows brighter. Placeholder text, blah blah, anyway you're a telepath now.", "popup": true},
       { "u_add_trait": "TELEPATH" }, 
-      { "u_add_trait": "TELEPATHIC_SUGGESTION" } 
+      { "u_add_trait": "TELEPATHIC_SUGGESTION" },
+      { "u_spawn_item": "matrix_crystal_drained" }
     ],
     "false_effect": [
       { "u_message": "You gaze into the strange crystal and the light slowly grows brighter.  It starts pulsing, first slowly and more rapidly, and your head starts pounding in time with the light.  You tear your gaze away but the pounding in your head remains." },
@@ -82,7 +87,8 @@
     "effect": [
      { "u_message": "You gaze into the strange crystal and the light slowly grows brighter. Placeholder text, blah blah, anyway you're a teleporter now.", "popup": true},
       { "u_add_trait": "TELEPORTER" }, 
-      { "u_add_trait": "TELEPORTER_PROTECT" } 
+      { "u_add_trait": "TELEPORTER_PROTECT" },
+      { "u_spawn_item": "matrix_crystal_drained" }
     ],
     "false_effect": [
       { "u_message": "You gaze into the strange crystal and the light slowly grows brighter.  It starts pulsing, first slowly and more rapidly, and your head starts pounding in time with the light.  You tear your gaze away but the pounding in your head remains." },
@@ -97,7 +103,8 @@
     "effect": [
        { "u_message": "You gaze into the strange crystal and the light slowly grows brighter. Placeholder text, blah blah, anyway you're a vitakinetic now.", "popup": true},
       { "u_add_trait": "VITAKINETIC" }, 
-      { "u_add_trait": "VITAKINETIC_HEALTH" } 
+      { "u_add_trait": "VITAKINETIC_HEALTH" },
+      { "u_spawn_item": "matrix_crystal_drained" }
     ],
     "false_effect": [
       { "u_message": "You gaze into the strange crystal and the light slowly grows brighter.  It starts pulsing, first slowly and more rapidly, and your head starts pounding in time with the light.  You tear your gaze away but the pounding in your head remains." },
