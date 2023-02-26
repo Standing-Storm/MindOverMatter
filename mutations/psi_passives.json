@@ -62,7 +62,7 @@
 		"copy-from": "PYROGLOW_WEAK",
 		"valid": false,
 		"transform": { "target": "PYROGLOW_WEAK", "msg_transform": "The air around you loses its radiance.", "active": false, "moves": 10 },
-		"lumination": [ [ "arm_l", 20 ] ]
+		"enchantments": [ { "values": [ { "value": "LUMINATION", "add": 20 } ] } ]
 	},
 	 {
     "type": "mutation",
@@ -84,7 +84,7 @@
 		"copy-from": "PYROGLOW_STRONG",
 		"valid": false,
 		"transform": { "target": "PYROGLOW_STRONG", "msg_transform": "The air around you loses its radiance.", "active": false, "moves": 10 },
-		"lumination": [ [ "arm_l", 150 ] ]
+		"enchantments": [ { "values": [ { "value": "LUMINATION", "add": 150 } ] } ]
 	},
 	{
 		"type": "mutation",
