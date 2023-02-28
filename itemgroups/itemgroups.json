@@ -25,6 +25,16 @@
   {
     "type": "item_group",
     "subtype": "distribution",
+    "id": "dist_matrix_tools",
+    "items": [
+      [ "null", 50 ],
+      [ "matrix_channeling_tool", 25 ],
+      [ "matrix_aligning_tool", 10 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "distribution",
     "id": "dist_meditation_books_begin",
     "items": [
       { "item": "manual_meditation", "variant": "manual_meditation_1", "prob": 3 }, 
