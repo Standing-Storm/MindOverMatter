@@ -5,7 +5,7 @@
     "activity_level": "BRISK_EXERCISE",
     "time": "45 m",
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "GRIND", "level": 2 } ],
-    "components": [ [ [ "matrix_crystal_biokin_dust", 50 ] ] ]
+    "components": [ [ [ "matrix_crystal_biokin_dust", 10 ] ] ]
   },
   {
     "result": "matrix_crystal_clairsentience",
@@ -13,7 +13,7 @@
     "activity_level": "BRISK_EXERCISE",
     "time": "45 m",
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "GRIND", "level": 2 } ],
-    "components": [ [ [ "matrix_crystal_clair_dust", 50 ] ] ]
+    "components": [ [ [ "matrix_crystal_clair_dust", 10 ] ] ]
   },
   {
     "result": "matrix_crystal_pyrokinesis",
@@ -21,7 +21,7 @@
     "activity_level": "BRISK_EXERCISE",
     "time": "45 m",
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "GRIND", "level": 2 } ],
-    "components": [ [ [ "matrix_crystal_pyro_dust", 50 ] ] ]
+    "components": [ [ [ "matrix_crystal_pyro_dust", 10 ] ] ]
   },
   {
     "result": "matrix_crystal_telekinesis",
@@ -29,7 +29,7 @@
     "activity_level": "BRISK_EXERCISE",
     "time": "45 m",
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "GRIND", "level": 2 } ],
-    "components": [ [ [ "matrix_crystal_telekin_dust", 50 ] ] ]
+    "components": [ [ [ "matrix_crystal_telekin_dust", 10 ] ] ]
   },
   {
     "result": "matrix_crystal_telepathy",
@@ -37,7 +37,7 @@
     "activity_level": "BRISK_EXERCISE",
     "time": "45 m",
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "GRIND", "level": 2 } ],
-    "components": [ [ [ "matrix_crystal_telepath_dust", 50 ] ] ]
+    "components": [ [ [ "matrix_crystal_telepath_dust", 10 ] ] ]
   },
   {
     "result": "matrix_crystal_teleportation",
@@ -45,7 +45,7 @@
     "activity_level": "BRISK_EXERCISE",
     "time": "45 m",
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "GRIND", "level": 2 } ],
-    "components": [ [ [ "matrix_crystal_teleport_dust", 50 ] ] ]
+    "components": [ [ [ "matrix_crystal_teleport_dust", 10 ] ] ]
   },
   {
     "result": "matrix_crystal_vitakinesis",
@@ -53,7 +53,7 @@
     "activity_level": "BRISK_EXERCISE",
     "time": "45 m",
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "GRIND", "level": 2 } ],
-    "components": [ [ [ "matrix_crystal_vitakin_dust", 50 ] ] ]
+    "components": [ [ [ "matrix_crystal_vitakin_dust", 10 ] ] ]
   },
   {
     "result": "matrix_crystal_drained",
@@ -61,6 +61,6 @@
     "activity_level": "BRISK_EXERCISE",
     "time": "45 m",
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "GRIND", "level": 2 } ],
-    "components": [ [ [ "matrix_crystal_drained_dust", 50 ] ] ]
+    "components": [ [ [ "matrix_crystal_drained_dust", 10 ] ] ]
   }
 ]
