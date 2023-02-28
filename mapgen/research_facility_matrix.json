@@ -4,6 +4,7 @@
     "//2": "psionic research lab, with possible matrix crystal",
     "type": "mapgen",
     "method": "json",
+    "weight": 250,
     "nested_mapgen_id": "lab_surface_workspace_Edoor_11x11",
     "object": {
       "mapgensize": [ 11, 11 ],
@@ -11,7 +12,7 @@
       "rows": [
         "5555bbbbbbb",
         "N    s     ",
-        "x   xEx   e",
+        "x   xEx    ",
         "c        cx",
         ":A:A:-:A:A:",
         "i  e      b",
@@ -33,7 +34,48 @@
         "l": { "item": "lab_torso", "chance": 40, "repeat": [ 1, 8 ] },
         "E": [ 
           { "item": "matrix_crystal_drained_group", "chance": 85 }, 
-          { "item": "dist_matrix_crystals", "chance": 33 } 
+          { "item": "dist_matrix_crystals", "chance": 50 } 
+        ] 
+      },
+      "palettes": [ "lab_workspace_palette" ]
+    }
+  },
+  {
+    "//": "11x11 large lab workspace, doors left side bottom",
+    "//2": "psionic research lab, with possible matrix crystal",
+    "type": "mapgen",
+    "method": "json",
+    "weight": 250,
+    "nested_mapgen_id": "lab_surface_workspace_Wdoor_11x11",
+    "object": {
+      "mapgensize": [ 11, 11 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "bbbbbbb5555",
+        "     s    N",
+        "    xEx   x",
+        "xc        c",
+        ":A:A:-:A:A:",
+        "b     e   i",
+        "bs        i",
+        "bx  sb   cd",
+        "lU   sb   F",
+        "         sb",
+        "  &CSC &bbb"
+      ],
+      "items": {
+        "b": [
+          { "item": "tools_science", "chance": 30, "repeat": [ 1, 2 ] },
+          { "item": "electronics", "chance": 30, "repeat": [ 1, 2 ] }
+        ],
+        "f": { "item": "supplies_reagents_lab", "chance": 70, "repeat": [ 2, 5 ] },
+        "F": { "item": "electronics", "chance": 70, "repeat": [ 2, 5 ] },
+        "C": { "item": "cleaning", "chance": 30, "repeat": [ 1, 2 ] },
+        "U": { "item": "lab_shoes", "chance": 40, "repeat": [ 1, 8 ] },
+        "l": { "item": "lab_torso", "chance": 40, "repeat": [ 1, 8 ] },
+        "E": [ 
+          { "item": "matrix_crystal_drained_group", "chance": 85 }, 
+          { "item": "dist_matrix_crystals", "chance": 50 } 
         ] 
       },
       "palettes": [ "lab_workspace_palette" ]
