@@ -2,6 +2,7 @@
 {
     "type": "mapgen",
     "method": "json",
+    "weight": 333,
     "nested_mapgen_id": "microlab_distorted_chunk",
      "object": {
       "mapgensize": [ 12, 12 ],
