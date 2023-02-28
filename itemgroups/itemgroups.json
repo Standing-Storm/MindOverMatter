@@ -24,6 +24,14 @@
   },
   {
     "type": "item_group",
+    "subtype": "collection",
+    "id": "psionic_recipes_beginner",
+    "items": [
+
+    ]    
+  },
+  {
+    "type": "item_group",
     "subtype": "distribution",
     "id": "dist_meditation_books_begin",
     "items": [
