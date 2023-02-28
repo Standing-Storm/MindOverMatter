@@ -15,6 +15,18 @@
     "use_action": { "type": "effect_on_conditions", "description": "The pink glow calls to you.", "effect_on_conditions": [ "EOC_BIOKIN_MATRIX_AWAKENING" ] }
   },
   {
+    "type": "GENERIC",
+    "id": "matrix_crystal_biokin_dust",
+    "name": { "str_sp": "crystalline dust, pink" },
+    "description": "A bit of crystalline dust with a faint pink shimmer.",
+    "color": "pink",
+    "symbol": "=",
+    "volume": "1 ml",
+    "weight": "15 g",
+    "material": [ "powder_nonflam" ],
+    "looks-like": "material_quicklime"
+  },
+  {
     "type": "TOOL",
     "id": "matrix_crystal_clairsentience",
     "name": { "str_sp": "strange crystal, gray" },
@@ -22,6 +34,14 @@
     "description": "A strange-looking, surprisingly-heavy crystal with a faintly-glowing gray light in its depths.  Holding it, you feel more perceptive.",
     "color": "dark_gray",
     "use_action": { "type": "effect_on_conditions", "description": "The gray glow calls to you.", "effect_on_conditions": [ "EOC_CLAIR_MATRIX_AWAKENING" ] }
+  },
+  {
+    "type": "GENERIC",
+    "id": "matrix_crystal_clair_dust",
+    "name": { "str_sp": "crystalline dust, gray" },
+    "copy-from": "matrix_crystal_biokin_dust",
+    "description": "A bit of crystalline dust with a faint gray shimmer.",
+    "color": "dark_gray"
   },
   {
     "type": "TOOL",
@@ -32,7 +52,15 @@
     "color": "red",
     "use_action": { "type": "effect_on_conditions", "description": "The red glow calls to you.", "effect_on_conditions": [ "EOC_PYROKIN_MATRIX_AWAKENING" ] }
   },
-   {
+  {
+    "type": "GENERIC",
+    "id": "matrix_crystal_pyro_dust",
+    "name": { "str_sp": "crystalline dust, red" },
+    "copy-from": "matrix_crystal_biokin_dust",
+    "description": "A bit of crystalline dust with a faint red shimmer.",
+    "color": "red"
+  },
+  {
     "type": "TOOL",
     "id": "matrix_crystal_telekinesis",
     "name": { "str_sp": "strange crystal, yellow" },
@@ -41,7 +69,15 @@
     "color": "yellow",
     "use_action": { "type": "effect_on_conditions", "description": "The yellow glow calls to you.", "effect_on_conditions": [ "EOC_TELEKIN_MATRIX_AWAKENING" ] }
   },
-   {
+  {
+    "type": "GENERIC",
+    "id": "matrix_crystal_telekin_dust",
+    "name": { "str_sp": "crystalline dust, yellow" },
+    "copy-from": "matrix_crystal_biokin_dust",
+    "description": "A bit of crystalline dust with a faint yellow shimmer.",
+    "color": "yellow"
+  },
+  {
     "type": "TOOL",
     "id": "matrix_crystal_telepathy",
     "name": { "str_sp": "strange crystal, white" },
@@ -50,7 +86,15 @@
     "color": "white",
     "use_action": { "type": "effect_on_conditions", "description": "The white glow calls to you.", "effect_on_conditions": [ "EOC_TEEP_MATRIX_AWAKENING" ] }
   },
-   {
+  {
+    "type": "GENERIC",
+    "id": "matrix_crystal_telepath_dust",
+    "name": { "str_sp": "crystalline dust, white" },
+    "copy-from": "matrix_crystal_biokin_dust",
+    "description": "A bit of crystalline dust with a faint white shimmer.",
+    "color": "white"
+  },
+  {
     "type": "TOOL",
     "id": "matrix_crystal_teleportation",
     "name": { "str_sp": "strange crystal, blue" },
@@ -59,7 +103,15 @@
     "color": "blue",
     "use_action": { "type": "effect_on_conditions", "description": "The blue glow calls to you.", "effect_on_conditions": [ "EOC_TELEPORT_MATRIX_AWAKENING" ] }
   },
-   {
+  {
+    "type": "GENERIC",
+    "id": "matrix_crystal_teleport_dust",
+    "name": { "str_sp": "crystalline dust, blue" },
+    "copy-from": "matrix_crystal_biokin_dust",
+    "description": "A bit of crystalline dust with a faint blue shimmer.",
+    "color": "blue"
+  },
+  {
     "type": "TOOL",
     "id": "matrix_crystal_vitakinesis",
     "name": { "str_sp": "strange crystal, green" },
@@ -67,6 +119,14 @@
     "description": "A strange-looking, surprisingly-heavy crystal with a faintly-glowing green light in its depths.  Holding it, you feel healthier.",
     "color": "green",
     "use_action": { "type": "effect_on_conditions", "description": "The green glow calls to you.", "effect_on_conditions": [ "EOC_VITAKIN_MATRIX_AWAKENING" ] }
+  },
+  {
+    "type": "GENERIC",
+    "id": "matrix_crystal_vitakin_dust",
+    "name": { "str_sp": "crystalline dust, green" },
+    "copy-from": "matrix_crystal_biokin_dust",
+    "description": "A bit of crystalline dust with a faint green shimmer.",
+    "color": "green"
   },
   {
     "type": "TOOL",
@@ -81,6 +141,14 @@
     "material": [ "nether_crystal" ],
     "looks-like": "art_crystal",
     "use_action": { "type": "effect_on_conditions", "description": "The faint light calls to you.", "effect_on_conditions": [ "EOC_DRAINED_MATRIX" ] }
+  },
+  {
+    "type": "GENERIC",
+    "id": "matrix_crystal_drained_dust",
+    "name": { "str_sp": "crystalline dust, black" },
+    "copy-from": "matrix_crystal_biokin_dust",
+    "description": "A bit of crystalline dust that seems to absorb light.",
+    "color": "black"
   },
   {
     "type": "TOOL",
