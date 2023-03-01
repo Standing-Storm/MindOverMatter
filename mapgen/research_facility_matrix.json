@@ -175,7 +175,7 @@
         "U": [
           { "item": "tools_electronics", "chance": 40, "repeat": [ 1, 3 ] },
           { "item": "supplies_metal", "chance": 30, "repeat": [ 1, 4 ] },
-          { "item": "supplies_metal_precious", "chance": 25, "repeat": [ 1, 3 ] },
+          { "item": "supplies_metal_precious", "chance": 25, "repeat": [ 1, 3 ] }
         ],
         "l": [
           { "item": "lab_torso", "chance": 40, "repeat": [ 1, 8 ] },
