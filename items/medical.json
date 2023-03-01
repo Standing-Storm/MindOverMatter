@@ -16,7 +16,8 @@
   },
   {
     "id": "psionic_purifier_vita",
-    "type": "GENERIC",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
     "name": { "str": "morphic reversion serum" },
     "description": "A faintly-glowing green liquid, the document you found told you that this would \"restore your morphology to baseline\", whatever that means.",
     "weight": "20 g",
@@ -28,7 +29,8 @@
     "container": "flask_glass",
     "symbol": "!",
     "color": "green",
-    "healthy": -6,
+    "vitamins": [  ],
+    "healthy": -4,
     "flags": [ "SINGLE_USE" ],
     "use_action": [ "PURIFY_SMART" ],
   }
