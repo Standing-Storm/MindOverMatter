@@ -15,6 +15,20 @@
   },
   {
     "type": "item_group",
+    "subtype": "collection",
+    "id": "collection_matrix_dust",
+    "items": [
+      [ "matrix_crystal_biokin_dust", "prob": 30, "container-item": "flask_glass" ],
+      [ "matrix_crystal_clair_dust", "prob": 30, "container-item": "flask_glass" ],
+      [ "matrix_crystal_pyro_dust", "prob": 30, "container-item": "flask_glass" ],
+      [ "matrix_crystal_telekin_dust", "prob": 30, "container-item": "flask_glass" ],
+      [ "matrix_crystal_telepath_dust", "prob": 30, "container-item": "flask_glass" ],
+      [ "matrix_crystal_teleport_dust", "prob": 30, "container-item": "flask_glass" ],
+      [ "matrix_crystal_vitakinesis", "prob": 30, "container-item": "flask_glass" ]
+    ]
+  },
+  {
+    "type": "item_group",
     "subtype": "distribution",
     "id": "matrix_crystal_drained_group",
     "items": [
