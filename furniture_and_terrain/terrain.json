@@ -17,7 +17,16 @@
       "sound_vol": 16,
       "sound_fail_vol": 10,
       "ter_set": "t_grass_alien",
-      "items": [ { "item": "matrix_shard", "count": [ 34, 50 ] } ]
+      "items": [ 
+				{ "item": "matrix_shard", "count": [ 34, 50 ]	},
+				{ "item": "matrix_crystal_biokin_dust", "count": [ 0, 3] },
+				{ "item": "matrix_crystal_clair_dust", "count": [ 0, 3] },
+				{ "item": "matrix_crystal_pyro_dust", "count": [ 0, 3] },
+				{ "item": "matrix_crystal_telekin_dust", "count": [ 0, 3] },
+				{ "item": "matrix_crystal_telepath_dust", "count": [ 0, 3] },
+				{ "item": "matrix_crystal_teleport_dust", "count": [ 0, 3] },
+				{ "item": "matrix_crystal_vitakin_dust", "count": [ 0, 3] }
+			]
     }
 	}
 ]
