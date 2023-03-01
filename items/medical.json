@@ -2,7 +2,7 @@
   {
     "id": "psionic_serum_base",
     "type": "GENERIC",
-    "name": { "str": "matrix reactant serum" },
+    "name": { "str": "matrix reactant liquid" },
     "description": "A thick liquid, mixed with ground matrix crystal and ready to be catalyzed.  In total darkness, it glows very faintly.",
     "material": [ "alien_liquid" ],
     "weight": "30 g",
