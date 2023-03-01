@@ -42,6 +42,7 @@
     "subtype": "distribution",
     "id": "psionic_recipes_beginner",
     "items": [
+      [ "schematics_reactant_liquid_base", 3 ],
       [ "schematics_matrix_channeling", 2 ],
       [ "schematics_matrix_aligning", 1 ]
     ]    
