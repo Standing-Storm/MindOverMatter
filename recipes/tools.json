@@ -33,7 +33,7 @@
     "difficulty": 5,
     "time": "5 h",
     "book_learn": [ [ "schematics_matrix_aligning", 6 ] ],
-    "qualities": [ { "id": "HAMMER_FINE", "level": 1 }, { "id": "GRIND", "level": 2 }, { "id": "CHISEL", "level": 3 }, "id": "MATRIX_CHANNEL", "level" 1 ],
+    "qualities": [ { "id": "HAMMER_FINE", "level": 1 }, { "id": "GRIND", "level": 2 }, { "id": "CHISEL", "level": 3 }, { "id": "MATRIX_CHANNEL", "level" 1 } ],
     "tools": [ [ [ "swage", -1 ] ] ],
     "proficiencies": [
       { "proficiency": "prof_metalworking" },
