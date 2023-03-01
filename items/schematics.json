@@ -1,0 +1,30 @@
+[
+  {
+    "id": "schematics_matrix_channeling",
+    "type": "BOOK",
+    "name": { "str_sp": "matrix channeling schematics" },
+    "description": "This is a series of technical design documents for a \"matrix channeling array\" designed to \"allow an attuned mathematician to direct a stronger level of Netherium energy\".  It sounds like nonsense, but the document does have the XEDRA seal stamped on it.",
+    "copy-from": "schematics_generic",
+    "skill": "metaphysics",
+    "required_level": 4,
+    "max_level": 4,
+    "intelligence": 8,
+    "time": "45 m",
+    "symbol": "ç",
+    "color": "blue"
+  },
+  {
+    "id": "schematics_matrix_aligning",
+    "type": "BOOK",
+    "name": { "str_sp": "matrix aligning schematics" },
+    "description": "This is a series of technical design documents for a focusing assembly designed to \"enhance the precision of Netherium mathematics\".",
+    "copy-from": "schematics_generic",
+    "skill": "metaphysics",
+    "required_level": 6,
+    "max_level": 6,
+    "intelligence": 8,
+    "time": "45 m",
+    "symbol": "ç",
+    "color": "white"
+  }
+]
