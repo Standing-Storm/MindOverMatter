@@ -19,7 +19,8 @@
     "using": [ [ "soldering_standard", 15 ], [ "steel_tiny", 2 ] ],
     "components": [ 
       [ [ "matrix_crystal_drained", 4 ] ]
-    ]
+    ],
+    "flags": [ "SECRET" ]
   },
   {
     "type": "recipe",
@@ -43,6 +44,7 @@
     "components": [ 
       [ [ "matrix_shard", 6 ] ],
       [ [ "gold_small", 15 ], [ "silver_small", 25 ] ]
-    ]
+    ],
+    "flags": [ "SECRET" ]
   }
 ]
