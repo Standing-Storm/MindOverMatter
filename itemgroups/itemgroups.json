@@ -24,7 +24,8 @@
       [ "matrix_crystal_telekin_dust", "prob": 30, "container-item": "flask_glass" ],
       [ "matrix_crystal_telepath_dust", "prob": 30, "container-item": "flask_glass" ],
       [ "matrix_crystal_teleport_dust", "prob": 30, "container-item": "flask_glass" ],
-      [ "matrix_crystal_vitakinesis", "prob": 30, "container-item": "flask_glass" ]
+      [ "matrix_crystal_vitakinesis", "prob": 30, "container-item": "flask_glass" ],
+      [ "matrix_crystal_drained_dust", "prob": 80, "container-item": "flask_glass" ]
     ]
   },
   {
