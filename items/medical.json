@@ -3,7 +3,7 @@
     "id": "psionic_purifier_vita",
     "type": "GENERIC",
     "name": { "str": "morphic reversion serum" },
-    "description": "A tube filled with a faintly-glowing green liquid, the document you found told you that this would \"restore your morphology to baseline"\.",
+    "description": "A tube filled with a faintly-glowing green liquid, the document you found told you that this would \"restore your morphology to baseline\".",
     "weight": "20 g",
     "volume": "10ml",
     "price": 1200000,
