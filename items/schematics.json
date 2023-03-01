@@ -3,7 +3,7 @@
     "id": "schematics_matrix_channeling",
     "type": "BOOK",
     "name": { "str_sp": "matrix channeling schematics" },
-    "description": "This is a series of technical design documents for a \"matrix channeling array\" designed to \"allow an attuned mathematician to direct a stronger level of Netherium energy\".  It sounds like nonsense, but the document does have the XEDRA seal stamped on it.",
+    "description": "This is a series of technical design documents for a \"matrix channeling array\" designed to \"allow an attuned mathematician to direct a stronger level of Netherum energy\".  It sounds like nonsense, but the document does have the XEDRA seal stamped on it.",
     "copy-from": "schematics_generic",
     "skill": "metaphysics",
     "required_level": 4,
