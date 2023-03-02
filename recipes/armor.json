@@ -21,7 +21,7 @@
     "tools": [ [ [ "swage", -1 ] ] ],
     "components": [ 
       [ [ "matrix_crystal_teleport_dust", 6 ] ],
-      [ [ "steel_tiny", 1 ], [ "steel_lump", 1 ] ]
+      [ [ "steel_chunk", 2 ], [ "steel_lump", 1 ] ]
     ],
     "flags": [ "SECRET" ]
   }
