@@ -2,7 +2,7 @@
   {
     "id": "schematics_matrix_channeling",
     "type": "BOOK",
-    "name": { "str_sp": "matrix channeling schematics" },
+    "name": { "str_sp": "matrix channeling array schematics" },
     "description": "This is a series of technical design documents for a \"matrix channeling array\" designed to \"allow an attuned mathematician to direct a stronger level of Netherum energy\".  It sounds like nonsense, but the document does have the XEDRA seal stamped on it.",
     "copy-from": "schematics_generic",
     "skill": "metaphysics",
@@ -16,7 +16,7 @@
   {
     "id": "schematics_matrix_aligning",
     "type": "BOOK",
-    "name": { "str_sp": "matrix aligning schematics" },
+    "name": { "str_sp": "crystalline focusing assembly schematics" },
     "description": "This is a series of technical design documents for a focusing assembly designed to \"enhance the precision of Netherium mathematics\".",
     "copy-from": "schematics_generic",
     "skill": "metaphysics",
@@ -72,7 +72,7 @@
   {
     "id": "schematics_instability_remover",
     "type": "BOOK",
-    "name": { "str_sp": "morphic resilience schematics" },
+    "name": { "str_sp": "morphic resilience cream schematics" },
     "description": "This document details a series of steps for making a cream which will \"enchance the subject's resilience to the deleterious effects of XE037 overexposure, allowing more rapid experimentation and reducing the need for subject acquisition\".  It's stamped with a XEDRA symbol in the corner with \"Project PHAVIAN\" written at the top. ",
     "copy-from": "schematics_generic",
     "skill": "metaphysics",
