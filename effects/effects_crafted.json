@@ -12,7 +12,7 @@
       {
         "vitamin": "instability",
         "rate": [ -1 ],
-        "tick": [ "3 m" ],
+        "tick": [ "3 m" ]
       }
     ],
     "base_mods": { "speed_mod": [ -10 ], "str_mod": [ -1 ], "dex_mod": [ -1 ], "int_mod": [ -1 ], "h_mod_min": [ -1 ], "h_mod_chance": [ 1 ], "h_mod_chance_bot": [ 5 ], "h_mod_tick": [ 3600 ] }
