@@ -17,9 +17,10 @@
       { "proficiency": "prof_psionic_warping", "required": false },
     ],
     "using": [ [ "blacksmithing_standard", 3 ], [ "steel_tiny", 1 ] ],
+    "qualities": [ { "id": "MATRIX_CHANNEL", "level": 1 }, { "id": "MATRIX_FOCUS", "level": 1 } ],
     "tools": [ [ [ "swage", -1 ] ] ],
     "components": [ 
-      [ [ "matrix_crystal_teleport_dust", 6 ] ].
+      [ [ "matrix_crystal_teleport_dust", 6 ] ],
       [ [ "steel_tiny", 1 ], [ "steel_lump", 1 ] ]
     ],
     "flags": [ "SECRET" ]
