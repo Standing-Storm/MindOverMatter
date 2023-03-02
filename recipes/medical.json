@@ -34,7 +34,7 @@
     "using": [ [ "serum_production_standard", 25 ] ],
     "qualities": [ { "id": "MATRIX_CHANNEL", "level": 1 }, { "id": "MATRIX_FOCUS", "level": 1 } ],
     "components": [
-      [ [ "psionic_serum_base", 2 ] ],
+      [ [ "psionic_serum_base", 5 ] ],
       [ [ "matrix_crystal_vitakin_dust", 3 ] ]
     ],
     "flags": [ "SECRET" ]
