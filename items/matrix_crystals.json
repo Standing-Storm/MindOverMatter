@@ -54,7 +54,7 @@
   },
   {
     "type": "GENERIC",
-    "id": "matrix_crystal_pyro_dust",
+    "id": "matrix_crystal_pyrokin_dust",
     "name": { "str_sp": "crystalline dust, red" },
     "copy-from": "matrix_crystal_biokin_dust",
     "description": "A bit of crystalline dust with a faint red shimmer.",
