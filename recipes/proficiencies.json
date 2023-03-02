@@ -3,7 +3,7 @@
      "type": "proficiency_category",
      "id": "prof_psionic",
      "name": "Psionic",
-     "description": "Proficiencies that help with creating items using psionics."
+     "description": "Proficiencies that help with channeling psionic energy into physical objects or into more esoteric applications."
    },
    {
      "type": "proficiency",
