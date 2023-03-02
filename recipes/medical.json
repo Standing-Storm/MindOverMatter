@@ -37,6 +37,7 @@
     "book_learn": [ [ "schematics_instability_remover", 7 ] ],
     "proficiencies": [
       { "proficiency": "prof_psionic_basic", "required": true },
+      { "proficiency": "prof_psionic_containment", "required": false },
       { "proficiency": "prof_psionic_morphic", "required": false }
     ],
     "using": [ [ "serum_production_standard", 25 ] ],
@@ -61,6 +62,7 @@
     "book_learn": [ ],
     "proficiencies": [
       { "proficiency": "prof_psionic_basic", "required": true },
+      { "proficiency": "prof_psionic_containment", "required": true },
       { "proficiency": "prof_psionic_morphic", "required": false }
     ],
     "using": [ [ "serum_production_standard", 25 ] ],
