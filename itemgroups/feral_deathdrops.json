@@ -205,6 +205,7 @@
     "entries": [
       { "item": "heavy_flashlight", "prob": 75, "damage": [ 2, 4 ] },
       { "item": "tazer", "prob": 50, "damage": [ 2, 4 ] },
+      { "item" "grenade_inferno", "prob": 20 },
       { "group": "cop_gloves", "prob": 30, "damage": [ 1, 4 ] },
       { "group": "security_pants", "damage": [ 1, 4 ] },
       { "group": "security_shoes", "prob": 70, "damage": [ 1, 4 ] },
@@ -215,8 +216,7 @@
       { "group": "wallets", "damage": [ 1, 4 ] },
       { "group": "feral_humans_crystal_drops_bio", "prob": 3 },
       { "group": "feral_humans_crystal_drops_clair", "prob": 3 },
-      { "group": "feral_humans_crystal_drops_vita", "prob": 3 },
-      { "group": "psionic_recipes_beginner", "prob": 30 }
+      { "group": "feral_humans_crystal_drops_vita", "prob": 3 }
     ]
   }
 ]
