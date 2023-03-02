@@ -108,6 +108,8 @@
         "b": { "item": "tools_science", "chance": 30, "repeat": [ 1, 2 ] },
         "B": [
           { "item": "psionic_recipes_beginner", "chance": 25 },
+          { "item": "psionic_recipes_armor", "chance": 5 },
+          { "item": "psionic_recipes_medicine", "chance": 5 },
           { "item": "lab_bookshelves", "chance": 50, "repeat": [ 1, 3 ] }
         ],
         "f": { "item": "supplies_reagents_lab", "chance": 70, "repeat": [ 2, 5 ] },
@@ -162,6 +164,8 @@
         "b": { "item": "tools_science", "chance": 30, "repeat": [ 1, 2 ] },
         "B": [
           { "item": "psionic_recipes_beginner", "chance": 20 },
+          { "item": "psionic_recipes_armor", "chance": 5 },
+          { "item": "psionic_recipes_medicine", "chance": 5 },
           { "item": "lab_bookshelves", "chance": 50, "repeat": [ 1, 3 ] }
         ],
         "f": { "item": "supplies_reagents_lab", "chance": 70, "repeat": [ 2, 5 ] },
