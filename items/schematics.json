@@ -28,6 +28,20 @@
     "color": "white"
   },
   {
+    "id": "schematics_anchoring_crown",
+    "type": "BOOK",
+    "name": { "str_sp": "anchoring crown schematics" },
+    "description": "This is a series of technical design documents for using matrix crystals to shield the wearer from excess Netherum energies.",
+    "copy-from": "schematics_generic",
+    "skill": "metaphysics",
+    "required_level": 4,
+    "max_level": 4,
+    "intelligence": 10,
+    "time": "45 m",
+    "symbol": "ç",
+    "color": "blue"
+  },
+  {
     "id": "schematics_grenade_inferno",
     "type": "BOOK",
     "name": { "str_sp": "inferno grenade schematics" },
@@ -67,6 +81,6 @@
     "intelligence": 10,
     "time": "60 m",
     "symbol": "ç",
-    "color": "blue"
+    "color": "green"
   }
 ]
