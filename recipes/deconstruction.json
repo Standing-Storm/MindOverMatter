@@ -21,7 +21,7 @@
     "activity_level": "BRISK_EXERCISE",
     "time": "45 m",
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "GRIND", "level": 2 }, { "id": "FINE_GRIND", "level": 1 } ],
-    "components": [ [ [ "matrix_crystal_pyro_dust", 10 ] ] ]
+    "components": [ [ [ "matrix_crystal_pyrokin_dust", 10 ] ] ]
   },
   {
     "result": "matrix_crystal_telekinesis",
