@@ -163,11 +163,12 @@
     ]
   },
   {
-     "type":"item_group",
+    "type":"item_group",
     "subtype": "collection",
     "id": "feral_scientists_death_drops_psychic",
     "entries": [
       { "item": "scalpel", "prob": 100, "damage": [ 1, 3 ] },
+      { "item": "psionic_serum_base", "prob": 40, "container-item": "flask_glass" },
       { "group": "lab_shoes", "damage": [ 1, 4 ] },
       { "group": "lab_torso", "damage": [ 1, 4 ] },
       { "group": "lab_pants", "damage": [ 1, 4 ] },
@@ -177,8 +178,6 @@
         "collection": [
           { "group": "harddrugs", "prob": 25 },
           { "group": "chem_lab", "prob": 60 },
-          { "group": "cloning_vat", "prob": 1 },
-          { "group": "dissection", "prob": 50 },
           { "group": "electronics", "prob": 40 },
           { "group": "radio", "prob": 15 },
           { "group": "textbooks", "prob": 25 },
@@ -189,10 +188,12 @@
           { "group": "feral_humans_crystal_drops_telekin", "prob": 5 },
           { "group": "feral_humans_crystal_drops_teep", "prob": 5 },
           { "group": "feral_humans_crystal_drops_porter", "prob": 5 },
-          { "group": "feral_humans_crystal_drops_vita", "prob": 5 }
+          { "group": "feral_humans_crystal_drops_vita", "prob": 5 },
+          { "group": "collection_matrix_dust", "prob": 50, "count": [ 1, 3 ] },
+          { "group": "psionic_recipes_beginner", "prob": 40 }
         ]
       },
-      { "group": "wallets_science", "damage": [ 1, 4 ], "prob": 5 }
+      { "group": "wallets_science", "damage": [ 1, 4 ], "prob": 15 }
       ]
   },
   {
@@ -202,8 +203,8 @@
     "magazine": 100,
     "ammo": 20,
     "entries": [
-      { "item": "heavy_flashlight", "prob": 100, "damage": [ 2, 4 ] },
-      { "item": "tazer", "prob": 100, "damage": [ 2, 4 ] },
+      { "item": "heavy_flashlight", "prob": 75, "damage": [ 2, 4 ] },
+      { "item": "tazer", "prob": 50, "damage": [ 2, 4 ] },
       { "group": "cop_gloves", "prob": 30, "damage": [ 1, 4 ] },
       { "group": "security_pants", "damage": [ 1, 4 ] },
       { "group": "security_shoes", "prob": 70, "damage": [ 1, 4 ] },
@@ -214,7 +215,8 @@
       { "group": "wallets", "damage": [ 1, 4 ] },
       { "group": "feral_humans_crystal_drops_bio", "prob": 3 },
       { "group": "feral_humans_crystal_drops_clair", "prob": 3 },
-      { "group": "feral_humans_crystal_drops_vita", "prob": 3 }
+      { "group": "feral_humans_crystal_drops_vita", "prob": 3 },
+      { "group": "psionic_recipes_beginner", "prob": 30 }
     ]
   }
 ]
