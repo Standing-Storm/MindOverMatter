@@ -28,6 +28,20 @@
     "color": "white"
   },
   {
+    "id": "schematics_grenade_inferno",
+    "type": "BOOK",
+    "name": { "str_sp": "inferno grenade schematics" },
+    "description": "This is a hand-written design document to enhance the normal explosive power of a grenade using matrix crystal dust.  In pen below is the note \"EXTREMELY DANGEROUS\".",
+    "copy-from": "schematics_generic",
+    "skill": "metaphysics",
+    "required_level": 5,
+    "max_level": 5,
+    "intelligence": 10,
+    "time": "45 m",
+    "symbol": "ç",
+    "color": "red"
+  },
+  {
     "id": "schematics_reactant_liquid_base",
     "type": "BOOK",
     "name": { "str_sp": "psychoreactive catalyst specifications" },
