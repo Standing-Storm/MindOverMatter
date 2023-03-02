@@ -182,13 +182,8 @@
           { "group": "radio", "prob": 15 },
           { "group": "textbooks", "prob": 25 },
           { "group": "autodoc_installation_programs", "prob": 5 },
-          { "group": "feral_humans_crystal_drops_bio", "prob": 5 },
-          { "group": "feral_humans_crystal_drops_clair", "prob": 5 },
-          { "group": "feral_humans_crystal_drops_pyro", "prob": 5 },
-          { "group": "feral_humans_crystal_drops_telekin", "prob": 5 },
-          { "group": "feral_humans_crystal_drops_teep", "prob": 5 },
-          { "group": "feral_humans_crystal_drops_porter", "prob": 5 },
-          { "group": "feral_humans_crystal_drops_vita", "prob": 5 },
+          { "group": "feral_humans_crystal_drops_telekin", "prob": 50 },
+          { "group": "feral_humans_crystal_drops_teep", "prob": 50 },
           { "group": "collection_matrix_dust", "prob": 50, "count": [ 1, 3 ] },
           { "group": "psionic_recipes_beginner", "prob": 45 },
           { "group": "psionic_recipes_medicine", "prob": 15 }
@@ -215,9 +210,9 @@
       { "group": "clothing_glasses", "prob": 5 },
       { "group": "clothing_watch", "prob": 5 },
       { "group": "wallets", "damage": [ 1, 4 ] },
-      { "group": "feral_humans_crystal_drops_bio", "prob": 3 },
-      { "group": "feral_humans_crystal_drops_clair", "prob": 3 },
-      { "group": "feral_humans_crystal_drops_vita", "prob": 3 }
+      { "group": "feral_humans_crystal_drops_bio", "prob": 25 },
+      { "group": "feral_humans_crystal_drops_clair", "prob": 25 },
+      { "group": "feral_humans_crystal_drops_vita", "prob": 25 }
     ]
   }
 ]
