@@ -30,7 +30,7 @@
   {
     "id": "schematics_reactant_liquid_base",
     "type": "BOOK",
-    "name": { "str_sp": "matrix reactant liquid specifications" },
+    "name": { "str_sp": "psychoreactive catalyst specifications" },
     "description": "A chemical formula for mixing ground matrix crystals with other metals and dissolving them in liquid.  There's a long list of possible applications for the resulting compound, almost all of which would have seemed like pure fantasy if you hadn't lived through the end of the world.",
     "copy-from": "schematics_generic",
     "skill": "metaphysics",
