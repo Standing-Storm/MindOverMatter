@@ -10,9 +10,12 @@
     "time": "55 m",
     "batch_time_factors": [ 80, 4 ],
     "book_learn": [ ],
+    "proficiencies": [
+      { "proficiency": "prof_psionic_basic", "required": false }
+    ],
     "using": [ [ "serum_production_standard", 25 ] ],
     "components": [
-      [ [ "chem_toluene", 5 ] ], 
+      [ [ "chem_toluene", 100 ] ], 
       [ [ "matrix_crystal_drained_dust", 3 ] ], 
       [ [ "water_clean", 5 ] ],
       [ [ "chem_aluminium_powder", 10 ] ],
@@ -31,6 +34,9 @@
     "difficulty": 8,
     "time": "350 m",
     "book_learn": [ ],
+    "proficiencies": [
+      { "proficiency": "prof_psionic_basic", "required": false }
+    ],
     "using": [ [ "serum_production_standard", 25 ] ],
     "qualities": [ { "id": "MATRIX_CHANNEL", "level": 1 }, { "id": "MATRIX_FOCUS", "level": 1 } ],
     "components": [
