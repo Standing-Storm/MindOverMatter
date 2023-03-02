@@ -32,6 +32,6 @@
     "vitamins": [  ],
     "healthy": -4,
     "flags": [ "SINGLE_USE" ],
-    "use_action": [ "PURIFY_SMART" ],
+    "use_action": [ "PURIFY_SMART" ]
   }
 ]
