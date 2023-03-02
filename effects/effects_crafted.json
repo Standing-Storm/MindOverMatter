@@ -11,7 +11,7 @@
     "vitamins": [
       {
         "vitamin": "instability",
-        "rate": [ -1 ],
+        "rate": [ [-1, -1] ],
         "tick": [ "3 m" ]
       }
     ],
