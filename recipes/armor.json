@@ -14,7 +14,7 @@
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_psionic_basic", "required": true },
       { "proficiency": "prof_psionic_containment", "required": false },
-      { "proficiency": "prof_psionic_warping", "required": false },
+      { "proficiency": "prof_psionic_warping", "required": false }
     ],
     "using": [ [ "blacksmithing_standard", 3 ], [ "steel_tiny", 1 ] ],
     "qualities": [ { "id": "MATRIX_CHANNEL", "level": 1 }, { "id": "MATRIX_FOCUS", "level": 1 } ],
