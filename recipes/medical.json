@@ -32,7 +32,7 @@
     "time": "350 m",
     "book_learn": [ ],
     "using": [ [ "serum_production_standard", 25 ] ],
-    "qualities": [ { "id": "MATRIX_CHANNEL", "level" 1 }, { "id": "MATRIX_FOCUS", "level" 1 } ],
+    "qualities": [ { "id": "MATRIX_CHANNEL", "level": 1 }, { "id": "MATRIX_FOCUS", "level": 1 } ],
     "components": [
       [ [ "psionic_serum_base", 2 ] ],
       [ [ "matrix_crystal_vitakin_dust", 3 ] ]
