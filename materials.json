@@ -24,7 +24,7 @@
     {
     "type": "material",
     "id": "nether_crystal",
-    "name": "Netherium Crystal",
+    "name": "Netherum Crystal",
     "density": 15,
     "specific_heat_liquid": 0.52,
     "specific_heat_solid": 0.52,
