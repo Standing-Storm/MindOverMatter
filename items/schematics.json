@@ -77,8 +77,22 @@
     "copy-from": "schematics_generic",
     "skill": "metaphysics",
     "required_level": 5,
-    "max_level": 4,
+    "max_level": 5,
     "intelligence": 10,
+    "time": "60 m",
+    "symbol": "ç",
+    "color": "green"
+  },
+  {
+    "id": "schematics_psionic_purifier",
+    "type": "BOOK",
+    "name": { "str_sp": "morphic reversion serum schematics" },
+    "description": "A series of steps to create a serum that will \"Eliminate the undesirable effects of XE037 overexposure\".  It is designed to be injected in the recipient.",
+    "copy-from": "schematics_generic",
+    "skill": "metaphysics",
+    "required_level": 7,
+    "max_level": 7,
+    "intelligence": 12,
     "time": "60 m",
     "symbol": "ç",
     "color": "green"
