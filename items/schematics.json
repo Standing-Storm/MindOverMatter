@@ -8,7 +8,7 @@
     "skill": "metaphysics",
     "required_level": 4,
     "max_level": 4,
-    "intelligence": 8,
+    "intelligence": 10,
     "time": "45 m",
     "symbol": "ç",
     "color": "blue"
@@ -22,7 +22,7 @@
     "skill": "metaphysics",
     "required_level": 6,
     "max_level": 6,
-    "intelligence": 8,
+    "intelligence": 11,
     "time": "45 m",
     "symbol": "ç",
     "color": "white"
@@ -36,9 +36,23 @@
     "skill": "metaphysics",
     "required_level": 5,
     "max_level": 5,
-    "intelligence": 8,
+    "intelligence": 12,
     "time": "45 m",
     "symbol": "ç",
     "color": "green"
+  },
+  {
+    "id": "schematics_instability_remover",
+    "type": "BOOK",
+    "name": { "str_sp": "morphic resilience schematics" },
+    "description": "This document details a series of steps for making a cream which will \"enchance the subject's resilience to the deleterious effects of XE037 overexposure, allowing more rapid experimentation and reducing the need for subject acquisition\".  It's stamped with a XEDRA symbol in the corner with \"Project PHAVIAN\" written at the top. ",
+    "copy-from": "schematics_generic",
+    "skill": "metaphysics",
+    "required_level": 5,
+    "max_level": 4,
+    "intelligence": 10,
+    "time": "60 m",
+    "symbol": "ç",
+    "color": "blue"
   }
 ]
