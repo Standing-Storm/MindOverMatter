@@ -12,7 +12,7 @@
     "book_learn": [ ],
     "using": [ [ "serum_production_standard", 25 ] ],
     "components": [
-      [ [ "chem_toluene", 50 ] ], 
+      [ [ "chem_toluene", 5 ] ], 
       [ [ "matrix_crystal_drained_dust", 3 ] ], 
       [ [ "water_clean", 5 ] ],
       [ [ "chem_aluminium_powder", 10 ] ],
