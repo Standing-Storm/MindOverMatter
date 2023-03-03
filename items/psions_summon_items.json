@@ -27,8 +27,7 @@
   },
   {
     "id": "vita_bandages",
-    "type": "TOOL",
-    "comestible_type": "MED",
+    "type": "generic",
     "name": { "str": "Vitakinetic Wound Staunching" },
     "looks_like": "bandage",
     "description": "The power to stop bleeding",
