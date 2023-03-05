@@ -69,6 +69,7 @@
     "qualities": [ { "id": "MATRIX_CHANNEL", "level": 1 }, { "id": "MATRIX_FOCUS", "level": 1 } ],
     "components": [
       [ [ "psionic_serum_base", 5 ] ],
+      [ [ "matrix_crystal_biokin_dust", 3 ] ],
       [ [ "matrix_crystal_pyrokin_dust", 2 ] ],
       [ [ "matrix_crystal_vitakin_dust", 3 ] ],
       [ [ "mutagen_chelator", 1 ], [ "iv_purifier", 1 ] ]
