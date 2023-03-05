@@ -71,7 +71,7 @@
       [ [ "psionic_serum_base", 5 ] ],
       [ [ "matrix_crystal_pyrokin_dust", 2 ] ],
       [ [ "matrix_crystal_vitakin_dust", 3 ] ],
-      [ [ "mutagen_chelator", 1 ] ]
+      [ [ "mutagen_chelator", 1 ], [ "iv_purifier", 1 ] ]
     ],
     "flags": [ "SECRET" ]
   }  
