@@ -1,0 +1,26 @@
+[
+  {
+    "type": "ammunition_type",
+    "id": "mom_pulse_rifle_ammo",
+    "name": "Pulse rifle charge",
+    "default": "mom_pulse_rifle_ammo"
+  },
+  {
+    "id": "mom_pulse_rifle_ammo",
+    "type": "AMMO",
+    "name": { "str_sp": "LV429 pulse shot" },
+    "description": "A charge for the LV429.",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "price": 160,
+    "price_postapoc": 800,
+    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+    "material": [ "superalloy", "steel" ],
+    "symbol": "=",
+    "color": "red",
+    "count": 1,
+    "stack_size": 1,
+    "ammo_type": "mom_pulse_rifle_ammo",
+    "damage": { "damage_type": "heat", "amount": 80, "armor_penetration": 10 }
+  }
+]
