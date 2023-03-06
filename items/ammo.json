@@ -21,6 +21,9 @@
     "count": 1,
     "stack_size": 1,
     "ammo_type": "mom_pulse_rifle_ammo",
+    "range": 40,
+    "dispersion": 0,
+    "recoil": 0,
     "damage": { "damage_type": "heat", "amount": 80, "armor_penetration": 10 }
   }
 ]
