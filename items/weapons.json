@@ -82,6 +82,7 @@
       [ "stock accessory", 1 ],
       [ "underbarrel", 1 ]
     ],
+    "ammo": [ "mom_pulse_rifle_ammo" ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
     "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "pocket_data": [
