@@ -53,7 +53,7 @@
     "type": "GUN",
     "reload_noise_volume": 10,
     "name": { "str": "LV429 Pulse Rifle" },
-    "description": "The LV429 fires a series of extremely short laser pulses, more like bullets than a traditional laser beam, greatly reducing dwell time and weapon effectiveness.  Matrix crystal technology has made the weapon compact enough to be man-portable, but heat dissipation is still a problem, preventing it from being fired more than once every few seconds.",
+    "description": "The LV429 fires a series of extremely short high-energy laser pulses, more like bullets than a traditional laser beam, greatly reducing dwell time and weapon effectiveness.  Matrix crystal technology has made the weapon compact enough to be man-portable, but heat dissipation is still a problem, preventing it from being fired more than once every few seconds.",
     "weight": "2950 g",
     "volume": "3 L",
     "longest_side": "965 mm",
