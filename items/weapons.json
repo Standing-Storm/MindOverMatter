@@ -93,7 +93,7 @@
       }
     ],
     "relic_data": {
-      "charge_info": { "regenerate_ammo": true, "recharge_type": "periodic", "time": "4 s" } 
+      "charge_info": { "regenerate_ammo": true, "recharge_type": "periodic", "time": "5 s" } 
     }
   }
 ]
