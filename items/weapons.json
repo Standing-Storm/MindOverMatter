@@ -46,5 +46,52 @@
     "revert_to": "canister_empty",
     "use_action": { "GRENADE_INC_ACT" },
     "flags": [ "ACT_IN_FIRE", "BOMB", "TRADER_AVOID", "DANGEROUS" ]
+  },
+  {
+    "id": "mom_pulse_rifle",
+    "looks_like": "ar15",
+    "type": "GUN",
+    "reload_noise_volume": 10,
+    "name": { "str": "LV429 Pulse Rifle" },
+    "description": "The LV429 fires a series of extremely short laser pulses, more like bullets than a traditional laser bream, greatly reducing dwell time and weapon effectiveness.  Matrix crystal technology has made the weapon compact enough to be man-portable, but heat dissipation is still a problem, preventing it from being fired more than once every few seconds.",
+    "weight": "2950 g",
+    "volume": "3 L",
+    "longest_side": "965 mm",
+    "price": 1600000,
+    "price_postapoc": 6500,
+    "to_hit": -1,
+    "bashing": 12,
+    "material": [ "steel", "plastic", "nether_crystal" ],
+    "symbol": "(",
+    "color": "cyan",
+    "skill": "rifle",
+    "range": 40,
+    "dispersion": 10,
+    "durability": 10,
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ] ],
+    "loudness": 23,
+    "reload": 0,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "emitter", 1 ],
+      [ "grip", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ],
+      [ "stock accessory", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "ammo_effects": [ "LASER", "INCENDIARY" ],
+    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE" ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "item_restriction": [ "mom_pulse_rifle_ammo" ]
+      }
+    ],
+    "relic_data": {
+      "charge_info": { "regenerate_ammo": true, "recharge_type": "periodic", "time": "4 s" } 
+    }
   }
 ]
