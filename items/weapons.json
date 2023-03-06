@@ -71,6 +71,7 @@
     "modes": [ [ "DEFAULT", "semi-auto", 1 ] ],
     "loudness": 23,
     "reload": 0,
+    "clip_size": 1,
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "emitter", 1 ],
@@ -88,7 +89,7 @@
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE",
-        "item_restriction": [ "mom_pulse_rifle_ammo" ]
+        "ammo_restriction": { "mom_pulse_rifle_ammo": 1 }
       }
     ],
     "relic_data": {
