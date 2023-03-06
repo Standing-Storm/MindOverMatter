@@ -87,7 +87,7 @@
     "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "pocket_data": [
       {
-        "pocket_type": "MAGAZINE_WELL",
+        "pocket_type": "MAGAZINE",
         "item_restriction": [ "mom_pulse_rifle_ammo" ]
       }
     ],
