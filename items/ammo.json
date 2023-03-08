@@ -8,7 +8,7 @@
   {
     "type": "ammunition_type",
     "id": "psionic_charge_power",
-    "name": "Charge",
+    "name": "matrix charge",
     "default": "psionic_charge_power"
   },
   {
@@ -36,10 +36,10 @@
     "id": "psionic_charge_power",
     "category": "spare_parts",
     "price": 1000,
-    "name": { "str_sp": "psionic charge" },
+    "name": { "str_sp": "matrix charge" },
     "symbol": "=",
     "color": "white",
-    "description": "Power charge for psionic technology.",
+    "description": "Power charge for matrix technology.",
     "flags": [ "TRADER_AVOID", "ZERO_WEIGHT" ],
     "weight": "0 mg",
     "volume": "0 ml",
