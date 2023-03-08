@@ -30,5 +30,21 @@
     "dispersion": 0,
     "recoil": 0,
     "damage": { "damage_type": "heat", "amount": 80, "armor_penetration": 10 }
+  },
+   {
+    "type": "AMMO",
+    "id": "psionic_charge_power",
+    "category": "spare_parts",
+    "price": 1000,
+    "name": { "str_sp": "psionic charge" },
+    "symbol": "=",
+    "color": "white",
+    "description": "Power charge for psionic technology.",
+    "flags": [ "TRADER_AVOID", "ZERO_WEIGHT" ],
+    "weight": "0 mg",
+    "volume": "0 ml",
+    "ammo_type": "psionic_charge_power",
+    "material": [ "nether_crystal" ],
+    "count": 100
   }
 ]
