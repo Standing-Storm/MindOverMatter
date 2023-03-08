@@ -27,6 +27,18 @@
     "looks-like": "material_quicklime"
   },
   {
+    "type": "GENERIC",
+    "id": "matrix_crystal_biokin_dust_refined",
+    "name": { "str_sp": "refined matrix crystal powder, pink" },
+    "description": "Concentrated matrix crystal dust.  It glitters pink even in complete darkness..",
+    "color": "pink",
+    "symbol": "=",
+    "volume": "1 ml",
+    "weight": "5 g",
+    "material": [ "powder_nonflam" ],
+    "looks-like": "material_quicklime"
+  },
+  {
     "type": "TOOL",
     "id": "matrix_crystal_clairsentience",
     "name": { "str_sp": "strange crystal, gray" },
@@ -41,6 +53,14 @@
     "name": { "str_sp": "crystalline dust, gray" },
     "copy-from": "matrix_crystal_biokin_dust",
     "description": "A bit of crystalline dust with a faint gray shimmer.",
+    "color": "dark_gray"
+  },
+  {
+    "type": "GENERIC",
+    "id": "matrix_crystal_clair_dust_refined",
+    "name": { "str_sp": "refined matrix crystal powder, gray" },
+    "description": "Concentrated matrix crystal dust.  It glitters gray even in complete darkness.",
+    "copy-from": "matrix_crystal_biokin_dust_refined",
     "color": "dark_gray"
   },
   {
@@ -61,6 +81,14 @@
     "color": "red"
   },
   {
+    "type": "GENERIC",
+    "id": "matrix_crystal_pyrokin_dust_refined",
+    "name": { "str_sp": "refined matrix crystal powder, red" },
+    "description": "Concentrated matrix crystal dust.  It glitters red even in complete darkness.",
+    "copy-from": "matrix_crystal_biokin_dust_refined",
+    "color": "red"
+  },
+  {
     "type": "TOOL",
     "id": "matrix_crystal_telekinesis",
     "name": { "str_sp": "strange crystal, yellow" },
@@ -75,6 +103,14 @@
     "name": { "str_sp": "crystalline dust, yellow" },
     "copy-from": "matrix_crystal_biokin_dust",
     "description": "A bit of crystalline dust with a faint yellow shimmer.",
+    "color": "yellow"
+  },
+  {
+    "type": "GENERIC",
+    "id": "matrix_crystal_telekin_dust_refined",
+    "name": { "str_sp": "refined matrix crystal powder, yellow" },
+    "description": "Concentrated matrix crystal dust.  It glitters yellow even in complete darkness.",
+    "copy-from": "matrix_crystal_biokin_dust_refined",
     "color": "yellow"
   },
   {
@@ -95,6 +131,14 @@
     "color": "white"
   },
   {
+    "type": "GENERIC",
+    "id": "matrix_crystal_telepath_dust_refined",
+    "name": { "str_sp": "refined matrix crystal powder, white" },
+    "description": "Concentrated matrix crystal dust.  It glitters white even in complete darkness.",
+    "copy-from": "matrix_crystal_biokin_dust_refined",
+    "color": "white"
+  },
+  {
     "type": "TOOL",
     "id": "matrix_crystal_teleportation",
     "name": { "str_sp": "strange crystal, blue" },
@@ -112,6 +156,14 @@
     "color": "blue"
   },
   {
+    "type": "GENERIC",
+    "id": "matrix_crystal_teleport_dust_refined",
+    "name": { "str_sp": "refined matrix crystal, blue" },
+    "description": "Concentrated matrix crystal dust.  It glitters blue even in complete darkness.",
+    "copy-from": "matrix_crystal_biokin_dust_refined",
+    "color": "blue"
+  },
+  {
     "type": "TOOL",
     "id": "matrix_crystal_vitakinesis",
     "name": { "str_sp": "strange crystal, green" },
@@ -126,6 +178,14 @@
     "name": { "str_sp": "crystalline dust, green" },
     "copy-from": "matrix_crystal_biokin_dust",
     "description": "A bit of crystalline dust with a faint green shimmer.",
+    "color": "green"
+  },
+  {
+    "type": "GENERIC",
+    "id": "matrix_crystal_clair_dust_refined",
+    "name": { "str_sp": "refined matrix crystal powder, green" },
+    "description": "Concentrated matrix crystal dust.  It glitters green even in complete darkness.",
+    "copy-from": "matrix_crystal_biokin_dust_refined",
     "color": "green"
   },
   {
@@ -148,6 +208,14 @@
     "name": { "str_sp": "crystalline dust, black" },
     "copy-from": "matrix_crystal_biokin_dust",
     "description": "A bit of crystalline dust that seems to absorb light.",
+    "color": "black"
+  },
+  {
+    "type": "GENERIC",
+    "id": "matrix_crystal_drained_dust_refined",
+    "name": { "str_sp": "refined matrix crystal powder, black" },
+    "description": "Concentrated matrix crystal dust.  It seems to completely absorb any light that falls on it.",
+    "copy-from": "matrix_crystal_biokin_dust_refined",
     "color": "black"
   },
   {
