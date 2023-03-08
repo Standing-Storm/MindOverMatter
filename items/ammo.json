@@ -6,6 +6,12 @@
     "default": "mom_pulse_rifle_ammo"
   },
   {
+    "type": "ammunition_type",
+    "id": "psionic_charge_power",
+    "name": "Charge",
+    "default": "psionic_charge_power"
+  },
+  {
     "id": "mom_pulse_rifle_ammo",
     "type": "AMMO",
     "name": { "str_sp": "LV429 pulse shot" },
@@ -14,7 +20,6 @@
     "volume": "1 ml",
     "price": 160,
     "price_postapoc": 800,
-    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
     "material": [ "superalloy", "steel" ],
     "symbol": "=",
     "color": "red",
