@@ -182,7 +182,7 @@
   },
   {
     "type": "GENERIC",
-    "id": "matrix_crystal_clair_dust_refined",
+    "id": "matrix_crystal_vitakin_dust_refined",
     "name": { "str_sp": "refined matrix crystal powder, green" },
     "description": "Concentrated matrix crystal dust.  It glitters green even in complete darkness.",
     "copy-from": "matrix_crystal_biokin_dust_refined",
