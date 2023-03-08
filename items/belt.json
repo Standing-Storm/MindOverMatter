@@ -76,9 +76,9 @@
     "relic_data": {
       "charge_info": { "recharge_type": "periodic", "time": "60 s", "regenerate_ammo": true },
       "values": [ 
-        { "value": "ARMOR_CUT", "add": -15 },
-        { "value": "ARMOR_BASH", "add": -10 },
-        { "value": "ARMOR_STAB", "add": -5 },
+        { "value": "ARMOR_CUT", "add": -10 },
+        { "value": "ARMOR_BASH", "add": -5 },
+        { "value": "ARMOR_STAB", "add": -15 },
         { "value": "ARMOR_BULLET", "add": -30 }
       ]
     }
