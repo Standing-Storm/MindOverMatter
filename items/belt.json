@@ -1,7 +1,7 @@
 [
   {
     "id": "psionic_shield_belt",
-    "type": "ARMOR",
+    "type": "TOOL_ARMOR",
     "name": {  "str": "shield belt" },
     "description": "A simple synthetic fabric belt with a box to the right of the belt loop. The box has a toggleable switch and a stylized shield with Ψ and the XEDRA logo inside it.",
     "weight": "350 g",
@@ -59,10 +59,11 @@
   },
   {
     "id": "psionic_shield_belt_on",
-    "type": "ARMOR",
+    "type": "TOOL_ARMOR",
     "name": {  "str": "shield belt (active)" },
     "copy-from": "psionic_shield_belt",
     "turns_per_charge": 1,
+    "revert_to": "psionic_shield_belt",
     "use_action": [
       {
         "ammo_scale": 0,
@@ -74,7 +75,6 @@
     ],
     "extend": { "flags": [ "NO_TAKEOFF" ] },
     "relic_data": {
-      "charge_info": { "recharge_type": "periodic", "time": "60 s", "regenerate_ammo": true },
       "values": [ 
         { "value": "ARMOR_CUT", "add": -15 },
         { "value": "ARMOR_BASH", "add": -8 },
