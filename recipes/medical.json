@@ -21,7 +21,7 @@
       [ [ "chem_aluminium_powder", 10 ] ],
       [ [ "chem_zinc_powder", 10 ] ]
     ],
-    "flags": [ "SECRET" ]
+    "flags": [ "SECRET", "BLIND_HARD" ]
   },
   {
     "type": "recipe",
@@ -50,7 +50,7 @@
       [ [ "matrix_crystal_biokin_dust", 4 ] ],
       [ [ "matrix_crystal_vitakin_dust_refined", 4 ] ]
     ],
-    "flags": [ "SECRET" ]
+    "flags": [ "SECRET", "BLIND_HARD" ]
   },
   {
     "type": "recipe",
@@ -80,6 +80,6 @@
       [ [ "matrix_crystal_vitakin_dust_refined", 3 ] ],
       [ [ "mutagen_chelator", 1 ], [ "iv_purifier", 1 ] ]
     ],
-    "flags": [ "SECRET" ]
+    "flags": [ "SECRET", "BLIND_HARD" ]
   }  
 ]
