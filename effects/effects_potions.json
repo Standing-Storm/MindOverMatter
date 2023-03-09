@@ -10,6 +10,7 @@
 		"max_duration": "24 hours",
 		"max_intensity": 1,
 		"base_mods": { "str_mod": [ 4 ], "dex_mod": [ 4 ], "speed_mod": [25] },
+		"flags": [ "BLEED_IMMUNE" ],
     "enchantments": [
 			{
 				"values": [ 
@@ -32,5 +33,31 @@
 		"max_intensity": 1,
     "base_mods": { "str_mod": [ -6 ], "dex_mod": [ -6 ], "speed_mod": [-40], "pain_chance_bot": [ 200 ], "pain_chance": [ 2, 1 ], "pain_min": [ 1 ], "pain_max_val": [ 10, 5 ] },
     "enchantments": [ {	"values": [ { "value": "ARMOR_BASH", "add": 4 }	] } ]
-  }
+  },
+	{
+		"type": "effect_type",
+		"id": "effect_clair_potion",
+		"name": [ "Gray Elixir" ],
+		"desc": [ "You drank the concentrated matrix crystal concoction." ],
+		"apply_message": "",
+		"remove_message": "The concoction's effects fade and darkness creeps in at the edges of your vision.",
+		"rating": "good",
+		"max_duration": "24 hours",		
+		"max_intensity": 1,
+		"base_mods": { "per_mod": [ 4 ] },
+		"flags": [ "NIGHT_VISION", "INFRARED", "SEESLEEP", "SUPER_HEARING", "IMMUNE_HEARING_DAMAGE" ], 
+	},
+	{
+		"type": "effect_type",
+		"id": "effect_clair_potion_comedown",
+		"name": [ "Gray Elixir Aftereffects" ],
+		"desc": [ "You're suffering the aftereffects of drinking the concentrated matrix crystal concoction." ],
+		"apply_message": "",
+		"remove_message": "The concoction's aftereffects finally wear off.",
+		"rating": "bad",
+		"max_duration": "48 hours",
+		"max_intensity": 1,
+		"base_mods": { "per_mod": [ -6 ], "pain_chance_bot": [ 200 ], "pain_chance": [ 2, 1 ], "pain_min": [ 1 ], "pain_max_val": [ 10, 5 ] },
+		"flags": [ "HYPEROPIC", "MYOPIC" ], 
+	}
 ]
