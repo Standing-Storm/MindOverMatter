@@ -17,7 +17,7 @@
     "id": "schematics_matrix_aligning",
     "type": "BOOK",
     "name": { "str_sp": "crystalline focusing assembly schematics" },
-    "description": "This is a series of technical design documents for a focusing assembly designed to \"enhance the precision of Netherium mathematics\".",
+    "description": "This is a series of technical design documents for a focusing assembly designed to \"enhance the precision of Netherum mathematics\".",
     "copy-from": "schematics_generic",
     "skill": "fabrication",
     "required_level": 5,
