@@ -1,0 +1,24 @@
+[
+  {
+    "id": "matrix_crystal_biokin_dust_potion",
+    "type": "COMESTIBLE",
+    "comestible_type": "DRINK",
+    "category": "food",
+    "name": { "str_sp": "pink crystalline elixir" },
+    "description": "Refined matrix crystal mixed directly into water.  The liquid has a faint pink glow.",
+    "material": [ "water", "nether_crystal" ],
+    "weight": "255 g",
+    "volume": "250 ml",
+    "price": 50,
+    "price_postapoc": 1,
+    "symbol": "~",
+    "color": "pink",
+    "phase": "liquid",
+    "container": "bottle_plastic",
+    "sealed": false,
+    "quench": 50,
+    "ammo_data": { "ammo_type": "water" },
+    "flags": [ "EATEN_COLD" ],
+    "use_action": { "type": "effect_on_conditions", "description": "Drink the concoction.", "effect_on_conditions": [ "EOC_BIOKIN_POTION" ] }
+  }
+]
