@@ -161,7 +161,7 @@
     "relic_data": {
       "values": [ 
         { "value": "ARMOR_HEAT", "add": -80 },
-        { "value": "CLIMATE_CONTROL_CHILL", "add": 200 }
+        { "value": "CLIMATE_CONTROL_CHILL", "add": 400 }
       ]
     }
   }
