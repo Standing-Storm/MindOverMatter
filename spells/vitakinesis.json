@@ -106,13 +106,18 @@
 		"type": "SPELL",
 		"name": "[Ψ]Wakeful Rest Remove Sleep Deprivation",
 		"description": "The second part of the power, to remove sleep deprivation.",
-		"//": "Duration set to 55 hours, to account for an Elf-a with Wakeful + casting time + a buffer to avoid drift.  Fatigue still builds up normally so an unmutated vitakinetic will want to meditate every day.",
 		"valid_targets": [ "self" ],
 		"flags": [ "SILENT", "NO_HANDS", "NO_LEGS" ],
-		"effect": "attack",
-		"effect_str": "effect_vita_no_sleep_dep",
-		"shape": "blast",
-		"min_duration": 19800000
+		"effect": "effect_on_condition",
+		"effect_str": "EOC_VITAKIN_SLEEP",
+		"shape": "blast"
+	},
+	{
+		"type": "effect_on_condition",
+		"id": "EOC_VITAKIN_SLEEP",
+		"effect": [
+			{ "arithmetic": [ { "u_val": "sleep_deprivation" }, "*=", { "const": 0 } ] }
+		]
 	},
 	{
 		"id": "vita_healing_trance",
