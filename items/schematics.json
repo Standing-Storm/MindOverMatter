@@ -31,7 +31,7 @@
     "id": "schematics_matrix_crystal_ground",
     "type": "BOOK",
     "name": { "str_sp": "refined matrix crystal schematics" },
-    "description": "A series of technical documents for further refining ground matrix crystal, separating out the inert parts from the \"metaphysically active\" parts.",
+    "description": "A series of technical documents for further refining ground matrix crystal, separating out the inert parts from the \"Netherically active\" parts.",
     "copy-from": "schematics_generic",
     "skill": "chemistry",
     "required_level": 5,
