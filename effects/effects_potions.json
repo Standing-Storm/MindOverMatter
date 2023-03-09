@@ -1,0 +1,36 @@
+[
+  {
+    "type": "effect_type",
+		"id": "effect_biokin_potion",
+		"name": [ "Pink Elixir" ],
+		"desc": [ "You drank the concentrated matrix crystal concoction." ],
+		"apply_message": "",
+		"remove_message": "The concoction's effects fade and are replaced with a numbing weakness.",
+		"rating": "good",
+		"max_duration": "12 hours",
+		"max_intensity": 1,
+		"base_mods": { "str_mod": [ 4 ], "dex_mod": [ 4 ], "speed_mod": [25] },
+    "enchantments": [
+			{
+				"values": [ 
+					{ "value": "ARMOR_CUT", "add": -4 },
+					{ "value": "ARMOR_BASH", "add": -6 },
+					{ "value": "ARMOR_STAB", "add": -3 }
+				]
+			}
+		]
+  },
+  {
+    "type": "effect_type",
+    "id": "effect_biokin_potion_comedown",
+    "name": [ "Pink Elixir Aftereffects" ],
+    "desc": [ "You're suffering the aftereffects of drinking the concentrated matrix crystal concoction." ],
+    "apply_message": "",
+    "remove_message": "The concoction's aftereffects finally wear off.",
+    "rating": "bad",
+		"max_duration": "24 hours",
+		"max_intensity": 1,
+    "base_mods": { "str_mod": [ -8 ], "dex_mod": [ -8 ], "speed_mod": [-40], "pain_chance_bot": [ 200 ], "pain_chance": [ 2, 1 ], "pain_min": [ 1 ], "pain_max_val": [ 10, 5 ] }
+    "enchantments": [ {	"values": [ { "value": "ARMOR_BASH", "add": 4 }	] } ]
+  }
+]
