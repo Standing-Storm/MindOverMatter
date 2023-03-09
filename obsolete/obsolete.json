@@ -1,0 +1,11 @@
+[
+    {
+      "type": "effect_type",
+      "id": "effect_vita_no_sleep_dep",
+      "name": [ "Awake and Refreshed" ],
+      "desc": [ "A meditation session has left you feeling bright-eyed and bushy-tailed." ],
+      "rating": "good",
+      "flags": [ "STOP_SLEEP_DEPRIVATION"],
+      "removes_effects": [ "sleep_deprivation", "lack_sleep" ]
+    }
+]
