@@ -5,7 +5,7 @@
 		"name": [ "Pink Elixir" ],
 		"desc": [ "You drank the concentrated matrix crystal concoction." ],
 		"apply_message": "",
-		"remove_message": "The concoction's effects fade and are replaced with a numbing weakness.",
+		"remove_message": "The concoction's effects fade and are replaced with a gnawing weakness.",
 		"rating": "good",
 		"max_duration": "24 hours",
 		"max_intensity": 1,
