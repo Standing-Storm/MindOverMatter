@@ -2,7 +2,7 @@
   {
     "id": "TELELIXIRDOWN",
     "type": "mutation",
-    "name": { "str": "PK Surge" },
+    "name": { "str": "Elixir PK Surge" },
     "description": "Thanks to the crystalline elixir, you can lash out with unfocused surges of telekinetic power.",
     "points": 5,
     "visibility": 0,
@@ -14,7 +14,7 @@
   {
     "id": "TELELIXIRDOWN_active",
     "type": "mutation",
-    "name": { "str": "PK Surge (active)" },
+    "name": { "str": "Elixir PK Surge (active)" },
     "copy-from": "TELELIXIRDOWN",
     "description": "You are lashing out with your elixir-forged telekinetic powers.",
     "fatigue": true, 
