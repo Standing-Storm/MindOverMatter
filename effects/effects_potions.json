@@ -10,7 +10,7 @@
 		"max_duration": "24 hours",
 		"max_intensity": 1,
 		"base_mods": { "str_mod": [ 4 ], "dex_mod": [ 4 ], "speed_mod": [25] },
-		"flags": [ "BLEED_IMMUNE" ],
+		"flags": [ "BLEED_IMMUNE", "STEADY" ],
     "enchantments": [
 			{
 				"values": [ 
@@ -94,5 +94,32 @@
 				]
 			}
 		]
+	},
+	{
+		"type": "effect_type",
+		"id": "effect_telekin_potion",
+		"name": [ "Yellow Elixir" ],
+		"desc": [ "You drank the concentrated matrix crystal concoction." ],
+		"apply_message": "",
+		"remove_message": "The concoction's effects fade and you suddenly feel like something is pressing down on you.",
+		"rating": "good",
+		"max_duration": "24 hours",		
+		"max_intensity": 1,
+		"base_mods": { "str_mod": [ 2 ] },
+		"flags": [ "DOWNED_RECOVERY" ], 
+		"enchantments": [ { "values": [ { "value": "CARRY_WEIGHT", "multiply": 1.25 } ] } ]
+	},
+	{
+		"type": "effect_type",
+		"id": "effect_pyrokin_potion_comedown",
+		"name": [ "Yellow Elixir Aftereffects" ],
+		"desc": [ "You're suffering the aftereffects of drinking the concentrated matrix crystal concoction." ],
+		"apply_message": "",
+		"remove_message": "The concoction's aftereffects finally wear off.",
+		"rating": "bad",
+		"max_duration": "48 hours",
+		"max_intensity": 1,
+		"base_mods": { "str_mod": [ -2 ], "speed_mod": [-25], "pain_chance_bot": [ 200 ], "pain_chance": [ 2, 1 ], "pain_min": [ 1 ], "pain_max_val": [ 10, 5 ] },
+		"enchantments": [ { "values": [ { "value": "CARRY_WEIGHT", "multiply": 0.75 } ] } ]
 	}
 ]
