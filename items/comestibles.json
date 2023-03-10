@@ -46,7 +46,7 @@
     "type": "COMESTIBLE",
     "comestible_type": "DRINK",
     "name": { "str_sp": "red crystalline elixir" },
-    "description": "Refined matrix crystal mixed directly into water.  The liquid has a flickering red glow.",
+    "description": "Refined matrix crystal mixed directly into water.  The liquid has a faint red glow.",
     "material": [ "water" ],
     "weight": "255 g",
     "volume": "250 ml",
