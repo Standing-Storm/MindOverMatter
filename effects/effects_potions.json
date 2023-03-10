@@ -59,6 +59,6 @@
 		"max_duration": "48 hours",
 		"max_intensity": 1,
 		"base_mods": { "per_mod": [ -6 ], "pain_chance_bot": [ 200 ], "pain_chance": [ 2, 1 ], "pain_min": [ 1 ], "pain_max_val": [ 10, 5 ] },
-		"flags": [ "HYPEROPIC", "MYOPIC" ], 
+		"flags": [ "HYPEROPIC", "MYOPIC" ]
 	}
 ]
