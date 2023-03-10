@@ -4,6 +4,9 @@
     "id": "enchant_clair_potion",
     "condition": "ALWAYS",
     "has": "HELD",
+    "values": [
+      { "value": "BONUS_DODGE", "add": 1 }
+    ],
     "intermittent_activation": { 
       "effects": [ 
         { "frequency": "2 seconds", "spell_effects": [
