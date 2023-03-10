@@ -19,7 +19,7 @@
     "description": "You are lashing out with your elixir-forged telekinetic powers.",
     "fatigue": true, 
     "cost": 1,
-    "time": "2 m",
+    "time": "1 m",
     "activated_eocs": [ "EOC_TELELIXIR_CAST" ],
     "transform": { "target": "TELELIXIRDOWN", "msg_transform": "You rein your powers back in for now.", "active": false, "moves": 10 }
   },
