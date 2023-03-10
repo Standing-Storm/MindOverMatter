@@ -32,7 +32,8 @@
         "u_cast_spell": {
           "id": "telelixir_random",
           "message": "Your powers activate!"
-        }
+        },
+        "targeted": true
       }
     ]
   },
