@@ -111,7 +111,7 @@
 	},
 	{
 		"type": "effect_type",
-		"id": "effect_pyrokin_potion_comedown",
+		"id": "effect_telekin_potion_comedown",
 		"name": [ "Yellow Elixir Aftereffects" ],
 		"desc": [ "You're suffering the aftereffects of drinking the concentrated matrix crystal concoction." ],
 		"apply_message": "",
