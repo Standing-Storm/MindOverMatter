@@ -30,5 +30,21 @@
     "effect": [
       { "u_add_effect": "effect_clair_potion_comedown", "duration": "48 hours" }
     ] 
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PYROKIN_POTION",
+    "effect": [
+      { "u_message": "You drink the concoction." },
+      { "u_add_effect": "effect_pyrokin_potion", "duration": "24 hours" },
+      { "queue_eocs": "EOC_PYROKIN_POTION_COMEDOWN", "time_in_future": "24 hours" } 
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PYROKIN_POTION_COMEDOWN",
+    "effect": [
+      { "u_add_effect": "effect_pyrokin_potion_comedown", "duration": "48 hours" }
+    ] 
   }
 ]
