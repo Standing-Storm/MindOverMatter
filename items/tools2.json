@@ -1,0 +1,48 @@
+[
+  {
+    "id": "pyrokinetic_lamp_on",
+    "type": "GENERIC",
+    "category": "tools",
+    "name": { "str": "everglow matrix lamp" },
+    "description": "Powered by matrix technology, this lamp will shed a reddish light without any external power necessary and will do so forever, or at least for an indefinite period of time. Activate to close the lid.",
+    "weight": "1438 g",
+    "volume": "1 L",
+    "price": 175000,
+    "price_postapoc": 4000,
+    "to_hit": -2,
+    "bashing": 8,
+    "material": [ "plastic", "aluminum", "nether_crystal" ],
+    "symbol": ",",
+    "color": "red",
+    "use_action": { 
+      "type": "transform",
+      "target": "pyrokinetic_lamp", 
+      "msg": "You close the lamp's cover.", 
+      "menu_text": "Close cover" },
+    "flags": [ "LIGHT_80", "LEAK_DAM", "ALLOWS_REMOTE_USE" ]
+  },
+  {
+    "id": "pyrokinetic_lamp",
+    "type": "GENERIC",
+    "category": "tools",
+    "name": { "str": "everglow matrix lamp (covered)", "str_pl": "everglow matrix lamp (covered)" },
+    "description": "Powered by matrix technology, this lamp will shed a reddish light without any external power necessary and will do so forever, or at least for an indefinite period of time. Activate to open the lid.",
+    "weight": "1438 g",
+    "volume": "1 L",
+    "price": 175000,
+    "price_postapoc": 4000,
+    "to_hit": -2,
+    "bashing": 8,
+    "material": [ "plastic", "aluminum", "nether_crystal" ],
+    "symbol": ",",
+    "color": "red",
+    "use_action": {     
+      "type": "transform",
+      "target": "pyrokinetic_lamp_on",
+      "active": true,
+      "msg": "You open the lamp's cover.",
+      "menu_text": "Open cover"
+    },
+    "flags": [ "LEAK_DAM", "DURABLE_MELEE", "ALLOWS_REMOTE_USE" ]
+  }
+]
