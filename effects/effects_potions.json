@@ -60,5 +60,39 @@
 		"max_intensity": 1,
 		"base_mods": { "per_mod": [ -6 ], "pain_chance_bot": [ 200 ], "pain_chance": [ 2, 1 ], "pain_min": [ 1 ], "pain_max_val": [ 10, 5 ] },
 		"flags": [ "HYPEROPIC", "MYOPIC" ]
+	},
+	{
+		"type": "effect_type",
+		"id": "effect_pyrokin_potion",
+		"name": [ "Red Elixir" ],
+		"desc": [ "You drank the concentrated matrix crystal concoction." ],
+		"apply_message": "",
+		"remove_message": "The concoction's effects fade and are replaced with a burning heat.",
+		"rating": "good",
+		"max_duration": "24 hours",
+		"max_intensity": 1,
+		"base_mods": { "speed_mod": [10] },
+		"flags": [ "HEATSINK" ],
+		"enchantments": [ "enchant_pyrokin_potion" ]
+	},
+	{
+		"type": "effect_type",
+		"id": "effect_pyrokin_potion_comedown",
+		"name": [ "Red Elixir Aftereffects" ],
+		"desc": [ "You're suffering the aftereffects of drinking the concentrated matrix crystal concoction." ],
+		"apply_message": "",
+		"remove_message": "The concoction's aftereffects finally wear off.",
+		"rating": "bad",
+		"max_duration": "48 hours",
+		"max_intensity": 1,
+		"flags": [ "COLDBLOOD" ],
+		"base_mods": { "pain_chance_bot": [ 200 ], "pain_chance": [ 2, 1 ], "pain_min": [ 1 ], "pain_max_val": [ 10, 5 ] },
+		"enchantments": [
+			{
+				"values": [ 
+					{ "value": "LUMINATION", "add": 80 }
+				]
+			}
+		]
 	}
 ]
