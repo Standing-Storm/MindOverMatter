@@ -46,7 +46,7 @@
 		"max_intensity": 1,
 		"base_mods": { "per_mod": [ 4 ] },
 		"flags": [ "SEESLEEP", "SUPER_HEARING", "IMMUNE_HEARING_DAMAGE" ], 
-		"enchantments": [ "clair_potion_clairvoyance" ]
+		"enchantments": [ "enchant_clair_potion" ]
 	},
 	{
 		"type": "effect_type",
