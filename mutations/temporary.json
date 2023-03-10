@@ -27,6 +27,7 @@
     "type": "effect_on_condition",
     "id": "EOC_TELELIXIR_CAST",
     "condition": { "u_has_trait": "TELELIXIRDOWN_active" },
+    "deactivate_condition": { "not": { "u_has_trait": "TELELIXIRDOWN_active" } },
     "recurrence": [ "2 seconds", "5 seconds" ],
     "effect": [
       {
