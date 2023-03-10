@@ -54,6 +54,7 @@
     "category": "CC_PSIONIC",
     "subcategory": "CSC_PSIONIC_TOOLS",
     "skill_used": "fabrication",
+    "skills_required": [ "metaphysics", 2 ],
     "difficulty": 2,
     "time": "30 m",
     "reversible": true,
