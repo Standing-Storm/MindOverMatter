@@ -20,7 +20,7 @@
     "fatigue": true, 
     "cost": 1,
     "time": "2 m",
-    "enchantments": [ "TELELIXIR_ENCH" ],  
+    "activated_eocs": [ "EOC_TELELIXIR_CAST" ],
     "transform": { "target": "TELELIXIRDOWN", "msg_transform": "You rein your powers back in for now.", "active": false, "moves": 10 }
   },
   {
@@ -40,13 +40,25 @@
     }
   },
   {
+    "type": "effect_on_condition",
+    "id": "EOC_TELELIXIR_CAST",
+    "recurrence": [ "4 seconds" ],
+    "effect": [
+      {
+        "u_cast_spell": {
+          "id": "telelixir_random",
+          "message": "Your powers activate!"
+        }
+    ]
+  },
+  {
     "id": "telelixir_random",
     "type": "SPELL",
     "name": "[Ψ]Telelixir Random Choice",
     "description": "Part of the Telekinetic Elixir spell that chooses another spell to cast. It's a bug if you have it.",
-    "flags": [ "WONDER", "NO_PROJECTILE", "RANDOM_TARGET" ],
+    "flags": [ "WONDER", "NO_PROJECTILE", "RANDOM_TARGET", "NO_EXPLOSION_SFX" ],
     "valid_targets": [ "hostile" ],
-    "message": "Your powers activate!",
+    "message": "",
     "effect": "attack",
     "shape": "blast",
     "min_damage": 1,
@@ -70,7 +82,7 @@
     "effect_str": "downed",
     "shape": "blast",
     "difficulty": 1,
-    "min_duration": 200,
+    "min_duration": 200
   },
   {
     "id": "telelixir_push",
