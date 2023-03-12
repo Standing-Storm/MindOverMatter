@@ -111,19 +111,30 @@
     "extend": { 
       "items": [ 
         { "group": "dist_meditation_books_begin","prob": 8 }, 
-        { "group": "dist_meditation_books_int", "prob": 3 }
+        { "group": "dist_meditation_books_int", "prob": 4 }
       ] 
     }
   },
   {
-     "id": "SUS_book_nonf_pulp_newage",
+    "id": "SUS_book_nonf_pulp_newage",
     "type": "item_group",
     "copy-from": "SUS_book_nonf_pulp_newage",
     "extend": { 
       "items": [ 
-        { "group": "dist_meditation_books_begin", "prob": 20 }, 
-        { "group": "dist_meditation_books_int", "prob": 8 }
+        { "group": "dist_meditation_books_begin", "prob": 1 }, 
+        { "group": "dist_meditation_books_int", "prob": 1 }
       ] 
+    }
+  },
+  {
+    "id": "SUS_book_nonf_soft_psych",
+    "type": "item_group",
+    "copy-from": "SUS_book_nonf_soft_psych",
+    "extend": { 
+      "items": [ 
+        { "group": "dist_meditation_books_begin", "prob": 1 }, 
+        { "group": "dist_meditation_books_int", "prob": 1 }
+      ]
     }
   },
   {
@@ -133,7 +144,7 @@
     "extend": { 
       "items": [  
         { "group": "dist_meditation_books_begin","prob": 6 }, 
-        { "group": "dist_meditation_books_int", "prob": 3 }
+        { "group": "dist_meditation_books_int", "prob": 4 }
       ] 
     }
   },
@@ -143,7 +154,7 @@
     "copy-from": "mansion_books",
     "extend": { 
       "items": [ 
-        { "group": "dist_meditation_books_begin","prob": 9 }, 
+        { "group": "dist_meditation_books_begin","prob": 10 }, 
         { "group": "dist_meditation_books_int", "prob": 5 }
       ] 
     }
