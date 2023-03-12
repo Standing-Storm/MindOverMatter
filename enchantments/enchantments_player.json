@@ -59,7 +59,7 @@
     "emitter": "emit_pyrokin_fever",
     "values": [ 
       { "value": "LUMINATION", "add": 50 },
-      { "value": "CLIMATE_CONTROL_CHILL", "add": 40 },
+      { "value": "CLIMATE_CONTROL_CHILL", "add": 40 }
     ]
   },
   {
