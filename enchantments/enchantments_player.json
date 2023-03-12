@@ -43,6 +43,7 @@
     "emitter": "emit_pyrokin_cloak",
     "values": [
       { "value": "CLIMATE_CONTROL_CHILL", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "pyrokinetic_cloak" }, "*", { "const": 3 } ] } },
+      { "value": "CLIMATE_CONTROL_CHILL", "add": 40 },
       { "value": "CLIMATE_CONTROL_HEAT", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "pyrokinetic_cloak" }, "*", { "const": 10 } ] } },
       { "value": "ARMOR_HEAT", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "pyrokinetic_cloak" }, "*", { "const": -10 } ] } },
       { "value": "ARMOR_COLD", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "pyrokinetic_cloak" }, "*", { "const": -3 } ] } }
@@ -56,7 +57,10 @@
     "hit_you_effect": [ { "id": "pyro_aura_attack", "hit_self": false }  ],
     "hit_me_effect": [ { "id": "pyro_aura_attacked", "hit_self": false } ],
     "emitter": "emit_pyrokin_fever",
-    "values": [ { "value": "LUMINATION", "add": 50 } ]
+    "values": [ 
+      { "value": "LUMINATION", "add": 50 },
+      { "value": "CLIMATE_CONTROL_CHILL", "add": 40 },
+    ]
   },
   {
     "id": "pyro_aura_attack",
