@@ -141,5 +141,12 @@
       "PRIORITIZE_TARGETS",
       "STUN_IMMUNE"
     ]
+  },
+  {
+    "id": "mon_feral_security_captain_psychic",
+    "copy-from": "mon_feral_human_bio3",
+    "name": "feral security captain, Ψ Division",
+    "description": "A feral security guard with a fancier uniform, bearing the XEDRA logo and some kind of rank insignia.  Their movements are precise, controlled, and inhumanly smooth, and while their eyes are still bloodshot, they have a spark lacking in most ferals you've seen.",
+    "death_drops": "feral_security_captain_death_drops_psychic"
   }
 ]
