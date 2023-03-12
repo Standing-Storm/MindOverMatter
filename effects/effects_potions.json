@@ -133,8 +133,8 @@
 		"max_duration": "30 hours",	
 		"max_intensity": 1,
 		"base_mods": { "healing_rate": [ 4 ] },
-		"flags": [ "MEND_ALL" ], 
-		"enchantments": [ { "values": [ { "value": "MAX_HP", "multiply": 0.3 } ] } ]
+		"flags": [ "MEND_ALL", "PARAIMMUNE", "NO_DISEASE", "INFECTION_IMMUNE" ], 
+		"enchantments": [ { "values": [ { "value": "MAX_HP", "multiply": 0.2 } ] } ]
 	},
 	{
 		"type": "effect_type",
@@ -146,6 +146,6 @@
 		"rating": "bad",
 		"max_duration": "55 hours",
 		"max_intensity": 1,
-		"base_mods": { "healing_rate": [ 0.4 ], "vomit_chance": [200], "pain_chance_bot": [ 100 ], "vomit_tick": [ 180 ], "pain_chance": [ 2, 1 ], "pain_min": [ 1 ], "pain_max_val": [ 10, 5 ] }
+		"base_mods": { "healing_rate": [ 0.3 ], "vomit_chance": [100], "vomit_tick": [ 180 ], "pain_chance_bot": [ 100 ], "pain_chance": [ 2, 1 ], "pain_min": [ 1 ], "pain_max_val": [ 10, 5 ] }
 	}
 ]
