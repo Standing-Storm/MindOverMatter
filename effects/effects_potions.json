@@ -121,5 +121,31 @@
 		"max_intensity": 1,
 		"base_mods": { "str_mod": [ -2 ], "speed_mod": [-25], "pain_chance_bot": [ 200 ], "pain_chance": [ 2, 1 ], "pain_min": [ 1 ], "pain_max_val": [ 10, 5 ] },
 		"enchantments": [ { "values": [ { "value": "CARRY_WEIGHT", "multiply": 0.75 } ] } ]
+	},
+	{
+		"type": "effect_type",
+		"id": "effect_vitakin_potion",
+		"name": [ "Green Elixir" ],
+		"desc": [ "You drank the concentrated matrix crystal concoction." ],
+		"apply_message": "",
+		"remove_message": "The concoction's effects fade and you stagger as you suddenly feel faint.",
+		"rating": "good",
+		"max_duration": "30 hours",	
+		"max_intensity": 1,
+		"base_mods": { "healing_rate": [ 4 ] },
+		"flags": [ "MEND_ALL" ], 
+		"enchantments": [ { "values": [ { "value": "MAX_HP", "multiply": 0.3 } ] } ]
+	},
+	{
+		"type": "effect_type",
+		"id": "effect_vitakin_potion_comedown",
+		"name": [ "Green Elixir Aftereffects" ],
+		"desc": [ "You're suffering the aftereffects of drinking the concentrated matrix crystal concoction." ],
+		"apply_message": "",
+		"remove_message": "The concoction's aftereffects finally wear off.",
+		"rating": "bad",
+		"max_duration": "55 hours",
+		"max_intensity": 1,
+		"base_mods": { "healing_rate": [ 0.4 ], "pain_chance_bot": [ 200 ], "pain_chance": [ 2, 1 ], "pain_min": [ 1 ], "pain_max_val": [ 10, 5 ] }
 	}
 ]
