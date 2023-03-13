@@ -86,37 +86,42 @@
 		 "monsters": [
 			 { "monster": "mon_feral_scientist_psychic", "weight": 10, "cost_multiplier": 10 },
 			 { "monster": "mon_feral_security_psychic", "weight": 12, "cost_multiplier": 4 }
+			 { "monster": "mon_feral_security_captain_psychic", "weight": 6, "cost_multiplier": 10 }
 			 ]
 	},
 	{
 		"type": "monstergroup",
     "name": "GROUP_LAB",
 		 "monsters": [
-			  { "monster": "mon_feral_scientist_psychic", "weight": 15, "cost_multiplier": 10 },
+			 { "monster": "mon_feral_scientist_psychic", "weight": 15, "cost_multiplier": 10 },
 			 { "monster": "mon_feral_security_psychic", "weight": 12, "cost_multiplier": 4 }
+			 { "monster": "mon_feral_security_captain_psychic", "weight": 6, "cost_multiplier": 10 }
 			 ]
 	},
 	{
 		"type": "monstergroup",
     "name": "GROUP_LAB_SURFACE",
 		 "monsters": [
-			  { "monster": "mon_feral_scientist_psychic", "weight": 10, "cost_multiplier": 10 },
-			 { "monster": "mon_feral_security_psychic", "weight": 12, "cost_multiplier": 4 }
-			 ]
+			 { "monster": "mon_feral_scientist_psychic", "weight": 10, "cost_multiplier": 10 },
+			 { "monster": "mon_feral_security_psychic", "weight": 12, "cost_multiplier": 4 },
+			 { "monster": "mon_feral_security_captain_psychic", "weight": 6, "cost_multiplier": 10 }
+		 ]
 	},
 	{
 		"type": "monstergroup",
     "name": "GROUP_MICROLAB",
 		 "monsters": [
-			  { "monster": "mon_feral_scientist_psychic", "weight": 2, "cost_multiplier": 10 },
-			 { "monster": "mon_feral_security_psychic", "weight": 12, "cost_multiplier": 4 }
-			 ]
+			 { "monster": "mon_feral_scientist_psychic", "weight": 2, "cost_multiplier": 10 },
+			 { "monster": "mon_feral_security_psychic", "weight": 12, "cost_multiplier": 4 },
+			 { "monster": "mon_feral_security_captain_psychic", "weight": 6, "cost_multiplier": 10 }
+		 ]
 	},
 	{
 		"type": "monstergroup",
     "name": "GROUP_LAB_BASIC_SECURITY",
     "monsters": [
-			{ "monster": "mon_feral_security_psychic", "weight": 5, "cost_multiplier": 4 }
+			{ "monster": "mon_feral_security_psychic", "weight": 5, "cost_multiplier": 4 },
+			{ "monster": "mon_feral_security_captain_psychic", "weight": 2, "cost_multiplier": 10 }
 		]
 	},
 	{
