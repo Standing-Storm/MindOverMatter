@@ -85,7 +85,7 @@
     "name": "GROUP_CENTRAL_LAB",
 		 "monsters": [
 			 { "monster": "mon_feral_scientist_psychic", "weight": 10, "cost_multiplier": 10 },
-			 { "monster": "mon_feral_security_psychic", "weight": 12, "cost_multiplier": 4 }
+			 { "monster": "mon_feral_security_psychic", "weight": 12, "cost_multiplier": 4 },
 			 { "monster": "mon_feral_security_captain_psychic", "weight": 6, "cost_multiplier": 10 }
 			 ]
 	},
@@ -94,7 +94,7 @@
     "name": "GROUP_LAB",
 		 "monsters": [
 			 { "monster": "mon_feral_scientist_psychic", "weight": 15, "cost_multiplier": 10 },
-			 { "monster": "mon_feral_security_psychic", "weight": 12, "cost_multiplier": 4 }
+			 { "monster": "mon_feral_security_psychic", "weight": 12, "cost_multiplier": 4 },
 			 { "monster": "mon_feral_security_captain_psychic", "weight": 6, "cost_multiplier": 10 }
 			 ]
 	},
