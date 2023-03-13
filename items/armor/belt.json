@@ -84,6 +84,22 @@
     }
   },
   {
+    "id": "psionic_shield_belt_broken",
+    "type": "TOOL_ARMOR",
+    "name": {  "str": "shield belt" },
+    "description": "A simple synthetic fabric belt with a box to the right of the belt loop. The box has a toggleable switch and a stylized shield with Ψ and the XEDRA logo inside it.  It also has a large crack across it and rattles when moved.",
+    "use_action": [
+      {
+        "type": "transform",
+        "msg": "You flip the switch on the box, but nothing happens.",
+        "target": "psionic_shield_belt_broken",
+        "need_worn": true,
+        "menu_text": "Flip the switch" 
+      }
+    ],
+    "relic_data": { "passive_effects": [ { "has": "HELD", "condition": "ALWAYS", "values": [ { "value": "MAX_MANA", "add": 0 } ] } ] }
+  },
+  {
     "id": "psionic_fire_shield_belt",
     "type": "TOOL_ARMOR",
     "name": {  "str": "suppression belt" },
