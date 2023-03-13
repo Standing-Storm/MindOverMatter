@@ -9,5 +9,16 @@
 		"rating": "bad",
 		"enchantments": [ "enchant_riftwalker_teleport" ],
 		"immune_flags": [ "TELESTOP", "DIMENSIONAL_ANCHOR" ]
+	},
+	{
+		"type": "effect_type",
+		"id": "effect_vitakinetic_health_down",
+		"name": [ "Feeling Unwell" ],
+		"desc": [ "You feel weak and shaky." ],
+		"apply_message": "",
+		"remove_message": "The feeling of weakness fades away.",
+		"rating": "bad",
+		"max_duration": "12 hours",
+		"base_mods": { "str_mod": [ -2 ],  "h_mod_min": [ -2 ], "h_mod_chance": [ 1 ], "h_mod_chance_bot": [ 5 ], "h_mod_tick": [ 600 ], "healing_rate": [ 0.75 ]  }
 	}
 ]
