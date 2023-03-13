@@ -13,7 +13,12 @@
     "looks_like": "leather_belt",
     "color": "yellow",
     "material_thickness": 1.5,
-    "pocket_data": [  ],
+    "pocket_data": [ 
+      {
+        "pocket_type": "MAGAZINE",
+        "ammo_restriction":  { "psionic_charge_power": 90 }
+      } 
+    ],
     "use_action": [
       {
         "type": "transform",
