@@ -184,7 +184,7 @@
     }
   },
   {
-    "id": "psionic_fire_shield_broken",
+    "id": "psionic_fire_shield_belt_broken",
     "type": "TOOL_ARMOR",
     "copy-from": "psionic_fire_shield_belt",
     "name": {  "str": "suppression belt" },
