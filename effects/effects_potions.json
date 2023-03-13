@@ -124,8 +124,50 @@
 	},
 	{
 		"type": "effect_type",
-		"id": "effect_teleport_potion",
+		"id": "effect_telepath_potion",
 		"name": [ "White Elixir" ],
+		"//": "When I get around to modifying dialogue to account for telepaths, I need to make sure to account for this too",
+		"desc": [ "You drank the concentrated matrix crystal concoction." ],
+		"apply_message": "",
+		"remove_message": "The concoction's effects fade and it gets hard to think straight.",
+		"rating": "good",
+		"max_duration": "30 hours",		
+		"max_intensity": 1,
+		"flags": [ "TEEPSHIELD" ], 
+		"enchantments": [ 
+			{ 
+				"values": [ 
+					{ "value": "LEARNING_FOCUS", "add": 15 },
+					{ "value": "SKILL_RUST_RESIST", "add": 100 }
+				] 
+			} 
+		]
+	},
+	{
+		"type": "effect_type",
+		"id": "effect_teleport_potion_comedown",
+		"name": [ "White Elixir Aftereffects" ],
+		"desc": [ "You're suffering the aftereffects of drinking the concentrated matrix crystal concoction." ],
+		"apply_message": "",
+		"remove_message": "The concoction's aftereffects finally wear off.",
+		"rating": "bad",
+		"max_duration": "55 hours",
+		"max_intensity": 1,
+		"base_mods": { "int_mod": [-4], "pain_chance_bot": [ 200 ], "pain_chance": [ 2, 1 ], "pain_min": [ 1 ], "pain_max_val": [ 10, 5 ] },
+		"enchantments": [
+			{ 
+				"values": [ 
+					{ "value": "LEARNING_FOCUS", "add": -30 },
+					{ "value": "READING_EXP", "add": -1 },
+					{ "
+				] 
+			} 
+		]
+	},
+	{
+		"type": "effect_type",
+		"id": "effect_teleport_potion",
+		"name": [ "Blue Elixir" ],
 		"desc": [ "You drank the concentrated matrix crystal concoction." ],
 		"apply_message": "",
 		"remove_message": "The concoction's effects fade and you suddenly feel stretched, like something unseen is pulling at you.",
@@ -138,7 +180,7 @@
 	{
 		"type": "effect_type",
 		"id": "effect_teleport_potion_comedown",
-		"name": [ "White Elixir Aftereffects" ],
+		"name": [ "Blue Elixir Aftereffects" ],
 		"desc": [ "You're suffering the aftereffects of drinking the concentrated matrix crystal concoction." ],
 		"apply_message": "",
 		"remove_message": "The concoction's aftereffects finally wear off.",
