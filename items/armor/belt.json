@@ -98,12 +98,7 @@
         "menu_text": "Flip the switch" 
       }
     ],
-    "pocket_data": [
-      {
-        "pocket_type": "MAGAZINE",
-        "ammo_restriction":  { "psionic_charge_power": 1 }
-      }
-    ],
+    "pocket_data": [  ],
     "relic_data": { "passive_effects": [ { "has": "HELD", "condition": "ALWAYS", "values": [ { "value": "MAX_MANA", "add": 0 } ] } ] }
   },
   {
