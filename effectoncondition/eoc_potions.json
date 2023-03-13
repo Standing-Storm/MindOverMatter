@@ -120,7 +120,8 @@
       { 
         "u_cast_spell": {
         "id": "teleport_blink_monster",
-        "message": "Reality suddenly warps around you and you are somewhere else!" 
+        "message": "Reality suddenly warps around you and you are somewhere else!"  
+        }
       }
     ]
   },
