@@ -99,6 +99,7 @@
     "recurrence": [ "30 minutes", "90 minutes" ],
     "deactivate_condition": { "not": { "u_has_effect": "effect_teleport_potion_comedown" } },
     "effect": [
+      { "u_message": "Reality suddenly warps around you and you are somewhere else!" },
       { "u_cast_spell": "teleport_blink_monster" }
     ]
   },
