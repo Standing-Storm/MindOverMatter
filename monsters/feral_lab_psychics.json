@@ -144,6 +144,7 @@
   },
   {
      "id": "mon_feral_security_captain_psychic",
+     "type": "MONSTER",
      "copy-from": "mon_feral_human_bio3",
      "name": "feral security captain, Ψ Division",
      "looks_like": "mon_feral_labsecurity_9mm",
