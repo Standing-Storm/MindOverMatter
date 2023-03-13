@@ -90,7 +90,7 @@
     "name": "feral security guard, Ψ Division",
     "description": "A security guard gone feral, or so you thought.  As you look closer, you notice the relatively-normal appearance, the clear eyes, and the patch on their uniform with a Ψ shape in front of the logo of XEDRA.  The zombies around them ignore them as they move smoothly and purposefully through the ruins.",
     "default_faction": "science",
-    "looks_like": "chud",
+    "looks_like": "mon_feral_labsecurity_9mm",
     "bodytype": "human",
     "species": [ "HUMAN" ],
     "volume": "62500 ml",
@@ -143,10 +143,11 @@
     ]
   },
   {
-    "id": "mon_feral_security_captain_psychic",
-    "copy-from": "mon_feral_human_bio3",
-    "name": "feral security captain, Ψ Division",
-    "description": "A feral security guard with a fancier uniform, bearing the XEDRA logo and some kind of rank insignia.  Their movements are precise, controlled, and inhumanly smooth, and while their eyes are still bloodshot, they have a spark lacking in most ferals you've seen.",
-    "death_drops": "feral_security_captain_death_drops_psychic"
+     "id": "mon_feral_security_captain_psychic",
+     "copy-from": "mon_feral_human_bio3",
+     "name": "feral security captain, Ψ Division",
+     "looks_like": "mon_feral_labsecurity_9mm",
+     "description": "A feral security guard with a fancier uniform, bearing the XEDRA logo and some kind of rank insignia.  Their movements are precise, controlled, and inhumanly smooth, and while their eyes are still bloodshot, they have a spark lacking in most ferals you've seen.",
+     "death_drops": "feral_security_captain_death_drops_psychic"
   }
 ]
