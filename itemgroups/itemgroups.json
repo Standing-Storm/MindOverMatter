@@ -105,7 +105,7 @@
     "type": "item_group",
     "subtype": "distribution",
     "id": "dist_psionic_shield_belts",
-    "items": [
+    "groups": [
       [ "dist_fire_shield_belts", 1 ],
       [ "dist_shield_belts", 1 ]
     ]
