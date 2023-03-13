@@ -93,7 +93,22 @@
     ]
   },
   {
-    
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "dist_fire_shield_belts",
+    "items": [
+      [ "psionic_fire_shield_belt_broken", 3 ],
+      [ "psionic_fire_shield_belt", 1 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "dist_psionic_shield_belts",
+    "items": [
+      [ "dist_fire_shield_belts", 1 ],
+      [ "dist_shield_belts", 1 ]
+    ]
   },
   {
     "type": "item_group",
