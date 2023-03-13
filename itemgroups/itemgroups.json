@@ -88,8 +88,8 @@
     "subtype": "distribution",
     "id": "dist_shield_belts",
     "items": [
-      [ "psionic_shield_belt_broken", 3 ],
-      [ "psionic_shield_belt", 1 ]
+      { "item": "psionic_shield_belt_broken", "prob": 3, "charges": [ 0, 15 ] },
+      { "item": "psionic_shield_belt", "prob": 1, "charges": [ 0, 90 ] }
     ]
   },
   {
@@ -97,8 +97,8 @@
     "subtype": "distribution",
     "id": "dist_fire_shield_belts",
     "items": [
-      [ "psionic_fire_shield_belt_broken", 3 ],
-      [ "psionic_fire_shield_belt", 1 ]
+      { "item": "psionic_fire_shield_belt_broken", "prob": 3, "charges": [ 0, 15 ] },
+      { "item": "psionic_fire_shield_belt", "prob": 1, "charges": [ 0, 300 ] }
     ]
   },
   {
