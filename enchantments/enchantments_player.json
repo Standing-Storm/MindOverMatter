@@ -100,5 +100,12 @@
       { "value": "ARMOR_HEAT", "add": -50 }   
     ],
     "hit_me_effect": [ { "id": "pyro_aura_attacked",  "hit_self": false } ]
+  },
+  {
+    "type": "enchantment",
+    "id": "enchant_teleport_potion",
+    "condition": "ALWAYS",
+    "has": "HELD",
+    "hit_you_effect": [ { "id": "teleport_slow_monster", "hit_self": false, "min_level": 1, "message": "The air around your enemy warps slightly." }  ]
   }
 ]
