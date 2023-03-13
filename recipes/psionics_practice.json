@@ -77,5 +77,22 @@
       ] 
     ],
      "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "id": "prac_psionics_prof_basic",
+    "type": "practice",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_PRACTICE",
+    "subcategory": "CSC_PRACTICE_METAPHYSICS",
+    "name": "psionic channeling",
+    "description": "Practice focusing your powers through a crystalline medium.",
+    "skill_used": "metaphysics",
+    "practice_data": { "min_difficulty": 0, "max_difficulty": 1, "skill_limit": 2 },
+    "proficiencies": [ { "proficiency": "prof_psionic_basic", "time_multiplier": 1, "skill_penalty": 0 } ],
+    "time": "1 h",
+    "qualities": [ { "id": "MATRIX_CHANNEL", "level": 1 } ],
+    "components": [ [ [ "matrix_shard", 1 ], [ "matrix_crystal_drained", 1 ] ] ],
+    "byproducts": [ [ "matrix_crystal_drained_dust", 10 ] ],
+    "book_learn": [ [ "manual_psionics_advan", 3 ], [ "schematics_matrix_channeling", 3 ], [ "schematics_matrix_aligning", 3 ] ]
   }
 ]
