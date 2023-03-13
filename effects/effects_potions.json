@@ -158,8 +158,7 @@
 			{ 
 				"values": [ 
 					{ "value": "LEARNING_FOCUS", "add": -30 },
-					{ "value": "READING_EXP", "add": -1 },
-					{ "
+					{ "value": "READING_EXP", "add": -1 }
 				] 
 			} 
 		]
