@@ -193,7 +193,7 @@
       {
         "type": "transform",
         "msg": "You flip the switch on the box, but nothing happens.",
-        "target": "psionic_fire_shield_broken",
+        "target": "psionic_fire_shield_belt_broken",
         "need_worn": true,
         "menu_text": "Flip the switch" 
       }
