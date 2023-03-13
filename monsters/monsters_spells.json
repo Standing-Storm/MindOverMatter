@@ -293,7 +293,7 @@
 		"casting_time_increment": -4
 	},
 	{
-		"id": "vitakinetic_health_healing_down",
+		"id": "vitakinetic_healing_down",
 		"type": "SPELL",
 		"name": "[Ψ]Draining Touch 2 Monster",
 		"description": "Drain Target's Health Mod and reduce healing.  It's a bug if you have it..",
