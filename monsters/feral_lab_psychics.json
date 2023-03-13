@@ -147,7 +147,7 @@
      "copy-from": "mon_feral_human_bio3",
      "name": "feral security captain, Ψ Division",
      "looks_like": "mon_feral_labsecurity_9mm",
-     "description": "A feral security guard with a fancier uniform, bearing the XEDRA logo and some kind of rank insignia.  Their movements are precise, controlled, and inhumanly smooth, and while their eyes are still bloodshot, they have a spark lacking in most ferals you've seen.",
+     "description": "A feral security guard with a military uniform, bearing the XEDRA logo and some kind of rank insignia.  Their movements are precise, controlled, and inhumanly smooth, and while their eyes are still bloodshot, they have a spark lacking in most ferals you've seen.",
      "death_drops": "feral_security_captain_death_drops_psychic"
   }
 ]
