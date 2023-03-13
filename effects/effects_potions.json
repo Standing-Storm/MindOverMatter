@@ -137,8 +137,8 @@
 	},
 	{
 		"type": "effect_type",
-		"id": "effect_telekin_potion_comedown",
-		"name": [ "Yellow Elixir Aftereffects" ],
+		"id": "effect_teleport_potion_comedown",
+		"name": [ "White Elixir Aftereffects" ],
 		"desc": [ "You're suffering the aftereffects of drinking the concentrated matrix crystal concoction." ],
 		"apply_message": "",
 		"remove_message": "The concoction's aftereffects finally wear off.",
