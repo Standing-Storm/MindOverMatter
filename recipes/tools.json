@@ -9,7 +9,7 @@
     "skills_required": [ "metaphysics", 3 ],
     "difficulty": 3,
     "time": "2 h",
-    "book_learn": [ [ "schematics_matrix_channeling", 4 ] ],
+    "book_learn": [ [ "schematics_matrix_channeling", 3 ] ],
     "qualities": [ { "id": "HAMMER_FINE", "level": 1 }, { "id": "FINE_GRIND", "level": 1 }, { "id": "VISE", "level": 1 } ],
     "tools": [ [ [ "angle_grinder", 50 ] ] ],
     "proficiencies": [
