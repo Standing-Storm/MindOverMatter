@@ -38,11 +38,13 @@
     "id": "EOC_PYROKIN_MATRIX_AWAKENING",
     "condition": { "not": { "u_has_trait": "PYROKINETIC" } }, 
     "effect": [
-      { "u_message": "You gaze into the strange crystal and the light slowly grows brighter. Placeholder text, blah blah, anyway you're a pyrokinetic now.", "popup": true },
+      { "u_message": "You gaze into the strange crystal and the light slowly grows brighter.  The crystal begins glowing, first faintly and then brightly, finally shedding light on your surroundings and throwing everything into sharp relief.  As it blazes in your hands, it begins growing slowly warmer.  The warmth spreads down your arms and across your entire body, filling it with a comfortable heat, and then the air around you takes on the heat and the light.  The air wavers like a summer haze, but even as it sparks and flames dance on the air, you feel only a comfortable warmth.  You reach out your free hand, letting the fire play between your fingers, and when the crystal's glow dims and fades into nothingness, you don't even notice it.", "popup": true },
       { "u_add_trait": "PYROKINETIC" }, 
       { "u_add_trait": "PYROGLOW_WEAK" },
       { "u_add_trait": "PYROGLOW_STRONG" },
-      { "u_spawn_item": "matrix_crystal_drained" }
+      { "u_spawn_item": "matrix_crystal_drained" },
+      { "u_add_effect": "effect_pyrokinetic_cloak":, "duration": "5 minutes" },
+      { "u_add_effect": "effect_pyrokinetic_aura":, "duration": "5 minutes" }
     ],
     "false_effect": [
       { "u_message": "You gaze into the strange crystal and the light slowly grows brighter.  It starts pulsing, first slowly and more rapidly, and your head starts pounding in time with the light.  You tear your gaze away but the pounding in your head remains." },
