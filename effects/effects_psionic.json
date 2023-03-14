@@ -330,6 +330,19 @@
 			]
 	},
 	{
+    "type": "effect_type",
+    "id": "effect_pyrokinetic_flash",
+    "name": [ "Blind" ],
+    "desc": [ "Range of Sight: 0.  You cannot see anything." ],
+    "removes_effects": [ "glare", "snow_glare", "darkness" ],
+    "apply_message": "You're blinded!",
+    "remove_message": "Your sight returns!",
+    "rating": "bad",
+		"max_duration": "15 minutes", 
+    "show_in_info": true,
+    "flags": [ "BLIND" ]
+	},
+	{
 		"type": "effect_type",
 		"id": "effect_pyrokinetic_cloak",
 		"name": [ "Cloak of Warmth" ],
