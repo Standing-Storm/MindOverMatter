@@ -1091,7 +1091,7 @@
         "armor_cut": 3,
         "armor_stab": 3,
         "armor_bullet": 5,
-        "regenerates": 25,
+        "regenerates": 20,
         "bleed_rate": 0,
         "harvest": "human",
         "dissect": "dissect_human_sample_single",
