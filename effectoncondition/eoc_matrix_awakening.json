@@ -4,10 +4,11 @@
     "id": "EOC_BIOKIN_MATRIX_AWAKENING",
     "condition": { "not": { "u_has_trait": "BIOKINETIC" } }, 
     "effect": [
-      { "u_message": "You gaze into the strange crystal and the light slowly grows brighter. Placeholder text, blah blah, anyway you're a biokinetic now.", "popup": true },
+      { "u_message": "You gaze into the strange crystal and the light slowly grows brighter.  As it fills your vision, you become aware of the sound of your heartbeat, of the blood rushing through your veins, of the oxygen fueling your muscles.  You see the connections between them all and, only partially aware of how you're doing it, you reach out and adjust the flow.  Strength and power suddenly fill your body, and as you watch the connections with your inner eye, you see what exactly you did and you know how to do it again.  As the light from the crystal fades, leaving it dull and colorless, your vision clears.", "popup": true },
       { "u_add_trait": "BIOKINETIC" }, 
       { "u_add_trait": "BIOKIN_NEEDS" },
-      { "u_spawn_item": "matrix_crystal_drained" }
+      { "u_spawn_item": "matrix_crystal_drained" },
+      { "u_add_effect": "effect_biokin_physical":, "duration": "5 minutes" }
     ],
     "false_effect": [
       { "u_message": "You gaze into the strange crystal and the light slowly grows brighter.  It starts pulsing, first slowly and more rapidly, and your head starts pounding in time with the light.  You tear your gaze away but the pounding in your head remains." },
@@ -20,10 +21,11 @@
     "id": "EOC_CLAIR_MATRIX_AWAKENING",
     "condition": { "not": { "u_has_trait": "CLAIRSENTIENT" } }, 
     "effect": [
-      { "u_message": "You gaze into the strange crystal and the light slowly grows brighter. Placeholder text, blah blah, anyway you're a clairsentient now.", "popup": true },
+      { "u_message": "You gaze into the strange crystal and the light slowly grows brighter.  You remember your childhood, before the end of the world, and then the memories diverge.  You see yourself on an aircraft carrier bridge, looking out the window as a colossal tentacle breaches the surface of the ocean; you stand in a clear white room, watching through a reinforced glass window as your colleague reanimates; you are caught up in the riots and shot by soldiers manning a road block; you are on a camping trip with friends when a nest of pig-sized wasps descend from a formerly-clear sky.  Dozens of lives in quick succession, might-have-beens and never-weres, fragments that fade even as you try to grasp each one in succession.  When the last one ends, you can see through the crystal, through your hands, through the ground.  You can see forever.", "popup": true },
       { "u_add_trait": "CLAIRSENTIENT" }, 
       { "u_add_trait": "CLAIR_SENSES" },
-      { "u_spawn_item": "matrix_crystal_drained" }
+      { "u_spawn_item": "matrix_crystal_drained" },
+      { "u_add_effect": "effect_clair_clear_sight":, "duration": "1 minutes" }
     ],
     "false_effect": [
     { "u_message": "You gaze into the strange crystal and the light slowly grows brighter.  It starts pulsing, first slowly and more rapidly, and your head starts pounding in time with the light.  You tear your gaze away but the pounding in your head remains." },
