@@ -1038,6 +1038,13 @@
         "zombify_into": "mon_zombie_survivor",
         "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
         "upgrades": { "half_life": 45, "into": "mon_feral_human_vita2" },
+        "special_attacks": [
+            {
+                "type": "spell", "spell_data": { "id": "vitakinetic_health_down",  "min_level": 4 },
+                "cooldown": 15,
+                "monster_message": "%1$s touches you and a numbing weakness spreads through your body."
+            }
+        ],
         "flags": [
             "SEES",
             "HEARS",
@@ -1092,6 +1099,13 @@
         "death_drops": "feral_humans_death_drops_vita",
         "zombify_into": "mon_zombie_survivor",
         "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
+        "special_attacks": [
+            {
+                "type": "spell", "spell_data": { "id": "vitakinetic_healing_down",  "min_level": 4 },
+                "cooldown": 15,
+                "monster_message": "%1$s touches you and a numbing weakness spreads through your body followed by itching."
+            }
+        ],
         "flags": [
             "SEES",
             "HEARS",
