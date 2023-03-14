@@ -1105,7 +1105,7 @@
             {
                 "type": "spell", "spell_data": { "id": "vitakinetic_healing_down",  "min_level": 4 },
                 "cooldown": 15,
-                "monster_message": "%1$s touches you and a numbing weakness spreads through your body followed by itching."
+                "monster_message": "%1$s touches you and a numbing weakness spreads through your body, quickly followed by a crawling sensation."
             }
         ],
         "flags": [
