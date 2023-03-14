@@ -275,7 +275,7 @@
 		"id": "vitakinetic_health_down",
 		"type": "SPELL",
 		"name": "[Ψ]Draining Touch Monster",
-		"description": "Drain Target's Health Mod. It's a bug if you have it..",
+		"description": "Drain Target's Health Mod. It's a bug if you have it.",
 		"valid_targets": [ "hostile" ],
 		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS" ],
 		"effect": "attack",
@@ -284,16 +284,14 @@
 		"difficulty": 1,
 		"max_level": 20,
 		"min_range": 1,
-		"min_duration": 2160000,
-		"base_casting_time": 50,
-		"final_casting_time": 0,
-		"casting_time_increment": -4
+		"min_duration": 1080000,
+		"base_casting_time": 50
 	},
 	{
 		"id": "vitakinetic_healing_down",
 		"type": "SPELL",
 		"name": "[Ψ]Draining Touch 2 Monster",
-		"description": "Drain Target's Health Mod and reduce healing.  It's a bug if you have it..",
+		"description": "Drain Target's Health Mod and reduce healing.  It's a bug if you have it.",
 		"valid_targets": [ "hostile" ],
 		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS" ],
 		"effect": "attack",
@@ -302,9 +300,7 @@
 		"difficulty": 1,
 		"max_level": 20,
 		"min_range": 1,
-		"min_duration": 3240000,
-		"base_casting_time": 50,
-		"final_casting_time": 0,
-		"casting_time_increment": -4
+		"min_duration": 1620000,
+		"base_casting_time": 50
 	}
 ]
