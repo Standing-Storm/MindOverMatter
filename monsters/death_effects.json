@@ -1,8 +1,8 @@
 [
   {
-    "id": "death_explosion_oneinfour",
+    "id": "death_explosion_oneineight",
     "type": "SPELL",
-    "name": { "str": "Pyrokinetic Death" },
+    "name": { "str": "Pyrokinetic Burner Death" },
     "valid_targets": [ "ally", "ground", "hostile" ],
     "description": "1/4 chance to burst into flames.",
     "flags": [ "WONDER", "NO_EXPLOSION_SFX" ],
@@ -14,13 +14,17 @@
       { "id": "death_fakespell" },
       { "id": "death_fakespell" },
       { "id": "death_fakespell" },
+	    { "id": "death_fakespell" },
+	    { "id": "death_fakespell" },
+	    { "id": "death_fakespell" },
+	    { "id": "death_fakespell" },
       { "id": "death_conflagration", "hit_self": true }
     ]
   },
   {
-	    "id": "death_explosion_oneintwo",
+	    "id": "death_explosion_oneinfour",
 	    "type": "SPELL",
-	    "name": { "str": "Pyrokinetic Death" },
+	    "name": { "str": "Pyrokinetic Inferno Death" },
 	    "valid_targets": [ "ally", "ground", "hostile" ],
 	    "description": "1/2 chance to burst into flames.",
 	    "flags": [ "WONDER", "NO_EXPLOSION_SFX" ],
@@ -30,14 +34,66 @@
 	    "max_damage": 1,
 	    "extra_effects": [
 	      { "id": "death_fakespell" },
+				{ "id": "death_fakespell" },
+				{ "id": "death_fakespell" },
 	      { "id": "death_conflagration", "hit_self": true }
 	    ]
   },
+	{
+    "id": "death_telekeinetic_hit_oneinfive",
+    "type": "SPELL",
+    "name": { "str": "Telekinetic Death" },
+    "valid_targets": [ "ally", "ground", "hostile" ],
+    "description": "1/5 chance to knock targets down.",
+    "flags": [ "WONDER" ],
+    "shape": "blast",
+    "effect": "noise",
+    "min_damage": 1,
+    "max_damage": 1,
+    "extra_effects": [
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+			{ "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_knockdown", "hit_self": true }
+    ]
+  },
+	{
+		"id": "death_telekeinetic_hit_oneinthree",
+		"type": "SPELL",
+		"name": { "str": "Telekinetic Death" },
+		"valid_targets": [ "ally", "ground", "hostile" ],
+    "description": "1/3 chance to knock targets down.",
+    "flags": [ "WONDER" ],
+    "shape": "blast",
+    "effect": "noise",
+    "min_damage": 1,
+    "max_damage": 1,
+    "extra_effects": [
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_knockdown", "hit_self": true }
+    ]
+	},
+	{
+    "id": "death_knockdown",
+    "type": "SPELL",
+    "name": { "str": "Telekinetic Wave" },      
+    "valid_targets": [ "ally", "ground", "hostile" ],
+    "description": "Knocks everyone near the feral telekinetic down.",
+    "flags": [ "NO_EXPLOSION_SFX", "SILENT", "RANDOM_DURATION" ],
+    "shape": "blast",
+    "effect": "attack",
+    "effect_str": "downed",
+    "min_aoe": 6,
+    "min_duration": 100,
+    "max_duration": 300
+  }
   {
     "id": "death_psychic_scream",
     "type": "SPELL",
     "name": { "str": "Psychic Scream" },      
-    "valid_targets": [ "hostile" ],
+    "valid_targets": [ "ally", "ground", "hostile" ],
     "description": "Stuns and blinds if the player is near the telepath when they die.",
     "flags": [ "NO_EXPLOSION_SFX", "SILENT", "RANDOM_DURATION" ],
     "shape": "blast",
