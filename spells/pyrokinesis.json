@@ -42,7 +42,7 @@
 	  "skill": "metaphysics",
 	  "flags": [ "CONCENTRATE", "NO_HANDS", "NO_PROJECTILE", "NO_LEGS", "RANDOM_DURATION" ],
 	  "effect": "attack",
-	  "effect_str": "blind",
+	  "effect_str": "effect_pyrokinetic_flash",
 	  "shape": "blast",
 	  "affected_body_parts": [ "eyes" ],
 	  "difficulty": 1,
