@@ -113,10 +113,11 @@
     "id": "EOC_VITAKIN_MATRIX_AWAKENING",
     "condition": { "not": { "u_has_trait": "VITAKINETIC" } }, 
     "effect": [
-       { "u_message": "You gaze into the strange crystal and the light slowly grows brighter. Placeholder text, blah blah, anyway you're a vitakinetic now.", "popup": true},
+       { "u_message": "You gaze into the strange crystal and the light slowly grows brighter.  You become aware of your skin, of every cut and bruise and scrape, of the food sitting in your stomach and the air moving in and out of your lungs.  You can feel the bits of smoke in the air from the all the fires unleashed by the Cataclysm, the bits of dirt and debris in your wounds, of the char in your food.  Not quite knowing how, you reach out and push at it, all the dirt and grime and filth of daily life in the Cataclysm, sealing it away.  You instantly feel better, like a weight you didn't realize you were carrying has been taken off your shoulders, and as the light from the crystal dims and goes dark you stand up straight.  You're going to be alright.", "popup": true},
       { "u_add_trait": "VITAKINETIC" }, 
       { "u_add_trait": "VITAKINETIC_HEALTH" },
-      { "u_spawn_item": "matrix_crystal_drained" }
+      { "u_spawn_item": "matrix_crystal_drained" },
+      { "u_add_effect": "effect_vita_health", "duration": "5 minutes" }
     ],
     "false_effect": [
       { "u_message": "You gaze into the strange crystal and the light slowly grows brighter.  It starts pulsing, first slowly and more rapidly, and your head starts pounding in time with the light.  You tear your gaze away but the pounding in your head remains." },
