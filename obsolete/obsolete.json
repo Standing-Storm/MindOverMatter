@@ -8,24 +8,6 @@
       "flags": [ "STOP_SLEEP_DEPRIVATION"],
       "removes_effects": [ "sleep_deprivation", "lack_sleep" ]
     },
-    {
-    "id": "death_explosion_oneinfour",
-    "type": "SPELL",
-    "name": { "str": "Pyrokinetic Death" },
-    "valid_targets": [ "ally", "ground", "hostile" ],
-    "description": "1/4 chance to burst into flames.",
-    "flags": [ "WONDER", "NO_EXPLOSION_SFX" ],
-    "shape": "blast",
-    "effect": "noise",
-    "min_damage": 1,
-    "max_damage": 1,
-    "extra_effects": [
-      { "id": "death_fakespell" },
-      { "id": "death_fakespell" },
-      { "id": "death_fakespell" },
-      { "id": "death_conflagration", "hit_self": true }
-    ]
-  },
   {
 	    "id": "death_explosion_oneintwo",
 	    "type": "SPELL",
