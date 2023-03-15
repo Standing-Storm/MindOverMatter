@@ -8,7 +8,7 @@
       { "u_add_trait": "BIOKINETIC" }, 
       { "u_add_trait": "BIOKIN_NEEDS" },
       { "u_spawn_item": "matrix_crystal_drained" },
-      { "u_add_effect": "effect_biokin_physical":, "duration": "5 minutes" }
+      { "u_add_effect": "effect_biokin_physical", "duration": "5 minutes" }
     ],
     "false_effect": [
       { "u_message": "You gaze into the strange crystal and the light slowly grows brighter.  It starts pulsing, first slowly and more rapidly, and your head starts pounding in time with the light.  You tear your gaze away but the pounding in your head remains." },
@@ -25,7 +25,7 @@
       { "u_add_trait": "CLAIRSENTIENT" }, 
       { "u_add_trait": "CLAIR_SENSES" },
       { "u_spawn_item": "matrix_crystal_drained" },
-      { "u_add_effect": "effect_clair_clear_sight":, "duration": "1 minutes" }
+      { "u_add_effect": "effect_clair_clear_sight", "duration": "1 minutes" }
     ],
     "false_effect": [
     { "u_message": "You gaze into the strange crystal and the light slowly grows brighter.  It starts pulsing, first slowly and more rapidly, and your head starts pounding in time with the light.  You tear your gaze away but the pounding in your head remains." },
@@ -43,7 +43,7 @@
       { "u_add_trait": "PYROGLOW_WEAK" },
       { "u_add_trait": "PYROGLOW_STRONG" },
       { "u_spawn_item": "matrix_crystal_drained" },
-      { "u_add_effect": "effect_pyrokinetic_cloak":, "duration": "5 minutes" },
+      { "u_add_effect": "effect_pyrokinetic_cloak", "duration": "5 minutes" },
       { "u_add_effect": "effect_pyrokinetic_aura":, "duration": "5 minutes" }
     ],
     "false_effect": [
