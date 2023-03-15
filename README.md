@@ -3,13 +3,15 @@ A WIP Psionics mod for Cataclysm: Dark Days Ahead (current status: working on cr
 
 This mod adds (currently) seven separate psionic power paths to Cataclysm, including:
 
-1) Biokinesis - Control of the body. Biokinetics can become stronger and faster than an ordinary human, and even change their form in limited ways.
-2) Clairsentience - Extending the senses beyond the body. Clairsentients can see in the dark and through walls, and eventually gain a bird's eye view of their surroundings, as well as perform in combat by anticipating their enemies' movements.
-3) Pyrokinesis - Manipulating fire and heat. Pyrokinetics can start fires and protect themselves from heat, and even cover their whole body in raging flames to discourage attack
-4) Telekinesis - Moving objects at a distance. Telekinetics can pull objects to them and hurl their enemies away, and even collapse buildings or shield themselves with a barrier of telekinetic force. 
-5) Telepathy - Control of the mind. Telepaths can become more persuasive and shield their presence from their enemies, and a powerful one can seize control of their enemies' minds.
-6) Teleportation - Moving without crossing the intervening distance. Teleporters can escape danger and move quickly, and at higher levels they can travel long distances across the ravaged earth or hurl their enemies away to the space between dimensions.
-7) Vitakinesis - Control of health and injury. Vitakinetics can bind their own wounds and speed healing, eventually recovering from even near-crippling injuries. 
+1) Biokinesis - Control of the body. Biokinetics can become stronger and faster than an ordinary human, and even change their form in limited ways. (starting profession: Star Athlete)
+2) Clairsentience - Extending the senses beyond the body. Clairsentients can see in the dark and through walls, and eventually gain a bird's eye view of their surroundings, as well as perform in combat by anticipating their enemies' movements. (starting profession: Doomseer)
+3) Pyrokinesis - Manipulating fire and heat. Pyrokinetics can start fires and protect themselves from heat, and even cover their whole body in raging flames to discourage attack (starting profession: Firestarter)
+4) Telekinesis - Moving objects at a distance. Telekinetics can pull objects to them and hurl their enemies away, and even collapse buildings or shield themselves with a barrier of telekinetic force. (starting profession: Test Subject, Project ONYX LIGHTNING)
+5) Telepathy - Control of the mind. Telepaths can become more persuasive and shield their presence from their enemies, and a powerful one can seize control of their enemies' minds. (starting profession: Government Interrogater (DECEASED))
+6) Teleportation - Moving without crossing the intervening distance. Teleporters can escape danger and move quickly, and at higher levels they can travel long distances across the ravaged earth or hurl their enemies away to the space between dimensions. (starting profession: Itzcuauhtli Corps Liaison, Yohualli Èhecatl Division)
+7) Vitakinesis - Control of health and injury. Vitakinetics can bind their own wounds and speed healing, eventually recovering from even near-crippling injuries. (starting profession: Faith Healer)
+
+If you would like a random power path, pick the profession "Awakening Psion."
 
 The goal is for each path to be upgraded through usage, since sitting and studying a book for hours doesn't really fit the fiction of improving psychic powers. Powers are gained progressively, with increasing mastery of lower-tier powers unlocking new ones. Powers are based on a new skill called "metaphysics" which you can learn through recipes found from appropriate books in the world. 
 
