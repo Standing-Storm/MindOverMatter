@@ -20,5 +20,19 @@
     "has": "HELD",
     "emitter": "emit_pyrokin_fever",
     "value": [ { "value": "LUMINATION", "add": 50 } ]
+  },
+  {
+    "type": "enchantment",
+    "id": "enchant_teleport_potion_comedown",
+    "condition": "ALWAYS",
+    "has": "HELD",
+    "intermittent_activation": { 
+      "effects": [ 
+        { "frequency": [ "30 minutes", "200 minutes" ], "spell_effects": [ 
+          { "id": "teleport_blink_monster" }
+        ] 
+        } 
+      ] 
+    }
   }
 ]
