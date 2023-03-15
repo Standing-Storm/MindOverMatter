@@ -73,10 +73,11 @@
     "id": "EOC_TEEP_MATRIX_AWAKENING",
     "condition": { "not": { "u_has_trait": "TELEPATH" } }, 
     "effect": [
-      { "u_message": "You gaze into the strange crystal and the light slowly grows brighter.  Placeholder text, blah blah, anyway you're a telepath now.", "popup": true},
+      { "u_message": "You gaze into the strange crystal and the light slowly grows brighter.  In the light, you can see yourself, standing there holding a glowing crystal, in which you can see another light and a tiny version of yourself in an endless hall of mirrors.  Time slows down--you decide to move your hand and you can feel the thought form in your brain and the signal travel through your nerves to your spine and then on your hands, and you watch as the motion finally occurs.  The light grows brighter as you stand outside yourself observing your own thoughts, and as you feel your attention being drawn to the light, you reach out, nudge your own mind, your awareness of yourself sharpens into laser focus.  As the light and the vision fades, leaving the crystal dull and nearly lifeless, you turn your full attention--FULL attention--to your next task.", "popup": true},
       { "u_add_trait": "TELEPATH" }, 
       { "u_add_trait": "TELEPATHIC_SUGGESTION" },
       { "u_spawn_item": "matrix_crystal_drained" }
+      { "u_add_effect": "effect_telepathic_learning_bonus", "duration": "1 minutes"
     ],
     "false_effect": [
       { "u_message": "You gaze into the strange crystal and the light slowly grows brighter.  It starts pulsing, first slowly and more rapidly, and your head starts pounding in time with the light.  You tear your gaze away but the pounding in your head remains." },
