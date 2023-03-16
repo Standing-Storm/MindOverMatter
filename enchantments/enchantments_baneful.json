@@ -28,7 +28,7 @@
     "has": "HELD",
     "intermittent_activation": { 
       "effects": [ 
-        { "frequency": [ "30 minutes", "200 minutes" ], "spell_effects": [ 
+        { "frequency": "130 minutes", "spell_effects": [ 
           { "id": "teleport_blink_monster" }
         ] 
         } 
