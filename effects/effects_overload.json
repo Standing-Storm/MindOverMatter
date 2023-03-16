@@ -30,8 +30,8 @@
 		"int_add_val": 1,
 		"max_intensity": 10,
 		"max_duration": "24 hours",
-		"base_mods": { "per_mod": [ -2 ], "int_mod": [ -2 ], "pain_chance": [ 10 ], "pain_min": [ 2 ], "pain_max": [ 3 ], "pain_max_val": [ 75 ], "vomit_chance": [ 25 ], "hurt_chance": [ -10 ], "hurt_amount": [ 0 ], "hurt_tick": [ 200 ] },
-    "scaling_mods": { "per_mod": [ -1.2 ], "int_mod": [ -0.6 ], "pain_min": [ 1 ], "pain_max": [ 4 ], "pain_max_val": [ 50 ], "vomit_chance": [ -2 ], "hurt_chance": [ 8 ], "hurt_amount": [ 2, 1 ], "hurt_tick": [ -15 ] }
+		"base_mods": { "per_mod": [ -2 ], "int_mod": [ -2 ], "pain_chance": [ 10 ], "pain_min": [ 2 ], "pain_max": [ 3 ], "pain_max_val": [ 50 ], "vomit_chance": [ 25 ], "hurt_chance": [ -10 ], "hurt_amount": [ 0 ], "hurt_tick": [ 200 ] },
+    "scaling_mods": { "per_mod": [ -1.2 ], "int_mod": [ -0.6 ], "pain_min": [ 1 ], "pain_max": [ 4 ], "pain_max_val": [ 30 ], "vomit_chance": [ -2 ], "hurt_chance": [ 8 ], "hurt_amount": [ 2, 1 ], "hurt_tick": [ -15 ] }
   },
 	{
 		"type": "effect_type",
