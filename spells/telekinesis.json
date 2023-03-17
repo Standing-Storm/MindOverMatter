@@ -151,7 +151,7 @@
 		"description": "Damages ground when you use Mindhammer. If you have this you debugged it in.",
 		"valid_targets": [ "ground" ],
 		"spell_class": "TELEKINETIC",
-		"flags": [ "LOUD", "RANDOM_DAMAGE", "IGNORE_WALLS" ],
+		"flags": [ "LOUD", "RANDOM_DAMAGE", "IGNORE_WALLS", "NO_PROJECTILE" ],
 		"effect": "bash",
 		"shape": "blast",
 		"damage_type": "bash",
