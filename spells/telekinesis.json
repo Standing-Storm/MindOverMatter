@@ -156,8 +156,9 @@
 		"shape": "blast",
 		"damage_type": "bash",
 		"max_level": 20,
-		"min_damage": 30,
-		"max_damage": 90
+		"min_damage": 10,
+		"max_damage": 150,
+		"damage_increment": 1.5
 	},
   {
     "id": "telekinetic_shield",
