@@ -28,7 +28,7 @@
     "final_casting_time": 35,
     "casting_time_increment": -4,
     "sound_type": "combat",
-    "sound_description": "a crackle",
+    "sound_description": "a crackle!",
     "learn_spells": { "pyrokinetic_flamethrower": 7, "pyrokinetic_flash": 9, "pyrokinetic_blast": 15, "pyrokinetic_cloak": 17  }
   }, 
   {
@@ -97,7 +97,7 @@
 		"final_casting_time": 35,
 		"casting_time_increment": -6,
 		"sound_type": "combat",
-		"sound_description": "a crackle",
+		"sound_description": "a crackle!",
 		"learn_spells": { "pyrokinetic_blast": 9, "pyrokinetic_aura": 12 }
 	},
 	{
@@ -159,6 +159,7 @@
     "final_casting_time": 35,
     "casting_time_increment": -9,
     "sound_type": "combat",
+	  "sound_description": "a crackle!",
     "learn_spells": { "pyrokinetic_cloak": 4, "pyrokinetic_flash": 6}
   },
   {
