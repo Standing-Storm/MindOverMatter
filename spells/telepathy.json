@@ -128,25 +128,6 @@
 		"base_casting_time": 90,
 		"final_casting_time": 40,
 		"casting_time_increment": -3.5,
-		"targeted_monster_species": [
-			"MAMMAL",
-			"AMPHIBIAN",
-			"BIRD",
-			"CYBORG",
-			"REPTILE",
-			"FISH",
-			"KRAKEN",
-			"MUTANT",
-			"MIGO",
-			"INSECT",
-			"CENTIPEDE",
-			"INSECT_FLYING",
-			"SPIDER",
-			"MOLLUSK",
-			"WORM",
-			"HUMAN",
-			"NETHER"
-		],
 		"learn_spells": { "telepathic_blast": 9, "telepathic_mind_control": 12
 		}
 	},
@@ -177,24 +158,7 @@
 		"energy_increment": -125,
 		"base_casting_time": 75,
 		"final_casting_time": 30,
-		"casting_time_increment": -2.5,
-		"targeted_monster_species": [
-			"MAMMAL",
-			"AMPHIBIAN",
-			"BIRD",
-			"CYBORG",
-			"REPTILE",
-			"FISH",
-			"KRAKEN",
-			"MUTANT",
-			"MIGO",
-			"INSECT",
-			"CENTIPEDE",
-			"INSECT_FLYING",
-			"SPIDER",
-			"HUMAN",
-			"NETHER"
-		]
+		"casting_time_increment": -2.5
 	},
 	{
 		"id": "telepathic_mind_control",
@@ -225,19 +189,6 @@
 		"energy_increment": -250,
 		"base_casting_time": 120,
 		"final_casting_time": 75,
-		"casting_time_increment": -3.5,
-		"targeted_monster_species": [
-			"MAMMAL",
-			"AMPHIBIAN",
-			"BIRD",
-			"CYBORG",
-			"REPTILE",
-			"FISH",
-			"KRAKEN",
-			"MUTANT",
-			"MIGO",
-			"MOLLUSK",
-			"HUMAN"
-		]
+		"casting_time_increment": -3.5
 	}
 ]
