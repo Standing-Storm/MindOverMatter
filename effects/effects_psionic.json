@@ -436,7 +436,7 @@
 	},
 	{
 		"type": "effect_type",
-		"id": "telepath_invisibility",
+		"id": "effect_telepath_invisibility",
 		"name": [ "Obscurity" ],
 		"desc": [ "You are hiding your presence from your enemies." ],
 		"apply_message": "",
