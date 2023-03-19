@@ -91,14 +91,14 @@
 		"shape": "blast",
 		"difficulty": 4,
 		"max_level": 20,
-		"min_damage": 150,
-		"max_damage": 350,
-		"damage_increment": 5.0,
+		"min_damage": 40,
+		"max_damage": 150,
+		"damage_increment": 1,
 		"energy_source": "STAMINA",
 		"base_energy_cost": 1000,
-		"base_casting_time": 1440000,
-		"final_casting_time": 360000,
-		"casting_time_increment": -54000,
+		"base_casting_time": 360000,
+		"final_casting_time": 90000,
+		"casting_time_increment": -13500,
 		"learn_spells": { "vita_healing_trance": 9, "vita_blood_purge": 12 }
 	},
 	{
@@ -116,7 +116,7 @@
 		"type": "effect_on_condition",
 		"id": "EOC_VITAKIN_SLEEP",
 		"effect": [
-			{ "arithmetic": [ { "u_val": "sleep_deprivation" }, "*=", { "const": 0 } ] }
+			{ "arithmetic": [ { "u_val": "sleep_deprivation" }, "-=", { "const": 400 } ] }
 		]
 	},
 	{
