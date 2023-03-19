@@ -83,7 +83,7 @@
 		"skill": "metaphysics",
 		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS", "RANDOM_DURATION" ],
 		"effect": "attack",
-		"effect_str": "invisibility",
+		"effect_str": "effect_telepath_invisibility",
 		"shape": "blast",
 		"difficulty": 4,
 		"max_level": 20,
