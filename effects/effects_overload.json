@@ -56,6 +56,11 @@
     "remove_message": "Your sight returns!",
     "rating": "bad",
     "show_in_info": true,
+	  "limb_score_mods": [
+      { "limb_score": "vision", "modifier": 0.0 },
+      { "limb_score": "night_vis", "modifier": 0.0 },
+      { "limb_score": "reaction", "modifier": 0.2 }
+    ],
     "flags": [ "BLIND" ]
   },
   {
