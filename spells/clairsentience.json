@@ -24,20 +24,20 @@
 		"base_casting_time": 50,
 		"final_casting_time": 20,
 		"casting_time_increment": -2,
-		"learn_spells": { "clair_voyance": 7, "clair_perfect_path": 9, "clair_see_map": 15 }
+		"learn_spells": { "clair_voyance": 7, "clair_danger_sense": 9, "clair_see_map": 15 }
   },
   {
-		"id": "clair_perfect_path",
+		"id": "clair_danger_sense",
 		"type": "SPELL",
-		"name": "[Ψ]The Perfect Path",
-		"description": "You know exactly where to move to take you where you are going.",
-		"message": "The path to your destination opens itself before you.",
+		"name": "[Ψ]Premonition",
+		"description": "You can sense the presence of the things that wish to do you harm.",
+		"message": "You open your senses to the dangers of the world.",
 		"valid_targets": [ "self" ],
 		"spell_class": "CLAIRSENTIENT",
 	  "skill": "metaphysics",
 		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS", "RANDOM_DURATION", "NO_EXPLOSION_SFX" ],
 		"effect": "attack",
-		"effect_str": "effect_clair_path",
+		"effect_str": "effect_clair_premonition",
 		"shape": "blast",
 		"energy_source": "STAMINA",
 		"difficulty": 2,
@@ -134,7 +134,7 @@
 		"aoe_increment": 1,  
 		"base_energy_cost": 9000,
 		"base_casting_time": 6000,
-		"learn_spells": { "clair_perfect_path": 5 }
+		"learn_spells": { "clair_danger_sense": 5 }
 	},
 	{
 		"id": "clair_clear_sight",
@@ -160,6 +160,6 @@
 		"base_casting_time": 75,
 		"final_casting_time": 25,
 		"casting_time_increment": -3.5,
-		"learn_spells": { "clair_night_vision": 7, "clair_perfect_path": 10 }
+		"learn_spells": { "clair_night_vision": 7, "clair_danger_sense": 10 }
 	}
 ]
