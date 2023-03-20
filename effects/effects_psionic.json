@@ -256,14 +256,14 @@
 			[ "Your awareness of danger is fading.", "bad" ] 
 		],
 		"rating": "good",
-		"max_duration": "30 seconds", 
-		"max_intensity": 16,
+		"max_duration": "30 minutes", 
+		"max_intensity": 58,
 		"dur_add_perc": 10,
-		"int_dur_factor": "18 s",
+		"int_dur_factor": "31 s",
 		"enchantments": [
 			{
 				"values": [
-					{ "value": "MOTION_VISION_RANGE", "multiply": { "arithmetic": [ { "u_val": "spell_level", "spell": "clair_danger_sense" }, "*", { "const": 2 } ] } }
+					{ "value": "MOTION_VISION_RANGE", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "clair_danger_sense" }, "*", { "const": 2 } ] } }
 				] 
 			} 
 		] 
