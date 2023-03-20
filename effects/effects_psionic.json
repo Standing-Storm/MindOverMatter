@@ -246,14 +246,14 @@
 	},
 	{
 		"type": "effect_type",
-		"id": "effect_clair_path",
-		"name": [ "Following the Path" ],
-		"desc": [ "You know exactly where to go." ],
+		"id": "effect_clair_premonition",
+		"name": [ "Sening Danger" ],
+		"desc": [ "You know there's something out there." ],
 		"apply_message": "",
-		"remove_message": "The line fades away.",
+		"remove_message": "The sense of danger fades away, but you know the danger remains.",
 		"decay_messages": [ 
-			[ "You can barely see the proper path.", "bad"],
-			[ "The line you've been following grows fainter and fainter.", "bad" ] 
+			[ "You're getting less and less sure where your enemies are.", "bad"],
+			[ "Your awareness of danger is fading.", "bad" ] 
 		],
 		"rating": "good",
 		"max_duration": "30 seconds", 
@@ -263,8 +263,7 @@
 		"enchantments": [
 			{
 				"values": [
-					{ "value": "FOOTSTEP_NOISE", "multiply": -0.67 },
-					{ "value": "MOVE_COST", "multiply": -0.2 } 
+					{ "value": "MOTION_VISION_RANGE ", "multiply": { "arithmetic": [ { "u_val": "spell_level", "spell": "clair_danger_sense" }, "*", { "const": 2 } ] } }
 				] 
 			} 
 		] 
