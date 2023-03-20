@@ -23,5 +23,57 @@
 	      { "id": "death_fakespell" },
 	      { "id": "death_conflagration", "hit_self": true }
 	    ]
-  }
+  },
+	  {
+			"id": "clair_perfect_path",
+			"type": "SPELL",
+			"name": "[Ψ]The Perfect Path",
+			"description": "You know exactly where to move to take you where you are going.",
+			"message": "The path to your destination opens itself before you.",
+			"valid_targets": [ "self" ],
+			"spell_class": "CLAIRSENTIENT",
+		  "skill": "metaphysics",
+			"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS", "RANDOM_DURATION", "NO_EXPLOSION_SFX" ],
+			"effect": "attack",
+			"effect_str": "effect_clair_path",
+			"shape": "blast",
+			"energy_source": "STAMINA",
+			"difficulty": 2,
+			"max_level": 20,
+			"base_energy_cost": 1500,
+			"final_energy_cost": 450,
+			"energy_increment": -125,
+			"min_duration": 3000,
+			"max_duration": 30000,
+			"duration_increment": 1500,
+			"base_casting_time": 85,
+			"final_casting_time": 25,
+			"casting_time_increment": -7,
+			"learn_spells": { "clair_dodge_power": 7, "clair_night_vision": 9 }
+	  },
+	{
+			"type": "effect_type",
+			"id": "effect_clair_path",
+			"name": [ "Following the Path" ],
+			"desc": [ "You know exactly where to go." ],
+			"apply_message": "",
+			"remove_message": "The line fades away.",
+			"decay_messages": [ 
+				[ "You can barely see the proper path.", "bad"],
+				[ "The line you've been following grows fainter and fainter.", "bad" ] 
+			],
+			"rating": "good",
+			"max_duration": "30 seconds", 
+			"max_intensity": 16,
+			"dur_add_perc": 10,
+			"int_dur_factor": "18 s",
+			"enchantments": [
+				{
+					"values": [
+						{ "value": "FOOTSTEP_NOISE", "multiply": -0.67 },
+						{ "value": "MOVE_COST", "multiply": -0.2 } 
+					] 
+				} 
+			] 
+		}
 ]
