@@ -1,0 +1,80 @@
+[
+	  {
+	    "type": "trait_group",
+	    "id": "npc_trait_biokinetic",
+	    "subtype": "collection",
+	    "traits": [
+	      { "trait": "BIOKINETIC", "prob": 100 },
+	      { "trait": "BIOKIN_NEEDS", "prob": 100 }
+	    ]
+	  },
+	  {
+	    "type": "trait_group",
+	    "id": "npc_trait_clairsentient",
+	    "subtype": "collection",
+	    "traits": [
+	      { "trait": "CLAIRSENTIENT", "prob": 100 },
+	      { "trait": "CLAIR_SENSES", "prob": 100 }
+	    ]
+	  },
+	  {
+	    "type": "trait_group",
+	    "id": "npc_trait_pyrokinetic",
+	    "subtype": "collection",
+	    "traits": [
+	      { "trait": "PYROKINETIC", "prob": 100 },
+	      { "trait": "PYROGLOW_WEAK", "prob": 100 },
+	      { "trait": "PYROGLOW_STRONG", "prob": 100 }
+	    ]
+	  },
+	  {
+	    "type": "trait_group",
+	    "id": "npc_trait_telekinetic",
+	    "subtype": "collection",
+	    "traits": [
+	      { "trait": "TELEKINETIC", "prob": 100 },
+	      { "trait": "TELEKINETIC_CARRY", "prob": 100 }
+	    ]
+	  },
+	  {
+	    "type": "trait_group",
+	    "id": "npc_trait_telepath",
+	    "subtype": "collection",
+	    "traits": [
+	      { "trait": "TELEPATH", "prob": 100 },
+	      { "trait": "TELEPATHIC_SUGGESTION", "prob": 100 }
+	    ]
+	  }, 
+	  {
+	    "type": "trait_group",
+	    "id": "npc_trait_teleporter",
+	    "subtype": "collection",
+	    "traits": [
+	      { "trait": "TELEPORTER", "prob": 100 },
+	      { "trait": "TELEPORTER_PROTECT", "prob": 100 }
+	    ]
+	  }, 
+	  {
+	    "type": "trait_group",
+	    "id": "npc_trait_vitakinetic",
+	    "subtype": "collection",
+	    "traits": [
+	      { "trait": "VITAKINETIC", "prob": 100 },
+	      { "trait": "VITAKINETIC_HEALTH", "prob": 100 }
+	    ]
+	  }, 
+	  {
+	    "type": "trait_group",
+	    "id": "npc_trait_psionic",
+	    "subtype": "distribution",
+	    "traits": [
+	      { "group": "npc_trait_biokinetic", "prob": 1 },
+	      { "group": "npc_trait_clairsentient", "prob": 1 },
+	      { "group": "npc_trait_pyrokinetic", "prob": 1 },
+	      { "group": "npc_trait_telekinetic", "prob": 1 },
+	      { "group": "npc_trait_telepath", "prob": 1 },
+	      { "group": "npc_trait_teleporter", "prob": 1 },
+	      { "group": "npc_trait_vitakinetic", "prob": 1 }
+	    ]
+	  }
+	]
