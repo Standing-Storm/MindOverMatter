@@ -43,7 +43,13 @@
 		"rating": "bad",
 		"max_intensity": 10,  
 		"base_mods": { "str_mod": [ -2 ], "dex_mod": [ -2 ] },
-		"scaling_mods": { "str_mod": [ -1.2 ], "dex_mod": [ -1.2 ] }
+		"scaling_mods": { "str_mod": [ -1.2 ], "dex_mod": [ -1.2 ] },
+		"limb_score_mods": [
+			{ "limb_score": "lift", "modifier": 0.9, "resist_modifier": 1.0, "scaling": -0.05, "resist_scaling": -0.00125 },
+      { "limb_score": "grip", "modifier": 0.8, "resist_modifier": 1.0, "scaling": -0.1, "resist_scaling": -0.025 },
+      { "limb_score": "block", "modifier": 0.9, "resist_modifier": 1.0, "scaling": -0.05, "resist_scaling": -0.00125 }
+		],
+		"flags": [ "EFFECT_LIMB_SCORE_MOD" ]
 	},
   {
     "type": "effect_type",
@@ -61,7 +67,7 @@
       { "limb_score": "night_vis", "modifier": 0.0 },
       { "limb_score": "reaction", "modifier": 0.2 }
     ],
-    "flags": [ "BLIND" ]
+    "flags": [ "BLIND", "EFFECT_LIMB_SCORE_MOD" ]
   },
   {
     "type": "effect_type",
@@ -73,7 +79,8 @@
     "rating": "bad",
     "max_intensity": 3,
     "int_dur_factor": "100 s",
-    "flags": [ "DEAF" ]
+		"limb_score_mods": [ { "limb_score": "reaction", "modifier": 0.9, "scaling": -0.2 } ],
+    "flags": [ "DEAF", "EFFECT_LIMB_SCORE_MOD" ]
   },
 	{
 		"type": "effect_type",
@@ -84,7 +91,9 @@
 		"remove_message": "The air feels much cooler now.",
 		"rating": "bad",
 		"base_mods": { "per_mod": [ -2 ], "health_min": [ -1 ], "health_chance": [ 25 ] },
-		"enchantments": [ "enchant_pyrokin_fever" ]
+		"enchantments": [ "enchant_pyrokin_fever" ],
+		"limb_score_mods": [ { "limb_score": "breathing", "modifier": 0.7 } ],
+		"flags": [ "EFFECT_LIMB_SCORE_MOD" ]
 	},
   {
 	  "type": "effect_type",
@@ -113,7 +122,9 @@
 					{ "value": "MOVE_COST", "multiply": 1.5 }
 				]
 			}
-		]
+		],
+		"limb_score_mods": [ { "limb_score": "balance", "modifier": 0.7 }, { "limb_score": "reaction", "modifier": 0.7 } ],
+    "flags": [ "EFFECT_LIMB_SCORE_MOD" ]
 	},
 	{
 		"type": "effect_type",
@@ -125,6 +136,8 @@
     "rating": "bad",
     "max_intensity": 10,  
     "base_mods": { "fatigue_tick": [ 300 ], "fatigue_min": [ 1 ], "health_min": [ -1 ], "health_tick": [ 400 ] },
-    "scaling_mods": { "fatigue_min": [ 1 ], "health_min": [ -1 ] }
+    "scaling_mods": { "fatigue_min": [ 1 ], "health_min": [ -1 ] },
+		"limb_score_mods": [ { "limb_score": "breathing", "modifier": 0.8 }, { "limb_score": "manip", "modifier": 0.8 } ],
+    "flags": [ "EFFECT_LIMB_SCORE_MOD" ]
   }
 ]
