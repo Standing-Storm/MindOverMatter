@@ -62,11 +62,15 @@
 		"spell_class": "VITAKINETIC",
 		"skill": "metaphysics",
     "flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS", "NO_EXPLOSION_SFX" ],
-		"effect": "effect_vitakin_hurt",
+		"effect": "attack",
+		"effect_str": "effect_vitakin_hurt",
 		"shape": "blast",
 		"difficulty": 3,
 		"min_range": 1,
 		"max_level": 20,
+		"min_dot": 1,
+		"max_dot": 2,
+		"dot_increment": 0.1,
 		"energy_source": "STAMINA",
 		"base_energy_cost": 1500,
 		"final_energy_cost": 500,
@@ -75,7 +79,6 @@
 		"final_casting_time": 55,
 		"casting_time_increment": -3,
 		"learn_spells": { "vita_pain_split": 7, "vita_healing_trance": 15 }
-		
 	},
 	{
 		"id": "vita_pain_split",
