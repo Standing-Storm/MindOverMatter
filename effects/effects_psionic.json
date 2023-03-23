@@ -237,7 +237,7 @@
 					{ "value": "MOVE_COST", "multiply": -0.2 },
 					{ "value": "RECOIL_MODIFIER", "add": -30 },
 					{ "value": "MELEE_DAMAGE", "multiply": { "arithmetic": [ { "u_val": "spell_level", "spell": "biokin_combat_dance" }, "*", { "const": 0.02 } ] } },
-					{ "value": "PAIN", "multiply": { "arithmetic": [ { "u_val": "spell_level", "spell": "biokin_combat_dance" }, "*", { "const": -0.03 } ] } } 
+					{ "value": "PAIN", "multiply": { "arithmetic": [ { "u_val": "spell_level", "spell": "biokin_combat_dance" }, "*", { "const": -0.03 } ] } }, 
 					{ "value": "FATIGUE", "add": 5},
 					{ "value": "HUNGER", "multiply": 3},
 					{ "value": "THIRST", "multiply": 3}
