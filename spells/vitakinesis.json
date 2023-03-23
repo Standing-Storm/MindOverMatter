@@ -53,6 +53,31 @@
 		"learn_spells": { "vita_sleeping_trance": 7, "vita_healing_trance": 15 }
 	},
 	{
+		"id": "vita_hurt_touch",
+		"type": "SPELL",
+		"name": "[Ψ]Enervating Touch",
+		"description": "With but a touch you can cause your target to begin deteriorating slowly.  This is most effective on targets with preternatural means of healing but has some effect on anyone.",
+		"message": "You touch %s and leave an angry red weal behind.",
+		"valid_targets": [ "hostile" ],
+		"spell_class": "VITAKINETIC",
+		"skill": "metaphysics",
+    "flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS", "NO_EXPLOSION_SFX" ],
+		"effect": "effect_vitakin_hurt",
+		"shape": "blast",
+		"difficulty": 3,
+		"min_range": 1,
+		"max_level": 20,
+		"energy_source": "STAMINA",
+		"base_energy_cost": 1500,
+		"final_energy_cost": 500,
+		"energy_increment": -65,
+		"base_casting_time": 85,
+		"final_casting_time": 55,
+		"casting_time_increment": -3,
+		"learn_spells": { "vita_pain_split": 7, "vita_healing_trance": 15 }
+		
+	},
+	{
 		"id": "vita_pain_split",
 		"type": "SPELL",
 		"name": "[Ψ]Damage Balancing",
