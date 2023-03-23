@@ -288,7 +288,7 @@
 		"effect": "attack",
 		"effect_str": "effect_biokin_reflex",
 		"shape": "blast",
-		"difficulty": 4,
+		"difficulty": 5,
 		"max_level": 20,
 		"energy_source": "STAMINA",
 		"base_energy_cost": 3500,
