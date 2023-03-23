@@ -117,6 +117,24 @@
 		"int_dur_factor": "24 s",
 		"base_mods": { "pkill_tick": [ 6 ], "pkill_min": [ 6 ], "pkill_max_val": [ 130 ] }
 	},
+	{
+		"type" :"effect_type",
+		"id": "effect_biokin_flexibility",
+		"name": [ "Flexibility" ],
+		"desc": [ "You are enhancing your range of motion." ],
+		"apply_message": "",
+		"remove_message": "Your joints creak as your limbs lose their flexibility.",
+		"rating": "good",
+		"max_duration": "1 minutes", 
+		"dur_add_perc": 1,
+		"removes_effects": [ "grabbed" ],
+		"limb_score_mods": [
+			{ "limb_score": "reaction", "modifier": 2.0 },
+			{ "limb_score": "block", "modifier": 1.2 },
+			{ "limb_score": "crawl", "modifier": 1.5 }
+		],
+		"flags": [ "DOWNED_RECOVERY", "FEATHER_FALL", "EFFECT_LIMB_SCORE_MOD" ]
+	},
 	{   
 		"type": "effect_type",
 		"id": "effect_biokin_reflex",
