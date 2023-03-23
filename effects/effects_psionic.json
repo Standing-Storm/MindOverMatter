@@ -556,5 +556,13 @@
 		"int_dur_factor": "73 s",
 		"blocks_effects": [ "scurvy", "redcells_anemia", "anemia", "toxin_buildup", "common_cold", "flu" ],
 		"base_mods": { "health_min": [ 1 ], "health_chance": [ 50 ], "h_mod_min": [ 2 ], "h_mod_chance": [ 50 ], "healing_rate": [ 2 ] }
+	},
+	{
+		"type": "effect_type",
+		"id": "effect_vitakin_hurt",
+		"name": [ "Enervating Touch" ],
+		"desc": [ "This reduces monsters' regeneration.  It's a bug if you have it." ],
+		"rating": "bad",
+		"max_duration": "2 minutes", 
 	}
 ]
