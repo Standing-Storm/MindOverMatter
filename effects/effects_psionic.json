@@ -133,7 +133,7 @@
 			{ "limb_score": "block", "modifier": 1.2 },
 			{ "limb_score": "crawl", "modifier": 1.5 }
 		],
-		"flags": [ "FEATHER_FALL", "EFFECT_LIMB_SCORE_MOD" ]
+		"flags": [ "DOWNED_RECOVERY", "FEATHER_FALL", "EFFECT_LIMB_SCORE_MOD" ]
 	},
 	{   
 		"type": "effect_type",
