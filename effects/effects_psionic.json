@@ -398,6 +398,34 @@
 	},
 	{
 		"type": "effect_type",
+		"id": "effect_telekinetic_momentum",
+		"name": [ "Altered Momentum" ],
+		"desc": [ "Your powers are affecting movement around you."],
+		"apply_message": "",
+		"remove_message": "Nearby movement returns to normal.",
+		"decay_messages": [ 
+			[ "The flames around you spark fitfully.", "bad"],
+			[ "Your aura of flames is beginning to fade.", "bad" ] 
+		],
+		"rating": "good",
+		"max_duration": "15 minutes",
+		"max_intensity": 41,
+		"dur_add_perc": 20,
+		"int_dur_factor": "22 s",
+		"enchantments": [ 
+			{ "values": [
+				{ "value": "ARMOR_CUT", "multiply": {"arithmetic": [ { "u_val": "spell_level", "spell": "telekinetic_momentum" }, "*", { "const": -0.005 } ] } },
+				{ "value": "ARMOR_BASH", "multiply": {"arithmetic": [ { "u_val": "spell_level", "spell": "telekinetic_momentum" }, "*", { "const": -0.01 } ] } },
+				{ "value": "ARMOR_STAB", "multiply": {"arithmetic": [ { "u_val": "spell_level", "spell": "telekinetic_momentum" }, "*", { "const": -0.005 } ] } },
+				{ "value": "ARMOR_BULLET", "multiply": {"arithmetic": [ { "u_val": "spell_level", "spell": "telekinetic_momentum" }, "*", { "const": -0.01 } ] } }, 
+				{ "value": "MOVE_COST", "multiply": {"arithmetic": [ { "u_val": "spell_level", "spell": "telekinetic_momentum" }, "*", { "const": -0.01 } ] } },
+				{ "value": "ATTACK_SPEED", "multiply": { "arithmetic": [ { "u_val": "spell_level", "spell": "telekinetic_momentum" }, "*", { "const": -0.01 } ] } }
+			] 
+			}
+		]
+	},
+	{
+		"type": "effect_type",
 		"id": "effect_telekinetic_armor",
 		"name": [ "Inertial Barrier" ],
 		"desc": [ "A barrier of telekinetic force is protecting you." ],
@@ -424,7 +452,7 @@
 				{ "value": "ARMOR_BULLET", "add": {"arithmetic": [ { "u_val": "spell_level", "spell": "telekinetic_shield" }, "*", { "const": -2.5 } ] } }, 
 				{ "value": "ARMOR_BULLET", "add": -8 }
 			]
-		}
+			}
 		]
 	},
 	{
