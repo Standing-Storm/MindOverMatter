@@ -1,0 +1,8 @@
+[
+  {  
+    "id": "mon_zombie_crawler_pupa_decoy", 
+    "copy-from": "mon_zombie_crawler_pupa_decoy",
+    "type": "MONSTER",
+    "regeneration_modifiers": [ [ "effect_vitakin_hurt", -5 ] ]
+  }
+]
