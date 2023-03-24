@@ -289,7 +289,7 @@
 	},
 	{
 		"type": "effect_type",
-		"id": "clair_weak_point",
+		"id": "effect_clair_weak_point",
 		"name": [ "Weaknesses Discerned" ],
 		"desc": [ "Your vulnerabilities have been laid open." ],
 		"apply_message": "",
