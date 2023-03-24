@@ -70,7 +70,7 @@
 	  "learn_spells": { "pyrokinetic_cloak": 7, "pyrokinetic_blast": 15 }
   },
 	{
-		"id": "pyro_quell_flames",
+		"id": "pyrokinetic_quell_flames",
 		"type": "SPELL",
 		"name": "[Ψ]Quell Fire",
 		"description": "As you can create fire, you can also extinguish it.",
