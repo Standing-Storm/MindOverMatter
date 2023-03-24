@@ -67,7 +67,7 @@
 		"name": "[Ψ]Transposition",
 		"description": "Entangle yourself with your target's position and, with a twist, swap places with them.",
 		"message": "There is a moment of darkness and terrible cold, and you are somewhere else, and so is your target.",
-		"valid_targets": [ "ground" ],
+		"valid_targets": [ "hostile", "ally" ],
 		"spell_class": "TELEPORTER",  
 		"skill": "metaphysics",
 		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS", "SWAP_POS", "IGNORE_WALLS" ],
