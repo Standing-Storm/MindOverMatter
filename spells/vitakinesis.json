@@ -57,7 +57,7 @@
 		"type": "SPELL",
 		"name": "[Ψ]Enervating Touch",
 		"description": "With but a touch you can cause your target to begin deteriorating slowly.  This is most effective on targets with preternatural means of healing but has some effect on anyone.",
-		"message": "You touch %s and leave an angry red weal behind.",
+		"message": "You touch your target and leave an angry red weal behind.",
 		"valid_targets": [ "hostile" ],
 		"spell_class": "VITAKINETIC",
 		"skill": "metaphysics",
