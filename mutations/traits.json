@@ -30,7 +30,7 @@
     "starting_trait": false,
     "purifiable": false,
     "valid": false,
-    "spells_learned": [ [ "pyrokinetic_eruption", 2 ], [ "pyrokinetic_flash", 2 ], [ "pyrokinetic_quell_flames", 2 ]
+    "spells_learned": [ [ "pyrokinetic_eruption", 2 ], [ "pyrokinetic_flash", 2 ], [ "pyrokinetic_quell_flames", 2 ] ]
   },
   {
     "type": "mutation",
