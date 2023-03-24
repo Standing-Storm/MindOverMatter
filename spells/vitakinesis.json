@@ -65,6 +65,7 @@
 		"effect": "attack",
 		"effect_str": "effect_vitakin_hurt",
 		"shape": "blast",
+		"damage_type": "pure",
 		"difficulty": 3,
 		"min_range": 1,
 		"max_level": 20,
