@@ -54,7 +54,7 @@
 		"learn_spells": { "clair_dodge_power": 7, "clair_night_vision": 9, "clair_clear_sight": 15  }
   },
 	{
-		"id": "clair_object_finding",
+		"id": "clair_spot_weakness",
 		"type": "SPELL",
 		"name": "[Ψ]Discern Weakness",
 		"description": "Your powers let you pinpoint exactly where your enemies are weak.",
