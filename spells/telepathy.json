@@ -73,6 +73,46 @@
 		"learn_spells": { "telepathic_invisibility": 7,	"telepathic_mind_control": 15 }
 	},
 	{
+		"id": "telepathic_morale",
+		"type": "SPELL",
+		"name": "[Ψ]Mood Stabilization",
+		"description": "With the ability to edit others' thoughts comes the ability to edit your own.",
+		"message": "You begin to edit out your discouraging thoughts.",
+		"valid_targets": [ "self" ],
+		"spell_class": "TELEPATH",
+		"skill": "metaphysics",
+		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS", "RANDOM_DURATION" ],
+		"effect": "effect_on_condition",
+		"effect_str": "EOC_TELEKIN_MORALE",
+		"shape": "blast",
+		"difficulty": 3,
+		"max_level": 20,
+		"min_duration": 180000,
+		"max_duration": 1080000,
+		"duration_increment": 15000,
+		"energy_source": "STAMINA",
+		"base_energy_cost": 4000,
+		"final_energy_cost": 1000,
+		"energy_increment": -125,
+		"base_casting_time": 300,
+		"final_casting_time": 150,
+		"casting_time_increment": -9.5,
+		"learn_spells": { "telepathic_confusion": 7, "telepathic_mind_control": 15 }
+	},
+	{
+		"type": "effect_on_condition",
+		"id": "EOC_TELEKIN_MORALE",
+		"effect": [
+			{
+				"u_add_morale": "morale_telepathy", 
+				"bonus": 10, 
+				"max_bonus": 25,
+				"duration": "4 hours",
+				"decay_start": "2 hours"
+			}
+		]
+	},
+	{
 		"id": "telepathic_invisibility",
 		"type": "SPELL",
 		"name": "[Ψ]Obscurity",
