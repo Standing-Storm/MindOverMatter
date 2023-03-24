@@ -289,6 +289,27 @@
 	},
 	{
 		"type": "effect_type",
+		"id": "clair_weak_point",
+		"name": [ "Weaknesses Discerned" ],
+		"desc": [ "Your vulnerabilities have been laid open." ],
+		"apply_message": "",
+		"rating": "bad",
+		"max_duration": "1 minutes", 
+		"enchantments": [ 
+				{ "values": [
+					{ "value": "ARMOR_CUT", "add": {"arithmetic": [ { "u_val": "spell_level", "spell": "clair_spot_weakness" }, "*", { "const": 0.5 } ] } },
+					{ "value": "ARMOR_BASH", "add": {"arithmetic": [ { "u_val": "spell_level", "spell": "clair_spot_weakness" }, "*", { "const": 0.5 } ] } },
+					{ "value": "ARMOR_STAB", "add": {"arithmetic": [ { "u_val": "spell_level", "spell": "clair_spot_weakness" }, "*", { "const": 0.5 } ] } },
+					{ "value": "ARMOR_BULLET", "add": {"arithmetic": [ { "u_val": "spell_level", "spell": "clair_spot_weakness" }, "*", { "const": 0.5 } ] } },
+					{ "value": "ARMOR_ELEC", "add": {"arithmetic": [ { "u_val": "spell_level", "spell": "clair_spot_weakness" }, "*", { "const": 0.5 } ] } },
+					{ "value": "ARMOR_HEAT", "add": {"arithmetic": [ { "u_val": "spell_level", "spell": "clair_spot_weakness" }, "*", { "const": 0.5 } ] } },
+					{ "value": "ARMOR_COLD", "add": {"arithmetic": [ { "u_val": "spell_level", "spell": "clair_spot_weakness" }, "*", { "const": 0.5 } ] } }
+				] 
+				}
+			]
+	},
+	{
+		"type": "effect_type",
 		"id": "effect_clair_dodge",
 		"name": [ "Anticipating Attack" ],
 		"desc": [ "You can see your enemies' attacks in advance." ],
