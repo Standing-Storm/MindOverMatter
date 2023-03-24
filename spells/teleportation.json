@@ -71,7 +71,7 @@
 		"spell_class": "TELEPORTER",  
 		"skill": "metaphysics",
 		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS", "SWAP_POS", "IGNORE_WALLS" ],
-		"effect": "short_range_teleport",
+		"effect": "attack",
 		"shape": "blast",
 		"difficulty": 3,
 		"max_level": 20,
