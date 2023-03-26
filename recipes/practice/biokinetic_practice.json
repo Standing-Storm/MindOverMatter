@@ -9,7 +9,7 @@
     "category": "CC_PRACTICE",
     "subcategory": "CSC_PRACTICE_METAPHYSICS",
     "skill_used": "metaphysics",
-    "difficulty": 2,
+    "difficulty": 1,
     "time": "1 h",
     "autolearn": false,
     "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
