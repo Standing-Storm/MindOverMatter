@@ -485,7 +485,7 @@
         "dodge": 3,
         "armor_heat": 50,
         "regenerates": 15,
-        "regeneration_modifiers": [ [ "effect_vitakin_hurt", -7 ] ]
+        "regeneration_modifiers": [ [ "effect_vitakin_hurt", -7 ] ],
         "bleed_rate": 0,
         "harvest": "human",
         "emit_fields": [ { "emit_id": "emit_smoke_stream", "delay": "8 s" } ],
@@ -1031,7 +1031,7 @@
         "armor_stab": 3,
         "armor_bullet": 5,
         "regenerates": 10,
-        "regeneration_modifiers": [ [ "effect_vitakin_hurt", -5 ] ]
+        "regeneration_modifiers": [ [ "effect_vitakin_hurt", -5 ] ],
         "bleed_rate": 0,
         "harvest": "human",
         "dissect": "dissect_human_sample_single",
@@ -1094,7 +1094,7 @@
         "armor_stab": 3,
         "armor_bullet": 5,
         "regenerates": 20,
-        "regeneration_modifiers": [ [ "effect_vitakin_hurt", -10 ] ]
+        "regeneration_modifiers": [ [ "effect_vitakin_hurt", -10 ] ],
         "bleed_rate": 0,
         "harvest": "human",
         "dissect": "dissect_human_sample_single",
