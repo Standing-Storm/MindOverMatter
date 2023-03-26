@@ -3,7 +3,7 @@
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",
     "//": "XP for level 10 is 35279, for level 7 is 20514",
-    "name":"Contemplation: Physical Enhancement",
+    "name": "contemplation: physical enhancement",
     "id": "practice_biokin_physical_enhance",
     "category": "CC_PRACTICE",
     "subcategory": "CSC_PRACTICE_METAPHYSICS",
