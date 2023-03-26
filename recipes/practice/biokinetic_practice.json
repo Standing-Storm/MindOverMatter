@@ -23,7 +23,7 @@
         },
         "effect": [
           { "u_message": "You spend some time meditating and contemplating your powers and emerge with new knowledge." },
-          { "arithmetic": [ { "u_val": "spell_exp", "spell": "biokin_physical_enhance" }, "+=", { "arithmetic": [ { "u_val": "focus" } , "*", { "const": 3600 } ] } ] }
+          { "arithmetic": [ { "u_val": "spell_exp", "spell": "biokin_physical_enhance" }, "+=", { "arithmetic": [ { "u_val": "focus" }, "*", { "const": 36 } ] } ] }
         ],
         "false_effect": {
           "run_eocs": [ 
