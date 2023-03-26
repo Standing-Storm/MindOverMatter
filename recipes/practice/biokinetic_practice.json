@@ -10,7 +10,7 @@
     "subcategory": "CSC_PRACTICE_METAPHYSICS",
     "skill_used": "metaphysics",
     "difficulty": 1,
-    "time": "1 h",
+    "time": "30 m",
     "autolearn": false,
     "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
     "result_eocs": [ 
@@ -24,7 +24,7 @@
         },
         "effect": [
           { "u_message": "You spend some time meditating and contemplating your powers and emerge with new knowledge." },
-          { "arithmetic": [ { "u_val": "spell_exp", "spell": "biokin_physical_enhance" }, "+=", { "arithmetic": [ { "u_val": "focus" }, "*", { "const": 36 } ] } ] },
+          { "arithmetic": [ { "u_val": "spell_exp", "spell": "biokin_physical_enhance" }, "+=", { "arithmetic": [ { "u_val": "focus" }, "*", { "const": 18 } ] } ] },
           { "run_eocs": "EOC_PSI_PRACTICE_FOCUS_MOD" }
         ],
         "false_effect": {
