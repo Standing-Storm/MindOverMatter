@@ -24,7 +24,8 @@
         },
         "effect": [
           { "u_message": "You spend some time meditating and contemplating your powers and emerge with new knowledge." },
-          { "arithmetic": [ { "u_val": "spell_exp", "spell": "biokin_physical_enhance" }, "+=", { "arithmetic": [ { "u_val": "focus" }, "*", { "const": 36 } ] } ] }
+          { "arithmetic": [ { "u_val": "spell_exp", "spell": "biokin_physical_enhance" }, "+=", { "arithmetic": [ { "u_val": "focus" }, "*", { "const": 36 } ] } ] },
+          { "run_eocs": "EOC_PSI_PRACTICE_FOCUS_MOD" }
         ],
         "false_effect": {
           "run_eocs": [ 
@@ -32,10 +33,12 @@
               "id": "EOC_PRACTICE_BIOKIN_PHYSICAL_ENHANCE_FALSE",
               "condition": { "compare_num": [ { "u_val": "spell_level", "spell": "biokin_physical_enhance" }, ">=", { "const": 1 } ] },
               "effect": [
-                { "u_message": "You knowledge of your powers is so deep that mere contemplation is of no further use to you." }
+                { "u_message": "You knowledge of your powers is so deep that mere contemplation is of no further use to you." },
+                { "run_eocs": "EOC_PSI_PRACTICE_FOCUS_MOD" }
               ],
               "false_effect": [
-                { "u_message": "Without even a basic understanding of the power, your meditation is nothing but idle musings." }
+                { "u_message": "Without even a basic understanding of the power, your meditation is nothing but idle musings." },
+                { "run_eocs": "EOC_PSI_PRACTICE_FOCUS_MOD" }
               ]
             }
           ]
