@@ -10,7 +10,7 @@
     "difficulty": 2,
     "time": "1 h",
     "autolearn": false,
-    "using": [ [ [ "matrix_crystal_drained", -1 ] ] ],
+    "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
     "result_eocs": [ 
       {
         "id": "EOC_PRACTICE_BIOKIN_PHYSICAL_ENHANCE", 
