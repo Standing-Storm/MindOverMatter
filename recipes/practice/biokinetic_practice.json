@@ -5,6 +5,7 @@
     "//": "XP for level 10 is 35279, for level 7 is 20514",
     "name": "contemplation: physical enhancement",
     "id": "practice_biokin_physical_enhance",
+    "description": "Contemplate your powers and improve your ability to enhance your physical strength and agility.",
     "category": "CC_PRACTICE",
     "subcategory": "CSC_PRACTICE_METAPHYSICS",
     "skill_used": "metaphysics",
