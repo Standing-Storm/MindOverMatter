@@ -297,13 +297,13 @@
 		"max_duration": "1 minutes", 
 		"enchantments": [ 
 				{ "values": [
-					{ "value": "ARMOR_CUT", "add": {"arithmetic": [ { "u_val": "spell_level", "spell": "clair_spot_weakness" }, "*", { "const": 0.5 } ] } },
-					{ "value": "ARMOR_BASH", "add": {"arithmetic": [ { "u_val": "spell_level", "spell": "clair_spot_weakness" }, "*", { "const": 0.5 } ] } },
-					{ "value": "ARMOR_STAB", "add": {"arithmetic": [ { "u_val": "spell_level", "spell": "clair_spot_weakness" }, "*", { "const": 0.5 } ] } },
-					{ "value": "ARMOR_BULLET", "add": {"arithmetic": [ { "u_val": "spell_level", "spell": "clair_spot_weakness" }, "*", { "const": 0.5 } ] } },
-					{ "value": "ARMOR_ELEC", "add": {"arithmetic": [ { "u_val": "spell_level", "spell": "clair_spot_weakness" }, "*", { "const": 0.5 } ] } },
-					{ "value": "ARMOR_HEAT", "add": {"arithmetic": [ { "u_val": "spell_level", "spell": "clair_spot_weakness" }, "*", { "const": 0.5 } ] } },
-					{ "value": "ARMOR_COLD", "add": {"arithmetic": [ { "u_val": "spell_level", "spell": "clair_spot_weakness" }, "*", { "const": 0.5 } ] } }
+					{ "value": "ARMOR_CUT", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "clair_spot_weakness" }, "*", { "const": 0.5 } ] } },
+					{ "value": "ARMOR_BASH", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "clair_spot_weakness" }, "*", { "const": 0.5 } ] } },
+					{ "value": "ARMOR_STAB", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "clair_spot_weakness" }, "*", { "const": 0.5 } ] } },
+					{ "value": "ARMOR_BULLET", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "clair_spot_weakness" }, "*", { "const": 0.5 } ] } },
+					{ "value": "ARMOR_ELEC", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "clair_spot_weakness" }, "*", { "const": 0.5 } ] } },
+					{ "value": "ARMOR_HEAT", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "clair_spot_weakness" }, "*", { "const": 0.5 } ] } },
+					{ "value": "ARMOR_COLD", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "clair_spot_weakness" }, "*", { "const": 0.5 } ] } }
 				] 
 				}
 			]
@@ -328,7 +328,10 @@
 		"enchantments": [
 			{
 				"values": [
-					{ "value": "BONUS_DODGE", "add": 3 }
+					{ "value": "BONUS_DODGE", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "clair_dodge_power" }, "/", { "const": 6 } ] } },
+					{ "value": "BONUS_DODGE", "add": 1 },
+					{ "value": "BONUS_BLOCK", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "clair_dodge_power" }, "/", { "const": 6 } ] } },
+					{ "value": "BONUS_BLOCK", "add": 1 }
 				] 
 			} 
 		],
