@@ -13,7 +13,7 @@
 		"effect_str": "effect_biokin_physical",
 		"shape": "blast",
 		"difficulty": 2,
-		"max_level": 20,
+		"max_level": { "arithmetic": [ { "u_val": "intelligence" }, "*", { "const": 1.5 } ] },
 		"energy_source": "STAMINA",
 		"base_energy_cost": 3500,
 		"final_energy_cost": 1250,
