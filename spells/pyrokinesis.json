@@ -233,7 +233,7 @@
     "range_increment": 1.2,
     "min_aoe": 2,
     "max_aoe": 20,
-    "aoe_increment": 0.3,
+    "aoe_increment": 0.4,
 		"field_id": "fd_fire",
 		"min_field_intensity": 1,
 		"max_field_intensity": 2,
