@@ -264,7 +264,7 @@
         "condition": {
           "and": [ 
             { "compare_num": [ { "u_val": "spell_level", "spell": "biokin_sealed_system" }, ">=", { "const": 1 } ] },
-            { "compare_num": [ { "u_val": "spell_exp", "spell": "biokin_sealed_system" }, "<=", { "const": 35278 } ] }                                                                       
+            { "compare_num": [ { "u_val": "spell_exp", "spell": "biokin_sealed_system" }, "<=", { "const": 20513 } ] }                                                                       
           ]
         },
         "effect": [
@@ -311,7 +311,7 @@
         "condition": {
           "and": [ 
             { "compare_num": [ { "u_val": "spell_level", "spell": "biokin_combat_dance" }, ">=", { "const": 1 } ] },
-            { "compare_num": [ { "u_val": "spell_exp", "spell": "biokin_combat_dance" }, "<=", { "const": 35278 } ] }                                                                       
+            { "compare_num": [ { "u_val": "spell_exp", "spell": "biokin_combat_dance" }, "<=", { "const": 20513 } ] }                                                                       
           ]
         },
         "effect": [
