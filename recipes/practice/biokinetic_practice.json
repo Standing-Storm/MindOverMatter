@@ -294,7 +294,7 @@
   {
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",
-    "name": "contemplation: combat dance system",
+    "name": "contemplation: combat dance",
     "id": "practice_biokin_combat_dance",
     "description": "Contemplate your powers and improve your combat prowess.",
     "category": "CC_*",
