@@ -39,7 +39,7 @@
 				{ "case": 12, "effect": { "u_cast_spell": { "id": "clair_night_vision_5" } } },
 				{ "case": 15, "effect": { "u_cast_spell": { "id": "clair_night_vision_6" } } },
 				{ "case": 18, "effect": { "u_cast_spell": { "id": "clair_night_vision_7" } } },
-				{ "case": 21, "effect": { "u_cast_spell": { "id": "clair_night_vision_8" } } },
+				{ "case": 21, "effect": { "u_cast_spell": { "id": "clair_night_vision_8" } } }
 			]
 		}
 	},
