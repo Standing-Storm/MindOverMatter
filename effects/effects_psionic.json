@@ -280,7 +280,7 @@
     "max_intensity": 106,
     "dur_add_perc": 10,
     "int_dur_factor": "68 s",
-    "limb_score_mods": [ { "limb_score": "night_vis", "modifier": 6 } ],
+    "limb_score_mods": [ { "limb_score": "night_vis", "modifier": 5 } ],
     "flags": [ "EFFECT_LIMB_SCORE_MOD" ]
 	},
 	{
@@ -299,7 +299,7 @@
     "max_intensity": 106,
     "dur_add_perc": 10,
     "int_dur_factor": "68 s",
-    "limb_score_mods": [ { "limb_score": "night_vis", "modifier": 9 } ],
+    "limb_score_mods": [ { "limb_score": "night_vis", "modifier": 7 } ],
     "flags": [ "EFFECT_LIMB_SCORE_MOD" ]
 	},
 	{
@@ -318,7 +318,7 @@
     "max_intensity": 106,
     "dur_add_perc": 10,
     "int_dur_factor": "68 s",
-    "limb_score_mods": [ { "limb_score": "night_vis", "modifier": 12 } ],
+    "limb_score_mods": [ { "limb_score": "night_vis", "modifier": 9 } ],
     "flags": [ "EFFECT_LIMB_SCORE_MOD" ]
 	},
 	{
@@ -337,7 +337,7 @@
     "max_intensity": 106,
     "dur_add_perc": 10,
     "int_dur_factor": "68 s",
-    "limb_score_mods": [ { "limb_score": "night_vis", "modifier": 15 } ],
+    "limb_score_mods": [ { "limb_score": "night_vis", "modifier": 11 } ],
     "flags": [ "EFFECT_LIMB_SCORE_MOD" ]
 	},
 	{
@@ -356,7 +356,7 @@
     "max_intensity": 106,
     "dur_add_perc": 10,
     "int_dur_factor": "68 s",
-    "limb_score_mods": [ { "limb_score": "night_vis", "modifier": 18 } ],
+    "limb_score_mods": [ { "limb_score": "night_vis", "modifier": 13 } ],
     "flags": [ "EFFECT_LIMB_SCORE_MOD" ]
 	},
 	{
@@ -375,7 +375,7 @@
     "max_intensity": 106,
     "dur_add_perc": 10,
     "int_dur_factor": "68 s",
-    "limb_score_mods": [ { "limb_score": "night_vis", "modifier": 21 } ],
+    "limb_score_mods": [ { "limb_score": "night_vis", "modifier": 15 } ],
     "flags": [ "EFFECT_LIMB_SCORE_MOD" ]
 	},
 	{
@@ -394,7 +394,7 @@
     "max_intensity": 106,
     "dur_add_perc": 10,
     "int_dur_factor": "68 s",
-    "limb_score_mods": [ { "limb_score": "night_vis", "modifier": 24 } ],
+    "limb_score_mods": [ { "limb_score": "night_vis", "modifier": 17 } ],
     "flags": [ "EFFECT_LIMB_SCORE_MOD" ]
 	},
 	{
