@@ -3,7 +3,13 @@
     "type": "effect_on_condition",
     "id": "EOC_TEACH_BIOKIN_CONTEMPLATE_RECIPES",
     "effect": [
-      { "u_learn_recipe": [ "practice_biokin_physical_enhance", "practice_biokin_overcome_pain", "practice_biokin_flexibility", "practice_biokin_armor_skin", "practice_biokin_reflex_enhance", "practice_biokin_sealed_system", "practice_biokin_combat_dance" ] }
+      { "u_learn_recipe": "practice_biokin_physical_enhance" },
+      { "u_learn_recipe": "practice_biokin_overcome_pain" },
+      { "u_learn_recipe": "practice_biokin_flexibility" },
+      { "u_learn_recipe": "practice_biokin_armor_skin" },
+      { "u_learn_recipe": "practice_biokin_reflex_enhance" },
+      { "u_learn_recipe": "practice_biokin_sealed_system" },
+      { "u_learn_recipe": "practice_biokin_combat_dance" }
     ]
   }
 ]
