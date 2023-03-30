@@ -25,6 +25,7 @@
     "time": "30 m",
     "autolearn": false,
     "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
+    "flags": [ "SECRET", "BLIND_HARD" ],
     "result_eocs": [ 
       {
         "id": "EOC_PRACTICE_TELEPATH_CONCENTRATION", 
@@ -71,6 +72,7 @@
     "time": "30 m",
     "autolearn": false,
     "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
+    "flags": [ "SECRET", "BLIND_HARD" ],
     "result_eocs": [ 
       {
         "id": "EOC_PRACTICE_TELEPATH_SHIELD", 
@@ -117,6 +119,7 @@
     "time": "30 m",
     "autolearn": false,
     "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
+    "flags": [ "SECRET", "BLIND_HARD" ],
     "result_eocs": [ 
       {
         "id": "EOC_PRACTICE_TELEPATH_MORALE", 
@@ -164,6 +167,7 @@
     "autolearn": false,
     "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
     "components": [ [ [ "matrix_crystal_telepath_dust", 1 ] ] ],
+    "flags": [ "SECRET", "BLIND_HARD" ],
     "result_eocs": [ 
       {
         "id": "EOC_PRACTICE_TELEPATH_OBSCURITY", 
@@ -211,6 +215,7 @@
     "autolearn": false,
     "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
     "components": [ [ [ "matrix_crystal_telepath_dust", 1 ] ] ],
+    "flags": [ "SECRET", "BLIND_HARD" ],
     "result_eocs": [ 
       {
         "id": "EOC_PRACTICE_TELEPATH_CONFUSION", 
@@ -258,6 +263,7 @@
     "autolearn": false,
     "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
     "components": [ [ [ "matrix_crystal_telepath_dust", 1 ] ] ],
+    "flags": [ "SECRET", "BLIND_HARD" ],
     "result_eocs": [ 
       {
         "id": "EOC_PRACTICE_TELEPATHIC_BLAST", 
@@ -305,6 +311,7 @@
     "autolearn": false,
     "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
     "components": [ [ [ "matrix_crystal_telepath_dust", 1 ] ] ],
+    "flags": [ "SECRET", "BLIND_HARD" ],
     "result_eocs": [ 
       {
         "id": "EOC_PRACTICE_TELEPATH_MIND_CONTROL", 
