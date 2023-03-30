@@ -25,6 +25,7 @@
     "time": "30 m",
     "autolearn": false,
     "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
+    "flags": [ "SECRET", "BLIND_HARD" ],
     "result_eocs": [ 
       {
         "id": "EOC_PRACTICE_PYROKIN_FLASH", 
@@ -71,6 +72,7 @@
     "time": "30 m",
     "autolearn": false,
     "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
+    "flags": [ "SECRET", "BLIND_HARD" ],
     "result_eocs": [ 
       {
         "id": "EOC_PRACTICE_PYROKIN_FLAMES", 
@@ -117,6 +119,7 @@
     "time": "30 m",
     "autolearn": false,
     "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
+    "flags": [ "SECRET", "BLIND_HARD" ],
     "result_eocs": [ 
       {
         "id": "EOC_PRACTICE_PYROKIN_QUELL_FIRE", 
@@ -164,6 +167,7 @@
     "autolearn": false,
     "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
     "components": [ [ [ "matrix_crystal_pyrokin_dust", 1 ] ] ],
+    "flags": [ "SECRET", "BLIND_HARD" ],
     "result_eocs": [ 
       {
         "id": "EOC_PRACTICE_PYROKIN_CLOAK", 
@@ -211,6 +215,7 @@
     "autolearn": false,
     "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
     "components": [ [ [ "matrix_crystal_pyrokin_dust", 1 ] ] ],
+    "flags": [ "SECRET", "BLIND_HARD" ],
     "result_eocs": [ 
       {
         "id": "EOC_PRACTICE_PYROKIN_FLAMETHROWER", 
@@ -258,6 +263,7 @@
     "autolearn": false,
     "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
     "components": [ [ [ "matrix_crystal_pyrokin_dust", 1 ] ] ],
+    "flags": [ "SECRET", "BLIND_HARD" ],
     "result_eocs": [ 
       {
         "id": "EOC_PRACTICE_PYROKIN_BLAZING", 
@@ -305,6 +311,7 @@
     "autolearn": false,
     "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
     "components": [ [ [ "matrix_crystal_pyrokin_dust", 1 ] ] ],
+    "flags": [ "SECRET", "BLIND_HARD" ],
     "result_eocs": [ 
       {
         "id": "EOC_PRACTICE_PYROKIN_BLAST", 
