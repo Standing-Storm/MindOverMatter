@@ -58,7 +58,7 @@
 		"min_damage": 0,
 		"min_duration": 30000,
 		"max_duration": 720000,
-		"duration_increment": 30000,
+		"duration_increment": 30000
 	},
 	{
 		"id": "clair_night_vision_2",
@@ -75,7 +75,7 @@
 		"min_damage": 0,
 		"min_duration": 30000,
 		"max_duration": 720000,
-		"duration_increment": 30000,
+		"duration_increment": 30000
 	},
 	{
 		"id": "clair_night_vision_3",
@@ -92,7 +92,7 @@
 		"min_damage": 0,
 		"min_duration": 30000,
 		"max_duration": 720000,
-		"duration_increment": 30000,
+		"duration_increment": 30000
 	},
 	{
 		"id": "clair_night_vision_4",
@@ -109,7 +109,7 @@
 		"min_damage": 0,
 		"min_duration": 30000,
 		"max_duration": 720000,
-		"duration_increment": 30000,
+		"duration_increment": 30000
 	},
 	{
 		"id": "clair_night_vision_5",
@@ -126,7 +126,7 @@
 		"min_damage": 0,
 		"min_duration": 30000,
 		"max_duration": 720000,
-		"duration_increment": 30000,
+		"duration_increment": 30000
 	},
 	{
 		"id": "clair_night_vision_6",
@@ -143,7 +143,7 @@
 		"min_damage": 0,
 		"min_duration": 30000,
 		"max_duration": 720000,
-		"duration_increment": 30000,
+		"duration_increment": 30000
 	},
 	{
 		"id": "clair_night_vision_7",
@@ -160,7 +160,7 @@
 		"min_damage": 0,
 		"min_duration": 30000,
 		"max_duration": 720000,
-		"duration_increment": 30000,
+		"duration_increment": 30000
 	},
 	{
 		"id": "clair_night_vision_8",
@@ -177,7 +177,7 @@
 		"min_damage": 0,
 		"min_duration": 30000,
 		"max_duration": 720000,
-		"duration_increment": 30000,
+		"duration_increment": 30000
 	},
   {
 		"id": "clair_danger_sense",
