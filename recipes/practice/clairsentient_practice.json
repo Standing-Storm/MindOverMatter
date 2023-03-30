@@ -25,6 +25,7 @@
     "time": "30 m",
     "autolearn": false,
     "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
+    "flags": [ "SECRET", "BLIND_HARD" ],
     "result_eocs": [ 
       {
         "id": "EOC_PRACTICE_CLAIR_NIGHT_VISION", 
@@ -71,6 +72,7 @@
     "time": "30 m",
     "autolearn": false,
     "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
+    "flags": [ "SECRET", "BLIND_HARD" ],
     "result_eocs": [ 
       {
         "id": "EOC_PRACTICE_CLAIR_DANGER_SENSE", 
@@ -117,6 +119,7 @@
     "time": "30 m",
     "autolearn": false,
     "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
+    "flags": [ "SECRET", "BLIND_HARD" ],
     "result_eocs": [ 
       {
         "id": "EOC_PRACTICE_CLAIR_SPOT_WEAKNESS", 
@@ -164,6 +167,7 @@
     "autolearn": false,
     "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
     "components": [ [ [ "matrix_crystal_clair_dust", 1 ] ] ],
+    "flags": [ "SECRET", "BLIND_HARD" ],
     "result_eocs": [ 
       {
         "id": "EOC_PRACTICE_CLAIR_COMBAT_SENSE", 
@@ -211,6 +215,7 @@
     "autolearn": false,
     "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
     "components": [ [ [ "matrix_crystal_clair_dust", 1 ] ] ],
+    "flags": [ "SECRET", "BLIND_HARD" ],
     "result_eocs": [ 
       {
         "id": "EOC_PRACTICE_CLAIR_VOYANCE", 
@@ -258,6 +263,7 @@
     "autolearn": false,
     "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
     "components": [ [ [ "matrix_crystal_clair_dust", 1 ] ] ],
+    "flags": [ "SECRET", "BLIND_HARD" ],
     "result_eocs": [ 
       {
         "id": "EOC_PRACTICE_CLAIR_CLEAR_SIGHT", 
@@ -305,6 +311,7 @@
     "autolearn": false,
     "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
     "components": [ [ [ "matrix_crystal_clair_dust", 1 ] ] ],
+    "flags": [ "SECRET", "BLIND_HARD" ],
     "result_eocs": [ 
       {
         "id": "EOC_PRACTICE_CLAIR_SEE_MAP", 
