@@ -25,6 +25,7 @@
     "time": "30 m",
     "autolearn": false,
     "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
+    "flags": [ "SECRET", "BLIND_HARD" ],
     "result_eocs": [ 
       {
         "id": "EOC_PRACTICE_TELEPORT_BLINK", 
@@ -71,6 +72,7 @@
     "time": "30 m",
     "autolearn": false,
     "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
+    "flags": [ "SECRET", "BLIND_HARD" ],
     "result_eocs": [ 
       {
         "id": "EOC_PRACTICE_TELEPORT_SLOW", 
@@ -117,6 +119,7 @@
     "time": "30 m",
     "autolearn": false,
     "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
+    "flags": [ "SECRET", "BLIND_HARD" ],
     "result_eocs": [ 
       {
         "id": "EOC_PRACTICE_TELEPORT_SWAP", 
@@ -164,6 +167,7 @@
     "autolearn": false,
     "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
     "components": [ [ [ "matrix_crystal_teleport_dust", 1 ] ] ],
+    "flags": [ "SECRET", "BLIND_HARD" ],
     "result_eocs": [ 
       {
         "id": "EOC_PRACTICE_TELEPORT_FARSTEP", 
@@ -211,6 +215,7 @@
     "autolearn": false,
     "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
     "components": [ [ [ "matrix_crystal_teleport_dust", 1 ] ] ],
+    "flags": [ "SECRET", "BLIND_HARD" ],
     "result_eocs": [ 
       {
         "id": "EOC_PRACTICE_TELEPORT_COLLAPSE", 
@@ -258,6 +263,7 @@
     "autolearn": false,
     "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
     "components": [ [ [ "matrix_crystal_teleport_dust", 1 ] ] ],
+    "flags": [ "SECRET", "BLIND_HARD" ],
     "result_eocs": [ 
       {
         "id": "EOC_PRACTICE_TELEPORT_GATEWAY", 
@@ -305,6 +311,7 @@
     "autolearn": false,
     "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
     "components": [ [ [ "matrix_crystal_teleport_dust", 1 ] ] ],
+    "flags": [ "SECRET", "BLIND_HARD" ],
     "result_eocs": [ 
       {
         "id": "EOC_PRACTICE_TELEPORT_BANISH", 
