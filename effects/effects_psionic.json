@@ -246,27 +246,6 @@
 		]
 	},
 	{
-		"type": "effect_type",
-		"id": "effect_clair_night_eyes_1",
-		"name": [ "Night Eyes" ],
-		"desc": [ "You can sense your surroundings in the dark." ],
-		"apply_message": "",
-		"remove_message": "The darkness hides your surroundings again.",
-		"decay_messages": [ 
-			[ "The shadows are growing darker and darker to your sight.", "bad" ],
-			[ "Darkness begins to creep across your vision.", "bad" ] 
-		],
-		"rating": "good",
-		"max_duration": "120 minutes", 
-		"max_intensity": 106,
-		"dur_add_perc": 10,
-		"int_dur_factor": "68 s",
-		"limb_score_mods": [
-      { "limb_score": "night_vis", "modifier": 1.5 },
-    ],
-    "flags": [ "EFFECT_LIMB_SCORE_MOD" ]
-	},
-	{
     "type": "effect_type",
     "id": "effect_clair_night_eyes_1",
     "name": [ "Night Eyes" ],
