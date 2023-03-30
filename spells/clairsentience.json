@@ -9,8 +9,8 @@
 		"spell_class": "CLAIRSENTIENT",
 		"skill": "metaphysics",
 		"flags": [ "CONCENTRATE", "SILENT", "NO_HANDS", "NO_LEGS", "RANDOM_DURATION", "NO_EXPLOSION_SFX" ],
-		"effect": "attack",
-		"effect_str": "effect_clair_night_eyes",
+		"effect": "effect_on_condition",
+		"effect_str": "EOC_CLAIR_NIGHT_EYES",
 		"shape": "blast",
 		"difficulty": 1,
 		"max_level": { "arithmetic": [ { "u_val": "intelligence" }, "*", { "const": 1.5 } ] },
@@ -26,6 +26,40 @@
 		"casting_time_increment": -2,
 		"learn_spells": { "clair_voyance": 7, "clair_danger_sense": 9, "clair_see_map": 15 }
   },
+	{
+		"type": "effect_on_condition",
+		"id": "EOC_CLAIR_NIGHT_EYES",
+		"effect": {
+			"switch": { "u_val": "spell_level", "spell": "clair_night_vision" },
+			"cases": [
+				{ "case": 0, "effect": { "u_cast_spell": { "id": "clair_night_vision_1" } } },
+				{ "case": 3, "effect": { "u_cast_spell": { "id": "clair_night_vision_2" } } },
+				{ "case": 6, "effect": { "u_cast_spell": { "id": "clair_night_vision_3" } } },
+				{ "case": 9, "effect": { "u_cast_spell": { "id": "clair_night_vision_4" } } },
+				{ "case": 12, "effect": { "u_cast_spell": { "id": "clair_night_vision_5" } } },
+				{ "case": 15, "effect": { "u_cast_spell": { "id": "clair_night_vision_6" } } },
+				{ "case": 18, "effect": { "u_cast_spell": { "id": "clair_night_vision_7" } } },
+				{ "case": 21, "effect": { "u_cast_spell": { "id": "clair_night_vision_8" } } },
+			]
+		}
+	},
+	{
+		"id": "clair_night_vision_1",
+		"type": "SPELL",
+		"name": "[Ψ]Night Eyes #1",
+		"description": "Number #1 of Night Eyes subspells. It's a bug if you have it.",
+		"valid_targets": [ "self" ],
+		"spell_class": "CLAIRSENTIENT",
+		"flags": [ "SILENT", "NO_EXPLOSION_SFX", "RANDOM_DURATION" ],
+		"effect": "attack",
+		"effect_str": "effect_clair_night_eyes_1",
+		"shape": "blast",
+		"max_level": { "arithmetic": [ { "u_val": "intelligence" }, "*", { "const": 1.5 } ] },
+		"min_damage": 0,
+		"min_duration": 30000,
+		"max_duration": 720000,
+		"duration_increment": 30000,
+	},
   {
 		"id": "clair_danger_sense",
 		"type": "SPELL",
