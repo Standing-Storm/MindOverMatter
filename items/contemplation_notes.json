@@ -26,6 +26,7 @@
   {
     "type": "GENERIC",
     "id": "pyrokin_recipe_note",
+    "name": { "str": "extremely important note" },
     "copy-from": "biokin_recipe_note",
     "use_action": { "type": "effect_on_conditions", "description": "Study the formulae.", "effect_on_conditions": [ "EOC_TEACH_PYROKIN_CONTEMPLATE_RECIPES" ] }
   },
