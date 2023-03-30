@@ -25,6 +25,7 @@
     "time": "30 m",
     "autolearn": false,
     "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
+    "flags": [ "SECRET", "BLIND_HARD" ],
     "result_eocs": [ 
       {
         "id": "EOC_PRACTICE_BIOKIN_PHYSICAL_ENHANCE", 
@@ -71,6 +72,7 @@
     "time": "30 m",
     "autolearn": false,
     "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
+    "flags": [ "SECRET", "BLIND_HARD" ],
     "result_eocs": [ 
       {
         "id": "EOC_PRACTICE_BIOKIN_OVERCOME_PAIN", 
@@ -117,6 +119,7 @@
     "time": "30 m",
     "autolearn": false,
     "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
+    "flags": [ "SECRET", "BLIND_HARD" ],
     "result_eocs": [ 
       {
         "id": "EOC_PRACTICE_BIOKIN_FLEXIBILITY", 
@@ -164,6 +167,7 @@
     "autolearn": false,
     "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
     "components": [ [ [ "matrix_crystal_biokin_dust", 1 ] ] ],
+    "flags": [ "SECRET", "BLIND_HARD" ],
     "result_eocs": [ 
       {
         "id": "EOC_PRACTICE_BIOKIN_ARMOR_SKIN", 
@@ -211,6 +215,7 @@
     "autolearn": false,
     "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
     "components": [ [ [ "matrix_crystal_biokin_dust", 1 ] ] ],
+    "flags": [ "SECRET", "BLIND_HARD" ],
     "result_eocs": [ 
       {
         "id": "EOC_PRACTICE_BIOKIN_REFLEX_ENHANCE", 
@@ -258,6 +263,7 @@
     "autolearn": false,
     "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
     "components": [ [ [ "matrix_crystal_biokin_dust", 1 ] ] ],
+    "flags": [ "SECRET", "BLIND_HARD" ],
     "result_eocs": [ 
       {
         "id": "EOC_PRACTICE_BIOKIN_SEALED_SYSTEM", 
@@ -305,6 +311,7 @@
     "autolearn": false,
     "tools": [ [ [ "matrix_crystal_drained", -1 ] ] ],
     "components": [ [ [ "matrix_crystal_biokin_dust", 1 ] ] ],
+    "flags": [ "SECRET", "BLIND_HARD" ],
     "result_eocs": [ 
       {
         "id": "EOC_PRACTICE_BIOKIN_COMBAT_DANCE", 
