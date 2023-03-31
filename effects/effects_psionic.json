@@ -133,7 +133,15 @@
 			{ "limb_score": "block", "modifier": 1.2 },
 			{ "limb_score": "crawl", "modifier": 1.5 }
 		],
-		"flags": [ "DOWNED_RECOVERY", "FEATHER_FALL", "EFFECT_LIMB_SCORE_MOD" ]
+		"enchantments": [
+				{  
+					"values": [ 
+						{ "value": "FALL_DAMAGE", "multiply": -0.2 },
+						{ "value": "FALL_DAMAGE", "multiply": { "arithmetic": [ { "u_val": "spell_level", "spell": "biokin_flexibility" }, "*", { "const": -0.02 } ] } }
+					]
+				}
+			]
+		"flags": [ "DOWNED_RECOVERY", "EFFECT_LIMB_SCORE_MOD" ]
 	},
 	{   
 		"type": "effect_type",
