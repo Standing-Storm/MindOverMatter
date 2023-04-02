@@ -143,6 +143,39 @@
   {
     "type": "item_group",
     "subtype": "distribution",
+    "id": "psi_lab",
+    "items": [
+      { "item": "water_clean", "prob": 90, "charges-min": 1, "container-item": "bottle_plastic", "sealed": false },
+      { "item": "ether", "prob": 5, "charges-min": 100 },
+      { "item": "chem_aluminium_powder", "prob": 12, "container-item": "flask_glass" },
+      { "item": "chem_zinc_powder", "prob": 10, "container-item": "flask_glass" },
+      { "group": "distribution_matrix_dust", "prob": 40 },
+      { "item": "file", "prob": 20 },
+      { "item": "apron_plastic", "prob": 20 },
+      { "item": "apron_cotton", "prob": 2 },
+      { "item": "salt_water", "prob": 20, "charges-min": 1 },
+      { "item": "chem_sulphuric_acid", "prob": 10, "container-item": "bottle_glass" },
+      { "item": "chem_muriatic_acid", "prob": 6, "container-item": "bottle_glass" },
+      { "item": "chem_nitric_acid", "prob": 6, "container-item": "bottle_glass" },
+      { "item": "mortar_pestle", "prob": 8 },
+      { "item": "blindfold":, "prob": 8 },
+      { "item": "syringe", "prob": 12 },
+      { "item": "matrix_crystal_drained", "prob": 10 },
+      { "item": "matrix_channeling_tool", "prob": 7 },
+      { "item": "manual_psionics_advan":, "prob": 6 },
+      { "item": "schematics_matrix_crystal_ground", "prob": 7 },
+      { "item": "schematics_reactant_liquid_base", "prob": 6 },
+      { "item": "schematics_matrix_channeling", "prob": 5 },
+      { "item": "schematics_matrix_aligning", "prob": 5 },
+      { "item": "schematics_instability_remover", "prob": 3 },
+      { "item": "schematics_anchoring_crown": "prob": 3 },
+      { "item": "schematics_psionic_purifier": "prob": 3 }
+      { "item": "dist_matrix_crystals", "prob": 1 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "distribution",
     "id": "dist_meditation_books_begin",
     "items": [
       { "item": "manual_meditation", "variant": "manual_meditation_1", "prob": 3 }, 
