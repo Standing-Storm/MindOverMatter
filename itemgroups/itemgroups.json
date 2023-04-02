@@ -169,8 +169,17 @@
       { "item": "schematics_matrix_aligning", "prob": 5 },
       { "item": "schematics_instability_remover", "prob": 3 },
       { "item": "schematics_anchoring_crown", "prob": 3 },
-      { "item": "schematics_psionic_purifier", "prob": 3 }
+      { "item": "schematics_psionic_purifier", "prob": 3 },
       { "item": "dist_matrix_crystals", "prob": 1 }
+    ]
+  },
+  {
+    "id": "lab_files_psi",
+    "type": "item_group",
+    "subtype": "distribution",
+    "items": [
+      { "item": "lab_postit_portal", "prob": 3 },
+      { "item": "lab_postit_psi", "prob": 3 }
     ]
   },
   {
