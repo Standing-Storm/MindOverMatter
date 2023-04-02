@@ -12,7 +12,7 @@
 		"int_decay_step": -1,
     "int_decay_tick": 1200,   
 		"max_duration": "24 hours",
-		"base_mods": { "stamina_amount": [ -500 ], "stamina_min": [ -5 ], "stamina_chance": [ 10 ], "fatigue_min": [ 1 ] "fatigue_chance": [ 200 ], },
+		"base_mods": { "stamina_amount": [ -500 ], "stamina_min": [ -5 ], "stamina_chance": [ 10 ], "fatigue_min": [ 1 ] "fatigue_chance": [ 200 ] },
 		"scaling_mods": { "str_mod": [ -0.15 ], "dex_mod": [ -0.15 ]  "per_mod": [ -0.08 ], "stamina_amount": [ -100 ], "stamina_min": [ -0.4 ], "fatigue_min": [ 0.05 ], "fatigue_chance": [ -1.3 ] }
 		
 	},
