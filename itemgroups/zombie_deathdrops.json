@@ -10,7 +10,7 @@
 	      { "group": "underwear", "damage": [ 1, 4 ] },
 	      {
 	        "collection": [
-	          { "group": "dissection", "prob": 50 },
+	          { "group": "dissection", "prob": 25 },
 	          { "group": "electronics", "prob": 40 },
 	          { "group": "radio", "prob": 15 },
 	          { "group": "psi_lab", "prob": 60 },
