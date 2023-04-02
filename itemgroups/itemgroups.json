@@ -158,18 +158,18 @@
       { "item": "chem_muriatic_acid", "prob": 6, "container-item": "bottle_glass" },
       { "item": "chem_nitric_acid", "prob": 6, "container-item": "bottle_glass" },
       { "item": "mortar_pestle", "prob": 8 },
-      { "item": "blindfold":, "prob": 8 },
+      { "item": "blindfold", "prob": 8 },
       { "item": "syringe", "prob": 12 },
       { "item": "matrix_crystal_drained", "prob": 10 },
       { "item": "matrix_channeling_tool", "prob": 7 },
-      { "item": "manual_psionics_advan":, "prob": 6 },
+      { "item": "manual_psionics_advan", "prob": 6 },
       { "item": "schematics_matrix_crystal_ground", "prob": 7 },
       { "item": "schematics_reactant_liquid_base", "prob": 6 },
       { "item": "schematics_matrix_channeling", "prob": 5 },
       { "item": "schematics_matrix_aligning", "prob": 5 },
       { "item": "schematics_instability_remover", "prob": 3 },
-      { "item": "schematics_anchoring_crown": "prob": 3 },
-      { "item": "schematics_psionic_purifier": "prob": 3 }
+      { "item": "schematics_anchoring_crown", "prob": 3 },
+      { "item": "schematics_psionic_purifier", "prob": 3 }
       { "item": "dist_matrix_crystals", "prob": 1 }
     ]
   },
