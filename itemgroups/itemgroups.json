@@ -149,7 +149,7 @@
       { "item": "ether", "prob": 5, "charges-min": 100 },
       { "item": "chem_aluminium_powder", "prob": 12, "container-item": "flask_glass" },
       { "item": "chem_zinc_powder", "prob": 10, "container-item": "flask_glass" },
-      { "group": "distribution_matrix_dust", "prob": 40 },
+      { "group": "distribution_matrix_dust", "prob": 50 },
       { "item": "file", "prob": 20 },
       { "item": "apron_plastic", "prob": 20 },
       { "item": "apron_cotton", "prob": 2 },
