@@ -3,12 +3,13 @@
     "type": "effect_on_condition",
     "id": "EOC_PORTAL_STORM_PSION_AWAKENING",
     "global": true,
-    "recurrence": [ "2 minutes", "5 minutes" ],
+    "recurrence": [ "2 minutes", "60 minutes" ],
     "condition": { "and": [ 
       "u_is_outside",  
       { "is_weather": "portal_storm" }, 
       { "not": { "u_has_worn_with_flag": "PORTAL_PROOF" } },
-      { "not": { "u_has_effect": "sleep" } }
+      { "not": { "u_has_effect": "sleep" } },
+      { "not": { "u_has_effect": "psionic_awakened" } }
     ] },
     "deactivate_condition": { "not": { "is_weather": "portal_storm" } },
     "effect": {
