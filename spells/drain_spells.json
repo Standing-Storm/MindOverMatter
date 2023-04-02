@@ -44,5 +44,140 @@
       { "id": "death_fakespell" },
       { "id": "psionic_drained_spell", "hit_self": true }
     ]
+  },
+  {
+    "id": "psionic_drained_one_in_fifteen",
+    "type": "SPELL",
+    "name": { "str": "Six point six Percent Drained Chance" },
+    "valid_targets": [ "self" ],
+    "description": "6.6% chance to get drained.",
+    "flags": [ "SILENT", "WONDER", "NO_EXPLOSION_SFX" ],
+    "shape": "blast",
+    "effect": "noise",
+    "min_damage": 1,
+    "max_damage": 1,
+    "extra_effects": [
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "psionic_drained_spell", "hit_self": true }
+    ]
+  },
+  {
+     "id": "psionic_drained_one_in_twelve",
+     "type": "SPELL",
+     "name": { "str": "Eight Point Three Percent Drained Chance" },
+     "valid_targets": [ "self" ],
+     "description": "8.3% chance to get drained.",
+     "flags": [ "SILENT", "WONDER", "NO_EXPLOSION_SFX" ],
+     "shape": "blast",
+     "effect": "noise",
+     "min_damage": 1,
+     "max_damage": 1,
+     "extra_effects": [
+       { "id": "death_fakespell" },
+       { "id": "death_fakespell" },
+       { "id": "death_fakespell" },
+       { "id": "death_fakespell" },
+       { "id": "death_fakespell" },
+       { "id": "death_fakespell" },
+       { "id": "death_fakespell" },
+       { "id": "death_fakespell" },
+       { "id": "death_fakespell" },
+       { "id": "death_fakespell" },
+       { "id": "death_fakespell" },
+       { "id": "psionic_drained_spell", "hit_self": true }
+     ]
+   },
+  {
+    "id": "psionic_drained_one_in_nine",
+    "type": "SPELL",
+    "name": { "str": "Eleven Percent Drained Chance" },
+    "valid_targets": [ "self" ],
+    "description": "11% chance to get drained.",
+    "flags": [ "SILENT", "WONDER", "NO_EXPLOSION_SFX" ],
+    "shape": "blast",
+    "effect": "noise",
+    "min_damage": 1,
+    "max_damage": 1,
+    "extra_effects": [
+      { "id": "death_fakespell" },	
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "psionic_drained_spell", "hit_self": true }
+    ]
+  },
+  {
+    "id": "psionic_drained_one_in_seven",
+    "type": "SPELL",
+    "name": { "str": "Foirteen Percent Drained Chance" },
+    "valid_targets": [ "self" ],
+    "description": "14% chance to get drained.",
+    "flags": [ "SILENT", "WONDER", "NO_EXPLOSION_SFX" ],
+    "shape": "blast",
+    "effect": "noise",
+    "min_damage": 1,
+    "max_damage": 1,
+    "extra_effects": [
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "psionic_drained_spell", "hit_self": true }
+    ]
+  }, 
+  {
+    "id": "psionic_drained_one_in_five",
+    "type": "SPELL",
+    "name": { "str": "Twenty Percent Drained Chance" },	    
+    "valid_targets": [ "self" ],
+    "description": "20% chance to get drained.",
+    "flags": [ "SILENT", "WONDER", "NO_EXPLOSION_SFX" ],
+    "shape": "blast",
+    "effect": "noise",
+    "min_damage": 1,
+    "max_damage": 1,
+    "extra_effects": [
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "psionic_drained_spell", "hit_self": true }
+    ]
+  },
+  {
+    "id": "psionic_drained_one_in_three",
+    "type": "SPELL",
+    "name": { "str": "Thirty-three Percent Drained Chance" },
+    "valid_targets": [ "self" ],
+    "description": "33% chance to get drained.",
+    "flags": [ "SILENT", "WONDER", "NO_EXPLOSION_SFX" ],
+    "shape": "blast",
+    "effect": "noise",
+    "min_damage": 1,
+    "max_damage": 1,
+    "extra_effects": [
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "psionic_drained_spell", "hit_self": true }
+    ]
   }
 ]
