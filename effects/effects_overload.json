@@ -1,4 +1,21 @@
 [
+	{
+		"type": "effect_type",
+		"id": "effect_psionic_drain",
+		"name": [ "Drained" ],
+		"desc": [ "Your use of psionic powers has taken its toll.  You should probably rest and recover." ],
+		"rating": "bad",
+		"apply_message": "You feel a little tired.  All that psionic channeling is starting to wear you down.",
+		"int_add_val": 1,  
+		"max_intensity": 100,
+		"dur_add_perc": 50,
+		"int_decay_step": -1,
+    "int_decay_tick": 1200,   
+		"max_duration": "24 hours",
+		"base_mods": { "stamina_amount": [ -500 ], "stamina_min": [ -5 ], "stamina_chance": [ 10 ], "fatigue_min": [ 1 ] "fatigue_chance": [ 200 ], },
+		"scaling_mods": { "str_mod": [ -0.15 ], "dex_mod": [ -0.15 ]  "per_mod": [ -0.08 ], "stamina_amount": [ -100 ], "stamina_min": [ -0.4 ], "fatigue_min": [ 0.05 ], "fatigue_chance": [ -1.3 ] }
+		
+	},
   {
     "type": "effect_type",
     "id": "psionic_overload",
