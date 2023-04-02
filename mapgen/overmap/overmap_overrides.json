@@ -19,7 +19,7 @@
     "name": "research facility",
     "sym": "l",
     "color": "light_gray",
-    "spawns": { "group": "GROUP_LAB_PSIONIC", "population": [ 10, 25 ], "chance": 60 },
+    "spawns": { "group": "GROUP_LAB_RESEARCH", "population": [ 10, 25 ], "chance": 60 },
     "extras": "research_facility_interior",
     "see_cost": 5,
     "mondensity": 2
