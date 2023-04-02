@@ -1,0 +1,19 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "lab_postit_psi",
+    "category": "books",
+    "symbol": ",",
+    "color": "white",
+    "name": { "str": "post-it note" },
+    "snippet_category": "lab_postit_psi",
+    "description": "A bright yellow post-it note.",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "paper" ],
+    "flags": [ "TRADER_AVOID" ],
+    "weight": "12 mg",
+    "volume": "1 ml",
+    "copy-from": "lab_postit_bio"
+  }
+]
