@@ -170,7 +170,7 @@
       { "item": "schematics_instability_remover", "prob": 3 },
       { "item": "schematics_anchoring_crown", "prob": 3 },
       { "item": "schematics_psionic_purifier", "prob": 3 },
-      { "item": "dist_matrix_crystals", "prob": 1 }
+      { "group": "dist_matrix_crystals", "prob": 1 }
     ]
   },
   {
