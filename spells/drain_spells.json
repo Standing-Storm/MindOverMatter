@@ -2,6 +2,7 @@
   {
     "id": "psionic_drained_spell",
     "type": "SPELL",
+    "name": { "str": "Psionic Drain" },
     "valid_targets": [ "self" ],
     "description": "Applies Drained to you.",
     "flags": [ "SILENT", "NO_EXPLOSION_SFX", "RANDOM_DURATION" ],
