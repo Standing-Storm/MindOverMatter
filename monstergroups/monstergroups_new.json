@@ -36,7 +36,7 @@
   },
    {
     "type": "monstergroup",
-    "name": "GROUP_LAB_PSIONIC",
+    "name": "GROUP_LAB_RESEARCH",
     "default": "mon_zombie_scientist_phavian",
     "monsters": [
       { "monster": "mon_feral_labsecurity_9mm", "weight": 18, "cost_multiplier": 8 },
@@ -46,10 +46,10 @@
       { "monster": "mon_feral_security_captain_psychic", "weight": 8, "cost_multiplier": 8 },
       { "monster": "mon_feral_security_psychic", "weight": 25,  "cost_multiplier": 5 },
       { "monster": "mon_zombie_labsecurity", "weight": 400, "cost_multiplier": 2, "pack_size": [ 1, 3 ] },
-      { "monster": "mon_zombie_scientist", "weight": 200 },
-      { "monster": "mon_zombie_scientist", "weight": 100, "pack_size": [ 1, 5 ] },
-      { "monster": "mon_zombie_scientist_phavian", "weight": 600 },
-      { "monster": "mon_zombie_scientist_phavian", "weight": 400, "pack_size": [ 1, 5 ] },
+      { "monster": "mon_zombie_scientist", "weight": 300 },
+      { "monster": "mon_zombie_scientist", "weight": 150, "pack_size": [ 1, 5 ] },
+      { "monster": "mon_zombie_scientist_phavian", "weight": 300 },
+      { "monster": "mon_zombie_scientist_phavian", "weight": 150, "pack_size": [ 1, 5 ] },
       { "monster": "mon_zombie_technician", "weight": 100, "cost_multiplier": 2 },
       { "monster": "mon_feral_human_tool", "weight": 25 },
       { "monster": "mon_zombie_hazmat", "weight": 200 },
