@@ -1,0 +1,48 @@
+[
+  {
+    "id": "psionic_drained_spell",
+    "type": "SPELL",
+    "valid_targets": [ "self" ],
+    "description": "Applies Drained to you.",
+    "flags": [ "SILENT", "NO_EXPLOSION_SFX", "RANDOM_DURATION" ],
+    "effect": "attack",
+    "effect_str": "effect_psionic_drain",
+    "shape": "blast",
+    "min_duration": 45000,
+    "max_duration": 360000
+  },
+  {
+    "id": "psionic_drained_one_in_twenty",
+    "type": "SPELL",
+    "name": { "str": "Five Percent Drained Chance" },
+    "valid_targets": [ "self" ],
+    "description": "5% chance to get drained.",
+    "flags": [ "SILENT", "WONDER", "NO_EXPLOSION_SFX" ],
+    "shape": "blast",
+    "effect": "noise",
+    "min_damage": 1,
+    "max_damage": 1,
+    "extra_effects": [
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "death_fakespell" },
+      { "id": "psionic_drained_spell", "hit_self": true }
+    ]
+  }
+]
