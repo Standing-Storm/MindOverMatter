@@ -15,7 +15,7 @@
     "max_duration": 360000
   },
   {
-    "id": "psionic_drained_one_in_twenty",
+    "id": "psionic_drained_difficulty_one",
     "type": "SPELL",
     "name": { "str": "Five Percent Drained Chance" },
     "valid_targets": [ "self" ],
@@ -50,7 +50,7 @@
     ]
   },
   {
-    "id": "psionic_drained_one_in_fifteen",
+    "id": "psionic_drained_difficulty_two",
     "type": "SPELL",
     "name": { "str": "Six point six Percent Drained Chance" },
     "valid_targets": [ "self" ],
@@ -80,7 +80,7 @@
     ]
   },
   {
-     "id": "psionic_drained_one_in_twelve",
+     "id": "psionic_drained_difficulty_three",
      "type": "SPELL",
      "name": { "str": "Eight Point Three Percent Drained Chance" },
      "valid_targets": [ "self" ],
@@ -107,7 +107,7 @@
      ]
    },
   {
-    "id": "psionic_drained_one_in_nine",
+    "id": "psionic_drained_difficulty_four",
     "type": "SPELL",
     "name": { "str": "Eleven Percent Drained Chance" },
     "valid_targets": [ "self" ],
@@ -131,7 +131,7 @@
     ]
   },
   {
-    "id": "psionic_drained_one_in_seven",
+    "id": "psionic_drained_difficulty_five",
     "type": "SPELL",
     "name": { "str": "Foirteen Percent Drained Chance" },
     "valid_targets": [ "self" ],
@@ -153,7 +153,7 @@
     ]
   }, 
   {
-    "id": "psionic_drained_one_in_five",
+    "id": "psionic_drained_difficulty_six",
     "type": "SPELL",
     "name": { "str": "Twenty Percent Drained Chance" },	    
     "valid_targets": [ "self" ],
@@ -173,7 +173,7 @@
     ]
   },
   {
-    "id": "psionic_drained_one_in_three",
+    "id": "psionic_drained_difficulty_seven",
     "type": "SPELL",
     "name": { "str": "Thirty-three Percent Drained Chance" },
     "valid_targets": [ "self" ],
