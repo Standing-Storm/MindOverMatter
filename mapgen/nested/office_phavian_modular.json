@@ -45,7 +45,7 @@
     "type": "mapgen",
     "method": "json",
     "//": "A nested map for the Phavian office security room, near the keylocked door.",
-	    "nested_mapgen_id": "office_phavian_door_north_8x8",
+	    "nested_mapgen_id": "office_phavian_security_DS8x8",
 	    "object": {
 	      "mapgensize": [ 8, 8 ],
 	      "rows": [
