@@ -245,7 +245,13 @@
 				"f": "f_table",
 				"h": "f_chair",
 				"R": "f_bookcase"
-			}
+			},
+			"place_nested": [
+				{ "chunks": [ "office_phavian_lab_DS8x8" ], "x": 5, "y": 2 },
+				{ "chunks": [ "office_phavian_lab_DS8x8" ], "x": 14, "y": 2 },
+				{ "chunks": [ "office_phavian_lab_DN8x8" ], "x": 6, "y": 15 },
+				{ "chunks": [ "office_phavian_lab_DN8x8" ], "x": 15, "y": 15 }
+			]
 		}
 	}
 ]
