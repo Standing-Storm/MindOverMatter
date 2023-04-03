@@ -1,0 +1,23 @@
+[
+  {
+    "type": "mapgen",
+    "method": "json",
+    "//": "A nested map for the Phavian office south of the hall, door in the upper left.",
+    "nested_mapgen_id": "office_phavian_door_north_8x8",
+    "object": {
+      "mapgensize": [ 8, 8 ],
+      "rows": [
+        "........",
+        "........",
+        "........",
+        "........",
+        "........",
+        "........",
+        "........"
+      ],
+      "palettes": [ "lab_common_palette" ],
+      "items": { "U": [ { "item": "cleaning", "chance": 70, "repeat": [ 1, 3 ] } ] }
+    }
+  },
+  
+]
