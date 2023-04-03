@@ -7,5 +7,13 @@
     "color": "white",
     "flags": [ "NO_ROTATE" ],
     "see_cost": 5
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "office_cubical_phavian" ],
+    "copy-from": "generic_city_building",
+    "looks_like": "office_cubical",
+    "name": "office",
+    "color": "light_gray"
   }
 ]
