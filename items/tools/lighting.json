@@ -43,6 +43,6 @@
       "msg": "You open the lamp's cover.",
       "menu_text": "Open cover"
     },
-    "flags": [ "LEAK_DAM", "DURABLE_MELEE", "ALLOWS_REMOTE_USE" ]
+    "flags": [ "LEAK_DAM", "ALLOWS_REMOTE_USE" ]
   }
 ]
