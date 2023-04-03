@@ -31,7 +31,9 @@
         "                        "
       ],
       "flags": [ "ALLOW_TERRAIN_UNDER_OTHER_DATA" ],
-      "nested": { "G": { "chunks": [ [ "t_grass_alien", 25 ], [ "null", 75 ] ] } }
+      "terrain": {
+        "G": [ [ "t_grass_alien", 25 ], [ "null", 75 ] ]
       }
     }
+  }
 ]
