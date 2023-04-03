@@ -18,7 +18,7 @@
 	        "s||||||||..c...|S.T|II|s",
 	        "s|I.Y...+....II|...||||s",
 	        "s|I..H..|..||||||+||.>|s",
-	        "s|Ixddd^|..aVVe...+l..|s",
+	        "s|Ixddd^|..aVVe...+R..|s",
 	        "s||||||||.........|||||s",
 	        "s|Ih................hI|s",
 	        "s|ddx-....IIII^...-ddx|s",
@@ -28,7 +28,7 @@
 	        "s|----..--------..----|s",
 	        "s|Ih......h..hI-....hI|s",
 	        "s|ddx-^I-xddxdd-.Y-ddx|s",
-	        "s|||||||||||||||D||||||s",
+	        "s||||||||||||||||||||||s",
 	        "ssssssssssssss$$s$$ss4ss",
 	        "ssssssssssssssssssssssss"
 	      ],
@@ -60,14 +60,17 @@
 	        "o": "f_bookcase",
 	        "t": "f_table"
 	      },
-	      "vendingmachines": { "V": { "lootable": true } },
+				"vendingmachines": { "V": { "lootable": true } },
 	      "toilets": { "T": {  } },
 	      "items": {
 	        "e": { "item": "SUS_fridge_breakroom", "chance": 55, "repeat": [ 2, 3 ] },
 	        "l": { "item": "SUS_janitors_closet", "chance": 100 },
 	        "d": { "item": "SUS_office_desk", "chance": 20 },
 	        "I": { "item": "SUS_office_filing_cabinet", "chance": 80 },
-	        "R": { "item": "office_supplies", "chance": 80, "repeat": [ 1, 2 ] },
+	        "R": [
+						{ "item": "office_supplies", "chance": 80, "repeat": [ 1, 2 ] },
+						{ "item": "cleaning", "chance": 70, "repeat": [ 2, 4 ] }
+					],
 	        "Y": { "item": "jackets", "chance": 33, "repeat": [ 1, 2 ] },
 	        "a": { "item": "trash", "chance": 60, "repeat": [ 1, 2 ] },
 	        "o": { "item": "novels", "chance": 80, "repeat": [ 4, 8 ] }
