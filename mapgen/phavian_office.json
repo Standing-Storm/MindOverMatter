@@ -136,7 +136,7 @@
 		"method": "json",
 		"om_terrain": [ "office_cubical_phavian_basement" ],
 		"object": {
-			"fill_ter": "t_floor",
+			"fill_ter": "t_strconc_floor",
 			"rows": [
 				"s||||||||||||||||||||||s",
 				"s|>>|........|........|s",
@@ -150,7 +150,7 @@
 				"s|,,|........|........|s",
 				"s|,,||||||⁷-⁷|⁷⁷-⁷⁷||||s",
 				"s|,,,,è,,,,,,,,,,,,¥,<|s",
-				"s|,,,,,,,,,,,, è,,,=,,|s",
+				"s|,,,,,,,,,,,,,è,,,=,,|s",
 				"s|,,|⁷-⁷||||||⁷-⁷||||||s",
 				"s|,,|........|........|s",
 				"s|,,|........|........|s",
@@ -193,7 +193,7 @@
 		"method": "json",
 		"om_terrain": [ "office_cubical_phavian_subbasement" ],
 		"object": {
-			"fill_ter": "t_floor",
+			"fill_ter": "t_strconc_floor",
 			"rows": [
 				"s|||||||||||||||||||||||",
 				"s|<<|..................|",
