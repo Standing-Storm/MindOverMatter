@@ -1,0 +1,9 @@
+[
+  {
+    "type": "region_overlay",
+    "regions": [ "all" ],
+    "city": {
+      "shops": { "office_cubical_phavian": 150 }
+    }
+  }
+]

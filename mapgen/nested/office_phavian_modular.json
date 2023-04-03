@@ -1,0 +1,65 @@
+[
+  {
+    "type": "mapgen",
+    "method": "json",
+    "//": "A nested map for the Phavian office south of the hall, door in the upper left.",
+    "nested_mapgen_id": "office_phavian_lab_DN8x8",
+    "object": {
+      "mapgensize": [ 8, 8 ],
+      "rows": [
+        "........",
+        "...U....",
+        "........",
+        "........",
+        "........",
+        "........",
+        "........",
+        "........"
+      ],
+      "palettes": [ "lab_common_palette" ],
+      "items": { "U": [ { "item": "cleaning", "chance": 70, "repeat": [ 1, 3 ] } ] }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "//": "A nested map for the Phavian office north of the hall, door in the lower right.",
+    "nested_mapgen_id": "office_phavian_lab_DS8x8",
+    "object": {
+      "mapgensize": [ 8, 8 ],
+      "rows": [
+        "........",
+        "........",
+        "........",
+        "........",
+        "........",
+        "........",
+        ".....U..",
+        "........"
+      ],
+      "palettes": [ "lab_common_palette" ],
+      "items": { "U": [ { "item": "cleaning", "chance": 70, "repeat": [ 1, 3 ] } ] }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "//": "A nested map for the Phavian office security room, near the keylocked door.",
+	    "nested_mapgen_id": "office_phavian_security_DS8x8",
+	    "object": {
+	      "mapgensize": [ 8, 8 ],
+	      "rows": [
+	        "........",
+	        "...U....",
+	        "........",
+	        "........",
+	        "........",
+	        "........",
+	        "........",
+	        "........"
+	      ],
+	      "palettes": [ "lab_common_palette" ],
+	      "items": { "U": [ { "item": "cleaning", "chance": 70, "repeat": [ 1, 3 ] } ] }
+	    }
+	  },
+]
