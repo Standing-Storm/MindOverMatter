@@ -155,12 +155,12 @@
 				"s|,,|........|........|s",
 				"s|,,|........|........|s",
 				"s|,,|........|........|s",
-				"s|è,|........|........|s",
+				"s|è9|........|........|s",
+				"s|,9|........|........|s",
+				"s|+||........|........|s",
 				"s|,,|........|........|s",
 				"s|,,|........|........|s",
-				"s|,,|........|........|s",
-				"s|,,|........|........|s",
-				"s|,,|........|........|s",
+				"s|,T|........|........|s",
 				"s||||||||||||||||||||||s",
 			],
 			"terrain": {
@@ -175,10 +175,16 @@
 				"|": "t_concrete_wall",
 				"-": "t_reinforced_door_glass_lab_c",
 				"⁷": "t_reinforced_glass",
+				"9": "f_metal_bench",
+				"+": "t_door_c",
 				"s": "t_soil",
 			},
+			"vendingmachines": { "V": { "lootable": true } },
+			"toilets": { "T": {  } },
 			"place_nested": [
-				x 14 y 15
+				{ "chunks": [ "office_phavian_door_north_8x8" ], "x": 14, "y": 15 },
+				{ "chunks": [ "office_phavian_door_north_8x8" ], "x": 5, "y": 15 },
+				{ "chunks": [ "office_phavian_door_south_8x8" ], "x": 5, "y": 2 }
 			]
 		}
 	},
