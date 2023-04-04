@@ -52,14 +52,17 @@
 				"..cccc..",
 				"..dddd..",
 				"........",
-				"........",
-				"..dddd.."
+				".......t",
+				"..dddd.t"
 			],
 			"palettes": [ "office_phavian_palette" ],
 			"place_item": [ 
 				{ "item": "television", "x": 4, "y": 8, "chance": 100 },
 				{ "item": "television", "x": 5, "y": 8, "chance": 100 }
-			]
+			],
+			"items": {
+				"t": { "item": "office_supplies", "chance": 40 }
+			}
 		}
 	},
   {
