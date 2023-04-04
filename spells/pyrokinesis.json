@@ -16,7 +16,7 @@
     "difficulty": 2,
     "max_level": { "arithmetic": [ { "u_val": "intelligence" }, "*", { "const": 1.5 } ] },
     "min_damage": 17,
-    "max_damage": { "arithmetic": [ { "arithmetic": [ { "u_val": "spell_level", "spell": "pyrokinetic_eruption" }, "*", { "const": 3 } ] }, "+", { "const": 97 } ] },
+    "max_damage": { "arithmetic": [ { "arithmetic": [ { "u_val": "spell_level", "spell": "pyrokinetic_eruption" }, "*", { "const": 4 } ] }, "+", { "const": 47 } ] },
     "damage_increment": 3,
     "min_range": 2,
     "max_range": 70,
