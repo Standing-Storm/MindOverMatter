@@ -200,8 +200,8 @@
 			},		
 			"items": {
 				"l": [
-					{ "item": "lab_torso", "chance": 40, "repeat": [ 1, 3 ] },
-					{ "item": "lab_shoes", "chance": 40, "repeat": [ 1, 3 ] },
+					{ "item": "lab_torso", "chance": 40, "repeat": [ 1, 8 ] },
+					{ "item": "lab_shoes", "chance": 40, "repeat": [ 1, 8 ] },
 					{ "item": "hardware_clothing", "chance": 60, "repeat": [ 1, 5 ] },
 					{ "item": "decontamination_room", "chance": 10, "repeat": [ 1, 3 ] }
 				],
@@ -289,8 +289,8 @@
 			},		
       "items": {
 				"l": [
-					{ "item": "lab_torso", "chance": 40, "repeat": [ 1, 3 ] },
-					{ "item": "lab_shoes", "chance": 40, "repeat": [ 1, 3 ] }
+					{ "item": "lab_torso", "chance": 40, "repeat": [ 1, 8 ] },
+					{ "item": "lab_shoes", "chance": 40, "repeat": [ 1, 8 ] }
 				],
 				"U": [
 					{ "item": "psi_lab", "chance": 50, "repeat": [ 1, 3 ] },
