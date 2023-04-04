@@ -31,6 +31,7 @@
 			"U": "f_utility_shelf",
 			"Y": "f_rack_coat",
 			"Ŧ": "f_telepathic_amplifier"
+			"Ɱ": "f_machinery_heavy",
 		},
 	},
   {
@@ -295,6 +296,43 @@
 				"U": [
 					{ "item": "psi_lab", "chance": 50, "repeat": [ 1, 3 ] },
 					{ "item": "SUS_bathroom_medicine", "chance": 100 },
+				],
+				"&": { "item": "trash", "chance": 75, "repeat": [ 1, 2 ] }
+			}
+    }
+  },
+	{
+    "type": "mapgen",
+    "method": "json",
+    "//": "A nested map for the Phavian secret office lab room north of the hall, door in the upper left.  This is a weapons lab",
+		"weight": 100,
+    "nested_mapgen_id": "office_phavian_lab_DN8x8",
+    "object": {
+      "mapgensize": [ 8, 8 ],
+      "rows": [
+        "..&l....",
+        "........",
+        "...çç...",
+        "...ⱮⱮ..ç",
+        "C..Aɱ..ç",
+        "C......M",
+        "CA....cɱ",
+        "C.....UU"
+      ],
+      "palettes": [ "office_phavian_palette" ],
+			"place_item": [ 
+				{ "item": "mom_pulse_rifle", "x": 8, "y": 5, "chance": 15 },
+				{ "item": "grenade_inferno", "x": 8, "y": 5, "chance": 30, "repeat": [ 1, 2 ] },
+				{ "item": "grenade_inferno", "x": 8, "y": 4, "chance": 30, "repeat": [ 1, 2 ] },
+				{ "item": "schematics_grenade_inferno", "x": 8, "y": 8, "chance": 35 }
+			],
+      "items": { 
+				"l": [
+					{ "item": "lab_torso", "chance": 40, "repeat": [ 1, 8 ] },
+					{ "item": "lab_shoes", "chance": 40, "repeat": [ 1, 8 ] }
+				],
+				"U": [
+					{ "item": "psi_lab", "chance": 50, "repeat": [ 1, 3 ] }
 				],
 				"&": { "item": "trash", "chance": 75, "repeat": [ 1, 2 ] }
 			}
