@@ -222,7 +222,7 @@
     "subtype": "collection",
     "entries": [
       { "item": "grenade_inferno", "prob": 20 },
-      { "item": "mom_pulse_rifle", "prob": 10, "damage": [ 1, 4 ] },
+      { "item": "mom_pulse_rifle", "prob": 10, "damage": [ 2, 4 ] },
       { "group": "cop_gloves", "prob": 30, "damage": [ 1, 4 ] },
       { "group": "security_pants", "damage": [ 1, 4 ] },
       { "group": "security_shoes", "prob": 70, "damage": [ 1, 4 ] },
