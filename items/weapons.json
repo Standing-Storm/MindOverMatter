@@ -65,7 +65,7 @@
     "symbol": "(",
     "color": "cyan",
     "skill": "rifle",
-    "range": 40,
+    "range": 35,
     "dispersion": 10,
     "durability": 10,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ] ],
