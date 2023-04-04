@@ -3,12 +3,24 @@
 		"type": "palette",	    
 		"id": "office_phavian_palette",
 		"terrain": {
+			"ꞝ": "t_carpet_linoleum_gray_green"
 		},
 		"furniture": {
-			"t": "f_table",
-			"y": [ "f_indoor_plant", "f_indoor_plant_y" ],
+			"-": "f_room_divider",
+			"&": "f_trashcan",
 			"c": "f_chair",
 			"d": "f_desk",
+			"l": "f_locker",
+			"t": "f_table",
+			"y": [ "f_indoor_plant", "f_indoor_plant_y" ],
+			"ɱ": "f_console_broken",
+			"ç": "f_lab_bench",
+			"A": "f_stool",
+			"C": "f_counter",
+			"E": "f_electron_microscope",
+			"I": "f_filing_cabinet",
+			"U": "f_utility_shelf",
+			"Y": "f_rack_coat",
 		},
 	},
   {
@@ -20,19 +32,29 @@
       "mapgensize": [ 8, 8 ],
       "rows": [
         "....dddd",
-        "...cc..d",
+        "..ꞝccꞝ.d",
+        "..cttc.&",
         "..cttc..",
         "..cttc..",
         "..cttc..",
-        "..cttc..",
-        "...cc...",
+        "..ꞝccꞝ..",
         "y......y"
       ],
 			"palettes": [ "office_phavian_palette" ],
+			"terrain": {
+				"t": "t_carpet_linoleum_gray_green",
+				"c": "t_carpet_linoleum_gray_green",
+			},
+			"place_item": [ 
+				{ "item": "water_clean", "x": 5, "y": 1, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] },
+				{ "item": "water_clean", "x": 6, "y": 1, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] },
+				{ "item": "water_clean", "x": 7, "y": 1, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] },
+				{ "item": "water_clean", "x": 8, "y": 1, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] },
+				{ "item": "water_clean", "x": 8, "y": 2, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] }
+			],
       "items": { 
 				"d": [
-					{ "item": "office_supplies", "chance": 50, "repeat": [ 1, 2 ] },
-					{ "item": "water_clean", "container-item": "bottle_plastic", "charges": 2, "prob": 30 }
+					{ "item": "office_supplies", "chance": 50, "repeat": [ 1, 2 ] }
 				],
 				"t": { "item": "office_supplies", "chance": 20 }
 			}
@@ -46,14 +68,14 @@
 		"object": {
 			"mapgensize": [ 8, 8 ],
 			"rows": [
-				"..cccc..",
+				"..cccc.&",
 				"..dddd..",
 				"........",
 				"..cccc..",
 				"..dddd..",
 				"........",
 				".......t",
-				"..dddd.t"
+				"..ddddɱt"
 			],
 			"palettes": [ "office_phavian_palette" ],
 			"place_item": [ 
@@ -62,6 +84,80 @@
 			],
 			"items": {
 				"t": { "item": "office_supplies", "chance": 40 }
+			}
+		}
+	},
+	{
+    "type": "mapgen",
+    "method": "json",
+    "//": "A nested map for the Phavian secret office lab room north of the hall, door in the lower right.  This is a general office room for writing reports",
+    "nested_mapgen_id": "office_phavian_lab_DN8x8",
+    "object": {
+      "mapgensize": [ 8, 8 ],
+      "rows": [
+        ".&ll-dXd",
+        "....-.c&",
+        "d...-..I",
+        "Xc.....d",
+        "I.....cX",
+        "--....--",
+        "&c..c.cX",
+        "ddXIX&dd"
+      ],
+      "palettes": [ "office_phavian_palette" ],
+			"terrain": {
+				".": "t_carpet_linoleum_white_purple",
+				"c": "t_carpet_linoleum_white_purple",
+				"&": "t_carpet_linoleum_white_purple",
+				"-": "t_carpet_linoleum_white_purple"
+			},
+      "items": {
+				"d": { "item": "SUS_office_desk", "chance": 30, "repeat": [ 1, 3 ] },
+				"I": { "item": "SUS_office_filing_cabinet", "chance": 80 },
+				"l": [
+					{ "item": "lab_torso", "chance": 40, "repeat": [ 1, 8 ] },
+					{ "item": "lab_shoes", "chance": 40, "repeat": [ 1, 8 ] }
+				]
+			}
+    }
+  },
+	{
+		"type": "mapgen",
+		"method": "json",
+		"//": "A nested map for the Phavian secret office lab room south of the hall, door in the upper left. This is a matrix crystal analysis room.",
+		"weight": 600,
+		"nested_mapgen_id": "office_phavian_lab_DN8x8",
+		"object": {
+			"mapgensize": [ 8, 8 ],
+			"rows": [
+				"..&lçççɱ",
+				".......c",
+				"...çç...",
+				"C.AççA..",
+				"C..ɱɱ...",
+				"ɱ......U",
+				"çc.....U",
+				"çE.ççUUU"
+			],
+			"palettes": [ "office_phavian_palette" ],
+			"place_item": [ 
+				{ "item": "matrix_channeling_tool", "x": 4, "y": 3, "chance": 25 },
+				{ "item": "matrix_channeling_tool", "x": 4, "y": 4, "chance": 25 },
+				{ "item": "matrix_channeling_tool", "x": 5, "y": 3, "chance": 25 },
+				{ "item": "matrix_channeling_tool", "x": 5, "y": 4, "chance": 25 }
+			],
+			"items": {
+				"l": [
+					{ "item": "lab_torso", "chance": 40, "repeat": [ 1, 8 ] },
+					{ "item": "lab_shoes", "chance": 40, "repeat": [ 1, 8 ] }
+				],
+				"C": { "item": "cleaning", "chance": 30, "repeat": [ 1, 2 ] },
+				"E": [
+					{ "item": "matrix_crystal_drained_group", "chance": 80 }, 
+					{ "item": "dist_matrix_crystals", "chance": 20 } 
+				],
+				"U": { "item": "psi_lab", "chance": 70, "repeat": [ 1, 3 ] },
+				"ç": { "item": "psi_lab", "chance": 20 }
 			}
 		}
 	},
