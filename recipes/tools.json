@@ -100,5 +100,26 @@
       [ [ "psionic_serum_base", 2 ] ],
       [ [ "cable", 10 ] ]
     ]
+  },
+  {
+    "result": "standing_pyrokinetic_lamp",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "reversible": true,
+    "skill_used": "electronics",
+    "difficulty": 1,
+    "time": "10 m",
+    "autolearn": [ [ "electronics", 1 ] ],
+    "category": "CC_APPLIANCE",
+    "subcategory": "CSC_APPLIANCE_LIGHTING",
+    "skills_required": [ [ "fabrication", 1 ] ],
+    "using": [ [ "soldering_standard", 5 ] ],
+    "qualities": [ { "id": "SCREW", "level": 1 } ],
+    "components": [
+      [ [ "cable", 2 ] ],
+      [ [ "pyrokinetic_lamp", 1 ] ],
+      [ [ "pipe_fittings", 1 ] ],
+      [ [ "pipe", 2 ] ]
+    ]
   }
 ]
