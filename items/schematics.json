@@ -70,6 +70,20 @@
     "color": "red"
   },
   {
+    "id": "schematics_everglow_lamp",
+    "type": "BOOK",
+    "name": { "str_sp": "everglow matrix lamp schematics" },
+    "description": "This is a series of design documents to use ground matrix crystals to greatly enhance the power efficiency of a lamp.",
+    "copy-from": "schematics_generic",
+    "skill": "electronics",
+    "required_level": 3,
+    "max_level": 3,
+    "intelligence": 10,
+    "time": "45 m",
+    "symbol": "ç",
+    "color": "blue"
+  },
+  {
     "id": "schematics_reactant_liquid_base",
     "type": "BOOK",
     "name": { "str_sp": "psychoreactive catalyst specifications" },
