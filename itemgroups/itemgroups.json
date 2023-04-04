@@ -112,6 +112,14 @@
   {
     "type": "item_group",
     "subtype": "distribution",
+    "id": "psionic_recipes_tools",
+    "items": [
+      [ "schematics_everglow_lamp", 1 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "distribution",
     "id": "psionic_recipes_medicine",
     "items": [
       [ "schematics_instability_remover", 5 ],
@@ -169,11 +177,11 @@
       { "item": "apron_plastic", "prob": 20 },
       { "item": "apron_cotton", "prob": 2 },
       { "item": "salt_water", "prob": 20, "charges-min": 1 },
-      { "item": "chem_sulphuric_acid", "prob": 10, "container-item": "bottle_glass" },
-      { "item": "chem_muriatic_acid", "prob": 6, "container-item": "bottle_glass" },
-      { "item": "chem_nitric_acid", "prob": 6, "container-item": "bottle_glass" },
-      { "item": "mortar_pestle", "prob": 8 },
-      { "item": "blindfold", "prob": 8 },
+      { "item": "chem_sulphuric_acid", "prob": 12, "container-item": "bottle_glass" },
+      { "item": "chem_muriatic_acid", "prob": 9, "container-item": "bottle_glass" },
+      { "item": "chem_nitric_acid", "prob": 9, "container-item": "bottle_glass" },
+      { "item": "mortar_pestle", "prob": 12 },
+      { "item": "blindfold", "prob": 4 },
       { "item": "syringe", "prob": 12 },
       { "item": "matrix_crystal_drained", "prob": 10 },
       { "item": "matrix_channeling_tool", "prob": 7 },
@@ -181,6 +189,7 @@
       { "item": "schematics_matrix_crystal_ground", "prob": 7 },
       { "item": "schematics_reactant_liquid_base", "prob": 6 },
       { "item": "schematics_matrix_channeling", "prob": 5 },
+      { "item": "schematics_everglow_lamp", "prob": 5 },
       { "item": "schematics_matrix_aligning", "prob": 5 },
       { "item": "schematics_instability_remover", "prob": 3 },
       { "item": "schematics_anchoring_crown", "prob": 3 },
