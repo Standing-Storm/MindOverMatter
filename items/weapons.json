@@ -93,8 +93,8 @@
       }
     ],
     "relic_data": {
-      "charge_info": { "recharge_type": "periodic", "time": "6 s", "regenerate_ammo": true } 
+      "charge_info": { "recharge_type": "periodic", "time": "8 s", "regenerate_ammo": true } 
     },
-    "//": "Recharge time is 6 seconds due to bug #48019, making it actually 3 seconds. Reduce to 3 seconds if that ever gets fixed."
+    "//": "Recharge time is 8 seconds due to bug #48019, making it actually 4 seconds. Reduce to 4 seconds if that ever gets fixed."
   }
 ]
