@@ -6,7 +6,7 @@
     "authors": [ "StandingStorm" ],
     "maintainers": [ "StandingStorm" ],
     "description": "Psionic powers for Cataclysm",
-    "category": "magical",
+    "category": "content",
     "dependencies": [ "dda" ]
   }
 ]
