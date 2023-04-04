@@ -11,7 +11,7 @@
     "broken_color": "green",
     "durability": 20,
     "description": "An lamp enhanced with matrix technology.",
-    "bonus": 40,
+    "bonus": 150,
     "damage_modifier": 10,
     "epower": "-4 W",
     "looks_like": "atomic_lamp",
