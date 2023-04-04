@@ -3,7 +3,12 @@
 		"type": "palette",	    
 		"id": "office_phavian_palette",
 		"terrain": {
-			"ꞝ": "t_carpet_linoleum_gray_green"
+			"ꞝ": "t_carpet_linoleum_gray_green",
+			".": "t_linoleum_white",
+			":": "t_reinforced_glass",
+			"=": "t_door_glass_frosted_lab_c"
+			"|": "t_concrete_wall",
+			"+": "t_door_c"
 		},
 		"furniture": {
 			"-": "f_room_divider",
@@ -11,16 +16,21 @@
 			"c": "f_chair",
 			"d": "f_desk",
 			"l": "f_locker",
+			"p": "f_drill_press",
 			"t": "f_table",
 			"y": [ "f_indoor_plant", "f_indoor_plant_y" ],
 			"ɱ": "f_console_broken",
 			"ç": "f_lab_bench",
 			"A": "f_stool",
+			"B": "f_bunkbed",
 			"C": "f_counter",
 			"E": "f_electron_microscope",
 			"I": "f_filing_cabinet",
+			"M": "f_machinery_electronic",
+			"S": "f_sink",
 			"U": "f_utility_shelf",
 			"Y": "f_rack_coat",
+			"Ŧ": "f_telepathic_amplifier"
 		},
 	},
   {
@@ -56,7 +66,8 @@
 				"d": [
 					{ "item": "office_supplies", "chance": 50, "repeat": [ 1, 2 ] }
 				],
-				"t": { "item": "office_supplies", "chance": 20 }
+				"t": { "item": "office_supplies", "chance": 20 },
+				"&": { "item": "trash", "chance": 75, "repeat": [ 1, 2 ] }
 			}
     }
 	},
@@ -68,9 +79,9 @@
 		"object": {
 			"mapgensize": [ 8, 8 ],
 			"rows": [
-				"..cccc.&",
-				"..dddd..",
-				"........",
+				"..cccc.t",
+				"..dddd.t",
+				".......&",
 				"..cccc..",
 				"..dddd..",
 				"........",
@@ -80,10 +91,13 @@
 			"palettes": [ "office_phavian_palette" ],
 			"place_item": [ 
 				{ "item": "television", "x": 4, "y": 8, "chance": 100 },
-				{ "item": "television", "x": 5, "y": 8, "chance": 100 }
+				{ "item": "television", "x": 5, "y": 8, "chance": 100 },
+				{ "item": "water_clean", "x": 1, "y": 8, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] },
+				{ "item": "water_clean", "x": 2, "y": 8, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] }
 			],
 			"items": {
-				"t": { "item": "office_supplies", "chance": 40 }
+				"t": { "item": "office_supplies", "chance": 40 },
+				"&": { "item": "trash", "chance": 75, "repeat": [ 1, 2 ] }
 			}
 		}
 	},
@@ -95,14 +109,14 @@
     "object": {
       "mapgensize": [ 8, 8 ],
       "rows": [
-        ".&ll-dXd",
+        ".&ll-dɱd",
         "....-.c&",
         "d...-..I",
-        "Xc.....d",
-        "I.....cX",
+        "ɱc.....d",
+        "I.....cɱ",
         "--....--",
-        "&c..c.cX",
-        "ddXIX&dd"
+        "&c..c.cɱ",
+        "ddɱIɱ&dd"
       ],
       "palettes": [ "office_phavian_palette" ],
 			"terrain": {
@@ -117,7 +131,8 @@
 				"l": [
 					{ "item": "lab_torso", "chance": 40, "repeat": [ 1, 8 ] },
 					{ "item": "lab_shoes", "chance": 40, "repeat": [ 1, 8 ] }
-				]
+				],
+				"&": { "item": "trash", "chance": 75, "repeat": [ 1, 2 ] }
 			}
     }
   },
@@ -125,18 +140,18 @@
 		"type": "mapgen",
 		"method": "json",
 		"//": "A nested map for the Phavian secret office lab room south of the hall, door in the upper left. This is a matrix crystal analysis room.",
-		"weight": 600,
+		"weight": 750,
 		"nested_mapgen_id": "office_phavian_lab_DN8x8",
 		"object": {
 			"mapgensize": [ 8, 8 ],
 			"rows": [
 				"..&lçççɱ",
-				".......c",
+				"......cc",
 				"...çç...",
 				"C.AççA..",
 				"C..ɱɱ...",
 				"ɱ......U",
-				"çc.....U",
+				"çc..c..U",
 				"çE.ççUUU"
 			],
 			"palettes": [ "office_phavian_palette" ],
@@ -157,10 +172,122 @@
 					{ "item": "dist_matrix_crystals", "chance": 20 } 
 				],
 				"U": { "item": "psi_lab", "chance": 70, "repeat": [ 1, 3 ] },
-				"ç": { "item": "psi_lab", "chance": 20 }
+				"ç": { "item": "psi_lab", "chance": 20 },
+				"&": { "item": "trash", "chance": 75, "repeat": [ 1, 2 ] }
 			}
 		}
 	},
+	{
+		"type": "mapgen",
+		"method": "json",
+		"//": "A nested map for the Phavian secret office lab room south of the hall, door in the upper left.  This is a manufactory.",
+		"weight": 750,
+    "nested_mapgen_id": "office_phavian_lab_DN8x8",
+    "object": {
+      "mapgensize": [ 8, 8 ],
+      "rows": [
+        "..&llSĆĆ",
+        "........",
+        ":::==:::",
+        "&......C",
+        "U..CC..C",
+        "U..CC..p",
+        "U..MM..C",
+        "U......C"
+      ],
+      "palettes": [ "office_phavian_palette" ],
+			"furniture": {
+				"Ć": "f_counter"
+			},		
+			"items": {
+				"l": [
+					{ "item": "lab_torso", "chance": 40, "repeat": [ 1, 3 ] },
+					{ "item": "lab_shoes", "chance": 40, "repeat": [ 1, 3 ] },
+					{ "item": "hardware_clothing", "chance": 60, "repeat": [ 1, 5 ] },
+					{ "item": "decontamination_room", "chance": 10, "repeat": [ 1, 3 ] }
+				],
+				"C": [
+					{ "item": "psi_lab", "chance": 10, "repeat": [ 1, 3 ] },
+					{ "item": "supplies_electronics", "chance": 40, "repeat": [1, 4] },
+					{ "item": "hardware", "chance": 20, "repeat": [1, 3] }
+				],
+				"U": [
+					{ "item": "psi_lab", "chance": 40, "repeat": [ 1, 3 ] },
+					{ "item": "supplies_electronics", "chance": 60, "repeat": [1, 4] },
+					{ "item": "hardware", "chance": 30, "repeat": [1, 5] }
+				],
+				"&": { "item": "trash", "chance": 75, "repeat": [ 1, 2 ] }
+			},
+			"place_monster": [ 
+				{ "monster": "mon_zombie_technician", "x": [0, 8], "y": [4, 8], "chance": 50, "repeat": [1, 4] } 
+			]
+		}
+  },
+	{
+    "type": "mapgen",
+    "method": "json",
+    "//": "A nested map for the Phavian secret office lab room south of the hall, door in the upper left.  This is a bedroom for crashing in.",
+		"weight": 650,
+    "nested_mapgen_id": "office_phavian_lab_DN8x8",
+    "object": {
+      "mapgensize": [ 8, 8 ],
+      "rows": [
+        "..y&|9CS",
+        "....+..T",
+        "Y...||||",
+        "B.B..B.B",
+        "B.B..B.B",
+        "l......l",
+        "B.B..B.B",
+        "B.BllB.B"
+      ],
+      "palettes": [ "office_phavian_palette" ],
+			"toilets": { "T": {  } },
+			"furniture": {
+				"9": "f_shower"
+			},
+      "items": {	
+				"l": [
+					{ "item": "lab_torso", "chance": 40, "repeat": [ 1, 8 ] },
+					{ "item": "lab_shoes", "chance": 40, "repeat": [ 1, 8 ] },
+					{ "item": "underwear_womens", "chance": 20, "repeat": [1, 4] },
+					{ "item": "underwear_mens", "chance": 35, "repeat": [1, 4] },
+					{ "item": "clothing_work_pants", "chance": 40, "repeat": [ 1, 8 ] },
+					{ "item": "dress_shoes", "chance": 15, "repeat": [1, 2] },
+					{ "item": "shirts", "chance": 15, "repeat": [1, 3] }
+				],
+				"C": [ 
+					{ "item": "SUS_bathroom_medicine", "chance": 100 },
+					{ "item": "SUS_bathroom_cabinet", "chance": 50 }
+				],
+				"S": { "item": "SUS_bathroom_sink", "chance": 100, "repeat": [ 1, 2 ] },
+				"Y": { "item": "jackets", "chance": 33, "repeat": [ 1, 2 ] },
+				"&": { "item": "trash", "chance": 75, "repeat": [ 1, 2 ] }
+			}
+    }
+  },
+	{
+    "type": "mapgen",
+    "method": "json",
+    "//": "A nested map for the Phavian secret office lab room north of the hall, door in the upper left.  This is a telepathic amplifier.",
+		"weight": 400,
+    "nested_mapgen_id": "office_phavian_lab_DN8x8",
+    "object": {
+      "mapgensize": [ 8, 8 ],
+      "rows": [
+        "........",
+        "........",
+        "........",
+        "........",
+        "........",
+        "...ɱŦ...",
+        "....ɱ...",
+        "........"
+      ],
+      "palettes": [ "office_phavian_palette" ],
+      "items": { "U": [ { "item": "cleaning", "chance": 70, "repeat": [ 1, 3 ] } ] }
+    }
+  },
   {
     "type": "mapgen",
     "method": "json",
