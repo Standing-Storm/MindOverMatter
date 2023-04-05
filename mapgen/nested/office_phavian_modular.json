@@ -157,10 +157,10 @@
 			],
 			"palettes": [ "office_phavian_palette" ],
 			"place_item": [ 
-				{ "item": "matrix_channeling_tool", "x": 4, "y": 3, "chance": 25 },
-				{ "item": "matrix_channeling_tool", "x": 4, "y": 4, "chance": 25 },
-				{ "item": "matrix_channeling_tool", "x": 5, "y": 3, "chance": 25 },
-				{ "item": "matrix_channeling_tool", "x": 5, "y": 4, "chance": 25 }
+				{ "item": "matrix_channeling_tool", "x": 3, "y": 2, "chance": 25 },
+				{ "item": "matrix_channeling_tool", "x": 3, "y": 3, "chance": 25 },
+				{ "item": "matrix_channeling_tool", "x": 4, "y": 2, "chance": 25 },
+				{ "item": "matrix_channeling_tool", "x": 4, "y": 3, "chance": 25 }
 			],
 			"items": {
 				"l": [
@@ -321,10 +321,10 @@
       ],
       "palettes": [ "office_phavian_palette" ],
 			"place_item": [ 
-				{ "item": "mom_pulse_rifle", "x": 8, "y": 5, "chance": 15 },
-				{ "item": "grenade_inferno", "x": 8, "y": 5, "chance": 30, "repeat": [ 1, 2 ] },
-				{ "item": "grenade_inferno", "x": 8, "y": 4, "chance": 30, "repeat": [ 1, 2 ] },
-				{ "item": "schematics_grenade_inferno", "x": 8, "y": 8, "chance": 35 }
+				{ "item": "mom_pulse_rifle", "x": 7, "y": 4, "chance": 15 },
+				{ "item": "grenade_inferno", "x": 7, "y": 4, "chance": 30, "repeat": [ 1, 2 ] },
+				{ "item": "grenade_inferno", "x": 7, "y": 3, "chance": 30, "repeat": [ 1, 2 ] },
+				{ "item": "schematics_grenade_inferno", "x": 7, "y": 7, "chance": 35 }
 			],
       "items": { 
 				"l": [
