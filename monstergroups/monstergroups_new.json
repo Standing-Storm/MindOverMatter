@@ -22,6 +22,15 @@
     ]
   },
   {
+    "name": "GROUP_FERAL_BIOKINETIC",
+    "type": "monstergroup",
+    "monsters": [
+      { "monster": "mon_feral_human_bio", "weight": 10 },
+      { "monster": "mon_feral_human_bio2", "weight": 4 },
+      { "monster": "mon_feral_human_bio3", "weight": 1 }
+    ]
+  },
+  {
     "name": "GROUP_CRYSTAL_FIELD",
     "type": "monstergroup",
     "monsters": [
