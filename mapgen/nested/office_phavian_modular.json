@@ -42,8 +42,8 @@
     "object": {
       "mapgensize": [ 8, 8 ],
       "rows": [
-        "....dddd",
-        "..ꞝccꞝ.d",
+        "....đđđđ",
+        "..ꞝccꞝ.đ",
         "..cttc.&",
         "..cttc..",
         "..cttc..",
@@ -56,19 +56,16 @@
 				"t": "t_carpet_linoleum_gray_green",
 				"c": "t_carpet_linoleum_gray_green"
 			},
-			"place_item": [ 
-				{ "item": "water_clean", "x": 5, "y": 1, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] },
-				{ "item": "water_clean", "x": 6, "y": 1, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] },
-				{ "item": "water_clean", "x": 7, "y": 1, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] },
-				{ "item": "water_clean", "x": 8, "y": 1, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] },
-				{ "item": "water_clean", "x": 8, "y": 2, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] }
-			],
+			"furniture": {
+				"đ": "f_desk",
+			},
       "items": { 
 				"d": [
 					{ "item": "office_supplies", "chance": 50, "repeat": [ 1, 2 ] }
 				],
 				"t": { "item": "office_supplies", "chance": 20 },
-				"&": { "item": "trash", "chance": 75, "repeat": [ 1, 2 ] }
+				"&": { "item": "trash", "chance": 75, "repeat": [ 1, 2 ] },
+				"đ": { "item": "water_clean", "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] }
 			}
     }
 	},
