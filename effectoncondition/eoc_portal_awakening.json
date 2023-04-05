@@ -166,7 +166,7 @@
     "condition": { 
       "and": [ 
         {"not": { "u_has_trait": "BIOKINETIC" } },
-        { "x_in_y_chance": { "x": 2, "y": 3 } }
+        { "x_in_y_chance": { "x": { "arithmetic": [ { "const": 20 }, "-", { "global_val": "var", "var_name": "awakening_reducer" } ] }, "y": 25 } }
       ] 
     }, 
     "effect": [
@@ -182,7 +182,8 @@
       { "u_add_effect": "effect_biokin_overload", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "2 hours" } ] } },
       { "u_add_effect": "downed", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "5 seconds" } ] } },
       { "u_add_effect": "motor_seizure", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "5 seconds" } ] } },
-      { "arithmetic": [ { "u_val": "stamina" }, "-=", { "const": 4000 } ] }
+      { "arithmetic": [ { "u_val": "stamina" }, "-=", { "const": 4000 } ] },
+      { "arithmetic": [ { "global_val": "var", "var_name": "awakening_reducer", "+=", { "const": 2 } } ] }
     ]
   },
   {
@@ -191,7 +192,7 @@
     "condition": { 
       "and": [ 
         { "not": { "u_has_trait": "CLAIRSENTIENT" } },
-        { "x_in_y_chance": { "x": 2, "y": 3 } }
+        { "x_in_y_chance": { "x": { "arithmetic": [ { "const": 20 }, "-", { "global_val": "var", "var_name": "awakening_reducer" } ] }, "y": 25 } }
       ]
     },      
     "effect": [
@@ -207,7 +208,8 @@
       { "u_add_effect": "hallu", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "3 hours" } ] } },
       { "u_add_effect": "blind_clair_overload", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "15 seconds" } ] } },
       { "u_add_effect": "deaf_clair_overload", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "15 seconds" } ] } },
-      { "arithmetic": [ { "u_val": "stamina" }, "-=", { "const": 4000 } ] }
+      { "arithmetic": [ { "u_val": "stamina" }, "-=", { "const": 4000 } ] },
+      { "arithmetic": [ { "global_val": "var", "var_name": "awakening_reducer", "+=", { "const": 2 } } ] }
     ]
   },
   {
@@ -216,7 +218,7 @@
     "condition": { 
       "and": [
         { "not": { "u_has_trait": "PYROKINETIC" } }, 
-        { "x_in_y_chance": { "x": 2, "y": 3 } }
+        { "x_in_y_chance": { "x": { "arithmetic": [ { "const": 20 }, "-", { "global_val": "var", "var_name": "awakening_reducer" } ] }, "y": 25 } }
       ]
     },
     "effect": [
@@ -233,7 +235,8 @@
       { "u_add_effect": "effect_pyrokin_overload", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "2 hours" } ] } },
       { "u_add_effect": "downed", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "1 seconds" } ] } },
       { "u_set_field": "fd_hot_air3", "outdoor_only": true },
-      { "arithmetic": [ { "u_val": "stamina" }, "-=", { "const": 4000 } ] }
+      { "arithmetic": [ { "u_val": "stamina" }, "-=", { "const": 4000 } ] },
+      { "arithmetic": [ { "global_val": "var", "var_name": "awakening_reducer", "+=", { "const": 2 } } ] }
     ]
   },
   {
@@ -242,7 +245,7 @@
     "condition": { 
       "and": [
         { "not": { "u_has_trait": "TELEKINETIC" } }, 
-        { "x_in_y_chance": { "x": 2, "y": 3 } }
+        { "x_in_y_chance": { "x": { "arithmetic": [ { "const": 20 }, "-", { "global_val": "var", "var_name": "awakening_reducer" } ] }, "y": 25 } }
       ]
     },
     "effect": [ 
@@ -257,7 +260,8 @@
       { "u_add_effect": "psionic_overload", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "1 hours" } ] } },
       { "u_add_effect": "effect_telekin_overload", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "30 minutes" } ] } },
       { "u_add_effect": "downed", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "1 seconds" } ] } },
-      { "arithmetic": [ { "u_val": "stamina" }, "-=", { "const": 4000 } ] }
+      { "arithmetic": [ { "u_val": "stamina" }, "-=", { "const": 4000 } ] },
+      { "arithmetic": [ { "global_val": "var", "var_name": "awakening_reducer", "+=", { "const": 2 } } ] }
     ]
   },
   {
@@ -266,7 +270,7 @@
     "condition": {
       "and": [
         { "not": { "u_has_trait": "TELEPATH" } }, 
-        { "x_in_y_chance": { "x": 2, "y": 3 } }
+        { "x_in_y_chance": { "x": { "arithmetic": [ { "const": 20 }, "-", { "global_val": "var", "var_name": "awakening_reducer" } ] }, "y": 25 } }
       ]
     },
     "effect": [
@@ -282,7 +286,8 @@
       { "u_add_effect": "nightmares", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "4 hours " } ] } },
       { "u_add_effect": "disrupted_sleep", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "4 hours " } ] } },
       { "u_add_effect": "downed", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "1 seconds" } ] } },
-      { "arithmetic": [ { "u_val": "stamina" }, "-=", { "const": 4000 } ] }
+      { "arithmetic": [ { "u_val": "stamina" }, "-=", { "const": 4000 } ] },
+      { "arithmetic": [ { "global_val": "var", "var_name": "awakening_reducer", "+=", { "const": 2 } } ] }
     ]
   },
   {
@@ -291,7 +296,7 @@
     "condition": { 
       "and": [ 
         {"not": { "u_has_trait": "TELEPORTER" } },
-        { "x_in_y_chance": { "x": 2, "y": 3 } }
+        { "x_in_y_chance": { "x": { "arithmetic": [ { "const": 20 }, "-", { "global_val": "var", "var_name": "awakening_reducer" } ] }, "y": 25 } }
       ]
     },
     "effect": [
@@ -306,7 +311,8 @@
       { "u_add_effect": "psionic_overload", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "1 hours" } ] } },
       { "u_add_effect": "effect_portal_storm_teleport", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "20 seconds" } ] } },
       { "u_add_effect": "downed", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "1 seconds" } ] } },
-      { "arithmetic": [ { "u_val": "stamina" }, "-=", { "const": 4000 } ] }
+      { "arithmetic": [ { "u_val": "stamina" }, "-=", { "const": 4000 } ] },
+      { "arithmetic": [ { "global_val": "var", "var_name": "awakening_reducer", "+=", { "const": 2 } } ] }
     ]
   },
   {
@@ -315,7 +321,7 @@
     "condition": { 
       "and": [ 
         { "not": { "u_has_trait": "VITAKINETIC" } }, 
-        { "x_in_y_chance": { "x": 2, "y": 3 } }
+        { "x_in_y_chance": { "x": { "arithmetic": [ { "const": 20 }, "-", { "global_val": "var", "var_name": "awakening_reducer" } ] }, "y": 25 } }
       ]
     },
     "effect": [
@@ -331,7 +337,8 @@
       { "u_add_effect": "flu", "duration":  { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "4 hours" } ] } },
       { "u_add_effect": "effect_vitakin_overload", "duration":  { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "2 hours" } ] } },
       { "u_add_effect": "downed", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "3 seconds" } ] } },
-      { "arithmetic": [ { "u_val": "stamina" }, "-=", { "const": 4000 } ] }
+      { "arithmetic": [ { "u_val": "stamina" }, "-=", { "const": 4000 } ] },
+      { "arithmetic": [ { "global_val": "var", "var_name": "awakening_reducer", "+=", { "const": 2 } } ] }
     ]
   }  
 ]
