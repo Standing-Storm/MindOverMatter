@@ -85,10 +85,9 @@
     "category": "lab_file_telepathy",
     "text": [
       {
-        {
         "name": "file",
         "id": "lab_file_telepathy_01",
-        "text": "Subject is female, of East Asian descent, age 35 years.  "
+        "text": "Subject is female, of East Asian descent, age 35 years."
       }
     ]
   }
