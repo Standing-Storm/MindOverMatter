@@ -458,7 +458,7 @@
 			},
 			"place_monster": [ 
 				{ "monster": "mon_zombie_technician", "x": [0, 7], "y": [0, 7], "chance": 50, "repeat": [1, 4] },
-				{ "group": "GROUP_PHAVIAN_OFFICE", "x": [ 1, 6 ], "y": [ 1, 6 ], "repeat": [ 0, 2 ], "chance": 50 } ],
+				{ "group": "GROUP_PHAVIAN_OFFICE", "x": [ 1, 6 ], "y": [ 1, 6 ], "repeat": [ 0, 2 ], "chance": 50 }
 			]
     }
   },
