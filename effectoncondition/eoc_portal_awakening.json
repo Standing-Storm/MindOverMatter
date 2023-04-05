@@ -175,7 +175,7 @@
       { "u_add_trait": "BIOKIN_NEEDS" },
       { "run_eocs": "EOC_TEACH_BIOKIN_CONTEMPLATE_RECIPES" },
       { "u_add_effect": "psionic_awakened", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "2 hours" } ] } },
-      { "arithmetic": [ { "global_val": "var", "var_name": "awakening_reducer" }, "+=", { "const": 2 } } ] }
+      { "arithmetic": [ { "global_val": "var", "var_name": "awakening_reducer" }, "+=", { "const": 2 } ] }
      ], 
     "false_effect": [
       { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm.  Your head pounds in time with the kaleidoscoping sky as your muscles begin cramping uncontrollably.  They suddenly seize up and you collapse to the ground, staring up at the sky, unable to move." },
@@ -201,7 +201,7 @@
       { "u_add_trait": "CLAIR_SENSES" },
       { "run_eocs": "EOC_TEACH_CLAIR_CONTEMPLATE_RECIPES" },
       { "u_add_effect": "psionic_awakened", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "2 hours" } ] } },
-      { "arithmetic": [ { "global_val": "var", "var_name": "awakening_reducer", "+=", { "const": 2 } } ] }
+      { "arithmetic": [ { "global_val": "var", "var_name": "awakening_reducer", "+=", { "const": 2 } ] }
     ],
     "false_effect": [
       { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm.  Your head pounds in time with the kaleidoscoping sky as your vision wavers.  The sky grows bright, and then dark.  Sounds fade away before roaring in your ears, and then the entire world suddenly vanishes, leaving you in silent darkness." },
@@ -228,7 +228,7 @@
       { "u_add_trait": "PYROGLOW_STRONG" },
       { "run_eocs": "EOC_TEACH_PYROKIN_CONTEMPLATE_RECIPES" },
       { "u_add_effect": "psionic_awakened", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "2 hours" } ] } },
-      { "arithmetic": [ { "global_val": "var", "var_name": "awakening_reducer" }, "+=", { "const": 2 } } ] }
+      { "arithmetic": [ { "global_val": "var", "var_name": "awakening_reducer" }, "+=", { "const": 2 } ] }
     ],
     "false_effect": [
       { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm.  Your head pounds in time with the kaleidoscoping sky as your skin prickles.  The air grows warm, then hot, and sweat springs from every pore. The air around you takes on a lambent glow as the heat continues to rise, until your muscles give out and you collapse to your knees." },
@@ -254,7 +254,7 @@
       { "u_add_trait": "TELEKINETIC_CARRY" },
       { "run_eocs": "EOC_TEACH_TELEKIN_CONTEMPLATE_RECIPES" },
       { "u_add_effect": "psionic_awakened", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "2 hours" } ] } },
-      { "arithmetic": [ { "global_val": "var", "var_name": "awakening_reducer" }, "+=", { "const": 2 } } ] }
+      { "arithmetic": [ { "global_val": "var", "var_name": "awakening_reducer" }, "+=", { "const": 2 } ] }
     ],
     "false_effect": [
       { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm.  Your head pounds in time with the kaleidoscoping sky as you stagger.  The very air seems to press down on you, its weight growing steadily more oppressive.  Every step takes more effort than a sprint.  You concentrate on putting one foot in front of the other but it takes almost all of your concentration to do so." },
@@ -279,7 +279,7 @@
       { "u_add_trait": "TELEPATHIC_SUGGESTION" },
       { "run_eocs": "EOC_TEACH_TELEPATH_CONTEMPLATE_RECIPES" },
       { "u_add_effect": "psionic_awakened", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "2 hours" } ] } },
-      { "arithmetic": [ { "global_val": "var", "var_name": "awakening_reducer" }, "+=", { "const": 2 } } ] }
+      { "arithmetic": [ { "global_val": "var", "var_name": "awakening_reducer" }, "+=", { "const": 2 } ] }
     ],
     "false_effect": [
       { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm.  Your head pounds in time with the kaleidoscoping sky as whispers begin.  First only a murmur, steadily growing louder and louder until they grow into a cacophony of voices.  You hear pleas for mercy, screams of agony, cries of rage and sorrow, all mixed together in an avalache of sound that drives you to your knees as you clutch your ears to shut them out.  It doesn't help." },
@@ -305,7 +305,7 @@
       { "u_add_trait": "TELEPORTER_PROTECT" },
       { "run_eocs": "EOC_TEACH_TELEPORT_CONTEMPLATE_RECIPES" },
       { "u_add_effect": "psionic_awakened", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "2 hours" } ] } },
-      { "arithmetic": [ { "global_val": "var", "var_name": "awakening_reducer" }, "+=", { "const": 2 } } ] }
+      { "arithmetic": [ { "global_val": "var", "var_name": "awakening_reducer" }, "+=", { "const": 2 } ] }
     ],
     "false_effect": [
       { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm.  Your head pounds in time with the kaleidoscoping sky as your vision wavers.  The world seems to grow far away, then close, and you stumble as your legs can't seem to tell where the ground is.  As you recover and look up, you find yourself somewhere else." },
@@ -330,7 +330,7 @@
       { "u_add_trait": "VITAKINETIC_HEALTH" },
       { "run_eocs": "EOC_TEACH_VITAKIN_CONTEMPLATE_RECIPES" },
       { "u_add_effect": "psionic_awakened", "duration": { "arithmetic": [ { "global_val": "var", "var_name": "ps_str" }, "*", { "time": "2 hours" } ] } },
-      { "arithmetic": [ { "global_val": "var", "var_name": "awakening_reducer" }, "+=", { "const": 2 } } ] }
+      { "arithmetic": [ { "global_val": "var", "var_name": "awakening_reducer" }, "+=", { "const": 2 } ] }
     ],
     "false_effect": [
       { "u_message": "A roar fills your mind, louder even than the screaming madness of the portal storm.  Your head pounds in time with the kaleidoscoping sky as the beating of your heart thuds in your ears.  You can feel the blood rushing through your veins, warmth slowly spreading through your body, and a sensation of heat that gets stronger and stronger until it becomes an feverish itching across your entire body, driving you to your knees." },
