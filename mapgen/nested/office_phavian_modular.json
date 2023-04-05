@@ -93,8 +93,8 @@
 			"place_item": [ 
 				{ "item": "television", "x": 4, "y": 8, "chance": 100 },
 				{ "item": "television", "x": 5, "y": 8, "chance": 100 },
-				{ "item": "water_clean", "x": 1, "y": 8, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] },
-				{ "item": "water_clean", "x": 2, "y": 8, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] }
+				{ "item": "water_clean", "x": 8, "y": 1, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] },
+				{ "item": "water_clean", "x": 8, "y": 2, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] }
 			],
 			"items": {
 				"t": { "item": "office_supplies", "chance": 40 },
@@ -157,10 +157,10 @@
 			],
 			"palettes": [ "office_phavian_palette" ],
 			"place_item": [ 
-				{ "item": "matrix_channeling_tool", "x": 3, "y": 2, "chance": 25 },
-				{ "item": "matrix_channeling_tool", "x": 3, "y": 3, "chance": 25 },
-				{ "item": "matrix_channeling_tool", "x": 4, "y": 2, "chance": 25 },
-				{ "item": "matrix_channeling_tool", "x": 4, "y": 3, "chance": 25 }
+				{ "item": "matrix_channeling_tool", "x": 4, "y": 3, "chance": 25 },
+				{ "item": "matrix_channeling_tool", "x": 4, "y": 4, "chance": 25 },
+				{ "item": "matrix_channeling_tool", "x": 5, "y": 3, "chance": 25 },
+				{ "item": "matrix_channeling_tool", "x": 5, "y": 4, "chance": 25 }
 			],
 			"items": {
 				"l": [
