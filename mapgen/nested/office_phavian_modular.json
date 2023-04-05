@@ -66,7 +66,8 @@
 				"t": { "item": "office_supplies", "chance": 20 },
 				"&": { "item": "trash", "chance": 75, "repeat": [ 1, 2 ] },
 				"đ": { "item": "water_clean", "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] }
-			}
+			},
+			"place_monster": [ { "group": "GROUP_PHAVIAN_OFFICE", "x": [ 0, 7 ], "y": [ 0, 7 ], "repeat": [ 0, 3 ], "chance": 50 } ]
     }
 	},
 	{
@@ -96,7 +97,8 @@
 				"đ": { "item": "television", "chance": 100 },
 				"ŧ": { "item": "water_clean", "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] },
 				"&": { "item": "trash", "chance": 75, "repeat": [ 1, 2 ] }
-			}
+			},
+			"place_monster": [ { "group": "GROUP_PHAVIAN_OFFICE", "x": [ 0, 7 ], "y": [ 0, 7 ], "repeat": [ 0, 3 ], "chance": 50 } ]
 		}
 	},
 	{
@@ -131,7 +133,8 @@
 					{ "item": "lab_shoes", "chance": 40, "repeat": [ 1, 8 ] }
 				],
 				"&": { "item": "trash", "chance": 75, "repeat": [ 1, 2 ] }
-			}
+			},
+			"place_monster": [ { "group": "GROUP_PHAVIAN_OFFICE", "x": [ 1, 6 ], "y": [ 1, 6 ], "repeat": [ 0, 3 ], "chance": 50 } ]
     }
   },
 	{
@@ -169,7 +172,8 @@
 				"ç": { "item": "psi_lab", "chance": 20 },
 				"ȼ": { "item": "matrix_channeling_tool", "chance": 25 },
 				"&": { "item": "trash", "chance": 75, "repeat": [ 1, 2 ] }
-			}
+			},
+			"place_monster": [ { "group": "GROUP_PHAVIAN_OFFICE", "x": [ 1, 6 ], "y": [ 1, 6 ], "repeat": [ 0, 3 ], "chance": 50 } ]
 		}
 	},
 	{
@@ -214,7 +218,7 @@
 				"&": { "item": "trash", "chance": 75, "repeat": [ 1, 2 ] }
 			},
 			"place_monster": [ 
-				{ "monster": "mon_zombie_technician", "x": [0, 8], "y": [4, 8], "chance": 50, "repeat": [1, 4] } 
+				{ "monster": "mon_zombie_technician", "x": [1, 6], "y": [3, 7], "chance": 50, "repeat": [1, 4] } 
 			]
 		}
   },
@@ -258,7 +262,8 @@
 				"S": { "item": "SUS_bathroom_sink", "chance": 100, "repeat": [ 1, 2 ] },
 				"Y": { "item": "jackets", "chance": 33, "repeat": [ 1, 2 ] },
 				"&": { "item": "trash", "chance": 75, "repeat": [ 1, 2 ] }
-			}
+			},
+			"place_monster": [ { "group": "GROUP_PHAVIAN_OFFICE", "x": [ 1, 6 ], "y": [ 1, 6 ], "repeat": [ 0, 6 ], "chance": 50 } ]
     }
   },
 	{
@@ -293,7 +298,11 @@
 					{ "item": "SUS_bathroom_medicine", "chance": 100 }
 				],
 				"&": { "item": "trash", "chance": 75, "repeat": [ 1, 2 ] }
-			}
+			},
+			"place_monster": [ 
+				{ "group": "GROUP_PHAVIAN_OFFICE", "x": [ 1, 6 ], "y": [ 1, 6 ], "repeat": [ 0, 2 ], "chance": 50 }, 
+				{ "group": "GROUP_FERAL_TELEPATH", "x": 5, "y": 5, "chance": 80 } 
+			]
     }
   },
 	{
@@ -338,7 +347,11 @@
 					{ "item": "schematics_grenade_inferno", "x": 7, "y": 7, "chance": 35 }
         ],
 				"&": { "item": "trash", "chance": 75, "repeat": [ 1, 2 ] }
-			}
+			},
+			"place_monster": [ 
+				{ "monster": "mon_zombie_technician", "x": [0, 7], "y": [0, 7], "chance": 50, "repeat": [1, 4] },
+				{ "group": "GROUP_PHAVIAN_OFFICE", "x": [ 1, 6 ], "y": [ 1, 6 ], "repeat": [ 0, 2 ], "chance": 50 } ],
+			]
     }
   },
   {
