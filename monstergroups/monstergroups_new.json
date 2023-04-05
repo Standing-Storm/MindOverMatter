@@ -14,20 +14,29 @@
     ]
   },
   {
-    "name": "GROUP_FERAL_TELEPATH",
-    "type": "monstergroup",
-    "monsters": [
-      { "monster": "mon_feral_human_teep", "weight": 6 },
-      { "monster": "mon_feral_human_teep2", "weight": 2 }
-    ]
-  },
-  {
     "name": "GROUP_FERAL_BIOKINETIC",
     "type": "monstergroup",
     "monsters": [
-      { "monster": "mon_feral_human_bio", "weight": 10 },
-      { "monster": "mon_feral_human_bio2", "weight": 4 },
+      { "monster": "mon_feral_human_bio", "weight": 25 },
+      { "monster": "mon_feral_human_bio2", "weight": 8 },
       { "monster": "mon_feral_human_bio3", "weight": 1 }
+    ]
+  },
+  {
+    "name": "GROUP_FERAL_CLAIRSENTIENT",
+    "type": "monstergroup",
+    "monsters": [
+    { "monster": "mon_feral_human_clair", "weight": 25 },
+      { "monster": "mon_feral_human_clair2", "weight": 8 },
+      { "monster": "mon_feral_human_clair3", "weight": 1 }
+    ]
+  },
+  {
+    "name": "GROUP_FERAL_TELEPATH",
+    "type": "monstergroup",
+    "monsters": [
+      { "monster": "mon_feral_human_teep", "weight": 25 },
+      { "monster": "mon_feral_human_teep2", "weight": 8 }
     ]
   },
   {
