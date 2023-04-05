@@ -138,7 +138,7 @@
 		"type": "mapgen",
 		"method": "json",
 		"//": "A nested map for the Phavian secret office lab room south of the hall, door in the upper left. This is a matrix crystal analysis room.",
-		"weight": 750,
+		"weight": 900,
 		"nested_mapgen_id": "office_phavian_lab_DN8x8",
 		"object": {
 			"mapgensize": [ 8, 8 ],
@@ -176,7 +176,7 @@
 		"type": "mapgen",
 		"method": "json",
 		"//": "A nested map for the Phavian secret office lab room south of the hall, door in the upper left.  This is a manufactory.",
-		"weight": 750,
+		"weight": 800,
     "nested_mapgen_id": "office_phavian_lab_DN8x8",
     "object": {
       "mapgensize": [ 8, 8 ],
@@ -222,7 +222,7 @@
     "type": "mapgen",
     "method": "json",
     "//": "A nested map for the Phavian secret office lab room south of the hall, door in the upper left.  This is a bedroom for crashing in.",
-		"weight": 650,
+		"weight": 750,
     "nested_mapgen_id": "office_phavian_lab_DN8x8",
     "object": {
       "mapgensize": [ 8, 8 ],
@@ -265,7 +265,7 @@
     "type": "mapgen",
     "method": "json",
     "//": "A nested map for the Phavian secret office lab room north of the hall, door in the upper left.  This is a telepathic amplifier.",
-		"weight": 500,
+		"weight": 650,
     "nested_mapgen_id": "office_phavian_lab_DN8x8",
     "object": {
       "mapgensize": [ 8, 8 ],
@@ -300,7 +300,7 @@
     "type": "mapgen",
     "method": "json",
     "//": "A nested map for the Phavian secret office lab room north of the hall, door in the upper left.  This is a weapons lab",
-		"weight": 450,
+		"weight": 500,
     "nested_mapgen_id": "office_phavian_lab_DN8x8",
     "object": {
       "mapgensize": [ 8, 8 ],
