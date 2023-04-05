@@ -79,5 +79,17 @@
         "text": "Can't wait for cross-testing.  Will PE050 boost it?"
       }
     ]
+  },
+  {
+    "type": "snippet",
+    "category": "lab_file_telepathy",
+    "text": [
+      {
+        {
+        "name": "file",
+        "id": "lab_file_telepathy_01",
+        "text": "Subject is female, of East Asian descent, age 35 years.  "
+      }
+    ]
   }
 ]
