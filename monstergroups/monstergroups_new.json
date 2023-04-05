@@ -14,6 +14,14 @@
     ]
   },
   {
+    "name": "GROUP_FERAL_TELEPATH",
+    "type": "monstergroup",
+    "monsters": [
+      { "monster": "mon_feral_human_teep", "weight": 6 },
+      { "monster": "mon_feral_human_teep2", "weight": 2 }
+    ]
+  },
+  {
     "name": "GROUP_CRYSTAL_FIELD",
     "type": "monstergroup",
     "monsters": [
