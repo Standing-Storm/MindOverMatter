@@ -77,24 +77,24 @@
 		"object": {
 			"mapgensize": [ 8, 8 ],
 			"rows": [
-				"..cccc.t",
-				"..dddd.t",
+				"..cccc.ŧ",
+				"..dddd.ŧ",
 				".......&",
 				"..cccc..",
 				"..dddd..",
 				"........",
 				".......t",
-				"..ddddɱt"
+				"..dđđdɱt"
 			],
 			"palettes": [ "office_phavian_palette" ],
-			"place_item": [ 
-				{ "item": "television", "x": 4, "y": 8, "chance": 100 },
-				{ "item": "television", "x": 5, "y": 8, "chance": 100 },
-				{ "item": "water_clean", "x": 8, "y": 1, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] },
-				{ "item": "water_clean", "x": 8, "y": 2, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] }
-			],
+			"furniture": {
+				"ŧ": "f_table",
+				"đ": "f_desk"
+			},
 			"items": {
 				"t": { "item": "office_supplies", "chance": 40 },
+				"đ": { "item": "television", "chance": 100 },
+				"ŧ": { "item": "water_clean", "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] },
 				"&": { "item": "trash", "chance": 75, "repeat": [ 1, 2 ] }
 			}
 		}
