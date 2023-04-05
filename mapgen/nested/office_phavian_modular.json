@@ -373,7 +373,7 @@
 	{
     "type": "mapgen",
     "method": "json",
-    "//": "A nested map for the Phavian secret office lab room north of the hall, door in the upper left.  This is a telepathic amplifier.",
+    "//": "A nested map for the Phavian secret office lab room south of the hall, door in the upper left.  This is a telepathic amplifier.",
 		"weight": 650,
     "nested_mapgen_id": "office_phavian_lab_DN8x8",
     "object": {
@@ -416,7 +416,7 @@
 	{
     "type": "mapgen",
     "method": "json",
-    "//": "A nested map for the Phavian secret office lab room north of the hall, door in the upper left.  This is a weapons lab",
+    "//": "A nested map for the Phavian secret office lab room south of the hall, door in the upper left.  This is a weapons lab",
 		"weight": 500,
     "nested_mapgen_id": "office_phavian_lab_DN8x8",
     "object": {
@@ -448,11 +448,11 @@
 				"Ć": { "item": "grenade_inferno", "chance": 30, "repeat": [ 1, 2 ] },
 				"ȼ": [
 					{ "item": "mom_pulse_rifle", "chance": 15 },
-					{ "item": "grenade_inferno", "chance": 30, "repeat": [ 1, 2 ] }
+					{ "item": "grenade_inferno", "chance": 60, "repeat": [ 1, 3 ] }
 				],
 				"Ú": [
           { "item": "psi_lab", "chance": 50, "repeat": [ 1, 3 ] },
-					{ "item": "schematics_grenade_inferno", "x": 7, "y": 7, "chance": 35 }
+					{ "item": "schematics_grenade_inferno", "x": 7, "y": 7, "chance": 60 }
         ],
 				"&": { "item": "trash", "chance": 75, "repeat": [ 1, 2 ] }
 			},
