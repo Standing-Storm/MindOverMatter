@@ -98,7 +98,9 @@
 				"ŧ": { "item": "water_clean", "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] },
 				"&": { "item": "trash", "chance": 75, "repeat": [ 1, 2 ] }
 			},
-			"place_monster": [ { "group": "GROUP_PHAVIAN_OFFICE", "x": [ 0, 7 ], "y": [ 0, 7 ], "repeat": [ 0, 3 ], "chance": 50 } ]
+			"place_monster": [ 
+				{ "group": "GROUP_PHAVIAN_OFFICE", "x": [ 0, 7 ], "y": [ 0, 7 ], "repeat": [ 0, 3 ], "chance": 50 },
+			]
 		}
 	},
 	{
@@ -218,7 +220,7 @@
 				"&": { "item": "trash", "chance": 75, "repeat": [ 1, 2 ] }
 			},
 			"place_monster": [ 
-				{ "monster": "mon_zombie_technician", "x": [1, 6], "y": [3, 7], "chance": 50, "repeat": [1, 4] } 
+				{ "monster": "mon_zombie_technician", "x": [1, 6], "y": [3, 7], "repeat": [1, 4], "chance": 50 } 
 			]
 		}
   },
@@ -315,7 +317,57 @@
 					{ "item": "psi_lab", "chance": 30, "repeat": [ 0, 2 ] },
 				]
 			},
-			"place_monster": [ { "group": "GROUP_PHAVIAN_OFFICE", "x": [ 1, 6 ], "y": [ 1, 6 ], "repeat": [ 0, 6 ], "chance": 50 } ]
+			"place_monster": [ 
+				{ "group": "GROUP_PHAVIAN_OFFICE", "x": [ 1, 6 ], "y": [ 1, 6 ], "repeat": [ 0, 4 ], "chance": 50 },
+				{ "group": "GROUP_FERAL_BIOKINETIC", "x": [ 1, 6 ], "y": [ 1, 6 ], "repeat": [ 0, 2 ], "chance": 50 }
+			]
+    }
+  },
+	{
+    "type": "mapgen",
+    "method": "json",
+		"//": "A nested map for the Phavian secret office lab room south of the hall, door in the upper left.  This room is for clairsentient/telepathic testing.",
+		"weight": 750,
+		"nested_mapgen_id": "office_phavian_lab_DN8x8",
+		"object": {
+			"mapgensize": [ 8, 8 ],
+			"rows": [
+				"..&llSCC",
+				"........",
+        "........",
+        "ɱc..P...",
+        "đ...P...",
+        "U.dcPcd.",
+        "đ...P...",
+        "ɱc..P..."
+      ],
+			"furniture": {
+				"P": "f_curtain",
+				"đ": "f_desk"
+			},
+      "palettes": [ "office_phavian_palette" ],
+			"place_items": [
+				{ "item": "deck_of_cards", "x": 2, "y": 5, "chance": 60 },
+				{ "item": "pen", "x": 2, "y": 5, "chance": 60 },
+				{ "item": "blue_pen", "x": 2, "y": 5, "chance": 60 },
+				{ "item": "green_pen", "x": 2, "y": 5, "chance": 60 },
+				{ "item": "red_pen", "x": 2, "y": 5, "chance": 60 },
+				{ "item": "envelope", "x": 2, "y": 5, "chance": 60, "repeat": [ 1, 4 ]  },
+				{ "item": "paper", "x": 2, "y": 5,"charges": [ 2, 10 ], "prob": 90 },
+				{ "item": "pen", "x": 6, "y": 5, "chance": 100 },
+				{ "item": "paper", "x": 6, "y": 5, "charges": [ 2, 10 ], "prob": 90 }
+			],
+      "items": { 
+				"U": [ 
+					{ "item": "cleaning", "chance": 70, "repeat": [ 1, 3 ] },
+					{ "item": "novels", "chance": 100, "repeat": [ 1, 3 ] }
+				],
+				"đ": { "item": "SUS_office_desk", "chance": 30, "repeat": [ 1, 3 ] },
+			},
+			"place_monster": [ 
+				{ "group": "GROUP_PHAVIAN_OFFICE", "x": [ 1, 6 ], "y": [ 1, 6 ], "repeat": [ 0, 3 ], "chance": 50 },
+				{ "group": "GROUP_FERAL_CLAIRSENTIENT", "x": 5, "y": [ 3, 6 ], "repeat": [ 0, 2 ], "chance": 70 }
+			]
     }
   },
 	{
@@ -340,6 +392,10 @@
 			"furniture": {
 				"Ć": "f_counter"
 			},		
+			"place_items": [
+				{ "item": "matrix_crystal_telepath_dust_refined", "x": 7, "y": 4, "chance": 20, "charges": [ 1, 3 ], "container-item": "test_tube" },
+				{ "item": "matrix_crystal_telepath_dust", "x": 7, "y": 4, "chance": 45, "charges": [1, 5], "container-item": "flask_glass" }
+			],
       "items": {
 				"l": [
 					{ "item": "lab_torso", "chance": 40, "repeat": [ 1, 8 ] },
