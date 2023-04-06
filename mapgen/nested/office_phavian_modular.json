@@ -178,7 +178,6 @@
 				],
 				"U": { "item": "psi_lab", "chance": 70, "repeat": [ 1, 3 ] },
 				"ç": { "item": "psi_lab", "chance": 20 },
-				"ȼ": { "item": "matrix_channeling_tool", "chance": 25 },
 				"&": { "item": "trash", "chance": 75, "repeat": [ 1, 2 ] }
 			},
 			"place_monster": [ { "group": "GROUP_PHAVIAN_OFFICE", "x": [ 1, 6 ], "y": [ 1, 6 ], "repeat": [ 0, 3 ], "chance": 50 } ]
@@ -428,23 +427,18 @@
         "..&l....",
         "........",
         "...çç...",
-        "...ⱮⱮ..Ć",
-        "C..Aɱ..ȼ",
+        "...ⱮⱮ..ç",
+        "C..Aɱ..ç",
         "C......M",
         "CA....cɱ",
-        "C.....UÚ"
+        "C.....UU"
       ],
-      "palettes": [ "office_phavian_palette" ],
-			"furniture": {
-        "Ć": "f_lab_bench",
-  
-      },    
+      "palettes": [ "office_phavian_palette" ],  
 			"place_item": [
 				{ "item": "grenade_inferno", "x": 7, "y": 3, "chance": 30, "repeat": [ 1, 2 ] },
 				{ "item": "mom_pulse_rifle", "x": 7, "y": 4, "chance": 15 },
-				{ "item": "grenade_inferno", "x": 7, "y": 4, "chance": 60, "repeat": [ 1, 3 ] }
-				{ "item": "schematics_grenade_inferno", "x": 7, "y": 7, "chance": 60 }
-				
+				{ "item": "grenade_inferno", "x": 7, "y": 4, "chance": 60, "repeat": [ 1, 3 ] },
+				{ "item": "schematics_grenade_inferno", "x": 7, "y": 7, "chance": 60 }	
 			],
       "items": { 
 				"l": [
