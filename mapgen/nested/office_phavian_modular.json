@@ -42,8 +42,8 @@
     "object": {
       "mapgensize": [ 8, 8 ],
       "rows": [
-        "....đđđđ",
-        "..ꞝccꞝ.đ",
+        "....dddd",
+        "..ꞝccꞝ.d",
         "..cttc.&",
         "..cttc..",
         "..cttc..",
@@ -56,16 +56,19 @@
 				"t": "t_carpet_linoleum_gray_green",
 				"c": "t_carpet_linoleum_gray_green"
 			},
-			"furniture": {
-				"đ": "f_desk"
-			},
+			"place_item": [
+				{ "item": "water_clean", "x": 4, "y": 0, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] },
+				{ "item": "water_clean", "x": 5, "y": 0, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] },
+				{ "item": "water_clean", "x": 6, "y": 0, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] },
+				{ "item": "water_clean", "x": 7, "y": 0, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] },
+				{ "item": "water_clean", "x": 7, "y": 1, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] }
+			],
       "items": { 
 				"d": [
 					{ "item": "office_supplies", "chance": 50, "repeat": [ 1, 2 ] }
 				],
 				"t": { "item": "office_supplies", "chance": 20 },
 				"&": { "item": "trash", "chance": 75, "repeat": [ 1, 2 ] },
-				"đ": { "item": "water_clean", "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] }
 			},
 			"place_monster": [ { "group": "GROUP_PHAVIAN_OFFICE", "x": [ 0, 7 ], "y": [ 0, 7 ], "repeat": [ 0, 3 ], "chance": 50 } ]
     }
@@ -78,24 +81,24 @@
 		"object": {
 			"mapgensize": [ 8, 8 ],
 			"rows": [
-				"..cccc.ŧ",
-				"..dddd.ŧ",
+				"..cccc.t",
+				"..dddd.t",
 				".......&",
 				"..cccc..",
 				"..dddd..",
 				"........",
 				".......t",
-				"..dđđdɱt"
+				"..ddddɱt"
 			],
 			"palettes": [ "office_phavian_palette" ],
-			"furniture": {
-				"ŧ": "f_table",
-				"đ": "f_desk"
-			},
+			"place_item": [
+				{ "item": "water_clean", "x": 7, "y": 0, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] },
+				{ "item": "water_clean", "x": 7, "y": 1, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] },
+				{ "item": "television", "x": 3, "y": 7, "chance": 100 },
+				{ "item": "television", "x": 4, "y": 7, "chance": 100 },
+			],
 			"items": {
 				"t": { "item": "office_supplies", "chance": 40 },
-				"đ": { "item": "television", "chance": 100 },
-				"ŧ": { "item": "water_clean", "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] },
 				"&": { "item": "trash", "chance": 75, "repeat": [ 1, 2 ] }
 			},
 			"place_monster": [ 
@@ -292,7 +295,7 @@
 				"Ƀ": "f_bigmirror"
 			},
       "palettes": [ "office_phavian_palette" ],
-			"place_items": [
+			"place_item": [
 				{ "item": "matrix_crystal_biokin_dust_refined", "x": 0, "y": 3, "chance": 20, "charges": [ 1, 3 ], "container-item": "test_tube" },
 				{ "item": "matrix_crystal_biokin_dust", "x": 0, "y": 3, "chance": 45, "charges": [1, 5], "container-item": "flask_glass" },
 				{ "item": "matrix_crystal_biokin_dust_refined", "x": 0, "y": 5, "chance": 20, "charges": [ 1, 3 ], "container-item": "test_tube" },
@@ -346,7 +349,7 @@
 				"đ": "f_desk"
 			},
       "palettes": [ "office_phavian_palette" ],
-			"place_items": [
+			"place_item": [
 				{ "item": "deck_of_cards", "x": 2, "y": 5, "chance": 60 },
 				{ "item": "pen", "x": 2, "y": 5, "chance": 60 },
 				{ "item": "blue_pen", "x": 2, "y": 5, "chance": 60 },
@@ -379,7 +382,7 @@
     "object": {
       "mapgensize": [ 8, 8 ],
       "rows": [
-				"..&llSĆĆ",
+				"..&llSCC",
         "........",
         ":::==:::",
         "ɱ.....Aɱ",
@@ -389,10 +392,7 @@
         "UU.....U"
       ],
       "palettes": [ "office_phavian_palette" ],
-			"furniture": {
-				"Ć": "f_counter"
-			},		
-			"place_items": [
+			"place_item": [
 				{ "item": "matrix_crystal_telepath_dust_refined", "x": 7, "y": 4, "chance": 20, "charges": [ 1, 3 ], "container-item": "test_tube" },
 				{ "item": "matrix_crystal_telepath_dust", "x": 7, "y": 4, "chance": 45, "charges": [1, 5], "container-item": "flask_glass" }
 			],
@@ -434,9 +434,15 @@
       "palettes": [ "office_phavian_palette" ],
 			"furniture": {
         "Ć": "f_lab_bench",
-        "ȼ": "f_lab_bench",
-				"Ú": "f_utility_shelf"
+  
       },    
+			"place_item": [
+				{ "item": "grenade_inferno", "x": 7, "y": 3, "chance": 30, "repeat": [ 1, 2 ] },
+				{ "item": "mom_pulse_rifle", "x": 7, "y": 4, "chance": 15 },
+				{ "item": "grenade_inferno", "x": 7, "y": 4, "chance": 60, "repeat": [ 1, 3 ] }
+				{ "item": "schematics_grenade_inferno", "x": 7, "y": 7, "chance": 60 }
+				
+			],
       "items": { 
 				"l": [
 					{ "item": "lab_torso", "chance": 40, "repeat": [ 1, 8 ] },
@@ -445,15 +451,6 @@
 				"U": [
 					{ "item": "psi_lab", "chance": 50, "repeat": [ 1, 3 ] }
 				],
-				"Ć": { "item": "grenade_inferno", "chance": 30, "repeat": [ 1, 2 ] },
-				"ȼ": [
-					{ "item": "mom_pulse_rifle", "chance": 15 },
-					{ "item": "grenade_inferno", "chance": 60, "repeat": [ 1, 3 ] }
-				],
-				"Ú": [
-          { "item": "psi_lab", "chance": 50, "repeat": [ 1, 3 ] },
-					{ "item": "schematics_grenade_inferno", "x": 7, "y": 7, "chance": 60 }
-        ],
 				"&": { "item": "trash", "chance": 75, "repeat": [ 1, 2 ] }
 			},
 			"place_monster": [ 
