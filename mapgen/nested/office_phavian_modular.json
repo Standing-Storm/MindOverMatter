@@ -68,7 +68,7 @@
 					{ "item": "office_supplies", "chance": 50, "repeat": [ 1, 2 ] }
 				],
 				"t": { "item": "office_supplies", "chance": 20 },
-				"&": { "item": "trash", "chance": 75, "repeat": [ 1, 2 ] },
+				"&": { "item": "trash", "chance": 75, "repeat": [ 1, 2 ] }
 			},
 			"place_monster": [ { "group": "GROUP_PHAVIAN_OFFICE", "x": [ 0, 7 ], "y": [ 0, 7 ], "repeat": [ 0, 3 ], "chance": 50 } ]
     }
@@ -95,7 +95,7 @@
 				{ "item": "water_clean", "x": 7, "y": 0, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] },
 				{ "item": "water_clean", "x": 7, "y": 1, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] },
 				{ "item": "television", "x": 3, "y": 7, "chance": 100 },
-				{ "item": "television", "x": 4, "y": 7, "chance": 100 },
+				{ "item": "television", "x": 4, "y": 7, "chance": 100 }
 			],
 			"items": {
 				"t": { "item": "office_supplies", "chance": 40 },
@@ -153,17 +153,20 @@
 			"rows": [
 				"..&lçççɱ",
 				"......cc",
-				"...ȼȼ...",
-				"C.AȼȼA..",
+				"...çç...",
+				"C.AççA..",
 				"C..ɱɱ...",
 				"ɱ......U",
 				"çc..c..U",
 				"çE.ççUUU"
 			],
-			"furniture": {
-				"ȼ": "f_lab_bench"
-			},
 			"palettes": [ "office_phavian_palette" ],
+			"place_item": [
+				{ "item": "matrix_channeling_tool", "x": 3, "y": 2, "chance": 25 },
+				{ "item": "matrix_channeling_tool", "x": 3, "y": 3, "chance": 25 },
+				{ "item": "matrix_channeling_tool", "x": 4, "y": 2, "chance": 25 },
+        { "item": "matrix_channeling_tool", "x": 4, "y": 3, "chance": 25 }
+			],
 			"items": {
 				"l": [
 					{ "item": "lab_torso", "chance": 40, "repeat": [ 1, 8 ] },
