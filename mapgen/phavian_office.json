@@ -192,8 +192,10 @@
 				{ "chunks": [ "office_phavian_lab_DS8x8" ], "x": 5, "y": 2 },
 				{ "chunks": [ "office_phavian_security_DS8x8" ], "x": 14, "y": 2 }
 			],
-			"place_monster": [ { "group": "GROUP_PHAVIAN_OFFICE", "x": [ 2, 3 ], "y": [ 1, 22 ], "repeat": [ 0, 3 ], "chance": 50 } ],
-			"place_monster": [ { "group": "GROUP_PHAVIAN_OFFICE", "x": [ 2, 18 ], "y": [ 11, 12 ], "repeat": [ 0, 3 ], "chance": 50 } ]
+			"place_monster": [ 
+				{ "group": "GROUP_PHAVIAN_OFFICE", "x": [ 2, 3 ], "y": [ 1, 22 ], "repeat": [ 0, 3 ], "chance": 50 },
+				{ "group": "GROUP_PHAVIAN_OFFICE", "x": [ 2, 18 ], "y": [ 11, 12 ], "repeat": [ 0, 3 ], "chance": 50 }
+			]
 		}
 	},
 	{
@@ -263,8 +265,10 @@
 				{ "chunks": [ "office_phavian_lab_DN8x8" ], "x": 6, "y": 14 },
 				{ "chunks": [ "office_phavian_lab_DN8x8" ], "x": 15, "y": 14 }
 			],
-			"place_monster": [ { "group": "GROUP_PHAVIAN_OFFICE", "x": [ 2, 18 ], "y": [ 11, 12 ], "repeat": [ 0, 3 ], "chance": 50 } ],
-			"place_monster": [ { "group": "GROUP_PHAVIAN_OFFICE", "x": [ 1, 4 ], "y": [ 14, 22 ], "repeat": [ 0, 3 ], "chance": 50 } ]
+			"place_monster": [ 
+				{ "group": "GROUP_PHAVIAN_OFFICE", "x": [ 2, 18 ], "y": [ 11, 12 ], "repeat": [ 0, 3 ], "chance": 50 },
+				{ "group": "GROUP_PHAVIAN_OFFICE", "x": [ 1, 4 ], "y": [ 14, 22 ], "repeat": [ 0, 3 ], "chance": 50 } 
+			]
 		}
 	}
 ]
