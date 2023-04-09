@@ -104,8 +104,8 @@
     "subtype": "distribution",
     "id": "feral_humans_crystal_drops_bio",
     "entries": [
-      { "item": "matrix_crystal_drained", "prob": 85 },
-      { "item": "matrix_crystal_biokinesis", "prob": 15 }
+      { "item": "matrix_crystal_drained", "prob": 70 },
+      { "item": "matrix_crystal_biokinesis", "prob": 30 }
     ]
   },
    {
@@ -113,8 +113,8 @@
     "subtype": "distribution",
     "id": "feral_humans_crystal_drops_clair",
     "entries": [
-      { "item": "matrix_crystal_drained", "prob": 85 },
-      { "item": "matrix_crystal_clairsentience", "prob": 15 }
+      { "item": "matrix_crystal_drained", "prob": 70 },
+      { "item": "matrix_crystal_clairsentience", "prob": 30 }
     ]
   },
    {
@@ -122,8 +122,8 @@
     "subtype": "distribution",
     "id": "feral_humans_crystal_drops_pyro",
     "entries": [
-      { "item": "matrix_crystal_drained", "prob": 85 },
-      { "item": "matrix_crystal_pyrokinesis", "prob": 15 }
+      { "item": "matrix_crystal_drained", "prob": 70 },
+      { "item": "matrix_crystal_pyrokinesis", "prob": 30 }
     ]
   },
    {
@@ -131,8 +131,8 @@
     "subtype": "distribution",
     "id": "feral_humans_crystal_drops_telekin",
     "entries": [
-      { "item": "matrix_crystal_drained", "prob": 85 },
-      { "item": "matrix_crystal_telekinesis", "prob": 15 }
+      { "item": "matrix_crystal_drained", "prob": 70 },
+      { "item": "matrix_crystal_telekinesis", "prob": 30 }
     ]
   },
    {
@@ -140,8 +140,8 @@
     "subtype": "distribution",
     "id": "feral_humans_crystal_drops_teep",
     "entries": [
-      { "item": "matrix_crystal_drained", "prob": 85 },
-      { "item": "matrix_crystal_telepathy", "prob": 15 }
+      { "item": "matrix_crystal_drained", "prob": 70 },
+      { "item": "matrix_crystal_telepathy", "prob": 30 }
     ]
   },
    {
@@ -149,8 +149,8 @@
     "subtype": "distribution",
     "id": "feral_humans_crystal_drops_porter",
     "entries": [
-      { "item": "matrix_crystal_drained", "prob": 85 },
-      { "item": "matrix_crystal_teleportation", "prob": 15 }
+      { "item": "matrix_crystal_drained", "prob": 70 },
+      { "item": "matrix_crystal_teleportation", "prob": 30 }
     ]
   },
    {
@@ -158,8 +158,8 @@
     "subtype": "distribution",
     "id": "feral_humans_crystal_drops_vita",
     "entries": [
-      { "item": "matrix_crystal_drained", "prob": 85 },
-      { "item": "matrix_crystal_vitakinesis", "prob": 15 }
+      { "item": "matrix_crystal_drained", "prob": 70 },
+      { "item": "matrix_crystal_vitakinesis", "prob": 30 }
     ]
   },
   {
