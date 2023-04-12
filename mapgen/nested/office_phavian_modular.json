@@ -654,7 +654,8 @@
 				{ "item": "envelope", "x": 2, "y": 5, "chance": 60, "repeat": [ 1, 4 ]  },
 				{ "item": "paper", "x": 2, "y": 5,"charges": [ 2, 10 ], "prob": 90 },
 				{ "item": "pen", "x": 6, "y": 5, "chance": 100 },
-				{ "item": "paper", "x": 6, "y": 5, "charges": [ 2, 10 ], "prob": 90 }
+				{ "item": "paper", "x": 6, "y": 5, "charges": [ 2, 10 ], "prob": 90 },
+				{ "item": "lab_file_telepathy", "x": 0, "y": 6, "prob": 40 }
 			],
       "items": { 
 				"U": [ 
@@ -701,7 +702,8 @@
 				{ "item": "envelope", "x": 5, "y": 2, "chance": 60, "repeat": [ 1, 4 ]  },
 				{ "item": "paper", "x": 5, "y": 2,"charges": [ 2, 10 ], "prob": 90 },
 				{ "item": "pen", "x": 1, "y": 2, "chance": 100 },
-				{ "item": "paper", "x": 1, "y": 2, "charges": [ 2, 10 ], "prob": 90 }
+				{ "item": "paper", "x": 1, "y": 2, "charges": [ 2, 10 ], "prob": 90 },
+				{ "item": "lab_file_telepathy", "x": 7, "y": 1, "prob": 40 }
 			],
       "items": { 
 				"U": [ 
