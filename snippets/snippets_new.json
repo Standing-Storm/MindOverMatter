@@ -77,6 +77,16 @@
         "name": "post-it",
         "id": "lab_postit_psi_15",
         "text": "Can't wait for cross-testing.  Will PE050 boost it?"
+      },
+      {
+        "name": "post-it",
+        "id": "lab_postit_psi_16",
+        "text": "She tried to scan Y65-08.  Now in a coma"
+      },
+      {
+        "name": "post-it",
+        "id": "lab_postit_psi_17",
+        "text": "Scanning them doesn't work.  It's just static"
       }
     ]
   },
@@ -85,9 +95,9 @@
     "category": "lab_file_telepathy",
     "text": [
       {
-        "name": "file",
+        "name": "testing report",
         "id": "lab_file_telepathy_01",
-        "text": "Subject is female, of East Asian descent, age 35 years."
+        "text": "Subject is female, of East Asian descent, age 35 years.  In good health.\n\nInitial test using standard deck of playing cards.  Subject and experimenter facing away from each other, with opaque curtain blocking line of sight.  Prompt triggered by a light on subject's desk to prevent drawing any information from experimenter's tone of voice or word choice.  Experimenter drew ten cards and asked subject to state number and suit.  Cards are shuffled back into the deck after each guess to prevent already-drawn cards from affecting future guesses.\n\nResults: Subject guessed two of ten correct on the first test and three of ten correct on the second test, versus control who guessed a single card correct on the first test and zero correct on the second test."
       }
     ]
   }
