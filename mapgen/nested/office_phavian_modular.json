@@ -57,11 +57,11 @@
 				"c": "t_carpet_linoleum_gray_green"
 			},
 			"place_item": [
-				{ "item": "water_clean", "x": 4, "y": 0, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] },
-				{ "item": "water_clean", "x": 5, "y": 0, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] },
-				{ "item": "water_clean", "x": 6, "y": 0, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] },
-				{ "item": "water_clean", "x": 7, "y": 0, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] },
-				{ "item": "water_clean", "x": 7, "y": 1, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] }
+				{ "item": "water_clean", "x": 4, "y": 0, "prob": 30, "repeat": [ 1, 2 ] },
+				{ "item": "water_clean", "x": 5, "y": 0, "prob": 30, "repeat": [ 1, 2 ] },
+				{ "item": "water_clean", "x": 6, "y": 0, "prob": 30, "repeat": [ 1, 2 ] },
+				{ "item": "water_clean", "x": 7, "y": 0, "prob": 30, "repeat": [ 1, 2 ] },
+				{ "item": "water_clean", "x": 7, "y": 1, "prob": 30, "repeat": [ 1, 2 ] }
 			],
       "items": { 
 				"d": [
@@ -96,11 +96,11 @@
 				"c": "t_carpet_linoleum_gray_green"
 			},
 			"place_item": [
-				{ "item": "water_clean", "x": 0, "y": 6, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] },
-				{ "item": "water_clean", "x": 0, "y": 7, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] },
-				{ "item": "water_clean", "x": 1, "y": 7, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] },
-				{ "item": "water_clean", "x": 2, "y": 7, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] },
-				{ "item": "water_clean", "x": 3, "y": 7, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] }
+				{ "item": "water_clean", "x": 0, "y": 6, "prob": 30, "repeat": [ 1, 2 ] },
+				{ "item": "water_clean", "x": 0, "y": 7, "prob": 30, "repeat": [ 1, 2 ] },
+				{ "item": "water_clean", "x": 1, "y": 7, "prob": 30, "repeat": [ 1, 2 ] },
+				{ "item": "water_clean", "x": 2, "y": 7, "prob": 30, "repeat": [ 1, 2 ] },
+				{ "item": "water_clean", "x": 3, "y": 7, "prob": 30, "repeat": [ 1, 2 ] }
 			],
       "items": { 
 				"d": [
@@ -131,8 +131,8 @@
 			],
 			"palettes": [ "office_phavian_palette" ],
 			"place_item": [
-				{ "item": "water_clean", "x": 7, "y": 0, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] },
-				{ "item": "water_clean", "x": 7, "y": 1, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] },
+				{ "item": "water_clean", "x": 7, "y": 0, "prob": 30, "repeat": [ 1, 2 ] },
+				{ "item": "water_clean", "x": 7, "y": 1, "prob": 30, "repeat": [ 1, 2 ] },
 				{ "item": "television", "x": 3, "y": 7, "chance": 100 },
 				{ "item": "television", "x": 4, "y": 7, "chance": 100 }
 			],
@@ -164,8 +164,8 @@
 			],
 			"palettes": [ "office_phavian_palette" ],
 			"place_item": [
-				{ "item": "water_clean", "x": 0, "y": 6, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] },
-				{ "item": "water_clean", "x": 0, "y": 7, "container-item": "bottle_plastic", "charges": 2, "prob": 30, "repeat": [ 1, 2 ] },
+				{ "item": "water_clean", "x": 0, "y": 6, "prob": 30, "repeat": [ 1, 2 ] },
+				{ "item": "water_clean", "x": 0, "y": 7, "prob": 30, "repeat": [ 1, 2 ] },
 				{ "item": "television", "x": 3, "y": 0, "chance": 100 },
 				{ "item": "television", "x": 4, "y": 0, "chance": 100 }
 			],
@@ -537,18 +537,18 @@
 			},
       "palettes": [ "office_phavian_palette" ],
 			"place_item": [
-				{ "item": "matrix_crystal_biokin_dust_refined", "x": 0, "y": 3, "chance": 20, "charges": [ 1, 3 ], "container-item": "test_tube" },
-				{ "item": "matrix_crystal_biokin_dust", "x": 0, "y": 3, "chance": 45, "charges": [1, 5], "container-item": "flask_glass" },
-				{ "item": "matrix_crystal_biokin_dust_refined", "x": 0, "y": 5, "chance": 20, "charges": [ 1, 3 ], "container-item": "test_tube" },
-				{ "item": "matrix_crystal_biokin_dust", "x": 0, "y": 5, "chance": 45, "charges": [1, 5], "container-item": "flask_glass" },
-				{ "item": "matrix_crystal_biokin_dust_refined", "x": 0, "y": 7, "chance": 20, "charges": [ 1, 3 ], "container-item": "test_tube" },
-				{ "item": "matrix_crystal_biokin_dust", "x": 0, "y": 7, "chance": 45, "charges": [1, 5], "container-item": "flask_glass" },
-				{ "item": "matrix_crystal_vitakin_dust_refined", "x": 0, "y": 3, "chance": 8, "charges": [ 1, 3 ], "container-item": "test_tube" },
-				{ "item": "matrix_crystal_vitakin_dust", "x": 0, "y": 3, "chance": 30, "charges": [1, 5], "container-item": "flask_glass" },
-				{ "item": "matrix_crystal_vitakin_dust_refined", "x": 0, "y": 5, "chance": 8, "charges": [ 1, 3 ], "container-item": "test_tube" },
-				{ "item": "matrix_crystal_vitakin_dust", "x": 0, "y": 5, "chance": 30, "charges": [1, 5], "container-item": "flask_glass" },
-				{ "item": "matrix_crystal_vitakin_dust_refined", "x": 0, "y": 7, "chance": 8, "charges": [ 1, 3 ], "container-item": "test_tube" },
-				{ "item": "matrix_crystal_vitakin_dust", "x": 0, "y": 7, "chance": 30, "charges": [1, 5], "container-item": "flask_glass" },
+				{ "item": "matrix_crystal_biokin_dust_refined", "x": 0, "y": 3, "chance": 20 },
+				{ "item": "matrix_crystal_biokin_dust", "x": 0, "y": 3, "chance": 45 },
+				{ "item": "matrix_crystal_biokin_dust_refined", "x": 0, "y": 5, "chance": 20 },
+				{ "item": "matrix_crystal_biokin_dust", "x": 0, "y": 5, "chance": 45  },
+				{ "item": "matrix_crystal_biokin_dust_refined", "x": 0, "y": 7, "chance": 20 },
+				{ "item": "matrix_crystal_biokin_dust", "x": 0, "y": 7, "chance": 45  },
+				{ "item": "matrix_crystal_vitakin_dust_refined", "x": 0, "y": 3, "chance": 8 },
+				{ "item": "matrix_crystal_vitakin_dust", "x": 0, "y": 3, "chance": 30  },
+				{ "item": "matrix_crystal_vitakin_dust_refined", "x": 0, "y": 5, "chance": 8  },
+				{ "item": "matrix_crystal_vitakin_dust", "x": 0, "y": 5, "chance": 30 },
+				{ "item": "matrix_crystal_vitakin_dust_refined", "x": 0, "y": 7, "chance": 8 },
+				{ "item": "matrix_crystal_vitakin_dust", "x": 0, "y": 7, "chance": 30 },
 				{ "item": "matrix_crystal_biokinesis", "x": 0, "y": 5, "chance": 25 },
 				{ "item": "matrix_crystal_vitakinesis", "x": 0, "y": 5, "chance": 10 }
 			],
@@ -592,18 +592,18 @@
 			},
       "palettes": [ "office_phavian_palette" ],
 			"place_item": [
-				{ "item": "matrix_crystal_biokin_dust_refined", "x": 7, "y": 4, "chance": 20, "charges": [ 1, 3 ], "container-item": "test_tube" },
-				{ "item": "matrix_crystal_biokin_dust", "x": 7, "y": 4, "chance": 45, "charges": [1, 5], "container-item": "flask_glass" },
-				{ "item": "matrix_crystal_biokin_dust_refined", "x": 7, "y": 2, "chance": 20, "charges": [ 1, 3 ], "container-item": "test_tube" },
-				{ "item": "matrix_crystal_biokin_dust", "x": 7, "y": 2, "chance": 45, "charges": [1, 5], "container-item": "flask_glass" },
-				{ "item": "matrix_crystal_biokin_dust_refined", "x": 7, "y": 0, "chance": 20, "charges": [ 1, 3 ], "container-item": "test_tube" },
-				{ "item": "matrix_crystal_biokin_dust", "x": 7, "y": 0, "chance": 45, "charges": [1, 5], "container-item": "flask_glass" },
-				{ "item": "matrix_crystal_vitakin_dust_refined", "x": 7, "y": 4, "chance": 8, "charges": [ 1, 3 ], "container-item": "test_tube" },
-				{ "item": "matrix_crystal_vitakin_dust", "x": 7, "y": 4, "chance": 30, "charges": [1, 5], "container-item": "flask_glass" },
-				{ "item": "matrix_crystal_vitakin_dust_refined", "x": 7, "y": 2, "chance": 8, "charges": [ 1, 3 ], "container-item": "test_tube" },
-				{ "item": "matrix_crystal_vitakin_dust", "x": 7, "y": 2, "chance": 30, "charges": [1, 5], "container-item": "flask_glass" },
-				{ "item": "matrix_crystal_vitakin_dust_refined", "x": 7, "y": 0, "chance": 8, "charges": [ 1, 3 ], "container-item": "test_tube" },
-				{ "item": "matrix_crystal_vitakin_dust", "x": 7, "y": 0, "chance": 30, "charges": [1, 5], "container-item": "flask_glass" },
+				{ "item": "matrix_crystal_biokin_dust_refined", "x": 7, "y": 4, "chance": 20 },
+				{ "item": "matrix_crystal_biokin_dust", "x": 7, "y": 4, "chance": 45 },
+				{ "item": "matrix_crystal_biokin_dust_refined", "x": 7, "y": 2, "chance": 20 },
+				{ "item": "matrix_crystal_biokin_dust", "x": 7, "y": 2, "chance": 45 },
+				{ "item": "matrix_crystal_biokin_dust_refined", "x": 7, "y": 0, "chance": 20 },
+				{ "item": "matrix_crystal_biokin_dust", "x": 7, "y": 0, "chance": 45 },
+				{ "item": "matrix_crystal_vitakin_dust_refined", "x": 7, "y": 4, "chance": 8 },
+				{ "item": "matrix_crystal_vitakin_dust", "x": 7, "y": 4, "chance": 30 },
+				{ "item": "matrix_crystal_vitakin_dust_refined", "x": 7, "y": 2, "chance": 8 },
+				{ "item": "matrix_crystal_vitakin_dust", "x": 7, "y": 2, "chance": 30 },
+				{ "item": "matrix_crystal_vitakin_dust_refined", "x": 7, "y": 0, "chance": 8 },
+				{ "item": "matrix_crystal_vitakin_dust", "x": 7, "y": 0, "chance": 30 },
 				{ "item": "matrix_crystal_biokinesis", "x": 7, "y": 2, "chance": 25 },
 				{ "item": "matrix_crystal_vitakinesis", "x": 7, "y": 2, "chance": 10 }
 			],
@@ -652,9 +652,9 @@
 				{ "item": "green_pen", "x": 2, "y": 5, "chance": 60 },
 				{ "item": "red_pen", "x": 2, "y": 5, "chance": 60 },
 				{ "item": "envelope", "x": 2, "y": 5, "chance": 60, "repeat": [ 1, 4 ]  },
-				{ "item": "paper", "x": 2, "y": 5,"charges": [ 2, 10 ], "prob": 90 },
+				{ "item": "paper", "x": 2, "y": 5, "repeat": [ 2, 10 ], "prob": 90 },
 				{ "item": "pen", "x": 6, "y": 5, "chance": 100 },
-				{ "item": "paper", "x": 6, "y": 5, "charges": [ 2, 10 ], "prob": 90 },
+				{ "item": "paper", "x": 6, "y": 5, "repeat": [ 2, 10 ], "prob": 90 },
 				{ "item": "lab_file_telepathy", "x": 0, "y": 6, "prob": 40 }
 			],
       "items": { 
@@ -700,9 +700,9 @@
 				{ "item": "green_pen", "x": 5, "y": 2, "chance": 60 },
 				{ "item": "red_pen", "x": 5, "y": 2, "chance": 60 },
 				{ "item": "envelope", "x": 5, "y": 2, "chance": 60, "repeat": [ 1, 4 ]  },
-				{ "item": "paper", "x": 5, "y": 2,"charges": [ 2, 10 ], "prob": 90 },
+				{ "item": "paper", "x": 5, "y": 2,"repeat": [ 2, 10 ], "prob": 90 },
 				{ "item": "pen", "x": 1, "y": 2, "chance": 100 },
-				{ "item": "paper", "x": 1, "y": 2, "charges": [ 2, 10 ], "prob": 90 },
+				{ "item": "paper", "x": 1, "y": 2, "repeat": [ 2, 10 ], "prob": 90 },
 				{ "item": "lab_file_telepathy", "x": 7, "y": 1, "prob": 40 }
 			],
       "items": { 
@@ -738,8 +738,8 @@
       ],
       "palettes": [ "office_phavian_palette" ],
 			"place_item": [
-				{ "item": "matrix_crystal_telepath_dust_refined", "x": 7, "y": 4, "chance": 20, "charges": [ 1, 3 ], "container-item": "test_tube" },
-				{ "item": "matrix_crystal_telepath_dust", "x": 7, "y": 4, "chance": 45, "charges": [1, 5], "container-item": "flask_glass" }
+				{ "item": "matrix_crystal_telepath_dust_refined", "x": 7, "y": 4, "chance": 20 },
+				{ "item": "matrix_crystal_telepath_dust", "x": 7, "y": 4, "chance": 45 }
 			],
       "items": {
 				"l": [
@@ -778,8 +778,8 @@
       ],
       "palettes": [ "office_phavian_palette" ],
 			"place_item": [
-				{ "item": "matrix_crystal_telepath_dust_refined", "x": 0, "y": 3, "chance": 20, "charges": [ 1, 3 ], "container-item": "test_tube" },
-				{ "item": "matrix_crystal_telepath_dust", "x": 0, "y": 3, "chance": 45, "charges": [1, 5], "container-item": "flask_glass" }
+				{ "item": "matrix_crystal_telepath_dust_refined", "x": 0, "y": 3, "chance": 20 },
+				{ "item": "matrix_crystal_telepath_dust", "x": 0, "y": 3, "chance": 45 }
 			],
       "items": {
 				"l": [
