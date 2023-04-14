@@ -7,7 +7,6 @@
     "required_skills": [ [ "metaphysics", 4 ] ],
     "time": "120 m",
     "components": [ ],
-	  "autolearn": true,
     "pre_special": "check_empty",
     "post_terrain": "f_teleporter_attuned_ground",
     "activity_level": "NO_EXERCISE"
