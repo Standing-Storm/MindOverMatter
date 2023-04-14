@@ -10,7 +10,7 @@
     "weight": "150 g",
     "longest_side": "21 mm",
     "material": [ "nether_crystal" ],
-    "looks-like": "art_crystal",
+    "looks_like": "art_crystal",
     "flags": [ "SINGLE_USE" ],
     "use_action": { "type": "effect_on_conditions", "description": "The pink glow calls to you.", "effect_on_conditions": [ "EOC_BIOKIN_MATRIX_AWAKENING" ] }
   },
@@ -24,7 +24,7 @@
     "volume": "1 ml",
     "weight": "15 g",
     "material": [ "powder_nonflam" ],
-    "looks-like": "material_quicklime"
+    "looks_like": "material_quicklime"
   },
   {
     "type": "GENERIC",
@@ -36,7 +36,7 @@
     "volume": "1 ml",
     "weight": "5 g",
     "material": [ "powder_nonflam" ],
-    "looks-like": "material_quicklime"
+    "looks_like": "material_quicklime"
   },
   {
     "type": "TOOL",
