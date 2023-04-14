@@ -7,7 +7,7 @@
 		"symbol": "#",
 		"color": "black",
 		"move_cost": 0,
-		"looks-like": "f_boulder_large",
+		"looks_like": "f_boulder_large",
 		"flags": [ "ALLOW_ON_OPEN_AIR", "PERMEABLE", "SHARP" ],
 		"bash": {
       "str_min": 20,
