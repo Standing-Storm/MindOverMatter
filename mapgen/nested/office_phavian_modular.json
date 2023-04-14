@@ -465,7 +465,7 @@
 				"Y": { "item": "jackets", "chance": 33, "repeat": [ 1, 2 ] },
 				"&": { "item": "trash", "chance": 75, "repeat": [ 1, 2 ] }
 			},
-			"place_monster": [ { "group": "GROUP_PHAVIAN_OFFICE", "x": [ 1, 6 ], "y": [ 1, 6 ], "repeat": [ 3, 6 ], "chance": 50 } ]
+			"place_monster": [ { "group": "GROUP_PHAVIAN_OFFICE", "x": [ 1, 6 ], "y": [ 1, 6 ], "repeat": [ 3, 6 ], "chance": 70 } ]
     }
   },
 	{
@@ -509,7 +509,7 @@
 				"Y": { "item": "jackets", "chance": 33, "repeat": [ 1, 2 ] },
 				"&": { "item": "trash", "chance": 75, "repeat": [ 1, 2 ] }
 			},
-			"place_monster": [ { "group": "GROUP_PHAVIAN_OFFICE", "x": [ 1, 6 ], "y": [ 1, 6 ], "repeat": [ 3, 6 ], "chance": 50 } ]
+			"place_monster": [ { "group": "GROUP_PHAVIAN_OFFICE", "x": [ 1, 6 ], "y": [ 1, 6 ], "repeat": [ 3, 6 ], "chance": 70 } ]
     }
   },
 	{
