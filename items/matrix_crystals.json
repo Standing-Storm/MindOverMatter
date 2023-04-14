@@ -23,6 +23,7 @@
     "symbol": "=",
     "volume": "1 ml",
     "weight": "15 g",
+    "container": "test_tube",
     "material": [ "powder_nonflam" ],
     "looks_like": "material_quicklime"
   },
@@ -35,6 +36,7 @@
     "symbol": "=",
     "volume": "1 ml",
     "weight": "5 g",
+    "container": "test_tube",
     "material": [ "powder_nonflam" ],
     "looks_like": "material_quicklime"
   },
