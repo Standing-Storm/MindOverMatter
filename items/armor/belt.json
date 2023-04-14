@@ -75,11 +75,16 @@
     ],
     "extend": { "flags": [ "NO_TAKEOFF" ] },
     "relic_data": {
-      "values": [ 
-        { "value": "ARMOR_CUT", "add": -15 },
-        { "value": "ARMOR_BASH", "add": -8 },
-        { "value": "ARMOR_STAB", "add": -20 },
-        { "value": "ARMOR_BULLET", "add": -40 }
+      "passive_effects": [ 
+        { "has": "WORN", 
+         "condition": "ALWAYS", 
+         "values": [ 
+           { "value": "ARMOR_CUT", "add": -15 },
+           { "value": "ARMOR_BASH", "add": -8 },
+           { "value": "ARMOR_STAB", "add": -20 },
+           { "value": "ARMOR_BULLET", "add": -40 }
+         ]
+        }
       ]
     }
   },
@@ -182,9 +187,14 @@
     ],
     "extend": { "flags": [ "NO_TAKEOFF" ] },
     "relic_data": {
-      "values": [ 
-        { "value": "ARMOR_HEAT", "add": -80 },
-        { "value": "CLIMATE_CONTROL_CHILL", "add": 400 }
+      "passive_effects": [ 
+        { "has": "WORN", 
+         "condition": "ALWAYS", 
+         "values": [ 
+           { "value": "ARMOR_HEAT", "add": -80 },
+           { "value": "CLIMATE_CONTROL_CHILL", "add": 400 }
+         ]
+        }
       ]
     }
   },
