@@ -57,11 +57,11 @@
 				"c": "t_carpet_linoleum_gray_green"
 			},
 			"place_item": [
-				{ "item": "water_clean", "x": 4, "y": 0, "prob": 30, "repeat": [ 1, 2 ] },
-				{ "item": "water_clean", "x": 5, "y": 0, "prob": 30, "repeat": [ 1, 2 ] },
-				{ "item": "water_clean", "x": 6, "y": 0, "prob": 30, "repeat": [ 1, 2 ] },
-				{ "item": "water_clean", "x": 7, "y": 0, "prob": 30, "repeat": [ 1, 2 ] },
-				{ "item": "water_clean", "x": 7, "y": 1, "prob": 30, "repeat": [ 1, 2 ] }
+				{ "item": "water_clean", "x": 4, "y": 0, "chance": 30, "repeat": [ 1, 2 ] },
+				{ "item": "water_clean", "x": 5, "y": 0, "chance": 30, "repeat": [ 1, 2 ] },
+				{ "item": "water_clean", "x": 6, "y": 0, "chance": 30, "repeat": [ 1, 2 ] },
+				{ "item": "water_clean", "x": 7, "y": 0, "chance": 30, "repeat": [ 1, 2 ] },
+				{ "item": "water_clean", "x": 7, "y": 1, "chance": 30, "repeat": [ 1, 2 ] }
 			],
       "items": { 
 				"d": [
@@ -96,11 +96,11 @@
 				"c": "t_carpet_linoleum_gray_green"
 			},
 			"place_item": [
-				{ "item": "water_clean", "x": 0, "y": 6, "prob": 30, "repeat": [ 1, 2 ] },
-				{ "item": "water_clean", "x": 0, "y": 7, "prob": 30, "repeat": [ 1, 2 ] },
-				{ "item": "water_clean", "x": 1, "y": 7, "prob": 30, "repeat": [ 1, 2 ] },
-				{ "item": "water_clean", "x": 2, "y": 7, "prob": 30, "repeat": [ 1, 2 ] },
-				{ "item": "water_clean", "x": 3, "y": 7, "prob": 30, "repeat": [ 1, 2 ] }
+				{ "item": "water_clean", "x": 0, "y": 6, "chance": 30, "repeat": [ 1, 2 ] },
+				{ "item": "water_clean", "x": 0, "y": 7, "chance": 30, "repeat": [ 1, 2 ] },
+				{ "item": "water_clean", "x": 1, "y": 7, "chance": 30, "repeat": [ 1, 2 ] },
+				{ "item": "water_clean", "x": 2, "y": 7, "chance": 30, "repeat": [ 1, 2 ] },
+				{ "item": "water_clean", "x": 3, "y": 7, "chance": 30, "repeat": [ 1, 2 ] }
 			],
       "items": { 
 				"d": [
@@ -131,8 +131,8 @@
 			],
 			"palettes": [ "office_phavian_palette" ],
 			"place_item": [
-				{ "item": "water_clean", "x": 7, "y": 0, "prob": 30, "repeat": [ 1, 2 ] },
-				{ "item": "water_clean", "x": 7, "y": 1, "prob": 30, "repeat": [ 1, 2 ] },
+				{ "item": "water_clean", "x": 7, "y": 0, "chance": 30, "repeat": [ 1, 2 ] },
+				{ "item": "water_clean", "x": 7, "y": 1, "chance": 30, "repeat": [ 1, 2 ] },
 				{ "item": "television", "x": 3, "y": 7, "chance": 100 },
 				{ "item": "television", "x": 4, "y": 7, "chance": 100 }
 			],
@@ -164,8 +164,8 @@
 			],
 			"palettes": [ "office_phavian_palette" ],
 			"place_item": [
-				{ "item": "water_clean", "x": 0, "y": 6, "prob": 30, "repeat": [ 1, 2 ] },
-				{ "item": "water_clean", "x": 0, "y": 7, "prob": 30, "repeat": [ 1, 2 ] },
+				{ "item": "water_clean", "x": 0, "y": 6, "chance": 30, "repeat": [ 1, 2 ] },
+				{ "item": "water_clean", "x": 0, "y": 7, "chance": 30, "repeat": [ 1, 2 ] },
 				{ "item": "television", "x": 3, "y": 0, "chance": 100 },
 				{ "item": "television", "x": 4, "y": 0, "chance": 100 }
 			],
