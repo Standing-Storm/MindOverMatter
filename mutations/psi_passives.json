@@ -126,7 +126,7 @@
     "points": 0,
     "description": "Your psionic powers speed your healing slightly, and any broken limbs you have mend straight and true.",
     "healing_awake": 0.2,
-    "healing_resting": 0.25,
+		"healing_multiplier": 1.2,
     "mending_modifier": 1.5,
 		"vitamin_rates": [ [ "mutant_toxin", 180 ] ], 
 		"flags": [ "MEND_ALL" ],
