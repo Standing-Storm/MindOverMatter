@@ -9,7 +9,6 @@
 	    "weight": "30 g",
 	    "volume": "25 ml",
 	    "phase": "liquid",
-	    "count": 10,
 	    "price": 10,
 	    "price_postapoc": 1,
 	    "container": "flask_glass",
