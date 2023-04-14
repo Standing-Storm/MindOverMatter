@@ -311,10 +311,10 @@
 			],
 			"palettes": [ "office_phavian_palette" ],
 			"place_item": [
-				{ "item": "matrix_channeling_tool", "x": 3, "y": 2, "chance": 25 },
-				{ "item": "matrix_channeling_tool", "x": 3, "y": 3, "chance": 25 },
-				{ "item": "matrix_channeling_tool", "x": 4, "y": 2, "chance": 25 },
-        { "item": "matrix_channeling_tool", "x": 4, "y": 3, "chance": 25 }
+				{ "item": "matrix_channeling_tool", "x": 3, "y": 4, "chance": 25 },
+				{ "item": "matrix_channeling_tool", "x": 3, "y": 5, "chance": 25 },
+				{ "item": "matrix_channeling_tool", "x": 4, "y": 4, "chance": 25 },
+        { "item": "matrix_channeling_tool", "x": 4, "y": 5, "chance": 25 }
 			],
 			"items": {
 				"l": [
