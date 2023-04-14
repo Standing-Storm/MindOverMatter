@@ -12,7 +12,7 @@
     "bashing": 3,
     "material": [ "paper" ],
     "symbol": "?",
-    "looks-like": "book_nonf_hard_psych_moodalm",
+    "looks_like": "book_nonf_hard_psych_moodalm",
     "color": "white",
     "skill": "metaphysics",
     "required_level": 0,
