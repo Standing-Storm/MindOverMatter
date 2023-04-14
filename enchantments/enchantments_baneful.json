@@ -19,7 +19,7 @@
     "condition": "ALWAYS",
     "has": "HELD",
     "emitter": "emit_pyrokin_fever",
-    "value": [ { "value": "LUMINATION", "add": 50 } ]
+    "values": [ { "value": "LUMINATION", "add": 50 } ]
   },
   {
     "type": "enchantment",
