@@ -917,7 +917,7 @@
 				"&": { "item": "trash", "chance": 75, "repeat": [ 1, 2 ] }
 			},
 			"place_monster": [ 
-				{ "monster": "GROUP_NETHER", "x": [0, 7], "y": [3, 7], "repeat": [ 0, 4 ], "chance": 50 },
+				{ "group": "GROUP_NETHER", "x": [0, 7], "y": [3, 7], "repeat": [ 0, 4 ], "chance": 50 },
 				{ "group": "GROUP_PHAVIAN_OFFICE", "x": [ 1, 6 ], "y": [ 1, 6 ], "repeat": [ 2, 4 ], "chance": 50 }
 			]
 		}
@@ -959,7 +959,7 @@
 				"&": { "item": "trash", "chance": 75, "repeat": [ 1, 2 ] }
 			},
 			"place_monster": [ 
-				{ "monster": "GROUP_NETHER", "x": [0, 7], "y": [0, 4], "repeat": [ 0, 4 ], "chance": 50 },
+				{ "group": "GROUP_NETHER", "x": [0, 7], "y": [0, 4], "repeat": [ 0, 4 ], "chance": 50 },
 				{ "group": "GROUP_PHAVIAN_OFFICE", "x": [ 1, 6 ], "y": [ 1, 6 ], "repeat": [ 2, 4 ], "chance": 50 }
 			]
     }
