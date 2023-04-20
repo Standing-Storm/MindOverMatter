@@ -1,5 +1,5 @@
 # Mind Over Matter
-A WIP Psionics mod for Cataclysm: Dark Days Ahead (current status: about to start mapgenning new areas. Current version, 0.6 Beta for latest experimental. If you are on 0.G stable, download 0.5.2 [here](https://github.com/Standing-Storm/MindOverMatter/releases/tag/v0.5.2)) 
+A WIP Psionics mod for Cataclysm: Dark Days Ahead (current status: finishing up mapgen, adjusting power scaling to account for intelligence. Current version, 0.6 Beta for latest experimental. If you are on 0.G stable, download 0.5.2 [here](https://github.com/Standing-Storm/MindOverMatter/releases/tag/v0.5.2)) 
 
 This mod adds (currently) seven separate psionic power paths to Cataclysm, including:
 
