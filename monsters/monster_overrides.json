@@ -124,11 +124,5 @@
     "copy-from": "mon_shoggoth",
     "type": "MONSTER",
     "regeneration_modifiers": [ [ "effect_vitakin_hurt", -25 ] ]
-  },
-  {  
-    "id": "mon_nakedmolerat_giant", 
-    "copy-from": "mon_nakedmolerat_giant",
-    "type": "MONSTER",
-    "regeneration_modifiers": [ [ "effect_vitakin_hurt", -5 ] ]
   }
 ]
