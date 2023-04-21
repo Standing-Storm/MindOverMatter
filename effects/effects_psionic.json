@@ -11,10 +11,10 @@
 			[ "The power filling your body is starting to dissipate.", "bad" ] 
 		],
 		"rating": "good",
-		"max_duration": "30 minutes",
+		"max_duration": "45 minutes",
 		"max_intensity": 100,
 		"dur_add_perc": 10,
-		"int_dur_factor": "19 s",
+		"int_dur_factor": "27 s",
 		"removes_effects": [ "venom_weaken" ],
 		"base_mods": { "str_mod": [ 1 ], "dex_mod": [ 1 ] },
 		"enchantments": [
