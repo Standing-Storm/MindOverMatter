@@ -15,7 +15,7 @@
 	          { "group": "radio", "prob": 15 },
 	          { "group": "psi_lab", "prob": 60 },
 	          { "group": "textbooks", "prob": 25 },
-						{ "group": "lab_postit_psi", "prob": 15 },
+						{ "item": "lab_postit_psi", "prob": 15 },
 						{ "item": "id_science_visitor_phavian", "prob": 15 }
 	        ]
 	      },
