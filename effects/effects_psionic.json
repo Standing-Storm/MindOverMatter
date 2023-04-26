@@ -20,8 +20,8 @@
 		"enchantments": [
 			{  
 				"values": [ 
-					{ "value": "STRENGTH", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "biokin_physical_enhance" }, "/", { "const": 5 } ] } },
-					{ "value": "DEXTERITY", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "biokin_physical_enhance" }, "/", { "const": 5 } ] } }
+					{ "value": "STRENGTH", "add": { "math": [ "(u_val('spell_level', 'spell: biokin_physical_enhance') / 5" ] } },
+					{ "value": "DEXTERITY", "add": { "math": [ "(u_val('spell_level', 'spell: biokin_physical_enhance') / 5" ] } }
 				]
 			}
 		]
