@@ -157,7 +157,7 @@
 		"min_duration": { "math": [ "( ( (u_val('spell_level', 'spell: telepathic_confusion') * 100) + 400) * ( ( u_val('intelligence') + 10) / 20 ) )" ] },
 		"max_duration": { "math": [ "( ( (u_val('spell_level', 'spell: telepathic_confusion') * 100) + 2000) * ( ( u_val('intelligence') + 10) / 20 ) )" ] },
 		"min_range": { "math": [ "( ( (u_val('spell_level', 'spell: telepathic_confusion') * 2) + 3) * ( ( u_val('intelligence') + 10) / 20 ) )" ] },
-		"max_range": 80
+		"max_range": 80,
 		"energy_source": "STAMINA",
 		"base_energy_cost": 2000,
 		"final_energy_cost": 500,
@@ -188,7 +188,7 @@
 		"max_damage": 120,
 		"damage_increment": 1,
 		"min_range": { "math": [ "( ( (u_val('spell_level', 'spell: telepathic_blast') * 2) + 3) * ( ( u_val('intelligence') + 10) / 20 ) )" ] },
-		"max_range": 80
+		"max_range": 80,
 		"energy_source": "STAMINA",
 		"base_energy_cost": 3500,
 		"final_energy_cost": 500,
