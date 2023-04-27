@@ -215,7 +215,7 @@
 		"energy_source": "STAMINA",
 		"difficulty": 3,
 		"max_level": { "math": [ "( u_val('intelligence') * 1.5 )" ] },
-		"min_range": { "math": [ "( ( (u_val('spell_level', 'spell: clair_spot_weakness') * 1.5) + 1) * ( ( u_val('intelligence') + 10) / 20 ) )" ] }
+		"min_range": { "math": [ "( ( (u_val('spell_level', 'spell: clair_spot_weakness') * 1.5) + 1) * ( ( u_val('intelligence') + 10) / 20 ) )" ] },
 		"max_range": 70,
 		"base_energy_cost": 2500,
 		"final_energy_cost": 500,
