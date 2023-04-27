@@ -51,7 +51,7 @@
 	  "affected_body_parts": [ "eyes" ],
 	  "difficulty": 1,
 	  "max_level": { "math": [ "( u_val('intelligence') * 1.5 )" ] },
-	  "min_range": { "math": [ "( ( (u_val('spell_level', 'spell: pyrokinetic_flash') * 1.5) + 3 * ( ( u_val('intelligence') + 10) / 20 ) )" ] },
+	  "min_range": { "math": [ "( ( (u_val('spell_level', 'spell: pyrokinetic_flash') * 1.5) + 3 ) * ( ( u_val('intelligence') + 10) / 20 ) )" ] },
 	  "max_range": 75,
 	  "min_aoe": { "math": [ "( ( (u_val('spell_level', 'spell: pyrokinetic_flash') * 0.25) + 1) * ( ( u_val('intelligence') + 10) / 20 ) )" ] },
 	  "max_aoe": { "math": [ "( ( (u_val('spell_level', 'spell: pyrokinetic_flash') * 0.25) + 4) * ( ( u_val('intelligence') + 10) / 20 ) )" ] },
