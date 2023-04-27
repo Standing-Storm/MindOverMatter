@@ -231,7 +231,7 @@
     "material": [ "nether_crystal" ],
     "weight": "450 g",
     "volume": "30 ml",
-    "cutting": 6,
+    "melee_damage": { "cut": 6 },
     "use_action": {
       "type": "place_trap",
       "trap": "tr_glass",
