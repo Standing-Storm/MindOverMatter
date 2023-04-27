@@ -9,7 +9,7 @@
     "volume": "1250 ml",
     "price": 2500,
     "price_postapoc": 150,
-    "bashing": 3,
+    "melee_damage": { "bash": 3},
     "material": [ "paper" ],
     "symbol": "?",
     "looks_like": "book_nonf_hard_psych_moodalm",
