@@ -187,7 +187,7 @@
 		"difficulty": 7,
 		"max_level": { "math": [ "( u_val('intelligence') * 1.5 )" ] },
 		"min_damage": { "math": [ "( ( (u_val('spell_level', 'spell: teleport_banish') * 15) + 15) * ( ( u_val('intelligence') + 10) / 20 ) )" ] },
-		"max_damage": { "math": [ "( ( (u_val('spell_level', 'spell: teleport_banish') * 35) + 350) * ( ( u_val('intelligence') + 10) / 20 ) )" ] },,
+		"max_damage": { "math": [ "( ( (u_val('spell_level', 'spell: teleport_banish') * 35) + 350) * ( ( u_val('intelligence') + 10) / 20 ) )" ] },
 		"min_range": { "math": [ "( ( (u_val('spell_level', 'spell: teleport_banish') * 2) + 1.5) * ( ( u_val('intelligence') + 10) / 20 ) )" ] },
 		"max_range": 80,
 		"energy_source": "STAMINA",
