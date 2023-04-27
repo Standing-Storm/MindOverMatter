@@ -4,6 +4,7 @@
     "id": "metaphysics",
     "name": { "str": "metaphysics" },
     "display_category": "display_ranged",
+    "sort_rank": 14500,
     "description": "Your ability to manipulate forces of energy often considered supernatural."
   }
 ]

@@ -47,6 +47,8 @@ WAIT, STAMINA?
 
 I realize it's a bit counterintuitive that taking Indefatiguable or mutating mouse will make you a better psychic, but this was the best solution I could think of for compatibility. There's no way to implement cooldowns for individual powers and I don't want to use mana and make it regenerate very fast for psychics because that breaks compatibility with every single magic mod out there. Fatigue or Weariness would also fit but it's not currently possible to use Fatigue as a spell power source without adding a custom extra effect for every single power, and not possible to interact with Weariness at all, so until that's an option or there's a way to make a custom power pool, Stamina it is. 
 
+Weariness is still my goal here, but until it's possible to use it in spells Drain (described above) is the substitute. 
+
 FUTURE PLANS
 
 1) Add electrokinesis if they ever let spells interact with battery charge.
