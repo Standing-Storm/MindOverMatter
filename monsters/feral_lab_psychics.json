@@ -111,7 +111,7 @@
     "armor_cut": 6,
     "armor_stab": 6,
     "armor_bullet": 10,
-     "armor": { "bash": 8, "cut": 6, "stab": 6, "bullet": 10 }
+     "armor": { "bash": 8, "cut": 6, "stab": 6, "bullet": 10 },
     "harvest": "human",
     "dissect": "dissect_human_sample_single",
     "vision_day": 35,
