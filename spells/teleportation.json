@@ -77,7 +77,7 @@
 		"difficulty": 3,
 		"max_level": { "math": [ "( u_val('intelligence') * 1.5 )" ] },
 		"min_range": { "math": [ "( ( (u_val('spell_level', 'spell: teleport_transpose') * 2.5) + 1) * ( ( u_val('intelligence') + 10) / 20 ) )" ] },
-		"max_range": 80
+		"max_range": 80,
 		"energy_source": "STAMINA",
 		"base_energy_cost": 2250,
 		"final_energy_cost": 1000,
@@ -106,7 +106,7 @@
 		"max_aoe": 1,
 		"aoe_increment": -0.25,
 		"min_range": { "math": [ "( ( (u_val('spell_level', 'spell: teleport_farstep') * 2.5) + 2) * ( ( u_val('intelligence') + 10) / 20 ) )" ] },
-		"max_range":80
+		"max_range": 80,
 		"energy_source": "STAMINA",
 		"base_energy_cost": 3500,
 		"final_energy_cost": 1750,
@@ -134,7 +134,7 @@
 		"min_damage": { "math": [ "( ( (u_val('spell_level', 'spell: teleport_collapse') * -0.15) - 1) * ( ( u_val('intelligence') + 10) / 20 ) )" ] },
 		"max_damage": { "math": [ "( ( (u_val('spell_level', 'spell: teleport_collapse') * -0.15) - 3) * ( ( u_val('intelligence') + 10) / 20 ) )" ] },
 		"min_range": { "math": [ "( ( (u_val('spell_level', 'spell: teleport_collapse') * 1.2) + 5) * ( ( u_val('intelligence') + 10) / 20 ) )" ] },
-		"max_range": 80
+		"max_range": 80,
 		"min_aoe": 3,
 		"max_aoe": 10,
 		"aoe_increment": 0.25,
@@ -189,7 +189,7 @@
 		"min_damage": { "math": [ "( ( (u_val('spell_level', 'spell: teleport_banish') * 15) + 15) * ( ( u_val('intelligence') + 10) / 20 ) )" ] },
 		"max_damage": { "math": [ "( ( (u_val('spell_level', 'spell: teleport_banish') * 35) + 350) * ( ( u_val('intelligence') + 10) / 20 ) )" ] },,
 		"min_range": { "math": [ "( ( (u_val('spell_level', 'spell: teleport_banish') * 2) + 1.5) * ( ( u_val('intelligence') + 10) / 20 ) )" ] },
-		"max_range": 80
+		"max_range": 80,
 		"energy_source": "STAMINA",
 		"base_energy_cost": 6500,
 		"final_energy_cost": 3500,
