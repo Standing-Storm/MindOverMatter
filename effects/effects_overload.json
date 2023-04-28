@@ -8,7 +8,7 @@
 		"apply_message": "You feel a little tired.  All that psionic channeling is starting to wear you down.",
 		"int_add_val": 1,  
 		"max_intensity": 100,
-		"dur_add_perc": 50,
+		"dur_add_perc": 110,
 		"int_decay_step": -1,
     "int_decay_tick": 14400,   
 		"max_duration": "168 hours",
