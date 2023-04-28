@@ -1,0 +1,17 @@
+[
+  {
+    "//": "telepathic damage, like from a mental assault",
+    "id": "telepathic",
+    "type": "damage_type",
+    "melee_only": false,
+    "physical": false,
+    "edged": false,
+    "environmental": false,
+    "magic_color": "white",
+    "name": "telepathic",
+    "skill": "metaphysics",
+    "info_display": "detailed",
+    "immune_flags": { "character": [ "TEEPSHIELD" ], "monster": [ "NO_MIND" ] },
+    "no_resist": false
+  }
+]
