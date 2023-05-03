@@ -7,8 +7,8 @@
     "points": 1,
     "items": {
       "both": {
-        "items": [ "jeans", "longshirt", "socks", "sneakers", "mbag", "water_clean", "wristwatch" ],
-        "entries": [ { "group": "charged_smart_phone" }, { "group": "charged_matches" }, { "group": "dist_matrix_crystals" } ]
+        "items": [ "jeans", "longshirt", "socks", "sneakers", "mbag", "water_clean", "wristwatch", "matrix_crystal_coruscating" ],
+        "entries": [ { "group": "charged_smart_phone" }, { "group": "charged_matches" } ]
       },
       "male": [ "boxer_shorts" ],
       "female": [ "bra", "panties" ]
