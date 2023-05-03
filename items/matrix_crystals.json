@@ -222,6 +222,20 @@
   },
   {
     "type": "TOOL",
+    "id": "matrix_crystal_coruscating",
+    "name": { "str_sp": "strange crystal" },
+    "description": "A strange-looking, surprisingly-heavy crystal.  In total darkness, multicolored lights churl and swirl within its depths.",
+    "color": "color_brown",
+    "symbol": "+",
+    "volume": "10 ml",
+    "weight": "150 g",
+    "longest_side": "21 mm",
+    "material": [ "nether_crystal" ],
+    "looks_like": "art_crystal",
+    "use_action": { "type": "effect_on_conditions", "description": "The coruscating light calls to you.", "effect_on_conditions": [ "EOC_CORUSCATING_MATRIX" ] }
+  },
+  {
+    "type": "TOOL",
     "id": "matrix_shard",
     "symbol": ",",
     "color": "white",
