@@ -181,7 +181,6 @@
           { "group": "electronics", "prob": 40 },
           { "group": "radio", "prob": 15 },
           { "group": "textbooks", "prob": 25 },
-          { "group": "autodoc_installation_programs", "prob": 5 },
           { "group": "feral_humans_crystal_drops_telekin", "prob": 50 },
           { "group": "feral_humans_crystal_drops_teep", "prob": 50 },
           { "group": "collection_matrix_dust", "prob": 50, "count": [ 1, 3 ] },
