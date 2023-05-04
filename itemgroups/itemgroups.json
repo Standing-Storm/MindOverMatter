@@ -4,13 +4,14 @@
     "subtype": "distribution",
     "id": "dist_matrix_crystals",
     "items": [
-      [ "matrix_crystal_biokinesis", 1 ],
-      [ "matrix_crystal_clairsentience", 1 ],
-      [ "matrix_crystal_pyrokinesis", 1 ],
-      [ "matrix_crystal_telekinesis", 1 ],
-      [ "matrix_crystal_telepathy", 1 ],
-      [ "matrix_crystal_teleportation", 1 ],
-      [ "matrix_crystal_vitakinesis", 1 ]
+      [ "matrix_crystal_biokinesis", 5 ],
+      [ "matrix_crystal_clairsentience", 5 ],
+      [ "matrix_crystal_pyrokinesis", 5 ],
+      [ "matrix_crystal_telekinesis", 5 ],
+      [ "matrix_crystal_telepathy", 5 ],
+      [ "matrix_crystal_teleportation", 5 ],
+      [ "matrix_crystal_vitakinesis", 5 ],
+      [ "matrix_crystal_coruscating", 1 ]
     ]
   },
   {
@@ -18,14 +19,15 @@
     "subtype": "distribution",
     "id": "dist_matrix_crystals_rare",
     "items": [
-      [ "null", 75 ],
-      [ "matrix_crystal_biokinesis", 1 ],
-      [ "matrix_crystal_clairsentience", 1 ],
-      [ "matrix_crystal_pyrokinesis", 1 ],
-      [ "matrix_crystal_telekinesis", 1 ],
-      [ "matrix_crystal_telepathy", 1 ],
-      [ "matrix_crystal_teleportation", 1 ],
-      [ "matrix_crystal_vitakinesis", 1 ]
+      [ "null", 150 ],
+      [ "matrix_crystal_biokinesis", 5 ],
+      [ "matrix_crystal_clairsentience", 5 ],
+      [ "matrix_crystal_pyrokinesis", 5 ],
+      [ "matrix_crystal_telekinesis", 5 ],
+      [ "matrix_crystal_telepathy", 5 ],
+      [ "matrix_crystal_teleportation", 5 ],
+      [ "matrix_crystal_vitakinesis", 5 ],
+      [ "matrix_crystal_coruscating", 1 ]
     ]
   },
   {
