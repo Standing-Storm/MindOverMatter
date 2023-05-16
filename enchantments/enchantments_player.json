@@ -42,10 +42,10 @@
     "has": "HELD",
     "emitter": "emit_pyrokin_cloak",
     "values": [
-      { "value": "CLIMATE_CONTROL_CHILL", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "pyrokinetic_cloak" }, "*", { "const": 10 } ] } },
-      { "value": "CLIMATE_CONTROL_HEAT", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "pyrokinetic_cloak" }, "*", { "const": 10 } ] } },
-      { "value": "ARMOR_HEAT", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "pyrokinetic_cloak" }, "*", { "const": -10 } ] } },
-      { "value": "ARMOR_COLD", "add": { "arithmetic": [ { "u_val": "spell_level", "spell": "pyrokinetic_cloak" }, "*", { "const": -3 } ] } }
+      { "value": "CLIMATE_CONTROL_CHILL", "add": { "math": [ "( ( u_val('spell_level', 'spell: pyrokinetic_cloak') * 10) * ( ( u_val('intelligence') + 10) / 20 ) )" ] } },
+      { "value": "CLIMATE_CONTROL_HEAT", "add": { "math": [ "( ( u_val('spell_level', 'spell: pyrokinetic_cloak') * 10) * ( ( u_val('intelligence') + 10) / 20 ) )" ] } },
+      { "value": "ARMOR_HEAT", "add": { "math": [ "( ( u_val('spell_level', 'spell: pyrokinetic_cloak') * -10) * ( ( u_val('intelligence') + 10) / 20 ) )" ] } },
+      { "value": "ARMOR_COLD", "add": { "math": [ "( ( u_val('spell_level', 'spell: pyrokinetic_cloak') * -3) * ( ( u_val('intelligence') + 10) / 20 ) )" ] } }
     ]
   },
   {
