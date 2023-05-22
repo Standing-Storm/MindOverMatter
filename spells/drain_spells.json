@@ -189,5 +189,57 @@
       { "id": "death_fakespell" },
       { "id": "psionic_drained_spell", "hit_self": true }
     ]
+  },
+  {
+    "id": "psionic_drained_difficulty_eight",
+    "type": "SPELL",
+    "name": { "str": "Fifty Percent Drained Chance" },
+    "valid_targets": [ "self" ],
+    "description": "50% chance to get drained.",
+    "flags": [ "SILENT", "WONDER", "NO_EXPLOSION_SFX" ],
+    "message": "",
+    "shape": "blast",
+    "effect": "noise",
+    "min_damage": 1,
+    "max_damage": 1,
+    "extra_effects": [
+      { "id": "death_fakespell" },
+      { "id": "psionic_drained_spell", "hit_self": true }
+    ]
+  },
+  {
+    "id": "psionic_drained_difficulty_nine",
+    "type": "SPELL",
+    "name": { "str": "Seventy-five Percent Drained Chance" },
+    "valid_targets": [ "self" ],
+    "description": "75% chance to get drained.",
+    "flags": [ "SILENT", "WONDER", "NO_EXPLOSION_SFX" ],
+    "message": "",
+    "shape": "blast",
+    "effect": "noise",
+    "min_damage": 1,
+    "max_damage": 1,
+    "extra_effects": [
+      { "id": "death_fakespell" },
+      { "id": "psionic_drained_spell", "hit_self": true },
+      { "id": "psionic_drained_spell", "hit_self": true },
+      { "id": "psionic_drained_spell", "hit_self": true }
+    ]
+  },
+  {
+    "id": "psionic_drained_difficulty_ten",
+    "type": "SPELL",
+    "name": { "str": "One hundred Percent Drained Chance" },
+    "valid_targets": [ "self" ],
+    "description": "100% chance to get drained.",
+    "flags": [ "SILENT", "WONDER", "NO_EXPLOSION_SFX" ],
+    "message": "",
+    "shape": "blast",
+    "effect": "noise",
+    "min_damage": 1,
+    "max_damage": 1,
+    "extra_effects": [
+      { "id": "psionic_drained_spell", "hit_self": true }
+    ]
   }
 ]
