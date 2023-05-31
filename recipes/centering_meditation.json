@@ -4,7 +4,7 @@
     "activity_level": "ACTIVE_EXERCISE",
     "name": "centering meditation",
     "id": "meditation_reduce_drain",
-    "description": "Center yourself and bleed out drain, preventing any further ill effects.  This meditation is extremely physically taxing.",
+    "description": "Center yourself and bleed out drain, reducing its effects.  This meditation is extremely physically taxing.",
     "category": "CSC_PSIONIC",
     "subcategory": "CSC_PSIONIC_OTHER",
     "skill_used": "metaphysics",
