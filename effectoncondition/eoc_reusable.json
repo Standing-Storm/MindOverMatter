@@ -1,0 +1,13 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_INTENSITY_REDUCER",
+    "condition": {
+       "and": [
+         { "expects_vars": [ ] } 
+       ]
+    },
+    "effect": [
+    ]
+  }
+]
