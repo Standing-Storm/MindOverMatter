@@ -15,7 +15,17 @@
     "flags": [ "SECRET", "BLIND_HARD" ],
     "result_eocs": [ 
       {
-        "id": "EOC_MEDITATION_REDUCE_DRAIN", 
+        "id": "EOC_MEDITATION_REDUCE_DRAIN",
+        "condition": { "u_has_effect": "effect_psionic_drain" },
+        "effect": [
+          {
+            "run_eoc_with": "EOC_INTENSITY_REDUCER",
+            "variables": {
+              "effect_name": "effect_psionic_drain",
+              "intensity_level": "intensity",
+            }
+          }
+        ] 		
       }
     ]
   }
