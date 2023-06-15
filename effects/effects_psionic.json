@@ -566,8 +566,8 @@
 		"apply_message": "",
 		"remove_message": "Nearby movement returns to normal.",
 		"decay_messages": [ 
-			[ "The flames around you spark fitfully.", "bad"],
-			[ "Your aura of flames is beginning to fade.", "bad" ] 
+			[ "Nearby momentum has nearly returned to normal.", "bad"],
+      [ "Your alterations to movement around you are fading.", "bad" ]
 		],
 		"rating": "good",
 		"max_duration": "15 minutes",
