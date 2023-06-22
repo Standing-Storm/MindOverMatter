@@ -418,8 +418,7 @@
     "effect": [
       { "u_message": "You gaze into the strange crystal and the light slowly grows brighter.  You become aware of your skin, of every cut and bruise and scrape, of the food sitting in your stomach and the air moving in and out of your lungs.  The sensation grows rapidly until your stomach feels like it will burst and every brush of clothing on your skin is like rasping sandpaper.  As the light fades from the crystal, a searing pains fills your had.", "popup": true },
       { "u_add_effect": "psionic_overload", "duration": "1 hours" },
-      { "u_add_effect": "stunned", "duration": 5 },
-      { "u_spawn_item": "matrix_crystal_drained", "suppress_message": true }
+      { "u_add_effect": "stunned", "duration": 5 }
     ]
   },
   {
