@@ -75,5 +75,16 @@
 					] 
 				} 
 			] 
-		}
+		},
+		{
+		"type": "mutation",
+		"id": "TELEKINETIC_CARRY",
+		"name": { "str": "Lightened Burden" },
+		"points": 0,
+		"description": "You are using your psionic powers to ease your carry burden.",
+		"weight_capacity_modifier": 1.1,
+		"valid": false,
+		"player_display": true,
+		"purifiable": false
+	}
 ]
