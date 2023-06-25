@@ -17,7 +17,7 @@
       {
         "pocket_type": "CONTAINER",
 "holster": true,
-        "max_contains_volume": "100000  L",
+        "max_contains_volume": "10000  L",
         "max_contains_weight": "2 kg",
         "max_item_length": "2000 cm",
         "moves": 10,
@@ -45,7 +45,7 @@
       {
         "pocket_type": "CONTAINER",
 "holster": true,
-        "max_contains_volume": "100000  L",
+        "max_contains_volume": "10000  L",
         "max_contains_weight": "5 kg",
         "max_item_length": "2000 cm",
         "moves": 10,
@@ -73,7 +73,7 @@
       {
         "pocket_type": "CONTAINER",
 "holster": true,
-        "max_contains_volume": "100000  L",
+        "max_contains_volume": "10000  L",
         "max_contains_weight": "8 kg",
         "max_item_length": "2000 cm",
         "moves": 10,
@@ -101,7 +101,7 @@
       {
         "pocket_type": "CONTAINER",
 "holster": true,
-        "max_contains_volume": "100000  L",
+        "max_contains_volume": "10000  L",
         "max_contains_weight": "12 kg",
         "max_item_length": "2000 cm",
         "moves": 10,
@@ -129,7 +129,7 @@
       {
         "pocket_type": "CONTAINER",
 "holster": true,
-        "max_contains_volume": "100000  L",
+        "max_contains_volume": "10000  L",
         "max_contains_weight": "17 kg",
         "max_item_length": "2000 cm",
         "moves": 10,
@@ -157,7 +157,7 @@
       {
         "pocket_type": "CONTAINER",
 "holster": true,
-        "max_contains_volume": "100000  L",
+        "max_contains_volume": "10000  L",
         "max_contains_weight": "23 kg",
         "max_item_length": "2000 cm",
         "moves": 10,
@@ -185,7 +185,7 @@
       {
         "pocket_type": "CONTAINER",
 "holster": true,
-        "max_contains_volume": "100000  L",
+        "max_contains_volume": "10000  L",
         "max_contains_weight": "30 kg",
         "max_item_length": "2000 cm",
         "moves": 10,
@@ -213,7 +213,7 @@
       {
         "pocket_type": "CONTAINER",
 "holster": true,
-        "max_contains_volume": "100000  L",
+        "max_contains_volume": "10000  L",
         "max_contains_weight": "38 kg",
         "max_item_length": "2000 cm",
         "moves": 10,
@@ -241,7 +241,7 @@
       {
         "pocket_type": "CONTAINER",
 "holster": true,
-        "max_contains_volume": "100000  L",
+        "max_contains_volume": "10000  L",
         "max_contains_weight": "47 kg",
         "max_item_length": "2000 cm",
         "moves": 10,
@@ -269,7 +269,7 @@
       {
         "pocket_type": "CONTAINER",
 "holster": true,
-        "max_contains_volume": "100000  L",
+        "max_contains_volume": "10000  L",
         "max_contains_weight": "57 kg",
         "max_item_length": "2000 cm",
         "moves": 10,
@@ -297,7 +297,7 @@
       {
         "pocket_type": "CONTAINER",
 "holster": true,
-        "max_contains_volume": "100000  L",
+        "max_contains_volume": "10000  L",
         "max_contains_weight": "68 kg",
         "max_item_length": "2000 cm",
         "moves": 10,
@@ -325,7 +325,7 @@
       {
         "pocket_type": "CONTAINER",
 "holster": true,
-        "max_contains_volume": "100000  L",
+        "max_contains_volume": "10000  L",
         "max_contains_weight": "80 kg",
         "max_item_length": "2000 cm",
         "moves": 10,
@@ -353,7 +353,7 @@
       {
         "pocket_type": "CONTAINER",
 "holster": true,
-        "max_contains_volume": "100000  L",
+        "max_contains_volume": "10000  L",
         "max_contains_weight": "93 kg",
         "max_item_length": "2000 cm",
         "moves": 10,
@@ -381,7 +381,7 @@
       {
         "pocket_type": "CONTAINER",
 "holster": true,
-        "max_contains_volume": "100000  L",
+        "max_contains_volume": "10000  L",
         "max_contains_weight": "107 kg",
         "max_item_length": "2000 cm",
         "moves": 10,
@@ -409,7 +409,7 @@
       {
         "pocket_type": "CONTAINER",
 "holster": true,
-        "max_contains_volume": "100000  L",
+        "max_contains_volume": "10000  L",
         "max_contains_weight": "122 kg",
         "max_item_length": "2000 cm",
         "moves": 10,
@@ -437,7 +437,7 @@
       {
         "pocket_type": "CONTAINER",
 "holster": true,
-        "max_contains_volume": "100000  L",
+        "max_contains_volume": "10000  L",
         "max_contains_weight": "138 kg",
         "max_item_length": "2000 cm",
         "moves": 10,
@@ -465,7 +465,7 @@
       {
         "pocket_type": "CONTAINER",
 "holster": true,
-        "max_contains_volume": "100000  L",
+        "max_contains_volume": "10000  L",
         "max_contains_weight": "155 kg",
         "max_item_length": "2000 cm",
         "moves": 10,
@@ -493,7 +493,7 @@
       {
         "pocket_type": "CONTAINER",
 "holster": true,
-        "max_contains_volume": "100000  L",
+        "max_contains_volume": "10000  L",
         "max_contains_weight": "173 kg",
         "max_item_length": "2000 cm",
         "moves": 10,
@@ -521,7 +521,7 @@
       {
         "pocket_type": "CONTAINER",
 "holster": true,
-        "max_contains_volume": "100000  L",
+        "max_contains_volume": "10000  L",
         "max_contains_weight": "192 kg",
         "max_item_length": "2000 cm",
         "moves": 10,
@@ -549,7 +549,7 @@
       {
         "pocket_type": "CONTAINER",
 "holster": true,
-        "max_contains_volume": "100000  L",
+        "max_contains_volume": "10000  L",
         "max_contains_weight": "212 kg",
         "max_item_length": "2000 cm",
         "moves": 10,
@@ -577,7 +577,7 @@
       {
         "pocket_type": "CONTAINER",
 "holster": true,
-        "max_contains_volume": "100000  L",
+        "max_contains_volume": "10000  L",
         "max_contains_weight": "233 kg",
         "max_item_length": "2000 cm",
         "moves": 10,
@@ -605,7 +605,7 @@
       {
         "pocket_type": "CONTAINER",
 "holster": true,
-        "max_contains_volume": "100000  L",
+        "max_contains_volume": "10000  L",
         "max_contains_weight": "255 kg",
         "max_item_length": "2000 cm",
         "moves": 10,
@@ -633,7 +633,7 @@
       {
         "pocket_type": "CONTAINER",
 "holster": true,
-        "max_contains_volume": "100000  L",
+        "max_contains_volume": "10000  L",
         "max_contains_weight": "278 kg",
         "max_item_length": "2000 cm",
         "moves": 10,
@@ -661,7 +661,7 @@
       {
         "pocket_type": "CONTAINER",
 "holster": true,
-        "max_contains_volume": "100000  L",
+        "max_contains_volume": "10000  L",
         "max_contains_weight": "302 kg",
         "max_item_length": "2000 cm",
         "moves": 10,
@@ -689,7 +689,7 @@
       {
         "pocket_type": "CONTAINER",
 "holster": true,
-        "max_contains_volume": "100000  L",
+        "max_contains_volume": "10000  L",
         "max_contains_weight": "327 kg",
         "max_item_length": "2000 cm",
         "moves": 10,
@@ -717,7 +717,7 @@
       {
         "pocket_type": "CONTAINER",
 "holster": true,
-        "max_contains_volume": "100000  L",
+        "max_contains_volume": "10000  L",
         "max_contains_weight": "353 kg",
         "max_item_length": "2000 cm",
         "moves": 10,
@@ -745,7 +745,7 @@
       {
         "pocket_type": "CONTAINER",
 "holster": true,
-        "max_contains_volume": "100000  L",
+        "max_contains_volume": "10000  L",
         "max_contains_weight": "380 kg",
         "max_item_length": "2000 cm",
         "moves": 10,
@@ -773,7 +773,7 @@
       {
         "pocket_type": "CONTAINER",
 "holster": true,
-        "max_contains_volume": "100000  L",
+        "max_contains_volume": "10000  L",
         "max_contains_weight": "408 kg",
         "max_item_length": "2000 cm",
         "moves": 10,
@@ -801,7 +801,7 @@
       {
         "pocket_type": "CONTAINER",
 "holster": true,
-        "max_contains_volume": "100000  L",
+        "max_contains_volume": "10000  L",
         "max_contains_weight": "437 kg",
         "max_item_length": "2000 cm",
         "moves": 10,
@@ -829,7 +829,7 @@
       {
         "pocket_type": "CONTAINER",
 "holster": true,
-        "max_contains_volume": "100000  L",
+        "max_contains_volume": "10000  L",
         "max_contains_weight": "467 kg",
         "max_item_length": "2000 cm",
         "moves": 10,
