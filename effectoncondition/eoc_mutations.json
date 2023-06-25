@@ -8,14 +8,14 @@
       "cases": 
       [
         {
-          "case": 1,
+          "case": 2,
           "effect": 
           [
             { "u_add_trait": "TELEKINETIC_LIFTER_1" }
           ]
         },
         {
-          "case": 2,
+          "case": 3,
           "effect": 
           [
             { "u_add_trait": "TELEKINETIC_LIFTER_2" },
@@ -24,7 +24,7 @@
           ]
         },
        {
-          "case": 3,
+          "case": 4,
           "effect": 
           [
             { "u_add_trait": "TELEKINETIC_LIFTER_3" },
@@ -34,7 +34,7 @@
           ]
         },
        {
-          "case": 4,
+          "case": 5,
           "effect": 
           [
             { "u_add_trait": "TELEKINETIC_LIFTER_4" },
@@ -45,7 +45,7 @@
           ]
         },
        {
-          "case": 5,
+          "case": 6,
           "effect": 
           [
             { "u_add_trait": "TELEKINETIC_LIFTER_5" },
@@ -57,7 +57,7 @@
           ]
         },
        {
-          "case": 6,
+          "case": 7,
           "effect": 
           [
             { "u_add_trait": "TELEKINETIC_LIFTER_6" },
@@ -70,7 +70,7 @@
           ]
         },
        {
-          "case": 7,
+          "case": 8,
           "effect": 
           [
             { "u_add_trait": "TELEKINETIC_LIFTER_7" },
@@ -84,7 +84,7 @@
           ]
         },
      {
-          "case": 8,
+          "case": 9,
           "effect": 
           [
             { "u_add_trait": "TELEKINETIC_LIFTER_8" },
@@ -99,7 +99,7 @@
           ]
         },
      {
-          "case": 9,
+          "case": 10,
           "effect": 
           [
             { "u_add_trait": "TELEKINETIC_LIFTER_9" },
@@ -115,7 +115,7 @@
           ]
         },
      {
-          "case": 10,
+          "case": 11,
           "effect": 
           [
             { "u_add_trait": "TELEKINETIC_LIFTER_10" },
@@ -132,7 +132,7 @@
           ]
         },
      {
-          "case": 11,
+          "case": 12,
           "effect": 
           [
             { "u_add_trait": "TELEKINETIC_LIFTER_11" },
@@ -150,7 +150,7 @@
           ]
         },
      {
-          "case": 12,
+          "case": 13,
           "effect": 
           [
             { "u_add_trait": "TELEKINETIC_LIFTER_12" },
@@ -169,7 +169,7 @@
           ]
         },
      {
-          "case": 13,
+          "case": 14,
           "effect": 
           [
             { "u_add_trait": "TELEKINETIC_LIFTER_13" },
@@ -189,7 +189,7 @@
           ]
         },
      {
-          "case": 14,
+          "case": 15,
           "effect": 
           [
             { "u_add_trait": "TELEKINETIC_LIFTER_14" },
@@ -210,7 +210,7 @@
           ]
         },
      {
-          "case": 15,
+          "case": 16,
           "effect": 
           [
             { "u_add_trait": "TELEKINETIC_LIFTER_15" },
@@ -232,7 +232,7 @@
           ]
         },
     {
-          "case": 16,
+          "case": 17,
           "effect": 
           [
             { "u_add_trait": "TELEKINETIC_LIFTER_16" },
@@ -255,7 +255,7 @@
           ]
         },
     {
-          "case": 17,
+          "case": 18,
           "effect": 
           [
             { "u_add_trait": "TELEKINETIC_LIFTER_17" },
@@ -279,7 +279,7 @@
           ]
         },
     {
-          "case": 18,
+          "case": 19,
           "effect": 
           [
             { "u_add_trait": "TELEKINETIC_LIFTER_18" },
@@ -304,7 +304,7 @@
           ]
         },
     {
-          "case": 19,
+          "case": 20,
           "effect": 
           [
             { "u_add_trait": "TELEKINETIC_LIFTER_19" },
@@ -330,7 +330,7 @@
           ]
         },
     {
-          "case": 20,
+          "case": 21,
           "effect": 
           [
             { "u_add_trait": "TELEKINETIC_LIFTER_20" },
@@ -357,7 +357,7 @@
           ]
         },
         {
-          "case": 21,
+          "case": 22,
           "effect": 
           [
             { "u_add_trait": "TELEKINETIC_LIFTER_21" },
@@ -385,7 +385,7 @@
           ]
         },
         {
-          "case": 22,
+          "case": 23,
           "effect": 
           [
             { "u_add_trait": "TELEKINETIC_LIFTER_22" },
@@ -414,7 +414,7 @@
           ]
         },
         {
-          "case": 23,
+          "case": 24,
           "effect": 
           [
             { "u_add_trait": "TELEKINETIC_LIFTER_23" },
@@ -444,7 +444,7 @@
           ]
         },
         {
-          "case": 24,
+          "case": 25,
           "effect": 
           [
             { "u_add_trait": "TELEKINETIC_LIFTER_24" },
@@ -475,7 +475,7 @@
           ]
         },
         {
-          "case": 25,
+          "case": 26,
           "effect": 
           [
             { "u_add_trait": "TELEKINETIC_LIFTER_25"},
@@ -507,7 +507,7 @@
           ]
         },
         {
-          "case": 26,
+          "case": 27,
           "effect": 
           [
             { "u_add_trait": "TELEKINETIC_LIFTER_26" },
@@ -540,7 +540,7 @@
           ]
         },
         {
-          "case": 27,
+          "case": 28,
           "effect": 
           [
             { "u_add_trait": "TELEKINETIC_LIFTER_27" },
@@ -574,7 +574,7 @@
           ]
         },
         {
-          "case": 28,
+          "case": 29,
           "effect": 
           [
             { "u_add_trait": "TELEKINETIC_LIFTER_28" },
@@ -609,7 +609,7 @@
           ]
         },
         {
-          "case": 29,
+          "case": 30,
           "effect": 
           [
             { "u_add_trait": "TELEKINETIC_LIFTER_29" },
@@ -645,7 +645,7 @@
           ]
         },
         {
-          "case": 30,
+          "case": 31,
           "effect": 
           [
             { "u_add_trait": "TELEKINETIC_LIFTER_30" },
